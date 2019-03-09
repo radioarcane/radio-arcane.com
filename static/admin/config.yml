@@ -18,8 +18,6 @@ collections:
     folder: "_posts/events"
     create: true
     slug: "{{slug}}"
-    extension: "json"
-    format: "json"
     fields:
       - label: "Layout"
         name: "layout"
@@ -110,8 +108,6 @@ collections:
     folder: "_posts/podcasts"
     create: true
     slug: "{{slug}}"
-    extension: "json"
-    format: "json"
     fields:
       - label: "Layout"
         name: "layout"
@@ -147,8 +143,6 @@ collections:
     folder: "_posts/playlist"
     create: true
     slug: "{{slug}}"
-    extension: "json"
-    format: "json"
     fields:
       - label: "Layout"
         name: "layout"
