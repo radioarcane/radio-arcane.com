@@ -1,0 +1,94 @@
+
+.mast-header {
+   position: relative;
+   padding: $padding-vertical 0 0;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   border-bottom: 1px solid hex-to-rgba($white, 0.7);
+
+   @include breakpoint($screen-m-min) {
+      padding: $padding-vertical $gutter-width 0;
+   }
+
+   @include breakpoint($screen-l-min) {
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+   }
+
+   &__brand {
+      width: 225px;
+      margin-left: ($gutter-width / 2);
+
+      @include breakpoint($screen-l-min) {
+         width: 400px;
+         margin-left: 0;
+      }
+   }
+
+   &__nav {
+      @include breakpoint($screen-m-min) {
+         width: 100%;
+      }
+   }
+
+   &__social {
+      flex-grow: 1;
+      text-align: center;
+      padding: ($padding-vertical / 2) 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.5);
+      background: radial-gradient(lighten($black, 10%) 30%, $black 30%);
+      background-size: 4px 4px;
+
+      @include breakpoint($screen-m-min) {
+         border: 0;
+         background: inherit;
+         margin: 0;
+         position: absolute;
+         top: 0.5rem;
+         right: $gutter-width;
+      }
+
+      @include breakpoint($screen-l-min) {
+         top: 2rem;
+      }
+   }
+}
+
+.nav-toggle {
+   position: absolute;
+   top: 1.35rem;
+   right: $gutter-width / 2;
+   z-index: 9999;
+
+   @include breakpoint($screen-m-min) {
+      display: none;
+   }
+
+   span {
+      width: 45px;
+      height: 5px;
+      margin: 8px auto;
+      background-color: $white;
+      display: block;
+      transition: all 0.3s ease-in-out;
+   }
+
+   &--active {
+      span {
+         &:nth-child(1) {
+           transform: translateY(13px) rotate(45deg);
+         }
+
+         &:nth-child(2) {
+           opacity: 0;
+         }
+
+         &:nth-child(3) {
+           transform: translateY(-13px) rotate(-45deg);
+         }
+      }
+   }
+}

@@ -1,0 +1,18 @@
+
+.track {
+   &__artist {
+
+   }
+
+   &__song {
+      quotes: "“" "”" "‘" "’";
+
+      &:before {
+         content: open-quote;
+      }
+
+      &:after {
+         content: close-quote;
+      }
+   }
+}

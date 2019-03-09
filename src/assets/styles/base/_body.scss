@@ -1,0 +1,28 @@
+* {
+   &,
+   &:before,
+   &:after {
+      box-sizing: border-box;
+   }
+}
+
+html,
+body {
+   height: 100%;
+   font-size: $font-size-base;
+
+   @include breakpoint($screen-xl-min) {
+      font-size: 18px;
+   }
+}
+
+body {
+   position: relative;
+   background: $body-bg;
+   color: $text-color;
+   font-family: $body-font;
+   font-weight: 400;
+   line-height: $line-height-default;
+   margin: 0;
+   padding: 0;
+}

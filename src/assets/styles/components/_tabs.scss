@@ -1,0 +1,48 @@
+.tabs {
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+   align-items: flex-start;
+   align-items: stretch;
+   align-content: flex-start;
+   padding: 0;
+   margin: 0 0 2rem;
+   border-bottom: 1px solid $white;
+   position: relative;
+}
+
+.tab {
+   &__link {
+      display: block;
+      border-top-left-radius: .25rem;
+      border-top-right-radius: .25rem;
+      font-size: 1rem;
+      padding: .5rem 1rem;
+      background: transparent;
+      color: $white;
+      border: 1px solid transparent;
+      border-bottom: 0;
+      position: relative;
+      transition: all 200ms ease-in-out;
+      margin: 0 2px 0 0;
+
+      &:active,
+      &:hover,
+      &:focus {
+         border-color: $white;
+         color: $white;
+      }
+
+      &--active {
+         border-color:  $white;
+         background: $white;
+         color: $gray-dark;
+
+         &:active,
+         &:hover,
+         &:focus {
+            color: $gray-dark;
+         }
+      }
+   }
+}

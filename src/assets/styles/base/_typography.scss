@@ -1,0 +1,96 @@
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-family: $heading-font;
+   color: $headings-color;
+   line-height: $headings-line-height;
+   font-weight: $headings-font-weight;
+	position: relative;
+   margin: 0 0 1.25rem;
+   text-rendering: optimizeLegibility;
+}
+
+h1 {
+   font-size: $font-size-h1-sm;
+
+   @include breakpoint($screen-l-min) {
+      font-size: $font-size-h1;
+   }
+}
+
+h2 {
+   font-size: $font-size-h2-sm;
+
+   @include breakpoint($screen-l-min) {
+      font-size: $font-size-h2;
+   }
+}
+
+h3 {
+   font-size: $font-size-h3-sm;
+
+   @include breakpoint($screen-l-min) {
+      font-size: $font-size-h3;
+   }
+}
+
+h4 {
+   font-size: $font-size-h4-sm;
+
+   @include breakpoint($screen-l-min) {
+      font-size: $font-size-h4;
+   }
+}
+
+h5 {
+   font-size: $font-size-h5-sm;
+
+   @include breakpoint($screen-l-min) {
+      font-size: $font-size-h5;
+   }
+}
+
+h6 {
+   font-size: $font-size-h6-sm;
+
+   @include breakpoint($screen-l-min) {
+      font-size: $font-size-h6;
+   }
+}
+
+p {
+   margin: 0 0 1rem;
+}
+
+a {
+   text-decoration: none;
+   outline: none;
+   cursor: pointer;
+   transition: color 150ms ease-in-out;
+   display: inline-block;
+   color: $link-color;
+
+   &:hover,
+   &:active,
+   &:focus {
+      color: $link-hover-color;
+   }
+}
+
+
+blockquote {
+}
+
+
+hr {
+    border: solid #eee;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 1.25rem 0 1.1875rem;
+    height: 0;
+    box-sizing: content-box;
+}

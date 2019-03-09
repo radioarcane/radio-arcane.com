@@ -1,0 +1,122 @@
+
+.grid {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row; // make column for small screen
+   align-items: stretch;
+   align-content: flex-start;
+   justify-content: flex-start;
+   margin: 0 (($gutter-width / 2) * -1);
+
+   &--center {
+      justify-content: center;
+   }
+
+
+   &__item {
+      padding-left: ($gutter-width / 2);
+      padding-right: ($gutter-width / 2);
+   }
+}
+
+
+
+@mixin gridColumns($classPrefix, $numColumns: 12) {
+    @for $i from 1 through $numColumns {
+        .#{$classPrefix}-#{$i} {
+           width: ($i / $numColumns) * 100%;
+        }
+    }
+}
+@include gridColumns('xs');
+
+@include breakpoint($screen-s-min) {
+   @include gridColumns('s');
+}
+
+@include breakpoint($screen-m-min) {
+   @include gridColumns('m');
+}
+
+@include breakpoint($screen-l-min) {
+   @include gridColumns('l');
+}
+
+@include breakpoint($screen-xl-min) {
+   @include gridColumns('xl');
+}
+
+@include breakpoint($screen-xxl-min) {
+   @include gridColumns('xxl');
+}
+
+/*
+.grid--events {
+   justify-content: space-evenly;
+
+   .card {
+      width: 32%;
+   }
+}
+*/
+
+/*
+<card>
+   <card__header /> ** optional
+   <card__img />
+   <card__body>
+      <card__title />
+      <card__subtitle /
+      <card__text>
+         <text>
+         <buttons>
+      </card__text>
+   </card__body>
+</card>
+*/
+
+.card {
+   border: 1px solid hex-to-rgba($white, 0.7);
+   margin: 0 0 ($padding-vertical * 2);
+   border-radius: 8px;
+   overflow: hidden;
+
+   &__header {
+
+   }
+
+   &__img {
+      text-align: center;
+   }
+
+   &__body {
+      padding: $padding-vertical $gutter-width;
+   }
+
+   &__body {
+
+   }
+
+   &__title {
+      font-size: 30px;
+      margin: 0;
+   }
+
+   &__subtitle {
+      font-size: 20px;
+      margin: 0.25em 0 0;
+      color: darken($white, 20%);
+   }
+
+   &__text {
+      padding: $padding-vertical 0 0;
+   }
+
+   &__actions {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      align-content: center;
+   }
+}
