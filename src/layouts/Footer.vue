@@ -37,7 +37,7 @@
                name: 'Home',
                to: '/',
             }, {
-               about: 'About',
+               name: 'About',
                to: '/about',
             }, {
                name: 'Events',
@@ -127,8 +127,6 @@
       align-content: center;
       padding: 0;
       margin: 0;
-
-
 
       @include breakpoint($screen-l-min) {
          justify-content: flex-start;

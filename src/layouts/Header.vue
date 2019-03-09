@@ -43,7 +43,7 @@
                name: 'Home',
                to: '/',
             }, {
-               about: 'About',
+               name: 'About',
                to: '/about',
             }, {
                name: 'Events',
