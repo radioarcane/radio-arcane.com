@@ -89,19 +89,19 @@ backend:
                 widget: "string"
                 default: "https://www.google.com/maps/place/Art+Sanctuary/@38.2264103,-85.7413458,15z/data=!4m2!3m1!1s0x0:0xe8b5fa85d9ebd15f?ved=2ahUKEwjD0efWu_rfAhVKhq0KHV-nAdMQ_BIwDnoECAEQCA"
                 required: false
-        - label: "Facebook Event Link"
-          name: "facebook_event_link"
-          widget: "string"
-          required: false
-        - label: "Tickets Link"
-          name: "tickets_link"
-          widget: "string"
-          required: false
+          - label: "Facebook Event Link"
+            name: "facebook_event_link"
+            widget: "string"
+            required: false
+          - label: "Tickets Link"
+            name: "tickets_link"
+            widget: "string"
+            required: false
       - name: "podcasts"
         label: "Podcasts"
-        label_singular: "Podcast",
+        label_singular: "Podcast"
         folder: "_posts/podcasts"
-        create: true,
+        create: true
         slug: "{{slug}}"
         extension: "json"
         format: "json"
@@ -134,89 +134,89 @@ backend:
             name: "soundcloud_link"
             widget: "string"
             required: false
-      -name: "playlists"
-      label: "Playlists"
-      label_singular: "Playlist"
-      folder: "_posts/playlist"
-      create: true,
-      slug: "{{slug}}"
-      extension: "json"
-      format: "json"
-      fields:
-        - label: "Layout"
-          name: "layout"
-          widget: "hidden"
-          default: "playlist"
-        - label: "Type"
-          name: "type"
-          widget: "select"
-          options: ["radio-arcane", "podcast", "arcane-alive"]
-        - label: "Title"
-          name: "title"
-          widget: "String"
-        - label: "Related Event"
-          name: "event"
-          widget: "relation"
-          collection: "events"
-          searchFields: ["title", "date"]
-          valueField: "date"
-          displayFields: ["title", "date"]
-          required: false
-        - label: "Related Podcast"
-          name: "podcast"
-          widget: "relation"
-          collection: "podcasts"
-          searchFields: ["title", "date"]
-          valueField: "date"
-          displayFields: ["title", "date"]
-          required: false
-        - label: "Playlist"
-          name: "playlist"
-          widget: "list"
-          required: false
-          fields:
-            - label: "Set"
-              name: "set"
-              widget: "list"
-              required: false
-              fields:
-                - label: "DJ"
-                  name: "dj"
-                  widget: "object"
-                  required: false
-                  fields:
-                    - label: "Name"
-                      name: "Name"
-                      widget: "select"
-                      options: [AndrOspore", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon"]
-                    - label: "Guest DJ"
-                      name: "guest_dj"
-                      widget: "string"
-                - label: "Tracks"
-                  name: "tracks"
-                  widget: "list"
-                  required: false
-                  field:
-                    - label: "Track"
-                      name: "track"
-                      fields:
-                        - label: "Artist"
-                          name: "artist"
-                          widget: "string"
-                        - label: "Song"
-                          name: "song"
-                          widget: "string"
-                        - label: "Request for Artist"
-                          name: "request_artist"
-                          widget: "boolean"
-                        - label: "Request for Song"
-                          name: "request_song"
-                          widget: "boolean"
-                        - label: "Links"
-                          name: "links"
-                          widget: "options"
-                          required: false
-                          fields:
+      - name: "playlists"
+        label: "Playlists"
+        label_singular: "Playlist"
+        folder: "_posts/playlist"
+        create: true
+        slug: "{{slug}}"
+        extension: "json"
+        format: "json"
+        fields:
+          - label: "Layout"
+            name: "layout"
+            widget: "hidden"
+            default: "playlist"
+          - label: "Type"
+            name: "type"
+            widget: "select"
+            options: ["radio-arcane", "podcast", "arcane-alive"]
+          - label: "Title"
+            name: "title"
+            widget: "String"
+          - label: "Related Event"
+            name: "event"
+            widget: "relation"
+            collection: "events"
+            searchFields: ["title", "date"]
+            valueField: "date"
+            displayFields: ["title", "date"]
+            required: false
+          - label: "Related Podcast"
+            name: "podcast"
+            widget: "relation"
+            collection: "podcasts"
+            searchFields: ["title", "date"]
+            valueField: "date"
+            displayFields: ["title", "date"]
+            required: false
+          - label: "Playlist"
+            name: "playlist"
+            widget: "list"
+            required: false
+            fields:
+              - label: "Set"
+                name: "set"
+                widget: "list"
+                required: false
+                fields:
+                  - label: "DJ"
+                    name: "dj"
+                    widget: "object"
+                    required: false
+                    fields:
+                      - label: "Name"
+                        name: "Name"
+                        widget: "select"
+                        options: [AndrOspore", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon"]
+                      - label: "Guest DJ"
+                        name: "guest_dj"
+                        widget: "string"
+                  - label: "Tracks"
+                    name: "tracks"
+                    widget: "list"
+                    required: false
+                    field:
+                      - label: "Track"
+                        name: "track"
+                        fields:
+                          - label: "Artist"
+                            name: "artist"
+                            widget: "string"
+                          - label: "Song"
+                            name: "song"
+                            widget: "string"
+                          - label: "Request for Artist"
+                            name: "request_artist"
+                            widget: "boolean"
+                          - label: "Request for Song"
+                            name: "request_song"
+                            widget: "boolean"
+                          - label: "Links"
+                            name: "links"
+                            widget: "options"
+                            required: false
+                            fields:
                               - label: "Apple Music"
                                 name: "apple_music"
                                 widget: "string"
@@ -247,15 +247,15 @@ backend:
                               - label: "Youtube"
                                 name: "youtube"
                                 widget: "string"
-            - label: "Performance By"
-              name: "performer"
-              widget: "string"
-              required: false
-            - label: "Links"
-              name: "links"
-              widget: "options"
-              required: false
-              fields:
+              - label: "Performance By"
+                name: "performer"
+                widget: "string"
+                required: false
+              - label: "Links"
+                name: "links"
+                widget: "options"
+                required: false
+                fields:
                   - label: "Apple Music"
                     name: "apple_music"
                     widget: "string"
