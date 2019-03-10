@@ -8,6 +8,7 @@ google_music: >-
 instagram: 'https://www.instagram.com/kaelanmikla'
 soundcloud: 'https://soundcloud.com/kaelan-mikla'
 spotify: 'https://open.spotify.com/artist/28meEMqGpDrolyQ9OVoDAH'
+twitter: ''
+website: ''
 youtube: 'https://www.youtube.com/channel/UCXmnR43rroWZDFZrObOtWdQ'
 ---
-

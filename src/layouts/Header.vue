@@ -50,7 +50,7 @@
                to: '/',
             }, {
                name: 'Podcasts',
-               to: '/',
+               to: '/podcasts',
             }, {
                name: 'Arcane Alive',
                to: '/',

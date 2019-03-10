@@ -9,6 +9,6 @@ instagram: 'https://www.instagram.com/blxckarcade'
 soundcloud: 'https://soundcloud.com/ablackarcade'
 spotify: 'https://open.spotify.com/artist/0QcNUZD5nQIFlhIbqSWSUP'
 twitter: 'https://twitter.com/blxckarcade'
+website: ''
 youtube: 'https://www.youtube.com/c/BlackArcadeX'
 ---
-

@@ -19,7 +19,7 @@ function addStyleResource (rule) {
 
 module.exports = {
    siteName: 'Radio Arcane',
-   plugins: [],
+   titleTemplate: '%s | Radio Arcane',
    chainWebpack: config => {
       // Load variables for all vue-files
       const types = ['vue-modules', 'vue', 'normal-modules', 'normal'];
@@ -43,5 +43,30 @@ module.exports = {
       svgRule
       .use('vue-svg-inline-loader')
       .loader('vue-svg-inline-loader');
-   }
+   },
+   transformers: {
+      remark: {
+         externalLinksTarget: '_blank',
+         externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+         plugins: [
+            // ...global plugins
+         ]
+      }
+   },
+   plugins: [
+      {
+         use: '@gridsome/source-filesystem',
+         options: {
+           index: ['index', 'README'],
+           path: '_posts/podcasts/**/*.md',
+           typeName: 'Podcast',
+           route: '/podcasts/:slug',
+           remark: {
+             plugins: [
+
+             ]
+          }
+         }
+      }
+   ]
 };

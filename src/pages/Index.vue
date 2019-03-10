@@ -12,7 +12,7 @@
       <Container tagName="section">
          <h3>Checkout Our Latest Podcast</h3>
 
-         <MixcloudPlayer name="radio-arcane-01-louisville-gothic" />
+
       </Container>
    </Layout>
 </template>

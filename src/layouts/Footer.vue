@@ -16,7 +16,7 @@
       </div>
 
       <div class="footer__copy">
-         &copy; {{ year }} Radio Arcane
+         &copy; {{ new Date() | moment("YYYY") }} Radio Arcane
       </div>
    </footer>
 </template>
@@ -29,10 +29,7 @@
          SocialIcons
       },
       data: () => {
-         const thisYear = new Date().getFullYear();
-
          return {
-            year: thisYear < 2019 ? 2019 : thisYear,
             links: [{
                name: 'Home',
                to: '/',
@@ -44,7 +41,7 @@
                to: '/',
             }, {
                name: 'Podcasts',
-               to: '/',
+               to: '/podcasts',
             }, {
                name: 'Arcane Alive',
                to: '/',

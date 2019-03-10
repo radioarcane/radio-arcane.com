@@ -12,4 +12,3 @@ twitter: 'https://twitter.com/cursecassandra'
 website: 'http://curseofcassandra.com'
 youtube: 'https://www.youtube.com/channel/UCd0wHrcghA7swC3xIHwd4_g'
 ---
-
