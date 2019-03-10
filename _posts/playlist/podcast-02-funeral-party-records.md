@@ -6,6 +6,7 @@ podcast: '2019-03-04'
 playlist:
   - tracks:
       - artist: Garden of Mary
+        artist_links: Garden of Mary
         song: Depature of Christ
         type: track
       - artist: Captive
