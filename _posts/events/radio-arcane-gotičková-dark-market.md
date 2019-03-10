@@ -4,7 +4,10 @@ title: 'Radio Arcane: Gotičková & Dark Market'
 date: '2019-03-02'
 start_datetime: 2019-03-03T00:00:00.000Z
 end_datetime: 2019-03-03T08:00:00.000Z
-image: /img/uploads/radio-arcane-2019-03-02-2x.jpg
+image_jpg_2x: /img/uploads/radio-arcane-2019-03-02-2x.jpg
+image_jpg: /img/uploads/radio-arcane-2019-03-02.jpg
+image_webp_2x: /img/uploads/radio-arcane-2019-03-02-2x.webp
+image_webp: /img/uploads/radio-arcane-2019-03-02.webp
 description: >-
   Come out and help make Radio Arcane even better in 2019! We've got a few
   surprises in the works for this year and we can't do it without your continued
