@@ -40,6 +40,7 @@ playlist:
         song: Closer (feat. Eirene) (Ash Code Remix)
         type: track
       - artist: Holygram
+        artist_links: Holygram
         song: A Faction
         type: track
       - artist: Kælan Mikla
