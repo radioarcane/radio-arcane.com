@@ -8,6 +8,6 @@ instagram: ''
 soundcloud: 'https://soundcloud.com/wildrosesfortheexit'
 spotify: ''
 twitter: ''
-website: '
+website: ''
 youtube: 'https://www.youtube.com/channel/UCPBMyLun9R0N1UPzEE8UTug'
 ---
