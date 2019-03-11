@@ -11,5 +11,7 @@ description: >-
   Louisville, KY, Radio Arcane is a collective of Dark Music Specialists that
   host events, live music and dark arts entertainment.
 mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-01-louisville-gothic/'
-soundcloud_link: ''
+soundcloud_link: 'https://soundcloud.com/radio_arcane/radio-arcane-01-louisville-gothic'
+playlist: podcast-01-louisville-gothic
 ---
+
