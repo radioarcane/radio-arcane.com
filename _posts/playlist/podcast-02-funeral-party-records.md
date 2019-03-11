@@ -7,7 +7,7 @@ id: 'podcast-02-funeral-party-records'
 playlist:
   - tracks:
       - artist: Garden of Mary
-        artist_links: Garden of Mary
+        artist_links: 'garden-of-mary'
         song: Depature of Christ
         type: track
       - artist: Captive
