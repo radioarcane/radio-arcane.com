@@ -1,5 +1,6 @@
 ---
 title: ULTIMA
+id: ultima
 apple_music: ''
 bandcamp: 'https://ultimasynthwave.bandcamp.com'
 facebook: 'https://www.facebook.com/ULTIMASynthwave'

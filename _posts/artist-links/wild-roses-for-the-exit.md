@@ -1,5 +1,6 @@
 ---
 title: Wild Roses For The Exit
+id: wild-roses-for-the-exit
 apple_music: ''
 bandcamp: 'https://wildrosesfortheexit.bandcamp.com'
 facebook: 'https://www.facebook.com/wildrosesfortheexit'

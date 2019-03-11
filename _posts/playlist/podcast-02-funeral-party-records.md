@@ -2,8 +2,8 @@
 layout: playlist
 type: podcast
 title: 'Podcast 02 : Funeral Party Records'
-event: ''
 podcast: '02-funeral-party-records'
+id: 'podcast-02-funeral-party-records'
 playlist:
   - tracks:
       - artist: Garden of Mary

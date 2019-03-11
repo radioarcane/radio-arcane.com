@@ -1,5 +1,6 @@
 ---
 title: Fotocrime
+id: fotocrime
 apple_music: 'https://itunes.apple.com/us/artist/fotocrime/1224052095'
 bandcamp: 'https://fotocrime.bandcamp.com'
 facebook: 'https://www.facebook.com/fotocrime'

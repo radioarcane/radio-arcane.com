@@ -137,6 +137,15 @@ collections:
         widget: "string"
         required: false
         default: ""
+      - label: "Playlist"
+        name: "playlist"
+        widget: "relation"
+        collection: "playlists"
+        searchFields: ["title"]
+        valueField: "id"
+        displayFields: ["title"]
+        required: false
+        default: ""
   - name: "podcasts"
     label: "Podcasts"
     label_singular: "Podcast"
@@ -151,17 +160,12 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
-      - label: "ID"
-        name: "id"
-        widget: "string"
-        required: true
-        hint: "Unique name, all lowercase, no spaces preferred"
       - label: "Date"
         name: "date"
         widget: "date"
         format: "YYYY-MM-DD"
         default: ""
-        required: false
+        required: true
       - label: "Description"
         name: "description"
         default: ""
@@ -175,6 +179,15 @@ collections:
       - label: "Soundcloud Link"
         name: "soundcloud_link"
         widget: "string"
+        required: false
+        default: ""
+      - label: "Playlist"
+        name: "playlist"
+        widget: "relation"
+        collection: "playlists"
+        searchFields: ["title"]
+        valueField: "id"
+        displayFields: ["title"]
         required: false
         default: ""
   - name: "playlists"
@@ -195,6 +208,11 @@ collections:
       - label: "Title"
         name: "title"
         widget: "string"
+        required: true
+      - label: "ID"
+        name: "id"
+        widget: "string"
+        required: true
       - label: "Playlist"
         name: "playlist"
         widget: "list"
@@ -247,7 +265,7 @@ collections:
                           widget: "relation"
                           collection: "artist_links"
                           searchFields: ["title"]
-                          valueField: "title"
+                          valueField: "id"
                           displayFields: ["title"]
                           required: false
                           default: ""
@@ -260,6 +278,10 @@ collections:
     fields:
       - label: Artist
         name: "title"
+        widget: "string"
+        required: true
+      - label: ID
+        name: "id"
         widget: "string"
         required: true
       - label: "Apple Music"

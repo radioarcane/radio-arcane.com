@@ -26,4 +26,5 @@ short_description: ''
 location: art-sanctuary
 facebook_event_link: 'https://www.facebook.com/events/315647935721886'
 tickets_link: 'https://www.showclix.com/event/radio-arcane-goti-kov-dark-market'
+playlist: ''
 ---
