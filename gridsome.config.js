@@ -67,6 +67,48 @@ module.exports = {
              ]
           }
          }
+      },
+      {
+         use: '@gridsome/source-filesystem',
+         options: {
+           index: ['index', 'README'],
+           path: '_posts/events/**/*.md',
+           typeName: 'Event',
+           route: '/events/:customSlug',
+           refs: {
+             location: {
+               typeName: 'Location',
+               route: '/locations/:slug',
+               create: false
+             }
+             /*
+             location: {
+               typeName: 'Location',
+               route: '/locations/:slug',
+               create: false
+             }
+             */
+           },
+           remark: {
+             plugins: [
+
+             ]
+          }
+         }
+      },
+      {
+         use: '@gridsome/source-filesystem',
+         options: {
+           index: ['index', 'README'],
+           path: '_posts/locations/**/*.md',
+           typeName: 'Location',
+           route: '/locations/:slug',
+           remark: {
+             plugins: [
+
+             ]
+          }
+         }
       }
    ]
 };

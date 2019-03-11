@@ -37,7 +37,6 @@
 <script>
    import Layout from '~/layouts/Default.vue'
 
-
    import Button from '~/components/Button.vue';
    import Container from '~/components/Container.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
@@ -51,8 +50,6 @@
          Title
       },
       metaInfo () {
-         //console.log(this);
-
          return {
             title: this.$page.podcast.title
          }

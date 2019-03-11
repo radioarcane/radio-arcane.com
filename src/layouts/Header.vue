@@ -47,7 +47,7 @@
                to: '/about',
             }, {
                name: 'Events',
-               to: '/',
+               to: '/events',
             }, {
                name: 'Podcasts',
                to: '/podcasts',

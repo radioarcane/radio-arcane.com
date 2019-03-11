@@ -12,17 +12,73 @@ site_url: https://radioarcane.netlify.com
 display_url: https://radioarcane.netlify.com
 
 collections:
+  - name: "locations"
+    label: "Locations"
+    label_singular: "Location"
+    folder: "_posts/locations"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Venue"
+        name: "title"
+        widget: "string"
+        default: ""
+        required: true
+      - label: "ID"
+        name: "id"
+        widget: "string"
+        required: true
+        hint: "Unique name, all lowercase, no spaces preferred"
+      - label: "Venue Link"
+        name: "venue_link"
+        widget: "string"
+        default: ""
+        required: false
+      - label: "Street Address"
+        name: "address"
+        widget: "string"
+        default: ""
+        required: false
+      - label: "Street Address 2"
+        name: "address_2"
+        widget: "string"
+        required: false
+        default: ""
+      - label: "City"
+        name: "city"
+        widget: "string"
+        default: ""
+        required: false
+      - label: "State"
+        name: "state"
+        widget: "string"
+        default: ""
+        required: false
+      - label: "Zipcode"
+        name: "zipcode"
+        widget: "string"
+        default: ""
+        required: false
+      - label: "Google Map Link"
+        name: "google_map_link"
+        widget: "string"
+        default: ""
+        required: false
   - name: "events"
     label: "Events"
     label_singular: "Event"
     folder: "_posts/events"
     create: true
-    slug: "{{slug}}"
+    slug: "{{fields.custom_slug}}"
     fields:
       - label: "Layout"
         name: "layout"
         widget: "hidden"
         default: "event"
+      - label: "Filename"
+        name: "custom_slug"
+        widget: "string"
+        required: true
       - label: "Title"
         name: "title"
         widget: "string"
@@ -30,7 +86,7 @@ collections:
         name: "date"
         widget: "date"
         format: "YYYY-MM-DD"
-      - label: "End DateTime"
+      - label: "Start DateTime"
         name: "start_datetime"
         widget: "datetime"
         required: false
@@ -42,23 +98,8 @@ collections:
         required: false
         format: "YYYY-MM-DD HH:mm:ss"
         default: ""
-      - label: "Image JPG (approx 800x800)"
-        name: "image_jpg_2x"
-        widget: "image"
-        required: false
-        default: ""
-      - label: "Image JPG (approx 400x400)"
-        name: "image_jpg"
-        widget: "image"
-        required: false
-        default: ""
-      - label: "Image WEBP (approx 800x800)"
-        name: "image_webp_2x"
-        widget: "image"
-        required: false
-        default: ""
-      - label: "Image WEBP (approx 400x400)"
-        name: "image_webp"
+      - label: "Image"
+        name: "image"
         widget: "image"
         required: false
         default: ""
@@ -74,49 +115,13 @@ collections:
         default: ""
       - label: "Location"
         name: "location"
-        widget: "object"
-        required: false
-        default: {}
-        fields:
-          - label: "Venue"
-            name: "venue"
-            widget: "string"
-            default: "Art Sanctuary"
-            required: false
-          - label: "Venue Link"
-            name: "venue_link"
-            widget: "string"
-            default: "https://www.facebook.com/pages/category/Arts---Entertainment/Art-Sanctuary-122260903695/"
-            required: false
-          - label: "Street Address"
-            name: "address"
-            widget: "string"
-            default: "1433 S Shelby St."
-            required: false
-          - label: "Street Address 2"
-            name: "address_2"
-            widget: "string"
-            required: false
-          - label: "City"
-            name: "city"
-            widget: "string"
-            default: "Louisville"
-            required: false
-          - label: "State"
-            name: "state"
-            widget: "string"
-            default: "Kentucky"
-            required: false
-          - label: "Zipcode"
-            name: "zipcode"
-            widget: "string"
-            default: "40217"
-            required: false
-          - label: "Google Map Link"
-            name: "google_map_link"
-            widget: "string"
-            default: "https://www.google.com/maps/place/Art+Sanctuary/@38.2264103,-85.7413458,15z/data=!4m2!3m1!1s0x0:0xe8b5fa85d9ebd15f?ved=2ahUKEwjD0efWu_rfAhVKhq0KHV-nAdMQ_BIwDnoECAEQCA"
-            required: false
+        widget: "relation"
+        collection: "locations"
+        searchFields: ["title"]
+        valueField: "id"
+        displayFields: ["title"]
+        required: true
+        default: ""
       - label: "Facebook Event Link"
         name: "facebook_event_link"
         widget: "string"
@@ -156,6 +161,12 @@ collections:
         name: "mixcloud_link"
         widget: "string"
         required: false
+        default: ""
+      - label: "Soundcloud Link"
+        name: "soundcloud_link"
+        widget: "string"
+        required: false
+        default: ""
   - name: "playlists"
     label: "Playlists"
     label_singular: "Playlist"
