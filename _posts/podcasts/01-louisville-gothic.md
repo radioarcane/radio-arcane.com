@@ -12,4 +12,6 @@ description: >-
   host events, live music and dark arts entertainment.
 mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-01-louisville-gothic/'
 soundcloud_link: ''
+playlist: podcast-01-louisville-gothic
 ---
+
