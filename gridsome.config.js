@@ -81,17 +81,9 @@ module.exports = {
                route: '/locations/:slug',
                create: false
              }
-             /*
-             location: {
-               typeName: 'Location',
-               route: '/locations/:slug',
-               create: false
-             }
-             */
            },
            remark: {
              plugins: [
-
              ]
           }
          }
@@ -105,10 +97,23 @@ module.exports = {
            route: '/locations/:slug',
            remark: {
              plugins: [
+             ]
+          }
+         }
+      },
+      {
+         use: '@gridsome/source-filesystem',
+         options: {
+           index: ['index', 'README'],
+           path: '_posts/playlist/**/*.md',
+           typeName: 'Playlist',
+           route: '/playlists/:slug',
+           remark: {
+             plugins: [
 
              ]
           }
          }
-      }
+      },
    ]
 };

@@ -2,6 +2,8 @@
 layout: playlist
 type: podcast
 title: 'Podcast: 01 : Louisville Gothic'
+event: ''
+podcast: '01-louisville-gothic'
 playlist:
   - tracks:
       - artist: Wild Roses For The Exit
@@ -53,4 +55,3 @@ playlist:
         type: track
     type: dj_set
 ---
-

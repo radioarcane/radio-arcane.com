@@ -1,6 +1,7 @@
 ---
 layout: event
 custom_slug: radio-arcane-2019-03-02
+id: radio-arcane-2019-03-02
 title: 'Radio Arcane: Gotičková & Dark Market'
 date: '2019-03-02'
 start_datetime: '2019-03-02 19:00:00'

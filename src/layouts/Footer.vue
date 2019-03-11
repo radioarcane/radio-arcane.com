@@ -47,7 +47,7 @@
                to: '/',
             }, {
                name: 'Playlists',
-               to: '/',
+               to: '/playlists',
             }, {
                name: 'Blog',
                to: '/',

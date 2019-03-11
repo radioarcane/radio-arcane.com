@@ -2,7 +2,8 @@
 layout: playlist
 type: podcast
 title: 'Podcast 02 : Funeral Party Records'
-podcast: '2019-03-04'
+event: ''
+podcast: '02-funeral-party-records'
 playlist:
   - tracks:
       - artist: Garden of Mary
@@ -47,4 +48,3 @@ playlist:
         type: track
     type: dj_set
 ---
-

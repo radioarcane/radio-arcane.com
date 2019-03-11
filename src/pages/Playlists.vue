@@ -1,0 +1,67 @@
+<template>
+   <Layout>
+      <Container class="text-center">
+         <Breadcrumb v-bind:crumbs="crumbs" />
+
+         <Title>Playlists</Title>
+
+          <div v-for="{ node } in $page.allPlaylist.edges" :key="node.id">
+             {{ node.title }}
+          </div>
+      </Container>
+   </Layout>
+</template>
+
+<page-query>
+   query Playlist {
+      allPlaylist (sortBy: "id", order: DESC) {
+         edges {
+            node {
+               id,
+               path,
+               slug,
+               title,
+               type,
+               event,
+               podcast,
+               playlist {
+                  tracks {
+                     artist
+                     song,
+                     artistLinks
+                  }
+               }
+            }
+         }
+      }
+   }
+</page-query>
+
+<script>
+   import Breadcrumb from '~/components/Breadcrumb.vue';
+   import Container from '~/components/Container.vue';
+   import Title from '~/components/Title.vue';
+
+   export default {
+      metaInfo: {
+         title: 'Playlists',
+         description: 'Add Meta Description...',
+      },
+      components: {
+         Breadcrumb,
+         Container,
+         Title
+      },
+      data () {
+         return {
+            crumbs: [{
+               name: 'Playlists',
+               to: '/playlists'
+            }]
+         }
+      }
+   }
+</script>
+
+<style>
+</style>
