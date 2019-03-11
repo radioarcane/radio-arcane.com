@@ -22,7 +22,7 @@ description: >-
 
   Doors open at 7pm : 18+ to enter : 21+ bar : $5 cover
 short_description: ''
-location: Art Sanctuary
+event: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/315647935721886'
 tickets_link: 'https://www.showclix.com/event/radio-arcane-goti-kov-dark-market'
 ---
