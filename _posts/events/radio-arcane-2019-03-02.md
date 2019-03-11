@@ -22,16 +22,7 @@ description: >-
 
   Doors open at 7pm : 18+ to enter : 21+ bar : $5 cover
 short_description: ''
-location:
-  address: 1433 S Shelby St.
-  city: Louisville
-  google_map_link: >-
-    https://www.google.com/maps/place/Art+Sanctuary/@38.2264103,-85.7413458,15z/data=!4m2!3m1!1s0x0:0xe8b5fa85d9ebd15f?ved=2ahUKEwjD0efWu_rfAhVKhq0KHV-nAdMQ_BIwDnoECAEQCA
-  state: Kentucky
-  venue: Art Sanctuary
-  venue_link: >-
-    https://www.facebook.com/pages/category/Arts---Entertainment/Art-Sanctuary-122260903695/
-  zipcode: '40217'
+event: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/315647935721886'
 tickets_link: 'https://www.showclix.com/event/radio-arcane-goti-kov-dark-market'
 ---
