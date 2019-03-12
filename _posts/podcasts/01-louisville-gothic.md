@@ -2,7 +2,7 @@
 id: 721d9420-451d-11e9-b475-0800200c9a66
 layout: podcast
 title: '01 : Louisville Gothic'
-date: '2019-03-09'
+date: '2019-01-28'
 description: >-
   Inaugural episode of Radio Arcane with hosts Brian Drabant, Motuvius Rex and
   Gothic Bastard: featuring local and regional dark music from Louisville and
