@@ -23,7 +23,9 @@
                type,
                sets {
                 type,
-                dj,
+                djName,
+                guestDj,
+                performer,
                 tracks {
                   artist,
                   song,

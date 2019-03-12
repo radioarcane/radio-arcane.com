@@ -35,14 +35,18 @@
         mixcloudLink,
         soundcloudLink,
         playlist {
-         type,
-         title,
-         playlist {
+        title,
+        slug,
+        sets {
+           type,
+           djName,
+           guestDj,
+           performer,
            tracks {
              artist,
-             song
+             song,
            }
-         }
+        }
        }
      }
    }

@@ -26,7 +26,8 @@
                title,
                date,
                description,
-               mixcloudLink
+               mixcloudLink,
+               soundcloudLink,
             }
          }
       }

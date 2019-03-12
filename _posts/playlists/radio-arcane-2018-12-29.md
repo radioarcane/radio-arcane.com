@@ -4,7 +4,7 @@ title: 'Radio Arcane: снежинка'
 type: radio-arcane
 date: '2018-12-29'
 sets:
-  - dj: Thulsa Goon
+  - dj_name: Thulsa Goon
     tracks:
       - artist: IC3PEAK
         song: Monster
@@ -27,9 +27,9 @@ sets:
       - artist: Sort Sol
         song: Life Took You For A Freq. (feat. Chelsea Wolfe)
     type: dj
-  - dj: Talamasca
+  - dj_name: Talamasca
     type: dj
-  - dj: Sorrow-Vomit
+  - dj_name: Sorrow-Vomit
     tracks:
       - artist: Zanias
         song: Aletheia
@@ -54,15 +54,14 @@ sets:
       - artist: Bestial Mouths
         song: Greyed
     type: dj
-  - artist: Some live band
-    type: performer
+  - performer: Some live band
+    type: performance
   - guest_dj: Guest DJ
     tracks:
       - artist: Tra
         song: asfdsafsa
     type: dj
-  - dj: Motuvius Rex
+  - dj_name: Motuvius Rex
     guest_dj: sdfdsf
     type: dj
 ---
-
