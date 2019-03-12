@@ -83,9 +83,11 @@ sets:
   - dj_name: Sorrow-Vomit
     tracks:
       - artist: Velvet Acid Christ
+        request_artist: true
         song: Caustic Disco
         undefined: false
       - artist: ':Wumpscut:'
+        request_song: true
         song: Is It You
       - artist: //TENSEf
         song: Disconnect Myself
