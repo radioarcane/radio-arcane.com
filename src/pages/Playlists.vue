@@ -13,22 +13,23 @@
 </template>
 
 <page-query>
-
    query Playlist {
-      allPlaylist (sortBy: "id", order: DESC) {
+      allPlaylist (sortBy: "date", order: DESC) {
          edges {
             node {
                id,
-               path,
                slug,
                title,
                type,
-               playlist {
-                  tracks {
-                    artist,
-                    song
-                  }
-              }
+               sets {
+                type,
+                dj,
+                tracks {
+                  artist,
+                  song,
+                }
+              },
+
          }
       }
    }

@@ -25,5 +25,5 @@ short_description: ''
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/315647935721886'
 tickets_link: 'https://www.showclix.com/event/radio-arcane-goti-kov-dark-market'
-playlist: 'Podcast 02 : Funeral Party Records'
+playlist: 'Radio Arcane: снежинка'
 ---

@@ -187,7 +187,7 @@ collections:
     label_singular: "Playlist"
     folder: "_posts/playlists"
     create: true
-    slug: "{{slug}}"
+    slug: "{{fields.type}}-{{fields.date}}"
     fields:
       - label: "Layout"
         name: "layout"
@@ -201,62 +201,88 @@ collections:
         name: "type"
         widget: "select"
         options: ["radio-arcane", "podcast", "arcane-alive"]
-      - label: "Playlist"
-        name: "playlist"
+      - label: "Date"
+        name: "date"
+        widget: "date"
+        format: "YYYY-MM-DD"
+        required: true
+      - label: "Sets"
+        name: "sets"
         widget: "list"
         required: true
+        default: []
         types:
           - label: "DJ Set"
-            name: "dj_set"
+            name: "dj"
             widget: "object"
+            required: false
+            default: {"dj": "", "guest_dj": ""}
             fields:
-                - label: "DJ"
-                  name: "dj"
-                  widget: "select"
-                  options: ["", "AndrOspore", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon"]
-                  required: false
-                  default: ""
-                - label: "Guest DJ"
-                  name: "guest_dj"
-                  widget: "string"
-                  required: false
-                  default: ""
-                - label: "Tracks"
-                  name: "tracks"
-                  widget: "list"
-                  default: []
-                  types:
-                    - label: "Track"
-                      name: "track"
-                      widget: "object"
-                      required: true
-                      fields:
-                        - label: "Artist"
-                          name: "artist"
-                          widget: "string"
-                          required: true
-                        - label: "Song"
-                          name: "song"
-                          widget: "string"
-                          required: true
-                        - label: "Request"
-                          name: "request"
-                          widget: "select"
-                          options:
-                            - { label: "No", value: "no"}
-                            - { label: "Artist", value: "artist"}
-                            - { label: "Song", value: "song"}
-                          default: "no"
-                          required: false
-                        - label: "Artist Links"
-                          name: "artist_links"
-                          widget: "relation"
-                          collection: "artist_links"
-                          searchFields: ["title"]
-                          valueField: "id"
-                          displayFields: ["title"]
-                          required: false
-                          default: ""
+              - label: "DJ"
+                name: "dj"
+                widget: "select"
+                options: ["", "AndrOspore", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon"]
+                required: false
+                default: ""
+              - label: "Guest DJ"
+                name: "guest_dj"
+                widget: "string"
+                required: false
+                default: ""
+              - label: "Tracks"
+                name: "tracks"
+                widget: "list"
+                required: true
+                default: []
+                fields:
+                  - label: "Artist"
+                    name: "artist"
+                    widget: "string"
+                    required: true
+                    default: ""
+                  - label: "Song"
+                    name: "song"
+                    widget: "string"
+                    required: true
+                    default: ""
+                  - label: "Request"
+                    name: "request"
+                    widget: "select"
+                    options:
+                      - { label: "No", value: "no"}
+                      - { label: "Artist Request", value: "artist"}
+                      - { label: "Song Request", value: "song"}
+                    default: "no"
+                    required: false
+                  - label: "Artist Links"
+                    name: "artist_links"
+                    widget: "relation"
+                    collection: "artist_links"
+                    searchFields: ["title"]
+                    valueField: "title"
+                    displayFields: ["title"]
+                    required: false
+                    default: ""
+          - label: "Performer"
+            name: "performer"
+            widget: "object"
+            required: false
+            default: {"artist": ""}
+            fields:
+              - label: "Artist"
+                name: "artist"
+                widget: "string"
+                required: true
+                default: ""
+              - label: "Artist Links"
+                name: "artist_links"
+                widget: "relation"
+                collection: "artist_links"
+                searchFields: ["title"]
+                valueField: "title"
+                displayFields: ["title"]
+                required: false
+                default: ""
   - name: "artist_links"
     label: "Artist Links"
     label_singular: "Artist Link"
@@ -266,10 +292,6 @@ collections:
     fields:
       - label: Artist
         name: "title"
-        widget: "string"
-        required: true
-      - label: ID
-        name: "id"
         widget: "string"
         required: true
       - label: "Apple Music"

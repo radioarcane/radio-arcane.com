@@ -68,53 +68,13 @@ module.exports = function (api) {
       fs.readdirSync('_posts/playlists').forEach(file => {
          let data = MT(fs.readFileSync('_posts/playlists/' + file));
 
-         let playlist = data.meta.playlist.map((obj, i) => {
-            if (obj.hasOwnProperty('tracks')) {
-               const tracks = obj.tracks.map((track, j) => {
-                  if (track.hasOwnProperty('artist_links') && track.artist_links) {
-                     if (artistLinkHash.hasOwnProperty(track.artist_links)) {
-                        return Object.assign({}, track, {
-                           artist_links: artistLinkHash[track.artist_links]
-                        });
-                     }
-                     else {
-                        return Object.assign({}, track, {
-                           artist_links: {
-                              apple_music: '',
-                              bandcamp: '',
-                              facebook: '',
-                              google_music: '',
-                              instagram: '',
-                              soundcloud: '',
-                              spotify: '',
-                              twitter: '',
-                              website: '',
-                              youtube: '',
-                           }
-                        });
-                     }
-                  }
-
-                  return track;
-               });
-
-               return Object.assign({}, obj, {
-                  tracks
-               });
-            }
-
-            return obj;
-         });
-
          const node = playlistType.addNode({
             title: data.meta.title,
             slug: file.toLowerCase().replace('.md', ''),
-            fields: Object.assign({}, data.meta, {
-               playlist: playlist
-            })
+            fields: Object.assign({}, data.meta)
          });
 
-         console.log(node);
+
 
          playlistHash[data.meta.title] =  node;
       });
