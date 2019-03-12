@@ -1,5 +1,4 @@
 ---
-id: art-sanctuary
 title: Art Sanctuary
 venue_link: >-
   https://www.facebook.com/pages/category/Arts---Entertainment/Art-Sanctuary-122260903695

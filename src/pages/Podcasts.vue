@@ -5,7 +5,7 @@
 
          <Title>Podcasts</Title>
 
-          <div v-for="{ node } in $page.allPodcast.edges" :key="node._id">
+          <div v-for="{ node } in $page.allPodcast.edges" :key="node.id">
              <MixcloudPlayer
                v-if="node.mixcloudLink"
                v-bind:url="node.mixcloudLink"
@@ -20,7 +20,7 @@
       allPodcast (sortBy: "date", order: DESC) {
          edges {
             node {
-               _id,
+               id,
                path,
                slug,
                title,

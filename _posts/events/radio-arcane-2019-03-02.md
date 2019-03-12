@@ -1,7 +1,6 @@
 ---
 layout: event
-custom_slug: radio-arcane-2019-03-02
-id: radio-arcane-2019-03-02
+event_type: 'radio-arcane'
 title: 'Radio Arcane: Gotičková & Dark Market'
 date: '2019-03-02'
 start_datetime: '2019-03-02 19:00:00'
@@ -23,8 +22,8 @@ description: >-
 
   Doors open at 7pm : 18+ to enter : 21+ bar : $5 cover
 short_description: ''
-location: art-sanctuary
+location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/315647935721886'
 tickets_link: 'https://www.showclix.com/event/radio-arcane-goti-kov-dark-market'
-playlist: ''
+playlist: 'Podcast 02 : Funeral Party Records'
 ---

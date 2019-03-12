@@ -24,7 +24,6 @@
                id,
                path,
                slug,
-               customSlug,
                title,
                date,
                startDatetime,
@@ -34,6 +33,16 @@
                shortDescription,
                facebookEventLink,
                ticketsLink,
+               playlist {
+                type,
+                title,
+                playlist {
+                  tracks {
+                    artist,
+                    song
+                  }
+                }
+              }
             }
          }
       }

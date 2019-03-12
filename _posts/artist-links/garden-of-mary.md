@@ -1,6 +1,5 @@
 ---
 title: Garden of Mary
-id: garden-of-mary
 apple_music: 'https://itunes.apple.com/us/artist/garden-of-mary/1265279808'
 bandcamp: 'https://gardenofmary.bandcamp.com'
 facebook: 'https://www.facebook.com/TheGardenofMary/'

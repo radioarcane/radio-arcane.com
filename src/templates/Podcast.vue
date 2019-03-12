@@ -26,10 +26,24 @@
 <page-query>
    query Podcast ($path: String!) {
      podcast (path: $path) {
+        id,
+        path,
+        slug,
         title,
         date,
         description,
-        mixcloudLink
+        mixcloudLink,
+        soundcloudLink,
+        playlist {
+         type,
+         title,
+         playlist {
+           tracks {
+             artist,
+             song
+           }
+         }
+       }
      }
    }
 </page-query>

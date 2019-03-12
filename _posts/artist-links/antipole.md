@@ -1,6 +1,5 @@
 ---
 title: Antipole
-id: antipole
 apple_music: 'https://itunes.apple.com/us/artist/antipole/936868598'
 bandcamp: 'https://antipole.bandcamp.com'
 facebook: 'https://www.facebook.com/antipoleband'

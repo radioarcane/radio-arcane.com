@@ -69,21 +69,12 @@ collections:
     label_singular: "Event"
     folder: "_posts/events"
     create: true
-    slug: "{{fields.custom_slug}}"
+    slug: "{{fields.event_type}}-{{fields.date}}"
     fields:
       - label: "Layout"
         name: "layout"
         widget: "hidden"
         default: "event"
-      - label: "Filename"
-        name: "custom_slug"
-        widget: "string"
-        required: true
-      - label: "ID"
-        name: "id"
-        widget: "string"
-        required: true
-        hint: "Unique name, all lowercase, no spaces preferred"
       - label: "Title"
         name: "title"
         widget: "string"
@@ -91,6 +82,7 @@ collections:
         name: "date"
         widget: "date"
         format: "YYYY-MM-DD"
+        required: true
       - label: "Start DateTime"
         name: "start_datetime"
         widget: "datetime"
@@ -123,7 +115,7 @@ collections:
         widget: "relation"
         collection: "locations"
         searchFields: ["title"]
-        valueField: "id"
+        valueField: "title"
         displayFields: ["title"]
         required: true
         default: ""
@@ -142,7 +134,7 @@ collections:
         widget: "relation"
         collection: "playlists"
         searchFields: ["title"]
-        valueField: "id"
+        valueField: "title"
         displayFields: ["title"]
         required: false
         default: ""
@@ -186,14 +178,14 @@ collections:
         widget: "relation"
         collection: "playlists"
         searchFields: ["title"]
-        valueField: "id"
+        valueField: "title"
         displayFields: ["title"]
         required: false
         default: ""
   - name: "playlists"
     label: "Playlists"
     label_singular: "Playlist"
-    folder: "_posts/playlist"
+    folder: "_posts/playlists"
     create: true
     slug: "{{slug}}"
     fields:
@@ -201,18 +193,14 @@ collections:
         name: "layout"
         widget: "hidden"
         default: "playlist"
-      - label: "Playlist Type"
-        name: "type"
-        widget: "select"
-        options: ["radio-arcane", "podcast", "arcane-alive"]
       - label: "Title"
         name: "title"
         widget: "string"
         required: true
-      - label: "ID"
-        name: "id"
-        widget: "string"
-        required: true
+      - label: "Playlist Type"
+        name: "type"
+        widget: "select"
+        options: ["radio-arcane", "podcast", "arcane-alive"]
       - label: "Playlist"
         name: "playlist"
         widget: "list"

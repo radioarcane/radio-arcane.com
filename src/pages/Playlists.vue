@@ -13,6 +13,7 @@
 </template>
 
 <page-query>
+
    query Playlist {
       allPlaylist (sortBy: "id", order: DESC) {
          edges {
@@ -22,19 +23,16 @@
                slug,
                title,
                type,
-               event,
-               podcast,
                playlist {
                   tracks {
-                     artist
-                     song,
-                     artistLinks
+                    artist,
+                    song
                   }
-               }
-            }
+              }
          }
       }
    }
+  }
 </page-query>
 
 <script>
