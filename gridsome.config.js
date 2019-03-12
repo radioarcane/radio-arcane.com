@@ -49,11 +49,80 @@ module.exports = {
          externalLinksTarget: '_blank',
          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
          plugins: [
-            // ...global plugins
          ]
       }
    },
    plugins: [
-
+      {
+         use: '@gridsome/source-filesystem',
+         options: {
+            path: '_posts/artist-links/**/*.md',
+            typeName: 'ArtistLink',
+            index: ['README', 'index'],
+            remark: {
+               plugins: []
+            }
+         }
+      },
+      {
+         use: '@gridsome/source-filesystem',
+         options: {
+            path: '_posts/locations/**/*.md',
+            typeName: 'Location',
+            index: ['README', 'index'],
+            remark: {
+               plugins: []
+            }
+         }
+      },
+      {
+         use: '@gridsome/source-filesystem',
+         options: {
+            path: '_posts/playlists/**/*.md',
+            typeName: 'Playlist',
+            index: ['README', 'index'],
+            remark: {
+               plugins: []
+            }
+         }
+      },
+      {
+         use: '@gridsome/source-filesystem',
+         options: {
+            path: '_posts/podcasts/**/*.md',
+            typeName: 'Podcast',
+            index: ['README', 'index'],
+            refs: {
+               playlist: {
+                  typeName: 'Playlist',
+                  create: false
+               }
+            },
+            remark: {
+               plugins: []
+            }
+         }
+      },
+      {
+         use: '@gridsome/source-filesystem',
+         options: {
+            path: '_posts/events/**/*.md',
+            typeName: 'Event',
+            index: ['README', 'index'],
+            refs: {
+               location: {
+                  typeName: 'Location',
+                  create: false
+               },
+               playlist: {
+                  typeName: 'Playlist',
+                  create: false
+               }
+            },
+            remark: {
+               plugins: []
+            }
+         }
+      }
    ]
 };

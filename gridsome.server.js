@@ -13,6 +13,7 @@ module.exports = function (api) {
    api.loadSource(store => {
    // Use the Data store API here: https://gridsome.org/docs/data-store-api
 
+      /*
       const podcastType = store.addContentType({
          typeName: 'Podcast',
          route: '/podcasts/:slug'
@@ -53,8 +54,11 @@ module.exports = function (api) {
          locationHash[data.meta.title] =  node;
       });
 
+
       fs.readdirSync('_posts/artist-links').forEach(file => {
          const data = MT(fs.readFileSync('_posts/artist-links/' + file));
+
+         fs.writeFileSync('static/data/md/' + file + '.json', JSON.stringify(data));
 
          const node = artistLinkType.addNode({
             title: data.meta.title,
@@ -65,8 +69,12 @@ module.exports = function (api) {
          artistLinkHash[data.meta.title] =  node;
       });
 
+      fs.writeFileSync('static/data/artistLinks.json', JSON.stringify(artistLinkHash));
+
       fs.readdirSync('_posts/playlists').forEach(file => {
          let data = MT(fs.readFileSync('_posts/playlists/' + file));
+
+         fs.writeFileSync('static/data/md/' + file + '.json', JSON.stringify(data));
 
          const node = playlistType.addNode({
             title: data.meta.title,
@@ -74,13 +82,15 @@ module.exports = function (api) {
             fields: Object.assign({}, data.meta)
          });
 
-
-
          playlistHash[data.meta.title] =  node;
       });
 
+      fs.writeFileSync('static/data/playlists.json', JSON.stringify(playlistHash));
+
       fs.readdirSync('_posts/podcasts').forEach(file => {
          const data = MT(fs.readFileSync('_posts/podcasts/' + file));
+
+         fs.writeFileSync('static/data/md/' + file + '.json', JSON.stringify(data));
 
          const ref = ((playlist) => {
             if (playlist && playlistHash.hasOwnProperty(playlist)) {
@@ -101,8 +111,16 @@ module.exports = function (api) {
          podcastHash[data.meta.title] =  node.id;
       });
 
+      fs.writeFileSync('static/data/podcasts.json', JSON.stringify(podcastHash));
+
       fs.readdirSync('_posts/events').forEach(file => {
          const data = MT(fs.readFileSync('_posts/events/' + file));
+
+         const data2 = MT(fs.readFileSync('_posts/events/' + file).toString());
+
+         fs.writeFileSync('static/data/md/' + file + '-str.json', JSON.stringify(data2));
+
+         fs.writeFileSync('static/data/md/' + file + '.json', JSON.stringify(data));
 
          const playlistRef = ((playlist) => {
             if (playlist && playlistHash.hasOwnProperty(playlist)) {
@@ -131,5 +149,8 @@ module.exports = function (api) {
 
          eventHash[data.meta.title] =  node.id;
       });
+
+      fs.writeFileSync('static/data/events.json', JSON.stringify(eventHash));
+      */
    });
 };

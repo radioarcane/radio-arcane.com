@@ -18,12 +18,11 @@
     "@gridsome/transformer-remark": "^0.2.1",
     "babel-project-relative-import": "^2.0.1",
     "mark-twain": "^2.0.3",
-    "markdown-to-json": "^0.5.1",
-    "md-2-json": "^1.0.5",
-    "md-to-json": "^1.0.2",
+    "netlify-cms": "^2.6.1",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
     "style-resources-loader": "^1.2.1",
+    "uuid": "^3.3.2",
     "vue-svg-inline-loader": "^1.2.13"
   }
 }

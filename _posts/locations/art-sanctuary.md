@@ -11,4 +11,3 @@ venue_link: >-
 google_map_link: >-
   https://www.google.com/maps/place/Art+Sanctuary/@38.2264103,-85.7413458,15z/data=!4m2!3m1!1s0x0:0xe8b5fa85d9ebd15f?ved=2ahUKEwjD0efWu_rfAhVKhq0KHV-nAdMQ_BIwDnoECAEQCA
 ---
-

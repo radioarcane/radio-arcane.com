@@ -7,7 +7,7 @@
 
           <div v-for="{ node } in $page.allEvent.edges" :key="node.id">
              <p>
-               <g-link class="nav-footer__link" v-bind:to="`/events/${node.slug}`">
+               <g-link class="nav-footer__link" v-bind:to="`/events/${node.customSlug}`">
                   {{ node.title }}
                </g-link>
              </p>
@@ -33,20 +33,6 @@
                shortDescription,
                facebookEventLink,
                ticketsLink,
-               playlist {
-                title,
-                slug,
-                sets {
-                  type,
-                  djName,
-                  guestDj,
-                  performer,
-                  tracks {
-                    artist,
-                    song,
-                  }
-                }
-              }
             }
          }
       }

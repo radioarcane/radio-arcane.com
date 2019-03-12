@@ -1,5 +1,5 @@
 ---
-id: 43657112-44e2-11e9-a960-4fabc53f17f9
+id: 43657112-44e2-11e9-a960-4fabc58k52e1
 layout: playlist
 title: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTRA'
 type: arcane-alive
@@ -109,4 +109,3 @@ sets:
         song: Goodbye Horses
     type: dj_set
 ---
-

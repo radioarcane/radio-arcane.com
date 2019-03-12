@@ -16,22 +16,29 @@
 </template>
 
 <page-query>
-   query Podcast {
-      allPodcast (sortBy: "date", order: DESC) {
-         edges {
-            node {
-               id,
-               path,
-               slug,
-               title,
-               date,
-               description,
-               mixcloudLink,
-               soundcloudLink,
+query Podcast {
+   allPodcast (sortBy: "date", order: DESC) {
+      edges {
+         node {
+            id,
+            path,
+            slug,
+            title,
+            date,
+            description,
+            mixcloudLink,
+            playlist {
+             sets {
+               tracks {
+                 artist,
+                 song,
+               }
+             }
             }
          }
       }
    }
+}
 </page-query>
 
 <script>

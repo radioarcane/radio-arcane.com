@@ -31,4 +31,3 @@ sets:
         song: Opening
     type: dj_set
 ---
-

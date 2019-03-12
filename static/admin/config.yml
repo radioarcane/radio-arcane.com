@@ -3,8 +3,6 @@ backend:
   branch: master
   repo: radioarcane/radio-arcane.com
 
-publish_mode: editorial_workflow
-
 media_folder: "static/img/uploads"
 public_folder: "/img/uploads"
 
@@ -19,16 +17,12 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+        required: true
       - label: "Venue"
         name: "title"
         widget: "string"
         default: ""
         required: true
-      - label: "ID"
-        name: "id"
-        widget: "string"
-        required: true
-        hint: "Unique name, all lowercase, no spaces preferred"
       - label: "Venue Link"
         name: "venue_link"
         widget: "string"
@@ -216,10 +210,10 @@ collections:
             name: "dj"
             widget: "object"
             required: false
-            default: {"dj_name": "", "guest_dj": ""}
+            default: {"dj": "", "guest_dj": ""}
             fields:
-              - label: "DJ Name"
-                name: "dj_name"
+              - label: "DJ"
+                name: "dj"
                 widget: "select"
                 options: ["", "AndrOspore", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon"]
                 required: false
@@ -263,19 +257,19 @@ collections:
                     displayFields: ["title"]
                     required: false
                     default: ""
-          - label: "Performance"
-            name: "performance"
+          - label: "Performer"
+            name: "performer"
             widget: "object"
             required: false
-            default: {"artist": "".  performer_link: ""}
+            default: {"artist": ""}
             fields:
-              - label: "Performer"
-                name: "performer"
+              - label: "Artist"
+                name: "artist"
                 widget: "string"
                 required: true
                 default: ""
-              - label: "Performer Links"
-                name: "performer_links"
+              - label: "Artist Links"
+                name: "artist_links"
                 widget: "relation"
                 collection: "artist_links"
                 searchFields: ["title"]

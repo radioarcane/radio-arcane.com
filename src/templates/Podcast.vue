@@ -33,21 +33,14 @@
         date,
         description,
         mixcloudLink,
-        soundcloudLink,
         playlist {
-        title,
-        slug,
-        sets {
-           type,
-           djName,
-           guestDj,
-           performer,
+         sets {
            tracks {
              artist,
              song,
            }
+         }
         }
-       }
      }
    }
 </page-query>

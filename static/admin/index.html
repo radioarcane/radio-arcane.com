@@ -6,7 +6,239 @@
   <title>Content Manager</title>
 </head>
 <body>
-  <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
+   <script>
+      window.CMS_MANUAL_INIT = true;
+   </script>
+
+   <!-- Include the script that builds the page and powers Netlify CMS -->
+   <script src="https://wzrd.in/standalone/uuid%2Fv1@latest"></script>
+   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+
+   <script>
+      const { CMS, initCMS: init } = window;
+
+      init({
+         config:
+         {
+            backend: {
+               name: 'github',
+               branch: 'master',
+               repo: 'radioarcane/radio-arcane.com'
+            },
+            load_config_file: false,
+            media_folder: '/static/img/upload',
+            public_folder: '/img/uploads',
+            site_url: 'https://radioarcane.netlify.com',
+            display_url: 'https://radioarcane.netlify.com',
+            collections:
+            [
+               {
+                  label: 'Locations',
+                  name: 'locations',
+                  label_singular: 'Location',
+                  folder: '_posts/locations',
+                  slug: '{{slug}}',
+                  create: true,
+                  fields: [{
+                     label: 'ID', name: 'id', widget: 'hidden', default: uuidv1(),
+                  }, {
+                     label: 'Venue', name: 'title', widget: 'string',
+                  }, {
+                     label: 'Street Address', name: 'address', widget: 'string',
+                  }, {
+                     label: 'Street Address 2', name: 'address_2', widget: 'string', required: false, default: '',
+                  }, {
+                     label: 'City', name: 'city', widget: 'string'
+                  }, {
+                     label: 'State', name: 'state', widget: 'string'
+                  }, {
+                     label: 'Zipcode', name: 'zipcode', widget: 'string'
+                  }, {
+                     label: 'Venus Website', name: 'venue_link', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'Google Map Link', name: 'google_map_link', widget: 'string', required: false, default: ''
+                  }]
+               },
+               {
+                  label: 'Artist Links',
+                  name: 'artist_links',
+                  label_singular: 'Artist Link',
+                  folder: '_posts/artist-links',
+                  slug: '{{slug}}}',
+                  create: true,
+                  fields: [{
+                     label: 'ID', name: 'id', widget: 'hidden', default: uuidv1(),
+                  }, {
+                     label: 'Artist', name: 'title', widget: 'string'
+                  }, {
+                     label: 'Apple Music', name: 'apple_music', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'Bandcamp', name: 'bandcamp', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'Facebook', name: 'facebook', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'Google Music', name: 'google_music', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'Instagram', name: 'instagram', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'Soundcloud', name: 'soundcloud', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'Spotify', name: 'spotify', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'Twitter', name: 'twitter', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'Website', name: 'website', widget: 'string', required: false, default: ''
+                  }, {
+                     label: 'YouTube', name: 'youtube', widget: 'string', required: false, default: ''
+                  }]
+               },
+               {
+                  label: 'Playlists',
+                  name: 'playlists',
+                  label_singular: 'Playlist',
+                  folder: '_posts/playlists',
+                  slug: '{{fields.type}}-{{fields.date}}',
+                  create: true,
+                  fields: [{
+                     label: 'ID', name: 'id', widget: 'hidden', default: uuidv1()
+                  }, {
+                     label: 'Layout', name: 'layout', widget: 'hidden', default: 'playlist'
+                  }, {
+                     label: 'Title', name: 'title', widget: 'string'
+                  }, {
+                     label: 'Playlist Type', name: 'type', widget: 'select',
+                     options: ['radio-arcane', 'podcast', 'arcane-alive']
+                  }, {
+                     label: 'Date', name: 'date', widget: 'date', format: 'YYYY-MM-DD'
+                  },
+                  {
+                     label: 'Sets', name: 'sets', widget: 'list', required: true, default: [],
+                     types: [{
+                        label: 'DJ Set', name: 'dj_set', widget: 'object', required: false,
+                        default: {dj: "", guest_dj: "", tracks: []},
+                        fields: [{
+                           label: "DJ Name", name: "dj_name", widget: "select", options: [
+                              "", "AndrOspore", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon", "Talamasca & Thulsa Goon"
+                           ], required: false, default: ""
+                        }, {
+                           label: 'Guest DJ', name: 'guest_dj', widget: 'string', required: false, default: ''
+                        }, {
+                           label: "Tracks", name: "tracks", widget: "list", required: false, defalt: [],
+                           fields: [{
+                              label: 'Artist', name: 'artist', widget: 'string',
+                           }, {
+                              label: 'Song', name: 'song', widget: 'string'
+                           }, {
+                              label: 'Request for Artist', name: "request_artist", widget: 'boolean', default: false, required: false
+                           }, {
+                              label: 'Request for Song', name: "request_song", widget: 'boolean', default: false, required: false
+                           }, {
+                              label: 'Artist Links', name: 'artist_links', widget: 'relation', collection: 'artist_links',
+                              displayFields: ['title'], valueField: 'id', searchFields: ['title'],
+                              required: false, default: ''
+                           }]
+                        }]
+                     }, {
+                        label: 'Performance', name: "performance", widget: "object", required: false,
+                        default: {performer: '', performer_links: ''},
+                        fields:
+                        [
+                           {
+                              label: 'Performer', name: 'performer', widget: 'string', required: false, default: ''
+                           },
+                           {
+                              label: 'Performer Links', name: 'performer_links', widget: 'relation', collection: 'artist_links',
+                              displayFields: ['title'], valueField: 'id', searchFields: ['title'],
+                              required: false, default: ''
+                           }
+                        ]
+                     }]
+                  }]
+               },
+               {
+                  label: 'Events',
+                  name: 'events',
+                  label_singular: 'Event',
+                  folder: '_posts/events',
+                  slug: '{{fields.event_type}}-{{fields.date}}',
+                  create: true,
+                  fields:
+                  [
+                     {
+                        label: 'ID', name: 'id', widget: 'hidden', default: uuidv1(),
+                     }, {
+                        label: 'Layout', name: 'layout', widget: 'hidden', default: 'event',
+                     }, {
+                        label: 'Title', name: 'title', widget: 'string',
+                     }, {
+                        label: 'Event Type', name: 'event_type', widget: 'select', options: ['radio-arcane', 'arcane-alive']
+                     }, {
+                        label: 'Date', name: 'date', widget: 'date', format: 'YYYY-MM-DD'
+                     }, {
+                        label: 'Start Date/Time', name: 'start_datetime', widget: 'datetime', format: 'YYYY-MM-DD HH:mm:ss',
+                        required: false, default: ''
+                     }, {
+                        label: 'End Date/Time', name: 'end_datetime', widget: 'datetime', format: 'YYYY-MM-DD HH:mm:ss',
+                        required: false, default: ''
+                     }, {
+                        label: 'Image', name: 'image', widget: 'image', required: false, default: ''
+                     }, {
+                        label: 'Description', name: 'description', widget: 'markdown', required: false, default: ''
+                     }, {
+                        label: 'Short Description', name: 'short_description', widget: 'string', required: false, default: ''
+                     }, {
+                        label: 'Location', name: 'location', widget: 'relation', collection: 'locations',
+                        searchFields: ['title'], valueField: 'id', displayFields: ['title'], required: true,
+                        default: ''
+                     }, {
+                        label: 'Facebook Event Link', name: 'facebook_event_link', widget: 'string', required: false,
+                        default: ''
+                     }, {
+                        label: 'Tickets Link', name: 'tickets_link', widget: 'string', required: false, default: ''
+                     }, {
+                        label: 'Playlist', name: 'playlist', widget: 'relation', collection: 'playlists',
+                        searchFields: ['title', 'date'], valueField: 'id', displayFields: ['title', 'date'], required: false,
+                        default: ''
+                     }
+                  ]
+               },
+               {
+                  label: 'Podcasts',
+                  name: 'postcasts',
+                  label_singular: 'Podcast',
+                  folder: '_posts/podcasts',
+                  slug: '{{slug}}',
+                  create: true,
+                  fields:
+                  [
+                     {
+                        label: 'ID', name: 'id', widget: 'hidden', default: uuidv1(),
+                     }, {
+                        label: 'Layout', name: 'layout', widget: 'hidden', default: 'podcast'
+                     }, {
+                        label: 'Title', name: 'title', widget: 'string'
+                     }, {
+                        label: 'Event Type', name: 'event_type', widget: 'select', options: ['radio-arcane', 'arcane-alive']
+                     }, {
+                        label: 'Date', name: 'date', widget: 'date', format: 'YYYY-MM-DD'
+                     }, {
+                        label: 'Description', name: 'description', widget: 'markdown', required: false, default: ''
+                     }, {
+                        label: 'Mixcloud Link', name: 'mixcloud_link', widget: 'string', required: false, default: ''
+                     },  {
+                        label: 'Soundcloud Link', name: 'soundcloud_link', widget: 'string', required: false, default: ''
+                     }, {
+                        label: 'Playlist', name: 'playlist', widget: 'relation', collection: 'playlists',
+                        searchFields: ['title', 'date'], valueField: 'id', displayFields: ['title', 'date'], required: false,
+                        default: ''
+                     }
+                  ]
+               }
+            ]
+         }
+      });
+
+   </script>
 </body>
 </html>
