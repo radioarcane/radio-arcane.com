@@ -54,5 +54,15 @@ sets:
       - artist: Bestial Mouths
         song: Greyed
     type: dj
+  - artist: Some live band
+    type: performer
+  - guest_dj: Guest DJ
+    tracks:
+      - artist: Tra
+        song: asfdsafsa
+    type: dj
+  - dj: Motuvius Rex
+    guest_dj: sdfdsf
+    type: dj
 ---
 
