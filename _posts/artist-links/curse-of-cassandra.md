@@ -1,4 +1,5 @@
 ---
+id: 47190661-44e6-11e9-b10c-4bb3bc60ea5c
 title: Curse of Cassandra
 apple_music: 'https://itunes.apple.com/us/artist/curse-of-cassandra/719829937'
 bandcamp: 'https://curseofcassandra1.bandcamp.com'
@@ -12,3 +13,4 @@ twitter: 'https://twitter.com/cursecassandra'
 website: 'http://curseofcassandra.com'
 youtube: 'https://www.youtube.com/channel/UCd0wHrcghA7swC3xIHwd4_g'
 ---
+
