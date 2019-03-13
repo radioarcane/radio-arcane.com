@@ -1,5 +1,5 @@
 ---
-id: e61c70b3-4529-11e9-b243-7f89dd55318a
+id: bd015399-be8f-4ac0-bac0-9b461b1f53f8
 layout: event
 title: Radio Arcane 2019-04-13
 event_type: radio-arcane
@@ -10,7 +10,7 @@ image: ''
 description: >-
   Join us! Come out and help make Radio Arcane even better in 2019! We've got a
   few surprises in the works for this year and we can't do it without your
-  continued support, of which, we are very grateful for! 
+  continued support, of which, we are very grateful for!
 
 
 
@@ -53,4 +53,3 @@ facebook_event_link: 'https://www.facebook.com/events/375211813264941/?event_tim
 tickets_link: ''
 playlist: ''
 ---
-

@@ -1,5 +1,5 @@
 ---
-id: e61c70b3-4529-11e9-b243-7f89dd55318a
+id: 406eaa0a-b43e-437c-aa02-c34674e6ff74
 layout: event
 title: 'Radio Arcane: Winterfeier : The Dark Market'
 event_type: radio-arcane
@@ -14,4 +14,3 @@ facebook_event_link: ''
 tickets_link: ''
 playlist: e23f88a0-44fd-11e9-977b-31d0f18d4bb7
 ---
-

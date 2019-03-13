@@ -1,5 +1,5 @@
 ---
-id: e61c70b3-4529-11e9-b243-7f89dd55318a
+id: ace9658d-68f7-429d-8fbb-a93721f8ea03
 layout: event
 title: 'Radio Arcane: Mittelmarch : The Dark Market'
 event_type: radio-arcane
@@ -20,19 +20,19 @@ description: >-
   Specialty Mario World Themed Drinks!
 
 
-  SNES and Wii available to play Mario Games on large screens in celebration! 
+  SNES and Wii available to play Mario Games on large screens in celebration!
 
 
   Come dressed as your favorite Mario World Character or your favorite Faerie
   Costume. Of course, all are welcome regardless of appearance.
 
 
-  The Dark Market: A Curated Nightime Oddities and Art/Flea Market. 
+  The Dark Market: A Curated Nightime Oddities and Art/Flea Market.
 
 
 
 
-  This event is expanding! 
+  This event is expanding!
 
 
   More art, more activities and hopefully a FOOD TRUCK!
@@ -116,4 +116,3 @@ facebook_event_link: 'https://www.facebook.com/events/163790324243942/'
 tickets_link: ''
 playlist: 47190662-44e6-11e9-b10c-4bb3bc60ea5c
 ---
-

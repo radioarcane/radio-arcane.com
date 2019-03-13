@@ -1,5 +1,5 @@
 ---
-id: e61c70b2-4529-11e9-b243-7f89dd55318a
+id: d6287dba-6dec-444c-a3ba-39d98f8a13e7
 layout: playlist
 title: 'Radio Arcane: Gotičková & Dark Market'
 type: radio-arcane
@@ -71,4 +71,3 @@ sets:
   - dj_name: AndrOspore
     type: dj_set
 ---
-

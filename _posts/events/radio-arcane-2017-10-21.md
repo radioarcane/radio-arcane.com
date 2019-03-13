@@ -1,5 +1,5 @@
 ---
-id: e61c70b3-4529-11e9-b243-7f89dd55318a
+id: 83eb503f-78c7-4adf-8a5b-9c184990b89c
 layout: event
 title: 'Radio Arcane: der Anfang- a Va Va Vamp After-Party'
 event_type: radio-arcane
@@ -11,10 +11,10 @@ description: >-
   Art Sanctuary presents: der Anfang -
 
 
-  A Va Va Vamp After-Party hosted by Radio Arcane. 
+  A Va Va Vamp After-Party hosted by Radio Arcane.
 
 
-  $5.  Free admission with Va Va Vamp ticket (for October 21st show only) 
+  $5.  Free admission with Va Va Vamp ticket (for October 21st show only)
 
 
   This is an 18+ event
@@ -41,10 +41,10 @@ description: >-
   Count Grozny
 
 
-  Brian Drabant 
+  Brian Drabant
 
 
-  Hydrospore (formerly known as DJ Sodom) 
+  Hydrospore (formerly known as DJ Sodom)
 
 
 
@@ -65,4 +65,3 @@ facebook_event_link: 'https://www.facebook.com/events/1979043488978168/'
 tickets_link: ''
 playlist: e24750d0-44fd-11e9-977b-31d0f18d4bb7
 ---
-

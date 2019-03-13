@@ -1,5 +1,5 @@
 ---
-id: e61c70b3-4529-11e9-b243-7f89dd55318a
+id: 20a392d-63a5-442e-9c8a-1a58f379d0d2
 layout: event
 title: 'Radio Arcane: Festa Nova: A Summer Dance Party : The Dark Market'
 event_type: radio-arcane
@@ -40,13 +40,13 @@ description: |-
 
   Specialty Summer Cocktails!
 
-  Let's get fancy and dance! 
+  Let's get fancy and dance!
 
 
 
-  The Dark Market: A Curated Nightime Oddities and Art/Flea Market. 
+  The Dark Market: A Curated Nightime Oddities and Art/Flea Market.
 
-   
+
 
   Free Entry from 7pm until 10pm. $5 entry after 10pm.
 short_description: ''
@@ -55,4 +55,3 @@ facebook_event_link: 'https://www.facebook.com/events/215484165721999/'
 tickets_link: ''
 playlist: ''
 ---
-

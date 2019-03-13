@@ -1,5 +1,5 @@
 ---
-id: e61c70b3-4529-11e9-b243-7f89dd55318a
+id: 3841a8f8-cfdc-4b5f-8b1b-49d65b69cd19 
 layout: event
 title: 'Radio Arcane: Goth Prom : The Dark Market'
 event_type: radio-arcane
@@ -67,4 +67,3 @@ facebook_event_link: 'https://www.facebook.com/events/392214544580546/'
 tickets_link: ''
 playlist: e22ff840-44fd-11e9-977b-31d0f18d4bb7
 ---
-

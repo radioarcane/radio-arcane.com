@@ -7,7 +7,7 @@
 
           <div v-for="{ node } in $page.allEvent.edges" :key="node.id">
              <p>
-               <g-link class="nav-footer__link" v-bind:to="`/events/${node.customSlug}`">
+               <g-link class="nav-footer__link" v-bind:to="`/events/${node.slug}`">
                   {{ node.title }}
                </g-link>
              </p>

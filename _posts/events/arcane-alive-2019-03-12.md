@@ -1,5 +1,5 @@
 ---
-id: e61c70b3-4529-11e9-b243-7f89dd55318a
+id: 3cf81494-7a95-4e9c-b936-6ad857bc535c
 layout: event
 title: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | Androspore'
 event_type: arcane-alive
@@ -65,4 +65,3 @@ facebook_event_link: 'https://www.facebook.com/events/333384737470679/'
 tickets_link: ''
 playlist: 720a8450-44fc-11e9-be2b-5bee9006d072
 ---
-

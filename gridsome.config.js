@@ -92,6 +92,7 @@ module.exports = {
             path: '_posts/podcasts/**/*.md',
             typeName: 'Podcast',
             index: ['README', 'index'],
+            route: '/podcasts/:slug',
             refs: {
                playlist: {
                   typeName: 'Playlist',
@@ -109,6 +110,7 @@ module.exports = {
             path: '_posts/events/**/*.md',
             typeName: 'Event',
             index: ['README', 'index'],
+            route: '/events/:slug',
             refs: {
                location: {
                   typeName: 'Location',

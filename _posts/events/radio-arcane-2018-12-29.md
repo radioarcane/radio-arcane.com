@@ -1,4 +1,5 @@
 ---
+id: 18b8e8ed-9f43-4ac5-a9d4-f302d3ed3633
 layout: event
 title: 'Radio Arcane: снежинка'
 event_type: radio-arcane
@@ -18,4 +19,3 @@ facebook_event_link: 'https://www.facebook.com/events/2468141443214534/'
 tickets_link: ''
 playlist: 43657112-44e2-11e9-a960-4fabc51e23z0
 ---
-
