@@ -49,7 +49,8 @@ description: >-
 
 
 
-  Goth:DeathRock:Punk:Industrial:EBM:NewWave:SynthWave:Techno:Minimal:Triphop:80's:90's:ItaloDisco:House:
+  Goth : DeathRock : Punk : Industrial : EBM : NewWave : SynthWave: T echno :
+  Minimal : Triphop : 80' s :90's : ItaloDisco : House:
 
 
 
