@@ -1,7 +1,7 @@
 ---
 id: e61c70b3-4529-11e9-b243-7f89dd55318a
 layout: event
-title: Radio Arcane
+title: Radio Arcane 2019-04-13
 event_type: radio-arcane
 date: '2019-04-13'
 start_datetime: '2019-04-13 22:00:00'
