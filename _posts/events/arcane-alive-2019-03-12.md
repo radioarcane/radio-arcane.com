@@ -61,7 +61,7 @@ description: >-
   Doors open at 9pm. First band at 10pm. 18+ entry 21+ bar. $5
 short_description: 'Live performances by Curse of Cassandra, The Kentucky Vampires, and AndrOspore'
 location: 123abb00-44e1-11e9-a537-716249173299
-facebook_event_link: ''
+facebook_event_link: 'https://www.facebook.com/events/333384737470679/'
 tickets_link: ''
 playlist: 720a8450-44fc-11e9-be2b-5bee9006d072
 ---
