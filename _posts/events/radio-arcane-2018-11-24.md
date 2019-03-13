@@ -1,7 +1,7 @@
 ---
 id: e61c70b3-4529-11e9-b243-7f89dd55318a
 layout: event
-title: 'Radio Arcane: The Dark Market'
+title: 'Radio Arcane: The Dark Market 2018-11-24'
 event_type: radio-arcane
 date: '2018-11-24'
 start_datetime: '2018-11-24 19:00:00'
