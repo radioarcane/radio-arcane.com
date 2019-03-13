@@ -27,7 +27,7 @@ description: |-
   Free to enter until 10pm. $5 cover after 10pm.
 short_description: ''
 location: 123abb00-44e1-11e9-a537-716249173299
-facebook_event_link: ''
+facebook_event_link: 'https://www.facebook.com/events/239614206706794/'
 tickets_link: ''
 playlist: 72124c80-44fc-11e9-be2b-5bee9006d072
 ---
