@@ -1,7 +1,7 @@
 ---
 layout: event
-event_type: 'radio-arcane'
 title: 'Radio Arcane: Gotičková & Dark Market'
+event_type: radio-arcane
 date: '2019-03-02'
 start_datetime: '2019-03-02 19:00:00'
 end_datetime: '2019-03-03 03:00:00'
@@ -25,5 +25,6 @@ short_description: ''
 location: 123abb00-44e1-11e9-a537-716249173299
 facebook_event_link: 'https://www.facebook.com/events/315647935721886'
 tickets_link: 'https://www.showclix.com/event/radio-arcane-goti-kov-dark-market'
-playlist: ''
+playlist: e61c70b2-4529-11e9-b243-7f89dd55318a
 ---
+
