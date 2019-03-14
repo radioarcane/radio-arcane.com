@@ -1,5 +1,4 @@
 ---
-id: 3f6aa650-44ee-11e9-b43b-a97e9522b58b
 title: Eleven Pond
 apple_music: 'https://itunes.apple.com/us/artist/eleven-pond/352972274'
 bandcamp: 'https://elevenpond.bandcamp.com'

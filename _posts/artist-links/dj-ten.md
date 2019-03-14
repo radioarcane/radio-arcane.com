@@ -1,5 +1,4 @@
 ---
-id: 3ebf7230-44ee-11e9-b43b-a97e9522b58b
 title: DJ TEN
 apple_music: 'https://itunes.apple.com/us/artist/dj-ten/156235291'
 bandcamp: 'https://djten.bandcamp.com'

@@ -1,5 +1,4 @@
 ---
-id: 20a392d-63a5-442e-9c8a-1a58f379d0d2
 layout: event
 title: 'Radio Arcane: Festa Nova: A Summer Dance Party : The Dark Market'
 event_type: radio-arcane

@@ -1,5 +1,4 @@
 ---
-id: 3ede92f0-44ee-11e9-b43b-a97e9522b58b
 title: Public Memory
 apple_music: 'https://itunes.apple.com/us/artist/public-memory/1056772709'
 bandcamp: 'https://publicmemory.bandcamp.com'

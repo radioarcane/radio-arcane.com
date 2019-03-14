@@ -1,5 +1,4 @@
 ---
-id: bd015399-be8f-4ac0-bac0-9b461b1f53f8
 layout: event
 title: Radio Arcane 2019-04-13
 event_type: radio-arcane

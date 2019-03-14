@@ -1,5 +1,4 @@
 ---
-id: 3fa8e7d0-44ee-11e9-b43b-a97e9522b58b
 title: Tempers
 apple_music: 'https://itunes.apple.com/us/artist/tempers/599026937'
 bandcamp: ''

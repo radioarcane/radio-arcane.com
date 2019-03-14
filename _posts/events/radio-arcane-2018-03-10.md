@@ -1,5 +1,4 @@
 ---
-id: ace9658d-68f7-429d-8fbb-a93721f8ea03
 layout: event
 title: 'Radio Arcane: Mittelmarch : The Dark Market'
 event_type: radio-arcane
@@ -114,5 +113,5 @@ short_description: ''
 location: 123abb00-44e1-11e9-a537-716249173299
 facebook_event_link: 'https://www.facebook.com/events/163790324243942/'
 tickets_link: ''
-playlist: 47190662-44e6-11e9-b10c-4bb3bc60ea5c
+playlist: ''
 ---

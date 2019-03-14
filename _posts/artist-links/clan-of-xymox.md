@@ -1,5 +1,4 @@
 ---
-id: 3f62de20-44ee-11e9-b43b-a97e9522b58b
 title: Clan of Xymox
 apple_music: 'https://itunes.apple.com/us/artist/clan-of-xymox/63836080'
 bandcamp: 'https://clanofxymox.bandcamp.com'

@@ -1,5 +1,4 @@
 ---
-id: 3f057be0-44ee-11e9-b43b-a97e9522b58b
 title: Ritual Veil
 apple_music: 'https://itunes.apple.com/us/artist/ritual-veil/1314628365'
 bandcamp: 'https://ritualveil.bandcamp.com'

@@ -1,5 +1,4 @@
 ---
-id: 3fc04060-44ee-11e9-b43b-a97e9522b58b
 title: Aesthetic Perfection
 apple_music: 'https://itunes.apple.com/us/artist/aesthetic-perfection/175621289'
 bandcamp: 'https://aestheticperfection.bandcamp.com'

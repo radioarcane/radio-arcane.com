@@ -1,5 +1,4 @@
 ---
-id: 3ff6b9b0-44ee-11e9-b43b-a97e9522b58b
 title: A Split Second
 apple_music: 'https://itunes.apple.com/us/artist/a-split-second/214323914'
 bandcamp: ''

@@ -1,5 +1,4 @@
 ---
-id: 3f534dc0-44ee-11e9-b43b-a97e9522b58b
 title: The Lords of The New Church
 apple_music: 'https://itunes.apple.com/us/artist/lords-of-the-new-church/19818872'
 bandcamp: ''

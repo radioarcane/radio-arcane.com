@@ -1,5 +1,4 @@
 ---
-id: 3e90c110-44ee-11e9-b43b-a97e9522b58b
 title: Kælan Mikla
 apple_music: 'https://itunes.apple.com/us/artist/kaelan-mikla/1140519808'
 bandcamp: ''

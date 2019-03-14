@@ -1,5 +1,4 @@
 ---
-id: 3f2c64d0-44ee-11e9-b43b-a97e9522b58b
 title: Die Selektion
 apple_music: 'https://itunes.apple.com/ca/artist/die-selektion/1158899958'
 bandcamp: ''

@@ -1,5 +1,4 @@
 ---
-id: 3f5b15f0-44ee-11e9-b43b-a97e9522b58b
 title: Trisomie 21
 apple_music: 'https://itunes.apple.com/us/artist/trisomie-21/73782484'
 bandcamp: ''

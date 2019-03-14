@@ -1,5 +1,4 @@
 ---
-id: 3e8130b0-44ee-11e9-b43b-a97e9522b58b
 title: Antipole
 apple_music: 'https://itunes.apple.com/us/artist/antipole/936868598'
 bandcamp: 'https://antipole.bandcamp.com'

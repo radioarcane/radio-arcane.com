@@ -1,5 +1,4 @@
 ---
-id: 3ffe81e0-44ee-11e9-b43b-a97e9522b58b
 title: Sydney Valette
 apple_music: 'https://itunes.apple.com/ca/artist/sydney-valette/352372067'
 bandcamp: 'https://sydneyvalette.bandcamp.com'

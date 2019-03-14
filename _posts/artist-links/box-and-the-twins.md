@@ -1,5 +1,4 @@
 ---
-id: 3efdb3b0-44ee-11e9-b43b-a97e9522b58b
 title: Box & The Twins
 apple_music: 'https://itunes.apple.com/us/artist/box-and-the-twins/956891450'
 bandcamp: 'https://boxandthetwins.bandcamp.com'

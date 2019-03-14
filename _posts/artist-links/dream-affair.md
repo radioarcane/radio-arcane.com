@@ -1,5 +1,4 @@
 ---
-id: 3eb7aa00-44ee-11e9-b43b-a97e9522b58b
 title: Dream Affair
 apple_music: 'https://itunes.apple.com/us/artist/dream-affair/418958261'
 bandcamp: 'https://dreamaffair.bandcamp.com'

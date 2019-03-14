@@ -1,5 +1,4 @@
 ---
-id: 3f89c710-44ee-11e9-b43b-a97e9522b58b
 title: The Cure
 apple_music: 'https://itunes.apple.com/us/artist/the-cure/566519'
 bandcamp: ''

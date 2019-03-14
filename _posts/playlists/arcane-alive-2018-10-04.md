@@ -1,5 +1,4 @@
 ---
-id: 43657112-44e2-11e9-a960-4fabc58k52e1
 layout: playlist
 title: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTRA'
 type: arcane-alive
@@ -83,13 +82,12 @@ sets:
   - dj_name: Sorrow-Vomit
     tracks:
       - artist: Velvet Acid Christ
-        request_artist: true
         song: Caustic Disco
-        undefined: false
+        request: 'artist'
       - artist: ':Wumpscut:'
-        request_song: true
         song: Is It You
-      - artist: //TENSEf
+        request: 'song'
+      - artist: //TENSE
         song: Disconnect Myself
       - artist: And One
         song: Metalhammer (Club Mix)

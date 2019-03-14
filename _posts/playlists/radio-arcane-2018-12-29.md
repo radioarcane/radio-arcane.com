@@ -1,5 +1,4 @@
 ---
-id: 43657112-44e2-11e9-a960-4fabc51e23z0
 layout: playlist
 title: 'Radio Arcane: снежинка'
 type: radio-arcane

@@ -1,5 +1,4 @@
 ---
-id: 3fd798f0-44ee-11e9-b43b-a97e9522b58b
 title: Grausame Töchter
 apple_music: 'https://itunes.apple.com/us/artist/grausame-t%C3%B6chter/432905033'
 bandcamp: ''

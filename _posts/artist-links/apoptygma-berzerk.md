@@ -1,5 +1,4 @@
 ---
-id: 3f995770-44ee-11e9-b43b-a97e9522b58b
 title: Apoptygma Berzerk
 apple_music: 'https://itunes.apple.com/us/artist/apoptygma-berzerk/id30737639'
 bandcamp: 'https://pitchblackdrive.bandcamp.com'

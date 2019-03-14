@@ -1,5 +1,4 @@
 ---
-id: 3eafe1d0-44ee-11e9-b43b-a97e9522b58b
 title: Sidewalks & Skeletons
 apple_music: 'https://itunes.apple.com/gb/artist/sidewalks-and-skeletons/id678419002'
 bandcamp: 'https://sidewalksandskeletons.bandcamp.com'

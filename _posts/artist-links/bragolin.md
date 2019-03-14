@@ -1,5 +1,4 @@
 ---
-id: 438cffd0-44ee-11e9-b43b-a97e9522b58b
 title: Bragolin
 apple_music: ''
 bandcamp: ''

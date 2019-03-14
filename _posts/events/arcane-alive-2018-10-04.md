@@ -1,5 +1,4 @@
 ---
-id: 0ba918f0-36e5-4b2a-8728-e260a63f801b
 layout: event
 title: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTRA'
 event_type: arcane-alive
@@ -55,5 +54,5 @@ short_description: 'Live performances by Ominous Erotica. Decide Today, and ULTR
 location: 123abb00-44e1-11e9-a537-716249173299
 facebook_event_link: 'https://www.facebook.com/events/226390288222463/'
 tickets_link: ''
-playlist: 43657112-44e2-11e9-a960-4fabc58k52e1
+playlist: ''
 ---

@@ -1,5 +1,4 @@
 ---
-id: 3ea05170-44ee-11e9-b43b-a97e9522b58b
 title: IC3PEAK
 apple_music: 'https://itunes.apple.com/us/artist/ic3peak/829814422'
 bandcamp: 'https://ic3peak.bandcamp.com'

@@ -2,8 +2,8 @@
    <footer class="footer" role="contentinfo">
       <nav class="footer__nav">
          <ul class="nav-footer">
-            <li v-for="item in links" class="nav-footer__item">
-               <g-link class="nav-footer__link" v-bind:to="item.to">
+            <li v-for="(item, index) in links" class="nav-footer__item" :key="index">
+               <g-link class="nav-footer__link" :to="item.to">
                   {{ item.name }}
                </g-link>
             </li>

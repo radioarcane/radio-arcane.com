@@ -1,5 +1,4 @@
 ---
-id: 4540ca50-44ee-11e9-b43b-a97e9522b58b
 title: So What?
 apple_music: ''
 bandcamp: ''

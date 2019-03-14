@@ -1,5 +1,4 @@
 ---
-id: 44eb3040-44ee-11e9-b43b-a97e9522b58b
 title: iamamiwhoami
 apple_music: ''
 bandcamp: ''

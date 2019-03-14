@@ -1,5 +1,4 @@
 ---
-id: 426d10e0-44ee-11e9-b43b-a97e9522b58b
 title: Tropic of Cancer
 apple_music: ''
 bandcamp: ''

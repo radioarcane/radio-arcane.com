@@ -1,5 +1,4 @@
 ---
-id: 3e88f8e0-44ee-11e9-b43b-a97e9522b58b
 title: Holygram
 apple_music: 'https://itunes.apple.com/us/artist/holygram/1176472792'
 bandcamp: 'https://holygram.bandcamp.com'

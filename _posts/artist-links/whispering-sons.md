@@ -1,5 +1,4 @@
 ---
-id: 3f342d00-44ee-11e9-b43b-a97e9522b58b
 title: Whispering Sons
 apple_music: 'https://itunes.apple.com/us/artist/whispering-sons/1068572713'
 bandcamp: 'https://whisperingsons.bandcamp.com'

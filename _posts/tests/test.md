@@ -4,8 +4,7 @@ title: Test
 content: |
   # Test Content
 
-  ## Heading 2
+  ##Heading 2
 
   This is test content...
 ---
-

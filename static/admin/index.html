@@ -11,8 +11,6 @@
       window.CMS_MANUAL_INIT = true;
    </script>
 
-   <!-- Include the script that builds the page and powers Netlify CMS -->
-   <script src="https://wzrd.in/standalone/uuid%2Fv1@latest"></script>
    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
 
    <script>
@@ -33,6 +31,21 @@
             display_url: 'https://radioarcane.netlify.com',
             collections:
             [
+               {
+                  label: 'Tests',
+                  name: 'tests',
+                  label_singular: 'Test',
+                  folder: '_posts/tests',
+                  slug: '{{slug}}',
+                  create: true,
+                  fields: [{
+                     label: 'ID', name: 'id', widget: 'hidden', default: uuidv1(),
+                  }, {
+                     label: 'Title', name: 'title', widget: 'string',
+                  }, {
+                     label: 'Content', name: 'content', widget: 'markdown',
+                  }]
+               },
                {
                   label: 'Locations',
                   name: 'locations',

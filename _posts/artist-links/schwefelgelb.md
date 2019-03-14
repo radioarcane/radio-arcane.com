@@ -1,5 +1,4 @@
 ---
-id: 3f918f40-44ee-11e9-b43b-a97e9522b58b
 title: Schwefelgelb
 apple_music: 'https://itunes.apple.com/us/artist/schwefelgelb/252440002'
 bandcamp: 'https://schwefelgelb.bandcamp.com'

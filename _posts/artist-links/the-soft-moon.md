@@ -1,5 +1,4 @@
 ---
-id: 3ecf0290-44ee-11e9-b43b-a97e9522b58b
 title: The Soft Moon
 apple_music: 'https://itunes.apple.com/us/artist/the-soft-moon/385792802'
 bandcamp: 'https://thesoftmoon.bandcamp.com'

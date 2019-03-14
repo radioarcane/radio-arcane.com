@@ -1,5 +1,4 @@
 ---
-id: 3fa11fa0-44ee-11e9-b43b-a97e9522b58b
 title: Ritualz
 apple_music: 'https://itunes.apple.com/us/artist/ritualz/443924470'
 bandcamp: 'https://ritualz.bandcamp.com'

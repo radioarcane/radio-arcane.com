@@ -9,11 +9,116 @@
 const MT = require('mark-twain');
 const fs = require('fs');
 
+var md = require('markdown-it')({
+   html: false,
+   xhtmlOut: false,
+   breaks: true,
+   linkify: true,
+   typographer: false
+});
+
+const defaultArtistLink = {
+   title: '',
+   apple_music: null,
+   bandcamp: null,
+   facebook: null,
+   google_music: null,
+   instagram: null,
+   soundcloud: null,
+   spotify: null,
+   twitter: null,
+   website: null,
+   youtube: null,
+};
+
+const defaultLocation = {
+   title: '',
+   address: null,
+   address_2: null,
+   city: null,
+   state: null,
+   zipcode: null,
+   venue_link: null,
+   google_map_link: null
+};
+
+const defaultEvent = {
+   layout: 'event',
+   title: '',
+   displayTitle: '',
+   event_type: null,
+   date: null,
+   start_datetime: null,
+   end_datetime: null,
+   image: null,
+   description: '',
+   short_description: null,
+   location: null,
+   facebook_event_link: null,
+   tickets_link: null,
+   playlist: null,
+   expired: true
+};
+
+const defaultPodcast = {
+   layout: 'podcast',
+   title: '',
+   date: null,
+   description: '',
+   short_description: null,
+   mixcloud_link: null,
+   soundcloud_link: null,
+   playlist: null,
+};
+
+const defaultPlaylist = {
+   layout: 'playlist',
+   title: '',
+   displayTitle: '',
+   playlist_type: null,
+   date: null,
+   sets: [],
+};
+
+const defaultTrack = {
+   artist: null,
+   song: null,
+   requestType: null,
+   artistLinks: null,
+};
+
+const defaultDj = {
+   dj_name: null,
+   guest_dj: null,
+};
+
+const defaultPerformer = {
+   performer: null,
+   performerLinks: null,
+};
+
 module.exports = function (api) {
    api.loadSource(store => {
    // Use the Data store API here: https://gridsome.org/docs/data-store-api
 
-      /*
+   /*
+      fs.readdirSync('_posts/events').forEach(file => {
+         let data = MT(fs.readFileSync('_posts/events/' + file));
+
+         let desc = md.render(data.meta.description).replace(/(\r\n|\n|\r)/gm, "");
+
+         console.log(desc);
+
+         console.log('----------------------');
+      });
+      */
+
+      const locationHash = {},
+            artistLinkHash = {},
+            eventHash = {},
+            podcastHash = {},
+            playlistHash = {};
+
       const podcastType = store.addContentType({
          typeName: 'Podcast',
          route: '/podcasts/:slug'
@@ -36,6 +141,24 @@ module.exports = function (api) {
          typeName: 'Location'
       });
 
+      fs.readdirSync('_posts/artist-links').forEach(file => {
+         const data = MT(fs.readFileSync('_posts/artist-links/' + file));
+
+         delete data.id;
+         delete data.meta.id;
+
+         const node = artistLinkType.addNode({
+            title: data.meta.title,
+            slug: file.toLowerCase().replace('.md', ''),
+            fields: Object.assign({}, defaultArtistLink, data.meta)
+         });
+
+         artistLinkHash[data.meta.title] =  node;
+      });
+
+      fs.writeFileSync('static/data/artistLinks.json', JSON.stringify(artistLinkHash));
+
+      /*
       const locationHash = {},
             artistLinkHash = {},
             eventHash = {},

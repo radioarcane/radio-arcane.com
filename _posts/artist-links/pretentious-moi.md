@@ -1,5 +1,4 @@
 ---
-id: 4687a230-44ee-11e9-b43b-a97e9522b58b
 title: Pretentious, Moi?
 apple_music: ''
 bandcamp: ''

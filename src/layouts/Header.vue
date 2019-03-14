@@ -9,7 +9,7 @@
       <div class="mast-header__nav">
          <nav id="navigation" class="mast-nav" role="navigation">
             <ul class="nav-menu">
-               <li v-for="item in links" class="nav-menu__item">
+               <li v-for="(item, index) in links" class="nav-menu__item" :key="index">
                   <g-link class="nav-menu__link" v-bind:to="item.to">
                      {{ item.name }}
                   </g-link>

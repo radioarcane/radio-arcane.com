@@ -1,5 +1,4 @@
 ---
-id: 3eee2350-44ee-11e9-b43b-a97e9522b58b
 title: Zanias
 apple_music: 'https://itunes.apple.com/us/artist/zanias/1156612707'
 bandcamp: 'https://zanias.bandcamp.com'

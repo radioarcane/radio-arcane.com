@@ -1,5 +1,4 @@
 ---
-id: 44b4b6f0-44ee-11e9-b43b-a97e9522b58b
 title: Xorcist
 apple_music: ''
 bandcamp: ''

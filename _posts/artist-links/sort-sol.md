@@ -1,5 +1,4 @@
 ---
-id: 3ee65b20-44ee-11e9-b43b-a97e9522b58b
 title: Sort Sol
 apple_music: 'https://itunes.apple.com/ca/artist/sort-sol/14407005'
 bandcamp: ''

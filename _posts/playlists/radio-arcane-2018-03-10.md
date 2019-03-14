@@ -1,5 +1,4 @@
 ---
-id: 47190662-44e6-11e9-b10c-4bb3bc60ea5c
 layout: playlist
 title: 'Radio Arcane: Mittelmarch : The Dark Market'
 type: radio-arcane

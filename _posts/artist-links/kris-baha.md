@@ -1,5 +1,4 @@
 ---
-id: 3fb87830-44ee-11e9-b43b-a97e9522b58b
 title: Kris Baha
 apple_music: 'https://itunes.apple.com/us/artist/kris-baha/343292335'
 bandcamp: ''

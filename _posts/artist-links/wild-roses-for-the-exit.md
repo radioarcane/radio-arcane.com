@@ -1,5 +1,4 @@
 ---
-id: 3e427a00-44ee-11e9-b43b-a97e9522b58b
 title: Wild Roses For The Exit
 apple_music: ''
 bandcamp: 'https://wildrosesfortheexit.bandcamp.com'

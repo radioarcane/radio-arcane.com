@@ -1,5 +1,4 @@
 ---
-id: c7d6d72a-eaa3-48a8-a2dd-b837aee26e68
 layout: event
 title: 'Radio Arcane: The Dark Market'
 event_type: radio-arcane
@@ -45,5 +44,5 @@ short_description: ''
 location: 123abb00-44e1-11e9-a537-716249173299
 facebook_event_link: 'https://www.facebook.com/events/973340279505329/'
 tickets_link: ''
-playlist: 7221dce0-44fc-11e9-be2b-5bee9006d072
+playlist: ''
 ---

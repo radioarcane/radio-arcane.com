@@ -1,5 +1,4 @@
 ---
-id: 3feef180-44ee-11e9-b43b-a97e9522b58b
 title: Snowy Red
 apple_music: 'https://itunes.apple.com/us/artist/snowy-red/288512559'
 bandcamp: ''

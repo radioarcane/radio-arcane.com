@@ -1,5 +1,4 @@
 ---
-id: 3ef5eb80-44ee-11e9-b43b-a97e9522b58b
 title: Youth Code
 apple_music: 'https://itunes.apple.com/us/artist/youth-code/707645467'
 bandcamp: 'https://youthcode.bandcamp.com'

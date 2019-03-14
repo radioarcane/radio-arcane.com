@@ -1,5 +1,4 @@
 ---
-id: 3f150c40-44ee-11e9-b43b-a97e9522b58b
 title: Struck 9
 apple_music: 'https://itunes.apple.com/us/artist/struck-9/305147098'
 bandcamp: 'https://struck9.bandcamp.com'

@@ -1,5 +1,4 @@
 ---
-id: 83eb503f-78c7-4adf-8a5b-9c184990b89c
 layout: event
 title: 'Radio Arcane: der Anfang- a Va Va Vamp After-Party'
 event_type: radio-arcane

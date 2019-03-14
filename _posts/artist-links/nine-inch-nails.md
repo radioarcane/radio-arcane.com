@@ -1,5 +1,4 @@
 ---
-id: 3ed6cac0-44ee-11e9-b43b-a97e9522b58b
 title: Nine Inch Nails
 apple_music: 'https://itunes.apple.com/us/artist/nine-inch-nails/107917'
 bandcamp: ''

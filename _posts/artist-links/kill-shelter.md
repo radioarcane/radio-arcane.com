@@ -1,5 +1,4 @@
 ---
-id: 40c10e90-44ee-11e9-b43b-a97e9522b58b
 title: Kill Shelter
 apple_music: ''
 bandcamp: ''

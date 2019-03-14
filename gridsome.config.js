@@ -48,20 +48,36 @@ module.exports = {
       remark: {
          externalLinksTarget: '_blank',
          externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+         anchorClassName: '',
          plugins: [
          ]
       }
    },
+
    plugins: [
+   //   {
+   //      use: '@gridsome/source-filesystem',
+   //      options: {
+   //         path: '_posts/tests/**/*.md',
+   //         typeName: 'Test',
+   //         index: ['README', 'index'],
+   //         remark: {
+   //            plugins: [],
+   //            externalLinksTarget: '_blank',
+   //            externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
+   //            anchorClassName: '',
+   //         }
+      //   }
+      //},
       {
          use: '@gridsome/source-filesystem',
          options: {
             path: '_posts/artist-links/**/*.md',
             typeName: 'ArtistLink',
             index: ['README', 'index'],
-            remark: {
-               plugins: []
-            }
+            //remark: {
+            //   plugins: []
+            //}
          }
       },
       {
@@ -70,9 +86,9 @@ module.exports = {
             path: '_posts/locations/**/*.md',
             typeName: 'Location',
             index: ['README', 'index'],
-            remark: {
-               plugins: []
-            }
+            //remark: {
+            //   plugins: []
+            //}
          }
       },
       {
@@ -81,9 +97,9 @@ module.exports = {
             path: '_posts/playlists/**/*.md',
             typeName: 'Playlist',
             index: ['README', 'index'],
-            remark: {
-               plugins: []
-            }
+            //remark: {
+            //   plugins: []
+         //   }
          }
       },
       {
@@ -99,9 +115,9 @@ module.exports = {
                   create: false
                }
             },
-            remark: {
-               plugins: []
-            }
+            //remark: {
+            //   plugins: []
+            //}
          }
       },
       {
@@ -121,9 +137,9 @@ module.exports = {
                   create: false
                }
             },
-            remark: {
-               plugins: []
-            }
+            //remark: {
+            //   plugins: []
+            //}
          }
       }
    ]

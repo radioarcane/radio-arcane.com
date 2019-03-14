@@ -1,5 +1,4 @@
 ---
-id: 3e71a050-44ee-11e9-b43b-a97e9522b58b
 title: Black Arcade
 apple_music: 'https://itunes.apple.com/us/artist/black-arcade/1043659494'
 bandcamp: 'https://blackarcade.bandcamp.com'

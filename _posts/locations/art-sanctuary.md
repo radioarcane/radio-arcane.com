@@ -1,5 +1,4 @@
 ---
-id: 123abb00-44e1-11e9-a537-716249173299
 title: Art Sanctuary
 address: 1433 S Shelby St.
 address_2: ''

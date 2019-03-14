@@ -1,5 +1,4 @@
 ---
-id: 3e619ac0-44ee-11e9-b43b-a97e9522b58b
 title: Curse of Cassandra
 apple_music: 'https://itunes.apple.com/us/artist/curse-of-cassandra/719829937'
 bandcamp: 'https://curseofcassandra1.bandcamp.com/'

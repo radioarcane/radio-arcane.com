@@ -10,6 +10,10 @@
                v-if="node.mixcloudLink"
                v-bind:url="node.mixcloudLink"
             />
+
+            <g-link class="nav-menu__link" v-bind:to="'/podcasts/' + node.slug">
+               Link
+            </g-link>
           </div>
       </Container>
    </Layout>
