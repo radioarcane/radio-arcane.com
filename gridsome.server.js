@@ -48,7 +48,7 @@ const defaultLocation = {
 const defaultEvent = {
    layout: 'event',
    title: null,
-   displayName: null,
+   display_name: null,
    event_type: null,
    date: null,
    start_datetime: null,
@@ -66,7 +66,7 @@ const defaultEvent = {
 const defaultPodcast = {
    layout: 'podcast',
    title: null,
-   displayName: null,
+   display_name: null,
    date: null,
    description: null,
    short_description: null,
@@ -78,8 +78,8 @@ const defaultPodcast = {
 const defaultPlaylist = {
    layout: 'playlist',
    title: null,
-   displayName: null,
-   type: null,
+   display_name: null,
+   playlist_type: null,
    date: null,
    sets: [],
 };
@@ -88,7 +88,7 @@ const defaultTrack = {
    artist: null,
    song: null,
    request: null,
-   artistLinks: null,
+   artist_links: null,
 };
 
 const defaultDj = {
@@ -99,7 +99,7 @@ const defaultDj = {
 
 const defaultPerformer = {
    performer: null,
-   performerLinks: null,
+   performer_links: null,
 };
 
 module.exports = function (api) {
@@ -161,7 +161,6 @@ module.exports = function (api) {
 
       fs.readdirSync('_posts/playlists').forEach(file => {
          let data = MT(fs.readFileSync('_posts/playlists/' + file));
-
          let playlist = Object.assign({}, defaultPlaylist, data.meta);
 
          const sets = playlist.sets.map(setList => {
@@ -173,8 +172,9 @@ module.exports = function (api) {
                thisSet.tracks = thisSet.tracks.map(track => {
                   let thisTrack = Object.assign({}, defaultTrack, track);
 
+
                   if (artistLinkHash.hasOwnProperty(slugify(thisTrack.artist))) {
-                     thisTrack.artistLinks = artistLinkHash[slugify(thisTrack.artist)].fields;
+                     thisTrack.artist_links = artistLinkHash[slugify(thisTrack.artist)].fields;
                   }
 
                   return thisTrack;
@@ -184,7 +184,7 @@ module.exports = function (api) {
                thisSet = Object.assign({}, defaultPerformer, thisSet);
 
                if (artistLinkHash.hasOwnProperty(slugify(thisSet.performer))) {
-                  thisSet.performerLinks = artistLinkHash[slugify(thisSet.performer)].fields;
+                  thisSet.performer_links = artistLinkHash[slugify(thisSet.performer)].fields;
                }
             }
 
