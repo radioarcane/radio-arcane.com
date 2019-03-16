@@ -93,7 +93,7 @@ collections:
                 required: true
                 default: []
                 fields:
-                  - {label: "Artist", name: "Artist", widget: "string"}
+                  - {label: "Artist", name: "artist", widget: "string"}
                   - {label: "Song", name: "song", widget: "string"}
                   - label: "Request"
                     name: "request"
