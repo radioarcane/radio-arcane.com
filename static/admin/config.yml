@@ -80,7 +80,7 @@ collections:
         default: []
         types:
           - label: "DJ Set"
-            name: "dj"
+            name: "dj_set"
             widget: "object"
             required: false
             default: {"dj": "", "guest_dj": ""}

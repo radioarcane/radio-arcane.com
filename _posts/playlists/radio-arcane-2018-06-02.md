@@ -8,13 +8,16 @@ sets:
   - dj_name: Talamasca & Thulsa Goon
     guest_dj: ''
     tracks:
+    type: 'dj_set'
   - dj_name: AndrOspore
     guest_dj: ''
     tracks:
+    type: 'dj_set'
   - performer: The Kentucky Vampires
     type: performance
   - dj_name: Sorrow-Vomit
     guest_dj: ''
+    type: 'dj_set'
     tracks:
       - artist: Ash Code
         song: Icy Cold
@@ -41,4 +44,5 @@ sets:
   - dj_name: Osiris Ani
     guest_dj: ''
     tracks:
+    type: 'dj_set'
 ---
