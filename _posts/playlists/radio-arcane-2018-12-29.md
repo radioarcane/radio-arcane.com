@@ -2,7 +2,7 @@
 layout: playlist
 title: '2018-12-29 Radio Arcane'
 display_name: 'Radio Arcane: снежинка'
-type: radio-arcane
+playlist_type: radio-arcane
 date: '2018-12-29'
 sets:
   - dj_name: Thulsa Goon

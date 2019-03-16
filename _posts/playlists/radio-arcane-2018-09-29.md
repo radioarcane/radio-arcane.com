@@ -2,7 +2,7 @@
 layout: playlist
 title: '2018-09-29 Radio Arcane'
 display_name: 'Radio Arcane: The Dark Market'
-type: radio-arcane
+playlist_type: radio-arcane
 date: '2018-09-29'
 sets:
   - dj_name: Sorrow-Vomit

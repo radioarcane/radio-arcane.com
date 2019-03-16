@@ -2,11 +2,11 @@
 layout: playlist
 title: '2018-12-01 Arcane Alive'
 display_name: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | Androspore'
-type: arcane-alive
+playlist_type: arcane-alive
 date: '2018-12-01'
 sets:
   - dj_name: Sorrow-Vomit
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Simbolo
         song: Try To Love
@@ -47,7 +47,7 @@ sets:
   - performer: Androspore
     type: performance
   - dj_name: Sorrow-Vomit
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Ash Code
         song: Black Gloves
@@ -58,7 +58,7 @@ sets:
   - performer: The Kentucky Vampires
     type: performance
   - dj_name: Sorrow-Vomit
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Holygram
         song: A Faction
@@ -71,7 +71,7 @@ sets:
   - performer: Curse of Cassandra
     type: performance
   - dj_name: Sorrow-Vomit
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Simi Nah
         song: Eisbaer (feat. Danny Mommens)

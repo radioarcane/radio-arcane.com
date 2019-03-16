@@ -2,7 +2,7 @@
 layout: playlist
 title: '2018-06-02 Radio Arcane'
 display_name: 'Radio Arcane: Goth Prom : The Dark Market'
-type: radio-arcane
+playlist_type: radio-arcane
 date: '2018-06-02'
 sets:
   - dj_name: Talamasca & Thulsa Goon

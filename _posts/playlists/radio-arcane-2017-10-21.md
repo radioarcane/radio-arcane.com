@@ -2,21 +2,20 @@
 layout: playlist
 title: '2017-10-21 Radio Arcane'
 display_name: 'Radio Arcane: der Anfang- a Va Va Vamp After-Party'
-type: radio-arcane
+playlist_type: radio-arcane
 date: '2017-10-21'
 sets:
   - dj_name: Motuvius Rex
-    guest_dj: ''
-    tracks:
+    type: dj_set
   - dj_name: Osiris Ani
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: The Mission
         song: Deliverance
       - artist: Sister Soleil
         song: Bazamba
   - dj_name: Sorrow-Vomit
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Tempers
         song: Strange Harvest
@@ -39,7 +38,7 @@ sets:
       - artist: Placebo Effect
         song: Move
   - dj_name: Osiris Ani
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Coil
         song: Love's Secret Domain
@@ -78,12 +77,9 @@ sets:
       - artist: Switchblade Symphony
         song: Clown
   - dj_name: Brian Drabant
-    guest_dj: ''
-    tracks:
+    type: dj_set
   - dj_name: AndrOspore
-    guest_dj: ''
-    tracks:
+    type: dj_set
   - dj_name: Count Grozny
-    guest_dj: ''
-    tracks:
+    type: dj_set
 ---

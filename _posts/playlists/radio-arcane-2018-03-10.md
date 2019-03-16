@@ -2,7 +2,7 @@
 layout: playlist
 title: '2018-03-10 Radio Arcane'
 display_name: 'Radio Arcane: Mittelmarch : The Dark Market'
-type: radio-arcane
+playlist_type: radio-arcane
 date: '2018-03-10'
 sets:
   - dj_name: Osiris Ani

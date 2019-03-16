@@ -2,7 +2,7 @@
 layout: playlist
 title: '2019-03-02 Radio Arcane'
 display_name: 'Radio Arcane: Gotičková & Dark Market'
-type: radio-arcane
+playlist_type: radio-arcane
 date: '2019-03-02'
 sets:
   - dj_name: Talamasca

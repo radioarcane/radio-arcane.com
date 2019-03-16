@@ -2,11 +2,11 @@
 layout: playlist
 title: '2018-01-20 Radio Arcane'
 display_name: 'Radio Arcane: Winterfeier : The Dark Market'
-type: radio-arcane
+playlist_type: radio-arcane
 date: '2018-01-20'
 sets:
   - dj_name: Thulsa Goon
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Le Matos
         song: Intro
@@ -33,7 +33,7 @@ sets:
       - artist: Ritual Howls
         song: Their Body
   - dj_name: Count Grozny
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Idol Mind
         song: Fool
