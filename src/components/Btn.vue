@@ -61,7 +61,8 @@
       white-space: nowrap;
       vertical-align: middle;
       font-size: 1rem;
-      padding: 6px 1rem 6px;
+      @include fluid-type($screen-s-min, $screen-xxl-min, $font-base-size, 22px);
+      padding: 0.35em 1em 0.35em;
       line-height: 1.5;
       transition: all .15s ease-in-out;
       border: 1px solid $link-color;
@@ -72,6 +73,7 @@
       text-decoration: none;
       text-transform: uppercase;
       margin: 0 0 1rem;
+      opacity: 1;
 
       &:hover,
       &:focus,
@@ -128,7 +130,8 @@
          &:hover,
          &:focus,
          &:active {
-            background: #8b9dc3;
+            border-color: #3b5998;
+            background: lighten(#3b5998, 10%);
             color: $white;
          }
       }
