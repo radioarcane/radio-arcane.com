@@ -1,11 +1,12 @@
 ---
 layout: event
-title: 'Radio Arcane: Mittelmarch : The Dark Market'
+title: '2018-03-10 Radio Arcane'
+display_name: 'Radio Arcane: Mittelmarch : The Dark Market'
 event_type: radio-arcane
 date: '2018-03-10'
 start_datetime: '2018-03-10 19:00:00'
 end_datetime: '2018-03-11 03:00:00'
-image: ''
+image: '/img/uploads/radio-arcane-2018-03-10--2x.jpg'
 description: >-
   Radio Arcane: Mittelmarch: The Dark Market
 
@@ -110,8 +111,8 @@ description: >-
 
   Robert Major
 short_description: ''
-location: 123abb00-44e1-11e9-a537-716249173299
+location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/163790324243942/'
 tickets_link: ''
-playlist: ''
+playlist: '2018-03-10 Radio Arcane'
 ---

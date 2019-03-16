@@ -32,14 +32,28 @@
         title,
         date,
         description,
+        shortDescription,
         mixcloudLink,
+        soundcloudLink,
         playlist {
-         sets {
-           tracks {
-             artist,
-             song,
+           sets {
+              tracks {
+                 artist,
+                 song,
+                 artistLinks {
+                    appleMusic,
+                    bandcamp,
+                    facebook,
+                    googleMusic,
+                    instagram,
+                    soundcloud,
+                    spotify,
+                    twitter,
+                    website,
+                    youtube
+                 }
+              }
            }
-         }
         }
      }
    }
@@ -48,7 +62,7 @@
 <script>
    import Layout from '~/layouts/Default.vue'
 
-   import Button from '~/components/Button.vue';
+   import Btn from '~/components/Btn.vue';
    import Container from '~/components/Container.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
    import Title from '~/components/Title.vue';
@@ -62,7 +76,10 @@
       },
       metaInfo () {
          return {
-            title: this.$page.podcast.title
+            title: this.$page.podcast.title,
+            meta: [
+               { description: 'Add Meta Description...' }
+            ]
          }
       },
       data () {

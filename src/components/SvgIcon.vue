@@ -1,5 +1,5 @@
 <template>
-   <svg v-bind:class="getClass()">
+   <svg :class="getClass()">
       <use v-if="use" :xlink:href="'#' + use" role="img" />
       <slot v-else />
    </svg>

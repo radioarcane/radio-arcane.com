@@ -20,7 +20,7 @@
 <script>
    import Layout from '~/layouts/Default.vue'
 
-   import Button from '~/components/Button.vue';
+   import Btn from '~/components/Btn.vue';
    import Container from '~/components/Container.vue';
    import Title from '~/components/Title.vue';
 
@@ -32,7 +32,10 @@
       },
       metaInfo () {
          return {
-            title: this.$page.playlist.title
+            title: this.$page.playlist.title,
+            meta: [
+               { description: 'Add Meta Description...' }
+            ]
          }
       },
       data () {

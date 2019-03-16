@@ -1,10 +1,16 @@
 <template>
    <Layout>
       <Container>
-         <article>
-            <Title>{{ $page.event.title }}</Title>
+         <Breadcrumb :crumbs="getCrumbs()" />
 
-            <div v-html="$page.event.description" />
+         <article>
+            <Title>{{ $page.event.displayName }}</Title>
+
+            <Event :event="$page.event" />
+
+            <section v-if="$page.event.playlist">
+               <Playlist :playlist="$page.event.playlist" />
+            </section>
          </article>
       </Container>
    </Layout>
@@ -12,34 +18,110 @@
 
 <page-query>
    query Event ($path: String!) {
-     event (path: $path) {
-        title,
-        date,
-        description,
-     }
+      event (path: $path) {
+         id,
+         path,
+         slug,
+         title,
+         displayName,
+         eventType,
+         date,
+         startDatetime,
+         endDatetime,
+         image,
+         description,
+         shortDescription,
+         facebookEventLink,
+         ticketsLink,
+         expired,
+         location {
+            title,
+            address,
+            address2,
+            city,
+            state,
+            zipcode,
+            venueLink,
+            googleMapLink,
+         }
+         playlist {
+            date,
+            displayName,
+            sets {
+               djName,
+               guestDj,
+               performer,
+               performerLinks {
+                  appleMusic,
+                  bandcamp,
+                  facebook,
+                  googleMusic,
+                  instagram,
+                  soundcloud,
+                  spotify,
+                  twitter,
+                  website,
+                  youtube
+               },
+               tracks {
+                  artist,
+                  song,
+                  request,
+                  artistLinks {
+                     appleMusic,
+                     bandcamp,
+                     facebook,
+                     googleMusic,
+                     instagram,
+                     soundcloud,
+                     spotify,
+                     twitter,
+                     website,
+                     youtube
+                  }
+               }
+            }
+         }
+      }
    }
 </page-query>
 
 <script>
    import Layout from '~/layouts/Default.vue'
 
-   import Button from '~/components/Button.vue';
+   import Breadcrumb from '~/components/Breadcrumb.vue';
+   import Btn from '~/components/Btn.vue';
    import Container from '~/components/Container.vue';
+   import Event from '~/components/Event.vue';
+   import Playlist from '~/components/Playlist.vue';
    import Title from '~/components/Title.vue';
 
    export default {
       components: {
          Layout,
+         Breadcrumb,
+         Event,
          Container,
+         Playlist,
          Title
       },
       metaInfo () {
          return {
-            title: this.$page.event.title
+            title: this.$page.event.displayName,
+            meta: [
+               { description: 'Add Meta Description...' }
+            ]
          }
       },
-      data () {
-         return {};
+      methods: {
+         getCrumbs() {
+            return [{
+               to: '/events',
+               name: "Events"
+            }, {
+               name: this.$page.event.displayName
+            }];
+         }
       }
    }
 </script>

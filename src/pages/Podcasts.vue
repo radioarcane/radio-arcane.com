@@ -8,10 +8,10 @@
           <div v-for="{ node } in $page.allPodcast.edges" :key="node.id">
              <MixcloudPlayer
                v-if="node.mixcloudLink"
-               v-bind:url="node.mixcloudLink"
+               :url="node.mixcloudLink"
             />
 
-            <g-link class="nav-menu__link" v-bind:to="'/podcasts/' + node.slug">
+            <g-link class="nav-menu__link" :to="`/podcasts/${ node.path }`">
                Link
             </g-link>
           </div>
@@ -20,37 +20,46 @@
 </template>
 
 <page-query>
-query Podcast {
-   allPodcast (sortBy: "date", order: DESC) {
-      edges {
-         node {
-            id,
-            path,
-            slug,
-            title,
-            date,
-            description,
-            mixcloudLink,
-            playlist {
-             sets {
-               tracks {
-                 artist,
-                 song,
+   query Podcast {
+      allPodcast (sortBy: "date", order: DESC) {
+         edges {
+            node {
+               id,
+               path,
+               slug,
+               title,
+               date,
+               description,
+               shortDescription,
+               mixcloudLink,
+               soundcloudLink,
+               playlist {
+                  sets {
+                     tracks {
+                        artist,
+                        song,
+                        artistLinks {
+                           appleMusic,
+                           bandcamp,
+                           facebook,
+                           googleMusic,
+                           instagram,
+                           soundcloud,
+                           spotify,
+                           twitter,
+                           website,
+                           youtube
+                        }
+                     }
+                  }
                }
-             }
             }
          }
       }
    }
-}
 </page-query>
 
 <script>
-
-/*
-   options: _id, id, path,
-*/
-
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Container from '~/components/Container.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
@@ -59,7 +68,9 @@ query Podcast {
    export default {
       metaInfo: {
          title: 'Podcasts',
-         description: 'Add Meta Description...',
+         meta: [
+            { description: 'Add Meta Description...' }
+         ]
       },
       components: {
          Breadcrumb,

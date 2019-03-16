@@ -6,13 +6,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair|Roboto');
 
 @import "node_modules/normalize.css/normalize";
+@import "node_modules/vue-js-modal/dist/styles";
 
 @import "base/body";
 @import "base/typography";
 @import "base/media";
 @import "base/lists";
-@import "base/forms";
-@import "base/tables";
 
 /*
 @import "layouts/container";

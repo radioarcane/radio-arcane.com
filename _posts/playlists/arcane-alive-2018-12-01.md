@@ -1,6 +1,7 @@
 ---
 layout: playlist
-title: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | Androspore'
+title: '2018-12-01 Arcane Alive'
+display_name: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | Androspore'
 type: arcane-alive
 date: '2018-12-01'
 sets:

@@ -1,6 +1,7 @@
 ---
 layout: playlist
-title: 'Radio Arcane: Gotičková & Dark Market'
+title: '2019-03-02 Radio Arcane'
+display_name: 'Radio Arcane: Gotičková & Dark Market'
 type: radio-arcane
 date: '2019-03-02'
 sets:

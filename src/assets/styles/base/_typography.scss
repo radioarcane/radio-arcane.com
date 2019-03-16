@@ -6,64 +6,40 @@ h4,
 h5,
 h6 {
    font-family: $heading-font;
-   color: $headings-color;
-   line-height: $headings-line-height;
-   font-weight: $headings-font-weight;
+   color: inherit;
+   line-height: 1.1;
+   font-weight: 500;
 	position: relative;
    margin: 0 0 1.25rem;
    text-rendering: optimizeLegibility;
 }
 
 h1 {
-   font-size: $font-size-h1-sm;
-
-   @include breakpoint($screen-l-min) {
-      font-size: $font-size-h1;
-   }
+   @include fluid-type($screen-s-min, $screen-xxl-min, 42px, 50px);
 }
 
 h2 {
-   font-size: $font-size-h2-sm;
-
-   @include breakpoint($screen-l-min) {
-      font-size: $font-size-h2;
-   }
+   @include fluid-type($screen-s-min, $screen-xxl-min, 36px, 42px);
 }
 
 h3 {
-   font-size: $font-size-h3-sm;
-
-   @include breakpoint($screen-l-min) {
-      font-size: $font-size-h3;
-   }
+   @include fluid-type($screen-s-min, $screen-xxl-min, 30px, 36px);
 }
 
 h4 {
-   font-size: $font-size-h4-sm;
-
-   @include breakpoint($screen-l-min) {
-      font-size: $font-size-h4;
-   }
+   @include fluid-type($screen-s-min, $screen-xxl-min, 24px, 30px);
 }
 
 h5 {
-   font-size: $font-size-h5-sm;
-
-   @include breakpoint($screen-l-min) {
-      font-size: $font-size-h5;
-   }
+   @include fluid-type($screen-s-min, $screen-xxl-min, 22px, 24px);
 }
 
 h6 {
-   font-size: $font-size-h6-sm;
-
-   @include breakpoint($screen-l-min) {
-      font-size: $font-size-h6;
-   }
+   @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 22px);
 }
 
 p {
-   margin: 0 0 1rem;
+   margin: 0 0 1.25rem;
 }
 
 a {

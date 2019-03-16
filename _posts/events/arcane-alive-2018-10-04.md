@@ -1,11 +1,12 @@
 ---
 layout: event
-title: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTRA'
+title: '2018-10-04 Arcane Alive'
+display_name: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTRA'
 event_type: arcane-alive
 date: '2018-10-04'
 start_datetime: ''
 end_datetime: ''
-image: ''
+image: '/img/uploads/arcane-alive-2018-10-04--2x.jpg'
 description: |-
   Art Sanctuary presents : Arcane Alive!
 
@@ -51,7 +52,7 @@ description: |-
 
   $5. cover
 short_description: 'Live performances by Ominous Erotica. Decide Today, and ULTRA'
-location: 123abb00-44e1-11e9-a537-716249173299
+location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/226390288222463/'
 tickets_link: ''
 playlist: ''

@@ -44,19 +44,10 @@
                to: '/podcasts',
             }, {
                name: 'Arcane Alive',
-               to: '/',
+               to: '/arcane-alive',
             }, {
                name: 'Playlists',
                to: '/playlists',
-            }, {
-               name: 'Blog',
-               to: '/',
-            }, {
-               name: 'Shop',
-               to: '/',
-            }, {
-               name: 'Links',
-               to: '/',
             }]
          }
       }

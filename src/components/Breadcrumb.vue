@@ -28,7 +28,6 @@
       name: 'Breadcrumb',
       props: {
          crumbs: {
-            default: [],
             type: Array,
          }
       },

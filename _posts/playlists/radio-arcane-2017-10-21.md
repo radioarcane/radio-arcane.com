@@ -1,6 +1,7 @@
 ---
 layout: playlist
-title: 'Radio Arcane: der Anfang- a Va Va Vamp After-Party'
+title: '2017-10-21 Radio Arcane'
+display_name: 'Radio Arcane: der Anfang- a Va Va Vamp After-Party'
 type: radio-arcane
 date: '2017-10-21'
 sets:

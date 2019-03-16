@@ -65,15 +65,14 @@
          display: inline-block;
          vertical-align: middle;
          line-height: 1;
-         font-size: 30px;
          line-height: 1em;
-         margin: 0 16px;
+         margin: 0 0.25em;
          text-align: center;
          text-decoration: none;
+         @include fluid-type($screen-s-min, $screen-xxl-min, 30px, 50px);
 
          @include breakpoint($screen-m-min) {
-            margin: 0 12px;
-            font-size: 40px;
+            top: 1em;
          }
 
          &:hover,

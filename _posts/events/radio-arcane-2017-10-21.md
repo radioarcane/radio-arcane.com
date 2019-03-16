@@ -1,11 +1,12 @@
 ---
 layout: event
-title: 'Radio Arcane: der Anfang- a Va Va Vamp After-Party'
+title: '2017-10-21 Radio Arcane'
+display_name: 'Radio Arcane: der Anfang- a Va Va Vamp After-Party'
 event_type: radio-arcane
 date: '2017-10-21'
 start_datetime: ''
 end_datetime: ''
-image: ''
+image: '/img/uploads/radio-arcane-2017-10-21--2x.jpg'
 description: >-
   Art Sanctuary presents: der Anfang -
 
@@ -59,8 +60,8 @@ description: >-
 
   Costumes encouraged!
 short_description: ''
-location: 123abb00-44e1-11e9-a537-716249173299
+location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/1979043488978168/'
 tickets_link: ''
-playlist: e24750d0-44fd-11e9-977b-31d0f18d4bb7
+playlist: '2017-10-21 Radio Arcane'
 ---

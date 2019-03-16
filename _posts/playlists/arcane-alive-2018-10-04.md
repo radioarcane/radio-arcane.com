@@ -1,6 +1,7 @@
 ---
 layout: playlist
-title: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTRA'
+title: '2018-10-04 Arcane Alive'
+display_name: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTRA'
 type: arcane-alive
 date: '2018-10-04'
 sets:

@@ -1,17 +1,51 @@
 <template>
    <Layout>
-      <Container class="text-center">
-         <Breadcrumb v-bind:crumbs="crumbs" />
+      <Container>
+         <Breadcrumb :crumbs="crumbs" />
 
-         <Title>Events</Title>
+         <article v-if="getNextEvent($page.allEvent.edges)">
+            <Title>Next Event</Title>
+            <Event :event="getNextEvent($page.allEvent.edges)" />
+         </article>
 
-          <div v-for="{ node } in $page.allEvent.edges" :key="node.id">
-             <p>
-               <g-link class="nav-footer__link" v-bind:to="`/events/${node.slug}`">
-                  {{ node.title }}
-               </g-link>
-             </p>
-          </div>
+         <section v-if="totalFutureEvents">
+            <Title>Upcoming Event Schedule</Title>
+
+            <ul>
+               <li v-for="{ node } in getFutureEvents($page.allEvent.edges)" :key="node.id">
+                  <a v-if="node.facebookEventLink" :href="node.facebookEventLink" target="_blank">
+                     {{ node.date | moment("dddd, MMMM D, YYYY") }} &ndash; {{ node.displayName }}
+                  </a>
+
+                  <span v-if="!node.facebookEventLink">
+                     {{ node.date | moment("dddd, MMMM D, YYYY") }} &ndash; {{ node.displayName }}
+                  </span>
+               </li>
+            </ul>
+
+         </section>
+
+         <section>
+            <Title>Past Events</Title>
+
+            <GridContainer>
+               <GridItem
+                  v-for="{ node } in getPastEvents($page.allEvent.edges, true)"
+                  :key="node.id"
+                  :sizes="{
+                     xs: 12, sm: 12, md: 6, lg: 4
+                  }"
+               >
+                  <EventCard :event="node" />
+               </GridItem>
+            </GridContainer>
+
+            <Center v-if="totalPastEvents > pageSize">
+               <Btn @click.native="pageSize += pageSize" variant="hollow">
+                  Load More Past Events
+               </Btn>
+            </Center>
+         </section>
       </Container>
    </Layout>
 </template>
@@ -25,14 +59,63 @@
                path,
                slug,
                title,
+               displayName,
+               eventType,
                date,
                startDatetime,
                endDatetime,
-               image,
+               image (width: 480, quality: 80),
                description,
                shortDescription,
                facebookEventLink,
                ticketsLink,
+               expired,
+               location {
+                  title,
+                  address,
+                  address2,
+                  city,
+                  state,
+                  zipcode,
+                  venueLink,
+                  googleMapLink,
+               }
+               playlist {
+                  sets {
+                     djName,
+                     guestDj,
+                     performer,
+                     performerLinks {
+                        appleMusic,
+                        bandcamp,
+                        facebook,
+                        googleMusic,
+                        instagram,
+                        soundcloud,
+                        spotify,
+                        twitter,
+                        website,
+                        youtube
+                     },
+                     tracks {
+                        artist,
+                        song,
+                        request,
+                        artistLinks {
+                           appleMusic,
+                           bandcamp,
+                           facebook,
+                           googleMusic,
+                           instagram,
+                           soundcloud,
+                           spotify,
+                           twitter,
+                           website,
+                           youtube
+                        }
+                     }
+                  }
+               }
             }
          }
       }
@@ -40,35 +123,102 @@
 </page-query>
 
 <script>
-
-/*
-   options: _id, id, path,
-*/
-
    import Breadcrumb from '~/components/Breadcrumb.vue';
+   import Btn from '~/components/Btn.vue';
+   import Center from '~/components/Center.vue';
    import Container from '~/components/Container.vue';
+   import Event from '~/components/Event.vue';
+   import EventCard from '~/components/EventCard';
+   import GridContainer from '~/components/GridContainer';
+   import GridItem from '~/components/GridItem';
    import Title from '~/components/Title.vue';
 
    export default {
       metaInfo: {
          title: 'Events',
-         description: 'Add Meta Description...',
+         meta: [
+            { description: 'Add Meta Description...' }
+         ]
       },
       components: {
          Breadcrumb,
+         Btn,
+         Center,
          Container,
+         Event,
+         EventCard,
+         GridContainer,
+         GridItem,
          Title
       },
       data () {
-
-         console.log('Events this...');
-         console.log(this.$page);
-
          return {
             crumbs: [{
                name: 'Events',
                to: '/events'
-            }]
+            }],
+            pageSize: 6,
+         };
+      },
+      methods: {
+         getNextEvent (events = []) {
+            let nextEvent = null;
+
+            if (!events.length) {
+               return null;
+            }
+
+            let upcomingEvents = events
+                                 .filter(ev => ev.node.expired === false)
+                                 .map(ev => ev.node);
+
+            if (upcomingEvents.length) {
+               return upcomingEvents[upcomingEvents.length-1];
+            }
+
+            return events[events.length-1].node;
+         },
+         getPastEvents (events = [], paginate = false) {
+            const nextEvent = this.getNextEvent(events);
+            let eventId = null;
+
+            if (nextEvent) {
+               eventId = nextEvent.id;
+            }
+
+            const pastEvents = events.filter(ev => {
+               if (ev.node.id === eventId) {
+                  return false;
+               }
+
+               return ev.node.expired === true;
+            });
+
+            return paginate ? pastEvents.slice(0, this.pageSize) : pastEvents;
+         },
+         getFutureEvents (events = []) {
+            const nextEvent = this.getNextEvent(events);
+            let eventId = null;
+
+            if (nextEvent) {
+               eventId = nextEvent.id;
+            }
+
+            return events.filter(ev => {
+               if (ev.node.id === eventId) {
+                  return false;
+               }
+
+               return ev.node.expired === false;
+            }).reverse();
+         }
+      },
+      computed: {
+         totalPastEvents: function() {
+            return this.getPastEvents(this.$page.allEvent.edges).length;
+         },
+         totalFutureEvents: function() {
+            return this.getFutureEvents(this.$page.allEvent.edges).length;
          }
       }
    }

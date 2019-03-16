@@ -5,6 +5,8 @@ import DefaultLayout from '~/layouts/Default.vue';
 import '~/assets/styles/main.scss';
 import vueMoment from 'vue-moment';
 
+import VModal from 'vue-js-modal/dist/ssr.index';
+
 export default function (Vue, { router, head, isClient }) {
    // Set default layout as a global component
 
@@ -14,6 +16,13 @@ export default function (Vue, { router, head, isClient }) {
    };
 
    Vue.use(vueMoment);
+
+
+   Vue.use(VModal, {
+      dynamic: true,
+      injectModalsContainer: true
+   });
+
 
    Vue.component('Layout', DefaultLayout);
 }

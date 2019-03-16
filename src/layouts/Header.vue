@@ -2,15 +2,19 @@
    <header class="mast-header" role="banner">
       <div class="mast-header__brand">
          <g-link to="/">
-            <img src="/img/dev/logo-500x.png" alt="Radio Arcane - Dark Eclectic Music" />
+            <img src="/img/logo--radio-arcane.png" alt="Radio Arcane" />
          </g-link>
       </div>
 
       <div class="mast-header__nav">
-         <nav id="navigation" class="mast-nav" role="navigation">
+         <nav id="navigation"
+             class="mast-nav"
+             :class="{'mast-nav--active' : activeNav}"
+             role="navigation"
+         >
             <ul class="nav-menu">
                <li v-for="(item, index) in links" class="nav-menu__item" :key="index">
-                  <g-link class="nav-menu__link" v-bind:to="item.to">
+                  <g-link class="nav-menu__link" :to="item.to">
                      {{ item.name }}
                   </g-link>
                </li>
@@ -22,7 +26,13 @@
          <SocialIcons />
       </div>
 
-      <a id="nav-toggle" class="nav-toggle" title="Menu">
+      <a id="nav-toggle"
+         class="nav-toggle"
+         :class="{'nav-toggle--active' : activeNav}"
+         :title="activeNav ? 'Close Menu' : 'Open Menu'"
+         :href="activeNav ? '#' : '#navigation'"
+         @click.prevent="activeNav = !activeNav"
+      >
          <span></span>
          <span></span>
          <span></span>
@@ -39,6 +49,7 @@
       },
       data: () => {
          return {
+            activeNav: false,
             links: [{
                name: 'Home',
                to: '/',
@@ -53,19 +64,10 @@
                to: '/podcasts',
             }, {
                name: 'Arcane Alive',
-               to: '/',
+               to: '/arcane-alive',
             }, {
                name: 'Playlists',
                to: '/playlists',
-            }, {
-               name: 'Blog',
-               to: '/',
-            }, {
-               name: 'Shop',
-               to: '/',
-            }, {
-               name: 'Links',
-               to: '/',
             }]
          }
       }
@@ -95,10 +97,17 @@
       &__brand {
          width: 225px;
          margin-left: ($gutter-width / 2);
+         padding-bottom: 0.5rem;
+         transition: all 150ms ease-in-out;
 
          @include breakpoint($screen-l-min) {
-            width: 400px;
+            width: 300px;
             margin-left: 0;
+            padding-bottom: 0;
+         }
+
+         @include breakpoint($screen-xl-min) {
+            width: 400px;
          }
       }
 
@@ -121,7 +130,7 @@
             background: inherit;
             margin: 0;
             position: absolute;
-            top: 0.5rem;
+            top: 1rem;
             right: $gutter-width;
          }
 
@@ -167,6 +176,13 @@
       }
    }
 
+   #navigation {
+      &:target {
+         overflow: auto;
+         max-height: 5000px;
+      }
+   }
+
    .mast-nav {
       font-family: $heading-font;
       text-transform: uppercase;
@@ -178,6 +194,7 @@
       background: linear-gradient(135deg, darken($secondary-color, 20%) 20%, $secondary-color 80%);
       opacity: 0.75;
       box-shadow: inset 0 0 100px $black;
+      @include fluid-type($screen-s-min, $screen-m-min, 18px, 20px);
 
       &--active {
          overflow: auto;
@@ -189,22 +206,19 @@
          max-height: none;
          background: transparent;
          opacity: 1;
-      }
-
-      @include breakpoint($screen-m-min) {
          font-size: 18px;
       }
 
       @include breakpoint($screen-l-min) {
-         font-size: 22px;
-      }
-
-      @include breakpoint($screen-xl-min) {
          font-size: 24px;
       }
 
-      @include breakpoint($screen-xxl-min) {
+      @include breakpoint($screen-xl-min) {
          font-size: 28px;
+      }
+
+      @include breakpoint($screen-xxl-min) {
+         font-size: 32px;
       }
    }
 
@@ -264,14 +278,7 @@
          }
 
          @include breakpoint($screen-l-min) {
-            padding: 0.45em 0.4em 0.25em;
-         }
-
-         @include breakpoint($screen-xl-min) {
-
-         }
-
-         @include breakpoint($screen-xxl-min) {
+            padding: 0.3em 0.4em 0.2em;
          }
       }
    }

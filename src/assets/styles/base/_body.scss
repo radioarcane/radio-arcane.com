@@ -6,14 +6,13 @@
    }
 }
 
+html {
+   font-size: $font-base-size;
+}
+
 html,
 body {
    height: 100%;
-   font-size: $font-size-base;
-
-   @include breakpoint($screen-xl-min) {
-      font-size: 18px;
-   }
 }
 
 body {
@@ -25,4 +24,5 @@ body {
    line-height: $line-height-default;
    margin: 0;
    padding: 0;
+   @include fluid-type($screen-s-min, $screen-xxl-min, $font-base-size, 22px);
 }

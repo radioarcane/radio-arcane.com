@@ -1,29 +1,12 @@
 <template>
-   <div class="container" v-bind:class="getClass()" >
+   <div class="container">
       <slot />
    </div>
 </template>
 
 <script>
    export default {
-      name: 'Container',
-      props: {
-         className: {
-            default: '',
-            type: String,
-         }
-      },
-      methods: {
-         getClass() {
-            let classes = {};
-
-            if (this.$props.className) {
-               classes[this.$props.className] = true;
-            }
-
-            return classes;
-         },
-      }
+      name: 'Container'
    }
 </script>
 

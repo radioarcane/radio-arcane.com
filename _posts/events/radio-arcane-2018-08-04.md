@@ -1,11 +1,12 @@
 ---
 layout: event
-title: 'Radio Arcane: Festa Nova: A Summer Dance Party : The Dark Market'
+title: '2018-08-04 Radio Arcane'
+display_name: 'Radio Arcane: Festa Nova: A Summer Dance Party : The Dark Market'
 event_type: radio-arcane
 date: '2018-08-04'
 start_datetime: '2018-08-04 19:00:00'
 end_datetime: '2018-08-05 15:00:00'
-image: ''
+image: '/img/uploads/radio-arcane-2018-08-04--2x.jpg'
 description: |-
   adio Arcane: Festa Nova: The Dark Market
 
@@ -49,7 +50,7 @@ description: |-
 
   Free Entry from 7pm until 10pm. $5 entry after 10pm.
 short_description: ''
-location: 123abb00-44e1-11e9-a537-716249173299
+location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/215484165721999/'
 tickets_link: ''
 playlist: ''

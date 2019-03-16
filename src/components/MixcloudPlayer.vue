@@ -1,9 +1,9 @@
 <template>
    <div class="mixcloud-player">
-      <iframe width="100%" height="120" v-bind:src="getSrc()" frameborder="0" />
+      <iframe width="100%" height="120" :src="getSrc()" frameborder="0" />
 
       <noscript>
-         <iframe width="100%" height="120" v-bind:src="getSrc()" frameborder="0" />
+         <iframe width="100%" height="120" :src="getSrc()" frameborder="0" />
       </noscript>
    </div>
 </template>
@@ -19,7 +19,6 @@
       },
       methods: {
          getSrc() {
-
             const urlParts = this.$props.url.toString()
                              .split('/')
                              .filter(str => str !== '')
