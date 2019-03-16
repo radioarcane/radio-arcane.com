@@ -47,7 +47,7 @@ sets:
       - artist: Slick Idiot
         song: Wer Bist Du?
       - artist: 1000 Homo DJs
-        song: Supernaut"
+        song: Supernaut
       - artist: Die Warzau
         song: Disembody
       - artist: Siouxsie & The Banshees
