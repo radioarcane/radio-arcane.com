@@ -41,11 +41,11 @@ collections:
       - {label: "End DateTime", name: "end_datetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
       - {label: "Image", name: "image", widget: "image", required: false, default: ""}
       - {label: "Description", name: "description", widget: "markdown", required: false, default: ""}
-      - {label: "Short Description", name: "short_description", widget: "string", required: false, default: ""}-
+      - {label: "Short Description", name: "short_description", widget: "string", required: false, default: ""}
       - {label: "Location", name: "location", widget: "relation", collection: "locations", searchFields: ["title"], valueField: "title", displayFields: ["title"], required: false, default: ""}
       - {label: "Facebook Event Link", name: "facebook_event_link", widget: "string", required: false, default: ""}
       - {label: "Tickets Link", name: "tickets_link", widget: "string", required: false, default: ""}
-      - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "display_name"]}, valueField: "title", displayFields: ["title"]
+      - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "display_name"], valueField: "title", displayFields: ["title"]}
   - name: "podcasts"
     label: "Podcasts"
     label_singular: "Podcast"
@@ -61,7 +61,7 @@ collections:
       - {label: "Short Description", name: "short_description", widget: "string", required: false, default: ""}
       - {label: "Mixcloud Link", name: "mixcloud_link", widget: "string", required: false, default: ""}
       - {label: "Soundcloud Link", name: "soundcloud_link", widget: "string", required: false, default: ""}
-      - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "display_name"]}, valueField: "title", displayFields: ["title"]
+      - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "display_name"], valueField: "title", displayFields: ["title"]}
   - name: "playlists"
     label: "Playlists"
     label_singular: "Playlist"

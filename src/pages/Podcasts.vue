@@ -1,6 +1,6 @@
 <template>
    <Layout>
-      <Container class="text-center">
+      <Container>
          <Breadcrumb v-bind:crumbs="crumbs" />
 
          <Title>Podcasts</Title>
@@ -11,9 +11,16 @@
                :url="node.mixcloudLink"
             />
 
-            <g-link class="nav-menu__link" :to="`/podcasts/${ node.path }`">
-               Link
+            <g-link class="nav-menu__link" :to="`${ node.path }`">
+               Link to Page Test...
             </g-link>
+
+            <b>
+               ADD SHORT DESCRIPTION... ADD IMAGE TO SHOW ON PAGE...
+               RESTYLE INTO CARD
+            </b>
+
+            <hr />
           </div>
       </Container>
    </Layout>
