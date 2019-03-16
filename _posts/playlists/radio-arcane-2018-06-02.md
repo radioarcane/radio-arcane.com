@@ -6,17 +6,12 @@ type: radio-arcane
 date: '2018-06-02'
 sets:
   - dj_name: Talamasca & Thulsa Goon
-    guest_dj: ''
-    tracks:
-    type: 'dj_set'
+    type: dj_set
   - dj_name: AndrOspore
-    guest_dj: ''
-    tracks:
     type: 'dj_set'
   - performer: The Kentucky Vampires
     type: performance
   - dj_name: Sorrow-Vomit
-    guest_dj: ''
     type: 'dj_set'
     tracks:
       - artist: Ash Code
@@ -42,7 +37,5 @@ sets:
       - artist: Dance Or Die
         song: Dance Or Die
   - dj_name: Osiris Ani
-    guest_dj: ''
-    tracks:
     type: 'dj_set'
 ---

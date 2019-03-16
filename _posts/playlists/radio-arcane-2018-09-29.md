@@ -6,7 +6,7 @@ type: radio-arcane
 date: '2018-09-29'
 sets:
   - dj_name: Sorrow-Vomit
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: H ø R D
         song: Tearwave
@@ -57,7 +57,7 @@ sets:
       - artist: Babel 17
         song: Angels of T.V.
   - dj_name: Kaleidoscope
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Noisuf-X
         song: This Is Genocide
@@ -90,7 +90,7 @@ sets:
       - artist: Skinny Puppy
         song: Far Too Frail
   - dj_name: Thulsa Goon
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Gregory James Jenkins
         song: Slooooow Moooootion
@@ -123,7 +123,7 @@ sets:
       - artist: Body of Light
         song: Watch Your Back
   - dj_name: Sorrow-Vomit
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: So What?
         song: Enter The Batcave (And Dance)
@@ -159,11 +159,10 @@ sets:
         song: Gallowdance
       - artist: Angels of Liberty
         song: Monster In Me
-  - dj_name: ''
-    guest_dj: 'Guest DJ Brian Cole from Funeral Party Records'
-    tracks:
+  - guest_dj: 'Guest DJ Brian Cole from Funeral Party Records'
+    type: dj_set
   - dj_name: Talamasca
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: KMFDM
         song: Amnesia (Kap'n K Remix)
@@ -202,7 +201,7 @@ sets:
       - artist: Assemblage 23
         song: Opened
   - dj_name: Osiris Ani
-    guest_dj: ''
+    type: dj_set
     tracks:
       - artist: Skinny Puppy
         song: Assimilate (r23 Remix)

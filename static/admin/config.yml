@@ -85,7 +85,7 @@ collections:
             required: false
             default: {"dj": "", "guest_dj": ""}
             fields:
-              - {label: "DJ", name: "dj", widget: "select", options: ["", "AndrOspore", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon"], required: false, default: ""}
+              - {label: "DJ", name: "dj_name", widget: "select", options: ["", "AndrOspore", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon"], required: false, default: ""}
               - {label: "Guest DJ", name: "guest_dj", widget: "string", required: false, default: ""}
               - label: "Tracks"
                 name: "tracks"

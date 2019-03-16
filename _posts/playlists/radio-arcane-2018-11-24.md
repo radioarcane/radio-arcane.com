@@ -6,10 +6,8 @@ type: radio-arcane
 date: '2018-11-24'
 sets:
   - dj_name: Kaleidoscope
-    guest_dj: ''
-    tracks:
+    type: dj_set
   - dj_name: Osiris Ani
-    guest_dj: ''
     tracks:
       - artist: The Danse Society
         song: We're So Happy
@@ -46,8 +44,8 @@ sets:
       - artist: Curse of Cassandra
         song: Grimhilde
       - artist: Switchblade Symphony
-        song: Clown (Leæther Strip Mix)
+        song: Clown (Leæther Strip Mix)   
+    type: dj_set
   - dj_name: Brian Drabant
-    guest_dj: ''
-    tracks:
+    type: dj_set
 ---
