@@ -47,7 +47,7 @@
                title,
                displayName,
                date,
-               type,
+               playlistType,
                sets {
                   djName,
                   guestDj,
@@ -131,7 +131,7 @@
                return playlists;
             }
 
-            return playlists.filter(item => item.node.type === filter);
+            return playlists.filter(item => item.node.playlistType === filter);
          }
       }
    }
