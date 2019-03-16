@@ -13,6 +13,13 @@
             </Heading>
 
             <Event :event="$page.events.edges[0].node" />
+
+            <Center>
+               <Btn to="/events" variant="hollow">
+                  <span>Checkout Other Upcoming Events</span>
+                  <SvgIcon name="right-open" use="right-open" />
+               </Btn>
+            </Center>
          </section>
 
          <hr />
@@ -79,11 +86,13 @@
 
 <script>
    import Btn from '~/components/Btn.vue';
+   import Center from '~/components/Center.vue';
    import Container from '~/components/Container.vue';
    import Event from '~/components/Event.vue';
    import Heading from '~/components/Heading.vue';
    import FlashContainer from '~/components/FlashContainer.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
+   import SvgIcon from '~/components/SvgIcon.vue';
 
    export default {
       metaInfo: {
@@ -94,11 +103,13 @@
       },
       components: {
          Btn,
+         Center,
          Container,
          Event,
          FlashContainer,
          Heading,
          MixcloudPlayer,
+         SvgIcon,
       },
    }
 </script>

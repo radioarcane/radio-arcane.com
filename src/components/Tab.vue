@@ -32,7 +32,7 @@
       display: block;
       border-top-left-radius: .25rem;
       border-top-right-radius: .25rem;
-      font-size: 1rem;
+      @include fluid-type($screen-s-min, $screen-xxl-min, $font-base-size, 22px);
       padding: .5rem 1rem;
       background: transparent;
       color: $white;
@@ -40,11 +40,24 @@
       border-bottom: 0;
       transition: all .2s ease-in-out;
       margin: 0 2px 0 0;
+
+      &:hover,
+      &:focus,
+      &:active {
+         color: $white;
+         border-color: hex-to-rgba($white, 0.5);
+      }
    }
 
    .tab__link__active {
-      border-color: $white;
-      background: $white;
-      color: #333;
+
+      &,
+      &:hover,
+      &:focus,
+      &:active {
+         border-color: $white;
+         background: $white;
+         color: #333;
+      }
    }
 </style>

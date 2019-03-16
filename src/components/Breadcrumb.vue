@@ -39,6 +39,7 @@
       list-style: none;
       padding: 0;
       margin: 0 0 2rem;
+      @include fluid-type($screen-s-min, $screen-xxl-min, $font-base-size, 18px);
 
       &__item {
          display: inline-block;
@@ -52,6 +53,8 @@
          }
 
          &:last-child {
+            opacity: 0.75;
+
             &:after {
                content: "";
                display: none;
@@ -61,7 +64,7 @@
                &,
                &:hover,
                &:focus {
-                  color: $white;
+                  color: $white-smoke;
                }
 
                text-decoration: none;
@@ -72,11 +75,11 @@
 
       &__link {
          text-decoration: underline;
-         color: $white;
+         color: $white-smoke;
 
          &:hover,
          &:focus {
-            color: darken($white, 15%);
+            color: darken($white-smoke, 15%);
          }
       }
    }

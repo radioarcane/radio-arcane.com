@@ -12,31 +12,52 @@
          </time>
       </header>
 
-      <div>
+      <div class="event-playlist__request-info">
          <div v-if="hasArtistRequest">
-            * = Request for Artist
+            <em>*</em> = Request for Artist
          </div>
          <div v-if="hasSongRequest">
-            ** = Request for Song
+            <em>**</em> = Request for Song
          </div>
       </div>
 
       <div v-for="(node, index) in playlist.sets" :key="index">
-        <h3 v-if="node.djName">{{ node.djName }}</h3>
-        <h3 v-else-if="node.guestDj">{{ node.guestDj }}</h3>
-        <h3 v-else-if="node.performer">Performance by: {{ node.performer }}</h3>
+        <h3 v-if="node.djName" class="event-playlist__performer">
+            <span class="event-playlist__performer__name">
+               {{ node.djName }}
+            </span>
+        </h3>
+        <h3 v-else-if="node.guestDj" class="event-playlist__performer">
+            <span class="event-playlist__performer__name">
+               {{ node.guestDj }}
+            </span>
+        </h3>
+        <h3 v-else-if="node.performer" class="event-playlist__performer">
+           <span class="event-playlist__performer__name">
+             Performance by: {{ node.performer }}
+           </span>
+
+           <a v-if="getPerformerLinks(node)"
+             @click.prevent="showArtistLinksModal(node.performer, node.performerLinks)"
+             :title="`Stream or follow ${ node.performer }`"
+             class="artist-info"
+           >
+             <InfoIcon class="icon icon-info" />
+           </a>
+        </h3>
 
         <ul v-if="node.tracks && node.tracks.length" class="playlist">
            <li v-for="(track, j) in node.tracks" class="playlist__track" :key="j">
              <div class="track" itemprop="track" itemscope="" itemtype="http://schema.org/MusicRecording">
                 <span class="track__artist" itemprop="byArtist">{{ track.artist }}</span> - <span class="track__song" itemprop="name">{{ track.song }}</span>
 
-                <span class="track__request" v-if="track.request && track.request === 'artist'">*</span>
-                <span class="track__request" v-else-if="track.request && track.request === 'song'">**</span>
+                <em class="track__request" v-if="track.request && track.request === 'artist'">*</em>
+                <em class="track__request" v-else-if="track.request && track.request === 'song'">**</em>
 
                 <a v-if="getArtistLinks(track)"
                    @click.prevent="showArtistLinksModal(track.artist, track.artistLinks)"
                    :title="`Stream or follow ${ track.artist }`"
+                   class="artist-info"
                 >
                    <InfoIcon class="icon icon-info" />
                 </a>
@@ -124,6 +145,21 @@
 
             return Object.keys(links).length ? links : null;
          },
+         getPerformerLinks (node) {
+            if (!node.performerLinks) {
+               return null;
+            }
+
+            let links = Object.assign({}, node.performerLinks);
+
+            Object.keys(links).forEach(key => {
+               if (!links[key]) {
+                  delete links[key];
+               }
+            });
+
+            return Object.keys(links).length ? links : null;
+         },
          showArtistLinksModal (artist, links = {}) {
             this.$modal.show(ArtistLinksModal, {
               artist,
@@ -132,11 +168,9 @@
               draggable: true
            });
          },
-
          hideArtistLinksModal () {
-               this.$modal.hide('artist-links');
+            this.$modal.hide('artist-links');
          }
-
       }
    }
 </script>
@@ -152,7 +186,7 @@
 
       &__header {
          border-bottom: 1px solid hex-to-rgba($white, 0.7);
-         margin: 0 0 ($padding-vertical * 2);
+         margin: 0 0 $padding-vertical;
          padding: 0 0 0.5em;
       }
 
@@ -164,29 +198,101 @@
 
       }
 
-      $light: rgba(250,250,250,.9);
-      $dark: rgba(0,0,0,.8);
+      &__request-info {
+         font-size: 16px;
+         margin: 0 0 1rem;
 
-      @keyframes lightbleed-box {
-      	0%	{ box-shadow:  0 0 6px rgba(255,255,255,.8); }
-      	25% { box-shadow: 0 0 9px $light; }
-      	50%{ box-shadow: 0 0 9px rgba(255,255,255,.75); }
-      	75% { box-shadow: 0 0 10px $light; }
-      	100%{ box-shadow: 0 0 5px rgba(250,250,250,.8); }
+         em {
+            color: $danger-color;
+         }
+      }
+
+      &__performer {
+         &__name {
+            display: inline-block;
+            vertical-align: middle;
+         }
       }
    }
 
-.playlist {
-   list-style: none;
-   padding: 0;
-   margin: 0 0 ($padding-vertical * 2);
+   @keyframes lightbleed-box {
+      0%	{ box-shadow:  0 0 6px rgba(255,255,255,.8); }
+      25% { box-shadow: 0 0 9px rgba(250,250,250,.9); }
+      50%{ box-shadow: 0 0 9px rgba(255,255,255,.75); }
+      75% { box-shadow: 0 0 10px rgba(250,250,250,.9); }
+      100%{ box-shadow: 0 0 5px rgba(250,250,250,.8); }
+   }
 
-   &__track {
-      position: relative;
+   .playlist {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 ($padding-vertical * 2);
+   }
+
+   .artist-info {
+      margin-left: 4px;
+      display: inline-block;
+      vertical-align: top;
+      font-size: 125%;
+      line-height: 1;
+      color: $white;
+      opacity: 0.75;
+      transition: all 150ms ease-in-out;
+      transform: scale(1);
+
+      &:active,
+      &:hover,
+      &:focus {
+         color: $white;
+         opacity: 1;
+         transform: scale(1.1);
+      }
    }
 
    .track {
       display: inline-block;
+      vertical-align: top;
+
+      &__artist {
+
+      }
+
+      &__song {
+         quotes: "“" "”" "‘" "’";
+
+         &:before {
+            content: open-quote;
+         }
+
+         &:after {
+            content: close-quote;
+         }
+      }
+
+      &__request {
+         color: $danger-color;
+         display: inline-block;
+         margin-left: 4px;
+      }
+
+      &__info {
+         margin-left: 4px;
+         display: inline-block;
+         vertical-align: top;
+         font-size: 125%;
+         line-height: 1;
+         color: $white;
+         opacity: 0.75;
+         transition: all 150ms ease-in-out;
+         transform: scale(1);
+
+         &:active,
+         &:hover,
+         &:focus {
+            color: $white;
+            opacity: 1;
+            transform: scale(1.1);
+         }
+      }
    }
-}
 </style>

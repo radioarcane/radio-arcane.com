@@ -62,12 +62,12 @@
          <div class="event__actions">
             <GridContainer>
                <GridItem v-if="event.facebookEventLink">
-                  <Btn :href="event.facebookEventLink" target="_blank">
+                  <Btn :href="event.facebookEventLink" variant="facebook" target="_blank">
                      <svg class="icon icon-facebook"><use xlink:href="#facebook"></use></svg> <span>Facebook Event</span>
                   </Btn>
                </GridItem>
                <GridItem v-if="event.ticketsLink && !event.expired">
-                  <Btn v-if="event.facebookEventLink" :href="event.ticketsLink" target="_blank">
+                  <Btn v-if="event.ticketsLink" :href="event.ticketsLink" target="_blank">
                      <svg class="icon icon-ticket"><use xlink:href="#ticket"></use></svg> <span>Advanced Tickets</span>
                   </Btn>
                </GridItem>

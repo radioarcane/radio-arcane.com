@@ -2,6 +2,7 @@
    <component
       :is="type"
       :to="to"
+      :href="href"
       :class="classNames"
    >
       <slot />
@@ -116,6 +117,19 @@
             border-color: darken($white, 20%);
             color: darken($white, 20%);
             background: transparent;
+         }
+      }
+
+      &--facebook {
+         border-color: #3b5998;
+         background: #3b5998;
+         color: $white;
+
+         &:hover,
+         &:focus,
+         &:active {
+            background: #8b9dc3;
+            color: $white;
          }
       }
    }

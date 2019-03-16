@@ -45,15 +45,4 @@
       box-shadow: inset 0 0 150px $black;
       min-height: 60vh;
    }
-
-   .noise {
-      z-index: -1;
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      pointer-events: none;
-      opacity: .15;
-   }
 </style>
