@@ -74,6 +74,7 @@
       text-transform: uppercase;
       margin: 0 0 1rem;
       opacity: 1;
+      cursor: pointer;
 
       &:hover,
       &:focus,

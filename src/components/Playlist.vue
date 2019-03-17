@@ -165,7 +165,8 @@
               artist,
               links
             }, {
-              draggable: true
+              draggable: true,
+              height: 'auto'
            });
          },
          hideArtistLinksModal () {
