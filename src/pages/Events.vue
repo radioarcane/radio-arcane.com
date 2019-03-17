@@ -70,7 +70,7 @@
                date,
                startDatetime,
                endDatetime,
-               image (width: 480, quality: 80),
+               image,
                description,
                shortDescription,
                facebookEventLink,
@@ -85,42 +85,6 @@
                   zipcode,
                   venueLink,
                   googleMapLink,
-               }
-               playlist {
-                  sets {
-                     djName,
-                     guestDj,
-                     performer,
-                     performerLinks {
-                        appleMusic,
-                        bandcamp,
-                        facebook,
-                        googleMusic,
-                        instagram,
-                        soundcloud,
-                        spotify,
-                        twitter,
-                        website,
-                        youtube
-                     },
-                     tracks {
-                        artist,
-                        song,
-                        request,
-                        artistLinks {
-                           appleMusic,
-                           bandcamp,
-                           facebook,
-                           googleMusic,
-                           instagram,
-                           soundcloud,
-                           spotify,
-                           twitter,
-                           website,
-                           youtube
-                        }
-                     }
-                  }
                }
             }
          }

@@ -43,7 +43,7 @@
    }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
    .card {
        border: 1px solid hex-to-rgba($white-smoke, 0.4);
        margin: 0 0 2rem;
@@ -71,6 +71,7 @@
 
        &__text {
           padding: 1rem 0 0;
+          @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 20px);
        }
 
        &__actions {
