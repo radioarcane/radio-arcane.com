@@ -13,7 +13,6 @@
          </div>
 
          <div class="card__text">
-
             <p :if="event.shortDescription">
                {{ event.shortDescription }}
             </p>
@@ -45,40 +44,41 @@
 </script>
 
 <style lang="scss">
-.card{
-    border:1px solid hsla(0,0%,100%,.7);
-    margin:0 0 2rem;
-    border-radius:8px;
-    overflow:hidden
-}
-.card__img{
-    text-align:center
-}
-.card__body{
-    padding:1rem 30px
-}
-.card__title{
-    font-size:30px;
-    margin:0
-}
-.card__subtitle{
-    font-size:20px;
-    margin:.25em 0 0;
-    color:#ccc
-}
-.card__text{
-    padding:1rem 0 0
-}
-.card__actions{
-    display:-ms-flexbox;
-    display:flex;
-    -ms-flex-wrap:wrap;
-    flex-wrap:wrap;
-    -ms-flex-pack:space-evenly;
-    justify-content:space-evenly;
-    -ms-flex-align:center;
-    align-items:center;
-    -ms-flex-line-pack:center;
-    align-content:center
-}
+   .card {
+       border: 1px solid hex-to-rgba($white-smoke, 0.4);
+       margin: 0 0 2rem;
+       border-radius: 8px;
+       overflow: hidden;
+
+       &__img {
+          text-align: center;
+       }
+
+       &__body {
+          padding: 1rem $gutter-width;
+       }
+
+       &__title {
+          @include fluid-type($screen-s-min, $screen-xxl-min, 24px, 30px);
+          margin: 0;
+       }
+
+       &__subtitle {
+           @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 20px);
+           margin: 0.25em 0 0;
+           opacity: 0.6;
+       }
+
+       &__text {
+          padding: 1rem 0 0;
+       }
+
+       &__actions {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
+          align-items: center;
+          align-content: center;
+       }
+   }
 </style>

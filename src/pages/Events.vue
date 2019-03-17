@@ -4,12 +4,17 @@
          <Breadcrumb :crumbs="crumbs" />
 
          <article v-if="getNextEvent($page.allEvent.edges)">
-            <Title>Next Event</Title>
+            <Heading tag="h1" strike uppercase animate>
+               Next Event
+            </Heading>
+
             <Event :event="getNextEvent($page.allEvent.edges)" />
          </article>
 
          <section v-if="totalFutureEvents">
-            <Title>Upcoming Event Schedule</Title>
+            <Title tag="h2">
+               Upcoming Event Schedule
+            </Title>
 
             <ul>
                <li v-for="{ node } in getFutureEvents($page.allEvent.edges)" :key="node.id">
@@ -22,11 +27,12 @@
                   </span>
                </li>
             </ul>
-
          </section>
 
          <section>
-            <Title>Past Events</Title>
+            <Heading tag="h3" strike uppercase animate>
+               Past Events
+            </Heading>
 
             <GridContainer>
                <GridItem
@@ -42,7 +48,7 @@
 
             <Center v-if="totalPastEvents > pageSize">
                <Btn @click.native="pageSize += pageSize" variant="hollow">
-                  Load More Past Events
+                  <span>Load More Past Events</span> <AngleDownIcon class="icon icon-angle-down" />
                </Btn>
             </Center>
          </section>
@@ -131,7 +137,10 @@
    import EventCard from '~/components/EventCard';
    import GridContainer from '~/components/GridContainer';
    import GridItem from '~/components/GridItem';
+   import Heading from '~/components/Heading';
    import Title from '~/components/Title.vue';
+
+   import AngleDownIcon from '~/assets/svg/angle-down.svg';
 
    export default {
       metaInfo: {
@@ -149,7 +158,9 @@
          EventCard,
          GridContainer,
          GridItem,
-         Title
+         Heading,
+         Title,
+         AngleDownIcon
       },
       data () {
          return {

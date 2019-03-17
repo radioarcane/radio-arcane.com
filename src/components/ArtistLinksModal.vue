@@ -175,6 +175,7 @@
       padding: $padding-vertical $gutter-width;
       @include fluid-type($screen-s-min, $screen-xxl-min, $font-base-size, 20px);
       border: 2px solid hex-to-rgba($white-smoke, 0.5);
+      max-width: 90vw;
 
       &__icons {
          display: flex;

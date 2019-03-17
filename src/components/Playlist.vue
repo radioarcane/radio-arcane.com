@@ -166,7 +166,9 @@
               links
             }, {
               draggable: true,
-              height: 'auto'
+              classes: 'artist-links-modal-box',
+              height: 'auto',
+              scrollable: true,
            });
          },
          hideArtistLinksModal () {
@@ -177,6 +179,19 @@
 </script>
 
 <style lang="scss">
+
+   .artist-links-modal-box {
+      background: transparent;
+      text-align: left;
+      border-radius: 3px;
+      box-shadow: 0 20px 60px -2px rgba(27, 33, 58, 0.4);
+      padding: 0;
+      width: 90vw !important;
+      max-width: 600px !important;
+      left: 50% !important;
+      transform: translateX(-50%);
+   }
+
    .event-playlist {
       border: 20px solid #fff;
       border-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='75' height='75'%3E%3Cg fill='none' stroke='%23FFFFFF' stroke-width='2'%3E%3Cpath d='M1 1h73v73H1z'/%3E%3Cpath d='M8 8h59v59H8z'/%3E%3Cpath d='M8 8h16v16H8zM51 8h16v16H51zM51 51h16v16H51zM8 51h16v16H8z'/%3E%3C/g%3E%3Cg fill='%23FFFFFF'%3E%3Ccircle cx='16' cy='16' r='2'/%3E%3Ccircle cx='59' cy='16' r='2'/%3E%3Ccircle cx='59' cy='59' r='2'/%3E%3Ccircle cx='16' cy='59' r='2'/%3E%3C/g%3E%3C/svg%3E") 25;

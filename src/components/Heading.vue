@@ -1,5 +1,6 @@
 <template>
-   <h2
+   <component
+      :is="tag"
       class="heading"
       :class="{
          'heading--animate': animate,
@@ -8,13 +9,17 @@
       }"
    >
       <slot />
-   </h2>
+   </component>
 </template>
 
 <script>
    export default {
       name: 'Heading',
       props: {
+         tag: {
+            default: 'h2',
+            type: String
+         },
          strike: {
             default: false,
             type: Boolean,
