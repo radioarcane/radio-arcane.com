@@ -33,7 +33,6 @@
          <hr />
 
          <section>
-
             <Heading tag="h2">
                Past Events
             </Heading>

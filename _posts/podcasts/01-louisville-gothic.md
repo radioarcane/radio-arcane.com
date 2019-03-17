@@ -1,6 +1,7 @@
 ---
 layout: podcast
 title: '01 : Louisville Gothic'
+image: '/img/uploads/podcast-01-louisville-goth.jpg'
 date: '2019-01-28'
 description: >-
   Inaugural episode of Radio Arcane with hosts Brian Drabant, Motuvius Rex and

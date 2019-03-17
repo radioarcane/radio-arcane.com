@@ -67,6 +67,7 @@ const defaultPodcast = {
    layout: 'podcast',
    title: null,
    display_name: null,
+   image: null,
    date: null,
    description: null,
    short_description: null,

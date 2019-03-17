@@ -63,7 +63,7 @@
                name: 'Podcasts',
                to: '/podcasts',
             }, {
-               name: 'Arcane Alive',
+               name: 'Arcane Alive!',
                to: '/arcane-alive',
             }, {
                name: 'Playlists',

@@ -22,12 +22,14 @@
             </Center>
          </section>
 
-         <hr />
+         <br /><br />
 
          <section v-if="$page.podcasts.edges.length">
-            <h3>Checkout Our Latest Podcast</h3>
+            <Heading strike animate uppercase tag="h3">
+               Latest Podcast
+            </Heading>
 
-            <MixcloudPlayer :url="$page.podcasts.edges[0].node.mixcloudLink" />
+            <Podcast :podcast="$page.podcasts.edges[0].node" />
          </section>
       </Container>
    </Layout>
@@ -73,6 +75,7 @@
                path,
                slug,
                title,
+               image,
                date,
                description,
                shortDescription,
@@ -93,6 +96,7 @@
    import FlashContainer from '~/components/FlashContainer.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
    import SvgIcon from '~/components/SvgIcon.vue';
+   import Podcast from '~/components/Podcast.vue';
 
    export default {
       metaInfo: {
@@ -110,6 +114,7 @@
          Heading,
          MixcloudPlayer,
          SvgIcon,
+         Podcast,
       },
    }
 </script>

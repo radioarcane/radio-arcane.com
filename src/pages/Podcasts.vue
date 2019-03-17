@@ -5,23 +5,11 @@
 
          <Title>Podcasts</Title>
 
-          <div v-for="{ node } in $page.allPodcast.edges" :key="node.id">
-             <MixcloudPlayer
-               v-if="node.mixcloudLink"
-               :url="node.mixcloudLink"
-            />
-
-            <g-link class="nav-menu__link" :to="`${ node.path }`">
-               Link to Page Test...
-            </g-link>
-
-            <b>
-               ADD SHORT DESCRIPTION... ADD IMAGE TO SHOW ON PAGE...
-               RESTYLE INTO CARD
-            </b>
-
-            <hr />
-          </div>
+         <Podcast
+            v-for="{ node } in $page.allPodcast.edges"
+            :podcast="node"
+            :key="node.id"
+         />
       </Container>
    </Layout>
 </template>
@@ -35,6 +23,7 @@
                path,
                slug,
                title,
+               image,
                date,
                description,
                shortDescription,
@@ -72,6 +61,11 @@
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
    import Title from '~/components/Title.vue';
 
+   import GridContainer from '~/components/GridContainer.vue';
+   import GridItem from '~/components/GridItem.vue';
+
+   import Podcast from '~/components/Podcast.vue';
+
    export default {
       metaInfo: {
          title: 'Podcasts',
@@ -83,7 +77,10 @@
          Breadcrumb,
          Container,
          MixcloudPlayer,
-         Title
+         Title,
+         GridItem,
+         GridContainer,
+         Podcast,
       },
       data () {
          return {
@@ -96,5 +93,45 @@
    }
 </script>
 
-<style>
+<style lang="scss">
+/*
+$screen-xs-min: 0;
+$screen-s-min: 480px;
+$screen-m-min: 768px;
+$screen-l-min: 992px;
+$screen-xl-min: 1200px;
+$screen-xxl-min: 1400px;
+*/
+
+   .podcast-card {
+      display: flex;
+      flex-wrap: wrap;
+
+      &__title {
+
+      }
+
+      &__img {
+         width: 100%;
+         text-align: center;
+         margin: 0 0 1.5rem;
+
+         @include breakpoint($screen-l-min) {
+            width: 300px;
+            margin-right: $gutter-width;
+         }
+      }
+
+      &__content {
+         flex: 1 0 auto;
+      }
+
+      &__player {
+
+      }
+
+      &__blurb {
+         @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 20px);
+      }
+   }
 </style>
