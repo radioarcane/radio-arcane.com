@@ -4,10 +4,20 @@
         itemscope
         itemtype="http://schema.org/MusicPlaylist"
    >
-      <header class="event-playlist__header">
-         <h2 class="event-playlist__title" itemprop="name">{{ playlist.displayName }}</h2>
+      <header
+         v-if="showHeader"
+         class="event-playlist__header"
+         itemscope itemtype="http://schema.org/MusicEvent"
+      >
+         <h2 class="event-playlist__title" itemprop="name">
+            {{ playlist.displayName }}
+         </h2>
 
-         <time :datetime="playlist.date" class="event-playlist__date">
+         <time :datetime="playlist.date"
+               class="event-playlist__date"
+               itemprop="startDate"
+               :content="playlist.date"
+         >
             {{ playlist.date | moment("dddd, MMMM D, YYYY") }}
          </time>
       </header>
@@ -32,9 +42,13 @@
                {{ node.guestDj }}
             </span>
         </h3>
-        <h3 v-else-if="node.performer" class="event-playlist__performer">
+        <h3 v-else-if="node.performer"
+            class="event-playlist__performer"
+            itemscope
+            itemtype="http://schema.org/MusicGroup"
+         >
            <span class="event-playlist__performer__name">
-             Performance by: {{ node.performer }}
+             Performance by: <span itemprop="name">{{ node.performer }}</span>
            </span>
 
            <a v-if="getPerformerLinks(node)"
@@ -48,7 +62,11 @@
 
         <ul v-if="node.tracks && node.tracks.length" class="playlist">
            <li v-for="(track, j) in node.tracks" class="playlist__track" :key="j">
-             <div class="track" itemprop="track" itemscope="" itemtype="http://schema.org/MusicRecording">
+             <div class="track"
+                  itemprop="track"
+                  itemscope
+                  itemtype="http://schema.org/MusicRecording"
+             >
                 <span class="track__artist" itemprop="byArtist">{{ track.artist }}</span> - <span class="track__song" itemprop="name">{{ track.song }}</span>
 
                 <em class="track__request" v-if="track.request && track.request === 'artist'">*</em>
@@ -81,6 +99,10 @@
       props: {
          playlist: {
             type: Object
+         },
+         showHeader: {
+            type: Boolean,
+            default: true
          }
       },
       computed: {

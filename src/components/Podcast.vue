@@ -1,27 +1,41 @@
 <template>
-
-   <div class="podcast">
+   <div class="podcast" itemscope itemtype="http://schema.org/AudioObject">
       <div v-if="podcast.image" class="podcast__img">
          <g-link :to="podcast.path">
-            <img :src="podcast.image" :alt="podcast.displayName" />
+            <picture v-if="podcast.webp">
+               <source :srcset="podcast.webp" type="image/webp">
+               <source :srcset="podcast.image" type="image/jpeg">
+               <img :src="podcast.image" :alt="podcast.displayName">
+            </picture>
+
+            <img v-if="!podcast.webp"
+                 :lazy="podcast.image"
+                 :alt="podcast.displayName"
+            />
          </g-link>
       </div>
 
       <div class="podcast__content">
-         <h3 class="podcast__title">
+         <h3 class="podcast__title" itemprop="name">
             {{ podcast.title }}
          </h3>
 
          <div v-if="podcast.mixcloudLink" class="podcast__player">
+            <meta itemprop="encodingFormat" content="audio/mpeg" />
+            <meta itemprop="contentUrl" :content="podcast.mixcloudLink" />
+
             <MixcloudPlayer :url="podcast.mixcloudLink" />
          </div>
 
-           <p v-if="podcast.shortDescription" class="podcast__blurb">
+           <p v-if="podcast.shortDescription"
+               class="podcast__blurb"
+               itemprop="description"
+           >
               {{ podcast.shortDescription }}
            </p>
 
            <Btn :to="podcast.path" variant="hollow">
-              More Info
+              <span>More Info</span> <SvgIcon name="right-open" use="right-open" />
            </Btn>
       </div>
    </div>
@@ -30,6 +44,7 @@
 <script>
    import Btn from '~/components/Btn.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
+   import SvgIcon from '~/components/SvgIcon.vue';
 
    export default {
       name: 'Podcast',
@@ -41,20 +56,12 @@
       components: {
          Btn,
          MixcloudPlayer,
+         SvgIcon,
       },
    };
 </script>
 
 <style lang="scss">
-/*
-$screen-xs-min: 0;
-$screen-s-min: 480px;
-$screen-m-min: 768px;
-$screen-l-min: 992px;
-$screen-xl-min: 1200px;
-$screen-xxl-min: 1400px;
-*/
-
    .podcast {
       display: flex;
       flex-wrap: wrap;

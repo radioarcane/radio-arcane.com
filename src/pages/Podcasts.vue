@@ -24,6 +24,7 @@
                slug,
                title,
                image,
+               webp,
                date,
                description,
                shortDescription,
@@ -68,7 +69,7 @@
 
    export default {
       metaInfo: {
-         title: 'Podcasts',
+         title: 'Podcasts | Radio Arcane',
          meta: [
             { description: 'Add Meta Description...' }
          ]

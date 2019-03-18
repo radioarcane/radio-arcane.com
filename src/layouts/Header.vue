@@ -2,7 +2,11 @@
    <header class="mast-header" role="banner">
       <div class="mast-header__brand">
          <g-link to="/">
-            <img src="/img/logo--radio-arcane.png" alt="Radio Arcane" />
+            <picture>
+               <source srcset="/img/logo--radio-arcane.webp" type="image/webp">
+               <source srcset="/img/logo--radio-arcane.png" type="image/jpeg">
+               <img src="/img/logo--radio-arcane.png" alt="Radio Arcane">
+            </picture>
          </g-link>
       </div>
 

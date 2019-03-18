@@ -98,7 +98,7 @@
 
    export default {
       metaInfo: {
-         title: 'Playlists',
+         title: 'Playlists | Radio Arcane',
          meta: [
             { description: 'Add Meta Description...' }
          ]

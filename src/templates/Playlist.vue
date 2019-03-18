@@ -32,7 +32,7 @@
       },
       metaInfo () {
          return {
-            title: this.$page.playlist.title,
+            title: this.$page.playlist.title + ' | Radio Arcane',
             meta: [
                { description: 'Add Meta Description...' }
             ]

@@ -54,6 +54,7 @@ const defaultEvent = {
    start_datetime: null,
    end_datetime: null,
    image: null,
+   webpImage: null,
    description: null,
    short_description: null,
    location: null,
@@ -68,6 +69,7 @@ const defaultPodcast = {
    title: null,
    display_name: null,
    image: null,
+   webpImage: null,
    date: null,
    description: null,
    short_description: null,
@@ -173,7 +175,6 @@ module.exports = function (api) {
                thisSet.tracks = thisSet.tracks.map(track => {
                   let thisTrack = Object.assign({}, defaultTrack, track);
 
-
                   if (artistLinkHash.hasOwnProperty(slugify(thisTrack.artist))) {
                      thisTrack.artist_links = artistLinkHash[slugify(thisTrack.artist)].fields;
                   }
@@ -210,6 +211,8 @@ module.exports = function (api) {
 
          if (podcast.description) {
             podcast.description = md.render(podcast.description).replace(/(\r\n|\n|\r)/gm, "");
+
+            podcast.description = podcast.description.split('<a').join('<a target="_blank" ');
          }
 
          if (podcast.playlist && playlistHash.hasOwnProperty(slugify(podcast.playlist))) {
@@ -217,6 +220,16 @@ module.exports = function (api) {
          }
          else {
             podcast.playlist = null;
+         }
+
+         if (podcast.image) {
+            const imgParts = podcast.image.split('/');
+            const imgFileParts = imgParts[imgParts.length - 1].split('.');
+            const imgFile = imgFileParts[0] + '.webp';
+
+            if (fs.existsSync(`static/img/webp/${ imgFile }`)) {
+              podcast.webp = '/img/webp/' + imgFile;
+            }
          }
 
          const node = podcastType.addNode({
@@ -265,6 +278,16 @@ module.exports = function (api) {
          else if (ev.date) {
             const dateMoment = moment(ev.date, 'YYYY-MM-DD').add(1, 'day');
             ev.expired = moment().isAfter(dateMoment);
+         }
+
+         if (ev.image) {
+            const imgParts = ev.image.split('/');
+            const imgFileParts = imgParts[imgParts.length - 1].split('.');
+            const imgFile = imgFileParts[0] + '.webp';
+
+            if (fs.existsSync(`static/img/webp/${ imgFile }`)) {
+              ev.webp = '/img/webp/' + imgFile;
+            }
          }
 
          const node = eventType.addNode({

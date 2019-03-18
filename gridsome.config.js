@@ -4,7 +4,6 @@
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 const path = require('path');
-//const ImageminWebpWebpackPlugin= require("imagemin-webp-webpack-plugin");
 
 function addStyleResource (rule) {
   rule.use('style-resource')
@@ -20,7 +19,6 @@ function addStyleResource (rule) {
 
 module.exports = {
    siteName: 'Radio Arcane',
-   titleTemplate: '%s | Radio Arcane',
    chainWebpack: config => {
       // Load variables for all vue-files
       const types = ['vue-modules', 'vue', 'normal-modules', 'normal'];

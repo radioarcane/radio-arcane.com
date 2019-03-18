@@ -23,7 +23,7 @@
 
    export default {
       metaInfo: {
-         title: 'About',
+         title: 'About | Radio Arcane',
          meta: [
             { description: 'Add Meta Description...' }
          ]

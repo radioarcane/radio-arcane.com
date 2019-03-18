@@ -9,7 +9,12 @@
             <Event :event="$page.event" />
 
             <section v-if="$page.event.playlist">
-               <Playlist :playlist="$page.event.playlist" />
+               <h2>Event Playlist</h2>
+
+               <Playlist
+                  :playlist="$page.event.playlist"
+                  :showHeader="false"
+               />
             </section>
          </article>
       </Container>
@@ -29,6 +34,7 @@
          startDatetime,
          endDatetime,
          image,
+         webp,
          description,
          shortDescription,
          facebookEventLink,
@@ -107,7 +113,7 @@
       },
       metaInfo () {
          return {
-            title: this.$page.event.displayName,
+            title: this.$page.event.displayName + ' | Radio Arcane',
             meta: [
                { description: 'Add Meta Description...' }
             ]

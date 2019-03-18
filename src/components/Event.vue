@@ -1,18 +1,32 @@
 <template>
-   <div class="event">
+   <div class="event" itemscope itemtype="http://schema.org/MusicEvent">
       <div v-if="event.image" class="event__photo">
          <g-link :to="event.path">
-            <img :src="event.image" :alt="event.displayName" />
+            <picture v-if="event.webp">
+               <source :srcset="event.webp" type="image/webp">
+               <source :srcset="event.image" type="image/jpeg">
+               <img :src="event.image" :alt="event.displayName">
+            </picture>
+
+            <img v-if="!event.webp"
+                 :src="event.image"
+                 :alt="event.displayName"
+            />
          </g-link>
       </div>
 
       <div class="event__content">
          <header class="event__header">
-            <h3 class="event__title">{{ event.displayName }}</h3>
+            <h3 class="event__title" itemprop="name">
+               {{ event.displayName }}
+            </h3>
 
             <div class="event__subtitle">
                <svg class="icon icon-clock"><use xlink:href="#clock"></use></svg>
-               <time :datetime="getDateTime()">
+               <time :datetime="getDateTime()"
+                     itemprop="startDate"
+                     :content="getDateTime()"
+               >
                   {{ event.date | moment("dddd, MMMM D, YYYY") }} <span v-if="event.startDatetime">
                      @ {{ event.startDatetime | moment('h A') }}
                   </span> <span v-if="event.startDatetime && event.endDatetime">
@@ -24,7 +38,12 @@
 
          <div class="event__text" v-html="event.description" />
 
-         <div v-if="event.location" class="event__location">
+         <div v-if="event.location"
+              class="event__location"
+              itemprop="location"
+              itemscope
+              itemtype="http://schema.org/Place"
+         >
             <svg class="icon icon-location"><use xlink:href="#location"></use></svg>
 
             <a v-if="event.location.venueLink"
@@ -32,21 +51,33 @@
                target="_blank"
                class="event__location__title"
             >
-               {{ event.location.title }}
+               <span itemprop="name">
+                  {{ event.location.title }}
+               </span>
             </a>
 
             <span v-if="!event.location.venueLink"
                   class="event__location__title"
+                  itemprop="name"
             >
                {{ event.location.title }}
             </span>
 
-            <span class="event__location__address">
-               {{ event.location.address }}<br />
+            <meta itemprop="addressCountry" content="USA" />
+
+            <span
+               class="event__location__address"
+               itemprop="address"
+               itemscope
+               itemtype="http://schema.org/PostalAddress"
+            >
+               <span itemprop="streetAddress">
+                  {{ event.location.address }}
+               </span><br />
                <span v-if="event.location.address2">
                   {{ event.location.address2 }}<br />
                </span>
-               {{ event.location.city }}, {{ event.location.state }} {{ event.location.zipcode }}
+               <span itemprop="addressLocality">{{ event.location.city }}</span>, <span itemprop="addressRegion">{{ event.location.state }}</span> <span itemprop="postalCode">{{ event.location.zipcode }}</span>
             </span>
 
             <a
@@ -103,15 +134,7 @@
             }
 
             return this.event.date;
-         },
-         getDateTimeStr () {
-
          }
-      },
-      mounted () {
-         console.log(this);
-         //console.log('MOUNTED...')
-         //console.log(this.$props);
       }
    }
 </script>

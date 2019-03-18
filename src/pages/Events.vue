@@ -71,6 +71,7 @@
                startDatetime,
                endDatetime,
                image,
+               webp,
                description,
                shortDescription,
                facebookEventLink,
@@ -108,7 +109,7 @@
 
    export default {
       metaInfo: {
-         title: 'Events',
+         title: 'Events | Radio Arcane',
          meta: [
             { description: 'Add Meta Description...' }
          ]

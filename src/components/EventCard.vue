@@ -1,15 +1,30 @@
 <template>
-   <div class="card">
+   <div class="card" itemscope itemtype="http://schema.org/MusicEvent">
       <div v-if="event.image" class="card__img">
          <g-link :to="`/events/${event.slug}`">
-            <g-image :src="event.image" :alt="event.displayName" width="500" />
+            <picture v-if="event.webp">
+               <source :srcset="event.webp" type="image/webp">
+               <source :srcset="event.image" type="image/jpeg">
+               <img :src="event.image" :alt="event.displayName">
+            </picture>
+
+            <img v-if="!event.webp"
+                 :src="event.image"
+                 :alt="event.displayName"
+            />
          </g-link>
       </div>
+
       <div class="card__body">
-         <h3 class="card__title">{{ event.displayName }}</h3>
+         <h3 class="card__title" itemprop="name">
+            {{ event.displayName }}
+         </h3>
 
          <div class="card__subtitle">
-            <svg class="icon icon-clock"><use xlink:href="#clock"></use></svg> <time :datetime="event.date">{{ event.date | moment("dddd, MMMM D, YYYY") }}</time>
+            <svg class="icon icon-clock"><use xlink:href="#clock"></use></svg>
+            <time :datetime="event.date" itemprop="startDate" :content="event.date">
+               {{ event.date | moment("dddd, MMMM D, YYYY") }}
+            </time>
          </div>
 
          <div class="card__text">

@@ -1,6 +1,8 @@
 <template>
    <Layout>
       <Container>
+         <Breadcrumb :crumbs="getCrumbs()" />
+
          <article>
             <Title>{{ $page.podcast.title }}</Title>
 
@@ -62,6 +64,7 @@
 <script>
    import Layout from '~/layouts/Default.vue'
 
+   import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
    import Container from '~/components/Container.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
@@ -70,20 +73,28 @@
    export default {
       components: {
          Layout,
+         Breadcrumb,
          Container,
          MixcloudPlayer,
          Title
       },
       metaInfo () {
          return {
-            title: this.$page.podcast.title,
+            title: this.$page.podcast.title + ' | Radio Arcane',
             meta: [
                { description: 'Add Meta Description...' }
             ]
          }
       },
-      data () {
-         return {};
+      methods: {
+         getCrumbs() {
+            return [{
+               to: '/podcasts',
+               name: "Podcasts"
+            }, {
+               name: this.$page.podcast.title
+            }];
+         }
       }
    }
 </script>
