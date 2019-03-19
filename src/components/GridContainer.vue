@@ -22,12 +22,11 @@
 
 <style lang="scss">
    .grid {
-       display:flex;
-       flex-wrap:wrap;
-       flex-direction:row;
-       align-items:stretch;
-       align-content:flex-start;
-       justify-content:flex-start;
+       display: flex;
+       flex-wrap: wrap;
+       align-items: stretch;
+       align-content: flex-start;
+       justify-content: flex-start;
        margin: 0 ($gutter-width / 2) * -1;
 
        &--center {
