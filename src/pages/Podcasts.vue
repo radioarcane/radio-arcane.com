@@ -7,9 +7,10 @@
 
          <Podcast
             v-for="{ node } in $page.allPodcast.edges"
-            :podcast="node"
             :key="node.id"
+            :podcast="node"
          />
+
       </Container>
    </Layout>
 </template>

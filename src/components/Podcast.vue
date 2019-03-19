@@ -20,6 +20,13 @@
             {{ podcast.title }}
          </h3>
 
+         <p v-if="podcast.shortDescription"
+            class="podcast__blurb"
+            itemprop="description"
+         >
+            {{ podcast.shortDescription }}
+         </p>
+
          <div v-if="podcast.mixcloudLink" class="podcast__player">
             <meta itemprop="encodingFormat" content="audio/mpeg" />
             <meta itemprop="contentUrl" :content="podcast.mixcloudLink" />
@@ -27,16 +34,9 @@
             <MixcloudPlayer :url="podcast.mixcloudLink" />
          </div>
 
-           <p v-if="podcast.shortDescription"
-               class="podcast__blurb"
-               itemprop="description"
-           >
-              {{ podcast.shortDescription }}
-           </p>
-
-           <Btn :to="podcast.path" variant="hollow">
-              <span>More Info</span> <SvgIcon name="right-open" use="right-open" />
-           </Btn>
+         <Btn :to="podcast.path" variant="hollow">
+            <span>More Info</span> <SvgIcon name="right-open" use="right-open" />
+         </Btn>
       </div>
    </div>
 </template>
@@ -65,7 +65,10 @@
    .podcast {
       display: flex;
       flex-wrap: wrap;
+      border: 1px solid hex-to-rgba($white-smoke, 0.4);
+      border-radius: 8px;
       margin: 0 0 2rem;
+      padding: 1rem $gutter-width;
 
       &__title {
 

@@ -38,7 +38,7 @@
    .breadcrumb {
       list-style: none;
       padding: 0;
-      margin: 0 0 2rem;
+      margin: 0 0 1.5rem;
       @include fluid-type($screen-s-min, $screen-xxl-min, $font-base-size, 18px);
 
       &__item {

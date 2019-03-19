@@ -1,6 +1,6 @@
 <template>
-   <div class="card" itemscope itemtype="http://schema.org/MusicEvent">
-      <div v-if="event.image" class="card__img">
+   <div class="event-card" itemscope itemtype="http://schema.org/MusicEvent">
+      <div v-if="event.image" class="event-card__img">
          <g-link :to="`/events/${event.slug}`">
             <picture v-if="event.webp">
                <source :srcset="event.webp" type="image/webp">
@@ -15,25 +15,26 @@
          </g-link>
       </div>
 
-      <div class="card__body">
-         <h3 class="card__title" itemprop="name">
+      <div class="event-card__body">
+         <h3 class="event-card__title" itemprop="name">
             {{ event.displayName }}
          </h3>
 
-         <div class="card__subtitle">
-            <svg class="icon icon-clock"><use xlink:href="#clock"></use></svg>
+         <div class="event-card__subtitle">
+            <SvgIcon use="clock" name="clock" />
             <time :datetime="event.date" itemprop="startDate" :content="event.date">
                {{ event.date | moment("dddd, MMMM D, YYYY") }}
             </time>
          </div>
 
-         <div class="card__text">
+         <div class="event-card__text">
             <p :if="event.shortDescription">
                {{ event.shortDescription }}
             </p>
 
             <Btn :to="`/events/${event.slug}`" variant="hollow">
-               <span>More Info</span> <svg class="icon icon-right-open"><use xlink:href="#right-open"></use></svg>
+               <span>More Info</span>
+               <SvgIcon use="right-open" name="right-open" />
             </Btn>
          </div>
       </div>
@@ -42,6 +43,7 @@
 
 <script>
    import Btn from '~/components/Btn';
+   import SvgIcon from '~/components/SvgIcon.vue';
 
    export default {
       name: 'EventCard',
@@ -50,16 +52,15 @@
             type: Object
          }
       },
-      methods: {
-      },
       components: {
          Btn,
+         SvgIcon,
       },
    }
 </script>
 
 <style lang="scss" scoped>
-   .card {
+   .event-card {
        border: 1px solid hex-to-rgba($white-smoke, 0.4);
        margin: 0 0 2rem;
        border-radius: 8px;

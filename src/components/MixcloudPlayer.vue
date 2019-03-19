@@ -1,9 +1,11 @@
 <template>
    <div class="mixcloud-player">
-      <iframe width="100%" height="120" :src="getSrc()" frameborder="0" />
+      <lazy-component>
+         <iframe width="100%" height="120" :src="getSrc()"  frameborder="0" />
+      </lazy-component>
 
       <noscript>
-         <iframe width="100%" height="120" :src="getSrc()" frameborder="0" />
+         <a :href="url" target="_blank">Click Here to Listen</a>
       </noscript>
    </div>
 </template>
@@ -29,7 +31,7 @@
             }
 
             return `https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2F${ urlParts[1] }%2F${  urlParts[0] }%2F`;
-         },
+         }
       }
    }
 </script>

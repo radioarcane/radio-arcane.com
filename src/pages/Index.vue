@@ -7,7 +7,7 @@
             </FlashContainer>
          </article>
 
-         <section v-if="$page.events.edges.length">
+         <Section v-if="$page.events.edges.length">
             <Heading strike animate uppercase>
                Next Event
             </Heading>
@@ -20,17 +20,15 @@
                   <SvgIcon name="right-open" use="right-open" />
                </Btn>
             </Center>
-         </section>
+         </Section>
 
-         <br /><br />
-
-         <section v-if="$page.podcasts.edges.length">
+         <Section v-if="$page.podcasts.edges.length">
             <Heading strike animate uppercase tag="h3">
                Latest Podcast
             </Heading>
 
             <Podcast :podcast="$page.podcasts.edges[0].node" />
-         </section>
+         </Section>
       </Container>
    </Layout>
 </template>
@@ -96,7 +94,7 @@
    import Event from '~/components/Event.vue';
    import Heading from '~/components/Heading.vue';
    import FlashContainer from '~/components/FlashContainer.vue';
-   import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
+   import Section from '~/components/Section.vue';
    import SvgIcon from '~/components/SvgIcon.vue';
    import Podcast from '~/components/Podcast.vue';
 
@@ -114,9 +112,9 @@
          Event,
          FlashContainer,
          Heading,
-         MixcloudPlayer,
-         SvgIcon,
          Podcast,
+         Section,
+         SvgIcon,
       },
    }
 </script>

@@ -11,7 +11,7 @@
             <Event :event="getNextEvent($page.allEvent.edges)" />
          </article>
 
-         <section v-if="totalFutureEvents">
+         <Section v-if="totalFutureEvents">
             <Title tag="h2">
                Upcoming Event Schedule
             </Title>
@@ -27,9 +27,9 @@
                   </span>
                </li>
             </ul>
-         </section>
+         </Section>
 
-         <section>
+         <Section>
             <Heading tag="h3" strike uppercase animate>
                Past Events
             </Heading>
@@ -51,7 +51,7 @@
                   <span>Load More Past Events</span> <AngleDownIcon class="icon icon-angle-down" />
                </Btn>
             </Center>
-         </section>
+         </Section>
       </Container>
    </Layout>
 </template>
@@ -103,6 +103,7 @@
    import GridContainer from '~/components/GridContainer';
    import GridItem from '~/components/GridItem';
    import Heading from '~/components/Heading';
+   import Section from '~/components/Section.vue';
    import Title from '~/components/Title.vue';
 
    import AngleDownIcon from '~/assets/svg/angle-down.svg';
@@ -124,6 +125,7 @@
          GridContainer,
          GridItem,
          Heading,
+         Section,
          Title,
          AngleDownIcon
       },

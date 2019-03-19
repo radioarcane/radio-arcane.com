@@ -3,7 +3,7 @@
       <div class="mast-header__brand">
          <g-link to="/">
             <picture>
-               <source srcset="/img/logo--radio-arcane.webp" type="image/webp">
+               <source srcset="/img/logo--radio-arcane.webp" type="image/png">
                <source srcset="/img/logo--radio-arcane.png" type="image/jpeg">
                <img src="/img/logo--radio-arcane.png" alt="Radio Arcane">
             </picture>

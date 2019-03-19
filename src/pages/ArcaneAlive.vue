@@ -11,7 +11,11 @@
                   lg: 3
                }">
                   <figure>
-                     <img src="/img/uploads/arcane-alive.jpg" alt="Arcane Alive!" />
+                     <picture>
+                        <source srcset="/img/arcane-alive.webp" type="image/webp">
+                        <source srcset="/img/arcane-alive.jpg" type="image/jpeg">
+                        <img src="/img/arcane-alive.jpg" alt="Arcane Alive!">
+                     </picture>
                   </figure>
                </GridItem>
                <GridItem :sizes="{
