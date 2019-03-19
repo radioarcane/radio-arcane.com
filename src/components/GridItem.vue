@@ -11,12 +11,33 @@
          sizes: {
             type: Object,
             required: false
+         },
+         padTop: {
+            type: Boolean,
+            required: false
+         },
+         padBottom: {
+            type: Boolean,
+            required: false
          }
       },
       methods: {
          getClasses () {
             let classes = ['grid__item'];
-            const { sizes } = this;
+
+            const {
+               sizes,
+               padBottom,
+               padTop,
+            } = this;
+
+            if (padTop) {
+               classes.push('grid__item--pad-top');
+            }
+
+            if (padBottom) {
+               classes.push('grid__item--pad-btm');
+            }
 
             if (!sizes) {
                return classes;
@@ -38,6 +59,14 @@
    .grid__item {
       padding-left: $gutter-width;
       padding-right: $gutter-width;
+
+      &--pad-top {
+         padding-top: 2rem;
+      }
+
+      &--pad-bottom {
+         padding-bottom: 2rem;
+      }
    }
 
    $num-of-columns: 12;

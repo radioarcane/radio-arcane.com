@@ -9,7 +9,7 @@
             </picture>
 
             <img v-if="!podcast.webp"
-                 :lazy="podcast.image"
+                 :src="podcast.image"
                  :alt="podcast.displayName"
             />
          </g-link>

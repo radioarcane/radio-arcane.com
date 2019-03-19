@@ -7,19 +7,25 @@
             <Section>
                <Title>Arcane Alive!</Title>
 
-               <GridContainer>
+               <GridContainer collapse>
                   <GridItem :sizes="{
+                     xs: 12,
+                     md: 4,
                      lg: 3
                   }">
-                     <figure>
-                        <picture>
-                           <source srcset="/img/arcane-alive.webp" type="image/webp">
-                           <source srcset="/img/arcane-alive.jpg" type="image/jpeg">
-                           <img src="/img/arcane-alive.jpg" alt="Arcane Alive!">
-                        </picture>
-                     </figure>
+                     <Center>
+                        <figure>
+                           <picture>
+                              <source srcset="/img/arcane-alive.webp" type="image/webp">
+                              <source srcset="/img/arcane-alive.jpg" type="image/jpeg">
+                              <img src="/img/arcane-alive.jpg" alt="Arcane Alive!">
+                           </picture>
+                        </figure>
+                     </Center>
                   </GridItem>
                   <GridItem :sizes="{
+                     xs: 12,
+                     md: 8,
                      lg: 9
                   }">
                      <p>Arcane Alive: A pool of live music performers to help support touring bands and as a means of communication for local bands that would like to play Radio Arcane events at Art Sanctuary and potentially elsewhere. Louisville, KY based but open and inviting to regional acts and touring bands as well as local.</p>
@@ -83,6 +89,7 @@
 <script>
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
+   import Center from '~/components/Center.vue';
    import Container from '~/components/Container.vue';
    import EventCard from '~/components/EventCard.vue';
    import GridContainer from '~/components/GridContainer.vue';
@@ -101,6 +108,7 @@
       components: {
          Breadcrumb,
          Btn,
+         Center,
          Container,
          EventCard,
          GridContainer,

@@ -1,7 +1,7 @@
 <template>
    <div
       class="grid"
-      :class="{'grid--center': center}"
+      :class="{'grid--center': center, 'grid--collapse': collapse}"
    >
       <slot />
    </div>
@@ -14,8 +14,11 @@
          center: {
             type: Boolean,
             default: false,
-            required: false
          },
+         collapse: {
+            type: Boolean,
+            default: false,
+         }
       },
    }
 </script>
@@ -31,6 +34,11 @@
 
        &--center {
           justify-content: center
+       }
+
+       &--collapse {
+          margin-left: $gutter-width * -1;
+          margin-right: $gutter-width * -1;
        }
    }
 </style>
