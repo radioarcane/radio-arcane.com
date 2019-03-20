@@ -35,7 +35,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Display Name", name: "display_name", widget: "string"}
-      - {label: "Event Type", name: "event_type", widget: "select", options: [radio-arcane", "arcane-alive"]}
+      - {label: "Event Type", name: "event_type", widget: "select", options: ["radio-arcane", "arcane-alive"]}
       - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Start DateTime", name: "start_datetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
       - {label: "End DateTime", name: "end_datetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
