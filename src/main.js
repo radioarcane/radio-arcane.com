@@ -1,7 +1,7 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
-import 'intersection-observer';
+//import 'intersection-observer';
 import DefaultLayout from '~/layouts/Default.vue';
 import vueMoment from 'vue-moment';
 import VueLazyload from 'vue-lazyload';
