@@ -8,52 +8,26 @@ start_datetime: ''
 end_datetime: ''
 image: '/img/uploads/radio-arcane-2017-10-21--2x.jpg'
 description: >-
-  Art Sanctuary presents: der Anfang -
+  Art Sanctuary presents: der Anfang - A Va Va Vamp After-Party hosted by Radio Arcane.
 
 
-  A Va Va Vamp After-Party hosted by Radio Arcane.
-
-
-  $5.  Free admission with Va Va Vamp ticket (for October 21st show only)
-
-
+  $5. Free admission with Va Va Vamp ticket (for October 21st show only)
   This is an 18+ event
-
-
   Full bar for 21+
-
-
-
 
   Radio Arcane is a collective of local DJ's who will be spanning across various
   genres of music. They include:
 
-
   Sorrow-Vomit
-
-
   Osiris Ani
-
-
   Motuvius Rex
-
-
   Count Grozny
-
-
   Brian Drabant
-
-
   Hydrospore (formerly known as DJ Sodom)
 
 
-
-
-  Goth : DeathRock : Punk : Industrial : EBM : NewWave : SynthWave: T echno :
-  Minimal : Triphop : 80' s :90's : ItaloDisco : House:
-
-
-
+  Goth : DeathRock : Punk : Industrial : EBM : NewWave : SynthWave : Techno :
+  Minimal : Triphop : 80's : 90's : ItaloDisco : House :
 
   ...and more to get your body groovin and shakin.
 

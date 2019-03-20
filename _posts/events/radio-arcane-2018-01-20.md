@@ -8,19 +8,19 @@ start_datetime: '2018-01-20 19:00:00'
 end_datetime: '2018-01-21 03:00:00'
 image: '/img/uploads/radio-arcane-2018-01-20--2x.jpg'
 description: >-
-   Radio Arcane: Winterfeier:The Dark Market Winterfeier: A Celebration of Winter at Art Sanctuary. Live Dj's: Large Dance Area: Full Bar: The Dark Market: A curated Night Time Oddities & Art Market /Flea Market
+   A Celebration of Winter at Art Sanctuary. Live Dj's: Large Dance Area: Full Bar: The Dark Market: A curated Night Time Oddities & Art Market /Flea Market
 
    $5. After 10pm
    Free admission if you arrive early before 10pm
    18+ to enter
    Full bar for 21+
 
-   Gothic:PostPunk:NewWave:Synthwave:
-   Synthpop:Industrial:Shoegaze:80's:
-   Deathrock:EBM:Futurepop:Minimal:
-   Techno:90's:Triphop:Darkwave:Retro:
-   Dreamwave:ItaloDisco:Coldwave:
-   Electro:Varieties:Etc
+   Gothic : PostPunk : NewWave : Synthwave :
+   Synthpop : Industrial : Shoegaze:80's :
+   Deathrock : EBM : Futurepop : Minimal:
+   Techno : 90's : Triphop : Darkwave : Retro:
+   Dreamwave : Italo Disco : Coldwave:
+   Electro : Varieties:Etc
 
 
    Costumes & Unusual Attire Welcome
@@ -36,7 +36,8 @@ description: >-
    Talamasca
    Kaleidoscope
    Motuvius Rex
-   As well as creative help and direction from-
+   
+   As well as creative help and direction from:
    Lisa Frye
    Robert Major
 short_description: ''

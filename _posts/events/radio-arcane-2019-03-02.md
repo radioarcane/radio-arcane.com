@@ -13,10 +13,7 @@ description: >-
   support, of which, we are very grateful for!
 
 
-  <a href="https://www.facebook.com/darkmarketky/" target="_blank">The Dark
-  Market</a>
-
-
+  The Dark Market : https://www.facebook.com/darkmarketky
   Shop the market for your favorite night time oddities and support local
   artists!
 

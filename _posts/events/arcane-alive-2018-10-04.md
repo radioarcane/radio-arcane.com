@@ -14,7 +14,7 @@ description: |-
 
   **ULTIMA** : Louisville
   https://ultimasynthwave.bandcamp.com
-  (Synthwave,Darkwave,Outrun,Retrowave,Slasherwave,Electronic)
+  (Synthwave, Darkwave, Outrun, Retrowave, Slasherwave, Electronic)
 
   **Decide Today** : Cincinnati
   https://decidetoday.bandcamp.com
@@ -36,4 +36,3 @@ facebook_event_link: 'https://www.facebook.com/events/226390288222463/'
 tickets_link: ''
 playlist: 2018-10-04 Arcane Alive
 ---
-

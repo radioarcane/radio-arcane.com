@@ -12,28 +12,20 @@ description: >-
 
 
   **Curse of Cassandra** - (Ohio)
-
   electronic, darkwave, gothic, indie, dance, synthpop, witch house
-
   http://curseofcassandra.com
-
   https://curseofcassandra1.bandcamp.com
 
 
   **The Kentucky Vampires** - (Kentucky)
-
   darkwave, death rock, goth rock, gothic, post punk
-
   https://thekentuckyvampires.bandcamp.com
 
 
   **Androspore** - (Louisville)
-
   electronic, synth pop, techno
-
   https://m.soundcloud.com/edwin-alberto-ramirez/sets/androspore
-
-  ..https://youtu.be/_dwQFFpoKfE
+  https://youtu.be/_dwQFFpoKfE
 
 
   With Radio Arcane DJ Sorrow-Vomit before, between and after bands for
@@ -47,4 +39,3 @@ facebook_event_link: 'https://www.facebook.com/events/333384737470679/'
 tickets_link: ''
 playlist: 2018-12-01 Arcane Alive
 ---
-

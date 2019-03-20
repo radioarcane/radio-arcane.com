@@ -17,7 +17,7 @@ description: |-
   :With Radio Arcane Dark Music Specialists:
   :Kaleidoscope:
   :Thulsa Goon:
-  :Sorrow Vomit:
+  :Sorrow-Vomit:
   :Talamasca:
   :Osiris Ani:
 
@@ -39,4 +39,3 @@ facebook_event_link: 'https://www.facebook.com/events/973340279505329/'
 tickets_link: ''
 playlist: 2018-09-29 Radio Arcane
 ---
-

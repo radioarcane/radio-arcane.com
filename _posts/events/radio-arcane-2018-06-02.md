@@ -20,22 +20,15 @@ description: >-
 
 
   18+
-
   21+ to drink
-
   $5 each, free before 10pm
 
 
   07:00 . Talamasca & Thulsa Goon \[DJs]
-
   10:00 . Hydrospore \[DJ]
-
   10:45 . The Kentucky Vampires
-
   11:45 . Sorrow-Vomit \[DJ]
-
   12:30 . Count Grozny \[DJ]
-
   01:15 . Osiris Ani \[DJ]
 
 
@@ -50,4 +43,3 @@ facebook_event_link: 'https://www.facebook.com/events/392214544580546/'
 tickets_link: ''
 playlist: 2018-06-02 Radio Arcane
 ---
-
