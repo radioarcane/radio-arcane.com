@@ -11,25 +11,25 @@ description: >-
   Arcane Alive! Featuring live performances by:
 
 
-  Curse of Cassandra - (Ohio)..
+  **Curse of Cassandra** - (Ohio)
 
-  electronic, darkwave, gothic, indie, dance, synthpop, witch house..
+  electronic, darkwave, gothic, indie, dance, synthpop, witch house
 
-  http://curseofcassandra.com..
+  http://curseofcassandra.com
 
   https://curseofcassandra1.bandcamp.com
 
 
-  The Kentucky Vampires - (Kentucky)..
+  **The Kentucky Vampires** - (Kentucky)
 
-  darkwave, death rock, goth rock, gothic, post punk..
+  darkwave, death rock, goth rock, gothic, post punk
 
   https://thekentuckyvampires.bandcamp.com
 
 
-  Androspore - (Louisville)..
+  **Androspore** - (Louisville)
 
-  electronic, synth pop, techno..
+  electronic, synth pop, techno
 
   https://m.soundcloud.com/edwin-alberto-ramirez/sets/androspore
 
