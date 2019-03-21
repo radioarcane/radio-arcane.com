@@ -33,7 +33,7 @@
          Footer,
          Header,
          SvgSprite,
-      },
+      }
    }
 </script>
 

@@ -201,7 +201,6 @@
 </script>
 
 <style lang="scss">
-
    .artist-links-modal-box {
       background: transparent;
       text-align: left;

@@ -10,7 +10,6 @@
             :key="node.id"
             :podcast="node"
          />
-
       </Container>
    </Layout>
 </template>
@@ -60,17 +59,20 @@
 <script>
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Container from '~/components/Container.vue';
-   import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
+   import Podcast from '~/components/Podcast.vue';
    import Title from '~/components/Title.vue';
 
-   import GridContainer from '~/components/GridContainer.vue';
-   import GridItem from '~/components/GridItem.vue';
-
-   import Podcast from '~/components/Podcast.vue';
+   /*
+   <Podcast
+      v-for="{ node } in $page.allPodcast.edges"
+      :key="node.id"
+      :podcast="node"
+   />
+   */
 
    export default {
       metaInfo: {
-         title: 'Podcasts | Radio Arcane',
+         title: 'Podcasts',
          meta: [
             { description: 'Add Meta Description...' }
          ]
@@ -78,10 +80,7 @@
       components: {
          Breadcrumb,
          Container,
-         MixcloudPlayer,
          Title,
-         GridItem,
-         GridContainer,
          Podcast,
       },
       data () {
@@ -96,15 +95,6 @@
 </script>
 
 <style lang="scss">
-/*
-$screen-xs-min: 0;
-$screen-s-min: 480px;
-$screen-m-min: 768px;
-$screen-l-min: 992px;
-$screen-xl-min: 1200px;
-$screen-xxl-min: 1400px;
-*/
-
    .podcast-card {
       display: flex;
       flex-wrap: wrap;

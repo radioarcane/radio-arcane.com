@@ -4,7 +4,16 @@
          <Breadcrumb :crumbs="getCrumbs()" />
 
          <article itemscope itemtype="http://schema.org/AudioObject">
-            <Title>{{ $page.podcast.title }}</Title>
+            <Title>
+               {{ $page.podcast.title }}
+            </Title>
+
+            <meta itemprop="name" :content="`Radio Arcane : ${ $page.podcast.title }`" />
+
+            <meta v-if="$page.podcast.shortDescription"
+                  itemprop="description"
+                  :content="$page.podcast.shortDescription"
+            />
 
             <GridContainer collapse>
                <GridItem
@@ -37,7 +46,7 @@
                }">
                   <div v-if="$page.podcast.date">
                      <p>
-                        Published: <time b-bind:datetime="$page.podcast.date">
+                        Published: <time :datetime="$page.podcast.date" itemprop="datePublished" :content="$page.podcast.date">
                            {{ $page.podcast.date | moment("MMM. D, YYYY") }}
                         </time>
                      </p>
@@ -48,10 +57,17 @@
                <GridItem :sizes="{
                   xs: 12
                }" padTop>
-                  <MixcloudPlayer
-                     v-if="$page.podcast.mixcloudLink"
-                     v-bind:url="$page.podcast.mixcloudLink"
-                  />
+                  <meta itemprop="encodingFormat" content="audio/mpeg" />
+                  <meta itemprop="contentUrl" :content="$page.podcast.mixcloudLink" />
+                  <meta itemprop="playerType" content="HTML5" />
+
+
+
+                  <noscript>
+                     <Btn :href="$page.podcast.mixcloudLink" :target="_blank" :variant="hollow">
+                        Click Here To Listen
+                     </Btn>
+                  </noscript>
                </GridItem>
             </GridContainer>
          </article>
@@ -108,21 +124,29 @@
    import GridItem from '~/components/GridItem.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
    import Title from '~/components/Title.vue';
+   //import LazyHydrate from 'vue-lazy-hydration';
 
+
+/*
+<MixcloudPlayer :url="$page.podcast.mixcloudLink" />
+*/
    export default {
       components: {
          Layout,
          Breadcrumb,
+         Btn,
          Center,
          Container,
          GridContainer,
          GridItem,
-         MixcloudPlayer,
-         Title
+         //MixcloudPlayer,
+         Title,
+         //LazyHydrate,
+         //MixcloudPlayer: () => import('~/components/MixcloudPlayer.vue'),
       },
       metaInfo () {
          return {
-            title: this.$page.podcast.title + ' | Radio Arcane',
+            title: this.$page.podcast.title,
             meta: [
                { description: 'Add Meta Description...' }
             ]

@@ -1,13 +1,14 @@
 ---
 title: Delphine Coma
-apple_music: ''
-bandcamp: ''
-facebook: ''
-google_music: ''
-instagram: ''
-soundcloud: ''
+apple_music: 'https://itunes.apple.com/us/artist/delphine-coma/606688377'
+bandcamp: 'https://swissdarknights.bandcamp.com/album/leaving-the-scene'
+facebook: 'https://www.facebook.com/Delphine.Coma'
+google_music: >-
+   https://play.google.com/store/music/artist/Delphine_Coma?id=Aouuuylkhe5c5qhvg5l3g64dtnm
+instagram: 'https://www.instagram.com/delphine.coma'
+soundcloud: 'https://soundcloud.com/delphinecoma'
 spotify: ''
-twitter: ''
+twitter: 'https://twitter.com/delphinecoma'
 website: ''
 youtube: ''
 ---

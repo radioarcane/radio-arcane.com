@@ -18,7 +18,7 @@
          >
             <ul class="nav-menu">
                <li v-for="(item, index) in links" class="nav-menu__item" :key="index">
-                  <g-link class="nav-menu__link" :to="item.to">
+                  <g-link class="nav-menu__link" :to="item.to" @click="activeNav = false">
                      {{ item.name }}
                   </g-link>
                </li>

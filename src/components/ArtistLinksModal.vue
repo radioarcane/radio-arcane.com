@@ -108,14 +108,13 @@
    </div>
 </template>
 
-
 <script>
-   import GoogleIcon from '~/assets/svg/google.svg';
-
    import Btn from '~/components/Btn';
    import Center from '~/components/Center';
    import SvgIcon from '~/components/SvgIcon';
    import Title from '~/components/Title';
+
+   import GoogleIcon from '~/assets/svg/google.svg';
 
    export default {
       name: 'ArtistLinksModal',
@@ -191,7 +190,6 @@
             &:active {
                color: darken($white, 15%);
             }
-
          }
       }
    }

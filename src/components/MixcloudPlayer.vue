@@ -1,12 +1,6 @@
 <template>
    <div class="mixcloud-player">
-      <lazy-component>
-         <iframe width="100%" height="120" :src="getSrc()"  frameborder="0" />
-      </lazy-component>
-
-      <noscript>
-         <a :href="url" target="_blank">Click Here to Listen</a>
-      </noscript>
+      <iframe width="100%" height="120" :src="getSrc()" frameborder="0" />
    </div>
 </template>
 

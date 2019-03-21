@@ -3,7 +3,8 @@ title: The Chameleons
 apple_music: ''
 bandcamp: ''
 facebook: ''
-google_music: ''
+google_music: >-
+   https://play.google.com/store/music/artist/The_Chameleons?id=Acchfd7nukxgd3e2ifvlnqolwlq
 instagram: ''
 soundcloud: ''
 spotify: ''

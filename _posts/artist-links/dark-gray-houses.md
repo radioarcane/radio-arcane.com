@@ -1,8 +1,8 @@
 ---
 title: Dark Gray Houses
 apple_music: ''
-bandcamp: ''
-facebook: ''
+bandcamp: 'https://darkgrayhouses.bandcamp.com'
+facebook: 'https://www.facebook.com/darkgrayhouses'
 google_music: ''
 instagram: ''
 soundcloud: ''

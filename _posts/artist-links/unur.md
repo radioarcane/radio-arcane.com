@@ -3,7 +3,8 @@ title: Unur
 apple_music: ''
 bandcamp: ''
 facebook: ''
-google_music: ''
+google_music: >-
+   https://play.google.com/store/music/artist/Unur?id=Al5siah3k5gr2oh2ovgtkwlnxba
 instagram: ''
 soundcloud: ''
 spotify: ''

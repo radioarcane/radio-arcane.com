@@ -2,9 +2,10 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 //import 'intersection-observer';
+
 import DefaultLayout from '~/layouts/Default.vue';
 import vueMoment from 'vue-moment';
-import VueLazyload from 'vue-lazyload';
+//import VueLazyload from 'vue-lazyload';
 import VModal from 'vue-js-modal/dist/ssr.index';
 
 import '~/assets/styles/main.scss';
@@ -12,9 +13,12 @@ import '~/assets/styles/main.scss';
 export default function (Vue, { router, head, isClient }) {
    // Set default layout as a global component
 
+   //if (isClient) {
+      //require('intersection-observer');
+   //}
+
    head.htmlAttrs = {
       lang: 'en',
-      class: 'no-js no-webp'
    };
 
    Vue.use(vueMoment);
@@ -24,6 +28,7 @@ export default function (Vue, { router, head, isClient }) {
       injectModalsContainer: true
    });
 
+   /*
    Vue.use(VueLazyload, {
       lazyComponent: true,
       observer: true,
@@ -32,6 +37,7 @@ export default function (Vue, { router, head, isClient }) {
          threshold: 0.1,
       },
    });
+   */
 
    Vue.component('Layout', DefaultLayout);
 }

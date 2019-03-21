@@ -19,6 +19,9 @@ function addStyleResource (rule) {
 
 module.exports = {
    siteName: 'Radio Arcane',
+   siteUrl: 'https://www.radio-arcane.com',
+   siteDescription: 'Louisville, KY collective specializing in Darkwave, Goth, Post-Punk, Industrial, EBM, Synthwave, and related music events & podcasts.',
+   titleTemplate: '%s | Radio Arcane',
    chainWebpack: config => {
       // Load variables for all vue-files
       const types = ['vue-modules', 'vue', 'normal-modules', 'normal'];
@@ -36,5 +39,42 @@ module.exports = {
       .loader('vue-svg-loader');
    },
    plugins: [
+      {
+         use: '@gridsome/plugin-sitemap',
+         options: {
+            cacheTime: 600000,
+            exclude: [],
+            config: {
+               '/': {
+                  changefreq: 'weekly',
+                  priority: 1.0
+               },
+               '/events': {
+                  changefreq: 'weekly',
+                  priority: 0.9
+               },
+               '/events/*': {
+                  changefreq: 'weekly',
+                  priority: 0.8
+               },
+               '/podcasts': {
+                  changefreq: 'monthly',
+                  priority: 0.7
+               },
+               '/podcasts/*': {
+                  changefreq: 'monthly',
+                  priority: 0.6
+               },
+               '/arcane-alive': {
+                  changefreq: 'monthly',
+                  priority: 0.5
+               },
+               '/about': {
+                  changefreq: 'monthly',
+                  priority: 0.4
+               }
+            }
+         }
+      }
    ]
 };

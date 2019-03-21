@@ -3,7 +3,8 @@ title: Garden of Mary
 apple_music: 'https://itunes.apple.com/us/artist/garden-of-mary/1265279808'
 bandcamp: 'https://gardenofmary.bandcamp.com'
 facebook: 'https://www.facebook.com/TheGardenofMary/'
-google_music: ''
+google_music: >-
+   https://play.google.com/store/music/artist/Garden_of_Mary?id=Armhumvdn3h7o37fyphwqa6esrm
 instagram: ''
 soundcloud: ''
 spotify: 'https://open.spotify.com/artist/7ya6ig4GcMJN8aAkRBtZV9'

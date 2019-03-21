@@ -3,7 +3,8 @@ title: Mentallo & The Fixer
 apple_music: ''
 bandcamp: ''
 facebook: ''
-google_music: ''
+google_music: >-
+   https://play.google.com/store/music/artist/Mentallo_and_the_Fixer?id=Akqeb6s5ebwra4e352h6bizwg54
 instagram: ''
 soundcloud: ''
 spotify: ''

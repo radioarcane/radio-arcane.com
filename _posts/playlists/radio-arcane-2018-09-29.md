@@ -112,7 +112,7 @@ sets:
         song: Novovision
       - artist: Fraunhofer Diffraction
         song: Star Trails
-      - artist: GOST
+      - artist: GosT
         song: Sigil
       - artist: Fuck Buttons
         song: Surf Solar (7” Edit)

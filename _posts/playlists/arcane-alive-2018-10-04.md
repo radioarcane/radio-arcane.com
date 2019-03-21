@@ -88,7 +88,7 @@ sets:
       - artist: ':Wumpscut:'
         song: Is It You
         request: 'song'
-      - artist: //TENSE
+      - artist: //TENSE//
         song: Disconnect Myself
       - artist: And One
         song: Metalhammer (Club Mix)

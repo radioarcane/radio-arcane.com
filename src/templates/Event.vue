@@ -113,7 +113,7 @@
       },
       metaInfo () {
          return {
-            title: this.$page.event.displayName + ' | Radio Arcane',
+            title: this.$page.event.displayName,
             meta: [
                { description: 'Add Meta Description...' }
             ]

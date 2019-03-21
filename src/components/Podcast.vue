@@ -1,5 +1,8 @@
 <template>
    <div class="podcast" itemscope itemtype="http://schema.org/AudioObject">
+      <meta itemprop="name" :content="`Radio Arcane : ${ podcast.title }`" />
+      <meta v-if="podcast.date" itemprop="datePublished" :content="podcast.date" />
+
       <div v-if="podcast.image" class="podcast__img">
          <g-link :to="podcast.path">
             <picture v-if="podcast.webp">
@@ -16,7 +19,7 @@
       </div>
 
       <div class="podcast__content">
-         <h3 class="podcast__title" itemprop="name">
+         <h3 class="podcast__title">
             {{ podcast.title }}
          </h3>
 
@@ -30,7 +33,7 @@
          <div v-if="podcast.mixcloudLink" class="podcast__player">
             <meta itemprop="encodingFormat" content="audio/mpeg" />
             <meta itemprop="contentUrl" :content="podcast.mixcloudLink" />
-
+            <meta itemprop="playerType" content="HTML5" />
             <MixcloudPlayer :url="podcast.mixcloudLink" />
          </div>
 
@@ -46,6 +49,24 @@
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
    import SvgIcon from '~/components/SvgIcon.vue';
 
+   /*
+   <noscript>
+      <a :href="podcast.mixcloudLink" target="_blank">Click Here to Listen</a>
+   </noscript>
+   */
+
+   //import LazyHydrate from 'vue-lazy-hydration';
+
+/*
+   <MixcloudPlayer :url="podcast.mixcloudLink" />
+*/
+
+   /*
+   <LazyHydrate when-visible>
+      <MixcloudPlayer :url="podcast.mixcloudLink" />
+   </LazyHydrate>
+   */
+
    export default {
       name: 'Podcast',
       props: {
@@ -56,8 +77,10 @@
       components: {
          Btn,
          MixcloudPlayer,
+         //LazyHydrate,
+         //MixcloudPlayer: () => import('./MixcloudPlayer.vue'),
          SvgIcon,
-      },
+      }
    };
 </script>
 

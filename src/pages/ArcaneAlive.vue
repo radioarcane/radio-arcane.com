@@ -100,7 +100,7 @@
 
    export default {
       metaInfo: {
-         title: 'Arcane Alive! | Radio Arcane',
+         title: 'Arcane Alive!',
          meta: [
             { description: 'Add Meta Description...' }
          ]

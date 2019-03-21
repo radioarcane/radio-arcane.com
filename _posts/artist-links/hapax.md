@@ -1,13 +1,14 @@
 ---
 title: Hapax
-apple_music: ''
-bandcamp: ''
-facebook: ''
-google_music: ''
-instagram: ''
-soundcloud: ''
-spotify: ''
+apple_music: 'https://itunes.apple.com/us/artist/hapax/81021187'
+bandcamp: 'https://hapax.bandcamp.com'
+facebook: 'https://www.facebook.com/hapaxband'
+google_music: >-
+   https://play.google.com/store/music/artist/Hapax?id=A5rb36vgfp6ukzssproero5djwe
+instagram: 'https://www.instagram.com/hapax_official'
+soundcloud: 'https://soundcloud.com/listenhapax'
+spotify: 'https://open.spotify.com/artist/4VdNQVxiDpa6IDLZ8Y18el'
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCFn79BiLq7wt7p_WbYE2NfQ'
 ---

@@ -1,13 +1,13 @@
 ---
 title: Stockhaussen
 apple_music: ''
-bandcamp: ''
-facebook: ''
+bandcamp: 'https://stockhaussen.bandcamp.com'
+facebook: 'https://www.facebook.com/Stockhaussen'
 google_music: ''
-instagram: ''
-soundcloud: ''
+instagram: 'https://www.instagram.com/stockhaussen'
+soundcloud: 'https://soundcloud.com/stockhaussen'
 spotify: ''
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCvUlLctEfG0shO0AnHtMoxg'
 ---

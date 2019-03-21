@@ -1,13 +1,14 @@
 ---
 title: Twin Tribes
-apple_music: ''
-bandcamp: ''
-facebook: ''
-google_music: ''
-instagram: ''
+apple_music: 'https://itunes.apple.com/us/artist/twin-tribes/1414679340'
+bandcamp: 'https://twintribes.bandcamp.com'
+facebook: 'https://www.facebook.com/TwinTribes'
+google_music: >-
+   https://play.google.com/store/music/artist/Twin_Tribes?id=Alt7kqohyjtms2phhaxs2bjrjmi
+instagram: 'https://www.instagram.com/Twin_Tribes'
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/7wxXs62y8Gjf6c6pxrnWIl'
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UC0-_sfuRknjcGNsEnMfbIWA'
 ---
