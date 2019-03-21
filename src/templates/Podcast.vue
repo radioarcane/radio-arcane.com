@@ -60,14 +60,7 @@
                   <meta itemprop="encodingFormat" content="audio/mpeg" />
                   <meta itemprop="contentUrl" :content="$page.podcast.mixcloudLink" />
                   <meta itemprop="playerType" content="HTML5" />
-
-
-
-                  <noscript>
-                     <Btn :href="$page.podcast.mixcloudLink" :target="_blank" :variant="hollow">
-                        Click Here To Listen
-                     </Btn>
-                  </noscript>
+                  <MixcloudPlayer :url="$page.podcast.mixcloudLink" />
                </GridItem>
             </GridContainer>
          </article>
@@ -126,9 +119,16 @@
    import Title from '~/components/Title.vue';
    //import LazyHydrate from 'vue-lazy-hydration';
 
+   /*
+   <noscript>
+      <Btn :href="$page.podcast.mixcloudLink" :target="_blank" :variant="hollow">
+         Click Here To Listen
+      </Btn>
+   </noscript>
+   */
 
 /*
-<MixcloudPlayer :url="$page.podcast.mixcloudLink" />
+
 */
    export default {
       components: {
