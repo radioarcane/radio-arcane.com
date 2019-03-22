@@ -117,6 +117,11 @@
          @include breakpoint($screen-xl-min) {
             width: 400px;
          }
+
+         /* IE Fix... */
+         a {
+            display: block;
+         }
       }
 
       &__nav {
