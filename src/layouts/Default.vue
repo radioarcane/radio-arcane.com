@@ -1,7 +1,5 @@
 <template>
-   <div class="layout">
-      <SvgSprite />
-
+   <div>
       <Header />
 
       <main class="main-content" role="main">
@@ -25,14 +23,12 @@
    import BackgroundNoise from '~/components/BackgroundNoise.vue';
    import Footer from './Footer.vue';
    import Header from './Header.vue';
-   import SvgSprite from './SvgSprite.vue';
 
    export default {
       components: {
          BackgroundNoise,
          Footer,
-         Header,
-         SvgSprite,
+         Header
       }
    }
 </script>

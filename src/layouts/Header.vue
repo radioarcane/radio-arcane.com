@@ -3,8 +3,8 @@
       <div class="mast-header__brand">
          <g-link to="/">
             <picture>
-               <source srcset="/img/logo--radio-arcane.webp" type="image/png">
-               <source srcset="/img/logo--radio-arcane.png" type="image/jpeg">
+               <source srcset="/img/logo--radio-arcane.webp" type="image/webp">
+               <source srcset="/img/logo--radio-arcane.png" type="image/png">
                <img src="/img/logo--radio-arcane.png" alt="Radio Arcane">
             </picture>
          </g-link>
@@ -18,9 +18,13 @@
          >
             <ul class="nav-menu">
                <li v-for="(item, index) in links" class="nav-menu__item" :key="index">
-                  <g-link class="nav-menu__link" :to="item.to" @click="activeNav = false">
+                  <g-link
+                     class="nav-menu__link"
+                     :to="item.to"
+                     @click.native="activeNav = false"
+                  >
                      {{ item.name }}
-                  </g-link>
+               </g-link>
                </li>
             </ul>
          </nav>

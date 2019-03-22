@@ -6,7 +6,13 @@
          title="Follow Radio Arcane on Facebook"
          aria-label="Follow Radio Arcane on Facebook"
       >
+         <!--
          <SvgIcon name="facebook" use="facebook" />
+      -->
+
+         <svg class="icon icon-facebook">
+            <use xlink:href="/img/icons/sprite.symbol.svg#facebook"></use>
+         </svg>
       </a>
 
       <a

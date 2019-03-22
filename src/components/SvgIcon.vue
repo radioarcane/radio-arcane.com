@@ -1,6 +1,6 @@
 <template>
    <svg :class="getClass()">
-      <use v-if="use" :xlink:href="'#' + use" role="img" />
+      <use v-if="use" :xlink:href="'/img/icons/sprite.symbol.svg#' + use" role="img" />
       <slot v-else />
    </svg>
 </template>

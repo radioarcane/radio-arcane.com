@@ -41,8 +41,8 @@
                </GridItem>
                <GridItem :sizes="{
                   xs: 12,
-                  md: 8,
-                  lg: 9
+                  md: $page.podcast.image ? 8 : 12,
+                  lg: $page.podcast.image ? 9 : 12
                }">
                   <div v-if="$page.podcast.date">
                      <p>
@@ -64,6 +64,17 @@
                </GridItem>
             </GridContainer>
          </article>
+
+         <hr />
+
+         <section v-if="$page.podcast.playlist">
+            <h2>Playlist</h2>
+
+            <Playlist
+               :playlist="$page.podcast.playlist"
+               :showHeader="false"
+            />
+         </section>
       </Container>
    </Layout>
 </template>
@@ -116,20 +127,9 @@
    import GridContainer from '~/components/GridContainer.vue';
    import GridItem from '~/components/GridItem.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
+   import Playlist from '~/components/Playlist.vue';
    import Title from '~/components/Title.vue';
-   //import LazyHydrate from 'vue-lazy-hydration';
 
-   /*
-   <noscript>
-      <Btn :href="$page.podcast.mixcloudLink" :target="_blank" :variant="hollow">
-         Click Here To Listen
-      </Btn>
-   </noscript>
-   */
-
-/*
-
-*/
    export default {
       components: {
          Layout,
@@ -139,10 +139,9 @@
          Container,
          GridContainer,
          GridItem,
-         //MixcloudPlayer,
-         Title,
-         //LazyHydrate,
-         //MixcloudPlayer: () => import('~/components/MixcloudPlayer.vue'),
+         MixcloudPlayer,
+         Playlist,
+         Title
       },
       metaInfo () {
          return {
