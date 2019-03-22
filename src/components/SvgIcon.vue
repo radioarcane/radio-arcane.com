@@ -46,14 +46,6 @@
       margin-right: 4px;
    }
 
-   .icon-facebook {
-
-   }
-
-   .icon-instagram {
-
-   }
-
    .icon-mixcloud {
       width: 1.25em;
    }

@@ -22,7 +22,7 @@
             </h3>
 
             <div class="event__subtitle">
-               <svg class="icon icon-clock"><use xlink:href="#clock"></use></svg>
+               <SvgIcon name="clock" use="clock" />
                <time :datetime="getDateTime()"
                      itemprop="startDate"
                      :content="getDateTime()"
@@ -44,7 +44,7 @@
               itemscope
               itemtype="http://schema.org/Place"
          >
-            <svg class="icon icon-location"><use xlink:href="#location"></use></svg>
+            <SvgIcon name="location" use="location" />
 
             <a v-if="event.location.venueLink"
                :href="event.location.venueLink"
@@ -94,16 +94,15 @@
             <GridContainer>
                <GridItem v-if="event.facebookEventLink">
                   <Btn :href="event.facebookEventLink" variant="facebook" target="_blank">
-                     <svg class="icon icon-facebook"><use xlink:href="#facebook"></use></svg> <span>Facebook Event</span>
+                     <SvgIcon use="facebook" name="facebook" /> <span>Facebook Event</span>
                   </Btn>
                </GridItem>
                <GridItem v-if="event.ticketsLink && !event.expired">
                   <Btn v-if="event.ticketsLink" :href="event.ticketsLink" target="_blank">
-                     <svg class="icon icon-ticket"><use xlink:href="#ticket"></use></svg> <span>Advanced Tickets</span>
+                     <SvgIcon use="ticket" name="ticket" /> <span>Advanced Tickets</span>
                   </Btn>
                </GridItem>
             </GridContainer>
-
          </div>
       </div>
    </div>
@@ -113,6 +112,7 @@
    import Btn from '~/components/Btn.vue';
    import GridContainer from '~/components/GridContainer.vue';
    import GridItem from '~/components/GridItem.vue';
+   import SvgIcon from '~/components/SvgIcon.vue';
 
    export default {
       name: 'Event',
@@ -120,6 +120,7 @@
          Btn,
          GridContainer,
          GridItem,
+         SvgIcon,
       },
       props: {
          event: {
