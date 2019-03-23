@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/TR_ST?id=Az3tkcfohersmmuvyyyephfbogq
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/64NhyHqRKYhV0IZylrElWu'
 twitter: ''
 website: ''
 youtube: ''

@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Major_Parkinson?id=Avaaqpp7vkocyqo6b7vxfbfr4ya
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/5baLALm4KxY0I4z4OjumiZ'
 twitter: ''
 website: ''
 youtube: ''

@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Circuito_Cerrado?id=Apkwvzl7mhl6n6puqgfqn4v6nka
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/1siDT5LnjGEsJORwFcX7X0'
 twitter: ''
 website: ''
 youtube: ''

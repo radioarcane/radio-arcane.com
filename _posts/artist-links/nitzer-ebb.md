@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Nitzer_Ebb?id=Aiaxlvqcydoxerzgelsbpgzwe7q
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/7EnAgffrVyerTWH628TJ6f'
 twitter: ''
 website: ''
 youtube: ''

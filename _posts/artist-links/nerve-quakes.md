@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Nerve_Quakes?id=Aclypfw2l5gac4dwnnjgbrcpf4e
 instagram: ''
 soundcloud: 'https://soundcloud.com/nervequakes'
-spotify: ''
+spotify: 'https://open.spotify.com/artist/0YzBcaMz715MZlGE6OvHdP'
 twitter: ''
 website: ''
 youtube: 'https://www.youtube.com/channel/UCnubj4E26inhHG2yZrhDU1w'

@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/The_Silicon_Scientist?id=Aehy3xxikgm6j2k2766ldwvuhlm
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/7wMvjvQcxZEO2F7zBQvlxz'
 twitter: ''
 website: ''
 youtube: ''

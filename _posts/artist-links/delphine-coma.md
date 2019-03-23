@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Delphine_Coma?id=Aouuuylkhe5c5qhvg5l3g64dtnm
 instagram: 'https://www.instagram.com/delphine.coma'
 soundcloud: 'https://soundcloud.com/delphinecoma'
-spotify: ''
+spotify: 'https://open.spotify.com/artist/6gdrXELpc1mmVHwBBdPvUA'
 twitter: 'https://twitter.com/delphinecoma'
 website: ''
 youtube: ''

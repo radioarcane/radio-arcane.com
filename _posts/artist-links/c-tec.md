@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/C_Tec?id=Alzsnyay3w446sh4k46d5n37zw4
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/1oWk7khBPwxNPCGfGBxaOK'
 twitter: ''
 website: ''
 youtube: ''

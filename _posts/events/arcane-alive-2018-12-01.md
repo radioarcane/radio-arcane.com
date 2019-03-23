@@ -22,7 +22,7 @@ description: >-
   https://thekentuckyvampires.bandcamp.com
 
 
-  **Androspore** - (Louisville)
+  **AndrOspore** - (Louisville)
   electronic, synth pop, techno
   https://m.soundcloud.com/edwin-alberto-ramirez/sets/androspore
   https://youtu.be/_dwQFFpoKfE

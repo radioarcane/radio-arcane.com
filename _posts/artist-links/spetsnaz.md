@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Spetsnaz?id=Ax2d7sbp5mojshsjyludkwydzwq
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/6rGKVeLdDQmfI6WfS7A2Vg'
 twitter: ''
 website: ''
 youtube: ''

@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/The_Sisters_of_Mercy?id=A5oh3vbdoiew3743wqupz7tb26y
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/4HxBVyHaUa60eCSsJWxwWR'
 twitter: ''
 website: ''
 youtube: ''

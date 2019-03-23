@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/X_Fusion?id=A332jujeklrgspyfffpdehhjfye
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/3e09PYEqXPesfLm6WLD00B'
 twitter: ''
 website: ''
 youtube: ''

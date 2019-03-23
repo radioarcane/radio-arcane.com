@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Peter_Murphy?id=Aztogqlybrzoh3idryudykcjcdy
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/7zeHJIIfNStVfxlbT72UwY'
 twitter: ''
 website: ''
 youtube: ''

@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Dead_Can_Dance?id=Ai545hs3npwwojrrejfpqcsdity
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/6sq7prp0tj9Abn89khmfja'
 twitter: ''
 website: ''
 youtube: ''

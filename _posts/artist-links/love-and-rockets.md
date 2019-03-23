@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Love_Rockets?id=Apkv7jfex2ihkgzn4klxmycrknm
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/09mvgMBvJkxarNIDGdwPWg'
 twitter: ''
 website: ''
 youtube: ''

@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/U_Tek?id=Akwqr62gkwnf556kv2nge2ngg6u
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/5o08bRL27Wo69vgsjizjQI'
 twitter: ''
 website: ''
 youtube: ''

@@ -1,14 +1,14 @@
 ---
 title: Lycia
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/lycia/4370573'
+bandcamp: 'https://lycia.bandcamp.com'
+facebook: 'https://www.facebook.com/LyciaBand'
 google_music: >-
    https://play.google.com/store/music/artist/Lycia?id=Afgfabdbd3wa2gtnmtxdcqny4ia
-instagram: ''
-soundcloud: ''
-spotify: ''
-twitter: ''
+instagram: 'https://www.instagram.com/lyciaband'
+soundcloud: 'https://soundcloud.com/lycia-live'
+spotify: 'https://open.spotify.com/artist/6D2FZCqwDafnI49jrFYROE'
+twitter: 'https://twitter.com/LyciaBand'
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCKM4WWjSi8ztla0lz1w64Fw'
 ---

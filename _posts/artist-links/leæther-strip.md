@@ -1,14 +1,14 @@
 ---
 title: Leæther Strip
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/le%C3%A6ther-strip/586838474'
+bandcamp: 'https://leaetherstrip.bandcamp.com'
+facebook: 'https://www.facebook.com/LeaetherStrip'
 google_music: >-
    https://play.google.com/store/music/artist/Le%C3%A6ther_Strip?id=A74ayebouifmumwdjpyasbzkati
 instagram: ''
-soundcloud: ''
-spotify: ''
-twitter: ''
-website: ''
-youtube: ''
+soundcloud: 'https://soundcloud.com/leaetherstrip'
+spotify: 'https://open.spotify.com/artist/0sXS19vpLXUR04yQ8gAMOM'
+twitter: 'https://twitter.com/leaether_strip'
+website: 'http://www.leaether-strip.com'
+youtube: 'https://www.youtube.com/channel/UCLZbnugGIlwP3QtQoSwpqZA'
 ---

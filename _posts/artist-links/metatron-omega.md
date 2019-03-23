@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Metatron_Omega?id=Aco3a7yxltjahunb2qq6evciaoy
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/6C4GgVeNYRqyYf4BOStvMy'
 twitter: ''
 website: ''
 youtube: ''

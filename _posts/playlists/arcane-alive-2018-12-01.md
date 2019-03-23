@@ -44,7 +44,7 @@ sets:
         song: Pałac Kultury
       - artist: Supernova 1006
         song: Through Me
-  - performer: Androspore
+  - performer: AndrOspore
     type: performance
   - dj_name: Sorrow-Vomit
     type: dj_set

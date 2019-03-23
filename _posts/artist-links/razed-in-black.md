@@ -7,7 +7,7 @@ google_music: >-
    https://play.google.com/store/music/artist/Razed_in_Black?id=A3arrjjhh7jgfex57lvtmfyknmq
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/7yz0vJbLEFfVLg8LKSvxdB'
 twitter: ''
 website: ''
 youtube: ''
