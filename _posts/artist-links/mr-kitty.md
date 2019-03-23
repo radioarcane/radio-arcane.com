@@ -1,14 +1,14 @@
 ---
-title: Mr. Kitty
-apple_music: ''
-bandcamp: ''
-facebook: ''
+title: Mr.Kitty
+apple_music: 'https://itunes.apple.com/us/artist/mr-kitty/376202205'
+bandcamp: 'https://mrkittydm.bandcamp.com'
+facebook: 'https://www.facebook.com/mrkittydm'
 google_music: >-
    https://play.google.com/store/music/artist/Mr_Kitty?id=Afv5ep3yxslbjeksf3usr7dvq2i
-instagram: ''
-soundcloud: ''
-spotify: ''
-twitter: ''
+instagram: 'https://www.instagram.com/mrkittydm'
+soundcloud: 'https://soundcloud.com/mrkittydm'
+spotify: 'https://open.spotify.com/artist/0pWwt5vGNzezEhfAcc420Y'
+twitter: 'https://twitter.com/mrkittydm'
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/user/mrkittydm'
 ---

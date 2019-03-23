@@ -1,13 +1,13 @@
 ---
 title: The Klinik
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/the-klinik/322385301'
+bandcamp: 'https://theklinik1.bandcamp.com'
+facebook: 'https://www.facebook.com/groups/43931225758'
 google_music: >-
    https://play.google.com/store/music/artist?id=Ayspu7hw5dystkbyleewbje7qze
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/2KczmhlmHUuDVVtkXJjgAc'
 twitter: ''
 website: ''
 youtube: ''

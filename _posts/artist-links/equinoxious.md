@@ -1,14 +1,14 @@
 ---
 title: Equinoxious
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/equinoxious/1101266769'
+bandcamp: 'https://equinoxious.bandcamp.com'
+facebook: 'https://www.facebook.com/equinoxious'
 google_music: >-
    https://play.google.com/store/music/artist/Equinoxious?id=A72xw2fzwejnekieu6jdzw6rgcy
-instagram: ''
-soundcloud: ''
-spotify: ''
-twitter: ''
+instagram: 'https://www.instagram.com/equinoxious'
+soundcloud: 'https://soundcloud.com/equinoxious'
+spotify: 'https://open.spotify.com/artist/7lCXpzIudWHsKQ6PMGECaZ'
+twitter: 'https://twitter.com/equinoxious'
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCLbjG3XdgIa399B1ia0n8Cg'
 ---

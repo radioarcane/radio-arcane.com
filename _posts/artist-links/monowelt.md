@@ -1,11 +1,11 @@
 ---
 title: Monowelt
 apple_music: ''
-bandcamp: ''
-facebook: ''
+bandcamp: 'https://monowelt.bandcamp.com'
+facebook: 'https://www.facebook.com/monoweltdarkwave'
 google_music: ''
-instagram: ''
-soundcloud: ''
+instagram: 'https://www.instagram.com/monowelt'
+soundcloud: 'https://soundcloud.com/monowelt-1'
 spotify: ''
 twitter: ''
 website: ''

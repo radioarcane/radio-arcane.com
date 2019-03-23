@@ -1,11 +1,11 @@
 ---
 title: Funeral Door
 apple_music: ''
-bandcamp: ''
-facebook: ''
+bandcamp: 'https://funeraldoor.bandcamp.com'
+facebook: 'https://www.facebook.com/funeraldoor'
 google_music: ''
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/funeraldoorworld'
 spotify: ''
 twitter: ''
 website: ''

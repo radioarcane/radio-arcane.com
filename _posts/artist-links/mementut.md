@@ -1,11 +1,11 @@
 ---
 title: Mementut
 apple_music: ''
-bandcamp: ''
-facebook: ''
+bandcamp: 'https://mementut.bandcamp.com'
+facebook: 'https://www.facebook.com/Mementut'
 google_music: ''
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/mementut'
 spotify: ''
 twitter: ''
 website: ''

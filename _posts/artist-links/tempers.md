@@ -1,7 +1,7 @@
 ---
 title: Tempers
 apple_music: 'https://itunes.apple.com/us/artist/tempers/599026937'
-bandcamp: ''
+bandcamp: 'https://aufnahmeundwiedergabe.bandcamp.com/album/services'
 facebook: 'https://www.facebook.com/tempersmusic'
 google_music: >-
   https://play.google.com/store/music/artist/Tempers?id=A62gmd43ytgkolmvmsronnap5ym

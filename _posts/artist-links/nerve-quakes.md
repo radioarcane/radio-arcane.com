@@ -1,14 +1,14 @@
 ---
 title: Nerve Quakes
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/nerve-quakes/1337069410'
+bandcamp: 'https://nervequakes.bandcamp.com'
+facebook: 'https://www.facebook.com/Nerve-Quakes-1902422013308947'
 google_music: >-
    https://play.google.com/store/music/artist/Nerve_Quakes?id=Aclypfw2l5gac4dwnnjgbrcpf4e
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/nervequakes'
 spotify: ''
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCnubj4E26inhHG2yZrhDU1w'
 ---

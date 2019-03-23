@@ -33,7 +33,7 @@ sets:
         song: Through Me
       - artist: Die Selektion
         song: Du Rennst
-      - artist: Angels of Libery
+      - artist: Angels of Liberty
         song: Monster In Me
       - artist: Placebo Effect
         song: Move

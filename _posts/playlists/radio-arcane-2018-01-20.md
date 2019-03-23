@@ -10,7 +10,7 @@ sets:
     tracks:
       - artist: Le Matos
         song: Intro
-      - artist: Mr. Kitty
+      - artist: Mr.Kitty
         song: XIII
       - artist: Velvet Condom
         song: Rouge City
