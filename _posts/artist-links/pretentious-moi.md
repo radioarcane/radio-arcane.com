@@ -1,13 +1,13 @@
 ---
 title: Pretentious, Moi?
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/pretentious-moi/460369093'
 bandcamp: ''
-facebook: ''
+facebook: 'https://www.facebook.com/pretentiousmoi'
 google_music: ''
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/pretentious-moi'
 spotify: 'https://open.spotify.com/artist/6z1NLLV8Rlqw1jFaJ8WTYP'
 twitter: ''
-website: ''
+website: 'http://www.pretentiousmoi.com'
 youtube: ''
 ---

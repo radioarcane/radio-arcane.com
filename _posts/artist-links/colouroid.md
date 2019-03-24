@@ -1,12 +1,12 @@
 ---
 title: Colouroid
-apple_music: ''
+apple_music: 'https://itunes.apple.com/gb/artist/colouroid/437007692'
 bandcamp: ''
-facebook: ''
+facebook: 'https://www.facebook.com/colouroid'
 google_music: >-
    https://play.google.com/store/music/artist/Colouroid?id=At2tkklxxejxkpegnod3443mcza
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/colouroid'
 spotify: 'https://open.spotify.com/artist/6nxUUlDep90Vf6ezTg0fPh'
 twitter: ''
 website: ''

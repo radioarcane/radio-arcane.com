@@ -1,8 +1,8 @@
 ---
 title: AndrOspore
 apple_music: ''
-bandcamp: 'https://www.facebook.com/AndrOspore'
-facebook: ''
+bandcamp: ''
+facebook: 'https://www.facebook.com/AndrOspore'
 google_music: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/edwin-alberto-ramirez/hydrozoa'
