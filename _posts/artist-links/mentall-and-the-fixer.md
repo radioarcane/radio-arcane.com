@@ -1,6 +1,6 @@
 ---
 title: Mentallo & The Fixer
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/mentallo-the-fixer/260810342'
 bandcamp: ''
 facebook: ''
 google_music: >-
