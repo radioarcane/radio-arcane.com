@@ -1,14 +1,14 @@
 ---
 title: H ø R D
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/h-%C3%B8-r-d/1123748366'
+bandcamp: 'https://hordmusic.bandcamp.com'
+facebook: 'https://www.facebook.com/hordmusic'
 google_music: >-
    https://play.google.com/store/music/artist/H_%C3%B8_R_D?id=Awjobwzgtt2qqrr4ut6qpptibmy
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/hordmusic'
 spotify: 'https://open.spotify.com/artist/3OU3EJiVXgJ5EwI5uJtykc'
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCh0577yMSWuo6NUiiwUz82A'
 ---

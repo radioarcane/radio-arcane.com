@@ -64,7 +64,7 @@
          padding-top: 2rem;
       }
 
-      &--pad-bottom {
+      &--pad-btm {
          padding-bottom: 2rem;
       }
    }
