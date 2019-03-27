@@ -42,14 +42,22 @@
             </Section>
          </article>
 
+         <Section v-if="$page.nextEvent.edges.length">
+            <Heading strike animate uppercase>
+               Next Live Event
+            </Heading>
+
+            <Event :event="$page.nextEvent.edges[0].node" />
+         </Section>
+
          <Section>
             <Heading strike animate uppercase>
-               Past Events
+               Past Live Events
             </Heading>
 
             <GridContainer>
                <GridItem
-                  v-for="{ node } in $page.allEvent.edges"
+                  v-for="{ node } in $page.pastEvents.edges"
                   :key="node.id"
                   :sizes="{
                      xs: 12, sm: 12, md: 6, lg: 4
@@ -65,7 +73,39 @@
 
 <page-query>
    query Event {
-      allEvent (filter: {eventType: { eq: "arcane-alive" }}, sortBy: "date", order: DESC) {
+      nextEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "arcane-alive"}}, sortBy: "date", order: ASC, perPage: 1) {
+         edges {
+            node {
+               id,
+               path,
+               slug,
+               title,
+               displayName,
+               eventType,
+               date,
+               startDatetime,
+               endDatetime,
+               image,
+               webp,
+               description,
+               shortDescription,
+               facebookEventLink,
+               ticketsLink,
+               expired,
+               location {
+                  title,
+                  address,
+                  address2,
+                  city,
+                  state,
+                  zipcode,
+                  venueLink,
+                  googleMapLink,
+               }
+            }
+         }
+      },
+      pastEvents: allEvent (filter: {eventType: { eq: "arcane-alive" }, expired: { eq: true }}, sortBy: "date", order: DESC) {
          edges {
             node {
                id,
@@ -91,6 +131,7 @@
    import Btn from '~/components/Btn.vue';
    import Center from '~/components/Center.vue';
    import Container from '~/components/Container.vue';
+   import Event from '~/components/Event.vue';
    import EventCard from '~/components/EventCard.vue';
    import GridContainer from '~/components/GridContainer.vue';
    import GridItem from '~/components/GridItem.vue';
@@ -110,6 +151,7 @@
          Btn,
          Center,
          Container,
+         Event,
          EventCard,
          GridContainer,
          GridItem,
