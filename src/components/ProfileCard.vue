@@ -1,22 +1,30 @@
 <template>
-   <div class="profile-card" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="jobTitle" :content="Disk Jockey" />
-      <meta itemprop="name" :content="name" />
+   <div class="profile-card">
+      <figure class="profile-card__img" v-if="profile.img">
 
-      <figure class="profile-card__img" itemscope itemtype="https://schema.org/ImageObject">
-         <picture>
-            <source :srcset="`/img/webp/${ webp }.webp`" type="image/webp">
-            <source :srcset="`/img/uploads/${ img }.jpg`" type="image/jpeg">
-            <img :src="`/img/uploads/${ img }.jpg`" :alt="dj.name" itemprop="image">
+         <picture v-if="profile.webp && profile.img">
+            <source :srcset="`/img/webp/${ profile.webp }.webp`" type="image/webp" />
+            <source :srcset="`/img/uploads/${ profile.img }.jpg`" type="image/jpeg" />
+            <img :src="`/img/uploads/${ profile.img }.jpg`" :alt="profile.title" />
          </picture>
 
+         <img
+            v-if="profile.img && !profile.webp"
+            :src="`/img/uploads/${ profile.img }.jpg`"
+            :alt="profile.title"
+         />
+
          <figcaption class="profile-card__caption">
-            <span itemprop="caption" class="profile-card__title">
-               {{ name }}
+            <span class="profile-card__title">
+               {{ profile.title }}
             </span>
 
-            <span class="profile-card__credit">
-               Photo by <a href="http://www.oqlus.com" target"_blank">Tarik Dozier</a>
+            <span v-if="profile.credit && profile.creditUrl"  class="profile-card__credit">
+               Photo by <a :href="profile.creditUrl" target="_blank">{{ profile.credit}}</a>
+            </span>
+
+            <span v-if="profile.credit && !profile.creditUrl"  class="profile-card__credit">
+               {{ profile.credit}}
             </span>
          </figcaption>
       </figure>
@@ -24,69 +32,18 @@
 </template>
 
 <script>
-
-/*
-
-https://search.google.com/structured-data/testing-tool
-
-<div class="profile-card" itemscope itemtype="http://schema.org/Person">
-  <meta itemprop="jobTitle" content="Disk Jockey" />
-  <meta itemprop="name" content="Sorrow-Vomit" />
-  <meta itemprop="image" content="/img/uploads/sorrow-vmit.jpg" />
-
-  <figure class="profile-card__img" itemscope itemtype="https://schema.org/ImageObject">
-	 <picture>
-		<img :src="/img/uploads/sorrow-vmit.jpg" alt="Sorrow-Vomit" itemprop="image">
-	 </picture>
-	 <figcaption class="profile-card__caption">
-		<span itemprop="caption" class="profile-card__title">
-		   Sorrow-Vomit
-		</span>
-		<span class="profile-card__credit" itemprop="creator">
-			<span itemtype="http://schema.org/Person">Tarik Dozier</span>
-		</span>
-	 </figcaption>
-  </figure>
-</div>
-
-
-<div itemscope itemtype="http://schema.org/Person">
-  <meta itemprop="jobTitle" content="Disk Jockey" />
-  <meta itemprop="name" content="Sorrow-Vomit" />
-  <meta itemprop="image" content="/img/uploads/sorrow-vmit.jpg" />
-
-  <div itemscope itemtype="https://schema.org/Photograph">
-	<meta itemprop="image" content="/img/uploads/sorrow-vmit.jpg" />
-	<meta itemprop="name" content="Sorrow-Vomit" />
-
-	<div itemprop="creator" content="Tarik">
-	</div>
-
-  </div>
-
-
-</div>
-
-*/
-
    export default {
       name: 'ProfileCard',
       props: {
-         img: {
-            type: String,
-            required: false
-         },
-         webp: {
-            type: String,
-            required: false
-         },
-         title: {
-            type: String,
-            required: false
-         },
-         credits: {
-            type: String,
-            required: false
+         profile: {
+            type: Object,
+            default: {
+               img: null,
+               webp: null,
+               title: null,
+               credit: null,
+               creditUrl: null,
+            }
          }
       }
    }
@@ -98,19 +55,32 @@ https://search.google.com/structured-data/testing-tool
        margin: 0 0 2rem;
        border-radius: 8px;
        overflow: hidden;
+       position: relative;
 
        &__img {
           text-align: center;
-       }
-
-       &__body {
-          padding: 1rem $gutter-width;
-       }
-
-       &__title {
-          @include fluid-type($screen-s-min, $screen-xxl-min, 24px, 30px);
           margin: 0;
        }
 
+       &__caption {
+          position: absolute;
+          width: 100%;
+          bottom: 0;
+          left: 0;
+          padding: 5px;
+          background: hex-to-rgba($black, 0.5);
+       }
+
+       &__title {
+          @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 22px);
+          margin: 0;
+          display: block;
+          text-align: center;
+          line-height: 1;
+       }
+
+       &__credit {
+          font-size: 16px;
+       }
    }
 </style>

@@ -7,20 +7,31 @@
             </FlashContainer>
          </article>
 
-         <Section v-if="$page.events.edges.length">
+         <Section v-if="$page.nextEvent.edges.length">
             <Heading strike animate uppercase>
-               Next Event
+               Next Radio Arcane Event
             </Heading>
 
-            <Event :event="$page.events.edges[0].node" />
+            <Event :event="$page.nextEvent.edges[0].node" />
+         </Section>
 
+         <Section v-if="$page.nextLiveEvent.edges.length">
+            <Heading strike animate uppercase>
+               Next Live Event
+            </Heading>
+
+            <Event :event="$page.nextLiveEvent.edges[0].node" />
+         </Section>
+
+         <Section v-if="$page.nextEvent.edges.length || $page.nextLiveEvent.edges.length">
             <Center>
                <Btn to="/events" variant="hollow">
-                  <span>Checkout Other Upcoming Events</span>
+                  <span>Checkout Upcoming & Past Events</span>
                   <SvgIcon name="right-open" use="right-open" />
                </Btn>
             </Center>
          </Section>
+
 
          <Section v-if="$page.podcasts.edges.length">
             <Heading strike animate uppercase tag="h3">
@@ -31,7 +42,7 @@
 
             <Center>
                <Btn to="/podcasts" variant="hollow">
-                  <span>Checkout Other Podcasts</span>
+                  <span>Checkout Past Podcasts</span>
                   <SvgIcon name="right-open" use="right-open" />
                </Btn>
             </Center>
@@ -42,7 +53,39 @@
 
 <page-query>
    query HomeData {
-      events: allEvent (filter: {expired: { eq: false }}, sortBy: "date", order: ASC, perPage: 1) {
+      nextEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "radio-arcane"}}, sortBy: "date", order: ASC, perPage: 1) {
+         edges {
+            node {
+               id,
+               path,
+               slug,
+               title,
+               displayName,
+               eventType,
+               date,
+               startDatetime,
+               endDatetime,
+               image,
+               webp,
+               description,
+               shortDescription,
+               facebookEventLink,
+               ticketsLink,
+               expired,
+               location {
+                  title,
+                  address,
+                  address2,
+                  city,
+                  state,
+                  zipcode,
+                  venueLink,
+                  googleMapLink,
+               }
+            }
+         }
+      },
+      nextLiveEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "arcane-alive"}}, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
@@ -147,6 +190,28 @@
          Section,
          SvgIcon,
       },
+
+
+      /*
+      computed: {
+         nextEvent: {
+            get: function () {
+               const node = this.$page.events.edges.find(edge => {
+                  return edge.node.eventType === 'radio-arcane';
+               });
+
+               console.log(node);
+
+               return node ? node : null;
+            }
+         },
+         nextLiveEvent: {
+            get: function () {
+               return this.$page.events.edges.find(event => event.eventType === 'arcane-alive');
+            }
+         }
+      }
+      */
    }
 </script>
 

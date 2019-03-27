@@ -16,31 +16,81 @@
          </article>
 
          <Section>
-
             <Heading strike animate>
                Radio Arcane DJs
             </Heading>
 
-            <GridContainer collapse>
-               <GridItem
-                  v-for="(dj, index) in djs" :key="index"
-                  :sizes="{
-                     xs: 12, sm: 6, md: 4, lg: 4, xl: 3
-                  }"
-                  padBottom
+            <div class="profiles">
+               <div class="profile"
+                  v-for="(dj, index) in djs"
+                  :key="index"
                >
-                  <picture>
-                     <source :srcset="`/img/webp/${ dj.img }.webp`" type="image/webp">
-                     <source :srcset="`/img/uploads/${ dj.img }.jpg`" type="image/jpeg">
-                     <img :src="`/img/uploads/${ dj.img }.jpg`" :alt="dj.name">
-                  </picture>
-               </GridItem>
+                  <ProfileCard
+                     :profile="{
+                        title: dj.name,
+                        img: dj.img,
+                        webp: dj.img,
+                        credit: 'Tarik Dozier',
+                        creditUrl: 'http://www.oqlus.com'
+                     }"
+                  />
+               </div>
+            </div>
+         </Section>
 
-            </GridContainer>
+         <Section>
+            <Heading strike animate>
+               Other Title
+            </Heading>
+
+            <div class="profiles">
+               <div class="profile"
+                  v-for="(dj, index) in others"
+                  :key="index"
+               >
+                  <ProfileCard
+                     :profile="{
+                        title: dj.name,
+                        img: dj.img,
+                        webp: dj.img,
+                        credit: 'Tarik Dozier',
+                        creditUrl: 'http://www.oqlus.com'
+                     }"
+                  />
+               </div>
+            </div>
          </Section>
       </Container>
    </Layout>
 </template>
+
+<style lang="scss">
+   .profiles {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: stretch;
+       align-content: flex-start;
+       justify-content: flex-start;
+       margin: 0 -15px;
+   }
+
+   .profile {
+      width: 100%;
+      padding: 0 15px;
+
+      @include breakpoint ($screen-s-min) {
+        width: 50%;
+      }
+
+      @include breakpoint ($screen-m-min) {
+        width: 33.333%;
+     }
+
+      @include breakpoint ($screen-xl-min) {
+        width: 25%;
+      }
+   }
+</style>
 
 <script>
    import Breadcrumb from '~/components/Breadcrumb.vue';
@@ -50,6 +100,8 @@
    import Heading from '~/components/Heading.vue';
    import Section from '~/components/Section.vue';
    import Title from '~/components/Title.vue';
+
+   import ProfileCard from '~/components/ProfileCard';
 
    export default {
       metaInfo: {
@@ -64,6 +116,7 @@
          GridContainer,
          GridItem,
          Heading,
+         ProfileCard,
          Section,
          Title,
       },
@@ -73,9 +126,23 @@
                name: 'About',
                to: '/about'
             }],
+            others: [{
+               img: 'gothic-bastard',
+               webp: 'gothic-bastard.jpg',
+               name: 'Gothic Bastard'
+            }, {
+               img: 'lisa-frye',
+               webp: 'lisa-frye',
+               name: 'Lisa Frye'
+            }, {
+               img: 'robert-major',
+               webp: 'robert-major',
+               name: 'Robert Major'
+            }],
             djs: [{
                img: 'androspore',
-               name: 'AndrOspore'
+               name: 'AndrOspore',
+               webp: 'androspore',
             }, {
                img: 'brian-drabant',
                name: 'Brian Drabant'
