@@ -4,7 +4,7 @@ title: 2018-10-04 Arcane Alive
 display_name: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTRA'
 event_type: arcane-alive
 date: '2018-10-04'
-start_datetime: ''
+start_datetime: '2018-10-04 21:00:00'
 end_datetime: ''
 image: /img/uploads/arcane-alive-2018-10-04--2x.jpg
 description: |-
@@ -36,3 +36,4 @@ facebook_event_link: 'https://www.facebook.com/events/226390288222463/'
 tickets_link: ''
 playlist: 2018-10-04 Arcane Alive
 ---
+
