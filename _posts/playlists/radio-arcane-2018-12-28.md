@@ -1,7 +1,6 @@
 ---
 layout: playlist
-title: '2018-12-28 Radio Arcane'
-display_name: 'Radio Arcane: снежинка'
+title: 2018-12-28 Radio Arcane
 playlist_type: radio-arcane
 date: '2018-12-28'
 sets:
@@ -64,7 +63,7 @@ sets:
       - artist: Ministry
         song: Revenge
       - artist: The Lords of The New Church
-        song: Liver For Today
+        song: Live For Today
       - artist: Trisomie 21
         song: The Last Song
       - artist: Clan of Xymox
@@ -116,3 +115,4 @@ sets:
   - dj_name: Talamasca
     type: dj_set
 ---
+
