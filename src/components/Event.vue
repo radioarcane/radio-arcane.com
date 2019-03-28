@@ -1,5 +1,5 @@
 <template>
-   <div class="event" itemscope itemtype="http://schema.org/MusicEvent">
+   <div class="event">
       <div v-if="event.image" class="event__photo">
          <g-link :to="event.path">
             <picture v-if="event.webp">
@@ -17,16 +17,13 @@
 
       <div class="event__content">
          <header class="event__header">
-            <h3 class="event__title" itemprop="name">
+            <h3 class="event__title">
                {{ event.displayName }}
             </h3>
 
             <div class="event__subtitle">
                <SvgIcon name="clock" use="clock" />
-               <time :datetime="getDateTime()"
-                     itemprop="startDate"
-                     :content="getDateTime()"
-               >
+               <time :datetime="getDateTime()">
                   {{ event.date | moment("dddd, MMMM D, YYYY") }} <span v-if="event.startDatetime">
                      @ {{ event.startDatetime | moment('h A') }}
                   </span> <span v-if="event.startDatetime && event.endDatetime">
@@ -40,9 +37,6 @@
 
          <div v-if="event.location"
               class="event__location"
-              itemprop="location"
-              itemscope
-              itemtype="http://schema.org/Place"
          >
             <SvgIcon name="location" use="location" />
 
@@ -51,37 +45,23 @@
                target="_blank"
                class="event__location__title"
             >
-               <span itemprop="name">
-                  {{ event.location.title }}
-               </span>
+               {{ event.location.title }}
             </a>
 
-            <span v-if="!event.location.venueLink"
-                  class="event__location__title"
-                  itemprop="name"
-            >
+            <span v-if="!event.location.venueLink" class="event__location__title">
                {{ event.location.title }}
             </span>
 
-            <meta itemprop="addressCountry" content="USA" />
-
-            <span
-               class="event__location__address"
-               itemprop="address"
-               itemscope
-               itemtype="http://schema.org/PostalAddress"
-            >
-               <span itemprop="streetAddress">
-                  {{ event.location.address }}
-               </span><br />
+            <span class="event__location__address">
+               {{ event.location.address }}
+               <br />
                <span v-if="event.location.address2">
                   {{ event.location.address2 }}<br />
                </span>
-               <span itemprop="addressLocality">{{ event.location.city }}</span>, <span itemprop="addressRegion">{{ event.location.state }}</span> <span itemprop="postalCode">{{ event.location.zipcode }}</span>
+               <span>{{ event.location.city }}, {{ event.location.state }} {{ event.location.zipcode }}
             </span>
 
-            <a
-               v-if="event.location.googleMapLink"
+            <a v-if="event.location.googleMapLink"
                :href="event.location.googleMapLink"
                class="event__location__directions"
                target="_blank"
