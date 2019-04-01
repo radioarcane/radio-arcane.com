@@ -9,11 +9,12 @@ description: >-
    Brian Cole of Funeral Party Records also shows up for more because he hates himself but LOVES to PARTY!
    : Specialty segment 'Deep Cuts' with Sorrow Vomit : And quite a bit of awkward banter between the hosts to keep them from weeping and moaning their mortal gloom. Recorded and produced at the non-profit Art Sanctuary in Louisville, KY, Radio Arcane is a collective of Dark Music Specialists that host events, live music and dark arts entertainment.
 
-  To purchase tracks from Funeral Party on their website or through Bandcamp:
 
-  https://scaryblack.bandcamp.com/
+   To purchase tracks from Funeral Party on their website or through Bandcamp:
 
-  https://www.facebook.com/scaryblack502/
+
+   https://scaryblack.bandcamp.com/
+   https://www.facebook.com/scaryblack502/
 short_description: 'Featuring an interview with Albie Mason of Scary Black about his new album "Shadow Dwellers (B​-​Sides)"'
 mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-03-scary-black'
 soundcloud_link: 'https://soundcloud.com/radio_arcane/radio-arcane-03-scary-black'
