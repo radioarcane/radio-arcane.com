@@ -55,7 +55,6 @@ collections:
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "podcast"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Display Name", name: "display_name", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false, default: ""}
       - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Description", name: "description", widget: "markdown", required: false, default: ""}
