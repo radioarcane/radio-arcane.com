@@ -50,7 +50,6 @@
    }
 
    .tab__link__active {
-
       &,
       &:hover,
       &:focus,

@@ -40,50 +40,47 @@
 </script>
 
 <style lang="scss">
+
    .heading {
-
-   }
-
-   .heading--uppercase {
-      text-transform: uppercase;
-   }
-
-   .heading--animate {
-      animation: heading-animation .25s infinite;
-   }
-
-   .heading--strike {
-      overflow: hidden;
-      text-align: center;
-      border: 0;
-      box-shadow: none !important;
-
-      &:before,
-      &:after {
-         content: '';
-         display: inline-block;
-         height: 2px;
-         position: relative;
-         top: -2px;
-         vertical-align: middle;
+      &--uppercase {
+         text-transform: uppercase;
       }
 
-      &:before {
-        background-color: hex-to-rgba($white, 0.7);
-        left: -.5em;
-        margin-left: -100%;
-        width: 100%;
+      &--animate {
+         animation: heading-animation .25s infinite;
       }
 
-      &:after {
-        background-color: hex-to-rgba($white, 0.7);
-        left: .5em;
-        margin-right: -100%;
-        width: 100%;
+      &--strike {
+         overflow: hidden;
+         text-align: center;
+         border: 0;
+         box-shadow: none !important;
+
+         &:before,
+         &:after {
+            content: '';
+            display: inline-block;
+            height: 2px;
+            position: relative;
+            top: -2px;
+            vertical-align: middle;
+         }
+
+         &:before {
+           background-color: hex-to-rgba($white, 0.7);
+           left: -.5em;
+           margin-left: -100%;
+           width: 100%;
+         }
+
+         &:after {
+           background-color: hex-to-rgba($white, 0.7);
+           left: .5em;
+           margin-right: -100%;
+           width: 100%;
+         }
       }
    }
-
-   //box-shadow: 0 4px 2px -2px gray;
 
    @keyframes heading-animation {
    	0% {

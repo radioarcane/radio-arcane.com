@@ -1,10 +1,11 @@
 <template>
-   <div
+   <component
       class="grid"
       :class="{'grid--center': center, 'grid--collapse': collapse}"
+      :is="is"
    >
       <slot />
-   </div>
+   </component>
 </template>
 
 <script>
@@ -18,12 +19,17 @@
          collapse: {
             type: Boolean,
             default: false,
+         },
+         is: {
+            type: String,
+            default: 'div'
          }
       },
    }
 </script>
 
 <style lang="scss">
+
    .grid {
        display: flex;
        flex-wrap: wrap;

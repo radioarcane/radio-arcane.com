@@ -1,12 +1,18 @@
 <template>
-   <div class="flash-container">
+   <component :is="tag" class="flash-container">
       <slot />
-   </div>
+   </component>
 </template>
 
 <script>
    export default {
       name: 'FlashContainer',
+      props: {
+         tag: {
+            default: 'div',
+            type: String
+         }
+      }
    }
 </script>
 

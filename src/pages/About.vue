@@ -4,7 +4,7 @@
          <Breadcrumb :crumbs="crumbs" />
 
          <article>
-            <Section>
+            <Section :padBottom="true">
                <Title>About</Title>
 
                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at massa non felis tempor rhoncus vel quis nibh. Suspendisse massa odio, pellentesque vitae pellentesque in, hendrerit ut mi. Morbi suscipit finibus mauris eget mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis velit felis, gravida eget nunc sit amet, malesuada dictum ex. Aenean orci libero, aliquet ut tristique eget, iaculis at ante. Vestibulum et congue mi.</p>
@@ -15,9 +15,9 @@
             </Section>
          </article>
 
-         <Section>
+         <Section :padBottom="true">
             <Heading strike animate>
-               Radio Arcane DJs
+               Dark Music Specialists
             </Heading>
 
             <div class="profiles">
@@ -40,7 +40,7 @@
 
          <Section>
             <Heading strike animate>
-               Other Title
+               Creative Help & Direction
             </Heading>
 
             <div class="profiles">

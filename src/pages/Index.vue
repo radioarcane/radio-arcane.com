@@ -1,11 +1,9 @@
 <template>
    <Layout>
       <Container>
-         <article>
-            <FlashContainer>
-               <p>Radio Arcane is a collective of Louisville dj’s that produce events centered around music predominately focused on the use of the synthesizer. Including: Gothic, Post-Punk, New-Wave, Synthwave, 80's, Minimal, Synthpop, Triphop, EBM, Shoegaze, Industrial, Futurepop, 90's, Dreamwave, Retro-Electro, etc.</p>
-            </FlashContainer>
-         </article>
+         <FlashContainer tag="article">
+            <p>Radio Arcane is a collective of Louisville dj’s that produce events centered around music predominately focused on the use of the synthesizer. Including: Gothic, Post-Punk, New-Wave, Synthwave, 80's, Minimal, Synthpop, Triphop, EBM, Shoegaze, Industrial, Futurepop, 90's, Dreamwave, Retro-Electro, etc.</p>
+         </FlashContainer>
 
          <Section v-if="$page.nextEvent.edges.length">
             <Heading strike animate uppercase>
@@ -23,17 +21,14 @@
             <Event :event="$page.nextLiveEvent.edges[0].node" />
          </Section>
 
-         <Section v-if="$page.nextEvent.edges.length || $page.nextLiveEvent.edges.length">
-            <Center>
-               <Btn to="/events" variant="hollow">
-                  <span>Checkout Upcoming & Past Events</span>
-                  <SvgIcon name="right-open" use="right-open" />
-               </Btn>
-            </Center>
-         </Section>
+         <Center>
+            <Btn to="/events">
+               <span>Checkout Upcoming & Past Events</span>
+               <SvgIcon name="right-open" use="right-open" />
+            </Btn>
+         </Center>
 
-
-         <Section v-if="$page.podcasts.edges.length">
+         <Section v-if="$page.podcasts.edges.length" :padTop="true">
             <Heading strike animate uppercase tag="h3">
                Latest Podcast
             </Heading>

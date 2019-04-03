@@ -1,7 +1,5 @@
 <template>
-   <div class="podcast" itemscope itemtype="http://schema.org/AudioObject">
-      <meta itemprop="name" :content="`Radio Arcane : ${ podcast.title }`" />
-      <meta v-if="podcast.date" itemprop="datePublished" :content="podcast.date" />
+   <div class="podcast">
 
       <div v-if="podcast.image" class="podcast__img">
          <g-link :to="podcast.path">
@@ -25,20 +23,16 @@
 
          <p v-if="podcast.shortDescription"
             class="podcast__blurb"
-            itemprop="description"
          >
             {{ podcast.shortDescription }}
          </p>
 
          <div v-if="podcast.mixcloudLink" class="podcast__player">
-            <meta itemprop="encodingFormat" content="audio/mpeg" />
-            <meta itemprop="contentUrl" :content="podcast.mixcloudLink" />
-            <meta itemprop="playerType" content="HTML5" />
             <MixcloudPlayer :url="podcast.mixcloudLink" />
          </div>
 
-         <Btn :to="podcast.path" variant="hollow">
-            <span>More Info</span> <SvgIcon name="right-open" use="right-open" />
+         <Btn :to="podcast.path">
+            <span>Details</span> <SvgIcon name="right-open" use="right-open" />
          </Btn>
       </div>
    </div>
@@ -48,24 +42,6 @@
    import Btn from '~/components/Btn.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
    import SvgIcon from '~/components/SvgIcon.vue';
-
-   /*
-   <noscript>
-      <a :href="podcast.mixcloudLink" target="_blank">Click Here to Listen</a>
-   </noscript>
-   */
-
-   //import LazyHydrate from 'vue-lazy-hydration';
-
-/*
-   <MixcloudPlayer :url="podcast.mixcloudLink" />
-*/
-
-   /*
-   <LazyHydrate when-visible>
-      <MixcloudPlayer :url="podcast.mixcloudLink" />
-   </LazyHydrate>
-   */
 
    export default {
       name: 'Podcast',
@@ -77,14 +53,13 @@
       components: {
          Btn,
          MixcloudPlayer,
-         //LazyHydrate,
-         //MixcloudPlayer: () => import('./MixcloudPlayer.vue'),
          SvgIcon,
       }
    };
 </script>
 
 <style lang="scss">
+
    .podcast {
       display: flex;
       flex-wrap: wrap;
@@ -99,16 +74,18 @@
       }
 
       &__title {
-
+         margin: 0 0 1rem;
       }
 
       &__img {
-         display: none;
+         text-align: center;
+         margin: 0 0 1.25rem;
+         width: 100%;
 
          @include breakpoint($screen-l-min) {
             display: block;
             width: 300px + $gutter-width;
-            margin: 0 0 1.5rem;
+            margin-bottom: 1.5rem;
             padding-right: $gutter-width;
          }
       }

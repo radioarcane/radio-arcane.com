@@ -50,6 +50,7 @@
 </script>
 
 <style lang="scss">
+
    .profile-card {
        border: 1px solid hex-to-rgba($white-smoke, 0.4);
        margin: 0 0 2.5rem;
@@ -67,20 +68,22 @@
           width: 100%;
           bottom: 0;
           left: 0;
-          padding: 5px;
+          padding: 8px;
           background: hex-to-rgba($black, 0.5);
        }
 
        &__title {
-          @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 22px);
+          @include fluid-type($screen-s-min, $screen-xxl-min, 20px, 22px);
           margin: 0;
           display: block;
           text-align: center;
           line-height: 1;
+          opacity: 0.9;
        }
 
        &__credit {
-          font-size: 16px;
+          font-size: 14px;
+          opacity: 0.75;
        }
    }
 </style>

@@ -4,7 +4,7 @@
          <Breadcrumb :crumbs="crumbs" />
 
          <article>
-            <Section>
+            <Section :padBottom="true">
                <Title>Arcane Alive!</Title>
 
                <GridContainer collapse>
@@ -29,20 +29,12 @@
                      lg: 9
                   }">
                      <p>Arcane Alive: A pool of live music performers to help support touring bands and as a means of communication for local bands that would like to play Radio Arcane events at Art Sanctuary and potentially elsewhere. Louisville, KY based but open and inviting to regional acts and touring bands as well as local.</p>
-
-                     <Btn
-                        href="https://www.facebook.com/groups/534478756991487"
-                        target="_blank"
-                        variant="facebook"
-                     >
-                        Arcane Alive! Group @ Facebook
-                     </Btn>
                   </GridItem>
                </GridContainer>
             </Section>
          </article>
 
-         <Section v-if="$page.nextEvent.edges.length">
+         <Section v-if="$page.nextEvent.edges.length" :padBottom="true">
             <Heading strike animate uppercase>
                Next Live Event
             </Heading>

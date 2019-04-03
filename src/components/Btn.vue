@@ -65,9 +65,9 @@
       padding: 0.35em 1em 0.35em;
       line-height: 1.5;
       transition: all .15s ease-in-out;
-      border: 1px solid $link-color;
-      background: $link-color;
+      border: 1px solid $white;
       color: $white;
+      background: transparent;
       box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 3px 1px -2px rgba(0,0,0,0.12);
       letter-spacing: 0.02857em;
       text-decoration: none;
@@ -79,24 +79,14 @@
       &:hover,
       &:focus,
       &:active {
-         background: $link-hover-color;
-         color: $white;
+         border-color: darken($white, 20%);
+         color: darken($white, 20%);
+         background: transparent;
       }
 
       * {
          display: inline-block;
          vertical-align: middle;
-      }
-
-      &--primary {
-         border-color: $primary-color;
-         background: $primary-color;
-
-         &:hover,
-         &:focus,
-         &:active {
-            background: darken($primary-color, 5%);
-         }
       }
 
       &--secondary {
@@ -107,19 +97,6 @@
          &:focus,
          &:active {
             background: darken($secondary-color, 5%);
-         }
-      }
-
-      &--hollow {
-         border-color: $white;
-         background: transparent;
-
-         &:hover,
-         &:focus,
-         &:active {
-            border-color: darken($white, 20%);
-            color: darken($white, 20%);
-            background: transparent;
          }
       }
 

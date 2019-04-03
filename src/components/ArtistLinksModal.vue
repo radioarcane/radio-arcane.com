@@ -55,7 +55,7 @@
             </a>
          </div>
 
-         <p v-if="links.bandcamp">
+         <p v-if="links.bandcamp" class="artist-links-modal__note">
             <em><small>
                If you wish to purchase a song or album, we would recommend <a :href="links.bandcamp" target="_blank">Bandcamp!</a>
             </small></em>
@@ -101,7 +101,7 @@
       </div>
 
       <Center>
-         <Btn @click.native="$emit('close')" variant="hollow">
+         <Btn @click.native="$emit('close')">
             Close
          </Btn>
       </Center>
@@ -111,10 +111,9 @@
 <script>
    import Btn from '~/components/Btn';
    import Center from '~/components/Center';
+   import GoogleIcon from '~/assets/svg/google.svg';
    import SvgIcon from '~/components/SvgIcon';
    import Title from '~/components/Title';
-
-   import GoogleIcon from '~/assets/svg/google.svg';
 
    export default {
       name: 'ArtistLinksModal',
@@ -124,8 +123,6 @@
          GoogleIcon,
          SvgIcon,
          Title,
-      },
-      mounted() {
       },
       props: {
          artist: {
@@ -163,7 +160,6 @@
 
             return socialLinks.length > 0;
          },
-
       }
    }
 </script>
@@ -182,15 +178,29 @@
          font-size: 45px;
 
          a {
-            margin: 0 1rem 1rem 0;
+            margin: 0 0.75rem 0.75rem 0;
             color: $white-smoke;
+            transition: all 150ms ease-in-out;
 
             &:hover,
             &:focus,
             &:active {
-               color: darken($white, 15%);
+               color: darken($white, 30%);
+            }
+
+            &:hover,
+            &:focus {
+               transform: scale(1.1);
             }
          }
+      }
+
+      &__note {
+         line-height: 1;
+      }
+
+      .btn {
+         margin: 0.5rem 0 0;
       }
    }
 </style>

@@ -11,7 +11,7 @@
             <Event :event="getNextEvent($page.allEvent.edges)" />
          </article>
 
-         <Section v-if="totalFutureEvents">
+         <Section v-if="totalFutureEvents" :padBottom="true">
             <Title tag="h2">
                Upcoming Event Schedule
             </Title>
@@ -48,7 +48,7 @@
 
             <Center v-if="totalPastEvents > pageSize">
                <Btn @click.native="pageSize += pageSize" variant="hollow">
-                  <span>Load More Past Events</span> <AngleDownIcon class="icon icon-angle-down" />
+                  <span>Load More</span> <AngleDownIcon class="icon icon-angle-down" />
                </Btn>
             </Center>
          </Section>

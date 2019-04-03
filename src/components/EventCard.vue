@@ -1,5 +1,5 @@
 <template>
-   <div class="event-card" itemscope itemtype="http://schema.org/MusicEvent">
+   <div class="event-card">
       <div v-if="event.image" class="event-card__img">
          <g-link :to="`/events/${event.slug}`">
             <picture v-if="event.webp">
@@ -22,7 +22,7 @@
 
          <div class="event-card__subtitle">
             <SvgIcon use="clock" name="clock" />
-            <time :datetime="event.date" itemprop="startDate" :content="event.date">
+            <time :datetime="event.date">
                {{ event.date | moment("dddd, MMMM D, YYYY") }}
             </time>
          </div>
@@ -32,8 +32,8 @@
                {{ event.shortDescription }}
             </p>
 
-            <Btn :to="`/events/${event.slug}`" variant="hollow">
-               <span>More Info</span>
+            <Btn :to="`/events/${event.slug}`">
+               <span>Details</span>
                <SvgIcon use="right-open" name="right-open" />
             </Btn>
          </div>
@@ -42,7 +42,7 @@
 </template>
 
 <script>
-   import Btn from '~/components/Btn';
+   import Btn from '~/components/Btn.vue';
    import SvgIcon from '~/components/SvgIcon.vue';
 
    export default {
@@ -59,7 +59,7 @@
    }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
    .event-card {
        border: 1px solid hex-to-rgba($white-smoke, 0.4);
        margin: 0 0 2rem;

@@ -1,6 +1,10 @@
 <template>
    <div class="mixcloud-player">
-      <iframe width="100%" height="120" :src="getSrc()" frameborder="0" />
+      <iframe width="100%"
+              height="120"
+              :src="getSrc()"
+              frameborder="0"
+      />
    </div>
 </template>
 
@@ -31,6 +35,7 @@
 </script>
 
 <style lang="scss">
+
    .mixcloud-player {
       margin: 0 0 1.5rem;
    }

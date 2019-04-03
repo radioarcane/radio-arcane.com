@@ -23,7 +23,7 @@
 
             <div class="event__subtitle">
                <SvgIcon name="clock" use="clock" />
-               <time :datetime="getDateTime()">
+               <time :datetime="getDateTime()" class="event__time">
                   {{ event.date | moment("dddd, MMMM D, YYYY") }} <span v-if="event.startDatetime">
                      @ {{ event.startDatetime | moment('h A') }}
                   </span> <span v-if="event.startDatetime && event.endDatetime">
@@ -35,9 +35,7 @@
 
          <div class="event__text" v-html="event.description" />
 
-         <div v-if="event.location"
-              class="event__location"
-         >
+         <div v-if="event.location" class="event__location">
             <SvgIcon name="location" use="location" />
 
             <a v-if="event.location.venueLink"
@@ -53,12 +51,11 @@
             </span>
 
             <span class="event__location__address">
-               {{ event.location.address }}
-               <br />
+               {{ event.location.address }}<br />
                <span v-if="event.location.address2">
                   {{ event.location.address2 }}<br />
                </span>
-               <span>{{ event.location.city }}, {{ event.location.state }} {{ event.location.zipcode }}
+               {{ event.location.city }}, {{ event.location.state }} {{ event.location.zipcode }}
             </span>
 
             <a v-if="event.location.googleMapLink"
@@ -78,7 +75,12 @@
                   </Btn>
                </GridItem>
                <GridItem v-if="event.ticketsLink && !event.expired">
-                  <Btn v-if="event.ticketsLink" :href="event.ticketsLink" target="_blank">
+                  <Btn
+                     v-if="event.ticketsLink"
+                     :href="event.ticketsLink"
+                     target="_blank"
+                     variant="secondary"
+                  >
                      <SvgIcon use="ticket" name="ticket" /> <span>Advanced Tickets</span>
                   </Btn>
                </GridItem>
@@ -121,78 +123,86 @@
 </script>
 
 <style lang="scss">
+
    .event {
-       display:flex;
-       flex-wrap:wrap;
-       align-items:flex-start;
-       align-items:stretch;
-       align-content:flex-start;
-       margin:0 0 2em
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      align-items: stretch;
+      align-content: flex-start;
+      margin:0 0 2em;
+
+      &__photo {
+         width: 100%;
+         text-align: center;
+         padding: 0 0 1.5em;
+         max-width: 400px;
+         margin-left: auto;
+         margin-right: auto;
+
+         @include breakpoint($screen-m-min) {
+            text-align: left;
+            padding-right: $gutter-width;
+            width: 40%;
+         }
+
+         @include breakpoint($screen-l-min) {
+            width: 30%;
+         }
+
+         a {
+            display: block;
+         }
+      }
+
+      &__content {
+         width: 100%;
+
+         @include breakpoint($screen-m-min) {
+            width: 60%;
+         }
+
+         @include breakpoint($screen-l-min) {
+            width: 70%;
+         }
+      }
+
+      &__header {
+         padding: 0 0 1rem;
+      }
+
+      &__title {
+         margin: 0;
+      }
+
+      &__subtitle {
+         font-size: 20px;
+         margin-top: .15em;
+         color: #ccc;
+      }
+
+      &__time {
+         display: inline-block;
+         vertical-align: middle;
+      }
+
+      &__location {
+         text-align: left;
+         padding: 0 0 1rem;
+
+         &__title {
+            display: inline-block;
+            vertical-align: middle;
+         }
+
+         &__address {
+            display: block;
+         }
+
+         &__address,
+         &__directions {
+            padding-left: 25px;
+         }
+      }
    }
-
-   .event__photo{
-       width:100%;
-       text-align:center;
-       padding:0 0 1.5em;
-       max-width:400px;
-       margin-left:auto;
-       margin-right:auto
-   }
-
-   @media screen and (min-width:768px){
-    .event__photo{
-        text-align:left;
-        padding-right:30px;
-        width:40%
-    }
-}
-@media screen and (min-width:992px){
-    .event__photo{
-        width:30%
-    }
-}
-.event__photo a{
-    display:block
-}
-.event__content{
-    width:100%
-}
-@media screen and (min-width:768px){
-    .event__content{
-        width:60%
-    }
-}
-@media screen and (min-width:992px){
-    .event__content{
-        width:70%
-    }
-}
-.event__header{
-    padding:0 0 1rem
-}
-.event__title{
-    margin:0;
-    font-size:30px
-}
-.event__subtitle{
-    font-size:20px;
-    margin-top:.15em;
-    color:#ccc
-}
-.event__location{
-    text-align:left;
-    padding:0 0 1rem
-}
-.event__location__title{
-    display:inline-block;
-    vertical-align:middle
-}
-.event__location__address{
-    display:block
-}
-.event__location__address,.event__location__directions{
-    padding-left: 25px;
-}
-
-
 </style>

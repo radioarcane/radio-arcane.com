@@ -14,38 +14,6 @@
 @import "base/lists";
 
 /*
-@import "layouts/container";
-@import "layouts/header";
-@import "layouts/footer";
-@import "layouts/main";
-@import "layouts/navigation";
-@import "layouts/social-icons";
-
-@import "components/buttons";
-@import "components/card";
-@import "components/dropdown-menu";
-@import "components/event";
-@import "components/icon";
-@import "components/playlist";
-@import "components/tabs";
-@import "components/title-text";
-@import "components/title";
-@import "components/track";
-
-@import "util/alignment";
-@import "util/text";
-*/
-
-
-/*
-   silent movie
-
-   https://codepen.io/rickg411/pen/cIsax
-*/
-
-$light: rgba(250,250,250,.9);
-$dark: rgba(0,0,0,.8);
-
 @keyframes lightbleed-box {
 	0%	{ box-shadow:  0 0 6px rgba(255,255,255,.8); }
 	25% { box-shadow: 0 0 9px $light; }
@@ -100,3 +68,4 @@ $dark: rgba(0,0,0,.8);
    from {opacity: 0;}
    to {opacity: 1;}
 }
+*/

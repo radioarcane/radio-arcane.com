@@ -1,22 +1,15 @@
 <template>
-   <div class="event-playlist"
-        :data-filter-value="playlist.type"
-        itemscope
-        itemtype="http://schema.org/MusicPlaylist"
-   >
+   <div class="event-playlist" :data-filter-value="playlist.type">
       <header
          v-if="showHeader"
          class="event-playlist__header"
-         itemscope itemtype="http://schema.org/MusicEvent"
       >
-         <h2 class="event-playlist__title" itemprop="name">
+         <h2 class="event-playlist__title">
             {{ playlist.displayName }}
          </h2>
 
          <time :datetime="playlist.date"
                class="event-playlist__date"
-               itemprop="startDate"
-               :content="playlist.date"
          >
             {{ playlist.date | moment("dddd, MMMM D, YYYY") }}
          </time>
@@ -43,18 +36,15 @@
             </span>
         </h3>
         <h3 v-else-if="node.performer"
-            class="event-playlist__performer"
-            itemscope
-            itemtype="http://schema.org/MusicGroup"
          >
            <span class="event-playlist__performer__name">
-             Performance by: <span itemprop="name">{{ node.performer }}</span>
+             Performance by: {{ node.performer }}
            </span>
 
            <a v-if="getPerformerLinks(node)"
              @click.prevent="showArtistLinksModal(node.performer, node.performerLinks)"
              :title="`Stream or follow ${ node.performer }`"
-             class="artist-info"
+             class="performer-info"
            >
              <InfoIcon class="icon icon-info" />
            </a>
@@ -266,11 +256,11 @@
       margin: 0 0 ($padding-vertical * 2);
    }
 
-   .artist-info {
+   .artist-info,
+   .performer-info {
       margin-left: 4px;
       display: inline-block;
       vertical-align: top;
-      font-size: 125%;
       line-height: 1;
       color: $white;
       opacity: 0.75;
@@ -284,6 +274,14 @@
          opacity: 1;
          transform: scale(1.1);
       }
+   }
+
+   .artist-info {
+      font-size: 125%;
+   }
+
+   .performer-info {
+      font-size: 90%;
    }
 
    .track {

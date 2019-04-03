@@ -6,7 +6,6 @@
          title="Follow Radio Arcane on Facebook"
          aria-label="Follow Radio Arcane on Facebook"
       >
-
          <SvgIcon name="facebook" use="facebook" />
       </a>
 

@@ -211,7 +211,6 @@ module.exports = function (api) {
 
          if (podcast.description) {
             podcast.description = md.render(podcast.description).replace(/(\r\n|\n|\r)/gm, "");
-
             podcast.description = podcast.description.split('<a').join('<a target="_blank" ');
          }
 
@@ -247,8 +246,8 @@ module.exports = function (api) {
          let ev = Object.assign({}, defaultEvent, data.meta);
 
          if (ev.description) {
-            ev.description = md.render(ev.description)
-                            .replace(/(\r\n|\n|\r)/gm, "");
+            ev.description = md.render(ev.description).replace(/(\r\n|\n|\r)/gm, "");
+            ev.description = ev.description.split('<a').join('<a target="_blank" ');
          }
 
          if (ev.playlist && playlistHash.hasOwnProperty(slugify(ev.playlist))) {

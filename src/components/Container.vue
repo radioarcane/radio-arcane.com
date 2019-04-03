@@ -1,12 +1,18 @@
 <template>
-   <div class="container">
+   <component :is="is" class="container">
       <slot />
-   </div>
+   </component>
 </template>
 
 <script>
    export default {
-      name: 'Container'
+      name: 'Container',
+      props: {
+         is: {
+            type: String,
+            default: 'div'
+         }
+      }
    }
 </script>
 

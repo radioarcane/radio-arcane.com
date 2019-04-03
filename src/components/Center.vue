@@ -1,12 +1,18 @@
 <template>
-   <div class="text-center">
+   <component :is="is" class="text-center">
       <slot />
-   </div>
+   </component>
 </template>
 
 <script>
    export default {
-      name: 'Center'
+      name: 'Center',
+      props: {
+         is: {
+            type: String,
+            default: 'div'
+         }
+      }
    }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
-   <div :class="getClasses()">
+   <component :class="getClasses()" :is="is">
       <slot />
-   </div>
+   </component>
 </template>
 
 <script>
@@ -19,6 +19,10 @@
          padBottom: {
             type: Boolean,
             required: false
+         },
+         is: {
+            type: String,
+            default: 'div'
          }
       },
       methods: {
@@ -56,6 +60,7 @@
 </script>
 
 <style lang="scss">
+
    .grid__item {
       padding-left: $gutter-width;
       padding-right: $gutter-width;
