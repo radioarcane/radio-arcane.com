@@ -1,5 +1,5 @@
 <template>
-   <component :is="is" class="text-center">
+   <component :is="tag" class="text-center">
       <slot />
    </component>
 </template>
@@ -8,7 +8,7 @@
    export default {
       name: 'Center',
       props: {
-         is: {
+         tag: {
             type: String,
             default: 'div'
          }

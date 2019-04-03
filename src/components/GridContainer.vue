@@ -2,7 +2,7 @@
    <component
       class="grid"
       :class="{'grid--center': center, 'grid--collapse': collapse}"
-      :is="is"
+      :is="tag"
    >
       <slot />
    </component>
@@ -20,7 +20,7 @@
             type: Boolean,
             default: false,
          },
-         is: {
+         tag: {
             type: String,
             default: 'div'
          }

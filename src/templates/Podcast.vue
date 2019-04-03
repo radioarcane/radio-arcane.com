@@ -3,17 +3,10 @@
       <Container>
          <Breadcrumb :crumbs="getCrumbs()" />
 
-         <article itemscope itemtype="http://schema.org/AudioObject">
+         <article>
             <Title>
                {{ $page.podcast.title }}
             </Title>
-
-            <meta itemprop="name" :content="`Radio Arcane : ${ $page.podcast.title }`" />
-
-            <meta v-if="$page.podcast.shortDescription"
-                  itemprop="description"
-                  :content="$page.podcast.shortDescription"
-            />
 
             <GridContainer collapse>
                <GridItem
@@ -46,7 +39,7 @@
                }">
                   <div v-if="$page.podcast.date">
                      <p>
-                        Published: <time :datetime="$page.podcast.date" itemprop="datePublished" :content="$page.podcast.date">
+                        Published: <time :datetime="$page.podcast.date">
                            {{ $page.podcast.date | moment("MMM. D, YYYY") }}
                         </time>
                      </p>
@@ -57,9 +50,6 @@
                <GridItem :sizes="{
                   xs: 12
                }" padTop>
-                  <meta itemprop="encodingFormat" content="audio/mpeg" />
-                  <meta itemprop="contentUrl" :content="$page.podcast.mixcloudLink" />
-                  <meta itemprop="playerType" content="HTML5" />
                   <MixcloudPlayer :url="$page.podcast.mixcloudLink" />
                </GridItem>
             </GridContainer>

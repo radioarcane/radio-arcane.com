@@ -36,7 +36,7 @@
             <Podcast :podcast="$page.podcasts.edges[0].node" />
 
             <Center>
-               <Btn to="/podcasts" variant="hollow">
+               <Btn to="/podcasts">
                   <span>Checkout Past Podcasts</span>
                   <SvgIcon name="right-open" use="right-open" />
                </Btn>

@@ -1,5 +1,5 @@
 <template>
-   <component :class="getClasses()" :is="is">
+   <component :class="getClasses()" :is="tag">
       <slot />
    </component>
 </template>
@@ -20,7 +20,7 @@
             type: Boolean,
             required: false
          },
-         is: {
+         tag: {
             type: String,
             default: 'div'
          }
