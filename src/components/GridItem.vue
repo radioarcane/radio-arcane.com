@@ -60,7 +60,6 @@
 </script>
 
 <style lang="scss">
-
    .grid__item {
       padding-left: $gutter-width;
       padding-right: $gutter-width;

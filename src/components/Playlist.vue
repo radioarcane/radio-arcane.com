@@ -44,7 +44,7 @@
              :title="`Stream or follow ${ node.performer }`"
              class="performer-info"
            >
-             <InfoIcon class="icon icon-info" />
+             <SvgIcon use="info-circled" name="info-circled" />
            </a>
         </h3>
 
@@ -61,7 +61,7 @@
                    :title="`Stream or follow ${ track.artist }`"
                    class="artist-info"
                 >
-                   <InfoIcon class="icon icon-info" />
+                   <SvgIcon use="info-circled" name="info-circled" />
                 </a>
              </div>
            </li>
@@ -76,7 +76,7 @@
 
 <script>
    import ArtistLinksModal from '~/components/ArtistLinksModal';
-   import InfoIcon from '~/assets/svg/info-circled.svg';
+   import SvgIcon from '~/components/SvgIcon';
 
    export default {
       name: 'Playlist',
@@ -133,7 +133,7 @@
       },
       components: {
          ArtistLinksModal,
-         InfoIcon,
+         SvgIcon,
       },
       methods: {
          getArtistLinks (track) {

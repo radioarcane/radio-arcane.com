@@ -35,7 +35,6 @@
 </script>
 
 <style lang="scss">
-
    .mixcloud-player {
       margin: 0 0 1.5rem;
    }

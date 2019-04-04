@@ -44,7 +44,7 @@
 </template>
 
 <script>
-   import SocialIcons from './SocialIcons.vue';
+   import SocialIcons from './SocialIcons';
 
    export default {
       components: {
@@ -259,10 +259,11 @@
 
       &__link {
          color: $white;
-         transition: all 200ms ease-in-out;
+         transition: all 150ms ease-in-out;
          display: block;
          padding: ($padding-vertical / 1.6) $padding-horizontal ($padding-vertical / 2);
          border-bottom: 1px solid $black;
+         position: relative;
 
          &:hover,
          &:focus,
@@ -275,18 +276,21 @@
             border-bottom: transparent;
             padding: 0.45em 0.65em 0.3em;
             background: transparent;
-            border-radius: 8px;
 
             &:hover,
             &:focus,
             &:active {
-               background: lighten($black, 20%);
-               box-shadow: inset 0 0 5px $black;
+               background: transparent;
+               opacity: 0.8;
+            }
+
+            &.active--exact {
+               border-bottom: 2px solid $white-smoke;
             }
          }
 
          @include breakpoint($screen-l-min) {
-            padding: 0.3em 0.4em 0.2em;
+            padding: 0.1em 0.4em 0.1em;
          }
       }
    }

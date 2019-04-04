@@ -50,7 +50,6 @@
 </script>
 
 <style lang="scss">
-
    .profile-card {
        border: 1px solid hex-to-rgba($white-smoke, 0.4);
        margin: 0 0 2.5rem;

@@ -108,17 +108,17 @@
 </page-query>
 
 <script>
-   import Layout from '~/layouts/Default.vue'
+   import Layout from '~/layouts/Default'
 
-   import Breadcrumb from '~/components/Breadcrumb.vue';
-   import Btn from '~/components/Btn.vue';
-   import Center from '~/components/Center.vue';
-   import Container from '~/components/Container.vue';
-   import GridContainer from '~/components/GridContainer.vue';
-   import GridItem from '~/components/GridItem.vue';
-   import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
-   import Playlist from '~/components/Playlist.vue';
-   import Title from '~/components/Title.vue';
+   import Breadcrumb from '~/components/Breadcrumb';
+   import Btn from '~/components/Btn';
+   import Center from '~/components/Center';
+   import Container from '~/components/Container';
+   import GridContainer from '~/components/GridContainer';
+   import GridItem from '~/components/GridItem';
+   import MixcloudPlayer from '~/components/MixcloudPlayer';
+   import Playlist from '~/components/Playlist';
+   import Title from '~/components/Title';
 
    export default {
       components: {

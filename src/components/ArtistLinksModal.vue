@@ -27,7 +27,7 @@
                target="_blank"
                :title="`Purchase or Stream ${ artist } @ Google Music`"
             >
-               <GoogleIcon class="icon icon-google" />
+               <SvgIcon name="google" use="google" />
             </a>
 
             <a v-if="links.soundcloud"
@@ -111,7 +111,6 @@
 <script>
    import Btn from '~/components/Btn';
    import Center from '~/components/Center';
-   import GoogleIcon from '~/assets/svg/google.svg';
    import SvgIcon from '~/components/SvgIcon';
    import Title from '~/components/Title';
 
@@ -120,7 +119,6 @@
       components: {
          Btn,
          Center,
-         GoogleIcon,
          SvgIcon,
          Title,
       },

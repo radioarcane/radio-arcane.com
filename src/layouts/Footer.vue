@@ -20,7 +20,7 @@
 </template>
 
 <script>
-   import SocialIcons from './SocialIcons.vue';
+   import SocialIcons from './SocialIcons';
 
    export default {
       components: {
@@ -53,7 +53,6 @@
 </script>
 
 <style lang="scss">
-
    .footer {
       border-top: 1px solid hex-to-rgba($white, 0.7);
       padding: ($padding-vertical *2) ($gutter-width/2);
@@ -107,10 +106,6 @@
       align-content: center;
       padding: 0;
       margin: 0;
-
-      //@include breakpoint($screen-xl-min) {
-         //justify-content: flex-start;
-      //}
 
       &__item {
          margin: 0 $padding-horizontal 1em 0;

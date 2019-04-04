@@ -48,7 +48,7 @@
 
             <Center v-if="totalPastEvents > pageSize">
                <Btn @click.native="pageSize += pageSize" variant="hollow">
-                  <span>Load More</span> <AngleDownIcon class="icon icon-angle-down" />
+                  <span>Load More</span> <SvgIcon use="angle-down" name="angle-down" />
                </Btn>
             </Center>
          </Section>
@@ -94,19 +94,18 @@
 </page-query>
 
 <script>
-   import Breadcrumb from '~/components/Breadcrumb.vue';
-   import Btn from '~/components/Btn.vue';
-   import Center from '~/components/Center.vue';
-   import Container from '~/components/Container.vue';
-   import Event from '~/components/Event.vue';
+   import Breadcrumb from '~/components/Breadcrumb';
+   import Btn from '~/components/Btn';
+   import Center from '~/components/Center';
+   import Container from '~/components/Container';
+   import Event from '~/components/Event';
    import EventCard from '~/components/EventCard';
    import GridContainer from '~/components/GridContainer';
    import GridItem from '~/components/GridItem';
    import Heading from '~/components/Heading';
-   import Section from '~/components/Section.vue';
-   import Title from '~/components/Title.vue';
-
-   import AngleDownIcon from '~/assets/svg/angle-down.svg';
+   import Section from '~/components/Section';
+   import SvgIcon from '~/components/SvgIcon';
+   import Title from '~/components/Title';
 
    export default {
       metaInfo: {
@@ -126,8 +125,8 @@
          GridItem,
          Heading,
          Section,
+         SvgIcon,
          Title,
-         AngleDownIcon
       },
       data () {
          return {

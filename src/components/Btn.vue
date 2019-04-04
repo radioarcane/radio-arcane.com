@@ -96,7 +96,7 @@
          &:hover,
          &:focus,
          &:active {
-            background: darken($secondary-color, 5%);
+            background: darken($secondary-color, 8%);
          }
       }
 

@@ -91,10 +91,10 @@
 </template>
 
 <script>
-   import Btn from '~/components/Btn.vue';
-   import GridContainer from '~/components/GridContainer.vue';
-   import GridItem from '~/components/GridItem.vue';
-   import SvgIcon from '~/components/SvgIcon.vue';
+   import Btn from '~/components/Btn';
+   import GridContainer from '~/components/GridContainer';
+   import GridItem from '~/components/GridItem';
+   import SvgIcon from '~/components/SvgIcon';
 
    export default {
       name: 'Event',

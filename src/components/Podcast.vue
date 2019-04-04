@@ -41,10 +41,10 @@
 </template>
 
 <script>
-   import Btn from '~/components/Btn.vue';
-   import Center from '~/components/Center.vue';
-   import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
-   import SvgIcon from '~/components/SvgIcon.vue';
+   import Btn from '~/components/Btn';
+   import Center from '~/components/Center';
+   import MixcloudPlayer from '~/components/MixcloudPlayer';
+   import SvgIcon from '~/components/SvgIcon';
 
    export default {
       name: 'Podcast',
@@ -63,7 +63,6 @@
 </script>
 
 <style lang="scss">
-
    .podcast {
       display: flex;
       flex-wrap: wrap;

@@ -20,9 +20,9 @@
 </static-query>
 
 <script>
-   import BackgroundNoise from '~/components/BackgroundNoise.vue';
-   import Footer from './Footer.vue';
-   import Header from './Header.vue';
+   import BackgroundNoise from '~/components/BackgroundNoise';
+   import Footer from './Footer';
+   import Header from './Header';
 
    export default {
       components: {

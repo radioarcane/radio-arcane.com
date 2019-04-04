@@ -42,8 +42,8 @@
 </template>
 
 <script>
-   import Btn from '~/components/Btn.vue';
-   import SvgIcon from '~/components/SvgIcon.vue';
+   import Btn from '~/components/Btn';
+   import SvgIcon from '~/components/SvgIcon';
 
    export default {
       name: 'EventCard',

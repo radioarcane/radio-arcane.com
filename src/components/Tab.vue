@@ -1,6 +1,6 @@
 <template>
    <li class="tab">
-      <a  class="tab__link"
+      <a class="tab__link"
          :class="{ 'tab__link__active': active }"
          @click.prevent="onClick"
       >

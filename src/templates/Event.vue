@@ -92,14 +92,14 @@
 </page-query>
 
 <script>
-   import Layout from '~/layouts/Default.vue'
+   import Layout from '~/layouts/Default'
 
-   import Breadcrumb from '~/components/Breadcrumb.vue';
-   import Btn from '~/components/Btn.vue';
-   import Container from '~/components/Container.vue';
-   import Event from '~/components/Event.vue';
-   import Playlist from '~/components/Playlist.vue';
-   import Title from '~/components/Title.vue';
+   import Breadcrumb from '~/components/Breadcrumb';
+   import Btn from '~/components/Btn';
+   import Container from '~/components/Container';
+   import Event from '~/components/Event';
+   import Playlist from '~/components/Playlist';
+   import Title from '~/components/Title';
 
    export default {
       components: {

@@ -40,7 +40,6 @@
 </script>
 
 <style lang="scss">
-
    .heading {
       &--uppercase {
          text-transform: uppercase;
