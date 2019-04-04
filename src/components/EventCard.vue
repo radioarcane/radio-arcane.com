@@ -68,6 +68,11 @@
 
        &__img {
           text-align: center;
+
+          /* IE Fix */
+          a {
+             display: block;
+          }
        }
 
        &__body {

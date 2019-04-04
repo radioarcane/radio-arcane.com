@@ -13,9 +13,9 @@ import '~/assets/styles/main.scss';
 export default function (Vue, { router, head, isClient }) {
    // Set default layout as a global component
 
-   //if (isClient) {
-      //require('intersection-observer');
-   //}
+   if (isClient) {
+      require('intersection-observer');
+   }
 
    head.htmlAttrs = {
       lang: 'en',

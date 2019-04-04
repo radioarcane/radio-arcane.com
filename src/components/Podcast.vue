@@ -28,7 +28,9 @@
          </p>
 
          <div v-if="podcast.mixcloudLink" class="podcast__player">
-            <MixcloudPlayer :url="podcast.mixcloudLink" />
+            <LazyHydrate when-visible>
+               <MixcloudPlayer :url="podcast.mixcloudLink" />
+            </LazyHydrate>
          </div>
 
          <Center>
@@ -43,7 +45,8 @@
 <script>
    import Btn from '~/components/Btn';
    import Center from '~/components/Center';
-   import MixcloudPlayer from '~/components/MixcloudPlayer';
+   import LazyHydrate from 'vue-lazy-hydration';
+   //import MixcloudPlayer from '~/components/MixcloudPlayer';
    import SvgIcon from '~/components/SvgIcon';
 
    export default {
@@ -56,7 +59,8 @@
       components: {
          Btn,
          Center,
-         MixcloudPlayer,
+         LazyHydrate,
+         MixcloudPlayer: () => import('~/components/MixcloudPlayer'),
          SvgIcon,
       }
    };
@@ -94,6 +98,11 @@
             width: 300px + $gutter-width;
             display: block;
             padding-right: $gutter-width;
+         }
+
+         /* IE Fix */
+         a {
+            display: block;
          }
       }
 
