@@ -2,7 +2,7 @@
    <Layout>
       <Container>
          <Breadcrumb :crumbs="crumbs" />
-         <Title>Page Not Found...</Title>>
+         <Title>Page Not Found...</Title>
       </Container>
    </Layout>
 </template>

@@ -185,30 +185,5 @@
          Section,
          SvgIcon,
       },
-
-
-      /*
-      computed: {
-         nextEvent: {
-            get: function () {
-               const node = this.$page.events.edges.find(edge => {
-                  return edge.node.eventType === 'radio-arcane';
-               });
-
-               console.log(node);
-
-               return node ? node : null;
-            }
-         },
-         nextLiveEvent: {
-            get: function () {
-               return this.$page.events.edges.find(event => event.eventType === 'arcane-alive');
-            }
-         }
-      }
-      */
    }
 </script>
-
-<style>
-</style>

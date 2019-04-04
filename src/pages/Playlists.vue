@@ -35,7 +35,6 @@
                playlistType,
                sets {
                   djName,
-                  guestDj,
                   performer,
                   performerLinks {
                      appleMusic,
@@ -134,6 +133,3 @@
       }
    }
 </script>
-
-<style>
-</style>

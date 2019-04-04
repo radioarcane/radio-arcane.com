@@ -55,7 +55,6 @@
             displayName,
             sets {
                djName,
-               guestDj,
                performer,
                performerLinks {
                   appleMusic,

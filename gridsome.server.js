@@ -126,8 +126,7 @@ module.exports = function (api) {
       });
 
       const playlistType = store.addContentType({
-         typeName: 'Playlist',
-         route: '/playlists/:slug'
+         typeName: 'Playlist'
       });
 
       const artistLinkType = store.addContentType({
@@ -292,7 +291,7 @@ module.exports = function (api) {
          const node = eventType.addNode({
             title: data.meta.title,
             slug: file.toLowerCase().replace('.md', ''),
-            fields: ev
+            fields: ev,
          });
 
          eventHash[slugify(data.meta.title)] =  node;

@@ -64,12 +64,6 @@
       align-items: stretch;
       align-content: center;
 
-      //@include breakpoint($screen-xl-min) {
-      //   padding-left: $gutter-width;
-      //   padding-right: $gutter-width;
-      //   flex-direction: row;
-      //}
-
       &__nav {
          @include fluid-type($screen-s-min, $screen-xxl-min, 14px, 24px);
       }
