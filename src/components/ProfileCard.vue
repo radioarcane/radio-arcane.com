@@ -1,7 +1,6 @@
 <template>
    <div class="profile-card">
       <figure class="profile-card__img" v-if="profile.img">
-
          <picture v-if="profile.webp && profile.img">
             <source :srcset="`/img/webp/${ profile.webp }.webp`" type="image/webp" />
             <source :srcset="`/img/uploads/${ profile.img }.jpg`" type="image/jpeg" />

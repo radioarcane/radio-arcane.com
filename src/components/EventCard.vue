@@ -1,7 +1,7 @@
 <template>
    <div class="event-card">
       <div v-if="event.image" class="event-card__img">
-         <g-link :to="`/events/${event.slug}`">
+         <router-link :to="`/events/${event.slug}`">
             <picture v-if="event.webp">
                <source :srcset="event.webp" type="image/webp">
                <source :srcset="event.image" type="image/jpeg">
@@ -12,7 +12,7 @@
                  :src="event.image"
                  :alt="event.displayName"
             />
-         </g-link>
+         </router-link>
       </div>
 
       <div class="event-card__body">
@@ -42,8 +42,8 @@
 </template>
 
 <script>
-   import Btn from '~/components/Btn';
-   import SvgIcon from '~/components/SvgIcon';
+   import Btn from './Btn.vue';
+   import SvgIcon from './SvgIcon.vue';
 
    export default {
       name: 'EventCard',

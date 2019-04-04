@@ -1,13 +1,13 @@
 <template>
    <header class="mast-header" role="banner">
       <div class="mast-header__brand">
-         <g-link to="/">
+         <router-link to="/">
             <picture>
                <source srcset="/img/logo--radio-arcane.webp" type="image/webp">
                <source srcset="/img/logo--radio-arcane.png" type="image/png">
                <img src="/img/logo--radio-arcane.png" alt="Radio Arcane">
             </picture>
-         </g-link>
+         </router-link>
       </div>
 
       <div class="mast-header__nav">
@@ -44,7 +44,7 @@
 </template>
 
 <script>
-   import SocialIcons from './SocialIcons';
+   import SocialIcons from './SocialIcons.vue';
 
    export default {
       components: {

@@ -133,15 +133,15 @@
 </page-query>
 
 <script>
-   import Btn from '~/components/Btn';
-   import Center from '~/components/Center';
-   import Container from '~/components/Container';
-   import Event from '~/components/Event';
-   import FlashContainer from '~/components/FlashContainer';
-   import Heading from '~/components/Heading';
-   import Podcast from '~/components/Podcast';
-   import Section from '~/components/Section';
-   import SvgIcon from '~/components/SvgIcon';
+   import Btn from '~/components/Btn.vue';
+   import Center from '~/components/Center.vue';
+   import Container from '~/components/Container.vue';
+   import Event from '~/components/Event.vue';
+   import FlashContainer from '~/components/FlashContainer.vue';
+   import Heading from '~/components/Heading.vue';
+   import Podcast from '~/components/Podcast.vue';
+   import Section from '~/components/Section.vue';
+   import SvgIcon from '~/components/SvgIcon.vue';
 
    const metaTitle = 'Radio Arcane - Dark Eclectic Music';
    const metaDescription = 'Louisville, KY collective specializing in Darkwave, Goth, Post-Punk, Industrial, EBM, Synthwave, and related music events & podcasts.';

@@ -93,15 +93,14 @@
 </style>
 
 <script>
-   import Breadcrumb from '~/components/Breadcrumb';
-   import Container from '~/components/Container';
-   import GridContainer from '~/components/GridContainer';
-   import GridItem from '~/components/GridItem';
-   import Heading from '~/components/Heading';
-   import Section from '~/components/Section';
-   import Title from '~/components/Title';
-
-   import ProfileCard from '~/components/ProfileCard';
+   import Breadcrumb from '~/components/Breadcrumb.vue';
+   import Container from '~/components/Container.vue';
+   import GridContainer from '~/components/GridContainer.vue';
+   import GridItem from '~/components/GridItem.vue';
+   import Heading from '~/components/Heading.vue';
+   import ProfileCard from '~/components/ProfileCard.vue';
+   import Section from '~/components/Section.vue';
+   import Title from '~/components/Title.vue';
 
    export default {
       metaInfo: {

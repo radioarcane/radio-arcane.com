@@ -2,13 +2,15 @@
    <div class="mixcloud-player">
       <iframe width="100%"
               height="120"
-              :src="getSrc()"
+              :data-src="getSrc()"
               frameborder="0"
       />
    </div>
 </template>
 
 <script>
+   import lozad from 'lozad';
+
    export default {
       name: 'MixcloudPlayer',
       props: {
@@ -16,6 +18,16 @@
             default: '',
             type: String,
          },
+      },
+      mounted: function() {
+         const player = this.$el.querySelector('iframe');
+
+         const observer = lozad(player, {
+            rootMargin: '10px 0px',
+            threshold: 0.1,
+         });
+
+         observer.observe();
       },
       methods: {
          getSrc() {

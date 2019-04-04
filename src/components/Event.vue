@@ -1,7 +1,7 @@
 <template>
    <div class="event">
       <div v-if="event.image" class="event__photo">
-         <g-link :to="event.path">
+         <router-link :to="event.path">
             <picture v-if="event.webp">
                <source :srcset="event.webp" type="image/webp">
                <source :srcset="event.image" type="image/jpeg">
@@ -12,7 +12,7 @@
                  :src="event.image"
                  :alt="event.displayName"
             />
-         </g-link>
+         </router-link>
       </div>
 
       <div class="event__content">
@@ -91,10 +91,10 @@
 </template>
 
 <script>
-   import Btn from '~/components/Btn';
-   import GridContainer from '~/components/GridContainer';
-   import GridItem from '~/components/GridItem';
-   import SvgIcon from '~/components/SvgIcon';
+   import Btn from './Btn.vue';
+   import GridContainer from './GridContainer.vue';
+   import GridItem from './GridItem.vue';
+   import SvgIcon from './SvgIcon.vue';
 
    export default {
       name: 'Event',
@@ -123,7 +123,6 @@
 </script>
 
 <style lang="scss">
-
    .event {
       display: flex;
       flex-wrap: wrap;

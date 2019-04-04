@@ -73,12 +73,12 @@
 </page-query>
 
 <script>
-   import Breadcrumb from '~/components/Breadcrumb';
-   import Container from '~/components/Container';
-   import Playlist from '~/components/Playlist';
-   import Tab from '~/components/Tab';
-   import Tabs from '~/components/Tabs';
-   import Title from '~/components/Title';
+   import Breadcrumb from '~/components/Breadcrumb.vue';
+   import Container from '~/components/Container.vue';
+   import Playlist from '~/components/Playlist.vue';
+   import Tab from '~/components/Tab.vue';
+   import Tabs from '~/components/Tabs.vue';
+   import Title from '~/components/Title.vue';
 
    export default {
       metaInfo: {

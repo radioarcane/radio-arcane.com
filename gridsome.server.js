@@ -117,20 +117,20 @@ module.exports = function (api) {
 
       const podcastType = store.addContentType({
          typeName: 'Podcast',
-         route: '/podcasts/:slug'
+         route: '/podcasts/:slug',
       });
 
       const eventType = store.addContentType({
          typeName: 'Event',
-         route: '/events/:slug'
+         route: '/events/:slug',
       });
 
       const playlistType = store.addContentType({
-         typeName: 'Playlist'
+         typeName: 'Playlist',
       });
 
       const artistLinkType = store.addContentType({
-         typeName: 'ArtistLink'
+         typeName: 'ArtistLink',
       });
 
       const locationType = store.addContentType({

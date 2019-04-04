@@ -1,13 +1,13 @@
 <template>
    <ol class="breadcrumb">
       <li class="breadcrumb__item">
-         <g-link class="breadcrumb__link" to="/">Home</g-link>
+         <router-link class="breadcrumb__link" to="/">Home</router-link>
       </li>
       <li v-for="(item, index) in crumbs"
           :key="index"
           class="breadcrumb__item"
       >
-         <g-link class="breadcrumb__link" v-bind:to="item.to">{{ item.name }}</g-link>
+         <router-link class="breadcrumb__link" :to="item.to">{{ item.name }}</router-link>
       </li>
    </ol>
 </template>

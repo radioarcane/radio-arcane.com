@@ -20,16 +20,16 @@
 </static-query>
 
 <script>
-   import BackgroundNoise from '~/components/BackgroundNoise';
-   import Footer from './Footer';
-   import Header from './Header';
+   import BackgroundNoise from '~/components/BackgroundNoise.vue';
+   import Footer from './Footer.vue';
+   import Header from './Header.vue';
 
    export default {
       components: {
          BackgroundNoise,
          Footer,
          Header
-      }
+      },
    }
 </script>
 

@@ -40,7 +40,7 @@
       computed: {
          type () {
             if (this.to) {
-               return 'g-link';
+               return 'router-link';
             }
 
             if (this.href) {

@@ -3,12 +3,12 @@
 
 //import 'intersection-observer';
 
-import DefaultLayout from '~/layouts/Default.vue';
+import DefaultLayout from './layouts/Default.vue';
 import vueMoment from 'vue-moment';
 //import VueLazyload from 'vue-lazyload';
 import VModal from 'vue-js-modal/dist/ssr.index';
 
-import '~/assets/styles/main.scss';
+import './assets/styles/main.scss';
 
 export default function (Vue, { router, head, isClient }) {
    // Set default layout as a global component

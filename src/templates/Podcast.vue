@@ -4,9 +4,7 @@
          <Breadcrumb :crumbs="getCrumbs()" />
 
          <article>
-            <Title>
-               {{ $page.podcast.title }}
-            </Title>
+            <Title>{{ $page.podcast.title }}</Title>
 
             <GridContainer collapse>
                <GridItem
@@ -47,9 +45,9 @@
 
                   <div v-html="$page.podcast.description" />
                </GridItem>
-               <GridItem :sizes="{
+               <GridItem padTop :sizes="{
                   xs: 12
-               }" padTop>
+               }">
                   <MixcloudPlayer :url="$page.podcast.mixcloudLink" />
                </GridItem>
             </GridContainer>
@@ -108,21 +106,18 @@
 </page-query>
 
 <script>
-   import Layout from '~/layouts/Default'
-
-   import Breadcrumb from '~/components/Breadcrumb';
-   import Btn from '~/components/Btn';
-   import Center from '~/components/Center';
-   import Container from '~/components/Container';
-   import GridContainer from '~/components/GridContainer';
-   import GridItem from '~/components/GridItem';
-   import MixcloudPlayer from '~/components/MixcloudPlayer';
-   import Playlist from '~/components/Playlist';
-   import Title from '~/components/Title';
+   import Breadcrumb from '~/components/Breadcrumb.vue';
+   import Btn from '~/components/Btn.vue';
+   import Center from '~/components/Center.vue';
+   import Container from '~/components/Container.vue';
+   import GridContainer from '~/components/GridContainer.vue';
+   import GridItem from '~/components/GridItem.vue';
+   import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
+   import Playlist from '~/components/Playlist.vue';
+   import Title from '~/components/Title.vue';
 
    export default {
       components: {
-         Layout,
          Breadcrumb,
          Btn,
          Center,
@@ -147,12 +142,10 @@
                to: '/podcasts',
                name: "Podcasts"
             }, {
-               name: this.$page.podcast.title
+               name: this.$page.podcast.title,
+               to: this.$page.podcast.path,
             }];
          }
       }
    }
 </script>
-
-<style lang="scss">
-</style>

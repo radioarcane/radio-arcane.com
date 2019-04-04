@@ -57,10 +57,10 @@
 </page-query>
 
 <script>
-   import Breadcrumb from '~/components/Breadcrumb';
-   import Container from '~/components/Container';
-   import Podcast from '~/components/Podcast';
-   import Title from '~/components/Title';
+   import Breadcrumb from '~/components/Breadcrumb.vue';
+   import Container from '~/components/Container.vue';
+   import Podcast from '~/components/Podcast.vue';
+   import Title from '~/components/Title.vue';
 
    export default {
       metaInfo: {

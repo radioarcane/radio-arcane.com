@@ -75,8 +75,8 @@
 </template>
 
 <script>
-   import ArtistLinksModal from '~/components/ArtistLinksModal';
-   import SvgIcon from '~/components/SvgIcon';
+   import ArtistLinksModal from './ArtistLinksModal.vue';
+   import SvgIcon from './SvgIcon.vue';
 
    export default {
       name: 'Playlist',

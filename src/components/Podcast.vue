@@ -2,7 +2,7 @@
    <div class="podcast">
 
       <div v-if="podcast.image" class="podcast__img">
-         <g-link :to="podcast.path">
+         <router-link :to="podcast.path">
             <picture v-if="podcast.webp">
                <source :srcset="podcast.webp" type="image/webp">
                <source :srcset="podcast.image" type="image/jpeg">
@@ -13,7 +13,7 @@
                  :src="podcast.image"
                  :alt="podcast.displayName"
             />
-         </g-link>
+         </router-link>
       </div>
 
       <div class="podcast__content">
@@ -28,9 +28,7 @@
          </p>
 
          <div v-if="podcast.mixcloudLink" class="podcast__player">
-            <LazyHydrate when-visible>
-               <MixcloudPlayer :url="podcast.mixcloudLink" />
-            </LazyHydrate>
+            <MixcloudPlayer :url="podcast.mixcloudLink" />
          </div>
 
          <Center>
@@ -43,11 +41,10 @@
 </template>
 
 <script>
-   import Btn from '~/components/Btn';
-   import Center from '~/components/Center';
-   import LazyHydrate from 'vue-lazy-hydration';
-   //import MixcloudPlayer from '~/components/MixcloudPlayer';
-   import SvgIcon from '~/components/SvgIcon';
+   import Btn from './Btn.vue';
+   import Center from './Center.vue';
+   import MixcloudPlayer from './MixcloudPlayer.vue';
+   import SvgIcon from './SvgIcon.vue';
 
    export default {
       name: 'Podcast',
@@ -59,8 +56,7 @@
       components: {
          Btn,
          Center,
-         LazyHydrate,
-         MixcloudPlayer: () => import('~/components/MixcloudPlayer'),
+         MixcloudPlayer,
          SvgIcon,
       }
    };

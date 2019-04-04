@@ -119,17 +119,17 @@
 </page-query>
 
 <script>
-   import Breadcrumb from '~/components/Breadcrumb';
-   import Btn from '~/components/Btn';
-   import Center from '~/components/Center';
-   import Container from '~/components/Container';
-   import Event from '~/components/Event';
-   import EventCard from '~/components/EventCard';
-   import GridContainer from '~/components/GridContainer';
-   import GridItem from '~/components/GridItem';
-   import Heading from '~/components/Heading';
-   import Section from '~/components/Section';
-   import Title from '~/components/Title';
+   import Breadcrumb from '~/components/Breadcrumb.vue';
+   import Btn from '~/components/Btn.vue';
+   import Center from '~/components/Center.vue';
+   import Container from '~/components/Container.vue';
+   import Event from '~/components/Event.vue';
+   import EventCard from '~/components/EventCard.vue';
+   import GridContainer from '~/components/GridContainer.vue';
+   import GridItem from '~/components/GridItem.vue';
+   import Heading from '~/components/Heading.vue';
+   import Section from '~/components/Section.vue';
+   import Title from '~/components/Title.vue';
 
    export default {
       metaInfo: {

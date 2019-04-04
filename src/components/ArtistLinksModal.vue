@@ -109,10 +109,10 @@
 </template>
 
 <script>
-   import Btn from '~/components/Btn';
-   import Center from '~/components/Center';
-   import SvgIcon from '~/components/SvgIcon';
-   import Title from '~/components/Title';
+   import Btn from './Btn.vue';
+   import Center from './Center.vue';
+   import SvgIcon from './SvgIcon.vue';
+   import Title from './Title.vue';
 
    export default {
       name: 'ArtistLinksModal',

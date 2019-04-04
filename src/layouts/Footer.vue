@@ -3,7 +3,7 @@
       <nav class="footer__nav">
          <ul class="nav-footer">
             <li v-for="(item, index) in links" class="nav-footer__item" :key="index">
-               <g-link class="nav-footer__link" :to="item.to">{{ item.name }}</g-link>
+               <router-link class="nav-footer__link" :to="item.to">{{ item.name }}</router-link>
             </li>
          </ul>
       </nav>
@@ -20,7 +20,7 @@
 </template>
 
 <script>
-   import SocialIcons from './SocialIcons';
+   import SocialIcons from './SocialIcons.vue';
 
    export default {
       components: {
