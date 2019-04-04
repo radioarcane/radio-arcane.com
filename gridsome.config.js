@@ -58,7 +58,7 @@ module.exports = {
                   priority: 0.8
                },
                '/podcasts': {
-                  changefreq: 'monthly',
+                  changefreq: 'weekly',
                   priority: 0.7
                },
                '/podcasts/*': {

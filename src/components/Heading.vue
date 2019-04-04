@@ -85,7 +85,7 @@
    @keyframes heading-animation {
    	0% {
          text-shadow: 0 0 5px $light;
-         box-shadow:  0 8px 6px -6px rgba(255,255,255,.8);
+         box-shadow:  0 8px 6px -6px hex-to-rgba($white, .8);
       }
       25% {
          box-shadow: 0 5px 9px -9px $light;
@@ -94,14 +94,14 @@
          text-shadow: 0 0 6px $light;
       }
       50% {
-         box-shadow: 0 5px 9px -9px rgba(255,255,255,.75);
+         box-shadow: 0 5px 9px -9px hex-to-rgba($white, .75);
          color: hex-to-rgba($white, 0.9);
       }
       51% {
          color: $white;
       }
    	65% {
-         text-shadow: 0 0 7px #fff;
+         text-shadow: 0 0 7px $white;
       }
       75% {
          box-shadow: 0 5px 10px -10px $light;

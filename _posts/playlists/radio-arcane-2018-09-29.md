@@ -159,7 +159,7 @@ sets:
         song: Gallowdance
       - artist: Angels of Liberty
         song: Monster In Me
-  - guest_dj: 'Guest DJ Brian Cole from Funeral Party Records'
+  - dj_name: 'Funeral Party DJ'
     type: dj_set
   - dj_name: Talamasca
     type: dj_set
@@ -169,7 +169,7 @@ sets:
       - artist: Dulce Liquido
         song: Disolucion
       - artist: Tactical Sekt
-        song: Awaken the Ghost
+        song: Awaken The Ghost
       - artist: Skeleton Hands
         song: Ravage
       - artist: And One

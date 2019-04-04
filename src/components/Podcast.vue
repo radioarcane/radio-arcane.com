@@ -31,15 +31,18 @@
             <MixcloudPlayer :url="podcast.mixcloudLink" />
          </div>
 
-         <Btn :to="podcast.path">
-            <span>Details</span> <SvgIcon name="right-open" use="right-open" />
-         </Btn>
+         <Center>
+            <Btn :to="podcast.path">
+               <span>Playlist & Further Details</span> <SvgIcon name="right-open" use="right-open" />
+            </Btn>
+         </Center>
       </div>
    </div>
 </template>
 
 <script>
    import Btn from '~/components/Btn.vue';
+   import Center from '~/components/Center.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
    import SvgIcon from '~/components/SvgIcon.vue';
 
@@ -52,6 +55,7 @@
       },
       components: {
          Btn,
+         Center,
          MixcloudPlayer,
          SvgIcon,
       }
@@ -79,13 +83,17 @@
 
       &__img {
          text-align: center;
-         margin: 0 0 1.25rem;
+         margin: 0 auto 1.25rem;
          width: 100%;
+         max-width: 400px;
+
+         @include breakpoint($screen-m-min) {
+            display: none;
+         }
 
          @include breakpoint($screen-l-min) {
-            display: block;
             width: 300px + $gutter-width;
-            margin-bottom: 1.5rem;
+            display: block;
             padding-right: $gutter-width;
          }
       }
@@ -104,6 +112,7 @@
 
       &__blurb {
          @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 20px);
+         opacity: 0.9;
       }
    }
 </style>

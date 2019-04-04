@@ -3,15 +3,13 @@
       <nav class="footer__nav">
          <ul class="nav-footer">
             <li v-for="(item, index) in links" class="nav-footer__item" :key="index">
-               <g-link class="nav-footer__link" :to="item.to">
-                  {{ item.name }}
-               </g-link>
+               <g-link class="nav-footer__link" :to="item.to">{{ item.name }}</g-link>
             </li>
          </ul>
       </nav>
 
       <div class="footer__social">
-         <h4>Follow Radio Arcane</h4>
+         <h4 class="footer__social__title">Follow Radio Arcane</h4>
          <SocialIcons />
       </div>
 
@@ -55,6 +53,7 @@
 </script>
 
 <style lang="scss">
+
    .footer {
       border-top: 1px solid hex-to-rgba($white, 0.7);
       padding: ($padding-vertical *2) ($gutter-width/2);
@@ -65,19 +64,14 @@
       align-items: stretch;
       align-content: center;
 
-      @include breakpoint($screen-l-min) {
-         padding-left: $gutter-width;
-         padding-right: $gutter-width;
-         flex-direction: row;
-      }
+      //@include breakpoint($screen-xl-min) {
+      //   padding-left: $gutter-width;
+      //   padding-right: $gutter-width;
+      //   flex-direction: row;
+      //}
 
       &__nav {
-         font-size: 14px;
-
-         @include breakpoint($screen-l-min) {
-            font-size: 16px;
-            width: 60%;
-         }
+         @include fluid-type($screen-s-min, $screen-xxl-min, 14px, 24px);
       }
 
       &__social {
@@ -86,15 +80,19 @@
          display: flex;
          flex-wrap: wrap;
          justify-content: center;
-         align-items: stretch;
+         align-items: center;
          align-content: center;
 
-         @include breakpoint($screen-l-min) {
+         @include breakpoint($screen-xl-min) {
             font-size: 16px;
-            width: 40%;
-            justify-content: flex-start;
-            align-content: flex-start;
-            padding-left: $gutter-width;
+         }
+
+         &__title {
+            margin: 0 0 1rem;
+
+            @include breakpoint(505px) {
+               margin: 0;
+            }
          }
       }
 
@@ -116,9 +114,9 @@
       padding: 0;
       margin: 0;
 
-      @include breakpoint($screen-l-min) {
-         justify-content: flex-start;
-      }
+      //@include breakpoint($screen-xl-min) {
+         //justify-content: flex-start;
+      //}
 
       &__item {
          margin: 0 $padding-horizontal 1em 0;

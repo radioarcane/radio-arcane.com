@@ -6,27 +6,12 @@
          <Title>Playlists</Title>
 
          <Tabs>
-            <Tab :active="filter === null"
-                 :onClick="tabClick.bind(null, null)"
+            <Tab v-for="(tab, index) in tabs"
+                  :key="index"
+                  :active="filter === tab.filter"
+                  :onClick="tabClick.bind(null, tab.filter)"
             >
-               All
-            </Tab>
-            <Tab :active="filter === 'radio-arcane'"
-                 :onClick="tabClick.bind(null, 'radio-arcane')"
-            >
-               Radio Arcane
-            </Tab>
-            <Tab
-               :active="filter === 'podcast'"
-               :onClick="tabClick.bind(null, 'podcast')"
-            >
-               Podcasts
-            </Tab>
-            <Tab
-               :active="filter === 'arcane-alive'"
-               :onClick="tabClick.bind(null, 'arcane-alive')"
-            >
-               Arcane Alive
+               {{ tab.name }}
             </Tab>
          </Tabs>
 
@@ -117,8 +102,21 @@
                name: 'Playlists',
                to: '/playlists'
             }],
+            tabs: [{
+               name: 'All',
+               filter: null,
+            }, {
+               name: 'Radio Arcane',
+               filter: 'radio-arcane',
+            }, {
+               name: 'Podcasts',
+               filter: 'podcast',
+            }, {
+               name: 'Arcane Alive!',
+               filter: 'arcane-alive',
+            }],
             filter: null,
-         }
+         };
       },
       methods: {
          tabClick (filterValue = null) {

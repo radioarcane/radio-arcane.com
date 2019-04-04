@@ -1,48 +1,13 @@
 <template>
    <div class="social-icons">
-      <a
-         href="https://www.facebook.com/pg/RadioArcaneEvents"
+      <a v-for="icon in socialLinks"
+         class="social-icons__icon"
+         :key="icon.icon"
+         :href="icon.url"
          target="_blank"
-         title="Follow Radio Arcane on Facebook"
-         aria-label="Follow Radio Arcane on Facebook"
+         :title="`Follow Radio Arcane on ${ icon.name }`"
       >
-         <SvgIcon name="facebook" use="facebook" />
-      </a>
-
-      <a
-         href="https://www.instagram.com/radio_arcane/"
-         target="_blank"
-         title="Follow Radio Arcane on Instagram"
-         aria-label="Follow Radio Arcane on Instagram"
-      >
-         <SvgIcon name="instagram" use="instagram" />
-      </a>
-
-      <a
-         href="https://twitter.com/Radio_Arcane"
-         target="_blank"
-         title="Follow Radio Arcane on Twitter"
-         aria-label="Follow Radio Arcane on Twitter"
-      >
-         <SvgIcon name="twitter" use="twitter" />
-      </a>
-
-      <a
-         href="https://www.mixcloud.com/Radio-Arcane"
-         target="_blank"
-         title="Follow Radio Arcane on Mixcloud"
-         aria-label="Follow Radio Arcane on Mixcloud"
-      >
-         <SvgIcon name="mixcloud" use="mixcloud" />
-      </a>
-
-      <a
-         href="https://soundcloud.com/radio_arcane"
-         target="_blank"
-         title="Follow Radio Arcane on Soundcloud"
-         aria-label="Follow Radio Arcane on Soundcloud"
-      >
-         <SvgIcon name="soundcloud" use="soundcloud" />
+         <SvgIcon :name="icon.icon" :use="icon.icon" />
       </a>
    </div>
 </template>
@@ -54,12 +19,37 @@
       components: {
          SvgIcon,
       },
+      data () {
+         return {
+            socialLinks: [{
+               name: 'Facebook',
+               url: 'https://www.facebook.com/pg/RadioArcaneEvents',
+               icon: 'facebook',
+            }, {
+               name: 'Instagram',
+               url: 'https://www.instagram.com/radio_arcane',
+               icon: 'instagram',
+            }, {
+               name: 'Twitter',
+               url: 'https://twitter.com/Radio_Arcane',
+               icon: 'twitter',
+            }, {
+               name: 'Mixcloud',
+               url: 'https://www.mixcloud.com/Radio-Arcane',
+               icon: 'mixcloud',
+            }, {
+               name: 'Soundcloud',
+               url: 'https://soundcloud.com/radio_arcane',
+               icon: 'soundcloud',
+            }]
+         };
+      }
    }
 </script>
 
 <style lang="scss">
    .social-icons {
-      a {
+      &__icon {
          color: $white;
          transition: all 200ms ease-in-out;
          display: inline-block;

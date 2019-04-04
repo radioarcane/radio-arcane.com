@@ -18,13 +18,8 @@
          >
             <ul class="nav-menu">
                <li v-for="(item, index) in links" class="nav-menu__item" :key="index">
-                  <g-link
-                     class="nav-menu__link"
-                     :to="item.to"
-                     @click.native="activeNav = false"
-                  >
-                     {{ item.name }}
-               </g-link>
+                  <g-link class="nav-menu__link" :to="item.to" @click.native="activeNav = false"
+                  >{{ item.name }}</g-link>
                </li>
             </ul>
          </nav>

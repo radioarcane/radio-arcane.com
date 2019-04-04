@@ -8,9 +8,7 @@
             {{ playlist.displayName }}
          </h2>
 
-         <time :datetime="playlist.date"
-               class="event-playlist__date"
-         >
+         <time :datetime="playlist.date" class="event-playlist__date">
             {{ playlist.date | moment("dddd, MMMM D, YYYY") }}
          </time>
       </header>
@@ -24,7 +22,7 @@
          </div>
       </div>
 
-      <div v-for="(node, index) in playlist.sets" :key="index">
+      <div v-for="(node, index) in playlist.sets" :key="index" class="event-playlist__set">
         <h3 v-if="node.djName" class="event-playlist__performer">
             <span class="event-playlist__performer__name">
                {{ node.djName }}
@@ -52,12 +50,8 @@
 
         <ul v-if="node.tracks && node.tracks.length" class="playlist">
            <li v-for="(track, j) in node.tracks" class="playlist__track" :key="j">
-             <div class="track"
-                  itemprop="track"
-                  itemscope
-                  itemtype="http://schema.org/MusicRecording"
-             >
-                <span class="track__artist" itemprop="byArtist">{{ track.artist }}</span> - <span class="track__song" itemprop="name">{{ track.song }}</span>
+             <div class="track">
+                <span class="track__artist">{{ track.artist }}</span> - <span class="track__song">{{ track.song }}</span>
 
                 <em class="track__request" v-if="track.request && track.request === 'artist'">*</em>
                 <em class="track__request" v-else-if="track.request && track.request === 'song'">**</em>
@@ -191,6 +185,7 @@
 </script>
 
 <style lang="scss">
+
    .artist-links-modal-box {
       background: transparent;
       text-align: left;
@@ -218,11 +213,12 @@
       }
 
       &__title {
-         margin: 0 0 ($padding-vertical / 2);
+         margin: 0;
       }
 
       &__date {
-
+         opacity: 0.8;
+         font-size: 80%;
       }
 
       &__request-info {
@@ -234,20 +230,18 @@
          }
       }
 
+      > .event-playlist__set:last-child {
+         > *:last-child {
+            margin-bottom: 0;
+         }
+      }
+
       &__performer {
          &__name {
             display: inline-block;
             vertical-align: middle;
          }
       }
-   }
-
-   @keyframes lightbleed-box {
-      0%	{ box-shadow:  0 0 6px rgba(255,255,255,.8); }
-      25% { box-shadow: 0 0 9px rgba(250,250,250,.9); }
-      50%{ box-shadow: 0 0 9px rgba(255,255,255,.75); }
-      75% { box-shadow: 0 0 10px rgba(250,250,250,.9); }
-      100%{ box-shadow: 0 0 5px rgba(250,250,250,.8); }
    }
 
    .playlist {
@@ -329,5 +323,13 @@
             transform: scale(1.1);
          }
       }
+   }
+
+   @keyframes lightbleed-box {
+      0%	{ box-shadow:  0 0 6px rgba(255,255,255,.8); }
+      25% { box-shadow: 0 0 9px rgba(250,250,250,.9); }
+      50%{ box-shadow: 0 0 9px rgba(255,255,255,.75); }
+      75% { box-shadow: 0 0 10px rgba(250,250,250,.9); }
+      100%{ box-shadow: 0 0 5px rgba(250,250,250,.8); }
    }
 </style>
