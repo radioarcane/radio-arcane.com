@@ -17,13 +17,9 @@
       </div>
 
       <div class="podcast__content">
-         <h3 class="podcast__title">
-            {{ podcast.title }}
-         </h3>
+         <h3 class="podcast__title">{{ podcast.title }}</h3>
 
-         <p v-if="podcast.shortDescription"
-            class="podcast__blurb"
-         >
+         <p v-if="podcast.shortDescription" class="podcast__blurb">
             {{ podcast.shortDescription }}
          </p>
 

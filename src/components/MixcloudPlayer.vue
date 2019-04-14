@@ -23,7 +23,7 @@
          const player = this.$el.querySelector('iframe');
 
          const observer = lozad(player, {
-            rootMargin: '10px 0px',
+            rootMargin: '50px 0px',
             threshold: 0.1,
          });
 
