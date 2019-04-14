@@ -1,6 +1,6 @@
 ---
 title: Cinema Strange
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/cinema-strange/139065464'
 bandcamp: ''
 facebook: 'https://www.facebook.com/CinemaStrange'
 google_music: >-

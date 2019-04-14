@@ -10,5 +10,5 @@ soundcloud: 'https://soundcloud.com/agent-side-grinder'
 spotify: 'https://open.spotify.com/artist/0kMA8StaJw3CUvN42xCLSe'
 twitter: 'https://twitter.com/azarswan'
 website: 'http://www.azarswan.com'
-youtube: ''
+youtube: 'https://www.youtube.com/user/agentsidegrinder'
 ---

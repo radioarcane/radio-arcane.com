@@ -1,6 +1,6 @@
 ---
 title: Undertheskin
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/undertheskin/962796415'
 bandcamp: 'https://underskin.bandcamp.com'
 facebook: 'https://www.facebook.com/0undertheskin'
 google_music: >-
@@ -10,5 +10,5 @@ soundcloud: 'https://soundcloud.com/undertheskin-3'
 spotify: 'https://open.spotify.com/artist/0nA7PsgdzQY83afniFu4xD'
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCO-npvT8vT2L3VpGOPPElBg'
 ---

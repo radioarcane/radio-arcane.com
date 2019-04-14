@@ -1,6 +1,6 @@
 ---
 title: Fawns of Love
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/fawns-of-love/1133807708'
 bandcamp: 'https://fawnsoflove.bandcamp.com'
 facebook: 'https://www.facebook.com/fawnsoflove'
 google_music: >-
@@ -10,5 +10,5 @@ soundcloud: 'https://soundcloud.com/fawnsoflove'
 spotify: 'https://open.spotify.com/artist/6D4bhvdvo6voqApnT15rpg'
 twitter: 'https://twitter.com/fawnsoflove'
 website: 'http://www.fawnsoflove.com'
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UC_O1IfJg4Md9-Z6eRo56Zww'
 ---

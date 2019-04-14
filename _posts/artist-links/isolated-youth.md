@@ -1,12 +1,12 @@
 ---
 title: Isolated Youth
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/isolated-youth/1446463380'
 bandcamp: 'https://isolatedyouth.bandcamp.com'
 facebook: 'https://www.facebook.com/isolatedyouth'
 google_music: >-
    https://play.google.com/store/music/artist/Isolated_Youth?id=Adfr5tdytupy4ijmmeozafdt7si
 instagram: 'https://www.instagram.com/jeuneisole'
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/isolatedyouth'
 spotify: 'https://open.spotify.com/artist/1uimsSGy9meFZYozKHuyZC'
 twitter: ''
 website: 'http://www.isolatedyouth.com'
