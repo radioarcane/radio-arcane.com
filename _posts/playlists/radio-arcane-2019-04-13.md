@@ -31,6 +31,27 @@ sets:
   - dj_name: Brian Drabant
     type: dj_set
   - dj_name: Kaleidoscope
+    tracks:
+      - artist: Night Sins
+        song: Crystal Blue
+      - artist: Drab Majesty
+        song: The Heiress
+      - artist: Ritual Howls
+        song: Love Cuts
+      - artist: The Cure
+        song: Lullaby
+      - artist: S Y Z Y G Y X
+        song: Eye of The Beholder
+      - artist: Depeche Mode
+        song: Lie to Me
+      - artist: Liquid Rooms
+        song: A Flash In The Night
+      - artist: Buzz Kull
+        song: Ode To Hate
+      - artist: Qual
+        song: Benevolent Technologies
+      - artist: Nitzer Ebb
+        song: Join In The Chant
     type: dj_set
   - dj_name: Sorrow-Vomit
     tracks:
@@ -55,6 +76,31 @@ sets:
   - dj_name: Brian Drabant
     type: dj_set
   - dj_name: Kaleidoscope
+    tracks:
+      - artist: Scary Black
+        song: Ice Rose
+      - artist: 'Push Button Press '
+        song: 'Mire & The Sea (S Y Z Y G Y X Remix) '
+      - artist: Selofan
+        song: Into The Darkness
+      - artist: Black Light Smoke
+        song: Take Me Out
+      - artist: Boy Harsher
+        song: Tears
+      - artist: Joy Division
+        song: She's Lost Control
+      - artist: Tempers
+        song: Bright Over Me
+      - artist: Holygram
+        song: She's Like The Sun
+      - artist: Red Lorry Yellow Lorry
+        song: Hollow Eyes
+      - artist: Cold Showers
+        song: Whatever You Want
+      - artist: Geometric Vision
+        song: Apocalypse Queen
+      - artist: Velvet Condom
+        song: Collapse In Slow Motion
     type: dj_set
   - dj_name: Sorrow-Vomit
     tracks:
@@ -102,3 +148,4 @@ sets:
         song: Your Master Is Calling
     type: dj_set
 ---
+
