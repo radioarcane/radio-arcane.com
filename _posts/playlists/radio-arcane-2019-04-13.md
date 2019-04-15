@@ -66,7 +66,7 @@ sets:
         song: La Poussière
       - artist: Black Plastic
         song: Savage (Actors Remix)
-      - artist: Agent Side Grider
+      - artist: Agent Side Grinder
         song: Stripdown
       - artist: Azar Swan
         song: Over
@@ -102,4 +102,3 @@ sets:
         song: Your Master Is Calling
     type: dj_set
 ---
-
