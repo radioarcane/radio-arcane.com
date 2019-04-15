@@ -6,7 +6,7 @@ event_type: radio-arcane
 date: '2019-09-07'
 start_datetime: '2019-09-07 22:00:00'
 end_datetime: '2019-09-08 03:00:00'
-image: '/img/uploads/radio-arcane-2019-05-18.jpg'
+image: '/img/uploads/radio-arcane-default.jpg'
 description: ''
 short_description: ''
 location: Art Sanctuary
