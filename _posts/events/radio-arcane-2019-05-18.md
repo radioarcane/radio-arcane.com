@@ -1,29 +1,35 @@
 ---
 layout: event
-title: '2019-05-18 Radio Arcane'
+title: 2019-05-18 Radio Arcane
 display_name: 'Radio Arcane: Goth Prom : The Dark Market'
 event_type: radio-arcane
 date: '2019-05-18'
 start_datetime: '2019-05-18 19:00:00'
 end_datetime: '2019-05-19 03:00:00'
-image: '/img/uploads/radio-arcane-2019-05-18.jpg'
+image: /img/uploads/radio-arcane-2019-05-18.jpg
 description: >-
-  5 DJs, Live Music, a professional Photo Booth, King and Queen competition*, various vendors of art and curiosities, cash bar, and much more fun and surprises!
+  5 DJs, Live Music, a professional Photo Booth, King and Queen competition*,
+  various vendors of art and curiosities, cash bar, and much more fun and
+  surprises!
 
 
+  18+  
 
+  21+ to drink  
 
-  18+
-  21+ to drink
   $5 each, free before 10pm
 
 
-
-
-  *Anyone can nominate a candidate for one King and/or one Queen and can vote for one King and/or one Queen. The nominees must agree to their nomination, and can choose if they are running for King or Queen. There is no gender requirement for either King or Queen. Nomination and voting will take place the night of the event. Thems the rules.
-short_description: '16th annual Goth Prom'
+  \*Anyone can nominate a candidate for one King and/or one Queen and can vote
+  for one King and/or one Queen. The nominees must agree to their nomination,
+  and can choose if they are running for King or Queen. There is no gender
+  requirement for either King or Queen. Nomination and voting will take place
+  the night of the event. Thems the rules.
+short_description: 16th annual Goth Prom
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/320411385485812/?event_time_id=320411395485811'
-tickets_link: 'https://www.showclix.com/event/goth-prom?fbclid=IwAR00VUFNoL0RPaw-QQu1FUj9YYljq-1ZJzT9PbSQp7H6PUTNpq1GqFQXnes'
+tickets_link: >-
+  https://www.showclix.com/event/goth-prom?fbclid=IwAR00VUFNoL0RPaw-QQu1FUj9YYljq-1ZJzT9PbSQp7H6PUTNpq1GqFQXnes
 playlist: ''
 ---
+
