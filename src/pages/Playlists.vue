@@ -18,6 +18,12 @@
          <section v-for="{ node } in filterEventType($page.allPlaylist.edges)" :key="node.id">
             <Playlist :playlist="node" />
           </section>
+
+          <ClientOnly>
+             <InfiniteLoading @infinite="infiniteHandler">
+                 <div slot="no-more"></div>
+             </InfiniteLoading>
+          </ClientOnly>
       </Container>
    </Layout>
 </template>
@@ -73,6 +79,7 @@
 </page-query>
 
 <script>
+   import InfiniteLoading from 'vue-infinite-loading';
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Container from '~/components/Container.vue';
    import Playlist from '~/components/Playlist.vue';
@@ -90,6 +97,7 @@
       components: {
          Breadcrumb,
          Container,
+         InfiniteLoading,
          Playlist,
          Tab,
          Tabs,
@@ -115,21 +123,35 @@
                filter: 'arcane-alive',
             }],
             filter: null,
+            playlistsLoaded: 2,
+            playlistLoadCount: 2,
          };
       },
       methods: {
          tabClick (filterValue = null) {
+            this.playlistsLoaded = this.playlistLoadCount;
             this.filter =  filterValue;
          },
          filterEventType (playlists = []) {
             const { filter } = this;
 
             if (filter === null) {
-               return playlists;
+               return playlists.slice(0, this.playlistsLoaded);
             }
 
-            return playlists.filter(item => item.node.playlistType === filter);
-         }
+            return playlists
+                   .filter(item => item.node.playlistType === filter)
+                   .slice(0, this.playlistsLoaded);
+         },
+         infiniteHandler($state) {
+            if (this.playlistsLoaded >= this.$page.allPlaylist.edges.length) {
+               $state.complete();
+            }
+            else {
+               this.playlistsLoaded += this.playlistLoadCount;
+               $state.loaded();
+            }
+         },
       }
    }
 </script>

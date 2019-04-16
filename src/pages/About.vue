@@ -165,6 +165,6 @@
                name: 'Thulsa Goon'
             }]
          };
-      },
+      }
    }
 </script>
