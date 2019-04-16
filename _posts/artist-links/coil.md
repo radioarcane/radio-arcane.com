@@ -1,6 +1,6 @@
 ---
 title: Coil
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/coil/68730256'
 bandcamp: ''
 facebook: ''
 google_music: >-

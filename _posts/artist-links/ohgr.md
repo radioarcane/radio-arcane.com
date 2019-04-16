@@ -1,14 +1,14 @@
 ---
 title: ohGr
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/ohgr/2779633'
+bandcamp: 'https://ohgr.bandcamp.com'
+facebook: 'https://www.facebook.com/ohGrOfficial'
 google_music: >-
    https://play.google.com/store/music/artist/ohGr?id=Asiluew54qv723omzqzz75dwysy
-instagram: ''
-soundcloud: ''
+instagram: 'https://www.instagram.com/ohgr_official'
+soundcloud: 'https://soundcloud.com/ohgrofficial'
 spotify: 'https://open.spotify.com/artist/00DSeUAdyYqUyGFqeySG68'
-twitter: ''
+twitter: 'https://twitter.com/ohgrofficial'
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCDm7TwWJN5e2XDQX4F1lCFQ'
 ---

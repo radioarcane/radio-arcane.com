@@ -1,14 +1,14 @@
 ---
 title: Gauntlet Hair
-apple_music: ''
+apple_music: 'https://itunes.apple.com/ca/artist/gauntlet-hair/467438842'
 bandcamp: ''
-facebook: ''
+facebook: 'https://www.facebook.com/gauntlet.hair'
 google_music: >-
    https://play.google.com/store/music/artist/Gauntlet_Hair?id=Aiv4lro6a6x72k74rriyc7walzy
-instagram: ''
-soundcloud: ''
+instagram: 'https://www.instagram.com/gauntlethair'
+soundcloud: 'https://soundcloud.com/gauntlet-hair'
 spotify: 'https://open.spotify.com/artist/1uein4y179xrl6J99b4INr'
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/user/GauntletHairVEVO/videos'
 ---

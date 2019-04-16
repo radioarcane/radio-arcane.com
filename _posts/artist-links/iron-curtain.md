@@ -2,7 +2,7 @@
 title: Iron Curtain
 apple_music: ''
 bandcamp: ''
-facebook: ''
+facebook: 'https://www.facebook.com/Iron-Curtain-155829864473728'
 google_music: ''
 instagram: ''
 soundcloud: ''

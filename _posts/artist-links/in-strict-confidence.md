@@ -1,14 +1,14 @@
 ---
 title: In Strict Confidence
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/in-strict-confidence/56091819'
+bandcamp: 'https://instrictconfidence.bandcamp.com'
+facebook: 'https://www.facebook.com/instrictconfidence'
 google_music: >-
    https://play.google.com/store/music/artist/In_Strict_Confidence?id=Aqrrt22oho7awpu4rot3hd6ovjy
-instagram: ''
-soundcloud: ''
+instagram: 'https://www.instagram.com/in.strict.confidence'
+soundcloud: 'https://soundcloud.com/in-strict-confidence'
 spotify: 'https://open.spotify.com/artist/5TKuTLuNdfcZ0U9g5sHafC'
 twitter: ''
-website: ''
-youtube: ''
+website: 'http://www.instrictconfidence.com'
+youtube: 'https://www.youtube.com/user/instrictconfidence'
 ---

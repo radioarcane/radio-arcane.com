@@ -1,6 +1,6 @@
 ---
 title: Love & Rockets
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/love-and-rockets/3023070'
 bandcamp: ''
 facebook: ''
 google_music: >-

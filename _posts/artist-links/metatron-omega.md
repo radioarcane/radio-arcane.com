@@ -1,14 +1,14 @@
 ---
 title: Metatron Omega
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/metatron-omega/1138130323'
+bandcamp: 'https://cryochamber.bandcamp.com/album/illuminatio'
+facebook: 'https://www.facebook.com/metatronomega'
 google_music: >-
    https://play.google.com/store/music/artist/Metatron_Omega?id=Aco3a7yxltjahunb2qq6evciaoy
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/metatron-omega'
 spotify: 'https://open.spotify.com/artist/6C4GgVeNYRqyYf4BOStvMy'
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCQACEcq4ThZh1hb1QwdK3Jw'
 ---

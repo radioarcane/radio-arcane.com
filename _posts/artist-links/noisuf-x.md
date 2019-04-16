@@ -1,14 +1,14 @@
 ---
 title: Noisuf-X
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/noisuf-x/75502917'
 bandcamp: ''
-facebook: ''
+facebook: 'https://www.facebook.com/NOISUFXofficial'
 google_music: >-
    https://play.google.com/store/music/artist/Noisuf_X?id=Alplr65h56cukjizwfjoywlqqby
-instagram: ''
-soundcloud: ''
+instagram: 'https://www.instagram.com/noisuf.x'
+soundcloud: 'https://soundcloud.com/noisuf-x'
 spotify: 'https://open.spotify.com/artist/5Ugr8SZik8bMfgldDbJecL'
-twitter: ''
+twitter: 'https://twitter.com/xfusion_noisufx'
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/user/wwwxmpde'
 ---

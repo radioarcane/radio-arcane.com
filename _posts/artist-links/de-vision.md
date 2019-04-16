@@ -1,14 +1,14 @@
 ---
 title: De/Vision
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/de-vision/219342311'
 bandcamp: ''
-facebook: ''
+facebook: 'https://www.facebook.com/DEVISION-24741337633'
 google_music: >-
    https://play.google.com/store/music/artist/De_Vision?id=Arhrpdco32ph7locv2rua52hzey
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/de-vision-official'
 spotify: 'https://open.spotify.com/artist/1bN9idF4rgIhaaKFpwgzoQ'
-twitter: ''
-website: ''
-youtube: ''
+twitter: 'https://twitter.com/devisionmusic'
+website: 'http://www.devision.de'
+youtube: 'https://www.youtube.com/popgefahrrecords'
 ---
