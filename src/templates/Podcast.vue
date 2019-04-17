@@ -156,7 +156,7 @@
                { name: 'twitter:image:src', content: metaImg },
 
                { itemprop: 'name', content:  metaTitle },
-               { itemprop: 'description', content: tmetaDescription },
+               { itemprop: 'description', content: metaDescription },
                { itemprop: 'image', content: metaImg },
             ],
             links: [
