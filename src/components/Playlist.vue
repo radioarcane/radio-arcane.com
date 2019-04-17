@@ -9,7 +9,7 @@
          </h2>
 
          <time :datetime="playlist.date" class="event-playlist__date">
-            {{ playlist.date | moment("dddd, MMMM D, YYYY") }}
+            {{ playlist.date | moment("dddd MMMM D, YYYY") }}
          </time>
       </header>
 

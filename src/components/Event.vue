@@ -37,7 +37,7 @@
             <div class="event__subtitle">
                <SvgIcon name="clock" use="clock" />
                <time :datetime="getDateTime()" class="event__time">
-                  {{ event.date | moment("dddd, MMMM D, YYYY") }} <span v-if="event.startDatetime">
+                  {{ event.date | moment("dddd MMMM D, YYYY") }} <span v-if="event.startDatetime">
                      @ {{ event.startDatetime | moment('h A') }}
                   </span> <span v-if="event.startDatetime && event.endDatetime">
                      &ndash; {{ event.endDatetime | moment('h A') }}

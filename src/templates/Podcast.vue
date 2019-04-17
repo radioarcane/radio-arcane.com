@@ -135,7 +135,7 @@
 
          const metaDescription = this.$page.podcast.shortDescription;
 
-         const metaImg = this.$page.podcast.image ? `https://www.radio-arcane.com/img/${ this.$page.podcast.image }` : 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
+         const metaImg = this.$page.podcast.image ? `https://www.radio-arcane.com${ this.$page.podcast.image }` : 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
 
          const canonical = `https://www.radio-arcane.com${ this.$page.podcast.path }`;
 

@@ -23,7 +23,7 @@
          <div class="event-card__subtitle">
             <SvgIcon use="clock" name="clock" />
             <time :datetime="event.date">
-               {{ event.date | moment("dddd, MMMM D, YYYY") }}
+               {{ event.date | moment("dddd MMMM D, YYYY") }}
             </time>
          </div>
 
