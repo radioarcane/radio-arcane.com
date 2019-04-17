@@ -7,10 +7,11 @@ import vueMoment from 'vue-moment';
 import VModal from 'vue-js-modal/dist/ssr.index';
 import elementClosest from 'element-closest';
 import svg4everybody from 'svg4everybody';
+import VueAnalytics from 'vue-analytics';
 
 import './assets/styles/main.scss';
 
-export default function (Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient, isServer }) {
    if (isClient) {
       require('intersection-observer');
       elementClosest(window);
@@ -29,4 +30,13 @@ export default function (Vue, { router, head, isClient }) {
    });
 
    Vue.component('Layout', DefaultLayout);
+
+   Vue.use(VueAnalytics, {
+      id: 'UA-138534141-1',
+      disabled: isServer,
+      debug: {
+         sendHitTask: process.env.NODE_ENV === 'production'
+      },
+      router
+   });
 }

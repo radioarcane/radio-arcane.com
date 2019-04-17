@@ -9,6 +9,8 @@ public_folder: "/img/uploads"
 site_url: https://radioarcane.netlify.com
 display_url: https://radioarcane.netlify.com
 
+publish_mode: editorial_workflow
+
 collections:
   - name: "locations"
     label: "Locations"
