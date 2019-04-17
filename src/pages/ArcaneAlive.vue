@@ -3,6 +3,7 @@
       <Container>
          <Breadcrumb :crumbs="crumbs" />
 
+         <!--
          <article>
             <Section :padBottom="true">
                <Title>Arcane Alive!</Title>
@@ -33,6 +34,9 @@
                </GridContainer>
             </Section>
          </article>
+      -->
+
+         <Title>Arcane Alive!</Title>
 
          <Section v-if="$page.nextEvent.edges.length" :padBottom="true">
             <Heading strike animate uppercase>

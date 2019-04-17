@@ -109,6 +109,10 @@
 
       &__item {
          margin: 0 $padding-horizontal 1em 0;
+
+         @include breakpoint($screen-l-min) {
+            margin-right: 2em;
+         }
       }
 
       &__link {
