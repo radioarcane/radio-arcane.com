@@ -7,13 +7,6 @@ date: '2017-10-21'
 sets:
   - dj_name: Motuvius Rex
     type: dj_set
-  - dj_name: Osiris Ani
-    type: dj_set
-    tracks:
-      - artist: The Mission
-        song: Deliverance
-      - artist: Sister Soleil
-        song: Bazamba
   - dj_name: Sorrow-Vomit
     type: dj_set
     tracks:
@@ -40,6 +33,10 @@ sets:
   - dj_name: Osiris Ani
     type: dj_set
     tracks:
+      - artist: The Mission
+        song: Deliverance
+      - artist: Sister Soleil
+        song: Bazamba
       - artist: Coil
         song: Love's Secret Domain
       - artist: Helium Vola

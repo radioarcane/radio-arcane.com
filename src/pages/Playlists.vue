@@ -11,7 +11,7 @@
                   :active="filter === tab.filter"
                   :onClick="tabClick.bind(null, tab.filter)"
             >
-               {{ tab.name }}
+               {{ tab.name }} <span class="badge">{{ getTotal($page.allPlaylist.edges, tab.filter) }}</span>
             </Tab>
          </Tabs>
 
@@ -20,7 +20,7 @@
           </section>
 
           <ClientOnly>
-             <InfiniteLoading @infinite="infiniteHandler">
+             <InfiniteLoading @infinite="infiniteHandler" :identifier="infiniteId">
                  <div slot="no-more"></div>
              </InfiniteLoading>
           </ClientOnly>
@@ -87,12 +87,36 @@
    import Tabs from '~/components/Tabs.vue';
    import Title from '~/components/Title.vue';
 
+   const metaTitle = 'Playlists';
+   const metaDescription = 'Checkout Playlists from past Radio Arcane events and podcasts.';
+   const metaImg = 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
+   const canonical = 'https://www.radio-arcane.com/playlists';
+
    export default {
       metaInfo: {
-         title: 'Playlists',
+         title: metaTitle,
          meta: [
-            { description: 'Add Meta Description...' }
-         ]
+            { description: metaDescription },
+            { property: 'og:title', content: metaTitle },
+            { property: 'og:site_name', content: 'Radio Arcane' },
+            { property: 'og:url', content: canonical },
+            { property: 'og:image', content: metaImg },
+            { property: 'og:description', content: metaDescription },
+
+            { name: 'twitter:card', content: 'summary' },
+            { name: 'twitter:site', content: canonical },
+            { name: 'twitter:title', content: metaTitle },
+            { name: 'twitter:description', content: metaDescription },
+            { name: 'twitter:creator', content: '@Radio_Arcane' },
+            { name: 'twitter:image:src', content: metaImg },
+
+            { itemprop: 'name', content: metaTitle },
+            { itemprop: 'description', content: metaDescription },
+            { itemprop: 'image', content: metaImg },
+         ],
+         links: [
+            { rel: 'canonical', href: canonical }
+        ]
       },
       components: {
          Breadcrumb,
@@ -125,12 +149,21 @@
             filter: null,
             playlistsLoaded: 2,
             playlistLoadCount: 2,
+            infiniteId: +new Date(),
          };
       },
       methods: {
          tabClick (filterValue = null) {
             this.playlistsLoaded = this.playlistLoadCount;
-            this.filter =  filterValue;
+            this.filter = filterValue;
+            this.infiniteId += 1;
+         },
+         getTotal (playlists, filter = null) {
+            if (!filter) {
+               return playlists.length;
+            }
+
+            return playlists.filter(item => item.node.playlistType === filter).length;
          },
          filterEventType (playlists = []) {
             const { filter } = this;
@@ -155,3 +188,21 @@
       }
    }
 </script>
+
+<style lang="scss">
+   .badge {
+      display: inline-block;
+      padding: .25em .4em;
+      font-size: 75%;
+      line-height: 1;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: baseline;
+      border-radius: .25rem;
+      color: $white-smoke;
+      background: $secondary-color;
+      margin-left: 8px;
+      position: relative;
+      top: -4px;
+   }
+</style>

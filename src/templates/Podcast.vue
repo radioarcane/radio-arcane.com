@@ -6,6 +6,14 @@
          <article>
             <Title>{{ $page.podcast.title }}</Title>
 
+            <div v-if="$page.podcast.date" class="published-date">
+               <p>
+                  Published: <time :datetime="$page.podcast.date">
+                     {{ $page.podcast.date | moment("MMM. D, YYYY") }}
+                  </time>
+               </p>
+            </div>
+
             <GridContainer collapse>
                <GridItem
                   v-if="$page.podcast.image"
@@ -35,14 +43,6 @@
                   md: $page.podcast.image ? 8 : 12,
                   lg: $page.podcast.image ? 9 : 12
                }">
-                  <div v-if="$page.podcast.date">
-                     <p>
-                        Published: <time :datetime="$page.podcast.date">
-                           {{ $page.podcast.date | moment("MMM. D, YYYY") }}
-                        </time>
-                     </p>
-                  </div>
-
                   <div v-html="$page.podcast.description" />
                </GridItem>
                <GridItem padTop :sizes="{
@@ -55,14 +55,14 @@
 
          <hr />
 
-         <section v-if="$page.podcast.playlist">
-            <h2>Playlist</h2>
+         <Section v-if="$page.podcast.playlist" :padTop="true">
+            <h2>Podcast Playlist</h2>
 
             <Playlist
                :playlist="$page.podcast.playlist"
                :showHeader="false"
             />
-         </section>
+         </Section>
       </Container>
    </Layout>
 </template>
@@ -114,6 +114,7 @@
    import GridItem from '~/components/GridItem.vue';
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
    import Playlist from '~/components/Playlist.vue';
+   import Section from '~/components/Section.vue';
    import Title from '~/components/Title.vue';
 
    export default {
@@ -126,15 +127,42 @@
          GridItem,
          MixcloudPlayer,
          Playlist,
-         Title
+         Section,
+         Title,
       },
-      metaInfo () {
+      metaInfo() {
+         const metaTitle = this.$page.podcast.title;
+
+         const metaDescription = this.$page.podcast.shortDescription;
+
+         const metaImg = this.$page.podcast.image ? `https://www.radio-arcane.com/img/${ this.$page.podcast.image }` : 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
+
+         const canonical = `https://www.radio-arcane.com${ this.$page.podcast.path }`;
+
          return {
-            title: this.$page.podcast.title,
+            title:  metaTitle,
             meta: [
-               { description: 'Add Meta Description...' }
-            ]
-         }
+               { property: 'og:title', content:  metaTitle},
+               { property: 'og:site_name', content: 'Radio Arcane' },
+               { property: 'og:url', content: canonical },
+               { property: 'og:image', content: metaImg },
+               { property: 'og:description', content: metaDescription },
+
+               { name: 'twitter:card', content: 'summary' },
+               { name: 'twitter:site', content: canonical },
+               { name: 'twitter:title', content:  metaTitle },
+               { name: 'twitter:description', content: metaDescription },
+               { name: 'twitter:creator', content: '@Radio_Arcane' },
+               { name: 'twitter:image:src', content: metaImg },
+
+               { itemprop: 'name', content:  metaTitle },
+               { itemprop: 'description', content: tmetaDescription },
+               { itemprop: 'image', content: metaImg },
+            ],
+            links: [
+               { rel: 'canonical', href: canonical }
+            ],
+         };
       },
       methods: {
          getCrumbs() {
@@ -149,3 +177,11 @@
       }
    }
 </script>
+
+<style lang="scss">
+   .published-date {
+      text-align: right;
+      font-size: 80%;
+      opacity: 0.8;
+   }
+</style>

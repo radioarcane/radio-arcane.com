@@ -29,7 +29,7 @@
 
          <Center>
             <Btn :to="podcast.path">
-               <span>Playlist & Further Details</span> <SvgIcon name="right-open" use="right-open" />
+               <span>Episode Details</span> <SvgIcon name="right-open" use="right-open" />
             </Btn>
          </Center>
       </div>

@@ -6,7 +6,11 @@
          <article>
             <Title>{{ $page.event.displayName }}</Title>
 
-            <Event :event="$page.event" />
+            <Event
+               :event="$page.event"
+               :includeLink="false"
+               :showTitle="false"
+            />
 
             <section v-if="$page.event.playlist">
                <h2>Event Playlist</h2>
@@ -99,6 +103,7 @@
    import Playlist from '~/components/Playlist.vue';
    import Title from '~/components/Title.vue';
 
+
    export default {
       components: {
          Breadcrumb,
@@ -107,13 +112,35 @@
          Playlist,
          Title
       },
-      metaInfo () {
+      metaInfo() {
+         const metaTitle = this.$page.event.displayName;
+
+         const metaImg = this.$page.event.image ? `https://www.radio-arcane.com${ this.$page.event.image }` : 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
+
+         const canonical = `https://www.radio-arcane.com${ this.$page.event.path }`;
+
          return {
-            title: this.$page.event.displayName,
+            title: metaTitle,
             meta: [
-               { description: 'Add Meta Description...' }
-            ]
-         }
+
+               { property: 'og:title', content: metaTitle },
+               { property: 'og:site_name', content: 'Radio Arcane' },
+               { property: 'og:url', content: canonical },
+               { property: 'og:image', content: metaImg },
+
+               { name: 'twitter:card', content: 'summary' },
+               { name: 'twitter:site', content: canonical },
+               { name: 'twitter:title', content: metaTitle },
+               { name: 'twitter:creator', content: '@Radio_Arcane' },
+               { name: 'twitter:image:src', content: metaImg },
+
+               { itemprop: 'name', content: metaTitle },
+               { itemprop: 'image', content: metaImg },
+            ],
+            links: [
+               { rel: 'canonical', href: canonical }
+            ],
+         };
       },
       methods: {
          getCrumbs() {

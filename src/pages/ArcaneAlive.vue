@@ -135,12 +135,36 @@
    import Section from '~/components/Section.vue';
    import Title from '~/components/Title.vue';
 
+   const metaTitle = 'Arcane Alive! | Radio Arcane';
+   const metaDescription = 'Louisville, KY live music events.';
+   const metaImg = 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
+
    export default {
       metaInfo: {
-         title: 'Arcane Alive!',
+         title: metaTitle,
+         titleTemplate: '%s',
          meta: [
-            { description: 'Add Meta Description...' }
-         ]
+            { description: metaDescription },
+            { property: 'og:title', content: metaTitle },
+            { property: 'og:site_name', content: 'Radio Arcane' },
+            { property: 'og:url', content: 'https://www.radio-arcane.com/arcane-alive' },
+            { property: 'og:image', content: metaImg },
+            { property: 'og:description', content: metaDescription },
+
+            { name: 'twitter:card', content: 'summary' },
+            { name: 'twitter:site', content: 'https://www.radio-arcane.com/arcane-alive' },
+            { name: 'twitter:title', content: metaTitle },
+            { name: 'twitter:description', content: metaDescription },
+            { name: 'twitter:creator', content: '@Radio_Arcane' },
+            { name: 'twitter:image:src', content: metaImg },
+
+            { itemprop: 'name', content: metaTitle },
+            { itemprop: 'description', content: metaDescription },
+            { itemprop: 'image', content: metaImg },
+         ],
+         links: [
+            { rel: 'canonical', href: 'https://www.radio-arcane.com/arcane-alive' }
+        ]
       },
       components: {
          Breadcrumb,

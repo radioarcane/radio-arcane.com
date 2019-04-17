@@ -107,12 +107,35 @@
    import SvgIcon from '~/components/SvgIcon.vue';
    import Title from '~/components/Title.vue';
 
+   const metaTitle = 'Events | Radio Arcane';
+   const metaDescription = 'Louisville, KY dark music events focusing on Darkwave, Post-Punk, Gothic, Synthwave, EBM, Industrial, Synthpop.';
+   const metaImg = 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
+
    export default {
       metaInfo: {
          title: 'Events',
          meta: [
-            { description: 'Add Meta Description...' }
-         ]
+            { description: metaDescription },
+            { property: 'og:title', content: metaTitle },
+            { property: 'og:site_name', content: 'Radio Arcane' },
+            { property: 'og:url', content: 'https://www.radio-arcane.com/events' },
+            { property: 'og:image', content: metaImg },
+            { property: 'og:description', content: metaDescription },
+
+            { name: 'twitter:card', content: 'summary' },
+            { name: 'twitter:site', content: 'https://www.radio-arcane.com/events' },
+            { name: 'twitter:title', content: metaTitle },
+            { name: 'twitter:description', content: metaDescription },
+            { name: 'twitter:creator', content: '@Radio_Arcane' },
+            { name: 'twitter:image:src', content: metaImg },
+
+            { itemprop: 'name', content: metaTitle },
+            { itemprop: 'description', content: metaDescription },
+            { itemprop: 'image', content: metaImg },
+         ],
+         links: [
+            { rel: 'canonical', href: 'https://www.radio-arcane.com/events' }
+        ]
       },
       components: {
          Breadcrumb,

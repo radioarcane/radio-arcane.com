@@ -1,7 +1,7 @@
 <template>
    <div class="event">
       <div v-if="event.image" class="event__photo">
-         <router-link :to="event.path">
+         <router-link :to="event.path" v-if="includeLink">
             <picture v-if="event.webp">
                <source :srcset="event.webp" type="image/webp">
                <source :srcset="event.image" type="image/jpeg">
@@ -13,11 +13,24 @@
                  :alt="event.displayName"
             />
          </router-link>
+
+         <div v-if="!includeLink">
+            <picture v-if="event.webp">
+               <source :srcset="event.webp" type="image/webp">
+               <source :srcset="event.image" type="image/jpeg">
+               <img :src="event.image" :alt="event.displayName">
+            </picture>
+
+            <img v-if="!event.webp"
+                 :src="event.image"
+                 :alt="event.displayName"
+            />
+         </div>
       </div>
 
       <div class="event__content">
          <header class="event__header">
-            <h3 class="event__title">
+            <h3 class="event__title" v-if="showTitle">
                {{ event.displayName }}
             </h3>
 
@@ -108,6 +121,14 @@
          event: {
             default: {},
             type: Object
+         },
+         showTitle: {
+            default: true,
+            type: Boolean,
+         },
+         includeLink: {
+            default: true,
+            type: Boolean
          }
       },
       methods: {

@@ -98,12 +98,35 @@
    import Section from '~/components/Section.vue';
    import Title from '~/components/Title.vue';
 
+   const metaTitle = 'About | Radio Arcane';
+   const metaDescription = 'Radio Arcane is a collective of Louisville dj\'s that utilize an art space to host entertainment events with a heavy interest dark eclectic music. A podcast featuring music and discussion is also available on Mixcloud and SoundCloud.';
+   const metaImg = 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
+
    export default {
       metaInfo: {
-         title: 'About',
+         title: 'Events',
          meta: [
-            { description: 'Add Meta Description...' }
-         ]
+            { description: metaDescription },
+            { property: 'og:title', content: metaTitle },
+            { property: 'og:site_name', content: 'Radio Arcane' },
+            { property: 'og:url', content: 'https://www.radio-arcane.com/about' },
+            { property: 'og:image', content: metaImg },
+            { property: 'og:description', content: metaDescription },
+
+            { name: 'twitter:card', content: 'summary' },
+            { name: 'twitter:site', content: 'https://www.radio-arcane.com/about' },
+            { name: 'twitter:title', content: metaTitle },
+            { name: 'twitter:description', content: metaDescription },
+            { name: 'twitter:creator', content: '@Radio_Arcane' },
+            { name: 'twitter:image:src', content: metaImg },
+
+            { itemprop: 'name', content: metaTitle },
+            { itemprop: 'description', content: metaDescription },
+            { itemprop: 'image', content: metaImg },
+         ],
+         links: [
+            { rel: 'canonical', href: 'https://www.radio-arcane.com/about' }
+        ]
       },
       components: {
          Breadcrumb,
