@@ -10,7 +10,7 @@ sets:
       - artist: Rakta
         song: Fim Do Mundo
       - artist: Data Fragments
-        song: Falsifies The Fact
+        song: Falsifies The Facts
       - artist: Closed Mouth
         song: Emotions
       - artist: Mannequin
@@ -148,4 +148,3 @@ sets:
         song: Your Master Is Calling
     type: dj_set
 ---
-

@@ -3,69 +3,12 @@
 
 @import "variables";
 
-@import url('https://fonts.googleapis.com/css?family=Bellefair|Roboto');
-
 @import "node_modules/normalize.css/normalize";
 @import "node_modules/vue-js-modal/dist/styles";
+
+@import "fonts";
 
 @import "base/body";
 @import "base/typography";
 @import "base/media";
 @import "base/lists";
-
-/*
-@keyframes lightbleed-box {
-	0%	{ box-shadow:  0 0 6px rgba(255,255,255,.8); }
-	25% { box-shadow: 0 0 9px $light; }
-	50%{ box-shadow: 0 0 9px rgba(255,255,255,.75); }
-	75% { box-shadow: 0 0 10px $light; }
-	100%{ box-shadow: 0 0 5px rgba(250,250,250,.8); }
-}
-
-@keyframes lightbleed-text {
-	0% { text-shadow: 0 0 5px $light;}
-	30% { text-shadow: 0 0 6px $light; }
-	65% { text-shadow: 0 0 7px #fff; }
-	100% { text-shadow: 0 0 9px $light; }
-}
-
-@keyframes light {
-	0% { background: rgba(8,8,8,.85); }
-	25% { background: rgba(5,5,5,.8); }
-	50% { background: rgba(10,10,10,.8); }
-	75% { background: rgba(8,8,8,.85); }
-	100% { background: rgba(10,10,10,.85); }
-}
-@keyframes fading {
-	10% { box-shadow: inset 2px -2px 90px $dark; }
-	50% { box-shadow: inset 0px 0px 75px $dark; }
-	90% { box-shadow: inset 3px -2px 80px $dark; }
-}
-
-@keyframes flicker {
-   0% {
-      color: rgba(250,250,250,.8);
-      border-color: rgba(255,255,255,.7);
-      transform: translateY(0px);
-   }
-   35% {
-      color: $light;
-      border-color: rgba(255,255,255,.9);
-      transform: translateY(-1px);
-   }
-      65% {
-         color: rgba(255,255,255,.8);
-         border-color: rgba(255,255,255,.7);
-   }
-   100%{
-      color: $light;
-      border-color: $light;
-      transform: translateY(-1px);
-   }
-}
-
-@keyframes fadeIn {
-   from {opacity: 0;}
-   to {opacity: 1;}
-}
-*/
