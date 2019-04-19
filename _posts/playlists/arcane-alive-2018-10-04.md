@@ -1,7 +1,7 @@
 ---
 layout: playlist
-title: '2018-10-04 Arcane Alive'
-display_name: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTRA'
+title: 2018-10-04 Arcane Alive
+display_name: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTIMA'
 playlist_type: arcane-alive
 date: '2018-10-04'
 sets:
@@ -83,11 +83,11 @@ sets:
   - dj_name: Sorrow-Vomit
     tracks:
       - artist: Velvet Acid Christ
+        request: artist
         song: Caustic Disco
-        request: 'artist'
       - artist: ':Wumpscut:'
+        request: song
         song: Is It You
-        request: 'song'
       - artist: //TENSE//
         song: Disconnect Myself
       - artist: And One
@@ -108,3 +108,4 @@ sets:
         song: Goodbye Horses
     type: dj_set
 ---
+
