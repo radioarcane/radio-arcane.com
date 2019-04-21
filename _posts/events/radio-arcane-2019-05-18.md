@@ -20,6 +20,7 @@ description: >-
   DJs, King and Queen competition*,
   various vendors of art and curiosities, cash bar, and much more fun and
   surprises!
+  
 
   Doors open at 7pm  
   Market @ 7pm, Party @ 10pm
