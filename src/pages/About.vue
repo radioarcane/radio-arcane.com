@@ -125,9 +125,7 @@
                name: 'About',
                to: '/about'
             }],
-            schemas: JSON.stringify([
-               breadcrumbSchema
-            ]),
+            schemas: JSON.stringify(breadcrumbSchema),
             others: [{
                img: 'gothic-bastard',
                webp: 'gothic-bastard.jpg',

@@ -142,9 +142,7 @@
                name: 'Playlists',
                to: '/playlists'
             }],
-            schemas: JSON.stringify([
-               breadcrumbSchema
-            ]),
+            schemas: JSON.stringify(breadcrumbSchema),
             tabs: [{
                name: 'All',
                filter: null,

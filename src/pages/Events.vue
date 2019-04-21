@@ -166,9 +166,7 @@
                name: 'Events',
                to: '/events'
             }],
-            schemas: JSON.stringify([
-               breadcrumbSchema
-            ]),
+            schemas: JSON.stringify(breadcrumbSchema),
             pageSize: 6,
          };
       },

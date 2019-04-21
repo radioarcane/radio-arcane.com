@@ -113,9 +113,7 @@
                name: 'Podcasts',
                to: '/podcasts'
             }],
-            schemas: JSON.stringify([
-               breadcrumbSchema
-            ]),
+            schemas: JSON.stringify(breadcrumbSchema),
          }
       }
    }

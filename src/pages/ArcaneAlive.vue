@@ -194,9 +194,7 @@
                name: 'Arcane Alive!',
                to: '/arcane-alive'
             }],
-            schemas: JSON.stringify([
-               breadcrumbSchema
-            ]),
+            schemas: JSON.stringify(breadcrumbSchema),
          };
       },
    }
