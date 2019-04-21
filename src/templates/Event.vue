@@ -1,7 +1,5 @@
 <template>
    <Layout>
-      <script v-html="schemas" type="application/ld+json"></script>
-
       <Container>
          <Breadcrumb :crumbs="getCrumbs()" />
 
@@ -24,6 +22,7 @@
             </section>
          </article>
       </Container>
+      <script v-html="schemas" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -98,7 +97,7 @@
 </page-query>
 
 <script>
-   import { musicEvent } from '~/util/jsonLd';
+   import { musicEvent, breadcrumb } from '~/util/jsonLd';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
@@ -157,12 +156,22 @@
          };
       },
       data () {
+         const eventSchema = musicEvent(this.$page.event);
 
-         const schemas = musicEvent(this.$page.event);
+         const breadcrumbSchema = breadcrumb([{
+            path: '/events',
+            name: 'Events'
+         }, {
+            path: this.$page.event.path,
+            name: this.$page.event.displayName
+         }]);
 
          return {
-            schemas: JSON.stringify(schemas)
-         }
+            schemas: JSON.stringify([
+               breadcrumbSchema,
+               eventSchema
+            ])
+         };
       },
       methods: {
          getCrumbs() {

@@ -53,6 +53,8 @@
             </Center>
          </Section>
       </Container>
+
+      <script v-html="schemas" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -94,6 +96,8 @@
 </page-query>
 
 <script>
+   import { breadcrumb } from '~/util/jsonLd';
+
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
    import Center from '~/components/Center.vue';
@@ -152,11 +156,19 @@
          Title,
       },
       data () {
+         const breadcrumbSchema = breadcrumb([{
+            path: '/events',
+            name: 'Events'
+         }]);
+
          return {
             crumbs: [{
                name: 'Events',
                to: '/events'
             }],
+            schemas: JSON.stringify([
+               breadcrumbSchema
+            ]),
             pageSize: 6,
          };
       },

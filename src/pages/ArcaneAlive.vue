@@ -64,6 +64,8 @@
             </GridContainer>
          </Section>
       </Container>
+
+      <script v-html="schemas" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -123,6 +125,8 @@
 </page-query>
 
 <script>
+   import { breadcrumb } from '~/util/jsonLd';
+
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
    import Center from '~/components/Center.vue';
@@ -180,11 +184,19 @@
          Title,
       },
       data () {
+         const breadcrumbSchema = breadcrumb([{
+            path: '/arcane-alive',
+            name: 'Arcane Alive!'
+         }]);
+
          return {
             crumbs: [{
                name: 'Arcane Alive!',
                to: '/arcane-alive'
             }],
+            schemas: JSON.stringify([
+               breadcrumbSchema
+            ]),
          };
       },
    }

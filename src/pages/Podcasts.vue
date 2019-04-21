@@ -11,6 +11,8 @@
             :podcast="node"
          />
       </Container>
+
+      <script v-html="schemas" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -57,6 +59,8 @@
 </page-query>
 
 <script>
+   import { breadcrumb } from '~/util/jsonLd';
+
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Container from '~/components/Container.vue';
    import Podcast from '~/components/Podcast.vue';
@@ -99,11 +103,19 @@
          Podcast,
       },
       data () {
+         const breadcrumbSchema = breadcrumb([{
+            path: '/podcasts',
+            name: 'Podcasts'
+         }]);
+
          return {
             crumbs: [{
                name: 'Podcasts',
                to: '/podcasts'
-            }]
+            }],
+            schemas: JSON.stringify([
+               breadcrumbSchema
+            ]),
          }
       }
    }

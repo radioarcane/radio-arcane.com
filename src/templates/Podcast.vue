@@ -64,6 +64,8 @@
             />
          </Section>
       </Container>
+
+      <script v-html="schemas" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -106,6 +108,8 @@
 </page-query>
 
 <script>
+   import { breadcrumb } from '~/util/jsonLd';
+
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
    import Center from '~/components/Center.vue';
@@ -162,6 +166,21 @@
             links: [
                { rel: 'canonical', href: canonical }
             ],
+         };
+      },
+      data () {
+         const breadcrumbSchema = breadcrumb([{
+            path: '/podcasts',
+            name: 'Podcasts'
+         }, {
+            path: this.$page.podcast.path,
+            name: this.$page.podcast.title
+         }]);
+
+         return {
+            schemas: JSON.stringify([
+               breadcrumbSchema
+            ])
          };
       },
       methods: {

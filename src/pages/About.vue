@@ -57,38 +57,14 @@
             </div>
          </Section>
       </Container>
+
+      <script v-html="schemas" type="application/ld+json"></script>
    </Layout>
 </template>
 
-<style lang="scss">
-   .profiles {
-       display: flex;
-       flex-wrap: wrap;
-       align-items: stretch;
-       align-content: flex-start;
-       justify-content: flex-start;
-       margin: 0 -15px;
-   }
-
-   .profile {
-      width: 100%;
-      padding: 0 15px;
-
-      @include breakpoint ($screen-s-min) {
-        width: 50%;
-      }
-
-      @include breakpoint ($screen-m-min) {
-        width: 33.333%;
-     }
-
-      @include breakpoint ($screen-xl-min) {
-        width: 25%;
-      }
-   }
-</style>
-
 <script>
+   import { breadcrumb } from '~/util/jsonLd';
+
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Container from '~/components/Container.vue';
    import GridContainer from '~/components/GridContainer.vue';
@@ -139,11 +115,19 @@
          Title,
       },
       data () {
+         const breadcrumbSchema = breadcrumb([{
+            path: '/about',
+            name: 'About'
+         }]);
+
          return {
             crumbs: [{
                name: 'About',
                to: '/about'
             }],
+            schemas: JSON.stringify([
+               breadcrumbSchema
+            ]),
             others: [{
                img: 'gothic-bastard',
                webp: 'gothic-bastard.jpg',
@@ -187,3 +171,31 @@
       }
    }
 </script>
+
+<style lang="scss">
+   .profiles {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: stretch;
+       align-content: flex-start;
+       justify-content: flex-start;
+       margin: 0 -15px;
+   }
+
+   .profile {
+      width: 100%;
+      padding: 0 15px;
+
+      @include breakpoint ($screen-s-min) {
+        width: 50%;
+      }
+
+      @include breakpoint ($screen-m-min) {
+        width: 33.333%;
+     }
+
+      @include breakpoint ($screen-xl-min) {
+        width: 25%;
+      }
+   }
+</style>

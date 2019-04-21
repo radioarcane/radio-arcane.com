@@ -1,6 +1,34 @@
 
 const domainName = 'https://www.radio-arcane.com';
 
+export const breadcrumb = items => {
+   const crumbs = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [{
+         "@type": "ListItem",
+         "position": 1,
+         "item": {
+            "@id": domainName,
+            "name": "Home"
+         }
+      }]
+   };
+
+   items.forEach((item, index) => {
+      crumbs.itemListElement.push({
+         "@type": "ListItem",
+         "position": index + 2,
+         "item": {
+            "@id": domainName + item.path,
+            "name": item.name
+         }
+      });
+   });
+
+   return crumbs;
+};
+
 export const locationPlace = location => {
    const place = {
       "@type": "Place",
@@ -29,27 +57,6 @@ export const locationPlace = location => {
          place.address.postalCode = location.zipcode;
       }
    }
-
-   /*
-   let addrParts = ['address', 'address2', 'city', 'state']
-   .map(prop => {
-      if (location.hasOwnProperty(prop) && location[prop]) {
-         return location[prop];
-      }
-
-      return null;
-   })
-   .filter(value => value !== null && value !== '' && value !== false)
-   .join(', ');
-
-   if (location.zipcode) {
-      addrParts += ' ' + location.zipcode;
-   }
-
-   if (addrParts.length) {
-      place.address = addrParts.trim();
-   }
-   */
 
    if (location.venueLink) {
       place.sameAs = location.venueLink;
@@ -108,5 +115,7 @@ export const musicEvent = (event) => {
 };
 
 export default {
+   breadcrumb,
+   locationPlace,
    musicEvent,
 };

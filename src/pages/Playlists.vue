@@ -25,6 +25,8 @@
              </InfiniteLoading>
           </ClientOnly>
       </Container>
+
+      <script v-html="schemas" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -79,6 +81,8 @@
 </page-query>
 
 <script>
+   import { breadcrumb } from '~/util/jsonLd';
+
    import InfiniteLoading from 'vue-infinite-loading';
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Container from '~/components/Container.vue';
@@ -128,11 +132,19 @@
          Title
       },
       data () {
+         const breadcrumbSchema = breadcrumb([{
+            path: '/playlists',
+            name: 'Playlists'
+         }]);
+
          return {
             crumbs: [{
                name: 'Playlists',
                to: '/playlists'
             }],
+            schemas: JSON.stringify([
+               breadcrumbSchema
+            ]),
             tabs: [{
                name: 'All',
                filter: null,

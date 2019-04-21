@@ -1,7 +1,7 @@
 ---
 layout: event
 title: '2018-11-24 Radio Arcane'
-display_name: 'Radio Arcane: The Dark Market 2018-11-24'
+display_name: 'Radio Arcane: The Dark Market'
 event_type: radio-arcane
 date: '2018-11-24'
 start_datetime: '2018-11-24 19:00:00'
@@ -27,7 +27,7 @@ description: |-
   Free to enter until 10pm. $5 cover after 10pm.
 short_description: ''
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/239614206706794/'
+facebook_event_link: 'https://www.facebook.com/events/239614206706794'
 tickets_link: ''
 playlist: '2018-11-24 Radio Arcane'
 ---
