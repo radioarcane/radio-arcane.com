@@ -96,7 +96,7 @@
 </page-query>
 
 <script>
-   import { breadcrumb } from '~/util/jsonLd';
+   import { breadcrumb, musicEvent } from '~/util/jsonLd';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
@@ -161,12 +161,16 @@
             name: 'Events'
          }]);
 
+         const eventsSchema = this.$page.allEvent.edges.map(ev => musicEvent(ev.node));
+
          return {
             crumbs: [{
                name: 'Events',
                to: '/events'
             }],
-            schemas: JSON.stringify(breadcrumbSchema),
+            schemas: JSON.stringify([
+               breadcrumbSchema,
+            ].concat(eventsSchema)),
             pageSize: 6,
          };
       },
