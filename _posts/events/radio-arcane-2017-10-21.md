@@ -4,8 +4,8 @@ title: '2017-10-21 Radio Arcane'
 display_name: 'Radio Arcane: der Anfang- a Va Va Vamp After-Party'
 event_type: radio-arcane
 date: '2017-10-21'
-start_datetime: ''
-end_datetime: ''
+start_datetime: '2017-10-21 22:00:00'
+end_datetime: '2017-10-22 03:00:00'
 image: '/img/uploads/radio-arcane-2017-10-21--2x.jpg'
 description: >-
   Art Sanctuary presents: der Anfang - A Va Va Vamp After-Party hosted by Radio Arcane.

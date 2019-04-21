@@ -20,7 +20,7 @@ description: >-
 
 
 
-  Kaleidoscope, Motuvius Rex, Sorrow-Vomit, Osiris Ani, Brian Drabant, Androspore, Thulsa Goon, Talamasca
+  Kaleidoscope, Motuvius Rex, Sorrow-Vomit, Osiris Ani, Brian Drabant, AndrOspore, Thulsa Goon, Talamasca
 
 
 

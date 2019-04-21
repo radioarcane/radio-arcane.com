@@ -5,7 +5,7 @@ display_name: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | AndrO
 event_type: arcane-alive
 date: '2018-12-01'
 start_datetime: '2018-12-01 21:00:00'
-end_datetime: ''
+end_datetime: '2018-12-02 03:00:00'
 image: /img/uploads/arcane-alive-2018-12-01--2x.jpg
 description: >-
   Arcane Alive! Featuring live performances by:

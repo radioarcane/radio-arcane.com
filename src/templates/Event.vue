@@ -1,5 +1,7 @@
 <template>
    <Layout>
+      <script v-html="schemas" type="application/ld+json"></script>
+
       <Container>
          <Breadcrumb :crumbs="getCrumbs()" />
 
@@ -96,13 +98,14 @@
 </page-query>
 
 <script>
+   import { musicEvent } from '~/util/jsonLd';
+
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
    import Container from '~/components/Container.vue';
    import Event from '~/components/Event.vue';
    import Playlist from '~/components/Playlist.vue';
    import Title from '~/components/Title.vue';
-
 
    export default {
       components: {
@@ -114,6 +117,14 @@
       },
       metaInfo() {
          const metaTitle = this.$page.event.displayName;
+
+         const metaDescription = (() => {
+            if (this.$page.event.shortDescription) {
+               return this.$page.event.shortDescription;
+            }
+
+            return "Dark Eclectic Music all night featuring our rotating cast of Dark Music Specialists."
+         })();
 
          const metaImg = this.$page.event.image ? `https://www.radio-arcane.com${ this.$page.event.image }` : 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
 
@@ -127,20 +138,31 @@
                { property: 'og:site_name', content: 'Radio Arcane' },
                { property: 'og:url', content: canonical },
                { property: 'og:image', content: metaImg },
+               { property: 'og:description', content: metaDescription },
 
                { name: 'twitter:card', content: 'summary' },
                { name: 'twitter:site', content: canonical },
                { name: 'twitter:title', content: metaTitle },
+               { name: 'twitter:description', content: metaDescription },
                { name: 'twitter:creator', content: '@Radio_Arcane' },
                { name: 'twitter:image:src', content: metaImg },
 
                { itemprop: 'name', content: metaTitle },
+               { itemprop: 'description', content: metaDescription },
                { itemprop: 'image', content: metaImg },
             ],
             links: [
                { rel: 'canonical', href: canonical }
             ],
          };
+      },
+      data () {
+
+         const schemas = musicEvent(this.$page.event);
+
+         return {
+            schemas: JSON.stringify(schemas)
+         }
       },
       methods: {
          getCrumbs() {

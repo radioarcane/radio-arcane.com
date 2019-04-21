@@ -5,7 +5,7 @@ display_name: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTIMA'
 event_type: arcane-alive
 date: '2018-10-04'
 start_datetime: '2018-10-04 21:00:00'
-end_datetime: ''
+end_datetime: '2018-10-05 00:30:00'
 image: /img/uploads/arcane-alive-2018-10-04--2x.jpg
 description: |-
   Art Sanctuary presents : Arcane Alive!
@@ -36,4 +36,3 @@ facebook_event_link: 'https://www.facebook.com/events/226390288222463'
 tickets_link: ''
 playlist: 2018-10-04 Arcane Alive
 ---
-
