@@ -6,7 +6,7 @@ event_type: radio-arcane
 date: '2019-05-18'
 start_datetime: '2019-05-18 19:00:00'
 end_datetime: '2019-05-19 03:00:00'
-image: /img/uploads/radio-arcane-2019-05-18.jpg
+image: /img/uploads/radio-arcane-2019-05-18-goth-prom.jpg
 description: >-
   16th annual Goth Prom.
 
@@ -17,10 +17,10 @@ description: >-
   Shop the market for your favorite night time oddities and support local artists, then stay for dancing and merriment!
 
 
-  DJs, King and Queen competition*,
+  DJs, a professional Photo Booth, King and Queen competition*,
   various vendors of art and curiosities, cash bar, and much more fun and
   surprises!
-  
+
 
   Doors open at 7pm  
   Market @ 7pm, Party @ 10pm
