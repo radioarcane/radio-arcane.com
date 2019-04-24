@@ -54,7 +54,7 @@
          </Section>
       </Container>
 
-      <script v-html="schemas" type="application/ld+json"></script>
+      <script v-html="getSchema()" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -156,23 +156,13 @@
          Title,
       },
       data () {
-         const breadcrumbSchema = breadcrumb([{
-            path: '/events',
-            name: 'Events'
-         }]);
-
-         const eventsSchema = this.$page.allEvent.edges.map(ev => musicEvent(ev.node));
-
          return {
             crumbs: [{
                name: 'Events',
                to: '/events'
             }],
-            schemas: JSON.stringify([
-               breadcrumbSchema,
-            ].concat(eventsSchema)),
-            pageSize: 6,
-         };
+            pageSize: 6
+         }
       },
       methods: {
          getNextEvent (events = []) {
@@ -225,6 +215,18 @@
 
                return ev.node.expired === false;
             }).reverse();
+         },
+         getSchema() {
+            const breadcrumbSchema = breadcrumb([{
+               path: '/events',
+               name: 'Events'
+            }]);
+
+            const eventsSchema = this.$page.allEvent.edges.map(ev => musicEvent(ev.node));
+
+            return JSON.stringify([
+               breadcrumbSchema,
+            ].concat(eventsSchema));
          }
       },
       computed: {
