@@ -22,7 +22,7 @@
             </section>
          </article>
       </Container>
-      <script v-html="schemas" type="application/ld+json"></script>
+      <script v-html="getSchema()" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -155,24 +155,6 @@
             ],
          };
       },
-      data () {
-         const eventSchema = musicEvent(this.$page.event);
-
-         const breadcrumbSchema = breadcrumb([{
-            path: '/events',
-            name: 'Events'
-         }, {
-            path: this.$page.event.path,
-            name: this.$page.event.displayName
-         }]);
-
-         return {
-            schemas: JSON.stringify([
-               breadcrumbSchema,
-               eventSchema
-            ])
-         };
-      },
       methods: {
          getCrumbs() {
             return [{
@@ -182,6 +164,22 @@
                name: this.$page.event.displayName,
                to: this.$page.event.path,
             }];
+         },
+         getSchema() {
+            const eventSchema = musicEvent(this.$page.event);
+
+            const breadcrumbSchema = breadcrumb([{
+               path: '/events',
+               name: 'Events'
+            }, {
+               path: this.$page.event.path,
+               name: this.$page.event.displayName
+            }]);
+
+            return JSON.stringify([
+               breadcrumbSchema,
+               eventSchema
+            ]);
          }
       }
    }
