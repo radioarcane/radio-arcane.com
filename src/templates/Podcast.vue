@@ -65,7 +65,7 @@
          </Section>
       </Container>
 
-      <script v-html="schemas" type="application/ld+json"></script>
+      <script v-html="getSchema()" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -168,21 +168,6 @@
             ],
          };
       },
-      data () {
-         const breadcrumbSchema = breadcrumb([{
-            path: '/podcasts',
-            name: 'Podcasts'
-         }, {
-            path: this.$page.podcast.path,
-            name: this.$page.podcast.title
-         }]);
-
-         return {
-            schemas: JSON.stringify([
-               breadcrumbSchema
-            ])
-         };
-      },
       methods: {
          getCrumbs() {
             return [{
@@ -192,6 +177,17 @@
                name: this.$page.podcast.title,
                to: this.$page.podcast.path,
             }];
+         },
+         getSchema() {
+            const breadcrumbSchema = breadcrumb([{
+               path: '/podcasts',
+               name: 'Podcasts'
+            }, {
+               path: this.$page.podcast.path,
+               name: this.$page.podcast.title
+            }]);
+
+            return JSON.stringify(breadcrumbSchema);
          }
       }
    }
