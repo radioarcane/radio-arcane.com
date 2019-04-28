@@ -3,40 +3,16 @@
       <Container>
          <Breadcrumb :crumbs="crumbs" />
 
-         <!--
+         <Title>Arcane Alive!</Title>
+
          <article>
             <Section :padBottom="true">
-               <Title>Arcane Alive!</Title>
-
-               <GridContainer collapse>
-                  <GridItem :sizes="{
-                     xs: 12,
-                     md: 4,
-                     lg: 3
-                  }">
-                     <Center>
-                        <figure>
-                           <picture>
-                              <source srcset="/img/arcane-alive.webp" type="image/webp">
-                              <source srcset="/img/arcane-alive.jpg" type="image/jpeg">
-                              <img src="/img/arcane-alive.jpg" alt="Arcane Alive!">
-                           </picture>
-                        </figure>
-                     </Center>
-                  </GridItem>
-                  <GridItem :sizes="{
-                     xs: 12,
-                     md: 8,
-                     lg: 9
-                  }">
-                     <p>Arcane Alive: A pool of live music performers to help support touring bands and as a means of communication for local bands that would like to play Radio Arcane events at Art Sanctuary and potentially elsewhere. Louisville, KY based but open and inviting to regional acts and touring bands as well as local.</p>
-                  </GridItem>
-               </GridContainer>
+               <p>
+                  If you are a music act interested in playing a live show at <a href="https://www.facebook.com/pages/category/Arts---Entertainment/Art-Sanctuary-122260903695" target="_blank">Art Sanctuary</a> in Louisville, Kentucky with a style that could be identified as Darkwave, Post-Punk, Coldwave, Gothic, Industrial, EBM, Synthwave, Minimal Synth, Synthpop, New Wave, etc... feel free to reach out to us on <a href="https://www.facebook.com/RadioArcaneEvents/" target="_blank">social media</a>.
+               </p>
             </Section>
          </article>
-      -->
 
-         <Title>Arcane Alive!</Title>
 
          <Section v-if="$page.nextEvent.edges.length" :padBottom="true">
             <Heading strike animate uppercase>
@@ -64,8 +40,6 @@
             </GridContainer>
          </Section>
       </Container>
-
-      <script v-html="schemas" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -125,7 +99,8 @@
 </page-query>
 
 <script>
-   import { breadcrumb } from '~/util/jsonLd';
+   import meta from '~/util/meta.js';
+   import { breadcrumb, musicEvent } from '~/util/jsonLd';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
@@ -139,36 +114,46 @@
    import Section from '~/components/Section.vue';
    import Title from '~/components/Title.vue';
 
-   const metaTitle = 'Arcane Alive! | Radio Arcane';
-   const metaDescription = 'Louisville, KY live music events.';
-   const metaImg = 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
-
    export default {
-      metaInfo: {
-         title: metaTitle,
-         titleTemplate: '%s',
-         meta: [
-            { description: metaDescription },
-            { property: 'og:title', content: metaTitle },
-            { property: 'og:site_name', content: 'Radio Arcane' },
-            { property: 'og:url', content: 'https://www.radio-arcane.com/arcane-alive' },
-            { property: 'og:image', content: metaImg },
-            { property: 'og:description', content: metaDescription },
+      metaInfo() {
+         const breadcrumbSchema = breadcrumb([{
+            path: '/arcane-alive',
+            name: 'Arcane Alive!'
+         }]);
 
-            { name: 'twitter:card', content: 'summary' },
-            { name: 'twitter:site', content: 'https://www.radio-arcane.com/arcane-alive' },
-            { name: 'twitter:title', content: metaTitle },
-            { name: 'twitter:description', content: metaDescription },
-            { name: 'twitter:creator', content: '@Radio_Arcane' },
-            { name: 'twitter:image:src', content: metaImg },
+         const eventsSchema = [];
 
-            { itemprop: 'name', content: metaTitle },
-            { itemprop: 'description', content: metaDescription },
-            { itemprop: 'image', content: metaImg },
-         ],
-         links: [
-            { rel: 'canonical', href: 'https://www.radio-arcane.com/arcane-alive' }
-        ]
+         if (this.$page.nextEvent.edges.length) {
+            eventsSchema.push(musicEvent(this.$page.nextEvent.edges[0].node));
+         }
+
+         this.$page.pastEvents.edges.forEach(ev => {
+            eventsSchema.push(musicEvent(ev.node));
+         });
+
+         const metaImage = (() => {
+            if (this.$page.nextEvent.edges.length && this.$page.nextEvent.edges[0].node.image) {
+               return this.$page.nextEvent.edges[0].node.image;
+            }
+
+            const pastEventsWithImg = this.$page.pastEvents.edges.filter(ev => {
+               return ev.node.image && ev.node.image.length > 0;
+            }).reverse();
+
+            if (pastEventsWithImg.length) {
+               return pastEventsWithImg[0].node.image;
+            }
+
+            return null;
+         })();
+
+         return meta({
+            title: 'Arcane Alive!',
+            description: 'Louisville, KY live concerts focusing on artists in the Darkwave, Gothic, Post-Punk, Coldwave, Industrial, EBM, Synthwave, and related genres.',
+            path: '/arcane-alive',
+            image: metaImage,
+            jsonLdSchema: [breadcrumbSchema].concat(eventsSchema)
+         });
       },
       components: {
          Breadcrumb,

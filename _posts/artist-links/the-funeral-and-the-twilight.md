@@ -1,8 +1,8 @@
 ---
 title: The Funeral & The Twilight
 apple_music: ''
-bandcamp: ''
-facebook: ''
+bandcamp: 'https://thefuneralandthetwilight.bandcamp.com'
+facebook: 'https://www.facebook.com/The.Funeral.And.The.Twilight'
 google_music: ''
 instagram: ''
 soundcloud: ''

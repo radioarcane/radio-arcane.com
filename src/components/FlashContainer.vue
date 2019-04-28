@@ -42,6 +42,9 @@
 
       * {
          animation: lightbleed-text .15s infinite;
+      }
+
+      > *:last-child {
          margin-bottom: 0;
       }
    }

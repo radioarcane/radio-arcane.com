@@ -1,8 +1,8 @@
 ---
 title: The Neon Judgement
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/the-neon-judgement/79238638'
 bandcamp: ''
-facebook: ''
+facebook: 'https://www.facebook.com/TheNeonJudgeMent'
 google_music: >-
    https://play.google.com/store/music/artist/The_Neon_Judgement?id=A5nyvraubtq7seuwzkzwrjvoj4u
 instagram: ''

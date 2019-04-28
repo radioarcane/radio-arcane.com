@@ -13,7 +13,7 @@
 
    export default {
       metaInfo: {
-         title: 'Page Not Found | Radio Arcane'
+         title: 'Page Not Found'
       },
       components: {
          Container,

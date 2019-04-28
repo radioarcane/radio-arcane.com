@@ -53,8 +53,6 @@
             </Center>
          </Section>
       </Container>
-
-      <script v-html="getSchema()" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -96,6 +94,7 @@
 </page-query>
 
 <script>
+   import meta from '~/util/meta.js';
    import { breadcrumb, musicEvent } from '~/util/jsonLd';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
@@ -111,35 +110,42 @@
    import SvgIcon from '~/components/SvgIcon.vue';
    import Title from '~/components/Title.vue';
 
-   const metaTitle = 'Events | Radio Arcane';
-   const metaDescription = 'Louisville, KY dark music events focusing on Darkwave, Post-Punk, Gothic, Synthwave, EBM, Industrial, Synthpop.';
-   const metaImg = 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
-
    export default {
-      metaInfo: {
-         title: 'Events',
-         meta: [
-            { description: metaDescription },
-            { property: 'og:title', content: metaTitle },
-            { property: 'og:site_name', content: 'Radio Arcane' },
-            { property: 'og:url', content: 'https://www.radio-arcane.com/events' },
-            { property: 'og:image', content: metaImg },
-            { property: 'og:description', content: metaDescription },
+      metaInfo() {
+         const breadcrumbSchema = breadcrumb([{
+            path: '/events',
+            name: 'Events'
+         }]);
 
-            { name: 'twitter:card', content: 'summary' },
-            { name: 'twitter:site', content: 'https://www.radio-arcane.com/events' },
-            { name: 'twitter:title', content: metaTitle },
-            { name: 'twitter:description', content: metaDescription },
-            { name: 'twitter:creator', content: '@Radio_Arcane' },
-            { name: 'twitter:image:src', content: metaImg },
+         const eventsSchema = this.$page.allEvent.edges.map(ev => musicEvent(ev.node));
 
-            { itemprop: 'name', content: metaTitle },
-            { itemprop: 'description', content: metaDescription },
-            { itemprop: 'image', content: metaImg },
-         ],
-         links: [
-            { rel: 'canonical', href: 'https://www.radio-arcane.com/events' }
-        ]
+         const nextEvents = this.$page.allEvent.edges.filter(ev => {
+            return ev.node.expired === false && ev.node.image;
+         });
+
+         const pastEvents = this.$page.allEvent.edges.filter(ev => {
+            return ev.node.expired === true && ev.node.image;
+         }).reverse();
+
+         const metaImage = (() => {
+            if (nextEvents.length) {
+               return nextEvents[0].node.image;
+            }
+
+            if (pastEvents.length) {
+               return pastEvents[0].node.image;
+            }
+
+            return null;
+         })();
+
+         return meta({
+            title: 'Events',
+            description: 'Louisville, KY dark music events focusing on Darkwave, Post-Punk, Gothic, Synthwave, EBM, Industrial, Synthpop, and related.',
+            path: '/events',
+            image: metaImage,
+            jsonLdSchema: [breadcrumbSchema].concat(eventsSchema)
+         })
       },
       components: {
          Breadcrumb,
@@ -216,18 +222,6 @@
                return ev.node.expired === false;
             }).reverse();
          },
-         getSchema() {
-            const breadcrumbSchema = breadcrumb([{
-               path: '/events',
-               name: 'Events'
-            }]);
-
-            const eventsSchema = this.$page.allEvent.edges.map(ev => musicEvent(ev.node));
-
-            return JSON.stringify([
-               breadcrumbSchema,
-            ].concat(eventsSchema));
-         }
       },
       computed: {
          totalPastEvents: function() {

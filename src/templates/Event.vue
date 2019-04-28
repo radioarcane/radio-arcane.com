@@ -22,7 +22,6 @@
             </section>
          </article>
       </Container>
-      <script v-html="getSchema()" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -97,6 +96,7 @@
 </page-query>
 
 <script>
+   import meta from '~/util/meta.js';
    import { musicEvent, breadcrumb } from '~/util/jsonLd';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
@@ -115,45 +115,46 @@
          Title
       },
       metaInfo() {
-         const metaTitle = this.$page.event.displayName;
+         const breadcrumbSchema = breadcrumb([{
+            path: '/events',
+            name: 'Events'
+         }, {
+            path: this.$page.event.path,
+            name: this.$page.event.displayName
+         }]);
+
+         const eventSchema = musicEvent(this.$page.event);
 
          const metaDescription = (() => {
+            let desc = '';
+
             if (this.$page.event.shortDescription) {
-               return this.$page.event.shortDescription;
+               desc = this.$page.event.shortDescription;
+            }
+            else if (this.$page.event.description) {
+               desc = this.$page.event.description
+                  .replace(/<[^>]+>/g, ' ')
+                  .replace(/\s{2,}/g, ' ')
+                  .trim();
+
+               if (desc.length > 255) {
+                  desc = desc.substr(0, 252) + '...';
+               }
             }
 
-            return "Dark Eclectic Music all night featuring our rotating cast of Dark Music Specialists."
+            return desc;
          })();
 
-         const metaImg = this.$page.event.image ? `https://www.radio-arcane.com${ this.$page.event.image }` : 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
-
-         const canonical = `https://www.radio-arcane.com${ this.$page.event.path }`;
-
-         return {
-            title: metaTitle,
-            meta: [
-
-               { property: 'og:title', content: metaTitle },
-               { property: 'og:site_name', content: 'Radio Arcane' },
-               { property: 'og:url', content: canonical },
-               { property: 'og:image', content: metaImg },
-               { property: 'og:description', content: metaDescription },
-
-               { name: 'twitter:card', content: 'summary' },
-               { name: 'twitter:site', content: canonical },
-               { name: 'twitter:title', content: metaTitle },
-               { name: 'twitter:description', content: metaDescription },
-               { name: 'twitter:creator', content: '@Radio_Arcane' },
-               { name: 'twitter:image:src', content: metaImg },
-
-               { itemprop: 'name', content: metaTitle },
-               { itemprop: 'description', content: metaDescription },
-               { itemprop: 'image', content: metaImg },
-            ],
-            links: [
-               { rel: 'canonical', href: canonical }
-            ],
-         };
+         return meta({
+            title: this.$page.event.displayName,
+            description: metaDescription,
+            image: this.$page.event.image,
+            path: this.$page.event.path,
+            jsonLdSchema: [
+               breadcrumbSchema,
+               eventSchema
+            ]
+         });
       },
       methods: {
          getCrumbs() {
@@ -164,22 +165,6 @@
                name: this.$page.event.displayName,
                to: this.$page.event.path,
             }];
-         },
-         getSchema() {
-            const eventSchema = musicEvent(this.$page.event);
-
-            const breadcrumbSchema = breadcrumb([{
-               path: '/events',
-               name: 'Events'
-            }, {
-               path: this.$page.event.path,
-               name: this.$page.event.displayName
-            }]);
-
-            return JSON.stringify([
-               breadcrumbSchema,
-               eventSchema
-            ]);
          }
       }
    }

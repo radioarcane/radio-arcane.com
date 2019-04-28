@@ -25,8 +25,6 @@
              </InfiniteLoading>
           </ClientOnly>
       </Container>
-
-      <script v-html="schemas" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -81,6 +79,7 @@
 </page-query>
 
 <script>
+   import meta from '~/util/meta.js';
    import { breadcrumb } from '~/util/jsonLd';
 
    import InfiniteLoading from 'vue-infinite-loading';
@@ -91,36 +90,19 @@
    import Tabs from '~/components/Tabs.vue';
    import Title from '~/components/Title.vue';
 
-   const metaTitle = 'Playlists';
-   const metaDescription = 'Checkout Playlists from past Radio Arcane events and podcasts.';
-   const metaImg = 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
-   const canonical = 'https://www.radio-arcane.com/playlists';
-
    export default {
-      metaInfo: {
-         title: metaTitle,
-         meta: [
-            { description: metaDescription },
-            { property: 'og:title', content: metaTitle },
-            { property: 'og:site_name', content: 'Radio Arcane' },
-            { property: 'og:url', content: canonical },
-            { property: 'og:image', content: metaImg },
-            { property: 'og:description', content: metaDescription },
+      metaInfo() {
+         const breadcrumbSchema = breadcrumb([{
+            path: '/playlists',
+            name: 'Playlists'
+         }]);
 
-            { name: 'twitter:card', content: 'summary' },
-            { name: 'twitter:site', content: canonical },
-            { name: 'twitter:title', content: metaTitle },
-            { name: 'twitter:description', content: metaDescription },
-            { name: 'twitter:creator', content: '@Radio_Arcane' },
-            { name: 'twitter:image:src', content: metaImg },
-
-            { itemprop: 'name', content: metaTitle },
-            { itemprop: 'description', content: metaDescription },
-            { itemprop: 'image', content: metaImg },
-         ],
-         links: [
-            { rel: 'canonical', href: canonical }
-        ]
+         return meta({
+            title: 'Playlists',
+            description: 'Checkout Playlists from past Radio Arcane music events and podcasts.',
+            path: '/playlists',
+            jsonLdSchema: breadcrumbSchema
+         });
       },
       components: {
          Breadcrumb,
@@ -132,17 +114,11 @@
          Title
       },
       data () {
-         const breadcrumbSchema = breadcrumb([{
-            path: '/playlists',
-            name: 'Playlists'
-         }]);
-
          return {
             crumbs: [{
                name: 'Playlists',
                to: '/playlists'
             }],
-            schemas: JSON.stringify(breadcrumbSchema),
             tabs: [{
                name: 'All',
                filter: null,

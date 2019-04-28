@@ -6,12 +6,12 @@
             <picture v-if="podcast.webp">
                <source :srcset="podcast.webp" type="image/webp">
                <source :srcset="podcast.image" type="image/jpeg">
-               <img :src="podcast.image" :alt="podcast.displayName">
+               <img :src="podcast.image" :alt="podcast.title">
             </picture>
 
             <img v-if="!podcast.webp"
                  :src="podcast.image"
-                 :alt="podcast.displayName"
+                 :alt="podcast.title"
             />
          </router-link>
       </div>

@@ -2,11 +2,13 @@
    <Layout>
       <Container>
          <FlashContainer tag="article">
-            <p>Radio Arcane is a collective of Louisville dj’s that produce events centered around music predominately focused on the use of the synthesizer. Including: Gothic, Post-Punk, New-Wave, Synthwave, 80's, Minimal, Synthpop, Triphop, EBM, Shoegaze, Industrial, Futurepop, 90's, Dreamwave, Retro-Electro, etc.</p>
+            <p>Radio Arcane is a collective of Dark Music Specialists in Louisville, KY that host events, live music and dark arts entertainment. A podcast featuring music and discussion is also available on Mixcloud and SoundCloud.</p>
+
+            <p>Dark Eclectic Music &ndash; predominately focused on the use of the synthesizer, including: Gothic, Darkwave, Post-Punk, Industrial, EBM, Coldwave, Synthwave, Synthpop, New Wave, Minimal, and related genres.</p>
          </FlashContainer>
 
          <Section v-if="$page.nextEvent.edges.length">
-            <Heading strike animate uppercase>
+            <Heading strike animate uppercase tag="h1">
                Next Radio Arcane Event
             </Heading>
 
@@ -133,6 +135,8 @@
 </page-query>
 
 <script>
+   import meta from '~/util/meta.js';
+
    import Btn from '~/components/Btn.vue';
    import Center from '~/components/Center.vue';
    import Container from '~/components/Container.vue';
@@ -143,37 +147,13 @@
    import Section from '~/components/Section.vue';
    import SvgIcon from '~/components/SvgIcon.vue';
 
-   const metaTitle = 'Radio Arcane - Dark Eclectic Music';
-   const metaDescription = 'Louisville, KY collective specializing in Darkwave, Goth, Post-Punk, Industrial, EBM, Synthwave, and related music events & podcasts.';
-   const metaImg = 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
-
    export default {
-      metaInfo: {
-         title: metaTitle,
+      metaInfo: meta({
+         title: 'Radio Arcane - Dark Eclectic Music',
          titleTemplate: '%s',
-         meta: [
-            { description: metaDescription },
-            { property: 'og:title', content: metaTitle },
-            { property: 'og:site_name', content: 'Radio Arcane' },
-            { property: 'og:url', content: 'https://www.radio-arcane.com' },
-            { property: 'og:image', content: metaImg },
-            { property: 'og:description', content: metaDescription },
-
-            { name: 'twitter:card', content: 'summary' },
-            { name: 'twitter:site', content: 'https://www.radio-arcane.com' },
-            { name: 'twitter:title', content: metaTitle },
-            { name: 'twitter:description', content: metaDescription },
-            { name: 'twitter:creator', content: '@Radio_Arcane' },
-            { name: 'twitter:image:src', content: metaImg },
-
-            { itemprop: 'name', content: metaTitle },
-            { itemprop: 'description', content: metaDescription },
-            { itemprop: 'image', content: metaImg },
-         ],
-         links: [
-            { rel: 'canonical', href: 'https://www.radio-arcane.com' }
-        ]
-      },
+         description: 'Louisville, KY collective specializing in Darkwave, Goth, Post-Punk, Industrial, EBM, Synthwave, and related music events & podcasts.',
+         path: '/'
+      }),
       components: {
          Btn,
          Center,

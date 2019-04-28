@@ -64,8 +64,6 @@
             />
          </Section>
       </Container>
-
-      <script v-html="getSchema()" type="application/ld+json"></script>
    </Layout>
 </template>
 
@@ -108,6 +106,7 @@
 </page-query>
 
 <script>
+   import meta from '~/util/meta.js';
    import { breadcrumb } from '~/util/jsonLd';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
@@ -135,38 +134,41 @@
          Title,
       },
       metaInfo() {
-         const metaTitle = this.$page.podcast.title;
+         const breadcrumbSchema = breadcrumb([{
+            path: '/podcasts',
+            name: 'Podcasts'
+         }, {
+            path: this.$page.podcast.path,
+            name:  this.$page.podcast.title
+         }]);
 
-         const metaDescription = this.$page.podcast.shortDescription;
+         const metaDescription = (() => {
+            let desc = '';
 
-         const metaImg = this.$page.podcast.image ? `https://www.radio-arcane.com${ this.$page.podcast.image }` : 'https://www.radio-arcane.com/img/logo--radio-arcane.png';
+            if (this.$page.podcast.shortDescription) {
+               desc = this.$page.podcast.shortDescription;
+            }
+            else if (this.$page.podcast.description) {
+               desc = this.$page.podcast.description
+                  .replace(/<[^>]+>/g, ' ')
+                  .replace(/\s{2,}/g, ' ')
+                  .trim();
 
-         const canonical = `https://www.radio-arcane.com${ this.$page.podcast.path }`;
+               if (desc.length > 255) {
+                  desc = desc.substr(0, 252) + '...';
+               }
+            }
 
-         return {
-            title:  metaTitle,
-            meta: [
-               { property: 'og:title', content:  metaTitle},
-               { property: 'og:site_name', content: 'Radio Arcane' },
-               { property: 'og:url', content: canonical },
-               { property: 'og:image', content: metaImg },
-               { property: 'og:description', content: metaDescription },
+            return desc;
+         })();
 
-               { name: 'twitter:card', content: 'summary' },
-               { name: 'twitter:site', content: canonical },
-               { name: 'twitter:title', content:  metaTitle },
-               { name: 'twitter:description', content: metaDescription },
-               { name: 'twitter:creator', content: '@Radio_Arcane' },
-               { name: 'twitter:image:src', content: metaImg },
-
-               { itemprop: 'name', content:  metaTitle },
-               { itemprop: 'description', content: metaDescription },
-               { itemprop: 'image', content: metaImg },
-            ],
-            links: [
-               { rel: 'canonical', href: canonical }
-            ],
-         };
+         return meta({
+            title: this.$page.podcast.title,
+            description: metaDescription,
+            image: this.$page.podcast.image,
+            path: this.$page.podcast.path,
+            jsonLdSchema: breadcrumbSchema
+         });
       },
       methods: {
          getCrumbs() {
@@ -177,17 +179,6 @@
                name: this.$page.podcast.title,
                to: this.$page.podcast.path,
             }];
-         },
-         getSchema() {
-            const breadcrumbSchema = breadcrumb([{
-               path: '/podcasts',
-               name: 'Podcasts'
-            }, {
-               path: this.$page.podcast.path,
-               name: this.$page.podcast.title
-            }]);
-
-            return JSON.stringify(breadcrumbSchema);
          }
       }
    }

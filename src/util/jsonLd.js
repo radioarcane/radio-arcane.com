@@ -1,5 +1,5 @@
 
-const domainName = 'https://www.radio-arcane.com';
+import config from '~/config.js';
 
 export const breadcrumb = items => {
    const crumbs = {
@@ -9,7 +9,7 @@ export const breadcrumb = items => {
          "@type": "ListItem",
          "position": 1,
          "item": {
-            "@id": domainName,
+            "@id": config.siteUrl,
             "name": "Home"
          }
       }]
@@ -20,7 +20,7 @@ export const breadcrumb = items => {
          "@type": "ListItem",
          "position": index + 2,
          "item": {
-            "@id": domainName + item.path,
+            "@id": config.siteUrl + item.path,
             "name": item.name
          }
       });
@@ -74,7 +74,7 @@ export const musicEvent = (event) => {
       "@context": "https://schema.org",
       "@type" : "MusicEvent",
       name: event.displayName,
-      url: `${ domainName }${ event.path }`,
+      url: `${ config.siteUrl }${ event.path }`,
       description: (() => {
          if (event.shortDescription) {
             return event.shortDescription;
@@ -93,7 +93,7 @@ export const musicEvent = (event) => {
    }
 
    if (event.image) {
-      eventSchema.image = `${ domainName }${ event.image }`;
+      eventSchema.image = `${ config.siteUrl }${ event.image }`;
    }
 
    if (event.facebookEventLink) {
