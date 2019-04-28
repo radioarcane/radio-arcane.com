@@ -17,5 +17,6 @@ short_description: ''
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/2468141443214534/'
 tickets_link: ''
+cover: '5.00'
 playlist: '2018-12-28 Radio Arcane'
 ---

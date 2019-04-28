@@ -43,6 +43,7 @@
          shortDescription,
          facebookEventLink,
          ticketsLink,
+         cover,
          expired,
          location {
             title,
@@ -97,7 +98,7 @@
 
 <script>
    import meta from '~/util/meta.js';
-   import { musicEvent, breadcrumb } from '~/util/jsonLd';
+   import { breadcrumb, musicEvent, musicPlaylist } from '~/util/jsonLd';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
@@ -125,6 +126,10 @@
 
          const eventSchema = musicEvent(this.$page.event);
 
+         const playlistSchema = this.$page.event.playlist ? musicPlaylist(this.$page.event.playlist) : null;
+
+         const metaTitle = `${ this.$page.event.displayName } (${ this.$page.event.date })`;
+
          const metaDescription = (() => {
             let desc = '';
 
@@ -146,14 +151,15 @@
          })();
 
          return meta({
-            title: this.$page.event.displayName,
+            title: metaTitle,
             description: metaDescription,
             image: this.$page.event.image,
             path: this.$page.event.path,
             jsonLdSchema: [
                breadcrumbSchema,
-               eventSchema
-            ]
+               eventSchema,
+               playlistSchema ? playlistSchema : null
+            ].filter(item => item !== null)
          });
       },
       methods: {

@@ -60,6 +60,7 @@ const defaultEvent = {
    location: null,
    facebook_event_link: null,
    tickets_link: null,
+   cover: null,
    playlist: null,
    expired: true
 };

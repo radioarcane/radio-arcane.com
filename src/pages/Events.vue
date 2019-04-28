@@ -76,6 +76,7 @@
                shortDescription,
                facebookEventLink,
                ticketsLink,
+               cover,
                expired,
                location {
                   title,

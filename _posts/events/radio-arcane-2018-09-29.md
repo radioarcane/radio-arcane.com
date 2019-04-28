@@ -37,5 +37,6 @@ short_description: ''
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/973340279505329/'
 tickets_link: ''
+cover: '5.00'
 playlist: 2018-09-29 Radio Arcane
 ---

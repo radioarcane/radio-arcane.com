@@ -47,6 +47,7 @@ collections:
       - {label: "Location", name: "location", widget: "relation", collection: "locations", searchFields: ["title"], valueField: "title", displayFields: ["title"], required: false, default: ""}
       - {label: "Facebook Event Link", name: "facebook_event_link", widget: "string", required: false, default: ""}
       - {label: "Tickets Link", name: "tickets_link", widget: "string", required: false, default: ""}
+      - {label: "Cover Price", name: "cover", widget: "string", required: false, default: ""}
       - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "display_name"], valueField: "title", displayFields: ["title"]}
   - name: "podcasts"
     label: "Podcasts"

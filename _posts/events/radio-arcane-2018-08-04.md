@@ -32,5 +32,6 @@ short_description: ''
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/215484165721999/'
 tickets_link: ''
+cover: '5.00'
 playlist: ''
 ---

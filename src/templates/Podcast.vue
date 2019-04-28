@@ -107,7 +107,7 @@
 
 <script>
    import meta from '~/util/meta.js';
-   import { breadcrumb } from '~/util/jsonLd';
+   import { breadcrumb, musicPlaylist, podcastEpisode } from '~/util/jsonLd';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Btn from '~/components/Btn.vue';
@@ -142,6 +142,10 @@
             name:  this.$page.podcast.title
          }]);
 
+         const podcastSchema = podcastEpisode(this.$page.podcast);
+
+         const playlistSchema = this.$page.podcast.playlist ? musicPlaylist(this.$page.podcast.playlist) : null;
+
          const metaDescription = (() => {
             let desc = '';
 
@@ -167,7 +171,11 @@
             description: metaDescription,
             image: this.$page.podcast.image,
             path: this.$page.podcast.path,
-            jsonLdSchema: breadcrumbSchema
+            jsonLdSchema: [
+               breadcrumbSchema,
+               podcastSchema,
+               playlistSchema ? playlistSchema : null
+            ].filter(item => item !== null)
          });
       },
       methods: {

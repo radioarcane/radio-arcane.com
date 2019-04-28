@@ -24,5 +24,6 @@ short_description: 'Presented by Funeral Party Records & Radio Arcane: Temple of
 location: Art Sanctuary
 facebook_event_link: ''
 tickets_link: ''
+cover: '10.00'
 playlist: ''
 ---

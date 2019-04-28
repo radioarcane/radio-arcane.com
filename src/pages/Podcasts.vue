@@ -58,7 +58,7 @@
 
 <script>
    import meta from '~/util/meta.js';
-   import { breadcrumb } from '~/util/jsonLd';
+   import { breadcrumb, podcastEpisodes } from '~/util/jsonLd';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Container from '~/components/Container.vue';
@@ -67,23 +67,27 @@
 
    export default {
       metaInfo() {
+         const podcastItems = this.$page.allPodcast.edges.map(podcast => podcast.node)
+
          const breadcrumbSchema = breadcrumb([{
             path: '/podcasts',
             name: 'Podcasts'
          }]);
 
-         const podcastsWithImages = this.$page.allPodcast.edges.filter(podcast => {
-            return podcast.node.image.length > 0;
+         const podcastSchema = podcastEpisodes(podcastItems);
+
+         const podcastsWithImages = podcastItems.filter(podcast => {
+            return podcast.image.length > 0;
          });
 
-         const metaImage = podcastsWithImages.length ? podcastsWithImages[0].node.image : null;
+         const metaImage = podcastsWithImages.length ? podcastsWithImages[0].image : null;
 
          return meta({
             title: 'Podcasts',
             description: 'Checkout Radio Arcane\'s dark music podcasts featuring music & discussion from our dark music specialists & guests.',
             path: '/podcasts',
             image: metaImage,
-            jsonLdSchema: breadcrumbSchema
+            jsonLdSchema: [breadcrumbSchema].concat(podcastSchema)
          });
       },
       components: {
@@ -93,11 +97,6 @@
          Podcast,
       },
       data () {
-         const breadcrumbSchema = breadcrumb([{
-            path: '/podcasts',
-            name: 'Podcasts'
-         }]);
-
          return {
             crumbs: [{
                name: 'Podcasts',

@@ -36,7 +36,7 @@ description: >-
    Talamasca
    Kaleidoscope
    Motuvius Rex
-   
+
    As well as creative help and direction from:
    Lisa Frye
    Robert Major
@@ -44,5 +44,6 @@ short_description: ''
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/315716512241571'
 tickets_link: ''
+cover: '5.00'
 playlist: '2018-01-20 Radio Arcane'
 ---

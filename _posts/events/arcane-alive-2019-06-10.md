@@ -24,6 +24,6 @@ short_description: 'Presented by Funeral Party Records & Radio Arcane: Fearing &
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/488299585040287'
 tickets_link: 'https://www.showclix.com/event/fearing-and-scary-black-live-at-art-sanctuary'
+cover: '10.00'
 playlist: ''
 ---
-

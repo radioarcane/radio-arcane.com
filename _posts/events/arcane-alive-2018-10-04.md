@@ -34,5 +34,6 @@ short_description: 'Live performances by Ominous Erotica. Decide Today, and ULTI
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/226390288222463'
 tickets_link: ''
+cover: '5.00'
 playlist: 2018-10-04 Arcane Alive
 ---

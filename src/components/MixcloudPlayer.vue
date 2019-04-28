@@ -40,7 +40,7 @@
                return this.$props.url;
             }
 
-            return `https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2F${ urlParts[1] }%2F${  urlParts[0] }%2F`;
+            return `https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2F${ urlParts[1] }%2F${ urlParts[0] }%2F`;
          }
       }
    }

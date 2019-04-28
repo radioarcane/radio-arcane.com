@@ -37,5 +37,6 @@ short_description: 'Live performances by Curse of Cassandra, The Kentucky Vampir
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/333384737470679'
 tickets_link: ''
+cover: '5.00'
 playlist: 2018-12-01 Arcane Alive
 ---

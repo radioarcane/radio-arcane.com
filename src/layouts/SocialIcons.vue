@@ -23,7 +23,7 @@
          return {
             socialLinks: [{
                name: 'Facebook',
-               url: 'https://www.facebook.com/pg/RadioArcaneEvents',
+               url: 'https://www.facebook.com/RadioArcaneEvents',
                icon: 'facebook',
             }, {
                name: 'Instagram',

@@ -30,5 +30,6 @@ short_description: ''
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/375211813264941/?event_time_id=375211823264940'
 tickets_link: ''
+cover: '5.00'
 playlist: '2019-04-13 Radio Arcane'
 ---

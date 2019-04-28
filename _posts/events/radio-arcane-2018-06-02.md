@@ -41,5 +41,6 @@ short_description: ''
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/392214544580546/'
 tickets_link: ''
+cover: '5.00'
 playlist: 2018-06-02 Radio Arcane
 ---

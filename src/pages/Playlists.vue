@@ -80,7 +80,7 @@
 
 <script>
    import meta from '~/util/meta.js';
-   import { breadcrumb } from '~/util/jsonLd';
+   import { breadcrumb, musicPlaylist } from '~/util/jsonLd';
 
    import InfiniteLoading from 'vue-infinite-loading';
    import Breadcrumb from '~/components/Breadcrumb.vue';
@@ -97,11 +97,13 @@
             name: 'Playlists'
          }]);
 
+         const playlistSchema = this.$page.allPlaylist.edges.map(playlist => musicPlaylist(playlist.node));
+
          return meta({
             title: 'Playlists',
             description: 'Checkout Playlists from past Radio Arcane music events and podcasts.',
             path: '/playlists',
-            jsonLdSchema: breadcrumbSchema
+            jsonLdSchema: [breadcrumbSchema].concat(playlistSchema)
          });
       },
       components: {

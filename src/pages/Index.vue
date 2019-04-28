@@ -68,6 +68,7 @@
                shortDescription,
                facebookEventLink,
                ticketsLink,
+               cover,
                expired,
                location {
                   title,
@@ -100,6 +101,7 @@
                shortDescription,
                facebookEventLink,
                ticketsLink,
+               cover,
                expired,
                location {
                   title,
