@@ -1,4 +1,3 @@
-
 import config from '~/config.js';
 
 export const breadcrumb = items => {
@@ -10,7 +9,7 @@ export const breadcrumb = items => {
          position: 1,
          item: {
             '@id': config.siteUrl,
-            name: "Home"
+            name: 'Home'
          }
       }]
    };
@@ -72,7 +71,7 @@ export const locationPlace = location => {
 export const musicEvent = event => {
    const eventSchema = {
       '@context': 'https://schema.org',
-      '@type' : "MusicEvent",
+      '@type' : 'MusicEvent',
       name: event.displayName,
       url: `${ config.siteUrl }${ event.path }`,
       description: (() => {
@@ -128,8 +127,8 @@ export const radioSeries = () => {
       '@context': 'https://schema.org',
       '@type' : "RadioSeries",
       name: config.siteName,
-      url: 'https://www.mixcloud.com/Radio-Arcane',
-      sameAs: 'https://soundcloud.com/radio_arcane',
+      url: config.mixcloud,
+      sameAs: config.soundcloud,
       description: 'Radio Arcane is a collective of Dark Music Specialists in Louisville, KY that host events, live music and dark arts entertainment.',
       image: `${ config.siteUrl }${ config.defaultMetaImg }`,
       encodingFormat: 'audio/mpeg',
@@ -139,7 +138,7 @@ export const radioSeries = () => {
    		logo: `${ config.siteUrl }${ config.defaultMetaImg }`,
    		name: config.siteName,
    		url: config.siteUrl,
-   		sameAs: 'https://www.facebook.com/RadioArcaneEvents',
+   		sameAs: config.facebook,
    	},
       genre: 'Gothic',
       inLanguage: {
@@ -292,7 +291,7 @@ export const musicPlaylist = playlist => {
    		logo: `${ config.siteUrl }${ config.defaultMetaImg }`,
    		name: config.siteName,
    		url: config.siteUrl,
-   		sameAs: 'https://www.facebook.com/RadioArcaneEvents',
+   		sameAs: config.facebook,
    	},
       keywords: 'Gothic, Goth, Darkwave, Post-Punk, Coldwave, Minimal Synth, New Wave, Industrial, EBM, Synthpop, Synthwave, Radio Arcane, Art Sanctuary, Louisville, Kentucky, Dark Music, DJ, Playlist'
    };

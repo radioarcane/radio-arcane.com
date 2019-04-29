@@ -13,6 +13,8 @@
 </template>
 
 <script>
+   import config from '~/config.js';
+
    import SvgIcon from '~/components/SvgIcon';
 
    export default {
@@ -23,23 +25,23 @@
          return {
             socialLinks: [{
                name: 'Facebook',
-               url: 'https://www.facebook.com/RadioArcaneEvents',
+               url: config.facebook,
                icon: 'facebook',
             }, {
                name: 'Instagram',
-               url: 'https://www.instagram.com/radio_arcane',
+               url: config.instagram,
                icon: 'instagram',
             }, {
                name: 'Twitter',
-               url: 'https://twitter.com/Radio_Arcane',
+               url: config.twitter,
                icon: 'twitter',
             }, {
                name: 'Mixcloud',
-               url: 'https://www.mixcloud.com/Radio-Arcane',
+               url: config.mixcloud,
                icon: 'mixcloud',
             }, {
                name: 'Soundcloud',
-               url: 'https://soundcloud.com/radio_arcane',
+               url: config.soundcloud,
                icon: 'soundcloud',
             }]
          };
