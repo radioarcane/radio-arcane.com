@@ -29,6 +29,31 @@ sets:
         song: Life Took You For A Freq. (feat. Chelsea Wolfe)
     type: dj_set
   - dj_name: Talamasca
+    tracks:
+      - artist: Sextile
+        song: Disco
+      - artist: Orphx
+        song: Bare Life
+      - artist: Clan of Xymox
+        song: This World
+      - artist: Depeche Mode
+        song: People Are People
+      - artist: Dan Terminus
+        song: Pegasus Pro Ultra Fusion
+      - artist: Hatari
+        song: Biðröð Mistaka
+      - artist: Schwefelgelb
+        song: Aus Dem Hals Der Flasche
+      - artist: Interlace
+        song: Master
+      - artist: Battery
+        song: Meat Market
+      - artist: Siouxsie & The Banshees
+        song: Cities In Dust
+      - artist: Das Ich
+        song: Destillat (VNV Nation Remix)
+      - artist: Die Krupps
+        song: Schmutzfabrik
     type: dj_set
   - dj_name: Sorrow-Vomit
     tracks:
@@ -80,6 +105,35 @@ sets:
       - artist: The Cure
         song: A Strange Day
     type: dj_set
+  - dj_name: Talamasca
+    tracks:
+      - artist: Die Form
+        song: Bite of God (Remix 2)
+      - artist: Velvet Acid Christ
+        song: Caustic Disco (Mindless Faith Remix)
+      - artist: Covenant
+        song: Dead Stars
+      - artist: 'Patenbrigade: Wolff'
+        song: Gefahrstoffe (Hocinoizeflug Club Mix)
+      - artist: Project Pictchfork
+        request: artist
+        song: Timekiller
+      - artist: The Creatures
+        song: 2nd Floor
+      - artist: The Crüxshadows
+        song: 'Marilyn, My Bitterness'
+      - artist: Boy Harsher
+        song: Pain (The Soft Moon Remix)
+      - artist: Front 242
+        song: Tragedy For You
+      - artist: Black Asteroid
+        song: Howl (feat. Zola Jesus)
+      - artist: My Life With The Thrill Kill Kult
+        song: A Daisy Chain 4 Satan (4 Ever & Ever Mix)
+      - artist: ':Wumpscut:'
+        request: song
+        song: Wreath of Barbs
+    type: dj_set
   - dj_name: Sorrow-Vomit
     tracks:
       - artist: Schwefelgelb
@@ -113,6 +167,26 @@ sets:
       - artist: Sydney Valette
         song: Back From Mexico
     type: dj_set
-  - dj_name: Talamasca
+  - dj_name: Talamasca & Thulsa Goon
+    tracks:
+      - artist: Temple of Angels
+        song: Star Shaped Eyes
+      - artist: The Sisters of Mercy
+        song: Black Planet
+      - artist: Assemblage 23
+        request: artist
+        song: Darkflow
+      - artist: Covenant
+        request: artist
+        song: We Stand Alone
+      - artist: How To Destroy Angels
+        song: Fur Lined
+      - artist: Funker Vogt
+        song: Naryan
+      - artist: Real Life
+        song: Send Me An Angel
+      - artist: G Tom Mac
+        song: Cry Little Sister
     type: dj_set
 ---
+
