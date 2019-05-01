@@ -1,12 +1,11 @@
 ---
 layout: playlist
-title: '2018-09-29 Radio Arcane'
+title: 2018-09-29 Radio Arcane
 display_name: 'Radio Arcane: The Dark Market'
 playlist_type: radio-arcane
 date: '2018-09-29'
 sets:
   - dj_name: Sorrow-Vomit
-    type: dj_set
     tracks:
       - artist: H ø R D
         song: Tearwave
@@ -56,8 +55,8 @@ sets:
         song: Pure Joy In My Heart
       - artist: Babel 17
         song: Angels of T.V.
-  - dj_name: Kaleidoscope
     type: dj_set
+  - dj_name: Kaleidoscope
     tracks:
       - artist: Noisuf-X
         song: This Is Genocide
@@ -89,8 +88,8 @@ sets:
         song: Rotten To The Core (Solitary Experiments Remix)
       - artist: Skinny Puppy
         song: Far Too Frail
-  - dj_name: Thulsa Goon
     type: dj_set
+  - dj_name: Thulsa Goon
     tracks:
       - artist: Gregory James Jenkins
         song: Slooooow Moooootion
@@ -122,8 +121,8 @@ sets:
         song: Lilies For Belial
       - artist: Body of Light
         song: Watch Your Back
-  - dj_name: Sorrow-Vomit
     type: dj_set
+  - dj_name: Sorrow-Vomit
     tracks:
       - artist: So What?
         song: Enter The Batcave (And Dance)
@@ -159,10 +158,10 @@ sets:
         song: Gallowdance
       - artist: Angels of Liberty
         song: Monster In Me
-  - dj_name: 'Funeral Party DJ'
+    type: dj_set
+  - dj_name: Funeral Party DJ
     type: dj_set
   - dj_name: Talamasca
-    type: dj_set
     tracks:
       - artist: KMFDM
         song: Amnesia (Kap'n K Remix)
@@ -191,17 +190,20 @@ sets:
       - artist: Front Line Assembly
         song: Neologic Spasm
       - artist: Siouxsie & The Banshees
+        request: artist
         song: Happy House
       - artist: ohGr
         song: comedown
       - artist: Skinny Puppy
         song: Glass Houses
       - artist: Nine Inch Nails
+        request: artist
         song: Head Like A Hole
       - artist: Assemblage 23
+        request: artist
         song: Opened
-  - dj_name: Osiris Ani
     type: dj_set
+  - dj_name: Osiris Ani
     tracks:
       - artist: Skinny Puppy
         song: Assimilate (r23 Remix)
@@ -217,7 +219,7 @@ sets:
         song: Beat & The Pulse
       - artist: The Creatures
         song: Exterminating Angel
-      - artist: Pretentious, Moi?
+      - artist: 'Pretentious, Moi?'
         song: Overdoom
       - artist: Corpus Delicti
         song: Saraband
@@ -231,4 +233,6 @@ sets:
         song: Transmission
       - artist: New Order
         song: Murder
+    type: dj_set
 ---
+
