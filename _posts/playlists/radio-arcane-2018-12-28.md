@@ -115,7 +115,7 @@ sets:
         song: Dead Stars
       - artist: 'Patenbrigade: Wolff'
         song: Gefahrstoffe (Hocinoizeflug Club Mix)
-      - artist: Project Pictchfork
+      - artist: Project Pitchfork
         request: artist
         song: Timekiller
       - artist: The Creatures
