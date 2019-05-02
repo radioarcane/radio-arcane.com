@@ -65,7 +65,7 @@ description: >-
   Robert Major
 short_description: ''
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/163790324243942/'
+facebook_event_link: 'https://www.facebook.com/events/163790324243942'
 tickets_link: ''
 cover: '5.00'
 playlist: '2018-03-10 Radio Arcane'

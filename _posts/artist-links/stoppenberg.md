@@ -1,13 +1,13 @@
 ---
 title: Stoppenberg
-apple_music: ''
+apple_music: 'https://itunes.apple.com/us/artist/stoppenberg/833883552'
 bandcamp: ''
-facebook: ''
+facebook: 'https://www.facebook.com/stoppenbergmusic'
 google_music: ''
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/stoppenberg'
 spotify: 'https://open.spotify.com/artist/1tqbHDcd171VXoqDu9RGAw'
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/user/wwwxmpde'
 ---

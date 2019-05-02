@@ -30,7 +30,7 @@ description: |-
   Free Entry from 7pm until 10pm. $5 entry after 10pm.
 short_description: ''
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/215484165721999/'
+facebook_event_link: 'https://www.facebook.com/events/215484165721999'
 tickets_link: ''
 cover: '5.00'
 playlist: ''

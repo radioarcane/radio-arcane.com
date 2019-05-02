@@ -35,7 +35,7 @@ description: >-
   Costumes encouraged!
 short_description: ''
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/1979043488978168/'
+facebook_event_link: 'https://www.facebook.com/events/1979043488978168'
 tickets_link: ''
 cover: '5.00'
 playlist: '2017-10-21 Radio Arcane'

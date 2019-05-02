@@ -15,7 +15,7 @@ description: >-
   Doors open at 9pm : 18+ to enter : 21+ bar : $5 cover
 short_description: ''
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/2468141443214534/'
+facebook_event_link: 'https://www.facebook.com/events/2468141443214534'
 tickets_link: ''
 cover: '5.00'
 playlist: '2018-12-28 Radio Arcane'

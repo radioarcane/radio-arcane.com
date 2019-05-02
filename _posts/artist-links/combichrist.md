@@ -1,0 +1,14 @@
+---
+title: Combichrist
+apple_music: 'https://itunes.apple.com/us/artist/combichrist/49450697'
+bandcamp: ''
+facebook: 'https://www.facebook.com/combichrist'
+google_music: >-
+   https://play.google.com/store/music/artist?id=Abu6bk735zwugo23yldncygz3wq
+instagram: 'https://www.instagram.com/combichrist'
+soundcloud: 'https://soundcloud.com/combichrist'
+spotify: 'https://open.spotify.com/artist/5556RAgwP70PnXbaUTGNbR'
+twitter: 'https://twitter.com/combichristarmy'
+website: ''
+youtube: 'https://www.youtube.com/user/CombichristOfficial'
+---

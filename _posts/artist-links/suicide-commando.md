@@ -1,14 +1,14 @@
 ---
 title: Suicide Commando
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/us/artist/suicide-commando/21327758'
+bandcamp: 'https://suicidecommandometro.bandcamp.com'
+facebook: 'https://www.facebook.com/IIXIII'
 google_music: >-
    https://play.google.com/store/music/artist/Suicide_Commando?id=Aqpewiflclt2yuzxc77anrj22am
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/suicide-commando-1'
 spotify: 'https://open.spotify.com/artist/4N99bzdRBNRi7hGNCpMuhu'
 twitter: ''
-website: ''
+website: 'http://www.suicidecommando.be'
 youtube: ''
 ---

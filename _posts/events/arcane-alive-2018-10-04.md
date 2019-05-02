@@ -30,7 +30,7 @@ description: |-
   First band at 9pm  
   18+ entry - 21+ bar  
   $5. cover
-short_description: 'Live performances by Ominous Erotica. Decide Today, and ULTIMA'
+short_description: 'Live performances by Ominous Erotica, Decide Today, and ULTIMA'
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/226390288222463'
 tickets_link: ''
