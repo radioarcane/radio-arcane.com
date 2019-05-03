@@ -1,6 +1,6 @@
 ---
 title: Ritual Howls
-apple_music: 'https://itunes.apple.com/us/artist/ritual-howls/608695565'
+apple_music: 'https://itunes.apple.com/artist/ritual-howls/608695565'
 bandcamp: 'https://ritualhowls.bandcamp.com'
 facebook: 'https://www.facebook.com/ritualhowls'
 google_music: >-

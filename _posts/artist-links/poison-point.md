@@ -1,6 +1,6 @@
 ---
 title: Poison Point
-apple_music: 'https://itunes.apple.com/us/artist/poison-point/1126870561'
+apple_music: 'https://itunes.apple.com/artist/poison-point/1126870561'
 bandcamp: 'https://poisonpoint.bandcamp.com'
 facebook: 'https://www.facebook.com/Ppointband'
 google_music: >-

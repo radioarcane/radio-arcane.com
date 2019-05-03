@@ -1,6 +1,6 @@
 ---
 title: The Chameleons
-apple_music: 'https://itunes.apple.com/us/artist/the-chameleons/32354597'
+apple_music: 'https://itunes.apple.com/artist/the-chameleons/32354597'
 bandcamp: ''
 facebook: 'https://www.facebook.com/The-Chameleons-UK-83199897739'
 google_music: >-

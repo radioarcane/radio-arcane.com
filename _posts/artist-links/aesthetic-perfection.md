@@ -1,6 +1,6 @@
 ---
 title: Aesthetic Perfection
-apple_music: 'https://itunes.apple.com/us/artist/aesthetic-perfection/175621289'
+apple_music: 'https://itunes.apple.com/artist/aesthetic-perfection/175621289'
 bandcamp: 'https://aestheticperfection.bandcamp.com'
 facebook: 'https://www.facebook.com/aestheticperfection'
 google_music: >-

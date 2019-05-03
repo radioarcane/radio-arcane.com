@@ -1,6 +1,6 @@
 ---
 title: Youth Code
-apple_music: 'https://itunes.apple.com/us/artist/youth-code/707645467'
+apple_music: 'https://itunes.apple.com/artist/youth-code/707645467'
 bandcamp: 'https://youthcode.bandcamp.com'
 facebook: 'https://www.facebook.com/youthcodeforever'
 google_music: >-

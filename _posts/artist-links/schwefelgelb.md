@@ -1,6 +1,6 @@
 ---
 title: Schwefelgelb
-apple_music: 'https://itunes.apple.com/us/artist/schwefelgelb/252440002'
+apple_music: 'https://itunes.apple.com/artist/schwefelgelb/252440002'
 bandcamp: 'https://schwefelgelb.bandcamp.com'
 facebook: 'https://www.facebook.com/schwefelgelb'
 google_music: >-

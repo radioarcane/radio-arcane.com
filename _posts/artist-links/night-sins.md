@@ -1,6 +1,6 @@
 ---
 title: Night Sins
-apple_music: 'https://itunes.apple.com/us/artist/night-sins/988214853'
+apple_music: 'https://itunes.apple.com/artist/night-sins/988214853'
 bandcamp: 'https://ddlvng.bandcamp.com'
 facebook: 'https://www.facebook.com/nightsins'
 google_music: >-

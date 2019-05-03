@@ -1,6 +1,6 @@
 ---
 title: Placebo Effect
-apple_music: 'https://itunes.apple.com/us/artist/placebo-effect/97851538'
+apple_music: 'https://itunes.apple.com/artist/placebo-effect/97851538'
 bandcamp: 'https://placeboeffect-offical.bandcamp.com'
 facebook: 'https://web.facebook.com/PlaceboEffect.official'
 google_music: >-

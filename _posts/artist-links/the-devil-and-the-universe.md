@@ -1,6 +1,6 @@
 ---
 title: The Devil & The Universe
-apple_music: 'https://itunes.apple.com/us/artist/the-devil-and-the-universe/1063343742'
+apple_music: 'https://itunes.apple.com/artist/the-devil-and-the-universe/1063343742'
 bandcamp: 'https://aufnahmeundwiedergabe.bandcamp.com/album/folk-horror'
 facebook: 'https://www.facebook.com/TheDevilAndTheUniverse'
 google_music: >-

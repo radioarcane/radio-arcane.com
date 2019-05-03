@@ -1,6 +1,6 @@
 ---
 title: Apoptygma Berzerk
-apple_music: 'https://itunes.apple.com/us/artist/apoptygma-berzerk/id30737639'
+apple_music: 'https://itunes.apple.com/artist/apoptygma-berzerk/id30737639'
 bandcamp: 'https://pitchblackdrive.bandcamp.com'
 facebook: 'https://www.facebook.com/ApoptygmaBerzerk'
 google_music: >-

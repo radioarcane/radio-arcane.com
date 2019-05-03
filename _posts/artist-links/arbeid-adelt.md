@@ -1,6 +1,6 @@
 ---
 title: Arbeid Adelt!
-apple_music: 'https://itunes.apple.com/tm/artist/arbeid-adelt!/id42421224'
+apple_music: 'https://itunes.apple.com/artist/arbeid-adelt!/id42421224'
 bandcamp: ''
 facebook: 'https://www.facebook.com/ARBEID-ADELT-52753674770'
 google_music: >-

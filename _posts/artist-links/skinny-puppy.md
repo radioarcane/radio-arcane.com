@@ -1,6 +1,6 @@
 ---
 title: Skinny Puppy
-apple_music: 'https://itunes.apple.com/us/artist/skinny-puppy/5428569'
+apple_music: 'https://itunes.apple.com/artist/skinny-puppy/5428569'
 bandcamp: 'https://skinnypuppy.bandcamp.com'
 facebook: 'https://www.facebook.com/OfficialSkinnyPuppy'
 google_music: >-

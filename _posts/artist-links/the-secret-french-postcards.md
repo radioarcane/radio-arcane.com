@@ -1,6 +1,6 @@
 ---
 title: The Secret French Postcards
-apple_music: 'https://itunes.apple.com/us/artist/the-secret-french-postcards/1315011071'
+apple_music: 'https://itunes.apple.com/artist/the-secret-french-postcards/1315011071'
 bandcamp: 'https://thesecretfrenchpostcards.bandcamp.com'
 facebook: 'https://www.facebook.com/mukosound'
 google_music: >-

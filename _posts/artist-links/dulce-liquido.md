@@ -1,6 +1,6 @@
 ---
 title: Dulce Liquido
-apple_music: 'https://itunes.apple.com/us/artist/dulce-liquido/128500553'
+apple_music: 'https://itunes.apple.com/artist/dulce-liquido/128500553'
 bandcamp: ''
 facebook: 'https://www.facebook.com/Dliquido'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Statiqbloom
-apple_music: 'https://itunes.apple.com/ca/artist/statiqbloom/916712955'
+apple_music: 'https://itunes.apple.com/artist/statiqbloom/916712955'
 bandcamp: 'https://statiqbloom.bandcamp.com'
 facebook: 'https://www.facebook.com/statiqbloom'
 google_music: >-

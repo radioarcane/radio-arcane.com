@@ -1,6 +1,6 @@
 ---
 title: Glaare
-apple_music: 'https://itunes.apple.com/us/artist/glaare/1295074761'
+apple_music: 'https://itunes.apple.com/artist/glaare/1295074761'
 bandcamp: 'https://glaare.bandcamp.com'
 facebook: 'https://www.facebook.com/glaare'
 google_music: >-

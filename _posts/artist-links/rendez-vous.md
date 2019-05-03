@@ -1,6 +1,6 @@
 ---
 title: Rendez-Vous
-apple_music: 'https://itunes.apple.com/us/artist/rendez-vous/1358619316'
+apple_music: 'https://itunes.apple.com/artist/rendez-vous/1358619316'
 bandcamp: 'https://rendezvousrendezvous.bandcamp.com'
 facebook: 'https://www.facebook.com/rendezvousrendezvous'
 google_music: >-

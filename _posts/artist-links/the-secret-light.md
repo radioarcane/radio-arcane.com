@@ -1,6 +1,6 @@
 ---
 title: The Secret Light
-apple_music: 'https://itunes.apple.com/us/artist/the-secret-light/1188798057'
+apple_music: 'https://itunes.apple.com/artist/the-secret-light/1188798057'
 bandcamp: 'https://thesecretlight.bandcamp.com'
 facebook: 'https://www.facebook.com/thesecretlightband'
 google_music: >-

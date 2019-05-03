@@ -1,6 +1,6 @@
 ---
 title: iVardensphere
-apple_music: 'https://itunes.apple.com/us/artist/ivardensphere/317072141'
+apple_music: 'https://itunes.apple.com/artist/ivardensphere/317072141'
 bandcamp: 'https://ivardensphere.bandcamp.com'
 facebook: 'https://www.facebook.com/ivardensphere'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: KMFDM
-apple_music: 'https://itunes.apple.com/us/artist/kmfdm/5544454'
+apple_music: 'https://itunes.apple.com/artist/kmfdm/5544454'
 bandcamp: 'https://kmfdm.bandcamp.com'
 facebook: 'https://www.facebook.com/officialkmfdm'
 google_music: >-

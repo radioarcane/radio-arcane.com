@@ -1,6 +1,6 @@
 ---
 title: Public Memory
-apple_music: 'https://itunes.apple.com/us/artist/public-memory/1056772709'
+apple_music: 'https://itunes.apple.com/artist/public-memory/1056772709'
 bandcamp: 'https://publicmemory.bandcamp.com'
 facebook: 'https://www.facebook.com/thepublicmemory'
 google_music: >-

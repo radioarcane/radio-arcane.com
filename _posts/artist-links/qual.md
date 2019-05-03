@@ -1,6 +1,6 @@
 ---
 title: Qual
-apple_music: 'https://itunes.apple.com/us/artist/qual/153346549'
+apple_music: 'https://itunes.apple.com/artist/qual/153346549'
 bandcamp: 'https://qual.bandcamp.com'
 facebook: 'https://www.facebook.com/qual.death'
 google_music: >-

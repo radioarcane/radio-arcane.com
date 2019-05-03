@@ -1,6 +1,6 @@
 ---
 title: Gauntlet Hair
-apple_music: 'https://itunes.apple.com/ca/artist/gauntlet-hair/467438842'
+apple_music: 'https://itunes.apple.com/artist/gauntlet-hair/467438842'
 bandcamp: ''
 facebook: 'https://www.facebook.com/gauntlet.hair'
 google_music: >-

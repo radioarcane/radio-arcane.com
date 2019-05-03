@@ -1,6 +1,6 @@
 ---
 title: Cold Cave
-apple_music: 'https://itunes.apple.com/us/artist/cold-cave/324968216'
+apple_music: 'https://itunes.apple.com/artist/cold-cave/324968216'
 bandcamp: 'https://coldcave.bandcamp.com'
 facebook: 'https://www.facebook.com/COLDCAVE'
 google_music: >-

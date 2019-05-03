@@ -1,6 +1,6 @@
 ---
 title: Staccato Du Mal
-apple_music: ''
+apple_music: 'https://itunes.apple.com/artist/staccato-du-mal/273932987'
 bandcamp: ''
 facebook: 'https://www.facebook.com/Staccato-du-Mal-105914716137910'
 google_music: >-

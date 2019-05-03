@@ -1,6 +1,6 @@
 ---
 title: Metal Disco
-apple_music: 'https://itunes.apple.com/us/artist/metal-disco/1033960037'
+apple_music: 'https://itunes.apple.com/artist/metal-disco/1033960037'
 bandcamp: 'https://detonicrecordings.bandcamp.com/album/vade-mecum-lp'
 facebook: 'https://www.facebook.com/metaldiscomusic'
 google_music: >-

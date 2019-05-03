@@ -1,6 +1,6 @@
 ---
 title: Haujobb
-apple_music: 'https://itunes.apple.com/us/artist/haujobb/72289431'
+apple_music: 'https://itunes.apple.com/artist/haujobb/72289431'
 bandcamp: 'https://haujobb.bandcamp.com'
 facebook: 'https://www.facebook.com/haujobbmusic'
 google_music: >-

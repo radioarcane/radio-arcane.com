@@ -1,6 +1,6 @@
 ---
 title: In Strict Confidence
-apple_music: 'https://itunes.apple.com/us/artist/in-strict-confidence/56091819'
+apple_music: 'https://itunes.apple.com/artist/in-strict-confidence/56091819'
 bandcamp: 'https://instrictconfidence.bandcamp.com'
 facebook: 'https://www.facebook.com/instrictconfidence'
 google_music: >-

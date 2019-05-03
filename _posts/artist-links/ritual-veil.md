@@ -1,6 +1,6 @@
 ---
 title: Ritual Veil
-apple_music: 'https://itunes.apple.com/us/artist/ritual-veil/1314628365'
+apple_music: 'https://itunes.apple.com/artist/ritual-veil/1314628365'
 bandcamp: 'https://ritualveil.bandcamp.com'
 facebook: 'https://www.facebook.com/ritualveil'
 google_music: >-

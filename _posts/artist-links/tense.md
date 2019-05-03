@@ -1,6 +1,6 @@
 ---
 title: //TENSE//
-apple_music: ''
+apple_music: 'https://itunes.apple.com/album/turn-it-off-remixes/416008794'
 bandcamp: ''
 facebook: 'https://www.facebook.com/pages/category/Musician-Band/TENSE-103169403053195'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: I Tpame I Tvrame
-apple_music: 'https://itunes.apple.com/us/artist/i-tpame-i-tvrame/1316135474'
+apple_music: 'https://itunes.apple.com/artist/i-tpame-i-tvrame/1316135474'
 bandcamp: 'https://itpameitvrame.bandcamp.com'
 facebook: 'https://www.facebook.com/itpameitvrame'
 google_music: >-

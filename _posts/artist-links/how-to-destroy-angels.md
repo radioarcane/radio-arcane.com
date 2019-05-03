@@ -1,6 +1,6 @@
 ---
 title: How To Destroy Angels
-apple_music: 'https://itunes.apple.com/us/artist/how-to-destroy-angels/371164882'
+apple_music: 'https://itunes.apple.com/artist/how-to-destroy-angels/371164882'
 bandcamp: ''
 facebook: 'https://www.facebook.com/howtodestroyangels'
 google_music: >-

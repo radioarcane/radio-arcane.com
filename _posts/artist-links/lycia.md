@@ -1,6 +1,6 @@
 ---
 title: Lycia
-apple_music: 'https://itunes.apple.com/us/artist/lycia/4370573'
+apple_music: 'https://itunes.apple.com/artist/lycia/4370573'
 bandcamp: 'https://lycia.bandcamp.com'
 facebook: 'https://www.facebook.com/LyciaBand'
 google_music: >-

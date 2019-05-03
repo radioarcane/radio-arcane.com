@@ -1,6 +1,6 @@
 ---
 title: Fields of The Nephilim
-apple_music: 'https://itunes.apple.com/us/artist/fields-of-the-nephilim/3022271'
+apple_music: 'https://itunes.apple.com/artist/fields-of-the-nephilim/3022271'
 bandcamp: ''
 facebook: 'https://www.facebook.com/FieldsOfTheNephilim'
 google_music: >-

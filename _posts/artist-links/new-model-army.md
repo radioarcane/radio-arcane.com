@@ -1,6 +1,6 @@
 ---
 title: New Model Army
-apple_music: 'https://itunes.apple.com/us/artist/new-model-army/5644196'
+apple_music: 'https://itunes.apple.com/artist/new-model-army/5644196'
 bandcamp: ''
 facebook: 'https://www.facebook.com/NewModelArmyOfficial'
 google_music: 'https://play.google.com/store/music/artist/New_Model_Army?id=A5uoto7qzyefdc7zsckl7lcoz2e'

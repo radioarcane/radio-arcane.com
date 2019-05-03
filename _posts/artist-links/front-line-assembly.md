@@ -1,6 +1,6 @@
 ---
 title: Front Line Assembly
-apple_music: 'https://itunes.apple.com/us/artist/front-line-assembly/6516319'
+apple_music: 'https://itunes.apple.com/artist/front-line-assembly/6516319'
 bandcamp: 'https://frontlineassembly.bandcamp.com'
 facebook: 'https://www.facebook.com/frontlineassembly'
 google_music: >-

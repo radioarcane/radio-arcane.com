@@ -1,6 +1,6 @@
 ---
 title: Xeno & Oaklander
-apple_music: 'https://itunes.apple.com/us/artist/xeno-oaklander/277226725'
+apple_music: 'https://itunes.apple.com/artist/xeno-oaklander/277226725'
 bandcamp: 'https://xenoandoaklander.bandcamp.com'
 facebook: 'https://www.facebook.com/xenoandoaklndr'
 google_music: >-

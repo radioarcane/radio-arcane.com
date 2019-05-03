@@ -1,6 +1,6 @@
 ---
 title: Trisomie 21
-apple_music: 'https://itunes.apple.com/us/artist/trisomie-21/73782484'
+apple_music: 'https://itunes.apple.com/artist/trisomie-21/73782484'
 bandcamp: ''
 facebook: 'https://www.facebook.com/trisomie21'
 google_music: >-

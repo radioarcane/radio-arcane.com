@@ -1,6 +1,6 @@
 ---
 title: The Fair Sex
-apple_music: 'https://itunes.apple.com/us/artist/the-fair-sex/5626920'
+apple_music: 'https://itunes.apple.com/artist/the-fair-sex/5626920'
 bandcamp: 'https://thefairsex.bandcamp.com'
 facebook: 'https://www.facebook.com/thefairsex'
 google_music: >-

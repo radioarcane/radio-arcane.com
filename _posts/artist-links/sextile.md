@@ -1,6 +1,6 @@
 ---
 title: Sextile
-apple_music: 'https://itunes.apple.com/us/artist/sextile/1005776389'
+apple_music: 'https://itunes.apple.com/artist/sextile/1005776389'
 bandcamp: 'https://sextile.bandcamp.com'
 facebook: 'https://www.facebook.com/sextileband'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: De/Vision
-apple_music: 'https://itunes.apple.com/us/artist/de-vision/219342311'
+apple_music: 'https://itunes.apple.com/artist/de-vision/219342311'
 bandcamp: ''
 facebook: 'https://www.facebook.com/DEVISION-24741337633'
 google_music: >-

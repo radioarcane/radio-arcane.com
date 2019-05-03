@@ -1,6 +1,6 @@
 ---
 title: Whispering Sons
-apple_music: 'https://itunes.apple.com/us/artist/whispering-sons/1068572713'
+apple_music: 'https://itunes.apple.com/artist/whispering-sons/1068572713'
 bandcamp: 'https://whisperingsons.bandcamp.com'
 facebook: 'https://www.facebook.com/WhisperingSons'
 google_music: >-

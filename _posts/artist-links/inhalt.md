@@ -1,6 +1,6 @@
 ---
 title: Inhalt
-apple_music: 'https://itunes.apple.com/us/artist/inhalt/524892048'
+apple_music: 'https://itunes.apple.com/artist/inhalt/524892048'
 bandcamp: 'https://inhalt.bandcamp.com'
 facebook: 'https://www.facebook.com/INHALT.US'
 google_music: >-

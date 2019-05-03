@@ -1,7 +1,7 @@
 ---
 title: Mephisto Walz
-apple_music: 'https://itunes.apple.com/ca/artist/mephisto-walz/30836412'
-bandcamp: ''
+apple_music: 'https://itunes.apple.com/artist/mephisto-walz/30836412'
+bandcamp: 'https://mephistowalz.bandcamp.com'
 facebook: 'https://www.facebook.com/mephistowalz'
 google_music: >-
    https://play.google.com/store/music/artist/Mephisto_Walz?id=Amcjl4fd5lc47ycad5sj2jm3bim

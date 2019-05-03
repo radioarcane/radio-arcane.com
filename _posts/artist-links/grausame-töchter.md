@@ -1,6 +1,6 @@
 ---
 title: Grausame Töchter
-apple_music: 'https://itunes.apple.com/us/artist/grausame-t%C3%B6chter/432905033'
+apple_music: 'https://itunes.apple.com/artist/grausame-t%C3%B6chter/432905033'
 bandcamp: ''
 facebook: 'https://www.facebook.com/GrausameToechter'
 google_music: >-

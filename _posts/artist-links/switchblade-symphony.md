@@ -1,6 +1,6 @@
 ---
 title: Switchblade Symphony
-apple_music: 'https://itunes.apple.com/us/artist/switchblade-symphony/6516255'
+apple_music: 'https://itunes.apple.com/artist/switchblade-symphony/6516255'
 bandcamp: 'https://switchbladesymphony.bandcamp.com'
 facebook: 'https://www.facebook.com/Switchblade-Symphony-49695988580'
 google_music: >-

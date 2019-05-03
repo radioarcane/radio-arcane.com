@@ -1,6 +1,6 @@
 ---
 title: Black Plastic
-apple_music: 'https://itunes.apple.com/us/artist/black-plastic/280848645'
+apple_music: 'https://itunes.apple.com/artist/black-plastic/280848645'
 bandcamp: 'https://blackplastic1.bandcamp.com'
 facebook: 'https://www.facebook.com/blackestplastic'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: The Mission
-apple_music: 'https://itunes.apple.com/us/artist/the-mission/81186'
+apple_music: 'https://itunes.apple.com/artist/the-mission/81186'
 bandcamp: ''
 facebook: 'https://www.facebook.com/themissionuk'
 google_music: >-

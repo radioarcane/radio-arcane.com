@@ -1,6 +1,6 @@
 ---
 title: Weeknight
-apple_music: 'https://itunes.apple.com/us/artist/weeknight/824389896'
+apple_music: 'https://itunes.apple.com/artist/weeknight/824389896'
 bandcamp: 'https://weeknightmusic.bandcamp.com'
 facebook: 'https://www.facebook.com/Weeknight'
 google_music: >-

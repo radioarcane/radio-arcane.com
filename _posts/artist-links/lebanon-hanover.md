@@ -1,6 +1,6 @@
 ---
 title: Lebanon Hanover
-apple_music: 'https://itunes.apple.com/us/artist/lebanon-hanover/639573641'
+apple_music: 'https://itunes.apple.com/artist/lebanon-hanover/639573641'
 bandcamp: 'https://lebanonhanover.bandcamp.com'
 facebook: 'https://www.facebook.com/lebanonhanover'
 google_music: >-

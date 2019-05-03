@@ -1,6 +1,6 @@
 ---
 title: The Soft Moon
-apple_music: 'https://itunes.apple.com/us/artist/the-soft-moon/385792802'
+apple_music: 'https://itunes.apple.com/artist/the-soft-moon/385792802'
 bandcamp: 'https://thesoftmoon.bandcamp.com'
 facebook: 'https://www.facebook.com/thesoftmoon'
 google_music: >-

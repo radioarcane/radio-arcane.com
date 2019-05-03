@@ -1,6 +1,6 @@
 ---
 title: DAF
-apple_music: 'https://itunes.apple.com/us/artist/daf/155797907'
+apple_music: 'https://itunes.apple.com/artist/daf/155797907'
 bandcamp: ''
 facebook: 'https://www.facebook.com/DASISTDAF'
 google_music: >-

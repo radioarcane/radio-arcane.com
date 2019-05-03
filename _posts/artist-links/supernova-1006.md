@@ -1,6 +1,6 @@
 ---
 title: Supernova 1006
-apple_music: 'https://itunes.apple.com/us/artist/supernova-1006/1059724300'
+apple_music: 'https://itunes.apple.com/artist/supernova-1006/1059724300'
 bandcamp: 'https://supernova1006.bandcamp.com'
 facebook: 'https://www.facebook.com/sn1006band'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Hapax
-apple_music: 'https://itunes.apple.com/us/artist/hapax/81021187'
+apple_music: 'https://itunes.apple.com/artist/hapax/81021187'
 bandcamp: 'https://hapax.bandcamp.com'
 facebook: 'https://www.facebook.com/hapaxband'
 google_music: >-

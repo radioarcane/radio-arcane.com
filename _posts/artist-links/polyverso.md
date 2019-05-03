@@ -1,6 +1,6 @@
 ---
 title: Polyverso
-apple_music: 'https://itunes.apple.com/us/artist/polyverso/1450788780'
+apple_music: 'https://itunes.apple.com/artist/polyverso/1450788780'
 bandcamp: 'https://swissdarknights.bandcamp.com/album/antagonista'
 facebook: 'https://www.facebook.com/polyverso'
 google_music: >-

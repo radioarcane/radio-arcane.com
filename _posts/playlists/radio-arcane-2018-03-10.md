@@ -41,7 +41,7 @@ sets:
         song: Ghostwolves
       - artist: Dick Dale
         song: Night Rider
-      - artist: Jane Rose & The Dead End Boys
+      - artist: Jane Rose & The Deadend Boys
         song: Wrong Kind of Guy
       - artist: The Bellwether Syndicate
         song: 101 Go
@@ -84,4 +84,3 @@ sets:
         song: Opening
     type: dj_set
 ---
-

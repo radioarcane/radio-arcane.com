@@ -1,6 +1,6 @@
 ---
 title: Lestat
-apple_music: 'https://itunes.apple.com/us/artist/lestat/412581372'
+apple_music: 'https://itunes.apple.com/artist/lestat/412581372'
 bandcamp: ''
 facebook: 'https://www.facebook.com/thebandlestat'
 google_music: >-

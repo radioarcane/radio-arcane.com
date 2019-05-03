@@ -1,6 +1,6 @@
 ---
 title: Peter Murphy
-apple_music: 'https://itunes.apple.com/us/artist/peter-murphy/3023019'
+apple_music: 'https://itunes.apple.com/artist/peter-murphy/3023019'
 bandcamp: 'https://petermurphy.bandcamp.com'
 facebook: 'https://www.facebook.com/petermurphyinfo'
 google_music: >-

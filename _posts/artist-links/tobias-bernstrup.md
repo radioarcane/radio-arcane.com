@@ -1,6 +1,6 @@
 ---
 title: Tobias Bernstrup
-apple_music: 'https://itunes.apple.com/us/artist/tobias-bernstrup/273857646'
+apple_music: 'https://itunes.apple.com/artist/tobias-bernstrup/273857646'
 bandcamp: ''
 facebook: 'https://www.facebook.com/TOBIASBERNSTRUPOfficial'
 google_music: >-

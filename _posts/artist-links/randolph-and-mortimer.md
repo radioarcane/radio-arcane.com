@@ -1,6 +1,6 @@
 ---
 title: Randolph & Mortimer
-apple_music: 'https://itunes.apple.com/us/artist/randolph-mortimer/375558277'
+apple_music: 'https://itunes.apple.com/artist/randolph-mortimer/375558277'
 bandcamp: 'https://randolphandmortimer.bandcamp.com'
 facebook: 'https://www.facebook.com/randolphandMortimer'
 google_music: >-

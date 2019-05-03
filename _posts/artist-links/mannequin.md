@@ -1,6 +1,6 @@
 ---
 title: Mannequin
-apple_music: 'https://itunes.apple.com/gb/artist/mannequin/1437098249'
+apple_music: 'https://itunes.apple.com/artist/mannequin/1437098249'
 bandcamp: 'https://mannequinwave.bandcamp.com'
 facebook: 'https://www.facebook.com/mannequinwave'
 google_music: >-

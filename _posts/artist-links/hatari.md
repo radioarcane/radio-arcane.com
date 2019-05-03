@@ -1,6 +1,6 @@
 ---
 title: Hatari
-apple_music: 'https://itunes.apple.com/us/artist/hatari/1416991459'
+apple_music: 'https://itunes.apple.com/artist/hatari/1416991459'
 bandcamp: 'https://svikamylla.bandcamp.com'
 facebook: 'https://www.facebook.com/hatridmunsigra'
 google_music: >-

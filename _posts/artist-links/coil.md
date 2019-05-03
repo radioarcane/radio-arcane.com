@@ -1,6 +1,6 @@
 ---
 title: Coil
-apple_music: 'https://itunes.apple.com/us/artist/coil/68730256'
+apple_music: 'https://itunes.apple.com/artist/coil/68730256'
 bandcamp: ''
 facebook: ''
 google_music: >-
@@ -9,6 +9,6 @@ instagram: ''
 soundcloud: ''
 spotify: 'https://open.spotify.com/artist/37KB5e6cGsN1AQAB9Omm1U'
 twitter: ''
-website: ''
+website: 'https://threshold.greedbag.com'
 youtube: ''
 ---

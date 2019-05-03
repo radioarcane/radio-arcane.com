@@ -1,6 +1,6 @@
 ---
 title: The Sisters of Mercy
-apple_music: 'https://itunes.apple.com/us/artist/the-sisters-of-mercy/702929'
+apple_music: 'https://itunes.apple.com/artist/the-sisters-of-mercy/702929'
 bandcamp: ''
 facebook: 'https://www.facebook.com/The-Sisters-of-Mercy-177815568936488'
 google_music: >-

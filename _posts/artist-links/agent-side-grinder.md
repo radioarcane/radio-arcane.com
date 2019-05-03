@@ -1,6 +1,6 @@
 ---
 title: Agent Side Grinder
-apple_music: 'https://itunes.apple.com/us/artist/agent-side-grinder/394951673'
+apple_music: 'https://itunes.apple.com/artist/agent-side-grinder/394951673'
 bandcamp: 'https://agentsidegrinder.bandcamp.com'
 facebook: 'https://www.facebook.com/agentsidegrinder'
 google_music: >-

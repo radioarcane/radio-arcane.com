@@ -1,6 +1,6 @@
 ---
 title: Eleven Pond
-apple_music: 'https://itunes.apple.com/us/artist/eleven-pond/352972274'
+apple_music: 'https://itunes.apple.com/artist/eleven-pond/352972274'
 bandcamp: 'https://elevenpond.bandcamp.com'
 facebook: 'https://www.facebook.com/ElevenPond'
 google_music: >-

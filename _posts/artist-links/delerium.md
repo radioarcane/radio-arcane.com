@@ -1,6 +1,6 @@
 ---
 title: Delerium
-apple_music: 'https://itunes.apple.com/us/artist/delerium/2156106'
+apple_music: 'https://itunes.apple.com/artist/delerium/2156106'
 bandcamp: 'https://delerium-official.bandcamp.com'
 facebook: 'https://www.facebook.com/Delerium'
 google_music: >-

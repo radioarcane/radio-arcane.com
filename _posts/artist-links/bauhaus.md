@@ -1,6 +1,6 @@
 ---
 title: Bauhaus
-apple_music: 'https://itunes.apple.com/us/artist/bauhaus/93888'
+apple_music: 'https://itunes.apple.com/artist/bauhaus/93888'
 bandcamp: 'https://bauhaus.bandcamp.com'
 facebook: 'https://www.facebook.com/BauhausOfficial'
 google_music: >-

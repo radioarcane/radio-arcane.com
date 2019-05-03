@@ -1,6 +1,6 @@
 ---
 title: Sixth June
-apple_music: 'https://itunes.apple.com/us/artist/sixth-june/439533183'
+apple_music: 'https://itunes.apple.com/artist/sixth-june/439533183'
 bandcamp: 'https://sixthjune.bandcamp.com'
 facebook: 'https://www.facebook.com/sixthjunemusic'
 google_music: >-

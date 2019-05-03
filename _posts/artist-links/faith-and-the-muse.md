@@ -1,6 +1,6 @@
 ---
 title: Faith & The Muse
-apple_music: 'https://itunes.apple.com/us/artist/faith-and-the-muse/54061123'
+apple_music: 'https://itunes.apple.com/artist/faith-and-the-muse/54061123'
 bandcamp: 'https://faithandthemuse.bandcamp.com'
 facebook: 'https://www.facebook.com/Faith-And-The-Muse-32674562356'
 google_music: >-

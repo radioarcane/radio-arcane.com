@@ -1,6 +1,6 @@
 ---
 title: V▲LH▲LL
-apple_music: 'https://itunes.apple.com/us/artist/valhall/329611296'
+apple_music: 'https://itunes.apple.com/artist/valhall/329611296'
 bandcamp: 'https://vlhll.bandcamp.com'
 facebook: 'https://www.facebook.com/vxlhxll'
 google_music: >-

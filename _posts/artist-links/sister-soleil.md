@@ -1,6 +1,6 @@
 ---
 title: Sister Soleil
-apple_music: ''
+apple_music: 'https://itunes.apple.com/artist/sister-soleil/34765'
 bandcamp: 'https://sistersoleil1.bandcamp.com'
 facebook: 'https://www.facebook.com/sistersoleil'
 google_music: >-

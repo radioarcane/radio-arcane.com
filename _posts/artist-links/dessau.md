@@ -1,6 +1,6 @@
 ---
 title: Dessau
-apple_music: 'https://itunes.apple.com/us/artist/dessau/78978629'
+apple_music: 'https://itunes.apple.com/artist/dessau/78978629'
 bandcamp: ''
 facebook: ''
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: John Maus
-apple_music: 'https://itunes.apple.com/us/artist/john-maus/423445122'
+apple_music: 'https://itunes.apple.com/artist/john-maus/423445122'
 bandcamp: 'https://johnmaus.bandcamp.com'
 facebook: 'https://www.facebook.com/John-Maus-141499528174'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Egoprisme
-apple_music: 'https://itunes.apple.com/us/artist/egoprisme/1341118438'
+apple_music: 'https://itunes.apple.com/artist/egoprisme/1341118438'
 bandcamp: 'https://egoprisme.bandcamp.com'
 facebook: 'https://www.facebook.com/egoprisme'
 google_music: >-

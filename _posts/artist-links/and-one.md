@@ -1,6 +1,6 @@
 ---
 title: And One
-apple_music: 'https://itunes.apple.com/us/artist/and-one/493074464'
+apple_music: 'https://itunes.apple.com/artist/and-one/493074464'
 bandcamp: ''
 facebook: 'https://www.facebook.com/ANDONEoffiziell'
 google_music: >-

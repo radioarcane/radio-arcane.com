@@ -1,14 +1,14 @@
 ---
 title: Dance With The Dead
-apple_music: ''
-bandcamp: ''
-facebook: ''
+apple_music: 'https://itunes.apple.com/artist/dance-with-the-dead/1023072870'
+bandcamp: 'https://dancewiththedead.bandcamp.com'
+facebook: 'https://www.facebook.com/dancewiththedeadmusic'
 google_music: >-
    https://play.google.com/store/music/artist/Dance_with_the_Dead?id=Acdvdfajav656htdiwvp256k6ae
-instagram: ''
-soundcloud: ''
+instagram: 'https://www.instagram.com/dwtd'
+soundcloud: 'https://soundcloud.com/dancewiththedead'
 spotify: 'https://open.spotify.com/artist/2KtnZQwMQJN3uyI8eHZRvm'
-twitter: ''
+twitter: 'https://twitter.com/DWTDmusic'
 website: ''
 youtube: ''
 ---

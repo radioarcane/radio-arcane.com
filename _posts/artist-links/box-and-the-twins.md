@@ -1,6 +1,6 @@
 ---
 title: Box & The Twins
-apple_music: 'https://itunes.apple.com/us/artist/box-and-the-twins/956891450'
+apple_music: 'https://itunes.apple.com/artist/box-and-the-twins/956891450'
 bandcamp: 'https://boxandthetwins.bandcamp.com'
 facebook: 'https://www.facebook.com/boxandthetwins'
 google_music: >-

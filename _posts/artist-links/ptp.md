@@ -1,6 +1,6 @@
 ---
 title: PTP
-apple_music: ''
+apple_music: 'https://itunes.apple.com/artist/ptp/27062057'
 bandcamp: ''
 facebook: ''
 google_music: >-

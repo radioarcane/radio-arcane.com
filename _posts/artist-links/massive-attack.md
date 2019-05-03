@@ -1,6 +1,6 @@
 ---
 title: Massive Attack
-apple_music: 'https://itunes.apple.com/us/artist/massive-attack/526404'
+apple_music: 'https://itunes.apple.com/artist/massive-attack/526404'
 bandcamp: ''
 facebook: 'https://www.facebook.com/massiveattack'
 google_music: >-

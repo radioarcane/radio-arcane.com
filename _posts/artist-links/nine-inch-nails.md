@@ -1,6 +1,6 @@
 ---
 title: Nine Inch Nails
-apple_music: 'https://itunes.apple.com/us/artist/nine-inch-nails/107917'
+apple_music: 'https://itunes.apple.com/artist/nine-inch-nails/107917'
 bandcamp: ''
 facebook: 'https://www.facebook.com/ninofficial'
 google_music: >-

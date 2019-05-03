@@ -1,6 +1,6 @@
 ---
 title: Geometric Vision
-apple_music: 'https://itunes.apple.com/us/artist/geometric-vision/1111666576'
+apple_music: 'https://itunes.apple.com/artist/geometric-vision/1111666576'
 bandcamp: 'https://geometricvisionband.bandcamp.com'
 facebook: 'https://www.facebook.com/GeometricVision'
 google_music: >-

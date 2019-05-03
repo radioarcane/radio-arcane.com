@@ -1,6 +1,6 @@
 ---
 title: Orphx
-apple_music: 'https://itunes.apple.com/us/artist/orphx/159330136'
+apple_music: 'https://itunes.apple.com/artist/orphx/159330136'
 bandcamp: 'https://orphx.bandcamp.com'
 facebook: 'https://www.facebook.com/orphx'
 google_music: >-

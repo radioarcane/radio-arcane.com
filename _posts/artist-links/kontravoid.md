@@ -1,6 +1,6 @@
 ---
 title: Kontravoid
-apple_music: 'https://itunes.apple.com/ca/artist/kontravoid/421174677'
+apple_music: 'https://itunes.apple.com/artist/kontravoid/421174677'
 bandcamp: 'https://kontravoid.bandcamp.com'
 facebook: 'https://www.facebook.com/kontravoid'
 google_music: >-

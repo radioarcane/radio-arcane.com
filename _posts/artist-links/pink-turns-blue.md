@@ -1,6 +1,6 @@
 ---
 title: Pink Turns Blue
-apple_music: 'https://itunes.apple.com/us/artist/pink-turns-blue/49237864'
+apple_music: 'https://itunes.apple.com/artist/pink-turns-blue/49237864'
 bandcamp: ''
 facebook: 'https://www.facebook.com/Pink.Turns.Blue.Official'
 google_music: >-

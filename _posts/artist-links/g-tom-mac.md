@@ -1,13 +1,14 @@
 ---
 title: G Tom Mac
-apple_music: ''
+apple_music: 'https://itunes.apple.com/artist/g-tom-mac/68999515'
 bandcamp: ''
-facebook: ''
-google_music: ''
-instagram: ''
+facebook: 'https://www.facebook.com/gtommac'
+google_music: >-
+   https://play.google.com/store/music/artist?id=Auofe6xm6kydanmt2g2q5tizuka
+instagram: 'https://www.instagram.com/gtommac'
 soundcloud: ''
-spotify: ''
-twitter: ''
+spotify: 'https://open.spotify.com/artist/0LmQJh7Klaxw546zRVaAMC'
+twitter: 'https://twitter.com/gtommac'
 website: ''
 youtube: ''
 ---

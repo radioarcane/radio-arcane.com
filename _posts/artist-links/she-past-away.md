@@ -1,6 +1,6 @@
 ---
 title: She Past Away
-apple_music: 'https://itunes.apple.com/us/artist/she-past-away/347750887'
+apple_music: 'https://itunes.apple.com/artist/she-past-away/347750887'
 bandcamp: 'https://shepastawayofficial.bandcamp.com'
 facebook: 'https://www.facebook.com/shepastaway'
 google_music: >-

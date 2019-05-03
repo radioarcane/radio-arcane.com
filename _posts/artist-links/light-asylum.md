@@ -1,6 +1,6 @@
 ---
 title: Light Asylum
-apple_music: 'https://itunes.apple.com/us/artist/light-asylum/433559884'
+apple_music: 'https://itunes.apple.com/artist/light-asylum/433559884'
 bandcamp: ''
 facebook: 'https://www.facebook.com/LIGHTASYLUM'
 google_music: >-

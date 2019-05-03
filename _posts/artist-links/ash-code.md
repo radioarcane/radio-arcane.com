@@ -1,6 +1,6 @@
 ---
 title: Ash Code
-apple_music: 'https://itunes.apple.com/us/artist/ash-code/925539065'
+apple_music: 'https://itunes.apple.com/artist/ash-code/925539065'
 bandcamp: 'https://ashcode.bandcamp.com'
 facebook: 'https://www.facebook.com/ashcodemusic'
 google_music: >-

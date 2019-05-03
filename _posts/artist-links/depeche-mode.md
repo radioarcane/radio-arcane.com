@@ -1,6 +1,6 @@
 ---
 title: Depeche Mode
-apple_music: 'https://itunes.apple.com/us/artist/depeche-mode/148377'
+apple_music: 'https://itunes.apple.com/artist/depeche-mode/148377'
 bandcamp: ''
 facebook: 'https://www.facebook.com/depechemode'
 google_music: >-

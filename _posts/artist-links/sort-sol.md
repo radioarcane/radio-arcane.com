@@ -1,6 +1,6 @@
 ---
 title: Sort Sol
-apple_music: 'https://itunes.apple.com/ca/artist/sort-sol/14407005'
+apple_music: 'https://itunes.apple.com/artist/sort-sol/14407005'
 bandcamp: ''
 facebook: 'https://www.facebook.com/sortsolcph'
 google_music: >-

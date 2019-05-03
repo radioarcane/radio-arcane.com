@@ -1,6 +1,6 @@
 ---
 title: Front 242
-apple_music: 'https://itunes.apple.com/us/artist/front-242/484849'
+apple_music: 'https://itunes.apple.com/artist/front-242/484849'
 bandcamp: ''
 facebook: 'https://www.facebook.com/Front.242'
 google_music: >-

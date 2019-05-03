@@ -1,6 +1,6 @@
 ---
 title: Ssleeping DesiresS
-apple_music: 'https://itunes.apple.com/us/artist/ssleeping-desiress/553125243'
+apple_music: 'https://itunes.apple.com/artist/ssleeping-desiress/553125243'
 bandcamp: 'https://ssleepingdesiress.bandcamp.com'
 facebook: 'https://www.facebook.com/SleepingDesires'
 google_music: >-

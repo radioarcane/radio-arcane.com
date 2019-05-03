@@ -1,6 +1,6 @@
 ---
 title: Tearful Moon
-apple_music: 'https://itunes.apple.com/us/artist/tearful-moon/1178977711'
+apple_music: 'https://itunes.apple.com/artist/tearful-moon/1178977711'
 bandcamp: 'https://tearfulmoon.bandcamp.com'
 facebook: 'https://www.facebook.com/ManuelandSky'
 google_music: >-

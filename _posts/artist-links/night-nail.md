@@ -1,6 +1,6 @@
 ---
 title: Night Nail
-apple_music: 'https://itunes.apple.com/us/album/night-nail-ep/id1194334889'
+apple_music: 'https://itunes.apple.com/album/night-nail-ep/id1194334889'
 bandcamp: 'https://music.nightnail.com'
 facebook: 'https://www.facebook.com/nightnailmusic'
 google_music: >-

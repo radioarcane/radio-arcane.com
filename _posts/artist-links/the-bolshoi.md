@@ -1,6 +1,6 @@
 ---
 title: The Bolshoi
-apple_music: 'https://itunes.apple.com/us/artist/the-bolshoi/3025067'
+apple_music: 'https://itunes.apple.com/artist/the-bolshoi/3025067'
 bandcamp: ''
 facebook: 'https://www.facebook.com/thebolshoi'
 google_music: >-

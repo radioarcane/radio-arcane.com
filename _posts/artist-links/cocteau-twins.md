@@ -1,6 +1,6 @@
 ---
 title: Cocteau Twins
-apple_music: 'https://itunes.apple.com/us/artist/cocteau-twins/3029779'
+apple_music: 'https://itunes.apple.com/artist/cocteau-twins/3029779'
 bandcamp: ''
 facebook: 'https://www.facebook.com/ctwins'
 google_music: >-

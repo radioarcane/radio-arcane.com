@@ -1,6 +1,6 @@
 ---
 title: Major Parkinson
-apple_music: 'https://itunes.apple.com/us/artist/major-parkinson/280812994'
+apple_music: 'https://itunes.apple.com/artist/major-parkinson/280812994'
 bandcamp: 'https://majorparkinson.bandcamp.com'
 facebook: 'https://www.facebook.com/majorparkinson'
 google_music: >-

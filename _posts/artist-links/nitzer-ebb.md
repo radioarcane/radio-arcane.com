@@ -1,6 +1,6 @@
 ---
 title: Nitzer Ebb
-apple_music: 'https://itunes.apple.com/us/artist/nitzer-ebb/113752'
+apple_music: 'https://itunes.apple.com/artist/nitzer-ebb/113752'
 bandcamp: ''
 facebook: 'https://www.facebook.com/NitzerEbbOfficial'
 google_music: >-

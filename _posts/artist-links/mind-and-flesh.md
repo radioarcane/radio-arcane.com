@@ -1,6 +1,6 @@
 ---
 title: Mind & Flesh
-apple_music: 'https://itunes.apple.com/us/artist/mind-flesh/1295237691'
+apple_music: 'https://itunes.apple.com/artist/mind-flesh/1295237691'
 bandcamp: 'https://mindflesh.bandcamp.com'
 facebook: 'https://www.facebook.com/mindxflesh'
 google_music: >-

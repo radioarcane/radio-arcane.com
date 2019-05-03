@@ -1,6 +1,6 @@
 ---
 title: Christian Death
-apple_music: 'https://itunes.apple.com/us/artist/christian-death/6550137'
+apple_music: 'https://itunes.apple.com/artist/christian-death/6550137'
 bandcamp: ''
 facebook: 'https://www.facebook.com/christiandeath'
 google_music: >-

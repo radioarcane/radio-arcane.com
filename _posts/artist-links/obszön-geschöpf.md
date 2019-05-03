@@ -1,6 +1,6 @@
 ---
 title: Obszön Geschöpf
-apple_music: 'https://itunes.apple.com/us/artist//159223914'
+apple_music: 'https://itunes.apple.com/artist//159223914'
 bandcamp: ''
 facebook: 'https://www.facebook.com/ObszonGeschopfOfficial'
 google_music: >-

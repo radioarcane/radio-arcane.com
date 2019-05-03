@@ -1,6 +1,6 @@
 ---
 title: The Church
-apple_music: 'https://itunes.apple.com/us/artist/the-church/395041'
+apple_music: 'https://itunes.apple.com/artist/the-church/395041'
 bandcamp: ''
 facebook: 'https://www.facebook.com/thechurchband'
 google_music: >-

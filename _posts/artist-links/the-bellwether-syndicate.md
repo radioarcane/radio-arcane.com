@@ -1,6 +1,6 @@
 ---
 title: The Bellwether Syndicate
-apple_music: 'https://itunes.apple.com/us/artist/the-bellwether-syndicate/598396813'
+apple_music: 'https://itunes.apple.com/artist/the-bellwether-syndicate/598396813'
 bandcamp: 'https://thebellwethersyndicate.bandcamp.com'
 facebook: 'https://www.facebook.com/thebellwethersyndicate'
 google_music: >-

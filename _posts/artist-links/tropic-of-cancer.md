@@ -1,6 +1,6 @@
 ---
 title: Tropic of Cancer
-apple_music: 'https://itunes.apple.com/us/artist/tropic-of-cancer/435675869'
+apple_music: 'https://itunes.apple.com/artist/tropic-of-cancer/435675869'
 bandcamp: 'https://tropicofcancer.bandcamp.com'
 facebook: 'https://www.facebook.com/tropicofcancerband'
 google_music: >-

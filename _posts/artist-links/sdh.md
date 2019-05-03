@@ -1,6 +1,6 @@
 ---
 title: SDH (Semiotics Department of Heteronyms)
-apple_music: 'https://itunes.apple.com/us/artist/sdh-semiotics-department-of-heteronyms/1353734794'
+apple_music: 'https://itunes.apple.com/artist/sdh-semiotics-department-of-heteronyms/1353734794'
 bandcamp: 'https://semioticsdepartmentofheteronyms.bandcamp.com'
 facebook: 'https://www.facebook.com/semioticsdepartmentofheteronyms'
 google_music: >-

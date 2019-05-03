@@ -1,6 +1,6 @@
 ---
 title: The Hacker
-apple_music: 'https://itunes.apple.com/us/artist/the-hacker/3087953'
+apple_music: 'https://itunes.apple.com/artist/the-hacker/3087953'
 bandcamp: 'https://the--hacker.bandcamp.com'
 facebook: 'https://www.facebook.com/DJTheHacker'
 google_music: >-

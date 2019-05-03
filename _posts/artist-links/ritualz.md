@@ -1,6 +1,6 @@
 ---
 title: Ritualz
-apple_music: 'https://itunes.apple.com/us/artist/ritualz/443924470'
+apple_music: 'https://itunes.apple.com/artist/ritualz/443924470'
 bandcamp: 'https://ritualz.bandcamp.com'
 facebook: 'https://www.facebook.com/rrritualzzz'
 google_music: >-

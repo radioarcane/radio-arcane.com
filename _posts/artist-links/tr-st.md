@@ -1,6 +1,6 @@
 ---
 title: TR/ST
-apple_music: 'https://itunes.apple.com/us/artist/tr-st/610791694'
+apple_music: 'https://itunes.apple.com/artist/tr-st/610791694'
 bandcamp: 'https://trstmusic.bandcamp.com'
 facebook: 'https://www.facebook.com/dressedforspace'
 google_music: >-

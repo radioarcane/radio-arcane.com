@@ -1,6 +1,6 @@
 ---
 title: Death Bells
-apple_music: 'https://itunes.apple.com/ca/artist/death-bells/1108795237'
+apple_music: 'https://itunes.apple.com/artist/death-bells/1108795237'
 bandcamp: 'https://deathbells-au.bandcamp.com'
 facebook: 'https://www.facebook.com/bellsofdeath'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: New Order
-apple_music: 'https://itunes.apple.com/gb/artist/new-order/176722'
+apple_music: 'https://itunes.apple.com/artist/new-order/176722'
 bandcamp: ''
 facebook: 'https://www.facebook.com/NewOrderOfficial'
 google_music: >-

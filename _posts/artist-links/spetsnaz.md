@@ -1,6 +1,6 @@
 ---
 title: Spetsnaz
-apple_music: 'https://itunes.apple.com/us/artist/spetsnaz/128502790'
+apple_music: 'https://itunes.apple.com/artist/spetsnaz/128502790'
 bandcamp: ''
 facebook: 'https://www.facebook.com/SPETSNAZ-23395943282'
 google_music: >-

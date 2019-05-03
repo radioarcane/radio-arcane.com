@@ -1,6 +1,6 @@
 ---
 title: O. Children
-apple_music: 'https://itunes.apple.com/us/artist/o-children/327231178'
+apple_music: 'https://itunes.apple.com/artist/o-children/327231178'
 bandcamp: 'https://ochildren.bandcamp.com'
 facebook: 'https://www.facebook.com/ochildren'
 google_music: >-

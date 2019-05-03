@@ -1,6 +1,6 @@
 ---
 title: Selofan
-apple_music: 'https://itunes.apple.com/us/artist/selofan/792070333'
+apple_music: 'https://itunes.apple.com/artist/selofan/792070333'
 bandcamp: 'https://selofan.bandcamp.com'
 facebook: 'https://www.facebook.com/selofan.funpage'
 google_music: >-

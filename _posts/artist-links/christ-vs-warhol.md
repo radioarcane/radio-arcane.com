@@ -1,6 +1,6 @@
 ---
 title: Christ vs. Warhol
-apple_music: 'https://itunes.apple.com/us/artist/christ-vs-warhol/369307012'
+apple_music: 'https://itunes.apple.com/artist/christ-vs-warhol/369307012'
 bandcamp: 'https://christvswarhol.bandcamp.com'
 facebook: 'https://www.facebook.com/christvswarhol'
 google_music: >-

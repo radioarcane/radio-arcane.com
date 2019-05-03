@@ -1,6 +1,6 @@
 ---
 title: Skeleton Hands
-apple_music: 'https://itunes.apple.com/us/artist/skeleton-hands/485625864'
+apple_music: 'https://itunes.apple.com/artist/skeleton-hands/485625864'
 bandcamp: 'https://skeletonhands.bandcamp.com'
 facebook: 'https://www.facebook.com/zkeletonhandz'
 google_music: >-

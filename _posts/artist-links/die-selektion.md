@@ -1,6 +1,6 @@
 ---
 title: Die Selektion
-apple_music: 'https://itunes.apple.com/ca/artist/die-selektion/1158899958'
+apple_music: 'https://itunes.apple.com/artist/die-selektion/1158899958'
 bandcamp: 'https://aufnahmeundwiedergabe.bandcamp.com/album/deine-stimme-ist-der-ursprung-jeglicher-gewalt'
 facebook: 'https://www.facebook.com/selektionselektion'
 google_music: >-

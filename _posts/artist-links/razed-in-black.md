@@ -1,6 +1,6 @@
 ---
 title: Razed In Black
-apple_music: 'https://itunes.apple.com/us/artist/razed-in-black/110891165'
+apple_music: 'https://itunes.apple.com/artist/razed-in-black/110891165'
 bandcamp: 'https://razedinblack.bandcamp.com'
 facebook: 'https://www.facebook.com/razedinblackofficial'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Unur
-apple_music: 'https://itunes.apple.com/us/artist/unur/415126032'
+apple_music: 'https://itunes.apple.com/artist/unur/415126032'
 bandcamp: 'https://moderntapes.bandcamp.com/album/no-human-self'
 facebook: 'https://www.facebook.com/uunnuurr'
 google_music: >-

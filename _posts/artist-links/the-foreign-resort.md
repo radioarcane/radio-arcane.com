@@ -1,6 +1,6 @@
 ---
 title: The Foreign Resort
-apple_music: 'https://itunes.apple.com/us/artist/the-foreign-resort/282292289'
+apple_music: 'https://itunes.apple.com/artist/the-foreign-resort/282292289'
 bandcamp: 'https://theforeignresort.bandcamp.com'
 facebook: 'https://www.facebook.com/theforeignresort'
 google_music: >-

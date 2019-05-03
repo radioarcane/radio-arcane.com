@@ -1,6 +1,6 @@
 ---
 title: White Ring
-apple_music: 'https://itunes.apple.com/us/artist/white-ring/362308261'
+apple_music: 'https://itunes.apple.com/artist/white-ring/362308261'
 bandcamp: 'https://whitering.bandcamp.com'
 facebook: 'https://www.facebook.com/whitering999'
 google_music: >-

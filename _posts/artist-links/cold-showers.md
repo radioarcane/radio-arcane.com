@@ -1,6 +1,6 @@
 ---
 title: Cold Showers
-apple_music: 'https://itunes.apple.com/us/artist/cold-showers/436698542'
+apple_music: 'https://itunes.apple.com/artist/cold-showers/436698542'
 bandcamp: 'https://coldshowers.bandcamp.com'
 facebook: 'https://www.facebook.com/coldshowersband'
 google_music: >-

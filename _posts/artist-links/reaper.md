@@ -1,6 +1,6 @@
 ---
 title: Reaper
-apple_music: 'https://itunes.apple.com/us/artist/reaper/941230924'
+apple_music: 'https://itunes.apple.com/artist/reaper/941230924'
 bandcamp: ''
 facebook: ''
 google_music: >-

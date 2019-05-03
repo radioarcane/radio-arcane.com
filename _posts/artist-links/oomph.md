@@ -1,6 +1,6 @@
 ---
 title: Oomph!
-apple_music: 'https://itunes.apple.com/us/artist/oomph/19608482'
+apple_music: 'https://itunes.apple.com/artist/oomph/19608482'
 bandcamp: 'https://oomph.bandcamp.com'
 facebook: 'https://www.facebook.com/oomphband'
 google_music: >-

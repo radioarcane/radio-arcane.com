@@ -1,6 +1,6 @@
 ---
 title: 2nd Face
-apple_music: 'https://itunes.apple.com/us/artist/2nd-face/978470841'
+apple_music: 'https://itunes.apple.com/artist/2nd-face/978470841'
 bandcamp: 'https://2ndface.bandcamp.com'
 facebook: 'https://www.facebook.com/iindface'
 google_music: >-

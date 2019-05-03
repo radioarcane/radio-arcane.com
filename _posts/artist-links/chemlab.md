@@ -1,6 +1,6 @@
 ---
 title: Chemlab
-apple_music: 'https://itunes.apple.com/us/artist/chemlab/44136935'
+apple_music: 'https://itunes.apple.com/artist/chemlab/44136935'
 bandcamp: ''
 facebook: 'https://www.facebook.com/CHEMLAB-118257537762'
 google_music: >-

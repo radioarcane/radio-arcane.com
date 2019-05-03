@@ -1,6 +1,6 @@
 ---
 title: The Danse Society
-apple_music: 'https://itunes.apple.com/us/artist/danse-society/217732223'
+apple_music: 'https://itunes.apple.com/artist/danse-society/217732223'
 bandcamp: 'https://dansesociety.bandcamp.com'
 facebook: 'https://www.facebook.com/thedansesociety'
 google_music: >-

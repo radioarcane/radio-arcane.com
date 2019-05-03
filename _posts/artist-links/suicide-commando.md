@@ -1,6 +1,6 @@
 ---
 title: Suicide Commando
-apple_music: 'https://itunes.apple.com/us/artist/suicide-commando/21327758'
+apple_music: 'https://itunes.apple.com/artist/suicide-commando/21327758'
 bandcamp: 'https://suicidecommandometro.bandcamp.com'
 facebook: 'https://www.facebook.com/IIXIII'
 google_music: >-

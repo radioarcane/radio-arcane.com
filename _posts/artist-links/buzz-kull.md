@@ -1,6 +1,6 @@
 ---
 title: Buzz Kull
-apple_music: 'https://itunes.apple.com/us/artist/buzz-kull/653685310'
+apple_music: 'https://itunes.apple.com/artist/buzz-kull/653685310'
 bandcamp: 'https://buzzkull.bandcamp.com'
 facebook: 'https://www.facebook.com/buzzkull'
 google_music: >-

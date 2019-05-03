@@ -1,6 +1,6 @@
 ---
 title: Minuit Machine
-apple_music: 'https://itunes.apple.com/us/artist/minuit-machine/760648928'
+apple_music: 'https://itunes.apple.com/artist/minuit-machine/760648928'
 bandcamp: 'https://minuitmachine.bandcamp.com'
 facebook: 'https://www.facebook.com/minuitmachine'
 google_music: >-

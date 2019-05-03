@@ -1,6 +1,6 @@
 ---
 title: Stoppenberg
-apple_music: 'https://itunes.apple.com/us/artist/stoppenberg/833883552'
+apple_music: 'https://itunes.apple.com/artist/stoppenberg/833883552'
 bandcamp: ''
 facebook: 'https://www.facebook.com/stoppenbergmusic'
 google_music: ''

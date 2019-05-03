@@ -1,6 +1,6 @@
 ---
 title: Multiple Man
-apple_music: 'https://itunes.apple.com/us/artist/multiple-man/63090053'
+apple_music: 'https://itunes.apple.com/artist/multiple-man/63090053'
 bandcamp: 'https://multiple-man.bandcamp.com'
 facebook: 'https://www.facebook.com/multipleman'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Flesh Field
-apple_music: 'https://itunes.apple.com/us/artist/flesh-field/78988496'
+apple_music: 'https://itunes.apple.com/artist/flesh-field/78988496'
 bandcamp: ''
 facebook: 'https://www.facebook.com/club1261444'
 google_music: >-

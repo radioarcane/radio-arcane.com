@@ -1,6 +1,6 @@
 ---
 title: Equinoxious
-apple_music: 'https://itunes.apple.com/us/artist/equinoxious/1101266769'
+apple_music: 'https://itunes.apple.com/artist/equinoxious/1101266769'
 bandcamp: 'https://equinoxious.bandcamp.com'
 facebook: 'https://www.facebook.com/equinoxious'
 google_music: >-

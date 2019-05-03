@@ -29,7 +29,7 @@ sets:
         song: Lust
       - artist: Ultravox
         song: Dancing With Tears In My Eyes
-      - artist: Ashton Nye
+      - artist: Ashton Nyte
         song: The Crying Game
       - artist: Drab Majesty
         song: Induction / Dot In The Sky
@@ -130,4 +130,3 @@ sets:
         song: Apathy
     type: dj_set
 ---
-

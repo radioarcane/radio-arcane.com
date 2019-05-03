@@ -1,6 +1,6 @@
 ---
 title: Regenerator
-apple_music: 'https://itunes.apple.com/us/artist/regenerator/4370551'
+apple_music: 'https://itunes.apple.com/artist/regenerator/4370551'
 bandcamp: 'https://regenerator.bandcamp.com'
 facebook: 'https://www.facebook.com/REGENERATOR-70774280187'
 google_music: >-

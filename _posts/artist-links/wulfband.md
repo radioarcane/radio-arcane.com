@@ -1,6 +1,6 @@
 ---
 title: Wulfband
-apple_music: 'https://itunes.apple.com/us/artist/wulfband/930110407'
+apple_music: 'https://itunes.apple.com/artist/wulfband/930110407'
 bandcamp: 'https://wulfband.bandcamp.com'
 facebook: 'https://www.facebook.com/Wulfband-684108748299493'
 google_music: >-

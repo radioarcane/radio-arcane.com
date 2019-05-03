@@ -1,6 +1,6 @@
 ---
 title: Gary Numan
-apple_music: 'https://itunes.apple.com/us/artist/gary-numan/2780160'
+apple_music: 'https://itunes.apple.com/artist/gary-numan/2780160'
 bandcamp: ''
 facebook: 'https://www.facebook.com/GaryNumanOfficial'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Fuck Buttons
-apple_music: 'https://itunes.apple.com/us/artist/fuck-buttons/266606878'
+apple_music: 'https://itunes.apple.com/artist/fuck-buttons/266606878'
 bandcamp: ''
 facebook: 'https://www.facebook.com/F-Buttons-328461343853034'
 google_music: >-

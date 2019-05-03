@@ -1,6 +1,6 @@
 ---
 title: Trashlight
-apple_music: 'https://itunes.apple.com/us/artist/trashlight/1436414497'
+apple_music: 'https://itunes.apple.com/artist/trashlight/1436414497'
 bandcamp: 'https://trashlight.bandcamp.com'
 facebook: 'https://www.facebook.com/trashlightofficial'
 google_music: >-

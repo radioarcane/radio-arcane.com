@@ -1,6 +1,6 @@
 ---
 title: Velvet Acid Christ
-apple_music: 'https://itunes.apple.com/tr/artist/velvet-acid-christ/56221127'
+apple_music: 'https://itunes.apple.com/artist/velvet-acid-christ/56221127'
 bandcamp: 'https://velvetacidchristofficial.bandcamp.com'
 facebook: 'https://www.facebook.com/VelvetAcidChristOfficial'
 google_music: >-

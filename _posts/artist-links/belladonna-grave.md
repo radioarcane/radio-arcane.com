@@ -1,6 +1,6 @@
 ---
 title: Belladonna Grave
-apple_music: 'https://itunes.apple.com/us/artist/belladonna-grave/1445372728'
+apple_music: 'https://itunes.apple.com/artist/belladonna-grave/1445372728'
 bandcamp: 'https://belladonnagrave.bandcamp.com'
 facebook: 'https://www.facebook.com/belladonnagrave'
 google_music: >-

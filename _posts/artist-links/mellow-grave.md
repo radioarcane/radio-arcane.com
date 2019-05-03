@@ -1,6 +1,6 @@
 ---
 title: Mellow Grave
-apple_music: 'https://itunes.apple.com/us/artist/mellow-grave/473025933'
+apple_music: 'https://itunes.apple.com/artist/mellow-grave/473025933'
 bandcamp: 'https://mellowgrave.bandcamp.com'
 facebook: 'https://www.facebook.com/MELLOWGRAVE'
 google_music: >-

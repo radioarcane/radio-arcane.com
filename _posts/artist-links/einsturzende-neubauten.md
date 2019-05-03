@@ -1,6 +1,6 @@
 ---
 title: Einstürzende Neubauten
-apple_music: 'https://itunes.apple.com/us/artist/einst%C3%BCrzende-neubauten/3716338'
+apple_music: 'https://itunes.apple.com/artist/einst%C3%BCrzende-neubauten/3716338'
 bandcamp: 'https://einstrzendeneubauten.bandcamp.com'
 facebook: 'https://www.facebook.com/EinstuerzendeNeubauten'
 google_music: >-

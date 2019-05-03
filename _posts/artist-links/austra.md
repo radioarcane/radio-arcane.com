@@ -1,6 +1,6 @@
 ---
 title: Austra
-apple_music: 'https://itunes.apple.com/us/artist/austra/409876334'
+apple_music: 'https://itunes.apple.com/artist/austra/409876334'
 bandcamp: 'https://austramusic.bandcamp.com'
 facebook: 'https://www.facebook.com/austraofficial'
 google_music: >-

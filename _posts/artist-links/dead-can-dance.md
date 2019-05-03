@@ -1,6 +1,6 @@
 ---
 title: Dead Can Dance
-apple_music: 'https://itunes.apple.com/us/artist/dead-can-dance/7576985'
+apple_music: 'https://itunes.apple.com/artist/dead-can-dance/7576985'
 bandcamp: ''
 facebook: 'https://www.facebook.com/DeadCanDanceOfficial'
 google_music: >-

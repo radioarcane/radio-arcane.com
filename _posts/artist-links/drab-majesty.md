@@ -1,6 +1,6 @@
 ---
 title: Drab Majesty
-apple_music: 'https://itunes.apple.com/us/artist/drab-majesty/979503193'
+apple_music: 'https://itunes.apple.com/artist/drab-majesty/979503193'
 bandcamp: 'https://drabmajesty.bandcamp.com'
 facebook: 'https://www.facebook.com/drabmajesty'
 google_music: >-

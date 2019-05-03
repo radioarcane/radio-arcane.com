@@ -1,6 +1,6 @@
 ---
 title: The Cure
-apple_music: 'https://itunes.apple.com/us/artist/the-cure/566519'
+apple_music: 'https://itunes.apple.com/artist/the-cure/566519'
 bandcamp: ''
 facebook: 'https://www.facebook.com/thecure'
 google_music: >-

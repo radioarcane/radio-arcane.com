@@ -1,6 +1,6 @@
 ---
 title: Ghost Twin
-apple_music: 'https://itunes.apple.com/us/artist/ghost-twin/990821745'
+apple_music: 'https://itunes.apple.com/artist/ghost-twin/990821745'
 bandcamp: 'https://ghosttwin.bandcamp.com'
 facebook: 'https://www.facebook.com/ghosttwin'
 google_music: >-

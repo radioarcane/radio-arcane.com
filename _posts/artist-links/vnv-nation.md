@@ -1,6 +1,6 @@
 ---
 title: VNV Nation
-apple_music: 'https://itunes.apple.com/us/artist/vnv-nation/49251259'
+apple_music: 'https://itunes.apple.com/artist/vnv-nation/49251259'
 bandcamp: 'https://vnvnation.bandcamp.com'
 facebook: 'https://www.facebook.com/VNVNation'
 google_music: >-

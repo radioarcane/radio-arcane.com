@@ -1,6 +1,6 @@
 ---
 title: Tuxedomoon
-apple_music: 'https://itunes.apple.com/us/artist/tuxedomoon/18046883'
+apple_music: 'https://itunes.apple.com/artist/tuxedomoon/18046883'
 bandcamp: 'https://tuxedomoon.bandcamp.com'
 facebook: 'https://www.facebook.com/tuxmoco'
 google_music: >-

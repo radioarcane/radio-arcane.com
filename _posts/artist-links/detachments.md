@@ -1,6 +1,6 @@
 ---
 title: Detachments
-apple_music: 'https://itunes.apple.com/us/artist/detachments/286070070'
+apple_music: 'https://itunes.apple.com/artist/detachments/286070070'
 bandcamp: 'https://detachments.bandcamp.comx'
 facebook: 'https://www.facebook.com/Detachmentsmusic'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: C-Tec
-apple_music: ''
+apple_music: 'https://itunes.apple.com/artist/c-tec/169615176'
 bandcamp: ''
 facebook: ''
 google_music: >-

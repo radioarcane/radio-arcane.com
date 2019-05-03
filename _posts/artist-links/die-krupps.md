@@ -1,6 +1,6 @@
 ---
 title: Die Krupps
-apple_music: 'https://itunes.apple.com/us/artist/die-krupps/6516629'
+apple_music: 'https://itunes.apple.com/artist/die-krupps/6516629'
 bandcamp: 'https://diekrupps.bandcamp.com'
 facebook: 'https://www.facebook.com/diekruppsofficial'
 google_music: >-

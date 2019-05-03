@@ -1,6 +1,6 @@
 ---
 title: Tactical Sekt
-apple_music: 'https://itunes.apple.com/us/artist/tactical-sekt/121120598'
+apple_music: 'https://itunes.apple.com/artist/tactical-sekt/121120598'
 bandcamp: 'https://tacticalsekt.bandcamp.com'
 facebook: 'https://www.facebook.com/tacticalsekt'
 google_music: >-

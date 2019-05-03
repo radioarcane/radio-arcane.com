@@ -1,13 +1,14 @@
 ---
 title: Ultravox
-apple_music: ''
+apple_music: 'https://itunes.apple.com/artist/ultravox/13811422'
 bandcamp: ''
-facebook: ''
-google_music: ''
-instagram: ''
+facebook: 'https://www.facebook.com/UltravoxUK'
+google_music: >-
+   https://play.google.com/store/music/artist/Ultravox?id=Ayixewnlghqv2trv74sojfmfy2y
+instagram: 'https://www.instagram.com/ultravoxuk'
 soundcloud: ''
-spotify: ''
-twitter: ''
-website: ''
-youtube: ''
+spotify: 'https://open.spotify.com/artist/3iUjRVvYCsMfz7tuAQtBDI'
+twitter: 'https://twitter.com/UltravoxUK'
+website: 'http://www.ultravox.org.uk'
+youtube: 'https://www.youtube.com/channel/UCBO8jwBG41ifaORbTepTikw'
 ---

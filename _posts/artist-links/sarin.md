@@ -1,6 +1,6 @@
 ---
 title: SΛRIN
-apple_music: 'https://itunes.apple.com/us/artist/sarin/262869775'
+apple_music: 'https://itunes.apple.com/artist/sarin/262869775'
 bandcamp: 'https://x-img.bandcamp.com'
 facebook: 'https://www.facebook.com/sarinberlin'
 google_music: >-

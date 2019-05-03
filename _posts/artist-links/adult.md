@@ -1,6 +1,6 @@
 ---
 title: ADULT.
-apple_music: 'https://itunes.apple.com/us/artist/adult/3432062'
+apple_music: 'https://itunes.apple.com/artist/adult/3432062'
 bandcamp: 'https://adultmusic.bandcamp.com'
 facebook: 'https://www.facebook.com/adultperiod'
 google_music: >-

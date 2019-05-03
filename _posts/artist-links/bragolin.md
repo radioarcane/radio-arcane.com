@@ -1,6 +1,6 @@
 ---
 title: Bragolin
-apple_music: 'https://itunes.apple.com/us/artist/bragolin/1364746639'
+apple_music: 'https://itunes.apple.com/artist/bragolin/1364746639'
 bandcamp: 'https://bragolin.bandcamp.com'
 facebook: 'https://www.facebook.com/bragolinmusic'
 google_music: >-

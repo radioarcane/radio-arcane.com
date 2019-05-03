@@ -1,6 +1,6 @@
 ---
 title: DJ Ten
-apple_music: 'https://itunes.apple.com/us/artist/dj-ten/156235291'
+apple_music: 'https://itunes.apple.com/artist/dj-ten/156235291'
 bandcamp: 'https://djten.bandcamp.com'
 facebook: 'https://www.facebook.com/D.J.Ten.Official'
 google_music: >-
@@ -12,4 +12,3 @@ twitter: 'https://twitter.com/dj_ten_official'
 website: ''
 youtube: 'https://www.youtube.com/user/WeAreRetrological'
 ---
-

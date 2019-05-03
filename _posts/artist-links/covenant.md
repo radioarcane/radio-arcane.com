@@ -1,6 +1,6 @@
 ---
 title: Covenant
-apple_music: 'https://itunes.apple.com/us/artist/covenant/14674512'
+apple_music: 'https://itunes.apple.com/artist/covenant/14674512'
 bandcamp: 'https://covenant-swe.bandcamp.com'
 facebook: 'https://www.facebook.com/Covenant-OFFICIAL-156626197713557'
 google_music: >-

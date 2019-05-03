@@ -1,6 +1,6 @@
 ---
 title: Battery
-apple_music: 'https://itunes.apple.com/nz/artist/battery/59300883'
+apple_music: 'https://itunes.apple.com/artist/battery/59300883'
 bandcamp: ''
 facebook: ''
 google_music: ''

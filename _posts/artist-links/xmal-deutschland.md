@@ -1,6 +1,6 @@
 ---
 title: Xmal Deutschland
-apple_music: 'https://itunes.apple.com/us/artist/xmal-deutschland/251645837'
+apple_music: 'https://itunes.apple.com/artist/xmal-deutschland/251645837'
 bandcamp: ''
 facebook: 'https://www.facebook.com/officialxmaldeutschland'
 google_music: >-

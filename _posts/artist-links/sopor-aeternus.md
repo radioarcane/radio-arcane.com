@@ -1,6 +1,6 @@
 ---
 title: Sopor Aeternus
-apple_music: 'https://itunes.apple.com/us/artist/sopor-aeternus-the-ensemble-of-shadows/295754932'
+apple_music: 'https://itunes.apple.com/artist/sopor-aeternus-the-ensemble-of-shadows/295754932'
 bandcamp: 'https://soporaeternus.bandcamp.com'
 facebook: 'https://www.facebook.com/sopor.aeternus.offiziell'
 google_music: >-

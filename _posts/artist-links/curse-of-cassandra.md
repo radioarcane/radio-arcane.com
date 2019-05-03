@@ -1,6 +1,6 @@
 ---
 title: Curse of Cassandra
-apple_music: 'https://itunes.apple.com/us/artist/curse-of-cassandra/719829937'
+apple_music: 'https://itunes.apple.com/artist/curse-of-cassandra/719829937'
 bandcamp: 'https://curseofcassandra1.bandcamp.com/'
 facebook: 'https://www.facebook.com/curseofcassandraband'
 google_music: >-

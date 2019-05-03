@@ -1,6 +1,6 @@
 ---
 title: Black Asteroid
-apple_music: 'https://itunes.apple.com/us/artist/black-asteroid/474728201'
+apple_music: 'https://itunes.apple.com/artist/black-asteroid/474728201'
 bandcamp: 'https://blackasteroid.bandcamp.com'
 facebook: 'https://www.facebook.com/blackasteroid'
 google_music: >-

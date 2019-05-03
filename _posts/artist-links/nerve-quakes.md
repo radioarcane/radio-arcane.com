@@ -1,6 +1,6 @@
 ---
 title: Nerve Quakes
-apple_music: 'https://itunes.apple.com/us/artist/nerve-quakes/1337069410'
+apple_music: 'https://itunes.apple.com/artist/nerve-quakes/1337069410'
 bandcamp: 'https://nervequakes.bandcamp.com'
 facebook: 'https://www.facebook.com/Nerve-Quakes-1902422013308947'
 google_music: >-

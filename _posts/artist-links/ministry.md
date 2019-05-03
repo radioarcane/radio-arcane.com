@@ -1,6 +1,6 @@
 ---
 title: Ministry
-apple_music: 'https://itunes.apple.com/us/artist/ministry/609022'
+apple_music: 'https://itunes.apple.com/artist/ministry/609022'
 bandcamp: 'https://ministryband.bandcamp.com'
 facebook: 'https://www.facebook.com/WeAreMinistry'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Siouxsie & The Banshees
-apple_music: 'https://itunes.apple.com/us/artist/siouxsie-the-banshees/92623'
+apple_music: 'https://itunes.apple.com/artist/siouxsie-the-banshees/92623'
 bandcamp: ''
 facebook: 'https://www.facebook.com/Siouxsie-And-The-Banshees-186751311365203'
 google_music: >-

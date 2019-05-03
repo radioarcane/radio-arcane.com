@@ -1,6 +1,6 @@
 ---
 title: Diavol Strâin
-apple_music: 'https://itunes.apple.com/us/artist/diavol-str%C3%A2in/1434951799'
+apple_music: 'https://itunes.apple.com/artist/diavol-str%C3%A2in/1434951799'
 bandcamp: 'https://diavolstrain.bandcamp.com'
 facebook: 'https://www.facebook.com/diavolstrain'
 google_music: >-

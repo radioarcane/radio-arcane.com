@@ -1,6 +1,6 @@
 ---
 title: S Y Z Y G Y X
-apple_music: 'https://itunes.apple.com/us/artist/s-y-z-y-g-y-x/1368239798'
+apple_music: 'https://itunes.apple.com/artist/s-y-z-y-g-y-x/1368239798'
 bandcamp: 'https://syzygy-x.bandcamp.com'
 facebook: 'https://www.facebook.com/syzygyxmusic'
 google_music: >-

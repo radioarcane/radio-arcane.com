@@ -1,6 +1,6 @@
 ---
 title: GosT
-apple_music: 'https://itunes.apple.com/us/artist/gost/1434068160'
+apple_music: 'https://itunes.apple.com/artist/gost/1434068160'
 bandcamp: 'https://gost1980s.bandcamp.com/'
 facebook: 'https://www.facebook.com/gost1980s'
 google_music: >-

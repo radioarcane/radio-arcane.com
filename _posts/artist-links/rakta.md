@@ -1,6 +1,6 @@
 ---
 title: Rakta
-apple_music: 'https://itunes.apple.com/us/artist/rakta/548688002'
+apple_music: 'https://itunes.apple.com/artist/rakta/548688002'
 bandcamp: 'https://rakta.bandcamp.com'
 facebook: 'https://www.facebook.com/raktaraktarakta'
 google_music: >-

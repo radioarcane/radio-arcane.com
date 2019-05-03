@@ -1,6 +1,6 @@
 ---
 title: iamamiwhoami
-apple_music: 'https://itunes.apple.com/us/artist/id480149578'
+apple_music: 'https://itunes.apple.com/artist/id480149578'
 bandcamp: ''
 facebook: 'https://www.facebook.com/iamamiwhoamiofficial'
 google_music: >-

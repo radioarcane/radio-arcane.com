@@ -1,6 +1,6 @@
 ---
 title: Second Still
-apple_music: 'https://itunes.apple.com/us/artist/second-still/1222236083'
+apple_music: 'https://itunes.apple.com/artist/second-still/1222236083'
 bandcamp: 'https://secondstill.bandcamp.com'
 facebook: 'https://www.facebook.com/secondstillband'
 google_music: >-

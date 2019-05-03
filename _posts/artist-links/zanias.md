@@ -1,6 +1,6 @@
 ---
 title: Zanias
-apple_music: 'https://itunes.apple.com/us/artist/zanias/1156612707'
+apple_music: 'https://itunes.apple.com/artist/zanias/1156612707'
 bandcamp: 'https://zanias.bandcamp.com'
 facebook: 'https://www.facebook.com/zoe.zanias'
 google_music: >-

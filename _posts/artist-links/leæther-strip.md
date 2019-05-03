@@ -1,6 +1,6 @@
 ---
 title: Leæther Strip
-apple_music: 'https://itunes.apple.com/us/artist/le%C3%A6ther-strip/586838474'
+apple_music: 'https://itunes.apple.com/artist/le%C3%A6ther-strip/586838474'
 bandcamp: 'https://leaetherstrip.bandcamp.com'
 facebook: 'https://www.facebook.com/LeaetherStrip'
 google_music: >-

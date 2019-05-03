@@ -1,6 +1,6 @@
 ---
 title: UnterART
-apple_music: 'https://itunes.apple.com/us/artist/unterart/166823901'
+apple_music: 'https://itunes.apple.com/artist/unterart/166823901'
 bandcamp: ''
 facebook: ''
 google_music: >-

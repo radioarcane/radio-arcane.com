@@ -1,6 +1,6 @@
 ---
 title: Angels of Liberty
-apple_music: 'https://itunes.apple.com/us/artist/angels-of-liberty/480659043'
+apple_music: 'https://itunes.apple.com/artist/angels-of-liberty/480659043'
 bandcamp: 'https://angelsofliberty.bandcamp.com'
 facebook: 'https://www.facebook.com/angelsofliberty'
 google_music: >-

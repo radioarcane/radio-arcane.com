@@ -1,6 +1,6 @@
 ---
 title: 1000 Homo DJs
-apple_music: 'https://itunes.apple.com/us/artist/1000-homo-djs/27062041'
+apple_music: 'https://itunes.apple.com/artist/1000-homo-djs/27062041'
 bandcamp: ''
 facebook: ''
 google_music: >-

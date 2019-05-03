@@ -1,6 +1,6 @@
 ---
 title: Black Arcade
-apple_music: 'https://itunes.apple.com/us/artist/black-arcade/1043659494'
+apple_music: 'https://itunes.apple.com/artist/black-arcade/1043659494'
 bandcamp: 'https://blackarcade.bandcamp.com'
 facebook: 'https://www.facebook.com/blxckarcade'
 google_music: >-

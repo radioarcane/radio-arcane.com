@@ -1,6 +1,6 @@
 ---
 title: ACTORS
-apple_music: 'https://itunes.apple.com/us/artist/actors/514998571'
+apple_music: 'https://itunes.apple.com/artist/actors/514998571'
 bandcamp: 'https://actors.bandcamp.com'
 facebook: 'https://www.facebook.com/actors1984'
 google_music: >-

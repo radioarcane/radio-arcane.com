@@ -1,6 +1,6 @@
 ---
 title: Lederma / De Meyer
-apple_music: 'https://itunes.apple.com/us/artist/lederman-de-meyer/1364356510'
+apple_music: 'https://itunes.apple.com/artist/lederman-de-meyer/1364356510'
 bandcamp: 'https://alfamatrix.bandcamp.com/album/eleven-grinding-songs-bonus-tracks-version'
 facebook: 'https://www.facebook.com/Ledermandemeyer'
 google_music: >-

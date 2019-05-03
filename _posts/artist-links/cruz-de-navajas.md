@@ -1,6 +1,6 @@
 ---
 title: Cruz De Navajas
-apple_music: 'https://itunes.apple.com/us/artist/cruz-de-navajas/1434979562'
+apple_music: 'https://itunes.apple.com/artist/cruz-de-navajas/1434979562'
 bandcamp: 'https://cruzdenavajas.bandcamp.com'
 facebook: 'https://www.facebook.com/cruzdenavajaspostpunk'
 google_music: >-

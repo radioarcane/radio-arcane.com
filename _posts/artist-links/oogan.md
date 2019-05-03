@@ -1,6 +1,6 @@
 ---
 title: Oogan
-apple_music: 'https://itunes.apple.com/us/artist/oogan/1453232559'
+apple_music: 'https://itunes.apple.com/artist/oogan/1453232559'
 bandcamp: ''
 facebook: 'https://www.facebook.com/Oogan12'
 google_music: >-

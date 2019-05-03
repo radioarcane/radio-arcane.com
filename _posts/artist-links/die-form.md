@@ -1,6 +1,6 @@
 ---
 title: Die Form
-apple_music: 'https://itunes.apple.com/us/artist/die-form/79614629'
+apple_music: 'https://itunes.apple.com/artist/die-form/79614629'
 bandcamp: 'https://dieform.bandcamp.com'
 facebook: 'https://www.facebook.com/DieFormMusic'
 google_music: >-

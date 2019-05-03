@@ -1,6 +1,6 @@
 ---
 title: ohGr
-apple_music: 'https://itunes.apple.com/us/artist/ohgr/2779633'
+apple_music: 'https://itunes.apple.com/artist/ohgr/2779633'
 bandcamp: 'https://ohgr.bandcamp.com'
 facebook: 'https://www.facebook.com/ohGrOfficial'
 google_music: >-

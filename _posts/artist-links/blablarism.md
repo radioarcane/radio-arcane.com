@@ -1,6 +1,6 @@
 ---
 title: Blablarism
-apple_music: 'https://itunes.apple.com/us/artist/blablarism/619901481'
+apple_music: 'https://itunes.apple.com/artist/blablarism/619901481'
 bandcamp: 'https://fabrikarecords.bandcamp.com/album/fp012-agnostodynis'
 facebook: 'https://www.facebook.com/blablarism'
 google_music: >-

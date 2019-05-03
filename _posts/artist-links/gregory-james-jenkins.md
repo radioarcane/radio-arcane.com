@@ -1,6 +1,6 @@
 ---
 title: Gregory James Jenkins
-apple_music: 'https://itunes.apple.com/us/artist/gregory-james-jenkins/1055769150'
+apple_music: 'https://itunes.apple.com/artist/gregory-james-jenkins/1055769150'
 bandcamp: ''
 facebook: ''
 google_music: >-

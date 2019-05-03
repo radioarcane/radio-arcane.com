@@ -1,6 +1,6 @@
 ---
 title: The Frozen Autumn
-apple_music: 'https://itunes.apple.com/us/artist/the-frozen-autumn/205669624'
+apple_music: 'https://itunes.apple.com/artist/the-frozen-autumn/205669624'
 bandcamp: ''
 facebook: 'https://www.facebook.com/TheFrozenAutumn'
 google_music: >-

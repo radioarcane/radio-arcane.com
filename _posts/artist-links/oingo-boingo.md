@@ -1,6 +1,6 @@
 ---
 title: Oingo Boingo
-apple_music: 'https://itunes.apple.com/us/artist/oingo-boingo/93615'
+apple_music: 'https://itunes.apple.com/artist/oingo-boingo/93615'
 bandcamp: ''
 facebook: ''
 google_music: >-

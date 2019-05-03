@@ -1,6 +1,6 @@
 ---
 title: VR Sex
-apple_music: 'https://itunes.apple.com/us/artist/vr-sex/1453120576'
+apple_music: 'https://itunes.apple.com/artist/vr-sex/1453120576'
 bandcamp: 'https://vrsex.bandcamp.com'
 facebook: 'https://www.facebook.com/vrsexband'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Belgrado
-apple_music: 'https://itunes.apple.com/lu/artist/belgrado/427585428'
+apple_music: 'https://itunes.apple.com/artist/belgrado/427585428'
 bandcamp: 'https://belgrado.bandcamp.com'
 facebook: 'https://www.facebook.com/Belgradopunk'
 google_music: >-

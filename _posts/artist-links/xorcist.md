@@ -1,6 +1,6 @@
 ---
 title: Xorcist
-apple_music: 'https://itunes.apple.com/us/artist/xorcist/80839173'
+apple_music: 'https://itunes.apple.com/artist/xorcist/80839173'
 bandcamp: 'https://xorcist.bandcamp.com'
 facebook: 'https://www.facebook.com/XorcistBand'
 google_music: >-

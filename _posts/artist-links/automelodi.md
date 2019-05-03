@@ -1,6 +1,6 @@
 ---
 title: Automelodi
-apple_music: 'https://itunes.apple.com/ca/artist/automelodi/id313819629'
+apple_music: 'https://itunes.apple.com/artist/automelodi/id313819629'
 bandcamp: 'https://automelodi.bandcamp.com'
 facebook: 'https://www.facebook.com/automelodimusic'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Death In June
-apple_music: 'https://itunes.apple.com/us/artist/death-in-june/211806172'
+apple_music: 'https://itunes.apple.com/artist/death-in-june/211806172'
 bandcamp: ''
 facebook: 'https://www.facebook.com/deathinjune.official'
 google_music: >-

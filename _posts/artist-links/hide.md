@@ -1,6 +1,6 @@
 ---
 title: HIDE
-apple_music: 'https://itunes.apple.com/us/artist/hide/992761669'
+apple_music: 'https://itunes.apple.com/artist/hide/992761669'
 bandcamp: 'https://hide3.bandcamp.com'
 facebook: 'https://www.facebook.com/hidefromhide'
 google_music: >-

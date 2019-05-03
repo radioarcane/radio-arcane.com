@@ -1,6 +1,6 @@
 ---
 title: Night Thoughts
-apple_music: 'https://itunes.apple.com/us/artist/night-thoughts/1442211857'
+apple_music: 'https://itunes.apple.com/artist/night-thoughts/1442211857'
 bandcamp: 'https://nightthoughts.bandcamp.com'
 facebook: ''
 google_music: >-

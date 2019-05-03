@@ -1,6 +1,6 @@
 ---
 title: Combichrist
-apple_music: 'https://itunes.apple.com/us/artist/combichrist/49450697'
+apple_music: 'https://itunes.apple.com/artist/combichrist/49450697'
 bandcamp: ''
 facebook: 'https://www.facebook.com/combichrist'
 google_music: >-

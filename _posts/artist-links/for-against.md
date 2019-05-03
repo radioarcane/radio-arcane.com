@@ -1,6 +1,6 @@
 ---
 title: For Against
-apple_music: 'https://itunes.apple.com/us/artist/for-against/46918511'
+apple_music: 'https://itunes.apple.com/artist/for-against/46918511'
 bandcamp: ''
 facebook: 'https://www.facebook.com/For-Against-271880109596'
 google_music: >-

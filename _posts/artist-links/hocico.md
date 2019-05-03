@@ -1,6 +1,6 @@
 ---
 title: Hocico
-apple_music: 'https://itunes.apple.com/us/artist/hocico/78988384'
+apple_music: 'https://itunes.apple.com/artist/hocico/78988384'
 bandcamp: ''
 facebook: 'https://www.facebook.com/hocicoofficial'
 google_music: >-

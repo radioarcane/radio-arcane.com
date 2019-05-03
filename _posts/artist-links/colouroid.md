@@ -1,6 +1,6 @@
 ---
 title: Colouroid
-apple_music: 'https://itunes.apple.com/gb/artist/colouroid/437007692'
+apple_music: 'https://itunes.apple.com/artist/colouroid/437007692'
 bandcamp: ''
 facebook: 'https://www.facebook.com/colouroid'
 google_music: >-

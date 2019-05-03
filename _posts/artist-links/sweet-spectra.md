@@ -1,6 +1,6 @@
 ---
 title: Sweet Spectra
-apple_music: 'https://itunes.apple.com/ca/artist/sweet-spectra/1446641082'
+apple_music: 'https://itunes.apple.com/artist/sweet-spectra/1446641082'
 bandcamp: 'https://sweetspectraoficial.bandcamp.com'
 facebook: 'https://www.facebook.com/sweetspectra'
 google_music: >-

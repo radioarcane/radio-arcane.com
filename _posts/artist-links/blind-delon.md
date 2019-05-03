@@ -1,6 +1,6 @@
 ---
 title: Blind Delon
-apple_music: 'https://itunes.apple.com/us/artist/blind-delon/1176471845'
+apple_music: 'https://itunes.apple.com/artist/blind-delon/1176471845'
 bandcamp: ''
 facebook: 'https://www.facebook.com/blinddelon'
 google_music: >-

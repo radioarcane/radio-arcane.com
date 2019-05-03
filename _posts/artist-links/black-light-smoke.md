@@ -1,6 +1,6 @@
 ---
 title: Black Light Smoke
-apple_music: 'https://itunes.apple.com/us/artist/black-light-smoke/435979617'
+apple_music: 'https://itunes.apple.com/artist/black-light-smoke/435979617'
 bandcamp: 'https://blacklightsmoke.bandcamp.com'
 facebook: 'https://www.facebook.com/blacklightsmoke'
 google_music: >-

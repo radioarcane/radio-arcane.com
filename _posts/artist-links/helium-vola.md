@@ -1,6 +1,6 @@
 ---
 title: Helium Vola
-apple_music: 'https://itunes.apple.com/us/artist/helium-vola/320277690'
+apple_music: 'https://itunes.apple.com/artist/helium-vola/320277690'
 bandcamp: ''
 facebook: 'https://www.facebook.com/heliumvola'
 google_music: >-

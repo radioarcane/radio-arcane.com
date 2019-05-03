@@ -1,6 +1,6 @@
 ---
 title: H ø R D
-apple_music: 'https://itunes.apple.com/us/artist/h-%C3%B8-r-d/1123748366'
+apple_music: 'https://itunes.apple.com/artist/h-%C3%B8-r-d/1123748366'
 bandcamp: 'https://hordmusic.bandcamp.com'
 facebook: 'https://www.facebook.com/hordmusic'
 google_music: >-

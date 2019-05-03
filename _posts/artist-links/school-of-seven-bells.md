@@ -1,6 +1,6 @@
 ---
 title: School of Seven Bells
-apple_music: 'https://itunes.apple.com/us/artist/school-of-seven-bells/262035150'
+apple_music: 'https://itunes.apple.com/artist/school-of-seven-bells/262035150'
 bandcamp: 'https://schoolofsevenbells.bandcamp.com'
 facebook: 'https://www.facebook.com/schoolofsevenbells'
 google_music: >-

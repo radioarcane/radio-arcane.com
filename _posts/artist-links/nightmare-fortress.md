@@ -1,6 +1,6 @@
 ---
 title: Nightmare Fortress
-apple_music: 'https://itunes.apple.com/us/artist/nightmare-fortress/534376798'
+apple_music: 'https://itunes.apple.com/artist/nightmare-fortress/534376798'
 bandcamp: 'https://nightmarefortress.bandcamp.com'
 facebook: ''
 google_music: >-

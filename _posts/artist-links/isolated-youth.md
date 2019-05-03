@@ -1,6 +1,6 @@
 ---
 title: Isolated Youth
-apple_music: 'https://itunes.apple.com/us/artist/isolated-youth/1446463380'
+apple_music: 'https://itunes.apple.com/artist/isolated-youth/1446463380'
 bandcamp: 'https://isolatedyouth.bandcamp.com'
 facebook: 'https://www.facebook.com/isolatedyouth'
 google_music: >-

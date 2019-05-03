@@ -1,6 +1,6 @@
 ---
 title: Sexores
-apple_music: 'https://itunes.apple.com/us/artist/sexores/876883971'
+apple_music: 'https://itunes.apple.com/artist/sexores/876883971'
 bandcamp: 'https://sexores.bandcamp.com'
 facebook: 'https://www.facebook.com/sxrsxrs'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Push Button Press
-apple_music: 'https://itunes.apple.com/us/artist/push-button-press/1448904325'
+apple_music: 'https://itunes.apple.com/artist/push-button-press/1448904325'
 bandcamp: 'https://pushbuttonpress1.bandcamp.com'
 facebook: 'https://www.facebook.com/pushbuttonpress'
 google_music: >-

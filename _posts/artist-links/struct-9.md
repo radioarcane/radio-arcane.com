@@ -1,6 +1,6 @@
 ---
 title: Struck 9
-apple_music: 'https://itunes.apple.com/us/artist/struck-9/305147098'
+apple_music: 'https://itunes.apple.com/artist/struck-9/305147098'
 bandcamp: 'https://struck9.bandcamp.com'
 facebook: 'https://www.facebook.com/strucknine'
 google_music: >-

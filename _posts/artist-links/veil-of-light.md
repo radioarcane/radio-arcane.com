@@ -1,6 +1,6 @@
 ---
 title: Veil of Light
-apple_music: 'https://itunes.apple.com/us/artist/veil-of-light/639566801'
+apple_music: 'https://itunes.apple.com/artist/veil-of-light/639566801'
 bandcamp: 'https://veiloflight.bandcamp.com'
 facebook: 'https://www.facebook.com/veiloflightmusic'
 google_music: >-

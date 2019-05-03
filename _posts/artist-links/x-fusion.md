@@ -1,6 +1,6 @@
 ---
 title: X-Fusion
-apple_music: 'https://itunes.apple.com/us/artist/x-fusion/135978898'
+apple_music: 'https://itunes.apple.com/artist/x-fusion/135978898'
 bandcamp: ''
 facebook: 'https://www.facebook.com/XFUSIONofficial'
 google_music: >-

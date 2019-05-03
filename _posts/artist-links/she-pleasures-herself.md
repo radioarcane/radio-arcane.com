@@ -1,6 +1,6 @@
 ---
 title: She Pleasures Herself
-apple_music: 'https://itunes.apple.com/us/artist/she-pleasures-herself/1200111189'
+apple_music: 'https://itunes.apple.com/artist/she-pleasures-herself/1200111189'
 bandcamp: 'https://shepleasuresherself.bandcamp.com'
 facebook: 'https://www.facebook.com/SPHSband'
 google_music: >-

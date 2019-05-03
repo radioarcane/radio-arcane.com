@@ -1,6 +1,6 @@
 ---
 title: Le Matos
-apple_music: 'https://itunes.apple.com/us/artist/le-matos/271770392'
+apple_music: 'https://itunes.apple.com/artist/le-matos/271770392'
 bandcamp: 'https://lematos.bandcamp.com'
 facebook: 'https://www.facebook.com/lematosband'
 google_music: >-

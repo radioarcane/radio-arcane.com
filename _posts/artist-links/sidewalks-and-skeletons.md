@@ -1,6 +1,6 @@
 ---
 title: Sidewalks & Skeletons
-apple_music: 'https://itunes.apple.com/gb/artist/sidewalks-and-skeletons/id678419002'
+apple_music: 'https://itunes.apple.com/artist/sidewalks-and-skeletons/id678419002'
 bandcamp: 'https://sidewalksandskeletons.bandcamp.com'
 facebook: 'https://www.facebook.com/sidewalksandskeletons'
 google_music: >-

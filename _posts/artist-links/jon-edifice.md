@@ -1,6 +1,6 @@
 ---
 title: Jon Edifice
-apple_music: 'https://itunes.apple.com/us/artist/jon-edifice/1232009173'
+apple_music: 'https://itunes.apple.com/artist/jon-edifice/1232009173'
 bandcamp: 'https://jonedifice.bandcamp.com'
 facebook: ''
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: Noisuf-X
-apple_music: 'https://itunes.apple.com/us/artist/noisuf-x/75502917'
+apple_music: 'https://itunes.apple.com/artist/noisuf-x/75502917'
 bandcamp: ''
 facebook: 'https://www.facebook.com/NOISUFXofficial'
 google_music: >-

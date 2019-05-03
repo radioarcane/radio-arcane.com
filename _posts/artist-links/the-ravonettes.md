@@ -1,6 +1,6 @@
 ---
 title: The Ravonettes
-apple_music: 'https://itunes.apple.com/us/artist/the-raveonettes/654568'
+apple_music: 'https://itunes.apple.com/artist/the-raveonettes/654568'
 bandcamp: ''
 facebook: 'https://www.facebook.com/theraveonettes'
 google_music: >-

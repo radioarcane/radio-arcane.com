@@ -1,6 +1,6 @@
 ---
 title: A Split Second
-apple_music: 'https://itunes.apple.com/us/artist/a-split-second/214323914'
+apple_music: 'https://itunes.apple.com/artist/a-split-second/214323914'
 bandcamp: ''
 facebook: 'https://www.facebook.com/A-Split-Second-121596900511'
 google_music: >-

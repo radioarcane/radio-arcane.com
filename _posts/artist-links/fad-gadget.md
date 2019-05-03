@@ -1,6 +1,6 @@
 ---
 title: Fad Gadget
-apple_music: 'https://itunes.apple.com/us/artist/fad-gadget/20135578'
+apple_music: 'https://itunes.apple.com/artist/fad-gadget/20135578'
 bandcamp: ''
 facebook: 'https://www.facebook.com/Fad-gadget-electronic-musician-153115818049211'
 google_music: >-

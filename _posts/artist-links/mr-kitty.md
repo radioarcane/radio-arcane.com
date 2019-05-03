@@ -1,6 +1,6 @@
 ---
 title: Mr.Kitty
-apple_music: 'https://itunes.apple.com/us/artist/mr-kitty/376202205'
+apple_music: 'https://itunes.apple.com/artist/mr-kitty/376202205'
 bandcamp: 'https://mrkittydm.bandcamp.com'
 facebook: 'https://www.facebook.com/mrkittydm'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: ':Wumpscut:'
-apple_music: 'https://itunes.apple.com/us/artist/wumpscut/463237860'
+apple_music: 'https://itunes.apple.com/artist/wumpscut/463237860'
 bandcamp: 'https://wumpscut.bandcamp.com'
 facebook: 'https://www.facebook.com/Wumpscut-110063409032139'
 google_music: >-

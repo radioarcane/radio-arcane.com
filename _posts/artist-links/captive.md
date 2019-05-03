@@ -1,6 +1,6 @@
 ---
 title: Captive
-apple_music: 'https://itunes.apple.com/us/album/black-leather-glove-deluxe-edition/1442198788'
+apple_music: 'https://itunes.apple.com/album/black-leather-glove-deluxe-edition/1442198788'
 bandcamp: 'https://captivetheband.bandcamp.com'
 facebook: 'https://www.facebook.com/captiveaustin'
 google_music: >-

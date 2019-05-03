@@ -1,6 +1,6 @@
 ---
 title: Void Vision
-apple_music: 'https://itunes.apple.com/us/artist/void-vision/401684118'
+apple_music: 'https://itunes.apple.com/artist/void-vision/401684118'
 bandcamp: 'https://voidvision.bandcamp.com'
 facebook: 'http://www.facebook.com/voidvision'
 google_music: >-

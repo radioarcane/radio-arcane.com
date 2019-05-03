@@ -1,6 +1,6 @@
 ---
 title: Das Ich
-apple_music: 'https://itunes.apple.com/us/artist/das-ich/125570118'
+apple_music: 'https://itunes.apple.com/artist/das-ich/125570118'
 bandcamp: ''
 facebook: 'https://www.facebook.com/DasIch.fans'
 google_music: >-

@@ -1,6 +1,6 @@
 ---
 title: The Lords of The New Church
-apple_music: 'https://itunes.apple.com/us/artist/lords-of-the-new-church/19818872'
+apple_music: 'https://itunes.apple.com/artist/lords-of-the-new-church/19818872'
 bandcamp: ''
 facebook: 'https://www.facebook.com/pages/category/Musician-Band/Lords-of-the-New-Church-55761881991/'
 google_music: >-

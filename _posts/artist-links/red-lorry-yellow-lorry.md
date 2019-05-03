@@ -1,6 +1,6 @@
 ---
 title: Red Lorry Yellow Lorry
-apple_music: 'https://itunes.apple.com/us/artist/red-lorry-yellow-lorry/155893330'
+apple_music: 'https://itunes.apple.com/artist/red-lorry-yellow-lorry/155893330'
 bandcamp: ''
 facebook: 'https://www.facebook.com/rlylofficial'
 google_music: >-

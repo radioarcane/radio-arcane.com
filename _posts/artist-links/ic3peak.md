@@ -1,6 +1,6 @@
 ---
 title: IC3PEAK
-apple_music: 'https://itunes.apple.com/us/artist/ic3peak/829814422'
+apple_music: 'https://itunes.apple.com/artist/ic3peak/829814422'
 bandcamp: 'https://ic3peak.bandcamp.com'
 facebook: 'https://www.facebook.com/ic3peak'
 google_music: >-

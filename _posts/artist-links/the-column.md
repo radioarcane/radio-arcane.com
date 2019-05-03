@@ -1,6 +1,6 @@
 ---
 title: The Column
-apple_music: 'https://itunes.apple.com/gb/artist/the-column/1401272462'
+apple_music: 'https://itunes.apple.com/artist/the-column/1401272462'
 bandcamp: 'https://funeralparty.bandcamp.com/album/oracle-2'
 facebook: ''
 google_music: >-

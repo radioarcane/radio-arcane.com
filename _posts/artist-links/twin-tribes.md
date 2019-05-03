@@ -1,6 +1,6 @@
 ---
 title: Twin Tribes
-apple_music: 'https://itunes.apple.com/us/artist/twin-tribes/1414679340'
+apple_music: 'https://itunes.apple.com/artist/twin-tribes/1414679340'
 bandcamp: 'https://twintribes.bandcamp.com'
 facebook: 'https://www.facebook.com/TwinTribes'
 google_music: >-

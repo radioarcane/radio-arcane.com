@@ -1,6 +1,6 @@
 ---
 title: Project Pitchfork
-apple_music: 'https://itunes.apple.com/us/artist/project-pitchfork/18202669'
+apple_music: 'https://itunes.apple.com/artist/project-pitchfork/18202669'
 bandcamp: ''
 facebook: 'https://www.facebook.com/ProjectPitchfork'
 google_music: >-

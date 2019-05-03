@@ -1,6 +1,6 @@
 ---
 title: Icon of Coil
-apple_music: 'https://itunes.apple.com/us/artist/icon-of-coil/59424622'
+apple_music: 'https://itunes.apple.com/artist/icon-of-coil/59424622'
 bandcamp: 'https://iconofcoil.bandcamp.com'
 facebook: 'https://www.facebook.com/IconOfCoilOfficial'
 google_music: >-

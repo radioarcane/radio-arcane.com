@@ -1,6 +1,6 @@
 ---
 title: Lobby
-apple_music: 'https://itunes.apple.com/au/artist/lobby/1447054977'
+apple_music: 'https://itunes.apple.com/artist/lobby/1447054977'
 bandcamp: 'https://solangeendormierecords.bandcamp.com/album/fragrance'
 facebook: 'https://www.facebook.com/LOBBY.Band'
 google_music: ''

@@ -1,6 +1,6 @@
 ---
 title: Ortrotasce
-apple_music: 'https://itunes.apple.com/us/artist/ortrotasce/554625439'
+apple_music: 'https://itunes.apple.com/artist/ortrotasce/554625439'
 bandcamp: 'https://ortrotasce.bandcamp.com'
 facebook: 'https://www.facebook.com/ortrotasce'
 google_music: >-

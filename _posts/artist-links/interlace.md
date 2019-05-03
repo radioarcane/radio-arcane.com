@@ -1,6 +1,6 @@
 ---
 title: Interlace
-apple_music: 'https://itunes.apple.com/us/artist/interlace/82230307'
+apple_music: 'https://itunes.apple.com/artist/interlace/82230307'
 bandcamp: 'https://interlace.bandcamp.com'
 facebook: ''
 google_music: >-

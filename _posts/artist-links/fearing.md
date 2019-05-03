@@ -1,6 +1,6 @@
 ---
 title: Fearing
-apple_music: 'https://itunes.apple.com/us/artist/fearing/316384352'
+apple_music: 'https://itunes.apple.com/artist/fearing/316384352'
 bandcamp: 'https://fearing.bandcamp.com'
 facebook: 'https://www.facebook.com/alifeofnone'
 google_music: >-

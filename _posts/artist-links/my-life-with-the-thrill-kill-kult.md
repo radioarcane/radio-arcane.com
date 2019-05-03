@@ -1,6 +1,6 @@
 ---
 title: My Life With The Thrill Kill Kult
-apple_music: 'https://itunes.apple.com/us/artist/my-life-with-the-thrill-kill-kult/15151045'
+apple_music: 'https://itunes.apple.com/artist/my-life-with-the-thrill-kill-kult/15151045'
 bandcamp: ''
 facebook: 'https://www.facebook.com/thrillkillkult'
 google_music: >-

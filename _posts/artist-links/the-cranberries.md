@@ -1,13 +1,14 @@
 ---
 title: The Cranberries
-apple_music: ''
-bandcamp: ''
-facebook: ''
-google_music: ''
-instagram: ''
-soundcloud: ''
-spotify: ''
-twitter: ''
-website: ''
-youtube: ''
+apple_music: 'https://itunes.apple.com/artist/the-cranberries/122615'
+bandcamp: 'https://thecranberries.bandcamp.com'
+facebook: 'https://www.facebook.com/TheCranberries'
+google_music: >-
+   https://play.google.com/store/music/artist/The_Cranberries?id=Azz3amqogabhxnfoslax2iuli74
+instagram: 'https://www.instagram.com/thecranberries'
+soundcloud: 'https://soundcloud.com/the-cranberries'
+spotify: 'https://open.spotify.com/artist/7t0rwkOPGlDPEhaOcVtOt9'
+twitter: 'https://twitter.com/The_Cranberries'
+website: 'https://www.cranberries.com'
+youtube: 'https://www.youtube.com/channel/UCb0vzLwvr7xbJgdqMzejDhw'
 ---

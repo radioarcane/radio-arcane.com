@@ -1,6 +1,6 @@
 ---
 title: Elektrifizierer
-apple_music: 'https://itunes.apple.com/us/artist/elektrifizierer/1224835754'
+apple_music: 'https://itunes.apple.com/artist/elektrifizierer/1224835754'
 bandcamp: ''
 facebook: 'https://www.facebook.com/Elektrifizierer'
 google_music: >-

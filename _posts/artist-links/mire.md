@@ -1,6 +1,6 @@
 ---
 title: Mire.
-apple_music: 'https://itunes.apple.com/us/artist/mire/1244453035'
+apple_music: 'https://itunes.apple.com/artist/mire/1244453035'
 bandcamp: 'https://mirewave.bandcamp.com'
 facebook: 'https://www.facebook.com/mire.wave'
 google_music: ''

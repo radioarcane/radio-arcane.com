@@ -1,6 +1,6 @@
 ---
 title: Kælan Mikla
-apple_music: 'https://itunes.apple.com/us/artist/kaelan-mikla/1140519808'
+apple_music: 'https://itunes.apple.com/artist/kaelan-mikla/1140519808'
 bandcamp: 'https://kaelanmikla.bandcamp.com'
 facebook: 'https://www.facebook.com/kaelanmikla'
 google_music: >-

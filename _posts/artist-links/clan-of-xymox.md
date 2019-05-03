@@ -1,6 +1,6 @@
 ---
 title: Clan of Xymox
-apple_music: 'https://itunes.apple.com/us/artist/clan-of-xymox/63836080'
+apple_music: 'https://itunes.apple.com/artist/clan-of-xymox/63836080'
 bandcamp: 'https://clanofxymox.bandcamp.com'
 facebook: 'https://www.facebook.com/clanofxymox.official'
 google_music: >-

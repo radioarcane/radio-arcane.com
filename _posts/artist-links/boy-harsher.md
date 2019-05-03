@@ -1,6 +1,6 @@
 ---
 title: Boy Harsher
-apple_music: 'https://itunes.apple.com/us/artist/boy-harsher/1022460442'
+apple_music: 'https://itunes.apple.com/artist/boy-harsher/1022460442'
 bandcamp: 'https://boyharsher.bandcamp.com'
 facebook: 'https://www.facebook.com/boyharsher'
 google_music: >-

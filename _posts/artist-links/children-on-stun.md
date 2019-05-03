@@ -1,6 +1,6 @@
 ---
 title: Children On Stun
-apple_music: 'https://itunes.apple.com/us/artist/children-on-stun/155736021'
+apple_music: 'https://itunes.apple.com/artist/children-on-stun/155736021'
 bandcamp: ''
 facebook: 'https://www.facebook.com/officialchildrenonstun'
 google_music: >-

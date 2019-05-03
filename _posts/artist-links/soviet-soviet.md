@@ -1,6 +1,6 @@
 ---
 title: Soviet Soviet
-apple_music: 'https://itunes.apple.com/us/artist/soviet-soviet/414673323'
+apple_music: 'https://itunes.apple.com/artist/soviet-soviet/414673323'
 bandcamp: 'https://sovietsoviet.bandcamp.com'
 facebook: 'https://www.facebook.com/sovietsovietband'
 google_music: >-

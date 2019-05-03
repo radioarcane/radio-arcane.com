@@ -1,6 +1,6 @@
 ---
 title: Rammstein
-apple_music: 'https://itunes.apple.com/us/artist/rammstein/408932'
+apple_music: 'https://itunes.apple.com/artist/rammstein/408932'
 bandcamp: ''
 facebook: 'https://www.facebook.com/Rammstein'
 google_music: >-

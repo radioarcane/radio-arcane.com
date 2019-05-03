@@ -1,6 +1,6 @@
 ---
 title: Simi Nah
-apple_music: ''
+apple_music: 'https://itunes.apple.com/artist/simi-nah/154010060'
 bandcamp: 'https://why2kmusic.bandcamp.com'
 facebook: 'https://www.facebook.com/simi.nah.music'
 google_music: >-

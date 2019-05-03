@@ -1,6 +1,6 @@
 ---
 title: Dream Affair
-apple_music: 'https://itunes.apple.com/us/artist/dream-affair/418958261'
+apple_music: 'https://itunes.apple.com/artist/dream-affair/418958261'
 bandcamp: 'https://dreamaffair.bandcamp.com'
 facebook: ''
 google_music: >-

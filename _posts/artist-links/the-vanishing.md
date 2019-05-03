@@ -1,6 +1,6 @@
 ---
 title: The Vanishing
-apple_music: 'https://itunes.apple.com/us/artist/the-vanishing/5934468'
+apple_music: 'https://itunes.apple.com/artist/the-vanishing/5934468'
 bandcamp: 'https://thevanishing818.bandcamp.com'
 facebook: ''
 google_music: >-

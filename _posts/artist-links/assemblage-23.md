@@ -1,6 +1,6 @@
 ---
 title: Assemblage 23
-apple_music: 'https://itunes.apple.com/us/artist/assemblage-23/54627594'
+apple_music: 'https://itunes.apple.com/artist/assemblage-23/54627594'
 bandcamp: 'https://assemblage23.bandcamp.com'
 facebook: 'https://www.facebook.com/Official-Assemblage-23-138651156153800'
 google_music: >-

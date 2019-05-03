@@ -1,6 +1,6 @@
 ---
 title: 'Patenbrigade: Wolff'
-apple_music: 'https://itunes.apple.com/us/artist/patenbrigade-wolff/200571034'
+apple_music: 'https://itunes.apple.com/artist/patenbrigade-wolff/200571034'
 bandcamp: 'https://patenbrigadewolff.bandcamp.com'
 facebook: 'https://www.facebook.com/PatenbrigadeWolff'
 google_music: >-

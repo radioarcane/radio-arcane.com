@@ -1,6 +1,6 @@
 ---
 title: U-Tek
-apple_music: 'https://itunes.apple.com/us/artist/u-tek/155924640'
+apple_music: 'https://itunes.apple.com/artist/u-tek/155924640'
 bandcamp: 'https://infactedrecordings.bandcamp.com/album/das-mass-der-dinge'
 facebook: ''
 google_music: >-

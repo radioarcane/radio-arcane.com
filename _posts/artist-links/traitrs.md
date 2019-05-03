@@ -1,6 +1,6 @@
 ---
 title: TRAITRS
-apple_music: 'https://itunes.apple.com/us/artist/traitrs/1118704716'
+apple_music: 'https://itunes.apple.com/artist/traitrs/1118704716'
 bandcamp: 'https://traitrs.bandcamp.com'
 facebook: 'https://www.facebook.com/traitrs'
 google_music: >-

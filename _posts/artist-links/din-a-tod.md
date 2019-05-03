@@ -1,6 +1,6 @@
 ---
 title: Din (A) Tod
-apple_music: 'https://itunes.apple.com/uz/artist/din-a-tod/id267643279'
+apple_music: 'https://itunes.apple.com/artist/din-a-tod/id267643279'
 bandcamp: ''
 facebook: 'https://www.facebook.com/DIN-A-TOD-134074074918'
 google_music: >-

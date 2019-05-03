@@ -1,6 +1,6 @@
 ---
 title: The Creatures
-apple_music: ''
+apple_music: 'https://itunes.apple.com/artist/the-creatures/3188969'
 bandcamp: ''
 facebook: ''
 google_music: >-

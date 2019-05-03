@@ -1,6 +1,6 @@
 ---
 title: Virgin Prunes
-apple_music: 'https://itunes.apple.com/us/artist/virgin-prunes/23533513'
+apple_music: 'https://itunes.apple.com/artist/virgin-prunes/23533513'
 bandcamp: ''
 facebook: 'https://www.facebook.com/virginprunes'
 google_music: >-

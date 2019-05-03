@@ -1,6 +1,6 @@
 ---
 title: Cult of Youth
-apple_music: 'https://itunes.apple.com/us/artist/cult-of-youth/413674592'
+apple_music: 'https://itunes.apple.com/artist/cult-of-youth/413674592'
 bandcamp: 'https://cultofyouth.bandcamp.com'
 facebook: 'https://www.facebook.com/cultofyouth'
 google_music: >-

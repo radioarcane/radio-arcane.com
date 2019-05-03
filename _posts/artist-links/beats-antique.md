@@ -1,6 +1,6 @@
 ---
 title: Beats Antique
-apple_music: 'https://itunes.apple.com/us/artist/beats-antique/275162219'
+apple_music: 'https://itunes.apple.com/artist/beats-antique/275162219'
 bandcamp: 'https://music.beatsantique.com'
 facebook: 'https://www.facebook.com/beatsantique'
 google_music: >-

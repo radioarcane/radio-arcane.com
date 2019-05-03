@@ -1,6 +1,6 @@
 ---
 title: Azar Swan
-apple_music: 'https://itunes.apple.com/us/artist/azar-swan/652324057'
+apple_music: 'https://itunes.apple.com/artist/azar-swan/652324057'
 bandcamp: 'https://azarswan.bandcamp.com'
 facebook: 'https://www.facebook.com/AzarSwan'
 google_music: >-
