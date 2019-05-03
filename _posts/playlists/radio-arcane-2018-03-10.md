@@ -31,7 +31,7 @@ sets:
         song: Dust Devil
       - artist: KMFDM
         song: 'Help Us, Save Us, Take Us Away'
-      - artist: Misfts
+      - artist: Misfits
         song: London Dungeon
       - artist: Man Or Astro-Man?
         song: 9 Volt

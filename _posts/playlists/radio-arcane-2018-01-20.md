@@ -17,7 +17,7 @@ sets:
         song: ALEA
       - artist: Dead Can Dance
         song: The Ubiquitous Mr. Lovegrove
-      - artist: Siousxie & The Banshees
+      - artist: Siouxsie & The Banshees
         song: Bring Me The Head of The Preacher Man
       - artist: New Model Army
         song: Vagabonds
