@@ -2,6 +2,7 @@
 title: Cocteau Twins
 apple_music: 'https://itunes.apple.com/artist/cocteau-twins/3029779'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/12373-Cocteau-Twins'
 facebook: 'https://www.facebook.com/ctwins'
 google_music: >-
    https://play.google.com/store/music/artist/Cocteau_Twins?id=As6osrlo6fd625dep7tozoe7wxy

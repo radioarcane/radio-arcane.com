@@ -2,6 +2,7 @@
 title: Second Still
 apple_music: 'https://itunes.apple.com/artist/second-still/1222236083'
 bandcamp: 'https://secondstill.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/4965506-Second-Still'
 facebook: 'https://www.facebook.com/secondstillband'
 google_music: >-
    https://play.google.com/store/music/artist/Second_Still?id=A64fp6wrjf4eysfdh264wtww4ju

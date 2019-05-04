@@ -2,6 +2,7 @@
 title: Temple of Angels
 apple_music: 'https://itunes.apple.com/artist/temple-of-angels/1364108881'
 bandcamp: 'https://templeofangels.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/6231602-Temple-Of-Angels'
 facebook: 'https://www.facebook.com/templeofangels'
 google_music: ''
 instagram: 'https://www.instagram.com/templeofangels'

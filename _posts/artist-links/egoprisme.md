@@ -2,6 +2,7 @@
 title: Egoprisme
 apple_music: 'https://itunes.apple.com/artist/egoprisme/1341118438'
 bandcamp: 'https://egoprisme.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5127317-Egoprisme'
 facebook: 'https://www.facebook.com/egoprisme'
 google_music: >-
    https://play.google.com/store/music/artist/Egoprisme?id=Aeywyfaxzizfgehqg6txxnceooi

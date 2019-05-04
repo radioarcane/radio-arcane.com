@@ -2,6 +2,7 @@
 title: She Pleasures Herself
 apple_music: 'https://itunes.apple.com/artist/she-pleasures-herself/1200111189'
 bandcamp: 'https://shepleasuresherself.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5195656-She-Pleasures-Herself'
 facebook: 'https://www.facebook.com/SPHSband'
 google_music: >-
    https://play.google.com/store/music/artist/She_Pleasures_Herself?id=A2w45efjcosgr6bg6z2x7otwvje

@@ -2,6 +2,7 @@
 title: Youth Code
 apple_music: 'https://itunes.apple.com/artist/youth-code/707645467'
 bandcamp: 'https://youthcode.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/3148183-Youth-Code'
 facebook: 'https://www.facebook.com/youthcodeforever'
 google_music: >-
   https://play.google.com/store/music/artist/Youth_Code?id=Ahbrmeplta2zwxgm75au6eiotry

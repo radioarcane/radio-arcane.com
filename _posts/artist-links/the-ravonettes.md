@@ -2,6 +2,7 @@
 title: The Ravonettes
 apple_music: 'https://itunes.apple.com/artist/the-raveonettes/654568'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/200321-The-Raveonettes'
 facebook: 'https://www.facebook.com/theraveonettes'
 google_music: >-
    https://play.google.com/store/music/artist/The_Raveonettes?id=A6xsa7i4hzczmdmnlfvincsyjl4

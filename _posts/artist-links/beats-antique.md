@@ -2,6 +2,7 @@
 title: Beats Antique
 apple_music: 'https://itunes.apple.com/artist/beats-antique/275162219'
 bandcamp: 'https://music.beatsantique.com'
+discogs: 'https://www.discogs.com/artist/1000230-Beats-Antique'
 facebook: 'https://www.facebook.com/beatsantique'
 google_music: >-
    https://play.google.com/store/music/artist/Beats_Antique?id=Akrh75iysb53pqkzmo4uems2wcq

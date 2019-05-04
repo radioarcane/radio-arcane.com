@@ -2,6 +2,7 @@
 title: AndrOspore
 apple_music: ''
 bandcamp: ''
+discogs: ''
 facebook: 'https://www.facebook.com/AndrOspore'
 google_music: ''
 instagram: ''

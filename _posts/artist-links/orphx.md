@@ -2,6 +2,7 @@
 title: Orphx
 apple_music: 'https://itunes.apple.com/artist/orphx/159330136'
 bandcamp: 'https://orphx.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/6603-Orphx'
 facebook: 'https://www.facebook.com/orphx'
 google_music: >-
    https://play.google.com/store/music/artist/Orphx?id=Agp4ty2bzcxzrjytgnc73nxq5uu

@@ -2,6 +2,7 @@
 title: Project Pitchfork
 apple_music: 'https://itunes.apple.com/artist/project-pitchfork/18202669'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/36661-Project-Pitchfork'
 facebook: 'https://www.facebook.com/ProjectPitchfork'
 google_music: >-
    https://play.google.com/store/music/artist/Project_Pitchfork?id=A2un36pvxxb66sffxttpdxncfpe

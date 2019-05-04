@@ -2,6 +2,7 @@
 title: Glaare
 apple_music: 'https://itunes.apple.com/artist/glaare/1295074761'
 bandcamp: 'https://glaare.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/4507353-Glaare'
 facebook: 'https://www.facebook.com/glaare'
 google_music: >-
    https://play.google.com/store/music/artist/Glaare?id=Aubygyko4htihkle5gbnpznscz4

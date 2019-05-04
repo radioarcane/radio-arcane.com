@@ -2,6 +2,7 @@
 title: Selofan
 apple_music: 'https://itunes.apple.com/artist/selofan/792070333'
 bandcamp: 'https://selofan.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2396624-Selofan'
 facebook: 'https://www.facebook.com/selofan.funpage'
 google_music: >-
    https://play.google.com/store/music/artist/Selofan?id=A7tz5t6qrqrwikpe3eujtxkk75u

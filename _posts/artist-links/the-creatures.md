@@ -2,6 +2,7 @@
 title: The Creatures
 apple_music: 'https://itunes.apple.com/artist/the-creatures/3188969'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/29644-The-Creatures'
 facebook: ''
 google_music: >-
    https://play.google.com/store/music/artist/The_Creatures?id=Aqo4dpdq35vwfdplzwwap4ijjvi

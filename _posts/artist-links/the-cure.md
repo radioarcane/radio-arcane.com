@@ -2,6 +2,7 @@
 title: The Cure
 apple_music: 'https://itunes.apple.com/artist/the-cure/566519'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/28972-The-Cure'
 facebook: 'https://www.facebook.com/thecure'
 google_music: >-
   https://play.google.com/store/music/artist/The_Cure?id=Abq5jbkzi3bjqebk4aqu6s4cgli

@@ -2,6 +2,7 @@
 title: Funker Vogt
 apple_music: 'https://itunes.apple.com/artist/funker-vogt/62437318'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/11889-Funker-Vogt'
 facebook: 'https://www.facebook.com/officialfunkervogt'
 google_music: >-
    https://play.google.com/store/music/artist/Funker_Vogt?id=Aqlqssjo3mzuyksxa57zijq7njy

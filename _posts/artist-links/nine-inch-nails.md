@@ -2,6 +2,7 @@
 title: Nine Inch Nails
 apple_music: 'https://itunes.apple.com/artist/nine-inch-nails/107917'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/3857-Nine-Inch-Nails'
 facebook: 'https://www.facebook.com/ninofficial'
 google_music: >-
   https://play.google.com/store/music/artist/Nine_inch_nails?id=Anfzmazfxuonvkhygocdo5gpo7y

@@ -2,6 +2,7 @@
 title: Velvet Condom
 apple_music: 'https://itunes.apple.com/artist/velvet-condom/346945752'
 bandcamp: 'https://cymbelinerecords.bandcamp.com/album/velvet-condom-vc'
+discogs: 'https://www.discogs.com/artist/1190060-Velvet-Condom'
 facebook: 'https://www.facebook.com/Velvet-Condom-467109906986523/'
 google_music: >-
    https://play.google.com/store/music/artist/Velvet_Condom?id=Ao6qwj7r3kzm5putu5lkeuzn2pq

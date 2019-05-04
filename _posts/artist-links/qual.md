@@ -2,6 +2,7 @@
 title: Qual
 apple_music: 'https://itunes.apple.com/artist/qual/153346549'
 bandcamp: 'https://qual.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/4043115-Qual-3'
 facebook: 'https://www.facebook.com/qual.death'
 google_music: >-
   https://play.google.com/store/music/artist/Qual?id=Amt7vofwidwi7oaimp4gjffnrqy

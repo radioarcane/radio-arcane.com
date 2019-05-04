@@ -2,6 +2,7 @@
 title: Ortrotasce
 apple_music: 'https://itunes.apple.com/artist/ortrotasce/554625439'
 bandcamp: 'https://ortrotasce.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2862098-Ortrotasce'
 facebook: 'https://www.facebook.com/ortrotasce'
 google_music: >-
    https://play.google.com/store/music/artist/Ortrotasce?id=A4toqkjwcorz4nr6aqvhtmwlkqm

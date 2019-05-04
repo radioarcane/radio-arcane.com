@@ -2,6 +2,7 @@
 title: Simi Nah
 apple_music: 'https://itunes.apple.com/artist/simi-nah/154010060'
 bandcamp: 'https://why2kmusic.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/51966-Simi-Nah'
 facebook: 'https://www.facebook.com/simi.nah.music'
 google_music: >-
    https://play.google.com/store/music/artist/Simi_Nah?id=Af6qix2lizoyvuxyc5rd4lne6ta

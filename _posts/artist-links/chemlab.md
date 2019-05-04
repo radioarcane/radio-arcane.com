@@ -2,6 +2,7 @@
 title: Chemlab
 apple_music: 'https://itunes.apple.com/artist/chemlab/44136935'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/69588-Chemlab'
 facebook: 'https://www.facebook.com/CHEMLAB-118257537762'
 google_music: >-
    https://play.google.com/store/music/artist/Chemlab?id=Af4dwsjreme6ncf6uasmo4wuxye

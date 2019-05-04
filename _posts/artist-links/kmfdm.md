@@ -2,6 +2,7 @@
 title: KMFDM
 apple_music: 'https://itunes.apple.com/artist/kmfdm/5544454'
 bandcamp: 'https://kmfdm.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/11606-KMFDM'
 facebook: 'https://www.facebook.com/officialkmfdm'
 google_music: >-
    https://play.google.com/store/music/artist/KMFDM?id=A3el3byghr4bqznsebwmjmfgj4a

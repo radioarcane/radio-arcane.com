@@ -2,6 +2,7 @@
 title: Nerve Quakes
 apple_music: 'https://itunes.apple.com/artist/nerve-quakes/1337069410'
 bandcamp: 'https://nervequakes.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5421823-Nerve-Quakes'
 facebook: 'https://www.facebook.com/Nerve-Quakes-1902422013308947'
 google_music: >-
    https://play.google.com/store/music/artist/Nerve_Quakes?id=Aclypfw2l5gac4dwnnjgbrcpf4e

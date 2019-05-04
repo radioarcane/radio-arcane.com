@@ -97,6 +97,14 @@
             >
                <SvgIcon name="home" use="home" />
             </a>
+
+            <a v-if="links.discogs"
+               :href="links.discogs"
+               target="_blank"
+               :title="`${ artist } on Discogs`"
+            >
+               <SvgIcon name="discogs" use="discogs" />
+            </a>
          </div>
       </div>
 
@@ -150,7 +158,10 @@
             const links = this.links;
             let socialLinks = [];
 
-            ['facebook', 'instagram', 'twitter', 'website'].forEach(key => {
+            [
+               'facebook', 'instagram', 'twitter',
+               'website', 'discogs'
+            ].forEach(key => {
                if (links.hasOwnProperty(key) && links[key]) {
                   socialLinks.push(key);
                }

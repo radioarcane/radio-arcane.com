@@ -2,6 +2,7 @@
 title: Sweet Spectra
 apple_music: 'https://itunes.apple.com/artist/sweet-spectra/1446641082'
 bandcamp: 'https://sweetspectraoficial.bandcamp.com'
+discogs: ''
 facebook: 'https://www.facebook.com/sweetspectra'
 google_music: >-
    https://play.google.com/store/music/artist/Sweet_Spectra?id=Aemvg2toynr63r372ufkihy63gi

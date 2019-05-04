@@ -2,6 +2,7 @@
 title: Vogel
 apple_music: 'https://itunes.apple.com/artist/vogel/193508050'
 bandcamp: 'https://vogelmusic.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/4272-Vogel'
 facebook: 'https://www.facebook.com/vogelofficial'
 google_music: >-
    https://play.google.com/store/music/artist?id=Af2wrdjjxfxnuygdvgf6jkz4rta

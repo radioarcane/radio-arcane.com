@@ -2,6 +2,7 @@
 title: Scary Black
 apple_music: 'https://itunes.apple.com/artist/scary-black/1448125388'
 bandcamp: 'https://scaryblack.bandcamp.com'
+discogs: ''
 facebook: 'https://www.facebook.com/scaryblack502'
 google_music: >-
   https://play.google.com/store/music/artist?id=Atzdpxwpz2depdpysylmh7e6p4y

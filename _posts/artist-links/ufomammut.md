@@ -2,6 +2,7 @@
 title: Ufomammut
 apple_music: 'https://itunes.apple.com/artist/ufomammut/86155642'
 bandcamp: 'https://ufomammut.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/536837-Ufomammut'
 facebook: 'https://www.facebook.com/ufomammutband'
 google_music: >-
    https://play.google.com/store/music/artist/Ufomammut?id=Amcvyjfptqkmxb5nawids3qabku

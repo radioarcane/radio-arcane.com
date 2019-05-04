@@ -2,6 +2,7 @@
 title: Ritualz
 apple_music: 'https://itunes.apple.com/artist/ritualz/443924470'
 bandcamp: 'https://ritualz.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2148399-Ritualz'
 facebook: 'https://www.facebook.com/rrritualzzz'
 google_music: >-
   https://play.google.com/store/music/artist/Ritualz?id=Aagnp27fvmqi6jvbqg5fpvtkfje

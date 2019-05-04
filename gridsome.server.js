@@ -24,6 +24,7 @@ const defaultArtistLink = {
    title: null,
    apple_music: null,
    bandcamp: null,
+   discogs: null,
    facebook: null,
    google_music: null,
    instagram: null,

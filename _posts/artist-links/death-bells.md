@@ -2,6 +2,7 @@
 title: Death Bells
 apple_music: 'https://itunes.apple.com/artist/death-bells/1108795237'
 bandcamp: 'https://deathbells-au.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5126385-Death-Bells'
 facebook: 'https://www.facebook.com/bellsofdeath'
 google_music: >-
    https://play.google.com/store/music/artist/Death_Bells?id=Ae2vk5656g7okngyrkjdzar3nma

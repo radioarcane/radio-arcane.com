@@ -2,6 +2,7 @@
 title: Bestial Mouths
 apple_music: 'https://itunes.apple.com/artist/bestial-mouths/524900612'
 bandcamp: 'https://bestialmouths.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2081054-Bestial-Mouths'
 facebook: 'https://www.facebook.com/BESTIALMOUTHS'
 google_music: >-
   https://play.google.com/store/music/artist/Bestial_Mouths?id=Anojxjohiqntdpi3zjiwryoa5jm

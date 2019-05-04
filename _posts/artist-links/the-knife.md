@@ -2,6 +2,7 @@
 title: The Knife
 apple_music: 'https://itunes.apple.com/artist/the-knife/26090355'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/87717-The-Knife'
 facebook: 'https://www.facebook.com/theknifemusic'
 google_music: >-
    https://play.google.com/store/music/artist/The_Knife?id=Aknohuoe2r2tmxw5utuwr7b7h24

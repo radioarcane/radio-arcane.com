@@ -2,6 +2,7 @@
 title: Fields of The Nephilim
 apple_music: 'https://itunes.apple.com/artist/fields-of-the-nephilim/3022271'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/85994-Fields-Of-The-Nephilim'
 facebook: 'https://www.facebook.com/FieldsOfTheNephilim'
 google_music: >-
    https://play.google.com/store/music/artist/Fields_Of_The_Nephilim?id=Aygpgz7pedv5xwkhj3jtfa2wboy

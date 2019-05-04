@@ -46,6 +46,7 @@
                      appleMusic,
                      bandcamp,
                      facebook,
+                     discogs,
                      googleMusic,
                      instagram,
                      soundcloud,
@@ -61,6 +62,7 @@
                      artistLinks {
                         appleMusic,
                         bandcamp,
+                        discogs,
                         facebook,
                         googleMusic,
                         instagram,

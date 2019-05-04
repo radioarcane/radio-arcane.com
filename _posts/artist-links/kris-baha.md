@@ -2,6 +2,7 @@
 title: Kris Baha
 apple_music: 'https://itunes.apple.com/artist/kris-baha/343292335'
 bandcamp: 'https://shelostkontrolrecords.bandcamp.com/album/in-your-arms'
+discogs: 'https://www.discogs.com/artist/1957268-Kris-Baha'
 facebook: 'https://www.facebook.com/krisbaha'
 google_music: >-
   https://play.google.com/store/music/artist?id=Alqoiwqr5mx364ccalell6uwyoy

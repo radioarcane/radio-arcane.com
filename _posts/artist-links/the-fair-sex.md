@@ -2,6 +2,7 @@
 title: The Fair Sex
 apple_music: 'https://itunes.apple.com/artist/the-fair-sex/5626920'
 bandcamp: 'https://thefairsex.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/210011-The-Fair-Sex'
 facebook: 'https://www.facebook.com/thefairsex'
 google_music: >-
    https://play.google.com/store/music/artist/The_Fair_Sex?id=Aag2c3atovai4xcomiydgsu3equ

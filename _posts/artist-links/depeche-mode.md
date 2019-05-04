@@ -2,6 +2,7 @@
 title: Depeche Mode
 apple_music: 'https://itunes.apple.com/artist/depeche-mode/148377'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/2725-Depeche-Mode'
 facebook: 'https://www.facebook.com/depechemode'
 google_music: >-
    https://play.google.com/store/music/artist/Depeche_Mode?id=Aniz2j2o7ppgnnpd4jiw3owum2m

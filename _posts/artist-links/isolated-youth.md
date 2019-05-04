@@ -2,6 +2,7 @@
 title: Isolated Youth
 apple_music: 'https://itunes.apple.com/artist/isolated-youth/1446463380'
 bandcamp: 'https://isolatedyouth.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/6737164-Isolated-Youth'
 facebook: 'https://www.facebook.com/isolatedyouth'
 google_music: >-
    https://play.google.com/store/music/artist/Isolated_Youth?id=Adfr5tdytupy4ijmmeozafdt7si

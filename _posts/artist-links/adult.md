@@ -2,6 +2,7 @@
 title: ADULT.
 apple_music: 'https://itunes.apple.com/artist/adult/3432062'
 bandcamp: 'https://adultmusic.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/3718-ADULT'
 facebook: 'https://www.facebook.com/adultperiod'
 google_music: >-
    https://play.google.com/store/music/artist/Adult?id=Axeb62dlyas5rl5g3gtgvgcmkve

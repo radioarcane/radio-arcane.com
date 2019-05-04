@@ -2,6 +2,7 @@
 title: Trisomie 21
 apple_music: 'https://itunes.apple.com/artist/trisomie-21/73782484'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/71984-Trisomie-21'
 facebook: 'https://www.facebook.com/trisomie21'
 google_music: >-
   https://play.google.com/store/music/artist/Trisomie_21?id=Ay2wterbevbpeinams3qy4u5ycu

@@ -2,6 +2,7 @@
 title: Kælan Mikla
 apple_music: 'https://itunes.apple.com/artist/kaelan-mikla/1140519808'
 bandcamp: 'https://kaelanmikla.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/4261693-K%C3%A6lan-Mikla'
 facebook: 'https://www.facebook.com/kaelanmikla'
 google_music: >-
   https://play.google.com/store/music/artist/K%C3%A6lan_Mikla?id=Acef63ie4ygo7omtm7kwnrluaue

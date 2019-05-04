@@ -2,6 +2,7 @@
 title: Mementut
 apple_music: ''
 bandcamp: 'https://mementut.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5886180-Mementut'
 facebook: 'https://www.facebook.com/Mementut'
 google_music: ''
 instagram: ''

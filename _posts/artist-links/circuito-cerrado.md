@@ -2,6 +2,7 @@
 title: Circuito Cerrado
 apple_music: 'https://itunes.apple.com/us/artist/circuito-cerrado/910512777'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/4031092-Circuito-Cerrado'
 facebook: 'https://www.facebook.com/circuitocerradoband'
 google_music: >-
    https://play.google.com/store/music/artist/Circuito_Cerrado?id=Apkwvzl7mhl6n6puqgfqn4v6nka

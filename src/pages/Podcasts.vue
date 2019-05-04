@@ -29,27 +29,7 @@
                description,
                shortDescription,
                mixcloudLink,
-               soundcloudLink,
-               playlist {
-                  sets {
-                     tracks {
-                        artist,
-                        song,
-                        artistLinks {
-                           appleMusic,
-                           bandcamp,
-                           facebook,
-                           googleMusic,
-                           instagram,
-                           soundcloud,
-                           spotify,
-                           twitter,
-                           website,
-                           youtube
-                        }
-                     }
-                  }
-               }
+               soundcloudLink
             }
          }
       }

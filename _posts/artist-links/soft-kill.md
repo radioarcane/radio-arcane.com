@@ -2,6 +2,7 @@
 title: Soft Kill
 apple_music: 'https://itunes.apple.com/artist/soft-kill/427037221'
 bandcamp: 'https://anopendoor.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2175012-Soft-Kill'
 facebook: 'https://www.facebook.com/pages/Soft-Kill/623901387653791'
 google_music: >-
    https://play.google.com/store/music/artist/Soft_Kill?id=Apq2twbnwnacgptl3gmrpfszjum

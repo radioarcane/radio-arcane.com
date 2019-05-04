@@ -2,6 +2,7 @@
 title: VOWWS
 apple_music: 'https://itunes.apple.com/artist/vowws/992618064'
 bandcamp: 'https://vowwsband.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/4789356-VOWWS'
 facebook: 'https://www.facebook.com/vowwsband'
 google_music: >-
    https://play.google.com/store/music/artist/VOWWS?id=A7cbvczxrgpb2lvpke6qdufshze

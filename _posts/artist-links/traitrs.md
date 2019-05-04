@@ -2,6 +2,7 @@
 title: TRAITRS
 apple_music: 'https://itunes.apple.com/artist/traitrs/1118704716'
 bandcamp: 'https://traitrs.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5125706-TRAITRS'
 facebook: 'https://www.facebook.com/traitrs'
 google_music: >-
    https://play.google.com/store/music/artist/TRAITRS?id=Aouttm54sbov7aghcfx6z5pyr4i

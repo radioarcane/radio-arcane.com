@@ -2,6 +2,7 @@
 title: Nitzer Ebb
 apple_music: 'https://itunes.apple.com/artist/nitzer-ebb/113752'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/2709-Nitzer-Ebb'
 facebook: 'https://www.facebook.com/NitzerEbbOfficial'
 google_music: >-
    https://play.google.com/store/music/artist/Nitzer_Ebb?id=Aiaxlvqcydoxerzgelsbpgzwe7q

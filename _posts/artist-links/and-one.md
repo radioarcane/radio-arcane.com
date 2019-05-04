@@ -2,6 +2,7 @@
 title: And One
 apple_music: 'https://itunes.apple.com/artist/and-one/493074464'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/53213-And-One'
 facebook: 'https://www.facebook.com/ANDONEoffiziell'
 google_music: >-
    https://play.google.com/store/music/artist/And_One?id=Ai4plf2w73ylyycp3hfkho7la2y

@@ -2,6 +2,7 @@
 title: V▲LH▲LL
 apple_music: 'https://itunes.apple.com/artist/valhall/329611296'
 bandcamp: 'https://vlhll.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5472627-Valhall-2'
 facebook: 'https://www.facebook.com/vxlhxll'
 google_music: >-
    https://play.google.com/store/music/artist/VALHALL?id=Aq5ay5vikotyojvbtk54nmbxibq

@@ -2,6 +2,7 @@
 title: New Model Army
 apple_music: 'https://itunes.apple.com/artist/new-model-army/5644196'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/134825-New-Model-Army'
 facebook: 'https://www.facebook.com/NewModelArmyOfficial'
 google_music: 'https://play.google.com/store/music/artist/New_Model_Army?id=A5uoto7qzyefdc7zsckl7lcoz2e'
 instagram: 'https://www.instagram.com/newmodelarmy'

@@ -2,6 +2,7 @@
 title: GosT
 apple_music: 'https://itunes.apple.com/artist/gost/1434068160'
 bandcamp: 'https://gost1980s.bandcamp.com/'
+discogs: 'https://www.discogs.com/artist/2407301-Gost-2'
 facebook: 'https://www.facebook.com/gost1980s'
 google_music: >-
    https://play.google.com/store/music/artist/GosT?id=Aco76tm6wqusru5cgi64ntloive

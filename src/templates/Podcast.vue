@@ -89,6 +89,7 @@
                  artistLinks {
                     appleMusic,
                     bandcamp,
+                    discogs,
                     facebook,
                     googleMusic,
                     instagram,

@@ -2,6 +2,7 @@
 title: ACTORS
 apple_music: 'https://itunes.apple.com/artist/actors/514998571'
 bandcamp: 'https://actors.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5113587-ACTORS'
 facebook: 'https://www.facebook.com/actors1984'
 google_music: >-
    https://play.google.com/store/music/artist/ACTORS?id=Abh6iashk7jxjuj527a3z6fgrh4

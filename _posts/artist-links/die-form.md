@@ -2,6 +2,7 @@
 title: Die Form
 apple_music: 'https://itunes.apple.com/artist/die-form/79614629'
 bandcamp: 'https://dieform.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/15569-Die-Form'
 facebook: 'https://www.facebook.com/DieFormMusic'
 google_music: >-
    https://play.google.com/store/music/artist/Die_Form?id=All4sf4jbwns7xhujqhh77ytttm

@@ -2,6 +2,7 @@
 title: Garden of Mary
 apple_music: 'https://itunes.apple.com/artist/garden-of-mary/1265279808'
 bandcamp: 'https://gardenofmary.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5044577-Garden-Of-Mary'
 facebook: 'https://www.facebook.com/TheGardenofMary/'
 google_music: >-
    https://play.google.com/store/music/artist/Garden_of_Mary?id=Armhumvdn3h7o37fyphwqa6esrm

@@ -2,6 +2,7 @@
 title: The Mission
 apple_music: 'https://itunes.apple.com/artist/the-mission/81186'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/99925-The-Mission'
 facebook: 'https://www.facebook.com/themissionuk'
 google_music: >-
    https://play.google.com/store/music/artist/The_Mission?id=Auqknhom6yzsub3zhjj7fpayzra

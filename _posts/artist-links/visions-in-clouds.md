@@ -2,6 +2,7 @@
 title: Visions In Clouds
 apple_music: 'https://itunes.apple.com/artist/visions-in-clouds/1183391371'
 bandcamp: 'https://visionsinclouds.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/5806837-Visions-In-Clouds'
 facebook: 'https://www.facebook.com/viclucerne'
 google_music: >-
    https://play.google.com/store/music/artist/Visions_In_Clouds?id=A32n6pqrsezb2r5tqb5hgpprlqq

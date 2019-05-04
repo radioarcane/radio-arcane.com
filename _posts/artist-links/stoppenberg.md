@@ -2,6 +2,7 @@
 title: Stoppenberg
 apple_music: 'https://itunes.apple.com/artist/stoppenberg/833883552'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/3890279-Stoppenberg'
 facebook: 'https://www.facebook.com/stoppenbergmusic'
 google_music: ''
 instagram: ''

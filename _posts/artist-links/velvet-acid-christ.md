@@ -2,6 +2,7 @@
 title: Velvet Acid Christ
 apple_music: 'https://itunes.apple.com/artist/velvet-acid-christ/56221127'
 bandcamp: 'https://velvetacidchristofficial.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/10672-Velvet-Acid-Christ'
 facebook: 'https://www.facebook.com/VelvetAcidChristOfficial'
 google_music: >-
    https://play.google.com/store/music/artist/Velvet_Acid_Christ?id=Avnmffo6avujmvfwo24canifx3y

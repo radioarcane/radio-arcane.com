@@ -2,6 +2,7 @@
 title: 'Noyce™'
 apple_music: ''
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/16395-NoyceTM'
 facebook: 'https://www.facebook.com/noycetm'
 google_music: >-
    https://play.google.com/store/music/artist/Noyce?id=Anlnz2fioidc4tfuaim2a6u5wuq

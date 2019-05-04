@@ -2,6 +2,7 @@
 title: Nightmare Fortress
 apple_music: 'https://itunes.apple.com/artist/nightmare-fortress/534376798'
 bandcamp: 'https://nightmarefortress.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2898940-Nightmare-Fortress'
 facebook: ''
 google_music: >-
    https://play.google.com/store/music/artist/Nightmare_Fortress?id=Aawenyfavc7phc3v5ruoairokde

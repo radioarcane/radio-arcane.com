@@ -2,6 +2,7 @@
 title: Inhalt
 apple_music: 'https://itunes.apple.com/artist/inhalt/524892048'
 bandcamp: 'https://inhalt.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2561859-Inhalt'
 facebook: 'https://www.facebook.com/INHALT.US'
 google_music: >-
    https://play.google.com/store/music/artist/INHALT?id=Auyulxl6hc5tl5gicen2swj3daq

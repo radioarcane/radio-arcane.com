@@ -2,6 +2,7 @@
 title: Peter Murphy
 apple_music: 'https://itunes.apple.com/artist/peter-murphy/3023019'
 bandcamp: 'https://petermurphy.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/79314-Peter-Murphy'
 facebook: 'https://www.facebook.com/petermurphyinfo'
 google_music: >-
    https://play.google.com/store/music/artist/Peter_Murphy?id=Aztogqlybrzoh3idryudykcjcdy

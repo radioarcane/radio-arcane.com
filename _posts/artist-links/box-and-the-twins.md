@@ -2,6 +2,7 @@
 title: Box & The Twins
 apple_music: 'https://itunes.apple.com/artist/box-and-the-twins/956891450'
 bandcamp: 'https://boxandthetwins.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/4113560-Box-And-The-Twins'
 facebook: 'https://www.facebook.com/boxandthetwins'
 google_music: >-
   https://play.google.com/store/music/artist?id=Ayzwjwrtcdzkyn5x2iolmx5nbni

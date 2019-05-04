@@ -2,6 +2,7 @@
 title: Agent Side Grinder
 apple_music: 'https://itunes.apple.com/artist/agent-side-grinder/394951673'
 bandcamp: 'https://agentsidegrinder.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/830309-Agent-Side-Grinder'
 facebook: 'https://www.facebook.com/agentsidegrinder'
 google_music: >-
    https://play.google.com/store/music/artist/Agent_Side_Grinder?id=A7234whlah5hm2lxdpaykaejjbq

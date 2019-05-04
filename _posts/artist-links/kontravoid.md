@@ -2,6 +2,7 @@
 title: Kontravoid
 apple_music: 'https://itunes.apple.com/artist/kontravoid/421174677'
 bandcamp: 'https://kontravoid.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2773314-Kontravoid'
 facebook: 'https://www.facebook.com/kontravoid'
 google_music: >-
    https://play.google.com/store/music/artist/Kontravoid?id=Aeap42a4xrrl3s6k3r5cnwvc74i

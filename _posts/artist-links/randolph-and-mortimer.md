@@ -2,6 +2,7 @@
 title: Randolph & Mortimer
 apple_music: 'https://itunes.apple.com/artist/randolph-mortimer/375558277'
 bandcamp: 'https://randolphandmortimer.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/3399814-Randolph-Mortimer'
 facebook: 'https://www.facebook.com/randolphandMortimer'
 google_music: >-
    https://play.google.com/store/music/artist/Randolph_Mortimer?id=Agpl25sq3yya4yswtbrk6jxxkpu

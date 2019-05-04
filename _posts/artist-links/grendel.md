@@ -2,6 +2,7 @@
 title: Grendel
 apple_music: 'https://itunes.apple.com/artist/grendel/41734941'
 bandcamp: 'https://infactedrecordings.bandcamp.com/album/age-of-the-disposable-body-deluxe'
+discogs: 'https://www.discogs.com/artist/20055-Grendel'
 facebook: 'https://www.facebook.com/grendel.music'
 google_music: >-
    https://play.google.com/store/music/artist/Grendel?id=Ax3345je2svkmrjlebdwcwmijye

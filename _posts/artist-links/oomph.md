@@ -2,6 +2,7 @@
 title: Oomph!
 apple_music: 'https://itunes.apple.com/artist/oomph/19608482'
 bandcamp: 'https://oomph.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/43378-OOMPH!'
 facebook: 'https://www.facebook.com/oomphband'
 google_music: >-
    https://play.google.com/store/music/artist/OOMPH?id=Aexgnrzditbpxbyn62dyynzahke

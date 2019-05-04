@@ -2,6 +2,7 @@
 title: The Foreign Resort
 apple_music: 'https://itunes.apple.com/artist/the-foreign-resort/282292289'
 bandcamp: 'https://theforeignresort.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2183650-The-Foreign-Resort'
 facebook: 'https://www.facebook.com/theforeignresort'
 google_music: >-
    https://play.google.com/store/music/artist/The_Foreign_Resort?id=Aj6crvnqrdpq2y3kkabqsr4pgby

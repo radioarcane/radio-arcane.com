@@ -2,6 +2,7 @@
 title: De/Vision
 apple_music: 'https://itunes.apple.com/artist/de-vision/219342311'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/25771-DeVision'
 facebook: 'https://www.facebook.com/DEVISION-24741337633'
 google_music: >-
    https://play.google.com/store/music/artist/De_Vision?id=Arhrpdco32ph7locv2rua52hzey

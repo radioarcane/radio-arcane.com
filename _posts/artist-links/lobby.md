@@ -2,6 +2,7 @@
 title: Lobby
 apple_music: 'https://itunes.apple.com/artist/lobby/1447054977'
 bandcamp: 'https://solangeendormierecords.bandcamp.com/album/fragrance'
+discogs: 'https://www.discogs.com/artist/6632660-LOBBY-6'
 facebook: 'https://www.facebook.com/LOBBY.Band'
 google_music: ''
 instagram: 'https://www.instagram.com/lobbyband'

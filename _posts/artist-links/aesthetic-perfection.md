@@ -2,6 +2,7 @@
 title: Aesthetic Perfection
 apple_music: 'https://itunes.apple.com/artist/aesthetic-perfection/175621289'
 bandcamp: 'https://aestheticperfection.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/115210-Aesthetic-Perfection'
 facebook: 'https://www.facebook.com/aestheticperfection'
 google_music: >-
   https://play.google.com/store/music/artist/Aesthetic_Perfection?id=Affjdnafv6cbc53l6foirmbqja4

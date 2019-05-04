@@ -2,6 +2,7 @@
 title: Angels of Liberty
 apple_music: 'https://itunes.apple.com/artist/angels-of-liberty/480659043'
 bandcamp: 'https://angelsofliberty.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2275349-Angels-of-Liberty'
 facebook: 'https://www.facebook.com/angelsofliberty'
 google_music: >-
    https://play.google.com/store/music/artist/Angels_of_Liberty?id=Augyj5dddcxt5rg7u43cjuy2w3i

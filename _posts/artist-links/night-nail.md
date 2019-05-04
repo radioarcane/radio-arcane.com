@@ -2,6 +2,7 @@
 title: Night Nail
 apple_music: 'https://itunes.apple.com/album/night-nail-ep/id1194334889'
 bandcamp: 'https://music.nightnail.com'
+discogs: 'https://www.discogs.com/artist/4887765-Night-Nail'
 facebook: 'https://www.facebook.com/nightnailmusic'
 google_music: >-
    https://play.google.com/store/music/artist/Night_Nail?id=Agnovtgd5axxswwgqphkxr4yyku

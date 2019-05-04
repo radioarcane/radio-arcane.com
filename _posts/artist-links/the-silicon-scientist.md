@@ -2,6 +2,7 @@
 title: The Silicon Scientist
 apple_music: ''
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/608297-The-Silicon-Scientist'
 facebook: 'https://www.facebook.com/thesiliconscientist'
 google_music: >-
    https://play.google.com/store/music/artist/The_Silicon_Scientist?id=Aehy3xxikgm6j2k2766ldwvuhlm

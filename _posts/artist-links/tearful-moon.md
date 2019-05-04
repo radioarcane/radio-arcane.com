@@ -2,6 +2,7 @@
 title: Tearful Moon
 apple_music: 'https://itunes.apple.com/artist/tearful-moon/1178977711'
 bandcamp: 'https://tearfulmoon.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/4799916-Tearful-Moon'
 facebook: 'https://www.facebook.com/ManuelandSky'
 google_music: >-
    https://play.google.com/store/music/artist/Tearful_Moon?id=A6ygtyie4csl5j2phpajzaj5k6a

@@ -64,6 +64,7 @@
                performerLinks {
                   appleMusic,
                   bandcamp,
+                  discogs,
                   facebook,
                   googleMusic,
                   instagram,
@@ -80,6 +81,7 @@
                   artistLinks {
                      appleMusic,
                      bandcamp,
+                     discogs,
                      facebook,
                      googleMusic,
                      instagram,

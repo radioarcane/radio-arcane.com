@@ -2,6 +2,7 @@
 title: Mr.Kitty
 apple_music: 'https://itunes.apple.com/artist/mr-kitty/376202205'
 bandcamp: 'https://mrkittydm.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2571807-MrKitty'
 facebook: 'https://www.facebook.com/mrkittydm'
 google_music: >-
    https://play.google.com/store/music/artist/Mr_Kitty?id=Afv5ep3yxslbjeksf3usr7dvq2i

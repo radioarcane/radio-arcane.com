@@ -2,6 +2,7 @@
 title: 2nd Face
 apple_music: 'https://itunes.apple.com/artist/2nd-face/978470841'
 bandcamp: 'https://2ndface.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/3932115-2nd-face'
 facebook: 'https://www.facebook.com/iindface'
 google_music: >-
    https://play.google.com/store/music/artist/2nd_Face?id=Alfhzdd5djwdtbwzsinapgjlww4

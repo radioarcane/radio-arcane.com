@@ -2,6 +2,7 @@
 title: Major Parkinson
 apple_music: 'https://itunes.apple.com/artist/major-parkinson/280812994'
 bandcamp: 'https://majorparkinson.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/1187083-Major-Parkinson'
 facebook: 'https://www.facebook.com/majorparkinson'
 google_music: >-
    https://play.google.com/store/music/artist/Major_Parkinson?id=Avaaqpp7vkocyqo6b7vxfbfr4ya

@@ -2,6 +2,7 @@
 title: Hatari
 apple_music: 'https://itunes.apple.com/artist/hatari/1416991459'
 bandcamp: 'https://svikamylla.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/6318152-Hatari-2'
 facebook: 'https://www.facebook.com/hatridmunsigra'
 google_music: >-
    https://play.google.com/store/music/artist/Hatari?id=A2rcfkuxttbdvickid2huy7nafe

@@ -2,6 +2,7 @@
 title: Heaven 17
 apple_music: 'https://itunes.apple.com/artist/heaven-17/5903146'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/12340-Heaven-17'
 facebook: 'https://www.facebook.com/heaven17official'
 google_music: >-
    https://play.google.com/store/music/artist/Heaven_17?id=Abjyl25qwxq2rcctw3pqj5mhkkq

@@ -2,6 +2,7 @@
 title: Combichrist
 apple_music: 'https://itunes.apple.com/artist/combichrist/49450697'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/139618-Combichrist'
 facebook: 'https://www.facebook.com/combichrist'
 google_music: >-
    https://play.google.com/store/music/artist?id=Abu6bk735zwugo23yldncygz3wq

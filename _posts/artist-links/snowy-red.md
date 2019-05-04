@@ -2,6 +2,7 @@
 title: Snowy Red
 apple_music: 'https://itunes.apple.com/artist/snowy-red/288512559'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/7533-Snowy-Red'
 facebook: 'https://www.facebook.com/Snowy-Red-official-179154485437205'
 google_music: >-
   https://play.google.com/store/music/artist/Snowy_Red?id=Ar327avgdmvphtvfwzbk6lc6lou

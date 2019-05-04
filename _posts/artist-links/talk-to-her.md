@@ -2,6 +2,7 @@
 title: Talk To Her
 apple_music: 'https://itunes.apple.com/artist/talk-to-her/1335611565'
 bandcamp: 'https://talktoher.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/6372362-Talk-To-Her'
 facebook: 'https://facebook.com/talktoherband'
 google_music: >-
    https://play.google.com/store/music/artist/Talk_To_Her?id=Ag435nfx5zuhteocoku7cgzk2yu

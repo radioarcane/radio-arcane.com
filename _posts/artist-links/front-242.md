@@ -2,6 +2,7 @@
 title: Front 242
 apple_music: 'https://itunes.apple.com/artist/front-242/484849'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/4655-Front-242'
 facebook: 'https://www.facebook.com/Front.242'
 google_music: >-
    https://play.google.com/store/music/artist/Front_242?id=Apx5xxac7lpykujus3a6fjugyia

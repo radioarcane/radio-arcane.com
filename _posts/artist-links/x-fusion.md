@@ -2,6 +2,7 @@
 title: X-Fusion
 apple_music: 'https://itunes.apple.com/artist/x-fusion/135978898'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/141437-X-Fusion'
 facebook: 'https://www.facebook.com/XFUSIONofficial'
 google_music: >-
    https://play.google.com/store/music/artist/X_Fusion?id=A332jujeklrgspyfffpdehhjfye

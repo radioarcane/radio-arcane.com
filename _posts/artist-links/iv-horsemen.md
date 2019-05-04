@@ -2,6 +2,7 @@
 title: IV Horsemen
 apple_music: 'https://itunes.apple.com/artist/iv-horsemen/1361655421'
 bandcamp: 'https://aufnahmeundwiedergabe.bandcamp.com/album/dies-irae'
+discogs: 'https://www.discogs.com/artist/5868533-IV-Horsemen'
 facebook: 'https://www.facebook.com/IVHorsemenIV'
 google_music: >-
    https://play.google.com/store/music/artist/IV_Horsemen?id=Agfiqlytvtotoxk6pzvp5xa6cyq

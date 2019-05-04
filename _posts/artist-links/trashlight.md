@@ -2,6 +2,7 @@
 title: Trashlight
 apple_music: 'https://itunes.apple.com/artist/trashlight/1436414497'
 bandcamp: 'https://trashlight.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/6677851-Trashlight'
 facebook: 'https://www.facebook.com/trashlightofficial'
 google_music: >-
    https://play.google.com/store/music/artist/Trashlight?id=Ar6o4jqb553ioywgta22fy36doi

@@ -2,6 +2,7 @@
 title: Colouroid
 apple_music: 'https://itunes.apple.com/artist/colouroid/437007692'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/2433048-Colouroid'
 facebook: 'https://www.facebook.com/colouroid'
 google_music: >-
    https://play.google.com/store/music/artist/Colouroid?id=At2tkklxxejxkpegnod3443mcza

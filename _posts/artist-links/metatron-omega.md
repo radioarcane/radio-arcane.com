@@ -2,6 +2,7 @@
 title: Metatron Omega
 apple_music: 'https://itunes.apple.com/artist/metatron-omega/1138130323'
 bandcamp: 'https://cryochamber.bandcamp.com/album/illuminatio'
+discogs: 'https://www.discogs.com/artist/4507769-Metatron-Omega'
 facebook: 'https://www.facebook.com/metatronomega'
 google_music: >-
    https://play.google.com/store/music/artist/Metatron_Omega?id=Aco3a7yxltjahunb2qq6evciaoy

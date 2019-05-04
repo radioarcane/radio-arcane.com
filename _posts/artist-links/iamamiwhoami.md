@@ -2,6 +2,7 @@
 title: iamamiwhoami
 apple_music: 'https://itunes.apple.com/artist/id480149578'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/1782510-iamamiwhoami'
 facebook: 'https://www.facebook.com/iamamiwhoamiofficial'
 google_music: >-
    https://play.google.com/store/music/artist/iamamiwhoami?id=Ayw352nykpobuci2ruu6o3xompq

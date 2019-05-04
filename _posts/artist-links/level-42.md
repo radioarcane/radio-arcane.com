@@ -2,6 +2,7 @@
 title: Level 42
 apple_music: 'https://itunes.apple.com/artist/level-42/81006'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/17640-Level-42'
 facebook: 'https://www.facebook.com/level42official'
 google_music: >-
    https://play.google.com/store/music/artist/Level_42?id=Ax4njfr57zlr2yz2munwb2ntmge

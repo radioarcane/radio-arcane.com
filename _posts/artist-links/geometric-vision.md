@@ -2,6 +2,7 @@
 title: Geometric Vision
 apple_music: 'https://itunes.apple.com/artist/geometric-vision/1111666576'
 bandcamp: 'https://geometricvisionband.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/3798877-Geometric-Vision'
 facebook: 'https://www.facebook.com/GeometricVision'
 google_music: >-
    https://play.google.com/store/music/artist/Geometric_Vision?id=Abqpu5ousbxd6cnhz2vceg3olae

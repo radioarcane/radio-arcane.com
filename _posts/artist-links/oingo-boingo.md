@@ -2,6 +2,7 @@
 title: Oingo Boingo
 apple_music: 'https://itunes.apple.com/artist/oingo-boingo/93615'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/79459-Oingo-Boingo'
 facebook: ''
 google_music: >-
    https://play.google.com/store/music/artist/Oingo_Boingo?id=Azsmb4hvs4rwzrgtqj2y5izzpn4

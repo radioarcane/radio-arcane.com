@@ -2,6 +2,7 @@
 title: 'Patenbrigade: Wolff'
 apple_music: 'https://itunes.apple.com/artist/patenbrigade-wolff/200571034'
 bandcamp: 'https://patenbrigadewolff.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/307905-Patenbrigade-Wolff'
 facebook: 'https://www.facebook.com/PatenbrigadeWolff'
 google_music: >-
    https://play.google.com/store/music/artist/Patenbrigade_Wolff?id=Almdwb4mruakryso5zqypx4v62a

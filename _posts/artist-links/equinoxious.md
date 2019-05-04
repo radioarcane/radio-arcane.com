@@ -2,6 +2,7 @@
 title: Equinoxious
 apple_music: 'https://itunes.apple.com/artist/equinoxious/1101266769'
 bandcamp: 'https://equinoxious.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/3805670-Equinoxious'
 facebook: 'https://www.facebook.com/equinoxious'
 google_music: >-
    https://play.google.com/store/music/artist/Equinoxious?id=A72xw2fzwejnekieu6jdzw6rgcy

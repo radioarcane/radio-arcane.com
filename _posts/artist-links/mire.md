@@ -2,6 +2,7 @@
 title: Mire.
 apple_music: 'https://itunes.apple.com/artist/mire/1244453035'
 bandcamp: 'https://mirewave.bandcamp.com'
+discogs: ''
 facebook: 'https://www.facebook.com/mire.wave'
 google_music: ''
 instagram: 'https://www.instagram.com/mire.wave'

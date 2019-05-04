@@ -2,6 +2,7 @@
 title: Sidewalks & Skeletons
 apple_music: 'https://itunes.apple.com/artist/sidewalks-and-skeletons/id678419002'
 bandcamp: 'https://sidewalksandskeletons.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/3066379-Sidewalks-And-Skeletons'
 facebook: 'https://www.facebook.com/sidewalksandskeletons'
 google_music: >-
   https://play.google.com/store/music/artist?id=A45jaihdxt7q3gkpimnvtqhranu

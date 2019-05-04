@@ -2,6 +2,7 @@
 title: The Devil & The Universe
 apple_music: 'https://itunes.apple.com/artist/the-devil-and-the-universe/1063343742'
 bandcamp: 'https://aufnahmeundwiedergabe.bandcamp.com/album/folk-horror'
+discogs: 'https://www.discogs.com/artist/3270550-The-Devil-The-Universe'
 facebook: 'https://www.facebook.com/TheDevilAndTheUniverse'
 google_music: >-
    https://play.google.com/store/music/artist/The_Devil_the_Universe?id=Ar5d45farnvlph2libxci6nxs7q

@@ -2,6 +2,7 @@
 title: Joy Division
 apple_music: 'https://itunes.apple.com/artist/joy-division/722383'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/3898-Joy-Division'
 facebook: 'https://www.facebook.com/JoyDivisionOfficial'
 google_music: >-
    https://play.google.com/store/music/artist/Joy_Division?id=A7stw33un3ikghopvzhz2tpmvtm

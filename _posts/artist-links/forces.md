@@ -2,6 +2,7 @@
 title: Forces
 apple_music: 'https://itunes.apple.com/album/newbody-ep/1371413307'
 bandcamp: 'https://forcesofficial.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/2721165-Forces-3'
 facebook: 'https://www.facebook.com/Forces-151477478280366/'
 google_music: ''
 instagram: ''

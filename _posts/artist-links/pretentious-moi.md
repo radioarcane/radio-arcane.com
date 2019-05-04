@@ -2,6 +2,7 @@
 title: Pretentious, Moi?
 apple_music: 'https://itunes.apple.com/artist/pretentious-moi/460369093'
 bandcamp: ''
+discogs: 'https://www.discogs.com/artist/612728-Pretentious-Moi'
 facebook: 'https://www.facebook.com/pretentiousmoi'
 google_music: ''
 instagram: ''

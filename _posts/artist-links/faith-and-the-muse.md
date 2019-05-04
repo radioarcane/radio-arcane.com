@@ -2,6 +2,7 @@
 title: Faith & The Muse
 apple_music: 'https://itunes.apple.com/artist/faith-and-the-muse/54061123'
 bandcamp: 'https://faithandthemuse.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/105840-Faith-And-The-Muse'
 facebook: 'https://www.facebook.com/Faith-And-The-Muse-32674562356'
 google_music: >-
    https://play.google.com/store/music/album/Faith_the_Muse_Elyria?id=Beogwu4qoxwill2xbbwkzznupny

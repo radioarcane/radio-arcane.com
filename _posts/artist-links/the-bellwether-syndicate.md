@@ -2,6 +2,7 @@
 title: The Bellwether Syndicate
 apple_music: 'https://itunes.apple.com/artist/the-bellwether-syndicate/598396813'
 bandcamp: 'https://thebellwethersyndicate.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/3398108-The-Bellwether-Syndicate'
 facebook: 'https://www.facebook.com/thebellwethersyndicate'
 google_music: >-
    https://play.google.com/store/music/artist/The_Bellwether_Syndicate?id=Aeuwbqgqyi2agg5xx53okfys3c4

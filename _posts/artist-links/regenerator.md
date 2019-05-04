@@ -2,6 +2,7 @@
 title: Regenerator
 apple_music: 'https://itunes.apple.com/artist/regenerator/4370551'
 bandcamp: 'https://regenerator.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/80283-Regenerator'
 facebook: 'https://www.facebook.com/REGENERATOR-70774280187'
 google_music: >-
    https://play.google.com/store/music/artist/Regenerator?id=Afhdrqsuxd7up5niyqdsq4mom6m
