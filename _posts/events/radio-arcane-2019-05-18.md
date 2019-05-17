@@ -23,6 +23,10 @@ description: >-
   of art and curiosities, cash bar, and much more fun and surprises!
 
 
+  Live performance by **Love Under Will** at 9pm.  
+  https://loveunderwill.bandcamp.com
+
+
   Doors open at 7pm   Market @ 7pm, Party @ 10pm
 
 
