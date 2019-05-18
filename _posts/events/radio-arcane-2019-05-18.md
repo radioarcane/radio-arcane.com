@@ -24,15 +24,16 @@ description: >-
 
 
   Live performance by **Love Under Will** at 9pm.  
+
   https://loveunderwill.bandcamp.com
 
 
   Doors open at 7pm   Market @ 7pm, Party @ 10pm
 
 
-  18+  
+  18+\
 
-  21+ to drink  
+  21+ to drink\
 
   $5 cover, free before 10pm
 
@@ -50,3 +51,4 @@ tickets_link: >-
 cover: '5.00'
 playlist: ''
 ---
+
