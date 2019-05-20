@@ -22,7 +22,7 @@ sets:
         song: Beat of The Pulse
       - artist: The Agnes Circle
         song: Porcelain
-      - artist: Box & The Twin
+      - artist: Box & The Twins
         song: This Place Called Nowhere
       - artist: The Chameleons
         song: Swamp Thing
