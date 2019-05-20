@@ -1,7 +1,7 @@
 ---
 layout: playlist
 title: '2018-11-24 Radio Arcane'
-display_name: 'Radio Arcane: The Dark Market'
+display_name: 'Radio Arcane : The Dark Market'
 playlist_type: radio-arcane
 date: '2018-11-24'
 sets:

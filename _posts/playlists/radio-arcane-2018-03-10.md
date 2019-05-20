@@ -1,7 +1,7 @@
 ---
 layout: playlist
 title: 2018-03-10 Radio Arcane
-display_name: 'Radio Arcane: Mittelmarch : The Dark Market'
+display_name: 'Radio Arcane : Mittelmarch : The Dark Market'
 playlist_type: radio-arcane
 date: '2018-03-10'
 sets:

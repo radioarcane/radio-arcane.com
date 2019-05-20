@@ -1,7 +1,7 @@
 ---
 layout: playlist
 title: 2019-03-02 Radio Arcane
-display_name: 'Radio Arcane: Gotičková & Dark Market'
+display_name: 'Radio Arcane : Gotičková & Dark Market'
 playlist_type: radio-arcane
 date: '2019-03-02'
 sets:
@@ -121,4 +121,3 @@ sets:
   - dj_name: AndrOspore
     type: dj_set
 ---
-

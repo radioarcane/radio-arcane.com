@@ -1,9 +1,9 @@
 ---
 layout: playlist
 title: 2019-05-18 Radio Arcane
-display_name: 'Radio Arcane: Goth Prom : The Dark Market'
+display_name: 'Radio Arcane : Goth Prom : The Dark Market'
 playlist_type: radio-arcane
-date: '2018-06-02'
+date: '2019-05-18'
 sets:
   - performer: Love Under Will
     type: performance

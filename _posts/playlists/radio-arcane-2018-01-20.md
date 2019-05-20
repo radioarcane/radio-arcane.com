@@ -1,7 +1,7 @@
 ---
 layout: playlist
 title: 2018-01-20 Radio Arcane
-display_name: 'Radio Arcane: Winterfeier : The Dark Market'
+display_name: 'Radio Arcane : Winterfeier : The Dark Market'
 playlist_type: radio-arcane
 date: '2018-01-20'
 sets:

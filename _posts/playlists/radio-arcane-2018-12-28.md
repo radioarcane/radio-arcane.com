@@ -1,7 +1,7 @@
 ---
 layout: playlist
 title: 2018-12-28 Radio Arcane
-display_name: 'Radio Arcane: снежинка'
+display_name: 'Radio Arcane : снежинка'
 playlist_type: radio-arcane
 date: '2018-12-28'
 sets:
@@ -189,4 +189,3 @@ sets:
         song: Cry Little Sister
     type: dj_set
 ---
-
