@@ -49,5 +49,5 @@ facebook_event_link: 'https://www.facebook.com/events/320411385485812/?event_tim
 tickets_link: >-
   https://www.showclix.com/event/goth-prom?fbclid=IwAR00VUFNoL0RPaw-QQu1FUj9YYljq-1ZJzT9PbSQp7H6PUTNpq1GqFQXnes
 cover: '5.00'
-playlist: ''
+playlist: '2019-05-18 Radio Arcane'
 ---
