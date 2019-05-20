@@ -1,7 +1,7 @@
 ---
 layout: event
 title: '2019-03-02 Radio Arcane'
-display_name: 'Radio Arcane: Gotičková & Dark Market'
+display_name: 'Radio Arcane : Gotičková & Dark Market'
 event_type: radio-arcane
 date: '2019-03-02'
 start_datetime: '2019-03-02 19:00:00'

@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2018-06-02 Radio Arcane
-display_name: 'Radio Arcane: Goth Prom : The Dark Market'
+display_name: 'Radio Arcane : Goth Prom : The Dark Market'
 event_type: radio-arcane
 date: '2018-06-02'
 start_datetime: '2018-06-02 19:00:00'

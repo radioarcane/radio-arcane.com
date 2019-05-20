@@ -1,5 +1,5 @@
 ---
-title: Colouroid
+title: Colouroïd
 apple_music: 'https://itunes.apple.com/artist/colouroid/437007692'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/2433048-Colouroid'

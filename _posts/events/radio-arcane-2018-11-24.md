@@ -1,7 +1,7 @@
 ---
 layout: event
 title: '2018-11-24 Radio Arcane'
-display_name: 'Radio Arcane: The Dark Market'
+display_name: 'Radio Arcane : The Dark Market'
 event_type: radio-arcane
 date: '2018-11-24'
 start_datetime: '2018-11-24 19:00:00'

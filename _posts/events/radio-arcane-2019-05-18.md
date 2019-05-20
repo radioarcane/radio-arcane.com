@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2019-05-18 Radio Arcane
-display_name: 'Radio Arcane: Goth Prom : The Dark Market'
+display_name: 'Radio Arcane : Goth Prom : The Dark Market'
 event_type: radio-arcane
 date: '2019-05-18'
 start_datetime: '2019-05-18 19:00:00'
@@ -51,4 +51,3 @@ tickets_link: >-
 cover: '5.00'
 playlist: ''
 ---
-

@@ -1,7 +1,7 @@
 ---
 layout: event
 title: '2019-10-31 Radio Arcane'
-display_name: 'Radio Arcane: Halloween'
+display_name: 'Radio Arcane : Halloween'
 event_type: radio-arcane
 date: '2019-10-31'
 start_datetime: '2019-10-31 22:00:00'

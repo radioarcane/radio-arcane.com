@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2018-08-04 Radio Arcane
-display_name: 'Radio Arcane: Festa Nova: A Summer Dance Party : The Dark Market'
+display_name: 'Radio Arcane : Festa Nova: A Summer Dance Party : The Dark Market'
 event_type: radio-arcane
 date: '2018-08-04'
 start_datetime: '2018-08-04 19:00:00'

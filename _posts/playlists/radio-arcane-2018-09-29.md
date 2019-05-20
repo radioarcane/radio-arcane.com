@@ -213,7 +213,7 @@ sets:
         song: Plastic Heart
       - artist: Vogel
         song: Night City (Makeup & Vanity Set Remix)
-      - artist: Colouroid
+      - artist: Colouroïd
         song: Gang
       - artist: Austra
         song: Beat & The Pulse
@@ -235,4 +235,3 @@ sets:
         song: Murder
     type: dj_set
 ---
-

@@ -1,7 +1,7 @@
 ---
 layout: event
 title: '2018-12-28 Radio Arcane'
-display_name: 'Radio Arcane: снежинка'
+display_name: 'Radio Arcane : снежинка'
 event_type: radio-arcane
 date: '2018-12-28'
 start_datetime: '2018-12-28 21:00:00'
