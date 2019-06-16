@@ -6,7 +6,7 @@ discogs: ''
 facebook: 'https://www.facebook.com/scaryblack502'
 google_music: >-
   https://play.google.com/store/music/artist?id=Atzdpxwpz2depdpysylmh7e6p4y
-instagram: ''
+instagram: 'https://www.instagram.com/scaryblack_'
 soundcloud: ''
 spotify: 'https://open.spotify.com/artist/0rM2qpm6Qg0uXL9uq1CKNg'
 twitter: ''

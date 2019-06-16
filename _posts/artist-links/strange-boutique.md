@@ -1,7 +1,7 @@
 ---
 title: Strange Boutique
 apple_music: 'https://itunes.apple.com/us/artist/negativland/4300932'
-bandcamp: ''
+bandcamp: 'https://strangeboutique.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/302884-Strange-Boutique'
 facebook: 'https://www.facebook.com/StrangeBoutique'
 google_music: >-

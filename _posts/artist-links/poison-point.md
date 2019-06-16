@@ -6,8 +6,8 @@ discogs: 'https://www.discogs.com/artist/5112707-Poison-Point'
 facebook: 'https://www.facebook.com/Ppointband'
 google_music: >-
    https://play.google.com/store/music/artist/Poison_Point?id=Ac7epxcmdjrtrmboskvxyfzqkv4
-instagram: ''
-soundcloud: ''
+instagram: 'https://www.instagram.com/poison_point'
+soundcloud: 'https://soundcloud.com/timpoisonpoint'
 spotify: 'https://open.spotify.com/artist/5WDpSvwopHoxTZSvG1iMG1'
 twitter: ''
 website: ''
