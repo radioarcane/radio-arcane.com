@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2019-06-15 Radio Arcane
-display_name: Radio Arcane
+display_name: Radio Arcane Monthly
 event_type: radio-arcane
 date: '2019-06-15'
 start_datetime: '2019-06-15 22:00:00'
