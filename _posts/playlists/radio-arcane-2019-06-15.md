@@ -28,6 +28,31 @@ sets:
         song: Collector
   - dj_name: Brian Drabant
     type: dj_set
+    tracks:
+      - artist: Le Syndicat Electronique
+        song: Simple Equation
+      - artist: Casino Shanghai
+        song: Le Tombeau d'Edgar Poe
+      - artist: Twice A Man
+        song: Decay
+      - artist: Ancien Régime
+        song: Brief Encounter
+      - artist: The Cure
+        song: A Short Term Effect
+      - artist: Clock DVA
+        song: Hacker / Hacked
+      - artist: Fad Gadget
+        song: Collapsing New People
+      - artist: Robert Görl
+        song: Darling Don’t Leave Me (12")
+      - artist: New Order
+        song: Everything's Gone Green
+      - artist: Nitzer Ebb
+        song: Shame
+      - artist: Skinny Puppy
+        song: Deadlines (400 Blows Remix)
+      - artist: Multiple Man
+        song: You Say Y.E.S.
   - dj_name: Sorrow-Vomit
     type: dj_set
     tracks:
@@ -78,6 +103,29 @@ sets:
         song: Lycanthropia
   - dj_name: Brian Drabant
     type: dj_set
+    tracks:
+      - artist: Eleven Pond
+        song: Portugal
+      - artist: Nine Circles
+        song: The Rose
+      - artist: Kate Bush
+        song: Running Up That Hill (12")
+      - artist: Trisomie 21
+        song: The Last Song
+      - artist: Oppenheimer Analysis
+        song: Cold War
+      - artist: Martin Dupont
+        song: Inside Out
+      - artist: Dead Can Dance
+        song: A Passage In Time
+      - artist: Coldreams
+        song: Morning Rain
+      - artist: Tones On Tail
+        song: Rain
+      - artist: The Cure
+        song: A Forest (12")
+      - artist: Siouxsie & The Banshees
+        song: Spellbound (12")
   - dj_name: Sorrow-Vomit
     type: dj_set
     tracks:
