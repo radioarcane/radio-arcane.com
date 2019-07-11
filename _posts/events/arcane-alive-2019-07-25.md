@@ -6,7 +6,7 @@ event_type: arcane-alive
 date: '2019-07-25'
 start_datetime: '2019-07-25 20:00:00'
 end_datetime: '2019-07-26 00:00:00'
-image: '/img/uploads/arcane-alive-2019-07-25--update'
+image: '/img/uploads/arcane-alive-2019-07-25--update.jpg'
 description: |-
   Funeral Party Records & Radio Arcane Proudly Present:
 
