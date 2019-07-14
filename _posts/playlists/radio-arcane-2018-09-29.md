@@ -159,7 +159,7 @@ sets:
       - artist: Angels of Liberty
         song: Monster In Me
     type: dj_set
-  - dj_name: Funeral Party DJ
+  - dj_name: Brian Cole
     type: dj_set
   - dj_name: Talamasca
     tracks:
