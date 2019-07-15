@@ -36,6 +36,27 @@ sets:
         song: Destination
   - dj_name: Osiris Ani
     type: dj_set
+    tracks:
+      - artist: Gauntlet Hair
+        song: Human Nature
+      - artist: La Scaltra
+        song: Sonar Dance
+      - artist: Linea Aspera
+        song: Attica
+      - artist: HEALTH
+        song: Blue Monday
+      - artist: Gary Numan
+        song: My Name Is Ruin
+      - artist: ':Wumpscut:'
+        song: Wreath of Barbs
+      - artist: Qual
+        song: Take Me Higher
+      - artist: The Retrosic
+        song: Revolution
+      - artist: Covenant
+        song: Tour De Force
+      - artist: Statiqbloom
+        song: Atrophy of Three
   - dj_name: Kaleidoscope
     type: dj_set
   - dj_name: Brian Cole
@@ -71,6 +92,29 @@ sets:
         song: Nausea, The Earth & Me
   - dj_name: Osiris Ani
     type: dj_set
+    tracks:
+      - artist: Bragolin
+        song: To Hide To Shine To Cross
+      - artist: O. Children
+        song: Heels
+      - artist: Temple of Angels
+        song: Guessing Game
+      - artist: The Agnes Circle
+        song: Monument
+      - artist: Box & The Twins
+        song: This Place Called Nowhere
+      - artist: Minuit Machine
+        song: Chaos
+      - artist: Delerium
+        song: Flowers Become Screens
+      - artist: Shriekback
+        song: Such, Such Are The Joys
+      - artist: Battery
+        song: Bellarmine
+      - artist: Ghost Twin
+        song: Mystic Sabbath
+      - artist: Varsovia
+        song: Pertenecemos A La Muerte
   - dj_name: Kaleidoscope
     type: dj_set
 ---
