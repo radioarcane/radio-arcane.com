@@ -27,7 +27,7 @@ description: |-
 short_description: 'Presented by Funeral Party Records & Radio Arcane: Temple of Angels, Vyva Melinkolya, & Scary Black Live'
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/351521232380690'
-tickets_link: ''
+tickets_link: 'https://www.showclix.com/event/temple-of-angels-vyva-mel'
 cover: '10.00'
 playlist: ''
 ---
