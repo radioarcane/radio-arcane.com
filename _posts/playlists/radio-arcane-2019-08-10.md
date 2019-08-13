@@ -48,7 +48,7 @@ sets:
       - artist: TR/ST
         song: F.T.F.
       - artist: Marie Davidson
-        song: Exces de Vitesse
+        song: Excès De Vitesse
       - artist: Identified Patient
         song: Sleep Without Rest
       - artist: Skinny Puppy

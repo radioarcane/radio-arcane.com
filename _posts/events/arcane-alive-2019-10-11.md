@@ -13,7 +13,7 @@ description: |-
 
 
 
-  **WINGTIPS** : electronic, dream pop, electronica,gothpop, post-punk, synthpop from Chicago  
+  **WINGTIPS** : electronic, dream pop, electronica, gothpop, post-punk, synthpop from Chicago  
   https://wingtips.bandcamp.com  
 
 
@@ -46,7 +46,8 @@ description: |-
 
 
 
-  18+ to enter   21+ bar
+  18+ to enter   
+  21+ bar  
   $10 admission
 
 
