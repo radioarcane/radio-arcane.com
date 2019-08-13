@@ -7,7 +7,18 @@ date: '2019-09-07'
 start_datetime: '2019-09-07 22:00:00'
 end_datetime: '2019-09-08 03:00:00'
 image: '/img/uploads/radio-arcane-default.jpg'
-description: ''
+description: >-
+  With a rotating collective of Dark Music Specialists:
+
+
+
+
+  Kaleidoscope, Motuvius Rex, Sorrow-Vomit, Osiris Ani, Brian Drabant, AndrOspore, Thulsa Goon, Talamasca
+
+
+
+
+  Doors open at 10pm  :   21+ bar  :  $5 cover
 short_description: ''
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/375211813264941/?event_time_id=375211816598274'
