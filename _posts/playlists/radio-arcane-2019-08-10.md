@@ -30,6 +30,37 @@ sets:
         song: I Feel How The Snow Falls
   - dj_name: Brian Drabant
     type: dj_set        
+    tracks:
+      - artist: Part Time
+        song: Living In Pretend (My Girl Imagination)
+      - artist: New Order
+        song: Thieves Like Us
+      - artist: Night Moves
+        song: Trans Dance (GC1 Version)
+      - artist: "Martial Canterel + Tobias Bernstrup"
+        song: Strange Land
+      - artist: Fad Gadget
+        song: Coitus Interruptus
+      - artist: Front 242
+        song: Controversy Between
+      - artist: The Sisters of Mercy
+        song: Marian
+      - artist: Geneva Jacuzzi
+        song: Do I Sad
+      - artist: Soft Cell
+        song: Sex Dwarf
+      - artist: Tubeway Army
+        song: We Are So Fragile  
+      - artist: Siouxsie & The Banshees
+        song: Fireworks (12")
+      - artist: Xmal Deutschland
+        song: In Der Nacht
+      - artist: Lebanon Hanover
+        song: Gallowdance
+      - artist: Circa Tapes
+        song: Walk
+      - artist: The Cure
+        song: The Walk
   - dj_name: AndrOspore
     type: dj_set
     tracks:
@@ -84,6 +115,29 @@ sets:
         song: Shadows of Love (In Contempt)
   - dj_name: Brian Drabant
     type: dj_set
+    tracks:
+      - artist: Dead Can Dance
+        song: The Ubiquitous Mr. Lovegrove
+      - artist: Book of Love
+        song: Still Angry
+      - artist: Ministry
+        song: Over The Shoulder
+      - artist: Aktion Mutante
+        song: Controllare Il Sistema
+      - artist: Schwefelgelb
+        song: Bis Zum Nächsten Tag
+      - artist: Oppenheimer Analysis
+        song: Devils Dancers
+      - artist: Charlie
+        song: Spacer Woman
+      - artist: CHBB
+        song: Go Go Go!
+      - artist: Post Industrial Noise
+        song: COTA City Salsa
+      - artist: Joy Division
+        song: Dead Souls
+      - artist: Ryuichi Sakamoto
+        song: Field Work   
   - dj_name: AndrOspore
     type: dj_set
     tracks:

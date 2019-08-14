@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2019-10-11 Arcane Alive
-display_name: 'WINGTIPS, Scary Black, Vyva Melinkolya, and more'
+display_name: 'WINGTIPS, Scary Black, Vyva Melinkolya, and Hypnagogue'
 event_type: arcane-alive
 date: '2019-10-11'
 start_datetime: '2019-10-11 20:00:00'
@@ -37,11 +37,6 @@ description: |-
 
 
 
-  **THX1312** : electronic, hardcore, industrial from Cincinnati  
-  https://thx1312.bandcamp.com  
-
-
-
   Radio Arcane djs between sets and after performance.
 
 
@@ -61,8 +56,7 @@ description: |-
    *Lineup order will most likely be :  
    Hypnagogue  
    Vyva Melinkolya  
-   Wingtips  
-   THX1312  
+   Wingtips   
    Scary Black  
    *possible changes in order
 short_description: 'Live performances by WINGTIPS, Scary Black, Vyva Melinkolya, and more'
