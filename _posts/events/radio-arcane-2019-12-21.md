@@ -1,7 +1,7 @@
 ---
 layout: event
 title: '2019-12-21 Radio Arcane'
-display_name: 'Radio Arcane : Winter Solstice'
+display_name: 'Radio Arcane Monthly : Winter Solstice Celebration'
 event_type: radio-arcane
 date: '2019-12-21'
 start_datetime: '2019-12-21 22:00:00'
