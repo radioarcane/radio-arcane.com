@@ -41,6 +41,7 @@
                playlistType,
                sets {
                   djName,
+                  guestDj,
                   performer,
                   performerLinks {
                      appleMusic,
