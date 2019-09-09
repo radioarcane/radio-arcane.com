@@ -28,8 +28,6 @@ sets:
         song: Paranoia
       - artist: Replicant
         song: Lifelike
-      - artist: Replicant
-        song: Lifelike
       - artist: Antipole
         song: Syndrome (feat. Paris Alexander)
       - artist: Years of Denial
