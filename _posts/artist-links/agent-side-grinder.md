@@ -9,7 +9,7 @@ google_music: >-
 instagram: 'https://www.instagram.com/agentsidegrinder'
 soundcloud: 'https://soundcloud.com/agent-side-grinder'
 spotify: 'https://open.spotify.com/artist/0kMA8StaJw3CUvN42xCLSe'
-twitter: 'https://twitter.com/azarswan'
-website: 'http://www.azarswan.com'
+twitter: 'https://twitter.com/asgsweden'
+website: 'https://www.agentsidegrinder.com'
 youtube: 'https://www.youtube.com/user/agentsidegrinder'
 ---
