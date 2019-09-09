@@ -92,7 +92,7 @@ sets:
         song: Ice (Fleish Edit)
       - artist: Frust
         song: Quartz
-      - artist: Kaelan Mikla
+      - artist: Kælan Mikla
         song: Nótt Eftir Nótt
   - guest_dj: Textbeak
     type: dj_set
