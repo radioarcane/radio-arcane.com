@@ -140,7 +140,7 @@
                name: 'Arcane Alive!',
                filter: 'arcane-alive'
             }, {
-               name: 'Wapred Wednesday',
+               name: 'Warped Wednesday',
                filter: 'warped-wednesday'
             }],
             filter: null,
