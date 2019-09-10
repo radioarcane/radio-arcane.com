@@ -39,6 +39,9 @@
                displayName,
                date,
                playlistType,
+               mixcloudLinks {
+                  url
+               },
                sets {
                   djName,
                   guestDj,
@@ -129,13 +132,16 @@
                filter: null,
             }, {
                name: 'Radio Arcane',
-               filter: 'radio-arcane',
+               filter: 'radio-arcane'
             }, {
                name: 'Podcasts',
-               filter: 'podcast',
+               filter: 'podcast'
             }, {
                name: 'Arcane Alive!',
-               filter: 'arcane-alive',
+               filter: 'arcane-alive'
+            }, {
+               name: 'Wapred Wednesday',
+               filter: 'warped-wednesday'
             }],
             filter: null,
             playlistsLoaded: 2,

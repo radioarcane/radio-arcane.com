@@ -58,7 +58,7 @@
 
 <page-query>
    query Event {
-      allEvent (sortBy: "date", order: DESC) {
+      allEvent (filter: {eventType: {ne: "warped-wednesday"}}, sortBy: "date", order: ASC) {
          edges {
             node {
                id,
@@ -121,11 +121,11 @@
          const eventsSchema = this.$page.allEvent.edges.map(ev => musicEvent(ev.node));
 
          const nextEvents = this.$page.allEvent.edges.filter(ev => {
-            return ev.node.expired === false && ev.node.image;
+            return ev.node.expired === false && ev.node.image && ev.node.eventType !== 'warped-wednesday';
          });
 
          const pastEvents = this.$page.allEvent.edges.filter(ev => {
-            return ev.node.expired === true && ev.node.image;
+            return ev.node.expired === true && ev.node.image && ev.node.eventType !== 'warped-wednesday';
          }).reverse();
 
          const metaImage = (() => {
@@ -180,7 +180,7 @@
             }
 
             let upcomingEvents = events
-                                 .filter(ev => ev.node.expired === false)
+                                 .filter(ev => ev.node.expired === false && ev.node.eventType !== 'warped-wednesday')
                                  .map(ev => ev.node);
 
             if (upcomingEvents.length) {

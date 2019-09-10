@@ -4,6 +4,8 @@ title: 2019-09-07 Radio Arcane
 display_name: 'Radio Arcane'
 playlist_type: radio-arcane
 date: '2019-09-07'
+mixcloud_links:
+  - url: 'https://www.mixcloud.com/matt-kokas/radio-arcane-monthly-sept-7-2019-art-sanctuary'
 sets:
   - dj_name: Sorrow-Vomit
     type: dj_set
@@ -74,6 +76,7 @@ sets:
     tracks:
       - artist: Amduscia
         song: Corpses Symphony
+        request: song
       - artist: Child of Night
         song: Against The Wall (Video Remix)
       - artist: Гласность

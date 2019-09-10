@@ -87,6 +87,7 @@ const defaultPlaylist = {
    playlist_type: null,
    date: null,
    sets: [],
+   mixcloud_links: [],
 };
 
 const defaultTrack = {

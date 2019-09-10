@@ -71,11 +71,16 @@
            ????
         </p>
       </div>
+
+      <div v-for="(mix, mixIndex) in playlist.mixcloudLinks" :key="mixIndex + mix" class="event-playlist__mixcloud">
+         <MixcloudPlayer :url="mix.url" />
+      </div>
    </div>
 </template>
 
 <script>
    import ArtistLinksModal from './ArtistLinksModal.vue';
+   import MixcloudPlayer from './MixcloudPlayer.vue';
    import SvgIcon from './SvgIcon.vue';
 
    export default {
@@ -133,6 +138,7 @@
       },
       components: {
          ArtistLinksModal,
+         MixcloudPlayer,
          SvgIcon,
       },
       methods: {

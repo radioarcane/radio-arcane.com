@@ -13,7 +13,7 @@ description: >-
 
   https://thefuneralparty.bandcamp.com
 short_description: 'Interview with Brian Cole of Funeral Party Records and music from the Funeral Party vault...'
-mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-02-funeral-party-records/'
+mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-02-funeral-party-records'
 soundcloud_link: 'https://soundcloud.com/radio_arcane/radio-arcane-02-funeral-party-records'
 playlist: '2019-03-04 Podcast'
 ---

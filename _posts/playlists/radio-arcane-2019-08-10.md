@@ -4,6 +4,8 @@ title: 2019-08-10 Radio Arcane
 display_name: 'Radio Arcane'
 playlist_type: radio-arcane
 date: '2019-08-10'
+mixcloud_links:
+  - url: 'https://www.mixcloud.com/shahnrigsby/motuvius-rex-x-augusta-at-radio-arcane-monthly'
 sets:
   - dj_name: Motuvius Rex
     type: dj_set

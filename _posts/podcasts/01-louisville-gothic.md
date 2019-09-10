@@ -13,7 +13,7 @@ description: >-
   host events, live music and dark arts entertainment.
 short_description: 'Inaugural episode featuring local and regional dark music from Louisville and
 the surrounding region.'
-mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-01-louisville-gothic/'
+mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-01-louisville-gothic'
 soundcloud_link: 'https://soundcloud.com/radio_arcane/radio-arcane-01-louisville-gothic'
 playlist: '2019-01-28 Podcast'
 ---

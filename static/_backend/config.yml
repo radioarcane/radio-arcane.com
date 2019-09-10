@@ -6,8 +6,8 @@ backend:
 media_folder: "/static/img/uploads"
 public_folder: "/img/uploads"
 
-site_url: https://radioarcane.netlify.com
-display_url: https://radioarcane.netlify.com
+site_url: https://www.radio-arcane.com
+display_url: https://www.radio-arcane.com
 
 publish_mode: editorial_workflow
 
@@ -37,7 +37,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Display Name", name: "display_name", widget: "string"}
-      - {label: "Event Type", name: "event_type", widget: "select", options: ["radio-arcane", "arcane-alive"]}
+      - {label: "Event Type", name: "event_type", widget: "select", options: ["radio-arcane", "arcane-alive", "warped-wednesday"]}
       - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Start DateTime", name: "start_datetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
       - {label: "End DateTime", name: "end_datetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
@@ -114,6 +114,11 @@ collections:
             default: {"performer": ""}
             fields:
               - {label: "Performer", name: "performer", widget: "string"}
+      - label: "Mixcloud Links"
+        name: "mixcloud_links"
+        widget: "list"
+        default: []
+        field: {label: "URL", name: "url", widget: "string"}
   - name: "artist_links"
     label: "Artist Links"
     label_singular: "Artist Link"

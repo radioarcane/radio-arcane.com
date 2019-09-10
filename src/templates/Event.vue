@@ -58,6 +58,9 @@
          playlist {
             date,
             displayName,
+            mixcloudLinks {
+               url
+            },
             sets {
                djName,
                guestDj,

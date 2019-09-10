@@ -7,20 +7,23 @@
             <p>Dark Eclectic Music &ndash; predominately focused on the use of the synthesizer, including: Gothic, Darkwave, Post-Punk, Industrial, EBM, Coldwave, Synthwave, Synthpop, New Wave, Minimal, and related genres.</p>
          </FlashContainer>
 
-         <Section v-if="$page.nextEvent.edges.length">
+         <Section v-if="$page.nextEvents.edges.length">
             <Heading strike animate uppercase tag="h1">
-               Next Radio Arcane Event
+               <span v-if="$page.nextEvents.edges.length > 1">
+                  Next Radio Arcane Events
+               </span>
+               <span v-else>
+                  Next Radio Arcane Event
+               </span>
             </Heading>
 
-            <Event :event="$page.nextEvent.edges[0].node" />
-         </Section>
-
-         <Section v-if="$page.nextLiveEvent.edges.length">
-            <Heading strike animate uppercase>
-               Next Live Event
-            </Heading>
-
-            <Event :event="$page.nextLiveEvent.edges[0].node" />
+            <div
+               v-for="({node}, index) in $page.nextEvents.edges"
+               :key="node.id"
+               class="event-divider"
+            >
+               <Event :event="node" />
+            </div>
          </Section>
 
          <Center>
@@ -44,12 +47,60 @@
                </Btn>
             </Center>
          </Section>
+
+         <Section v-if="$page.nextWarpedWedEvent.edges.length" :padTop="true">
+            <Heading strike animate uppercase tag="h3">
+               Upcoming Related Events
+            </Heading>
+
+            <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
+         </Section>
       </Container>
    </Layout>
 </template>
 
 <page-query>
    query HomeData {
+      nextEvents: allEvent (filter: {
+            expired: { eq: false },
+            eventType: {ne: "warped-wednesday"}
+         },
+         sortBy: "date",
+         order: ASC,
+         perPage: 2
+      ) {
+         edges {
+            node {
+               id,
+               path,
+               slug,
+               title,
+               displayName,
+               eventType,
+               date,
+               startDatetime,
+               endDatetime,
+               image,
+               webp,
+               description,
+               shortDescription,
+               facebookEventLink,
+               ticketsLink,
+               cover,
+               expired,
+               location {
+                  title,
+                  address,
+                  address2,
+                  city,
+                  state,
+                  zipcode,
+                  venueLink,
+                  googleMapLink,
+               }
+            }
+         }
+      },
       nextEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "radio-arcane"}}, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
@@ -84,6 +135,39 @@
          }
       },
       nextLiveEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "arcane-alive"}}, sortBy: "date", order: ASC, perPage: 1) {
+         edges {
+            node {
+               id,
+               path,
+               slug,
+               title,
+               displayName,
+               eventType,
+               date,
+               startDatetime,
+               endDatetime,
+               image,
+               webp,
+               description,
+               shortDescription,
+               facebookEventLink,
+               ticketsLink,
+               cover,
+               expired,
+               location {
+                  title,
+                  address,
+                  address2,
+                  city,
+                  state,
+                  zipcode,
+                  venueLink,
+                  googleMapLink,
+               }
+            }
+         }
+      },
+      nextWarpedWedEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "warped-wednesday"}}, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
@@ -169,3 +253,10 @@
       },
    }
 </script>
+
+<style lang="scss">
+   .event-divider {
+      margin:0 0 2em;
+      border-bottom: 2px solid hex-to-rgba($white-smoke, 0.5);
+   }
+</style>
