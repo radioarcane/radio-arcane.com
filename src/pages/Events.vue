@@ -58,7 +58,7 @@
 
 <page-query>
    query Event {
-      allEvent (filter: {eventType: {ne: "warped-wednesday"}}, sortBy: "date", order: ASC) {
+      allEvent (filter: {eventType: {ne: "warped-wednesday"}}, sortBy: "date", order: DESC) {
          edges {
             node {
                id,
