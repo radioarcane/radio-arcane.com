@@ -3,7 +3,7 @@
       <Container>
          <Breadcrumb :crumbs="crumbs" />
 
-         <article v-if="getNextEvents($page.allEvent.edges, 3).length">
+         <article v-if="getNextEvents($page.allEvent.edges, 3).length > 1">
             <Heading tag="h1" strike uppercase animate>
                Next Events
             </Heading>
@@ -15,6 +15,14 @@
             >
                <Event :event="node" />
             </div>
+         </article>
+
+         <article v-if="getNextEvents($page.allEvent.edges, 3).length === 1">
+            <Heading tag="h1" strike uppercase animate>
+               Next Event
+            </Heading>
+
+            <Event :event="getNextEvent($page.allEvent.edges)" />
          </article>
 
          <Section v-if="totalFutureEvents" :padBottom="true">
@@ -35,7 +43,7 @@
             </ul>
          </Section>
 
-         <Section>
+         <Section :padBottom="true">
             <Heading tag="h3" strike uppercase animate>
                Past Events
             </Heading>
@@ -58,6 +66,14 @@
                </Btn>
             </Center>
          </Section>
+
+         <Section v-if="$page.nextWarpedWedEvent.edges.length > 0" :padTop="true">
+            <Heading tag="h3" strike uppercase animate>
+               Next Warped Wednesday
+            </Heading>
+
+            <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
+         </Section>
       </Container>
    </Layout>
 </template>
@@ -65,6 +81,39 @@
 <page-query>
    query Event {
       allEvent (filter: {eventType: {ne: "warped-wednesday"}}, sortBy: "date", order: DESC) {
+         edges {
+            node {
+               id,
+               path,
+               slug,
+               title,
+               displayName,
+               eventType,
+               date,
+               startDatetime,
+               endDatetime,
+               image,
+               webp,
+               description,
+               shortDescription,
+               facebookEventLink,
+               ticketsLink,
+               cover,
+               expired,
+               location {
+                  title,
+                  address,
+                  address2,
+                  city,
+                  state,
+                  zipcode,
+                  venueLink,
+                  googleMapLink,
+               }
+            }
+         }
+      },
+      nextWarpedWedEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "warped-wednesday"}}, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
