@@ -3,33 +3,46 @@
       <Container>
          <Breadcrumb :crumbs="crumbs" />
 
-         <Title>Arcane Alive!</Title>
-
-         <article>
-            <Section :padBottom="true">
-               <p>
-                  If you are a music act interested in playing a live show at <a href="https://www.facebook.com/pages/category/Arts---Entertainment/Art-Sanctuary-122260903695" target="_blank">Art Sanctuary</a> in Louisville, Kentucky with a style that could be identified as Darkwave, Post-Punk, Coldwave, Gothic, Industrial, EBM, Synthwave, Minimal Synth, Synthpop, New Wave, etc... feel free to reach out to us on <a href="https://www.facebook.com/RadioArcaneEvents/" target="_blank">social media</a>.
-               </p>
-            </Section>
-         </article>
-
-
-         <Section v-if="$page.nextEvent.edges.length" :padBottom="true">
-            <Heading strike animate uppercase>
-               Next Live Event
+         <article v-if="getNextEvents($page.allEvent.edges, 3).length">
+            <Heading tag="h1" strike uppercase animate>
+               Next Events
             </Heading>
 
-            <Event :event="$page.nextEvent.edges[0].node" />
+            <div
+               v-for="node in getNextEvents($page.allEvent.edges, 3)"
+               :key="node.id"
+               class="event-divider"
+            >
+               <Event :event="node" />
+            </div>
+         </article>
+
+         <Section v-if="totalFutureEvents" :padBottom="true">
+            <Title tag="h2">
+               Upcoming Event Schedule
+            </Title>
+
+            <ul>
+               <li v-for="{ node } in getFutureEvents($page.allEvent.edges)" :key="node.id">
+                  <a v-if="node.facebookEventLink" :href="node.facebookEventLink" target="_blank">
+                     {{ node.date | moment("dddd, MMMM D, YYYY") }} &ndash; {{ node.displayName }}
+                  </a>
+
+                  <span v-if="!node.facebookEventLink">
+                     {{ node.date | moment("dddd, MMMM D, YYYY") }} &ndash; {{ node.displayName }}
+                  </span>
+               </li>
+            </ul>
          </Section>
 
          <Section>
-            <Heading strike animate uppercase>
-               Past Live Events
+            <Heading tag="h3" strike uppercase animate>
+               Past Events
             </Heading>
 
             <GridContainer>
                <GridItem
-                  v-for="{ node } in $page.pastEvents.edges"
+                  v-for="{ node } in getPastEvents($page.allEvent.edges, true)"
                   :key="node.id"
                   :sizes="{
                      xs: 12, sm: 12, md: 6, lg: 4
@@ -38,6 +51,12 @@
                   <EventCard :event="node" />
                </GridItem>
             </GridContainer>
+
+            <Center v-if="totalPastEvents > pageSize">
+               <Btn @click.native="pageSize += pageSize" variant="hollow">
+                  <span>Load More</span> <SvgIcon use="angle-down" name="angle-down" />
+               </Btn>
+            </Center>
          </Section>
       </Container>
    </Layout>
@@ -45,7 +64,7 @@
 
 <page-query>
    query Event {
-      nextEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "arcane-alive"}}, sortBy: "date", order: ASC, perPage: 1) {
+      allEvent (filter: {eventType: {ne: "warped-wednesday"}}, sortBy: "date", order: DESC) {
          edges {
             node {
                id,
@@ -77,24 +96,6 @@
                }
             }
          }
-      },
-      pastEvents: allEvent (filter: {eventType: { eq: "arcane-alive" }, expired: { eq: true }}, sortBy: "date", order: DESC) {
-         edges {
-            node {
-               id,
-               path,
-               slug,
-               title,
-               displayName,
-               eventType,
-               date,
-               startDatetime,
-               endDatetime,
-               image,
-               shortDescription,
-               expired,
-            }
-         }
       }
    }
 </page-query>
@@ -113,48 +114,45 @@
    import GridItem from '~/components/GridItem.vue';
    import Heading from '~/components/Heading.vue';
    import Section from '~/components/Section.vue';
+   import SvgIcon from '~/components/SvgIcon.vue';
    import Title from '~/components/Title.vue';
 
    export default {
       metaInfo() {
          const breadcrumbSchema = breadcrumb([{
-            path: '/arcane-alive',
-            name: 'Arcane Alive!'
+            path: '/events',
+            name: 'Events'
          }]);
 
-         const eventsSchema = [];
+         const eventsSchema = this.$page.allEvent.edges.map(ev => musicEvent(ev.node));
 
-         if (this.$page.nextEvent.edges.length) {
-            eventsSchema.push(musicEvent(this.$page.nextEvent.edges[0].node));
-         }
-
-         this.$page.pastEvents.edges.forEach(ev => {
-            eventsSchema.push(musicEvent(ev.node));
+         const nextEvents = this.$page.allEvent.edges.filter(ev => {
+            return ev.node.expired === false && ev.node.image && ev.node.eventType !== 'warped-wednesday';
          });
 
+         const pastEvents = this.$page.allEvent.edges.filter(ev => {
+            return ev.node.expired === true && ev.node.image && ev.node.eventType !== 'warped-wednesday';
+         }).reverse();
+
          const metaImage = (() => {
-            if (this.$page.nextEvent.edges.length && this.$page.nextEvent.edges[0].node.image) {
-               return this.$page.nextEvent.edges[0].node.image;
+            if (nextEvents.length) {
+               return nextEvents[0].node.image;
             }
 
-            const pastEventsWithImg = this.$page.pastEvents.edges.filter(ev => {
-               return ev.node.image && ev.node.image.length > 0;
-            }).reverse();
-
-            if (pastEventsWithImg.length) {
-               return pastEventsWithImg[0].node.image;
+            if (pastEvents.length) {
+               return pastEvents[0].node.image;
             }
 
             return null;
          })();
 
          return meta({
-            title: 'Arcane Alive!',
-            description: 'Louisville, KY live concerts focusing on artists in the Darkwave, Gothic, Post-Punk, Coldwave, Industrial, EBM, Synthwave, and related genres.',
-            path: '/arcane-alive',
+            title: 'Events',
+            description: 'Louisville, KY dark music events focusing on Darkwave, Post-Punk, Gothic, Synthwave, EBM, Industrial, Synthpop, and related.',
+            path: '/events',
             image: metaImage,
             jsonLdSchema: [breadcrumbSchema].concat(eventsSchema)
-         });
+         })
       },
       components: {
          Breadcrumb,
@@ -167,21 +165,102 @@
          GridItem,
          Heading,
          Section,
+         SvgIcon,
          Title,
       },
       data () {
-         const breadcrumbSchema = breadcrumb([{
-            path: '/arcane-alive',
-            name: 'Arcane Alive!'
-         }]);
-
          return {
             crumbs: [{
-               name: 'Arcane Alive!',
-               to: '/arcane-alive'
+               name: 'Events',
+               to: '/events'
             }],
-            schemas: JSON.stringify(breadcrumbSchema),
-         };
+            pageSize: 6
+         }
       },
+      methods: {
+         getNextEvent (events = []) {
+            let nextEvent = null;
+
+            if (!events.length) {
+               return null;
+            }
+
+            let upcomingEvents = events
+                                 .filter(ev => ev.node.expired === false && ev.node.eventType !== 'warped-wednesday')
+                                 .map(ev => ev.node);
+
+            if (upcomingEvents.length) {
+               return upcomingEvents[upcomingEvents.length-1];
+            }
+
+            return events[events.length-1].node;
+         },
+         getNextEvents (events = [], limit = 1) {
+            let nextEvents = [];
+
+            if (!events.length) {
+               return [];
+            }
+
+            let upcomingEvents = events
+                                 .filter(ev => ev.node.expired === false && ev.node.eventType !== 'warped-wednesday')
+                                 .map(ev => ev.node);
+
+            if (upcomingEvents.length) {
+               return upcomingEvents.slice(0, limit);
+            }
+
+            return [events[events.length-1].node];
+         },
+         getPastEvents (events = [], paginate = false) {
+            const nextEvent = this.getNextEvent(events);
+            let eventId = null;
+
+            if (nextEvent) {
+               eventId = nextEvent.id;
+            }
+
+            const pastEvents = events.filter(ev => {
+               if (ev.node.id === eventId) {
+                  return false;
+               }
+
+               return ev.node.expired === true;
+            });
+
+            return paginate ? pastEvents.slice(0, this.pageSize) : pastEvents;
+         },
+         getFutureEvents (events = []) {
+            const nextEvent = this.getNextEvent(events);
+            let eventId = null;
+
+            if (nextEvent) {
+               eventId = nextEvent.id;
+            }
+
+            return events.filter(ev => {
+               if (ev.node.id === eventId) {
+                  return false;
+               }
+
+               return ev.node.expired === false;
+            }).reverse();
+         },
+      },
+      computed: {
+         totalPastEvents: function() {
+            return this.getPastEvents(this.$page.allEvent.edges).length;
+         },
+         totalFutureEvents: function() {
+            return this.getFutureEvents(this.$page.allEvent.edges).length;
+         }
+      }
    }
 </script>
+
+<style lang="scss">
+   .event-divider {
+      margin: 0 0 2em;
+      border-bottom: 2px solid hex-to-rgba($white-smoke, 0.5);
+   }
+</style>
