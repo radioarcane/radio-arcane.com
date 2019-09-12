@@ -32,7 +32,8 @@ short_description: >-
   DJ sets by AndrOspore
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/388353705072427'
-tickets_link: ''
+tickets_link: >-
+  https://www.showclix.com/event/mr-kitty-pastel-ghost-panic-priest-live-in-louisville
 cover: '10.00'
 playlist: ''
 ---
