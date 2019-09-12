@@ -6,25 +6,35 @@ event_type: arcane-alive
 date: '2019-10-11'
 start_datetime: '2019-10-11 20:00:00'
 end_datetime: '2019-10-12 03:00:00'
-image: '/img/uploads/arcane-alive-2019-10-11.jpg'
-description: |-
+image: /img/uploads/arcane-alive-2019-10-11.jpg
+description: >-
   Arcane Alive! Featuring live performances by:
 
 
 
 
-  **WINGTIPS** : electronic, dream pop, electronica, gothpop, post-punk, synthpop from Chicago  
+
+  **WINGTIPS** : electronic, dream pop, electronica, gothpop, post-punk,
+  synthpop from Chicago  
+
   https://wingtips.bandcamp.com  
 
 
 
-  **SCARY BLACK** : alternative, darkwave, goth, nightmare pop, post-punk  from Louisville  
+
+  **SCARY BLACK** : alternative, darkwave, goth, nightmare pop, post-punk  from
+  Louisville  
+
   https://scaryblack.bandcamp.com
 
 
 
-  **Vyva Melinkolya** : alternative, dream-pop, ethereal goth, nugaze psychedelic-pop, shoegaze, transgender from Louisville  
+
+  **Vyva Melinkolya** : alternative, dream-pop, ethereal goth, nugaze
+  psychedelic-pop, shoegaze, transgender from Louisville  
+
   https://vyva-melinkolyaky.bandcamp.com
+
 
 
 
@@ -32,8 +42,12 @@ description: |-
 
 
 
-  **Hypnagogue** :  ambient, drone electroacoustic, experimental, minimalism from Massachusetts  
+
+  **Hypnagogue** :  ambient, drone electroacoustic, experimental, minimalism
+  from Massachusetts  
+
   https://hypnagogue.bandcamp.com  
+
 
 
 
@@ -41,14 +55,19 @@ description: |-
 
 
 
+
   18+ to enter   
+
   21+ bar  
+
   $10 admission
 
 
 
 
-  This is a Friday night so, we're gonna make this a party! Come early, stay late! Doors at 9pm
+
+  This is a Friday night so, we're gonna make this a party! Come early, stay
+  late! Doors at 9pm
 
 
 
@@ -62,7 +81,8 @@ description: |-
 short_description: 'Live performances by WINGTIPS, Scary Black, Vyva Melinkolya, and more'
 location: Art Sanctuary
 facebook_event_link: 'https://www.facebook.com/events/605325119874210'
-tickets_link: ''
+tickets_link: 'https://www.showclix.com/event/wingtips-scary-black-vyva-melinkolya'
 cover: '10.00'
 playlist: ''
 ---
+
