@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2019-10-08 Arcane Alive
-display_name: 'Mr.Kitty, Scary Black, Pastel Ghost and Panic Priest'
+display_name: 'Mr.Kitty, Pastel Ghost and Panic Priest'
 event_type: arcane-alive
 date: '2019-10-08'
 start_datetime: '2019-10-08 20:00:00'
