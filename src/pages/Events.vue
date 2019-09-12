@@ -3,12 +3,18 @@
       <Container>
          <Breadcrumb :crumbs="crumbs" />
 
-         <article v-if="getNextEvent($page.allEvent.edges)">
+         <article v-if="getNextEvents($page.allEvent.edges, 3).length">
             <Heading tag="h1" strike uppercase animate>
-               Next Event
+               Next Events
             </Heading>
 
-            <Event :event="getNextEvent($page.allEvent.edges)" />
+            <div
+               v-for="node in getNextEvents($page.allEvent.edges, 3)"
+               :key="node.id"
+               class="event-divider"
+            >
+               <Event :event="node" />
+            </div>
          </article>
 
          <Section v-if="totalFutureEvents" :padBottom="true">
@@ -189,6 +195,24 @@
 
             return events[events.length-1].node;
          },
+         getNextEvents (events = [], limit = 1) {
+            let nextEvents = [];
+
+            if (!events.length) {
+               return [];
+            }
+
+            let upcomingEvents = events
+                                 .filter(ev => ev.node.expired === false && ev.node.eventType !== 'warped-wednesday')
+                                 .reverse()
+                                 .map(ev => ev.node);
+
+            if (upcomingEvents.length) {
+               return upcomingEvents.slice(0, limit);
+            }
+
+            return [events[events.length-1].node];
+         },
          getPastEvents (events = [], paginate = false) {
             const nextEvent = this.getNextEvent(events);
             let eventId = null;
@@ -234,3 +258,10 @@
       }
    }
 </script>
+
+<style lang="scss">
+   .event-divider {
+      margin: 0 0 2em;
+      border-bottom: 2px solid hex-to-rgba($white-smoke, 0.5);
+   }
+</style>
