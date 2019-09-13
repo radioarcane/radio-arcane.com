@@ -8,6 +8,22 @@
                <Title>About</Title>
 
                <p>Radio Arcane is a collective of Louisville dj's that utilize an art space to host entertainment events with a heavy interest dark eclectic music. A podcast featuring music and discussion is also available on Mixcloud and SoundCloud.</p>
+
+               <Center>
+                  <picture>
+                     <source
+                        srcset="/img/webp/radio-arcane-group.webp" type="image/webp"
+                     />
+                     <source
+                        srcset="/img/uploads/radio-arcane-group.jpg" type="image/jpeg"
+                     />
+
+                     <img
+                        src="/img/uploads/radio-arcane-group.jpg" alt="Radio Arcane Family Photo"
+                        class="family-photo"
+                     />
+                  </picture>
+               </Center>
             </Section>
          </article>
 
@@ -65,6 +81,7 @@
    import meta from '~/util/meta.js';
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
+   import Center from '~/components/Center.vue';
    import Container from '~/components/Container.vue';
    import GridContainer from '~/components/GridContainer.vue';
    import GridItem from '~/components/GridItem.vue';
@@ -98,6 +115,7 @@
       metaInfo: metaInfo,
       components: {
          Breadcrumb,
+         Center,
          Container,
          GridContainer,
          GridItem,
@@ -181,5 +199,10 @@
       @include breakpoint ($screen-xl-min) {
         width: 25%;
       }
+   }
+
+   .family-photo {
+      border: 1px solid hex-to-rgba($white-smoke, 0.4);
+      margin-bottom: 1.25rem;
    }
 </style>
