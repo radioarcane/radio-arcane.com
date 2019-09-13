@@ -6,6 +6,7 @@ playlist_type: radio-arcane
 date: '2019-09-07'
 mixcloud_links:
   - url: 'https://www.mixcloud.com/matt-kokas/radio-arcane-monthly-sept-7-2019-art-sanctuary'
+  - url: 'https://www.mixcloud.com/Textbeak/textbeak-dj-set-radio-arcane-art-sanctuary-louisville-ky-sep-7-2019'
 sets:
   - dj_name: Sorrow-Vomit
     type: dj_set
