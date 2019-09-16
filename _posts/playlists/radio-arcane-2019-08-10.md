@@ -70,7 +70,7 @@ sets:
         song: Black Noise
       - artist: Tears For Fears
         song: Pale Shelter
-      - artist: Sinead O ' Connor
+      - artist: Sinéad O'Connor
         song: Fire On Babylon
       - artist: Siouxsie & The Banshees
         song: Red Light
@@ -151,7 +151,7 @@ sets:
         song: Rock U (ft. Niki & The Dove)
       - artist: Peter Gabriel
         song: Mercy Street
-      - artist: Grame Revell
+      - artist: Graeme Revell
         song: Bells, Books, and Candles
       - artist: Kate Bush
         song: Cloudbusting
@@ -161,6 +161,6 @@ sets:
         song: Come To Me
       - artist: Apoptygma Berzerk
         song: Unicorn
-      - artist: Till Tuesday
+      - artist: "'Till Tuesday"
         song: Voices Carry
 ---
