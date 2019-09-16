@@ -25,7 +25,7 @@ sets:
         song: Change of Heart
       - artist: Carlo Onda
         song: Geister (Night Haze Remix)
-      - artist: Fix8:sed8
+      - artist: Fïx8:Sëd8
         song: Army of Infidels
       - artist: Dancing Plague
         song: Paranoia
@@ -83,7 +83,7 @@ sets:
         song: Lost
       - artist: Golden Bug
         song: Wild Boys feat. Yann Wagner (Lord Tusk 'Bush' Mix)
-      - artist: Exhaused Modern
+      - artist: Exhausted Modern
         song: Outer Self
       - artist: Patriarchy
         song: It Goes Fast
