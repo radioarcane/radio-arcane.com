@@ -20,7 +20,7 @@ sets:
         song: Gottes Tod
       - artist: Visitor
         song: Disseminate
-      - artist: yelworc
+      - artist: yelworC
         song: Blood In Face (Terror-mix)
       - artist: Scapa Flow
         song: Red Roses
