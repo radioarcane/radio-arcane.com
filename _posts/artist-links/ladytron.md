@@ -1,5 +1,5 @@
 ---
-title: Ladyton
+title: Ladytron
 apple_music: ''
 bandcamp: 'https://ladytron.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5016-Ladytron'
