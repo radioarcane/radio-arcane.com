@@ -194,7 +194,7 @@ sets:
         song: How Many Lives
       - artist: Molchat Doma
         song:  Танцевать
-      - artist: French Park
+      - artist: French Police
         song: Je Te Veux
       - artist: Shytalk
         song: Useless (LP Version)
