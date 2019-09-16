@@ -161,6 +161,6 @@ sets:
         song: Come To Me
       - artist: Apoptygma Berzerk
         song: Unicorn
-      - artist: "'Till Tuesday"
+      - artist: "'Til Tuesday"
         song: Voices Carry
 ---
