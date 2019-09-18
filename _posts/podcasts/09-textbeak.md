@@ -8,6 +8,6 @@ description: >-
 short_description: >-
   Featuring an interview and live DJ set by legendary mixologist Mike Textbeak.
 mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-09-textbeak'
-soundcloud_link: ''
+soundcloud_link: 'https://soundcloud.com/radio_arcane/radio-arcane-09-textbeak'
 playlist: 2019-09-17 Podcast
 ---
