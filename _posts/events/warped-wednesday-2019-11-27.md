@@ -6,7 +6,7 @@ event_type: warped-wednesday
 date: '2019-11-27'
 start_datetime: '2019-11-27 21:00:00'
 end_datetime: '2019-11-28 02:00:00'
-image: '/img/uploads/warped-wednesday.jpg'
+image: '/img/uploads/warped-wednesday-alt.jpg'
 description: ''
 short_description: ''
 location: Seidenfaden's
