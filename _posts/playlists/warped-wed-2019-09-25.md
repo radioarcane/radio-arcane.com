@@ -29,7 +29,7 @@ sets:
       - artist: She Past Away
         song: Soluk
       - artist: Geometric Vision
-        song: In Your Silent Room
+        song: Another Day Without Blue
       - artist: VNV Nation
         song: Aeroscope
       - artist: OLMS
