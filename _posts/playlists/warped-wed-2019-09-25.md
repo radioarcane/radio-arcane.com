@@ -86,7 +86,7 @@ sets:
         song: Memorial Waves (feat. Paris Alexander, Eirene)
       - artist: Kiss of The Whip
         song: Circle of Knives
-      - artist: Strangers & Lovers
+      - artist: Stranger & Lovers
         song: Masochistic Love
       - artist: Psychic Guilt
         song: Wall
