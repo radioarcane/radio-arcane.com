@@ -17,7 +17,7 @@ sets:
       - artist: Drab Majesty
         song: The Heiress
       - artist: Echo & The Bunnymen
-        song: Just A Hip
+        song: With A Hip
       - artist: Joy Division
         song: She’s Lost Control
       - artist: M!R!M
