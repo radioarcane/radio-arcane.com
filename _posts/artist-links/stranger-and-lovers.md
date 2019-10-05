@@ -10,5 +10,5 @@ soundcloud: ''
 spotify: ''
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCamM_UV6ZqLqeXFZZxK3-Qg'
 ---
