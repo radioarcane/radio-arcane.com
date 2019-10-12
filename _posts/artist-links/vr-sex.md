@@ -1,10 +1,10 @@
 ---
 title: VR Sex
-apple_music: 'https://itunes.apple.com/artist/vr-sex/1453120576'
+appleMusic: 'https://itunes.apple.com/artist/vr-sex/1453120576'
 bandcamp: 'https://vrsex.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/7043370-VR-Sex'
 facebook: 'https://www.facebook.com/vrsexband'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/VR_SEX?id=Arqnu74rnhph5ldxwevyflo75pe
 instagram: 'https://www.instagram.com/vrsex.wav'
 soundcloud: 'https://soundcloud.com/vrsex'

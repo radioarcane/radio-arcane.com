@@ -1,10 +1,10 @@
 ---
 title: Nine Inch Nails
-apple_music: 'https://itunes.apple.com/artist/nine-inch-nails/107917'
+appleMusic: 'https://itunes.apple.com/artist/nine-inch-nails/107917'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/3857-Nine-Inch-Nails'
 facebook: 'https://www.facebook.com/ninofficial'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Nine_inch_nails?id=Anfzmazfxuonvkhygocdo5gpo7y
 instagram: 'https://www.instagram.com/nineinchnails'
 soundcloud: 'https://soundcloud.com/nineinchnails'

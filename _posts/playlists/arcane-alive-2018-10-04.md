@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: 2018-10-04 Arcane Alive
-display_name: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTIMA'
-playlist_type: arcane-alive
+displayName: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTIMA'
+playlistType: arcane-alive
 date: '2018-10-04'
 sets:
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: Blablarism
         song: Golveoleth
@@ -46,7 +46,7 @@ sets:
     type: dj_set
   - performer: ULTIMA
     type: performance
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: Fotocrime
         song: Duplicate Days
@@ -59,7 +59,7 @@ sets:
     type: dj_set
   - performer: Decide Today
     type: performance
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: Lestat
         song: Baptism
@@ -80,7 +80,7 @@ sets:
     type: dj_set
   - performer: Ominous Erotica
     type: performance
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: Velvet Acid Christ
         request: artist

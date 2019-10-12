@@ -1,10 +1,10 @@
 ---
 title: "Petra Flurr + Modernista"
-apple_music: 'https://music.apple.com/gb/artist/petra-flurr/475512149'
+appleMusic: 'https://music.apple.com/gb/artist/petra-flurr/475512149'
 bandcamp: 'https://petraflurrmodernista.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/1285618-Petra-Flurr'
 facebook: 'https://www.facebook.com/petraflurrmusic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Petra_Flurr_Modernista?id=Amqjpjkazzqpm4tuze56baxidfm
 instagram: ''
 soundcloud: 'https://soundcloud.com/petra-flurr-modernista'

@@ -1,10 +1,10 @@
 ---
 title: A Split Second
-apple_music: 'https://itunes.apple.com/artist/a-split-second/214323914'
+appleMusic: 'https://itunes.apple.com/artist/a-split-second/214323914'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/4878-A-Split-Second'
 facebook: 'https://www.facebook.com/A-Split-Second-121596900511'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/A_Split_Second?id=Ay2hkkesc4peq37m2rj2g6okgxi
 instagram: ''
 soundcloud: 'https://soundcloud.com/a-split-second'

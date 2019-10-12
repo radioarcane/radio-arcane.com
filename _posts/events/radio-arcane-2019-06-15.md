@@ -1,11 +1,11 @@
 ---
 layout: event
 title: 2019-06-15 Radio Arcane
-display_name: Radio Arcane Monthly
-event_type: radio-arcane
+displayName: Radio Arcane Monthly
+eventType: radio-arcane
 date: '2019-06-15'
-start_datetime: '2019-06-15 22:00:00'
-end_datetime: '2019-06-16 03:00:00'
+startDatetime: '2019-06-15 22:00:00'
+endDatetime: '2019-06-16 03:00:00'
 image: /img/uploads/radio-arcane-2019-06-15.jpg
 description: >-
   Solstitium Gothici -  
@@ -41,10 +41,10 @@ description: >-
   still want to play. And we want you to come, we want you to stay. Until we
   must close, then shoo you away. Bad rhymes kind of suck, don't they? Like a
   lot, really. Super shittay.
-short_description: ''
+shortDescription: ''
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/295012491215866'
-tickets_link: ''
+facebookEventLink: 'https://www.facebook.com/events/295012491215866'
+ticketsLink: ''
 cover: '5.00'
 playlist: '2019-06-15 Radio Arcane'
 ---

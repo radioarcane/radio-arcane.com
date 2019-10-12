@@ -1,10 +1,10 @@
 ---
 title: Calabrese
-apple_music: 'https://itunes.apple.com/artist/calabrese/id261384'
+appleMusic: 'https://itunes.apple.com/artist/calabrese/id261384'
 bandcamp: 'https://calabrese.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/682377-Calabrese'
 facebook: 'https://www.facebook.com/Calabrese666'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Calabrese?id=Axr5ld4pxvu4gm2lnadbkvfycnm
 instagram: 'https://www.instagram.com/calabrese666'
 soundcloud: 'https://soundcloud.com/calabrese666'

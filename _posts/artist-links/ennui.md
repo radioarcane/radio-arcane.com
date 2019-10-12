@@ -1,10 +1,10 @@
 ---
 title: Ennui
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/426959-ennui'
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

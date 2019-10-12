@@ -1,10 +1,10 @@
 ---
 title: Tronik Youth
-apple_music: 'https://itunes.apple.com/artist/tronik-youth/255993093'
+appleMusic: 'https://itunes.apple.com/artist/tronik-youth/255993093'
 bandcamp: 'https://ladamenoir-tronikyouth.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/184026-Tronik-Youth'
 facebook: 'https://www.facebook.com/TronikYouth'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Tronik_Youth?id=Adm3opza7zlkyxkfpfqine6mrke
 instagram: 'https://www.instagram.com/tronikyouth'
 soundcloud: 'https://soundcloud.com/tronik-youth'

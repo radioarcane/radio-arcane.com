@@ -9,9 +9,9 @@ description: >-
 
 
   To purchase tracks from the show on Bandcamp, iTunes etc, please visit our new website and click on our "Playlists". There are links to bands social media pages as well.
-short_description: >-
+shortDescription: >-
   Fourth episode featuring an interview with dj Kaleidoscope of Radio Arcane.
-mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-04-kaleidoscope'
-soundcloud_link: 'https://soundcloud.com/radio_arcane/radio-arcane-04-kaleidoscope'
+mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-04-kaleidoscope'
+soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-04-kaleidoscope'
 playlist: 2019-04-28 Podcast
 ---

@@ -1,10 +1,10 @@
 ---
 title: Shriekback
-apple_music: 'https://music.apple.com/artist/shriekback/85136'
+appleMusic: 'https://music.apple.com/artist/shriekback/85136'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/25725-Shriekback'
 facebook: 'https://www.facebook.com/shriekback'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Shriekback?id=Aooxatpilerc6py4dos4axd3zle
 instagram: 'https://www.instagram.com/realshriekback'
 soundcloud: 'https://soundcloud.com/shriekback-official'

@@ -1,10 +1,10 @@
 ---
 title: The Revenants
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://therevenants.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5798346-The-Revenants-4'
 facebook: 'https://www.facebook.com/TheRevenants'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

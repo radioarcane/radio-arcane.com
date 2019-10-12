@@ -1,14 +1,14 @@
 ---
 layout: playlist
 title: 2019-09-07 Radio Arcane
-display_name: 'Radio Arcane'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane'
+playlistType: radio-arcane
 date: '2019-09-07'
-mixcloud_links:
+mixcloudLinks:
   - url: 'https://www.mixcloud.com/Textbeak/textbeak-dj-set-radio-arcane-art-sanctuary-louisville-ky-sep-7-2019'
   - url: 'https://www.mixcloud.com/matt-kokas/radio-arcane-monthly-sept-7-2019-art-sanctuary'
 sets:
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Xarah Dion
@@ -37,7 +37,7 @@ sets:
         song: Cold Blooded Hands
       - artist: Blind Delon
         song: Rule VI                       
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set        
     tracks:
       - artist: Cold Cave
@@ -70,7 +70,7 @@ sets:
         song: Roses
       - artist: Jakuzi
         song: Sana Göre Bir Şey Yok
-  - guest_dj: Textbeak
+  - guestDj: Textbeak
     type: dj_set
     tracks:
       - artist: Dear Strange
@@ -105,7 +105,7 @@ sets:
         song: Annihilator
       - artist: Black Nail Cabaret
         song: Bête Noire
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Amduscia
@@ -131,7 +131,7 @@ sets:
         song: Quartz
       - artist: Kælan Mikla
         song: Nótt Eftir Nótt
-  - guest_dj: Textbeak
+  - guestDj: Textbeak
     type: dj_set
     tracks:
       - artist: Scary Black
@@ -170,7 +170,7 @@ sets:
         song: Last Stand
       - artist: Lords of Acid
         song: I Sit On Acid
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: She Past Away

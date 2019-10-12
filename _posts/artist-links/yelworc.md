@@ -1,10 +1,10 @@
 ---
 title: yelworC
-apple_music: 'https://music.apple.com/artist/yelworc/80022278'
+appleMusic: 'https://music.apple.com/artist/yelworc/80022278'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/94507-yelworC'
 facebook: ''
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/yelworC?id=Autdebof5pvjunvhnxtvldfdefq
 instagram: ''
 soundcloud: ''

@@ -1,10 +1,10 @@
 ---
 title: Graeme Revell
-apple_music: 'https://music.apple.com/artist/graeme-revell/325097'
+appleMusic: 'https://music.apple.com/artist/graeme-revell/325097'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/79574-Graeme-Revell'
 facebook: ''
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Graeme_Revell?id=Acfwueibwvdigcankgoutw7xvca
 instagram: ''
 soundcloud: 'https://soundcloud.com/graeme-revell'

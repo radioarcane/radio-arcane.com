@@ -1,10 +1,10 @@
 ---
 title: Nite Nite
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://nitenite.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/nitenitetheband'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

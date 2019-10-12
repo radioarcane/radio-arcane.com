@@ -1,10 +1,10 @@
 ---
 title: 'New Haunts'
-apple_music: 'https://itunes.apple.com/artist/new-haunts/1316750145'
+appleMusic: 'https://itunes.apple.com/artist/new-haunts/1316750145'
 bandcamp: 'https://newhaunts.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/6536782-New-Haunts'
 facebook: 'https://www.facebook.com/newhauntsmusic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/New_Haunts?id=Aj3fwtjgmi5scxas242gimcuu6e
 instagram: 'https://www.instagram.com/newhaunts'
 soundcloud: 'https://soundcloud.com/newhaunts'

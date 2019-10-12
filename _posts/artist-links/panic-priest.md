@@ -1,10 +1,10 @@
 ---
 title: Panic Priest
-apple_music: 'https://music.apple.com/artist/panic-priest/1289012661'
+appleMusic: 'https://music.apple.com/artist/panic-priest/1289012661'
 bandcamp: 'https://panicpriestngp.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/6643971-Panic-Priest'
 facebook: 'https://www.facebook.com/PanicPriest'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Panic_Priest?id=Aq3ki2clf3k4b4l5rjjhzzo6r64
 instagram: 'https://www.instagram.com/panicpriest'
 soundcloud: 'https://soundcloud.com/panicpriest'

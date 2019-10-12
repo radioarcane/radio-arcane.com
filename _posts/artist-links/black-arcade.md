@@ -1,10 +1,10 @@
 ---
 title: Black Arcade
-apple_music: 'https://itunes.apple.com/artist/black-arcade/1043659494'
+appleMusic: 'https://itunes.apple.com/artist/black-arcade/1043659494'
 bandcamp: 'https://blackarcade.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5424373-Black-Arcade'
 facebook: 'https://www.facebook.com/blxckarcade'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Black_Arcade?id=Apzente7jwl2j2t4ogzynay6r5i
 instagram: 'https://www.instagram.com/blxckarcade'
 soundcloud: 'https://soundcloud.com/ablackarcade'

@@ -1,13 +1,13 @@
 ---
 layout: playlist
 title: '2018-11-24 Radio Arcane'
-display_name: 'Radio Arcane : The Dark Market'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane : The Dark Market'
+playlistType: radio-arcane
 date: '2018-11-24'
 sets:
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     tracks:
       - artist: The Danse Society
         song: We're So Happy
@@ -46,6 +46,6 @@ sets:
       - artist: Switchblade Symphony
         song: Clown (Leæther Strip Mix)   
     type: dj_set
-  - dj_name: Brian Drabant
+  - djName: Brian Drabant
     type: dj_set
 ---

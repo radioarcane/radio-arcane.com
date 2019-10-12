@@ -1,10 +1,10 @@
 ---
 title: Stockhaussen
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://stockhaussen.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4799915-Stockhaussen'
 facebook: 'https://www.facebook.com/Stockhaussen'
-google_music: ''
+googleMusic: ''
 instagram: 'https://www.instagram.com/stockhaussen'
 soundcloud: 'https://soundcloud.com/stockhaussen'
 spotify: ''

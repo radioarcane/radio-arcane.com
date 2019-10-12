@@ -1,10 +1,10 @@
 ---
 title: Siouxsie & The Banshees
-apple_music: 'https://itunes.apple.com/artist/siouxsie-the-banshees/92623'
+appleMusic: 'https://itunes.apple.com/artist/siouxsie-the-banshees/92623'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/80501-Siouxsie-The-Banshees'
 facebook: 'https://www.facebook.com/Siouxsie-And-The-Banshees-186751311365203'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Siouxsie_The_Banshees?id=Aa2rm3th4yufgtxkfqadb3k7psy
 instagram: ''
 soundcloud: ''

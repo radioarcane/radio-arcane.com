@@ -1,10 +1,10 @@
 ---
 title: Christian Death
-apple_music: 'https://itunes.apple.com/artist/christian-death/6550137'
+appleMusic: 'https://itunes.apple.com/artist/christian-death/6550137'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/94647-Christian-Death'
 facebook: 'https://www.facebook.com/christiandeath'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Christian_Death?id=Apwap6mhvpp2rath6fzi77sx564
 instagram: 'https://www.instagram.com/christiandeath.official'
 soundcloud: ''

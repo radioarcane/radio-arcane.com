@@ -9,9 +9,9 @@ description: >-
 
 
   To purchase tracks from the show on Bandcamp, iTunes etc, please visit our new website and click on our "Playlists". There are links to bands social media pages as well.
-short_description: >-
+shortDescription: >-
   Our first episode of 'BAD BLOOD': We explore and discuss the history, art and drama of Christian Death and the divide between Rozz and Valor.
-mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-05-bad-blood-rozz-vs-valor'
-soundcloud_link: 'https://soundcloud.com/radio_arcane/radio-arcane-05-bad-blood-rozz-vs-valor'
+mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-05-bad-blood-rozz-vs-valor'
+soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-05-bad-blood-rozz-vs-valor'
 playlist: 2019-06-03 Podcast
 ---

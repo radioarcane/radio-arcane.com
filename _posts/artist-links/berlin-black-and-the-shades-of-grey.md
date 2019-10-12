@@ -1,10 +1,10 @@
 ---
 title: Berlin Black & The Shades of Grey
-apple_music: 'https://itunes.apple.com/artist/berlin-black/450712912'
+appleMusic: 'https://itunes.apple.com/artist/berlin-black/450712912'
 bandcamp: 'https://berlinblack.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/berlinblackofficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Berlin_Black?id=Agqzob7p6t7hjdaejzya2ir56pm
 instagram: 'https://www.instagram.com/berlinblack'
 soundcloud: ''

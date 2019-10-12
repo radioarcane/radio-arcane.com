@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: 2018-01-20 Radio Arcane
-display_name: 'Radio Arcane : Winterfeier : The Dark Market'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane : Winterfeier : The Dark Market'
+playlistType: radio-arcane
 date: '2018-01-20'
 sets:
-  - dj_name: Talamasca
+  - djName: Talamasca
     tracks:
       - artist: Ufomammut
         song: Ammonia
@@ -56,7 +56,7 @@ sets:
       - artist: Siouxsie & The Banshees
         song: Red Light
     type: dj_set
-  - dj_name: Thulsa Goon
+  - djName: Thulsa Goon
     tracks:
       - artist: Le Matos
         song: Intro
@@ -83,7 +83,7 @@ sets:
       - artist: Ritual Howls
         song: Their Body
     type: dj_set
-  - dj_name: Count Grozny
+  - djName: Count Grozny
     tracks:
       - artist: Idol Mind
         song: Fool
@@ -106,7 +106,7 @@ sets:
       - artist: Controlled Bleeding
         song: Words of The Dying
     type: dj_set
-  - dj_name: Talamasca
+  - djName: Talamasca
     tracks:
       - artist: iVardensphere
         song: Bonedance V3

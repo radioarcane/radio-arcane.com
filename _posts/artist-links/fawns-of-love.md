@@ -1,10 +1,10 @@
 ---
 title: Fawns of Love
-apple_music: 'https://itunes.apple.com/artist/fawns-of-love/1133807708'
+appleMusic: 'https://itunes.apple.com/artist/fawns-of-love/1133807708'
 bandcamp: 'https://fawnsoflove.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5569202-Fawns-Of-Love'
 facebook: 'https://www.facebook.com/fawnsoflove'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Fawns_of_Love?id=Am5b5yopeelqt7num6gcwdsi2fq
 instagram: 'https://www.instagram.com/fawnsoflove'
 soundcloud: 'https://soundcloud.com/fawnsoflove'

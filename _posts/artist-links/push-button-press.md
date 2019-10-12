@@ -1,10 +1,10 @@
 ---
 title: Push Button Press
-apple_music: 'https://itunes.apple.com/artist/push-button-press/1448904325'
+appleMusic: 'https://itunes.apple.com/artist/push-button-press/1448904325'
 bandcamp: 'https://pushbuttonpress1.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/6729203-Push-Button-Press'
 facebook: 'https://www.facebook.com/pushbuttonpress'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Push_Button_Press?id=A5lgpz3t6phkiw2iojqr37krytq
 instagram: 'https://www.instagram.com/pushbuttonpress'
 soundcloud: 'https://soundcloud.com/push-button-press'

@@ -1,11 +1,11 @@
 ---
 layout: event
 title: 2019-12-26 Arcane Alive
-display_name: Twin Tribes and Scary Black
-event_type: arcane-alive
+displayName: Twin Tribes and Scary Black
+eventType: arcane-alive
 date: '2019-12-26'
-start_datetime: '2019-12-26 21:00:00'
-end_datetime: '2019-12-27 01:00:00'
+startDatetime: '2019-12-26 21:00:00'
+endDatetime: '2019-12-27 01:00:00'
 image: /img/uploads/arcane-alive-2019-12-26-twin-tribes.jpg
 description: >-
   Radio Arcane presents - Twin Tribes (Texas) live at Highlands Tap Room with
@@ -47,10 +47,10 @@ description: >-
 
 
   21+
-short_description: Live performances by Twin Tribes and Scary Black
+shortDescription: Live performances by Twin Tribes and Scary Black
 location: Highlands Tap Room Bar & Grill
-facebook_event_link: 'https://www.facebook.com/events/386770738943572'
-tickets_link: ''
+facebookEventLink: 'https://www.facebook.com/events/386770738943572'
+ticketsLink: ''
 cover: '0.00'
 playlist: ''
 ---

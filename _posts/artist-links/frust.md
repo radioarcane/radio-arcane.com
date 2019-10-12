@@ -1,10 +1,10 @@
 ---
 title: Frust
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://oraculorecords.bandcamp.com/album/stone-i'
 discogs: 'https://www.discogs.com/artist/7195589-Frust-2'
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

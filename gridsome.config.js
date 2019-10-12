@@ -38,6 +38,10 @@ module.exports = {
       .use('vue-svg-loader')
       .loader('vue-svg-loader');
    },
+   templates: {
+      Event: '/events/:slug',
+      Podcast: '/podcasts/:slug'
+   },
    plugins: [
       {
          use: '@gridsome/plugin-sitemap',
@@ -54,11 +58,11 @@ module.exports = {
                   priority: 0.9
                },
                '/events/*': {
-                  changefreq: 'weekly',
+                  changefreq: 'monthly',
                   priority: 0.8
                },
                '/podcasts': {
-                  changefreq: 'weekly',
+                  changefreq: 'monthly',
                   priority: 0.7
                },
                '/podcasts/*': {

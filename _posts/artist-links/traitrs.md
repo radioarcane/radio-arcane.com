@@ -1,10 +1,10 @@
 ---
 title: TRAITRS
-apple_music: 'https://itunes.apple.com/artist/traitrs/1118704716'
+appleMusic: 'https://itunes.apple.com/artist/traitrs/1118704716'
 bandcamp: 'https://traitrs.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5125706-TRAITRS'
 facebook: 'https://www.facebook.com/traitrs'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/TRAITRS?id=Aouttm54sbov7aghcfx6z5pyr4i
 instagram: 'https://www.instagram.com/traitrstraitrstraitrs'
 soundcloud: ''

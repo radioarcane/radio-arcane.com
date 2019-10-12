@@ -1,10 +1,10 @@
 ---
 title: Zanias
-apple_music: 'https://itunes.apple.com/artist/zanias/1156612707'
+appleMusic: 'https://itunes.apple.com/artist/zanias/1156612707'
 bandcamp: 'https://zanias.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3793745-Zo%C3%A9-Zanias'
 facebook: 'https://www.facebook.com/zoe.zanias'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Zanias?id=Az4pui2iwmjhyokjcs3zvxfi6vi
 instagram: 'https://www.instagram.com/zoe_zanias'
 soundcloud: 'https://soundcloud.com/zanias'

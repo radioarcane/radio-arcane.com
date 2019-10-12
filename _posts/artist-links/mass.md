@@ -1,10 +1,10 @@
 ---
 title: Mass
-apple_music: 'https://music.apple.com/album/labour-of-love/179931661'
+appleMusic: 'https://music.apple.com/album/labour-of-love/179931661'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/84592-Mass-4'
 facebook: ''
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=A6qwgftzqopfdyood5hzkbftzfy
 instagram: ''
 soundcloud: ''

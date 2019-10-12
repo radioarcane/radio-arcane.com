@@ -1,10 +1,10 @@
 ---
 title: This Mortal Coil
-apple_music: 'https://itunes.apple.com/artist/this-mortal-coil/3033797'
+appleMusic: 'https://itunes.apple.com/artist/this-mortal-coil/3033797'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/60232-This-Mortal-Coil'
 facebook: 'https://www.facebook.com/pg/This-Mortal-Coil-77337522784'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/This_Mortal_Coil?id=Acichaxynnyht2k7s5rzffqj4he
 instagram: ''
 soundcloud: 'https://soundcloud.com/this-mortal-coil'

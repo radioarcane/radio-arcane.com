@@ -1,10 +1,10 @@
 ---
 title: Lycia
-apple_music: 'https://itunes.apple.com/artist/lycia/4370573'
+appleMusic: 'https://itunes.apple.com/artist/lycia/4370573'
 bandcamp: 'https://lycia.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/97667-Lycia'
 facebook: 'https://www.facebook.com/LyciaBand'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Lycia?id=Afgfabdbd3wa2gtnmtxdcqny4ia
 instagram: 'https://www.instagram.com/lyciaband'
 soundcloud: 'https://soundcloud.com/lycia-live'

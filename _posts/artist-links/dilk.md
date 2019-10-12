@@ -1,10 +1,10 @@
 ---
 title: DILK
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://dilk.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/dilkband'
-google_music: ''
+googleMusic: ''
 instagram: 'https://www.instagram.com/dilkband'
 soundcloud: 'https://soundcloud.com/dilkband'
 spotify: 'https://open.spotify.com/artist/4BLlCToGs5UbfIukFRhbWn'

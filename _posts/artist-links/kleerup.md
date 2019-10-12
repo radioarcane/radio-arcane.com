@@ -1,10 +1,10 @@
 ---
 title: Kleerup
-apple_music: 'https://music.apple.com/artist/kleerup/399425503'
+appleMusic: 'https://music.apple.com/artist/kleerup/399425503'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/717213-Kleerup'
 facebook: 'https://www.facebook.com/kleerupmusic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Kleerup?id=Auw57jjvolhewwjr2x3pmy5i3hq
 instagram: 'https://www.instagram.com/andreas_kleerup'
 soundcloud: 'https://soundcloud.com/kleerup'

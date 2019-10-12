@@ -1,10 +1,10 @@
 ---
 title: Public Memory
-apple_music: 'https://itunes.apple.com/artist/public-memory/1056772709'
+appleMusic: 'https://itunes.apple.com/artist/public-memory/1056772709'
 bandcamp: 'https://publicmemory.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4910490-Public-Memory'
 facebook: 'https://www.facebook.com/thepublicmemory'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Sort_Sol?id=A65j5i4sf2kie3hiltj5x2aspae
 instagram: 'https://www.instagram.com/public.memory'
 soundcloud: 'https://soundcloud.com/publicmemory'

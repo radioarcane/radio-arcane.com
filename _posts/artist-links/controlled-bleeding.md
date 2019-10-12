@@ -1,10 +1,10 @@
 ---
 title: Controlled Bleeding
-apple_music: 'https://itunes.apple.com/artist/controlled-bleeding/6971763'
+appleMusic: 'https://itunes.apple.com/artist/controlled-bleeding/6971763'
 bandcamp: 'https://controlledbleeding.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/49061-Controlled-Bleeding'
 facebook: 'https://www.facebook.com/ControlledBleeding'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Controlled_Bleeding?id=Aragj27kj23kkebdakesm6qr634
 instagram: ''
 soundcloud: ''

@@ -1,10 +1,10 @@
 ---
 title: O. Children
-apple_music: 'https://itunes.apple.com/artist/o-children/327231178'
+appleMusic: 'https://itunes.apple.com/artist/o-children/327231178'
 bandcamp: 'https://ochildren.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/1603937-O-Children'
 facebook: 'https://www.facebook.com/ochildren'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/O_Children?id=A4olirzirvhzfctsqjst36fajem
 instagram: ''
 soundcloud: ''

@@ -1,11 +1,11 @@
 ---
 layout: event
 title: 2018-12-01 Arcane Alive
-display_name: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | AndrOspore'
-event_type: arcane-alive
+displayName: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | AndrOspore'
+eventType: arcane-alive
 date: '2018-12-01'
-start_datetime: '2018-12-01 21:00:00'
-end_datetime: '2018-12-02 03:00:00'
+startDatetime: '2018-12-01 21:00:00'
+endDatetime: '2018-12-02 03:00:00'
 image: /img/uploads/arcane-alive-2018-12-01--2x.jpg
 description: >-
   Arcane Alive! Featuring live performances by:
@@ -33,10 +33,10 @@ description: >-
 
 
   Doors open at 9pm. First band at 10pm. 18+ entry 21+ bar. $5
-short_description: 'Live performances by Curse of Cassandra, The Kentucky Vampires, and AndrOspore'
+shortDescription: 'Live performances by Curse of Cassandra, The Kentucky Vampires, and AndrOspore'
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/333384737470679'
-tickets_link: ''
+facebookEventLink: 'https://www.facebook.com/events/333384737470679'
+ticketsLink: ''
 cover: '5.00'
 playlist: 2018-12-01 Arcane Alive
 ---

@@ -1,17 +1,17 @@
 ---
 layout: event
 title: '2019-12-21 Radio Arcane'
-display_name: 'Radio Arcane Monthly : Winter Solstice Celebration'
-event_type: radio-arcane
+displayName: 'Radio Arcane Monthly : Winter Solstice Celebration'
+eventType: radio-arcane
 date: '2019-12-21'
-start_datetime: '2019-12-21 22:00:00'
-end_datetime: '2019-12-22 03:00:00'
+startDatetime: '2019-12-21 22:00:00'
+endDatetime: '2019-12-22 03:00:00'
 image: '/img/uploads/radio-arcane-default.jpg'
 description: ''
-short_description: ''
+shortDescription: ''
 location: Art Sanctuary
-facebook_event_link: ''
-tickets_link: ''
+facebookEventLink: ''
+ticketsLink: ''
 cover: '5.00'
 playlist: ''
 ---

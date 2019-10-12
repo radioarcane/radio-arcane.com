@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: '2018-12-01 Arcane Alive'
-display_name: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | AndrOspore'
-playlist_type: arcane-alive
+displayName: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | AndrOspore'
+playlistType: arcane-alive
 date: '2018-12-01'
 sets:
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Simbolo
@@ -46,7 +46,7 @@ sets:
         song: Through Me
   - performer: AndrOspore
     type: performance
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Ash Code
@@ -57,7 +57,7 @@ sets:
         song: Fight Back
   - performer: The Kentucky Vampires
     type: performance
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Holygram
@@ -70,7 +70,7 @@ sets:
         song: In Decay (feat. Antipole & Delphine Coma)
   - performer: Curse of Cassandra
     type: performance
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Simi Nah

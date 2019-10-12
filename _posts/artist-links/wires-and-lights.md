@@ -1,10 +1,10 @@
 ---
 title: Wires & Lights
-apple_music: 'https://music.apple.com/artist/wires-lights/id1456427023'
+appleMusic: 'https://music.apple.com/artist/wires-lights/id1456427023'
 bandcamp: 'https://wireslights.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3970120-Wires-Lights'
 facebook: 'https://www.facebook.com/wireslights'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Wires_Lights?id=A4wmmewiguftus2m6upan4oskvu
 instagram: 'https://www.instagram.com/wireslights'
 soundcloud: 'https://soundcloud.com/user-636993269'

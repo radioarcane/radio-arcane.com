@@ -1,10 +1,10 @@
 ---
 title: Terrence Mann
-apple_music: 'https://itunes.apple.com/artist/terra-tenebrosa/427545896'
+appleMusic: 'https://itunes.apple.com/artist/terra-tenebrosa/427545896'
 bandcamp: 'https://terratenebrosa.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/2727808-Terrence-Mann'
 facebook: 'https://www.facebook.com/MannTevama'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Terrence_Mann?id=A3qrcf5gntpep5dnqkr4pofbojq
 instagram: ''
 soundcloud: 'https://soundcloud.com/terrence-mann-official'

@@ -1,10 +1,10 @@
 ---
 title: Ladytron
-apple_music: 'https://music.apple.com/artist/ladytron/2872502'
+appleMusic: 'https://music.apple.com/artist/ladytron/2872502'
 bandcamp: 'https://ladytron.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5016-Ladytron'
 facebook: 'https://www.facebook.com/ladytron'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Ladytron?id=Aisdn3xfjmrhqayh2aktwvogjse
 instagram: 'https://www.instagram.com/ladytron'
 soundcloud: 'https://soundcloud.com/ladytron-official'

@@ -1,10 +1,10 @@
 ---
 title: Black Nail Cabaret
-apple_music: 'https://music.apple.com/artist/black-nail-cabaret/735326758'
+appleMusic: 'https://music.apple.com/artist/black-nail-cabaret/735326758'
 bandcamp: 'https://blacknailcabaret.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3543255-Black-Nail-Cabaret'
 facebook: 'https://www.facebook.com/bncband'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Black_Nail_Cabaret?id=A2baeh5v56dulcpjbpoh25xbhp4
 instagram: 'https://www.instagram.com/bncband'
 soundcloud: 'https://soundcloud.com/blacknailcabaret'

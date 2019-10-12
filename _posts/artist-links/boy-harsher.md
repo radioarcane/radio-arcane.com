@@ -1,10 +1,10 @@
 ---
 title: Boy Harsher
-apple_music: 'https://itunes.apple.com/artist/boy-harsher/1022460442'
+appleMusic: 'https://itunes.apple.com/artist/boy-harsher/1022460442'
 bandcamp: 'https://boyharsher.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4322281-Boy-Harsher'
 facebook: 'https://www.facebook.com/boyharsher'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Boy_Harsher?id=Ankrgifiu3ixxupe3v37jy2b7f4
 instagram: 'https://www.instagram.com/boyharsher'
 soundcloud: 'https://soundcloud.com/boy-harsher'

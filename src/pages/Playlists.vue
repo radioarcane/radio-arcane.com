@@ -98,6 +98,10 @@
 
    export default {
       metaInfo() {
+
+         console.log('META INFO');
+         console.log(this);
+
          const breadcrumbSchema = breadcrumb([{
             path: '/playlists',
             name: 'Playlists'

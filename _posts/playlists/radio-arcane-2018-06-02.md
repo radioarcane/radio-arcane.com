@@ -1,17 +1,17 @@
 ---
 layout: playlist
 title: 2018-06-02 Radio Arcane
-display_name: 'Radio Arcane : Goth Prom : The Dark Market'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane : Goth Prom : The Dark Market'
+playlistType: radio-arcane
 date: '2018-06-02'
 sets:
-  - dj_name: Talamasca & Thulsa Goon
+  - djName: Talamasca & Thulsa Goon
     type: dj_set
-  - dj_name: AndrOspore
+  - djName: AndrOspore
     type: dj_set
   - performer: The Kentucky Vampires
     type: performance
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: Ash Code
         song: Icy Cold
@@ -36,7 +36,7 @@ sets:
       - artist: Dance Or Die
         song: Dance Or Die
     type: dj_set
-  - dj_name: Talamasca
+  - djName: Talamasca
     tracks:
       - artist: VNV Nation
         song: Joy
@@ -63,6 +63,6 @@ sets:
       - artist: Covenant
         song: Call The Ships To Port
     type: dj_set
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     type: dj_set
 ---

@@ -1,10 +1,10 @@
 ---
 title: Delerium
-apple_music: 'https://itunes.apple.com/artist/delerium/2156106'
+appleMusic: 'https://itunes.apple.com/artist/delerium/2156106'
 bandcamp: 'https://delerium-official.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/2077-Delerium'
 facebook: 'https://www.facebook.com/Delerium'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Delerium?id=Acerpmnwoaqnn47hfnu4ec4g63u
 instagram: ''
 soundcloud: 'https://soundcloud.com/delerium-official'

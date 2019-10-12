@@ -1,10 +1,10 @@
 ---
 title: Part Time
-apple_music: 'https://music.apple.com/artist/part-time/438577174'
+appleMusic: 'https://music.apple.com/artist/part-time/438577174'
 bandcamp: 'https://partime.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/2332476-Part-Time'
 facebook: 'https://www.facebook.com/parttime623'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Agkshwb6hutl6qukawmq7spx2ea
 instagram: 'https://www.instagram.com/part_time_la'
 soundcloud: 'https://soundcloud.com/part-time-official'

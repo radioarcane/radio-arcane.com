@@ -1,10 +1,10 @@
 ---
 title: Assemblage 23
-apple_music: 'https://itunes.apple.com/artist/assemblage-23/54627594'
+appleMusic: 'https://itunes.apple.com/artist/assemblage-23/54627594'
 bandcamp: 'https://assemblage23.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/10734-Assemblage-23'
 facebook: 'https://www.facebook.com/Official-Assemblage-23-138651156153800'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Assemblage_23?id=A7zffpvxzdi245x4m4vobaq4yme
 instagram: ''
 soundcloud: 'https://soundcloud.com/assemblage-23'

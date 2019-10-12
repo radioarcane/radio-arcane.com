@@ -1,10 +1,10 @@
 ---
 title: "Pure Ground + Luminance"
-apple_music: 'https://music.apple.com/artist/pure-ground/996391078'
+appleMusic: 'https://music.apple.com/artist/pure-ground/996391078'
 bandcamp: 'https://luminannce.bandcamp.com/album/pure-ground-luminance-split'
 discogs: 'https://www.discogs.com/Pure-Ground-Luminance-Pure-Ground-Luminance/master/1348846'
 facebook: 'https://www.facebook.com/puregroundpureground'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Pure_Ground?id=Aio45rztd25m2c4kmxkebwys4le
 instagram: ''
 soundcloud: 'https://soundcloud.com/pureground'

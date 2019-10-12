@@ -1,10 +1,10 @@
 ---
 title: League of Nations
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/510556-League-Of-Nations-3'
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

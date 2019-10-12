@@ -1,10 +1,10 @@
 ---
 title: Nightcrawler
-apple_music: 'https://music.apple.com/artist/nightcrawler/342066733'
+appleMusic: 'https://music.apple.com/artist/nightcrawler/342066733'
 bandcamp: 'https://nightcrawler.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3175198-Nightcrawler-5'
 facebook: 'https://www.facebook.com/nightcrawlermusic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Av45z3rt2nnzqw2ok3jt3aofgu4
 instagram: 'https://www.instagram.com/nightcrawlermusic'
 soundcloud: 'https://soundcloud.com/nightcrawlermusic'

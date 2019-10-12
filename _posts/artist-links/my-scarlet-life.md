@@ -1,10 +1,10 @@
 ---
 title: My Scarlet Life
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/789089-My-Scarlet-Life'
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

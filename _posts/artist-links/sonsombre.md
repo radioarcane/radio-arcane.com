@@ -1,10 +1,10 @@
 ---
 title: Sonsombre
-apple_music: 'https://itunes.apple.com/artist/sonsombre/1435737549'
+appleMusic: 'https://itunes.apple.com/artist/sonsombre/1435737549'
 bandcamp: 'https://sonsombre.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/6744968-Sonsombre'
 facebook: 'https://www.facebook.com/SonsombreUS'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Sonsombre?id=Agd25eq5gebt57bbuijsclfnbeq
 instagram: 'https://www.instagram.com/sonsombre'
 soundcloud: ''

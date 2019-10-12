@@ -1,10 +1,10 @@
 ---
 title: Babel 17
-apple_music: 'https://itunes.apple.com/artist/babel-17/537933936'
+appleMusic: 'https://itunes.apple.com/artist/babel-17/537933936'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/290688-Babel-17'
 facebook: 'https://www.facebook.com/Babel17official'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Babel_17?id=Ad67mf43dqsxvs4o3gedj7ptthu
 instagram: ''
 soundcloud: 'https://soundcloud.com/Babel-17'

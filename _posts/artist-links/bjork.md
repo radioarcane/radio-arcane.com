@@ -1,10 +1,10 @@
 ---
 title: Björk
-apple_music: 'https://music.apple.com/artist/bj%C3%B6rk/295015'
+appleMusic: 'https://music.apple.com/artist/bj%C3%B6rk/295015'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/1373-Bj%C3%B6rk'
 facebook: 'https://www.facebook.com/bjork'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Auqqsmjisqujwi4o7hnilxiizbu
 instagram: 'https://www.instagram.com/bjork'
 soundcloud: 'https://soundcloud.com/bjork'

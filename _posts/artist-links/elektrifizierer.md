@@ -1,10 +1,10 @@
 ---
 title: Elektrifizierer
-apple_music: 'https://itunes.apple.com/artist/elektrifizierer/1224835754'
+appleMusic: 'https://itunes.apple.com/artist/elektrifizierer/1224835754'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/5703206-Elektrifizierer'
 facebook: 'https://www.facebook.com/Elektrifizierer'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Elektrifizierer?id=A2iqz3ybsabytakpuf42ov45h6e
 instagram: ''
 soundcloud: 'https://soundcloud.com/user-272049694'

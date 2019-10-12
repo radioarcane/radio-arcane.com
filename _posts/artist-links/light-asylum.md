@@ -1,10 +1,10 @@
 ---
 title: Light Asylum
-apple_music: 'https://itunes.apple.com/artist/light-asylum/433559884'
+appleMusic: 'https://itunes.apple.com/artist/light-asylum/433559884'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/2018312-Light-Asylum'
 facebook: 'https://www.facebook.com/LIGHTASYLUM'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Light_Asylum?id=Arwdagnyn22gheh7666vnhpnn54
 instagram: 'https://www.instagram.com/light_asylum'
 soundcloud: 'https://soundcloud.com/light-asylum'

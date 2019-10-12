@@ -1,10 +1,10 @@
 ---
 title: Swan Wash
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://swanwash.bandcamp.com'
 discogs: ''
 facebook: ''
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Ah234rf2l37y4uujdwefiigeeqi
 instagram: ''
 soundcloud: 'https://soundcloud.com/swanwash'

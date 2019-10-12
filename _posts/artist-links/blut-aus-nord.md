@@ -1,10 +1,10 @@
 ---
 title: Blut Aus Nord
-apple_music: 'https://itunes.apple.com/artist/blut-aus-nord/78957366'
+appleMusic: 'https://itunes.apple.com/artist/blut-aus-nord/78957366'
 bandcamp: 'https://blutausnord.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/265571-Blut-Aus-Nord'
 facebook: 'https://www.facebook.com/Vindsval.official'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Blut_Aus_Nord?id=Aocudq56fomkswslxzremqwa7ei
 instagram: ''
 soundcloud: 'https://soundcloud.com/blutausnord'

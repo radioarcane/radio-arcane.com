@@ -1,10 +1,10 @@
 ---
 title: Disillusion
-apple_music: 'https://itunes.apple.com/artist/disillusion/203238089'
+appleMusic: 'https://itunes.apple.com/artist/disillusion/203238089'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/388646-Disillusion'
 facebook: 'https://www.facebook.com/disillusionBand'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Ag34wizpyv6gehp7kqsvkthcrh4
 instagram: 'https://www.instagram.com/disillusion_band'
 soundcloud: ''

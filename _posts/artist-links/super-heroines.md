@@ -1,10 +1,10 @@
 ---
 title: Super Heroines
-apple_music: 'https://itunes.apple.com/ie/artist/super-heroines/155787996'
+appleMusic: 'https://itunes.apple.com/ie/artist/super-heroines/155787996'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/199636-Super-Heroines'
 facebook: ''
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Super_Heroines?id=Aqe5imbsaofyf77ng3cy37duoee
 instagram: ''
 soundcloud: ''

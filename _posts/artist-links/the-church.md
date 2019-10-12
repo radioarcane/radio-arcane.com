@@ -1,10 +1,10 @@
 ---
 title: The Church
-apple_music: 'https://itunes.apple.com/artist/the-church/395041'
+appleMusic: 'https://itunes.apple.com/artist/the-church/395041'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/258153-The-Church'
 facebook: 'https://www.facebook.com/thechurchband'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/The_Church?id=A3bn2m4567rdqcqql5c73l7xpta
 instagram: ''
 soundcloud: ''

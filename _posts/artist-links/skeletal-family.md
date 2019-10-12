@@ -1,10 +1,10 @@
 ---
 title: Skeletal Family
-apple_music: 'https://itunes.apple.com/artist/skeletal-family/74861018'
+appleMusic: 'https://itunes.apple.com/artist/skeletal-family/74861018'
 bandcamp: 'https://skeletalfamily1.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/146603-Skeletal-Family'
 facebook: 'https://www.facebook.com/official.skeletal.family'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Skeletal_Family?id=Aq7wzdcmt6nfbmt6zxrtqgcb6k4
 instagram: 'https://www.instagram.com/skeletal_family'
 soundcloud: ''

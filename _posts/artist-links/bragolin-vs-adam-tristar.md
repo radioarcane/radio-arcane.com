@@ -1,10 +1,10 @@
 ---
 title: Bragolin vs Adam Tristar
-apple_music: 'https://music.apple.com/nl/album/let-out-the-noise-inside/1475482536'
+appleMusic: 'https://music.apple.com/nl/album/let-out-the-noise-inside/1475482536'
 bandcamp: 'https://bragolin.bandcamp.com/album/let-out-the-noise-inside'
 discogs: 'https://www.discogs.com/Bragolin-Vs-Adam-Tristar-Let-Out-The-Noise-Inside/release/13951084'
 facebook: 'https://www.facebook.com/Bragolinmusic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Afs3oaub7dqvtpvc5ezvmurezku
 instagram: 'https://www.instagram.com/bragolin'
 soundcloud: 'https://soundcloud.com/user-804366011/sets/let-out-the-noise-inside'

@@ -1,10 +1,10 @@
 ---
 title: Bedless Bones
-apple_music: 'https://music.apple.com/artist/bedless-bones/1216646088'
+appleMusic: 'https://music.apple.com/artist/bedless-bones/1216646088'
 bandcamp: 'https://bedlessbones.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5374595-Bedless-Bones'
 facebook: 'https://www.facebook.com/bedlessbones'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=A6mrwgv5afhxqpzd24py5eqdetm
 instagram: 'https://www.instagram.com/bedlessbones'
 soundcloud: 'https://soundcloud.com/bedlessbones'

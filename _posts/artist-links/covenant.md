@@ -1,10 +1,10 @@
 ---
 title: Covenant
-apple_music: 'https://itunes.apple.com/artist/covenant/14674512'
+appleMusic: 'https://itunes.apple.com/artist/covenant/14674512'
 bandcamp: 'https://covenant-swe.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/10670-Covenant'
 facebook: 'https://www.facebook.com/Covenant-OFFICIAL-156626197713557'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Avlgkmkz2dbp5ftiufii7ftz6ga
 instagram: 'https://www.instagram.com/covenant_sweden'
 soundcloud: 'https://soundcloud.com/covenantofficial'

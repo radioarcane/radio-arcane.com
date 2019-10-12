@@ -1,10 +1,10 @@
 ---
 title: Sopor Aeternus
-apple_music: 'https://itunes.apple.com/artist/sopor-aeternus-the-ensemble-of-shadows/295754932'
+appleMusic: 'https://itunes.apple.com/artist/sopor-aeternus-the-ensemble-of-shadows/295754932'
 bandcamp: 'https://soporaeternus.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/234885-Sopor-Aeternus-The-Ensemble-Of-Shadows'
 facebook: 'https://www.facebook.com/sopor.aeternus.offiziell'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Sopor_Aeternus_the_Ensemble_of_Shadows?id=Abaqgx22ibwassszfvhlafj5kei
 instagram: 'https://www.instagram.com/anna.varney.cantodea'
 soundcloud: 'https://soundcloud.com/sopor_aeternus'

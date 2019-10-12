@@ -1,10 +1,10 @@
 ---
 title: Black Asteroid
-apple_music: 'https://itunes.apple.com/artist/black-asteroid/474728201'
+appleMusic: 'https://itunes.apple.com/artist/black-asteroid/474728201'
 bandcamp: 'https://blackasteroid.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/2382728-Black-Asteroid'
 facebook: 'https://www.facebook.com/blackasteroid'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Black_Asteroid?id=Ax3dbxwwcag5v4r6m27jzejvz7a
 instagram: 'https://www.instagram.com/blackasteroid_official'
 soundcloud: 'https://soundcloud.com/blackasteroid'

@@ -1,10 +1,10 @@
 ---
 title: TWINS
-apple_music: 'https://music.apple.com/artist/twins/1358403556'
+appleMusic: 'https://music.apple.com/artist/twins/1358403556'
 bandcamp: 'https://thatwhichisnotsaid.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/1934547-Twins-15'
 facebook: 'https://www.facebook.com/thatwhichisnotsaid'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Avnuiev5wayihcjinj7nuyxwn4u
 instagram: 'https://www.instagram.com/thatwhichisnotsaid'
 soundcloud: 'https://soundcloud.com/thatwhichisnotsaid'

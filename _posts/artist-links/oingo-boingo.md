@@ -1,10 +1,10 @@
 ---
 title: Oingo Boingo
-apple_music: 'https://itunes.apple.com/artist/oingo-boingo/93615'
+appleMusic: 'https://itunes.apple.com/artist/oingo-boingo/93615'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/79459-Oingo-Boingo'
 facebook: ''
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Oingo_Boingo?id=Azsmb4hvs4rwzrgtqj2y5izzpn4
 instagram: ''
 soundcloud: 'https://soundcloud.com/oingo-boingo-official'

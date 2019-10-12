@@ -1,10 +1,10 @@
 ---
 title: FEE LION
-apple_music: 'https://music.apple.com/artist/fee-lion/1193332858'
+appleMusic: 'https://music.apple.com/artist/fee-lion/1193332858'
 bandcamp: 'https://feelion.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/1800feelion'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/FEE_LION?id=Amfgwx7vgknl5dt3jsziuquojme
 instagram: 'https://www.instagram.com/1800feelion'
 soundcloud: 'https://soundcloud.com/fee-lion'

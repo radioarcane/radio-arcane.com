@@ -1,10 +1,10 @@
 ---
 title: Miss Construction
-apple_music: 'https://itunes.apple.com/artist/miss-construction/278802473'
+appleMusic: 'https://itunes.apple.com/artist/miss-construction/278802473'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/1081522-Miss-Construction'
 facebook: 'https://www.facebook.com/Missconstructionofficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Miss_Construction?id=Am7jh4p7oahmn6r262wj4tj6lxa
 instagram: ''
 soundcloud: 'https://soundcloud.com/missconstructionofficial'

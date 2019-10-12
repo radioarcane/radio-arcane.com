@@ -1,10 +1,10 @@
 ---
 title: Struck 9
-apple_music: 'https://itunes.apple.com/artist/struck-9/305147098'
+appleMusic: 'https://itunes.apple.com/artist/struck-9/305147098'
 bandcamp: 'https://struck9.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/619929-Struck-9'
 facebook: 'https://www.facebook.com/strucknine'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Struck_9?id=Admyn4o4rprmwz6lqovdwgj35uu
 instagram: 'https://www.instagram.com/strucknine'
 soundcloud: 'https://soundcloud.com/struck_9'

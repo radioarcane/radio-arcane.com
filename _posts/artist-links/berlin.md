@@ -1,10 +1,10 @@
 ---
 title: Berlin
-apple_music: 'https://itunes.apple.com/artist/berlin/id364321'
+appleMusic: 'https://itunes.apple.com/artist/berlin/id364321'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/44969-Berlin'
 facebook: 'https://www.facebook.com/berlinofficialband'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Berlin?id=Amovzjtuexaehfndt22v4capdba
 instagram: 'https://www.instagram.com/berlinofficialband'
 soundcloud: ''

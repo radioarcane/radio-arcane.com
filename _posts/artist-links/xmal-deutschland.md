@@ -1,10 +1,10 @@
 ---
 title: Xmal Deutschland
-apple_music: 'https://itunes.apple.com/artist/xmal-deutschland/251645837'
+appleMusic: 'https://itunes.apple.com/artist/xmal-deutschland/251645837'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/58788-X-Mal-Deutschland'
 facebook: 'https://www.facebook.com/officialxmaldeutschland'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Xmal_Deutschland?id=Apmwggc4ubkujxxmpbm27tpm7hu
 instagram: ''
 soundcloud: ''

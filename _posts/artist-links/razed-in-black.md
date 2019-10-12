@@ -1,10 +1,10 @@
 ---
 title: Razed In Black
-apple_music: 'https://itunes.apple.com/artist/razed-in-black/110891165'
+appleMusic: 'https://itunes.apple.com/artist/razed-in-black/110891165'
 bandcamp: 'https://razedinblack.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/49872-Razed-In-Black'
 facebook: 'https://www.facebook.com/razedinblackofficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Razed_in_Black?id=A3arrjjhh7jgfex57lvtmfyknmq
 instagram: 'https://www.instagram.com/razedinblack'
 soundcloud: 'https://soundcloud.com/razedinblackofficial'

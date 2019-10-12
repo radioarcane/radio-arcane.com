@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: 2019-03-02 Radio Arcane
-display_name: 'Radio Arcane : Gotičková & Dark Market'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane : Gotičková & Dark Market'
+playlistType: radio-arcane
 date: '2019-03-02'
 sets:
-  - dj_name: Talamasca
+  - djName: Talamasca
     tracks:
       - artist: Faith & The Muse
         song: Harai
@@ -38,9 +38,9 @@ sets:
       - artist: Ritual Veil
         song: Surface
     type: dj_set
-  - dj_name: AndrOspore
+  - djName: AndrOspore
     type: dj_set
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     tracks:
       - artist: ':Wumpscut:'
         request: artist
@@ -64,7 +64,7 @@ sets:
       - artist: Oingo Boingo
         song: Insanity
     type: dj_set
-  - dj_name: Talamasca
+  - djName: Talamasca
     tracks:
       - artist: Faith & The Muse
         song: When We Go Dark
@@ -94,7 +94,7 @@ sets:
       - artist: Children On Stun
         song: Cats or Devils Eyes (Rosetta Stone Mix)
     type: dj_set
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     tracks:
       - artist: Nitzer Ebb
         request: artist
@@ -118,6 +118,6 @@ sets:
       - artist: Joy Division
         song: Transmission
     type: dj_set
-  - dj_name: AndrOspore
+  - djName: AndrOspore
     type: dj_set
 ---

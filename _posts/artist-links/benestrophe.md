@@ -1,10 +1,10 @@
 ---
 title: Benestrophe
-apple_music: 'https://itunes.apple.com/artist/benestrophe/513373361'
+appleMusic: 'https://itunes.apple.com/artist/benestrophe/513373361'
 bandcamp: 'https://alfamatrix.bandcamp.com/album/sensory-deprivation-vol-1-remastered'
 discogs: 'https://www.discogs.com/artist/104896-Benestrophe'
 facebook: 'https://www.facebook.com/bEnESTroPHe'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Benestrophe?id=Axm234hl6xwubovslqvgy2dfmie
 instagram: ''
 soundcloud: 'https://soundcloud.com/benestrophe'

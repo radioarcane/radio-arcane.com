@@ -1,10 +1,10 @@
 ---
 title: Scarecrow
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://infactedrecordings.bandcamp.com/album/blackdoor'
 discogs: 'https://www.discogs.com/artist/72178-Scarecrow'
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

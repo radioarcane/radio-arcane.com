@@ -1,10 +1,10 @@
 ---
 title: LBEEZE
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://upnorthrecordss.bandcamp.com/track/lbeeze-one-night'
 discogs: 'https://www.discogs.com/artist/6343662-LBEEZE'
 facebook: 'https://www.facebook.com/LachyBozin'
-google_music: ''
+googleMusic: ''
 instagram: 'https://www.instagram.com/lbeeze_upnorth'
 soundcloud: 'https://soundcloud.com/lbeeze1'
 spotify: ''

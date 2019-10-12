@@ -1,10 +1,10 @@
 ---
 title: The Endless
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://the-endless.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/The-Endless-897920433890349'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

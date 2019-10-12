@@ -1,10 +1,10 @@
 ---
 title: Hocico
-apple_music: 'https://itunes.apple.com/artist/hocico/78988384'
+appleMusic: 'https://itunes.apple.com/artist/hocico/78988384'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/69226-Hocico'
 facebook: 'https://www.facebook.com/hocicoofficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Hocico?id=A2nuppqn3aplmyfwcjll7txxuga
 instagram: 'https://www.instagram.com/ocicoh'
 soundcloud: 'https://soundcloud.com/hocico-official'

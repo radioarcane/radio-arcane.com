@@ -1,10 +1,10 @@
 ---
 title: Statiqbloom
-apple_music: 'https://itunes.apple.com/artist/statiqbloom/916712955'
+appleMusic: 'https://itunes.apple.com/artist/statiqbloom/916712955'
 bandcamp: 'https://statiqbloom.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3539824-Statiqbloom'
 facebook: 'https://www.facebook.com/statiqbloom'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Statiqbloom?id=Asaazgamwcztwq3t6zuvc5b733i
 instagram: 'https://www.instagram.com/statiqbloom'
 soundcloud: 'https://soundcloud.com/statiqbloom'

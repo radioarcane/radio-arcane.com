@@ -1,10 +1,10 @@
 ---
 title: Echoberyl
-apple_music: 'https://music.apple.com/artist/echoberyl/1473678973'
+appleMusic: 'https://music.apple.com/artist/echoberyl/1473678973'
 bandcamp: 'https://swissdarknights.bandcamp.com/album/apparition'
 discogs: 'https://www.discogs.com/artist/7323693-Echoberyl'
 facebook: 'https://www.facebook.com/echoberylband'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=A4y24mjr5msl5khrmgsjjfgecym
 instagram: 'https://www.instagram.com/echoberyl'
 soundcloud: 'https://soundcloud.com/echoberyl'

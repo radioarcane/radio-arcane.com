@@ -1,10 +1,10 @@
 ---
 title: Ultravox
-apple_music: 'https://itunes.apple.com/artist/ultravox/13811422'
+appleMusic: 'https://itunes.apple.com/artist/ultravox/13811422'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/70735-Ultravox'
 facebook: 'https://www.facebook.com/UltravoxUK'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Ultravox?id=Ayixewnlghqv2trv74sojfmfy2y
 instagram: 'https://www.instagram.com/ultravoxuk'
 soundcloud: ''

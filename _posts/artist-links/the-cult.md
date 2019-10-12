@@ -1,10 +1,10 @@
 ---
 title: The Cult
-apple_music: 'https://itunes.apple.com/us/artist/the-cult/150548'
+appleMusic: 'https://itunes.apple.com/us/artist/the-cult/150548'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/15266-The-Cult'
 facebook: 'https://www.facebook.com/officialcult'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/The_Cult?id=Arjmrbvgdntfsxaldmcmc5ouvwy
 instagram: 'https://www.instagram.com/officialcult'
 soundcloud: 'https://soundcloud.com/the-cult-official'

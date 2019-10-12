@@ -1,13 +1,13 @@
 ---
 layout: playlist
 title: 2019-08-10 Radio Arcane
-display_name: 'Radio Arcane'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane'
+playlistType: radio-arcane
 date: '2019-08-10'
-mixcloud_links:
+mixcloudLinks:
   - url: 'https://www.mixcloud.com/shahnrigsby/motuvius-rex-x-augusta-at-radio-arcane-monthly'
 sets:
-  - dj_name: Motuvius Rex
+  - djName: Motuvius Rex
     type: dj_set
     tracks:
       - artist: WINGTIPS
@@ -30,7 +30,7 @@ sets:
         song: Touch The Daemon
       - artist: Choir Boy
         song: I Feel How The Snow Falls
-  - dj_name: Brian Drabant
+  - djName: Brian Drabant
     type: dj_set        
     tracks:
       - artist: Part Time
@@ -63,7 +63,7 @@ sets:
         song: Walk
       - artist: The Cure
         song: The Walk
-  - dj_name: AndrOspore
+  - djName: AndrOspore
     type: dj_set
     tracks:
       - artist: Nite Nite
@@ -90,7 +90,7 @@ sets:
         song: LA
       - artist: FEE LION
         song: Blood Sisters        
-  - dj_name: Motuvius Rex
+  - djName: Motuvius Rex
     type: dj_set
     tracks:
       - artist: The Chameleons
@@ -115,7 +115,7 @@ sets:
         song: Lights
       - artist: NU:N
         song: Shadows of Love (In Contempt)
-  - dj_name: Brian Drabant
+  - djName: Brian Drabant
     type: dj_set
     tracks:
       - artist: Dead Can Dance
@@ -140,7 +140,7 @@ sets:
         song: Dead Souls
       - artist: Ryuichi Sakamoto
         song: Field Work   
-  - dj_name: AndrOspore
+  - djName: AndrOspore
     type: dj_set
     tracks:
       - artist: The Cure

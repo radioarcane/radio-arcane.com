@@ -1,10 +1,10 @@
 ---
 title: Idol Mind
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://idolmind.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/idolmindlouisville'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/workinggirls'
 spotify: ''

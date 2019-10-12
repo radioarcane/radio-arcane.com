@@ -1,10 +1,10 @@
 ---
 title: David Lynch feat. Karen O
-apple_music: 'https://itunes.apple.com/artist/david-lynch/1095833458'
+appleMusic: 'https://itunes.apple.com/artist/david-lynch/1095833458'
 bandcamp: 'https://davidlynch.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/47572-David-Lynch'
 facebook: 'https://www.facebook.com/davidlynchofficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/David_Lynch?id=Avlt4o65ylqiz6bnfcwwdyeeoru
 instagram: ''
 soundcloud: 'https://soundcloud.com/davidlynchofficial'

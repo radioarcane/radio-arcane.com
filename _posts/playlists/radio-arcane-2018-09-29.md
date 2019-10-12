@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: 2018-09-29 Radio Arcane
-display_name: 'Radio Arcane : The Dark Market'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane : The Dark Market'
+playlistType: radio-arcane
 date: '2018-09-29'
 sets:
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: H ø R D
         song: Tearwave
@@ -56,7 +56,7 @@ sets:
       - artist: Babel 17
         song: Angels of T.V.
     type: dj_set
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     tracks:
       - artist: Noisuf-X
         song: This Is Genocide
@@ -89,7 +89,7 @@ sets:
       - artist: Skinny Puppy
         song: Far Too Frail
     type: dj_set
-  - dj_name: Thulsa Goon
+  - djName: Thulsa Goon
     tracks:
       - artist: Gregory James Jenkins
         song: Slooooow Moooootion
@@ -122,7 +122,7 @@ sets:
       - artist: Body of Light
         song: Watch Your Back
     type: dj_set
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: So What?
         song: Enter The Batcave (And Dance)
@@ -159,9 +159,9 @@ sets:
       - artist: Angels of Liberty
         song: Monster In Me
     type: dj_set
-  - dj_name: Brian Cole
+  - djName: Brian Cole
     type: dj_set
-  - dj_name: Talamasca
+  - djName: Talamasca
     tracks:
       - artist: KMFDM
         song: Amnesia (Kap'n K Remix)
@@ -203,7 +203,7 @@ sets:
         request: artist
         song: Opened
     type: dj_set
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     tracks:
       - artist: Skinny Puppy
         song: Assimilate (r23 Remix)

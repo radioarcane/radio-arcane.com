@@ -1,10 +1,10 @@
 ---
 title: Funeral Door
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://funeraldoor.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5815324-Funeral-Door'
 facebook: 'https://www.facebook.com/funeraldoor'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/funeraldoorworld'
 spotify: ''

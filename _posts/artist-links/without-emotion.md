@@ -1,10 +1,10 @@
 ---
 title: Without Emotion
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://withoutemotion.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/withoutem0tion'
-google_music: ''
+googleMusic: ''
 instagram: 'https://www.instagram.com/without__emotion'
 soundcloud: 'https://soundcloud.com/without_emotion'
 spotify: ''

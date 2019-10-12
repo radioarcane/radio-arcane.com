@@ -1,11 +1,11 @@
 ---
 layout: event
 title: 2018-10-04 Arcane Alive
-display_name: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTIMA'
-event_type: arcane-alive
+displayName: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTIMA'
+eventType: arcane-alive
 date: '2018-10-04'
-start_datetime: '2018-10-04 21:00:00'
-end_datetime: '2018-10-05 00:30:00'
+startDatetime: '2018-10-04 21:00:00'
+endDatetime: '2018-10-05 00:30:00'
 image: /img/uploads/arcane-alive-2018-10-04--2x.jpg
 description: |-
   Art Sanctuary presents : Arcane Alive!
@@ -30,10 +30,10 @@ description: |-
   First band at 9pm  
   18+ entry - 21+ bar  
   $5. cover
-short_description: 'Live performances by Ominous Erotica, Decide Today, and ULTIMA'
+shortDescription: 'Live performances by Ominous Erotica, Decide Today, and ULTIMA'
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/226390288222463'
-tickets_link: ''
+facebookEventLink: 'https://www.facebook.com/events/226390288222463'
+ticketsLink: ''
 cover: '5.00'
 playlist: 2018-10-04 Arcane Alive
 ---

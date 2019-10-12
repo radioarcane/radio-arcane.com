@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: 2018-03-10 Radio Arcane
-display_name: 'Radio Arcane : Mittelmarch : The Dark Market'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane : Mittelmarch : The Dark Market'
+playlistType: radio-arcane
 date: '2018-03-10'
 sets:
-  - dj_name: Talamasca
+  - djName: Talamasca
     tracks:
       - artist: Brandon K. Verrett / Tangerine Dream
         song: Fairies
@@ -58,11 +58,11 @@ sets:
       - artist: Level 42
         song: Something About You
     type: dj_set
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     type: dj_set
-  - dj_name: Brian Drabant
+  - djName: Brian Drabant
     type: dj_set
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: Rendez-Vous
         song: Workout

@@ -1,10 +1,10 @@
 ---
 title: Azar Swan
-apple_music: 'https://itunes.apple.com/artist/azar-swan/652324057'
+appleMusic: 'https://itunes.apple.com/artist/azar-swan/652324057'
 bandcamp: 'https://azarswan.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3970121-Azar-Swan'
 facebook: 'https://www.facebook.com/AzarSwan'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Azar_Swan?id=Ateauw3lnt3bqwqsexjuyggzue4
 instagram: 'https://www.instagram.com/azarswan'
 soundcloud: 'https://soundcloud.com/azarswan'

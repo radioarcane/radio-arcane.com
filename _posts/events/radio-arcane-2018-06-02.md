@@ -1,11 +1,11 @@
 ---
 layout: event
 title: 2018-06-02 Radio Arcane
-display_name: 'Radio Arcane : Goth Prom : The Dark Market'
-event_type: radio-arcane
+displayName: 'Radio Arcane : Goth Prom : The Dark Market'
+eventType: radio-arcane
 date: '2018-06-02'
-start_datetime: '2018-06-02 19:00:00'
-end_datetime: '2018-06-03 03:00:00'
+startDatetime: '2018-06-02 19:00:00'
+endDatetime: '2018-06-03 03:00:00'
 image: /img/uploads/radio-arcane-2018-06-02--2x.jpg
 description: >-
   15th annual Goth Prom.
@@ -37,10 +37,10 @@ description: >-
   and can choose if they are running for King or Queen. There is no gender
   requirement for either King or Queen. Nomination and voting will take place
   the night of the event. Thems the rules.
-short_description: ''
+shortDescription: ''
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/392214544580546'
-tickets_link: ''
+facebookEventLink: 'https://www.facebook.com/events/392214544580546'
+ticketsLink: ''
 cover: '5.00'
 playlist: 2018-06-02 Radio Arcane
 ---

@@ -1,10 +1,10 @@
 ---
 title: Massive Attack
-apple_music: 'https://itunes.apple.com/artist/massive-attack/526404'
+appleMusic: 'https://itunes.apple.com/artist/massive-attack/526404'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/4480-Massive-Attack'
 facebook: 'https://www.facebook.com/massiveattack'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Massive_Attack?id=Aej7ccy2jy5v22qihsd6ha7gk5m
 instagram: 'https://www.instagram.com/massiveattackofficial'
 soundcloud: 'https://soundcloud.com/massiveattack'

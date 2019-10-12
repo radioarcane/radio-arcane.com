@@ -1,11 +1,11 @@
 ---
 layout: event
 title: '2018-01-20 Radio Arcane'
-display_name: 'Radio Arcane : Winterfeier : The Dark Market'
-event_type: radio-arcane
+displayName: 'Radio Arcane : Winterfeier : The Dark Market'
+eventType: radio-arcane
 date: '2018-01-20'
-start_datetime: '2018-01-20 19:00:00'
-end_datetime: '2018-01-21 03:00:00'
+startDatetime: '2018-01-20 19:00:00'
+endDatetime: '2018-01-21 03:00:00'
 image: '/img/uploads/radio-arcane-2018-01-20--2x.jpg'
 description: >-
    A Celebration of Winter at Art Sanctuary. Live Dj's: Large Dance Area: Full Bar: The Dark Market: A curated Night Time Oddities & Art Market /Flea Market
@@ -40,10 +40,10 @@ description: >-
    As well as creative help and direction from:
    Lisa Frye
    Robert Major
-short_description: ''
+shortDescription: ''
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/315716512241571'
-tickets_link: ''
+facebookEventLink: 'https://www.facebook.com/events/315716512241571'
+ticketsLink: ''
 cover: '5.00'
 playlist: '2018-01-20 Radio Arcane'
 ---

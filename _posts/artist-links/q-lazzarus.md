@@ -1,10 +1,10 @@
 ---
 title: Q Lazzarus
-apple_music: 'https://music.apple.com/artist/q-lazzarus/279810501'
+appleMusic: 'https://music.apple.com/artist/q-lazzarus/279810501'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/152426-Q-Lazzarus'
 facebook: 'https://www.facebook.com/QLazzarusFans'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Atz7uhmo5vmv7l5ivs7o46yrxqa
 instagram: ''
 soundcloud: 'https://soundcloud.com/qlazzarusofficial'

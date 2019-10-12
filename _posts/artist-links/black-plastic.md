@@ -1,10 +1,10 @@
 ---
 title: Black Plastic
-apple_music: 'https://itunes.apple.com/artist/black-plastic/280848645'
+appleMusic: 'https://itunes.apple.com/artist/black-plastic/280848645'
 bandcamp: 'https://blackplastic1.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/961296-Black-Plastic'
 facebook: 'https://www.facebook.com/blackestplastic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Black_Plastic?id=Au7qbpujizxzhmw43tskxjuyqt4
 instagram: 'https://www.instagram.com/blackplasticmusic'
 soundcloud: ''

@@ -1,10 +1,10 @@
 ---
 title: Multiple Man
-apple_music: 'https://itunes.apple.com/artist/multiple-man/63090053'
+appleMusic: 'https://itunes.apple.com/artist/multiple-man/63090053'
 bandcamp: 'https://multiple-man.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/2158386-Multiple-Man'
 facebook: 'https://www.facebook.com/multipleman'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Multiple_Man?id=Aioblt3u7q52fklhovoxchs5mf4
 instagram: 'https://www.instagram.com/_multipleman'
 soundcloud: 'https://soundcloud.com/multipleman'

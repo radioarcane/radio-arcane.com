@@ -1,10 +1,10 @@
 ---
 title: ULTIMA
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://ultimasynthwave.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/ULTIMASynthwave'
-google_music: ''
+googleMusic: ''
 instagram: 'https://www.instagram.com/ultimasynthwave'
 soundcloud: ''
 spotify: ''

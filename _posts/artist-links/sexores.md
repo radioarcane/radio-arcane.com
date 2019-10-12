@@ -1,10 +1,10 @@
 ---
 title: Sexores
-apple_music: 'https://itunes.apple.com/artist/sexores/876883971'
+appleMusic: 'https://itunes.apple.com/artist/sexores/876883971'
 bandcamp: 'https://sexores.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3457665-Sexores'
 facebook: 'https://www.facebook.com/sxrsxrs'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Sexores?id=Ajvgcpyrwkunzsdngt36le5vhau
 instagram: 'https://www.instagram.com/sexores'
 soundcloud: 'https://soundcloud.com/sexores'

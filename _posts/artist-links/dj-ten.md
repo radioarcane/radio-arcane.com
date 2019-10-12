@@ -1,10 +1,10 @@
 ---
 title: DJ Ten
-apple_music: 'https://itunes.apple.com/artist/dj-ten/156235291'
+appleMusic: 'https://itunes.apple.com/artist/dj-ten/156235291'
 bandcamp: 'https://djten.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3749678-DJ-Ten-4'
 facebook: 'https://www.facebook.com/D.J.Ten.Official'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/DJ_Ten?id=Aifucyfvkiefhsityc5gfc66ltu
 instagram: 'https://www.instagram.com/dj_ten_official'
 soundcloud: 'https://soundcloud.com/dj-ten-1'

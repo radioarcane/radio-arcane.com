@@ -1,10 +1,10 @@
 ---
 title: Daniel Ash
-apple_music: 'https://music.apple.com/artist/daniel-ash/3563768'
+appleMusic: 'https://music.apple.com/artist/daniel-ash/3563768'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/122446-Daniel-Ash'
 facebook: 'https://www.facebook.com/danielashmusic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Daniel_Ash?id=A37mca6zyegdingmbqale4elgmm
 instagram: 'https://www.instagram.com/danielashofficial'
 soundcloud: 'https://soundcloud.com/danielashofficial'

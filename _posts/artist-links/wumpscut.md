@@ -1,10 +1,10 @@
 ---
 title: ':Wumpscut:'
-apple_music: 'https://itunes.apple.com/artist/wumpscut/463237860'
+appleMusic: 'https://itunes.apple.com/artist/wumpscut/463237860'
 bandcamp: 'https://wumpscut.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/15023-wumpscut'
 facebook: 'https://www.facebook.com/Wumpscut-110063409032139'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Wumpscut?id=Aou742zbobqud6zxfbhenr4umh4
 instagram: ''
 soundcloud: 'https://soundcloud.com/wumpscut'

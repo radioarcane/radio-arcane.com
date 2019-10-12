@@ -1,10 +1,10 @@
 ---
 title: Suspiria
-apple_music: 'https://itunes.apple.com/us/artist/suspiria/68773603'
+appleMusic: 'https://itunes.apple.com/us/artist/suspiria/68773603'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/95747-Suspiria'
 facebook: 'https://www.facebook.com/Suspiria-205026239512795'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Suspiria?id=Afekzxbnfhjcyqoo6u4ilh745ky
 instagram: ''
 soundcloud: ''

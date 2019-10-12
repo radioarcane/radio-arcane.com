@@ -1,10 +1,10 @@
 ---
 title: Sydney Valette
-apple_music: 'https://itunes.apple.com/artist/sydney-valette/352372067'
+appleMusic: 'https://itunes.apple.com/artist/sydney-valette/352372067'
 bandcamp: 'https://sydneyvalette.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/1745900-Sydney-Valette'
 facebook: 'https://www.facebook.com/Sydney2Valette'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Sydney_Valette?id=Axxxa535oengkl4jpdagx7liewi
 instagram: 'https://www.instagram.com/sydney_valette'
 soundcloud: 'https://soundcloud.com/sydval'

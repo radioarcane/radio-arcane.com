@@ -1,13 +1,13 @@
 ---
 layout: playlist
 title: 2019-09-25 Warped Wednesday
-display_name: 'Warped Wednesday'
-playlist_type: warped-wednesday
+displayName: 'Warped Wednesday'
+playlistType: warped-wednesday
 date: '2019-09-25'
-mixcloud_links:
+mixcloudLinks:
   - url: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-2019-09-25-djs-kaleidoscope-and-sorrow-vomit-seidenfadens-louisville-ky'
 sets:
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
     tracks:
       - artist: Depeche Mode
@@ -36,7 +36,7 @@ sets:
         song: Chlorine Burns
       - artist: Augustine
         song: In The Mountains (Zero Call Mix)
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set        
     tracks:
       - artist: WINGTIPS
@@ -69,7 +69,7 @@ sets:
         song: Politics Under Pressure
       - artist: Bedless Bones
         song: Sad & Alone  
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
     tracks:
       - artist: S Y Z Y G Y X
@@ -102,7 +102,7 @@ sets:
         song: Scorpio
       - artist: Japan Suicide
         song: Fancy Mate	  
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Wires & Lights
@@ -137,7 +137,7 @@ sets:
         song: Sleepwalking
       - artist: DAF
         song: Sato-Sato	  
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
     tracks:
       - artist: Scary Black
@@ -172,7 +172,7 @@ sets:
         song: Coils of Seraphim
       - artist: Sextile
         song: Hazing  
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Detachments

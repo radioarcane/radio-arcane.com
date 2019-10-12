@@ -1,10 +1,10 @@
 ---
 title: Clock DVA
-apple_music: 'https://music.apple.com/artist/clock-dva/1422819524'
+appleMusic: 'https://music.apple.com/artist/clock-dva/1422819524'
 bandcamp: 'https://clockdva.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/21351-Clock-DVA'
 facebook: 'https://www.facebook.com/ClockDVA'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Clock_DVA?id=Adurlzdeihcwpecaxyyixc5c2im
 instagram: ''
 soundcloud: ''

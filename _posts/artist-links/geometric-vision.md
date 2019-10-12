@@ -1,10 +1,10 @@
 ---
 title: Geometric Vision
-apple_music: 'https://itunes.apple.com/artist/geometric-vision/1111666576'
+appleMusic: 'https://itunes.apple.com/artist/geometric-vision/1111666576'
 bandcamp: 'https://geometricvisionband.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3798877-Geometric-Vision'
 facebook: 'https://www.facebook.com/GeometricVision'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Geometric_Vision?id=Abqpu5ousbxd6cnhz2vceg3olae
 instagram: 'https://www.instagram.com/geometric.vision'
 soundcloud: ''

@@ -1,10 +1,10 @@
 ---
 title: Bleib Modern
-apple_music: 'https://itunes.apple.com/artist/bleib-modern/997408375'
+appleMusic: 'https://itunes.apple.com/artist/bleib-modern/997408375'
 bandcamp: 'https://bleibmodern.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4438860-Bleib-Modern'
 facebook: 'https://www.facebook.com/bleibmodern'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Bleib_modern?id=Acmrgwatbj5n4uekttijziedclq
 instagram: 'https://www.instagram.com/black_verb_bleib_modern'
 soundcloud: ''

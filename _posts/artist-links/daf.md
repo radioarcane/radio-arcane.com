@@ -1,10 +1,10 @@
 ---
 title: DAF
-apple_music: 'https://itunes.apple.com/artist/daf/155797907'
+appleMusic: 'https://itunes.apple.com/artist/daf/155797907'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/12830-Deutsch-Amerikanische-Freundschaft'
 facebook: 'https://www.facebook.com/DASISTDAF'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Daf?id=Aarfjuin52k4zsjfhjuitqweqd4
 instagram: ''
 soundcloud: ''

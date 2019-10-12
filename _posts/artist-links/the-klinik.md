@@ -1,10 +1,10 @@
 ---
 title: The Klinik
-apple_music: 'https://itunes.apple.com/artist/the-klinik/322385301'
+appleMusic: 'https://itunes.apple.com/artist/the-klinik/322385301'
 bandcamp: 'https://theklinik1.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/21249-Klinik'
 facebook: 'https://www.facebook.com/groups/43931225758'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Ayspu7hw5dystkbyleewbje7qze
 instagram: ''
 soundcloud: ''

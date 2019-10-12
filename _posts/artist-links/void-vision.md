@@ -1,10 +1,10 @@
 ---
 title: Void Vision
-apple_music: 'https://itunes.apple.com/artist/void-vision/401684118'
+appleMusic: 'https://itunes.apple.com/artist/void-vision/401684118'
 bandcamp: 'https://voidvision.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/1809522-Void-Vision'
 facebook: 'http://www.facebook.com/voidvision'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Void_Vision?id=A5j5rdjybldotxt45w26q5suheq
 instagram: 'https://www.instagram.com/voidvisions'
 soundcloud: 'https://soundcloud.com/voidvision'

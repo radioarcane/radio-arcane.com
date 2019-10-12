@@ -1,10 +1,10 @@
 ---
 title: SΛRIN
-apple_music: 'https://itunes.apple.com/artist/sarin/262869775'
+appleMusic: 'https://itunes.apple.com/artist/sarin/262869775'
 bandcamp: 'https://x-img.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4668022-S%CE%9BRIN'
 facebook: 'https://www.facebook.com/sarinberlin'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Sarin?id=Ar4rbidev7flo6j5fypasq7gl2q
 instagram: 'https://www.instagram.com/sarinvx'
 soundcloud: 'https://soundcloud.com/sarinvx'

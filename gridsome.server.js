@@ -5,6 +5,9 @@
 // Changes here requires a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
+/*
+const _ = require('lodash');
+*/
 
 const MT = require('mark-twain');
 const fs = require('fs');
@@ -22,11 +25,11 @@ const md = require('markdown-it')({
 
 const defaultArtistLink = {
    title: null,
-   apple_music: null,
+   appleMusic: null,
    bandcamp: null,
    discogs: null,
    facebook: null,
-   google_music: null,
+   googleMusic: null,
    instagram: null,
    soundcloud: null,
    spotify: null,
@@ -38,29 +41,29 @@ const defaultArtistLink = {
 const defaultLocation = {
    title: null,
    address: null,
-   address_2: null,
+   address2: null,
    city: null,
    state: null,
    zipcode: null,
-   venue_link: null,
-   google_map_link: null
+   venueLink: null,
+   googleMapLink: null,
 };
 
 const defaultEvent = {
    layout: 'event',
    title: null,
-   display_name: null,
-   event_type: null,
+   displayName: null,
+   eventType: null,
    date: null,
-   start_datetime: null,
-   end_datetime: null,
+   startDatetime: null,
+   endDatetime: null,
    image: null,
    webpImage: null,
    description: null,
-   short_description: null,
+   shortDescription: null,
    location: null,
-   facebook_event_link: null,
-   tickets_link: null,
+   facebookEventLink: null,
+   ticketsLink: null,
    cover: null,
    playlist: null,
    expired: true
@@ -69,47 +72,47 @@ const defaultEvent = {
 const defaultPodcast = {
    layout: 'podcast',
    title: null,
-   display_name: null,
+   displayName: null,
    image: null,
    webpImage: null,
    date: null,
    description: null,
-   short_description: null,
-   mixcloud_link: null,
-   soundcloud_link: null,
+   shortDescription: null,
+   mixcloudLink: null,
+   soundcloudLink: null,
    playlist: null,
 };
 
 const defaultPlaylist = {
    layout: 'playlist',
    title: null,
-   display_name: null,
-   playlist_type: null,
+   displayName: null,
+   playlistType: null,
    date: null,
    sets: [],
-   mixcloud_links: [],
+   mixcloudLinks: [],
 };
 
 const defaultTrack = {
    artist: null,
    song: null,
    request: null,
-   artist_links: null,
+   artistLinks: null,
 };
 
 const defaultDj = {
-   dj_name: null,
-   guest_dj: null,
+   djName: null,
+   guestDj: null,
    tracks: [],
 };
 
 const defaultPerformer = {
    performer: null,
-   performer_links: null,
+   performerLinks: null,
 };
 
 module.exports = function (api) {
-   api.loadSource(store => {
+   api.loadSource(actions => {
    // Use the Data store API here: https://gridsome.org/docs/data-store-api
 
       const locationHash = {},
@@ -118,36 +121,35 @@ module.exports = function (api) {
             podcastHash = {},
             playlistHash = {};
 
-      const podcastType = store.addContentType({
-         typeName: 'Podcast',
-         route: '/podcasts/:slug',
-      });
+      const podcastType = actions.addCollection('Podcast');
 
-      const eventType = store.addContentType({
-         typeName: 'Event',
-         route: '/events/:slug',
-      });
+      const eventType = actions.addCollection('Event');
 
-      const playlistType = store.addContentType({
-         typeName: 'Playlist',
-      });
+      const playlistType = actions.addCollection('Playlist');
 
-      const artistLinkType = store.addContentType({
-         typeName: 'ArtistLink',
-      });
+      const artistLinkType = actions.addCollection('ArtistLink');
 
-      const locationType = store.addContentType({
-         typeName: 'Location'
-      });
+      const locationType = actions.addCollection('Location');
 
       fs.readdirSync('_posts/artist-links').forEach(file => {
          const data = MT(fs.readFileSync('_posts/artist-links/' + file));
 
+         /*
          const node = artistLinkType.addNode({
             title: data.meta.title,
             slug: file.toLowerCase().replace('.md', ''),
             fields: Object.assign({}, defaultArtistLink, data.meta)
          });
+         */
+
+         const artistLinkObj = Object.assign({},
+            data.meta, {
+               title: data.meta.title,
+               slug: file.toLowerCase().replace('.md', '')
+            }
+         );
+
+         const node = artistLinkType.addNode(artistLinkObj);
 
          artistLinkHash[slugify(data.meta.title)] =  node;
       });
@@ -155,11 +157,12 @@ module.exports = function (api) {
       fs.readdirSync('_posts/locations').forEach(file => {
          let data = MT(fs.readFileSync('_posts/locations/' + file));
 
-         const node = locationType.addNode({
+         const locData = Object.assign({}, defaultLocation, data.meta, {
             title: data.meta.title,
             slug: file.toLowerCase().replace('.md', ''),
-            fields: Object.assign({}, defaultLocation, data.meta)
          });
+
+         const node = locationType.addNode(locData);
 
          locationHash[slugify(data.meta.title)] =  node;
       });
@@ -177,8 +180,12 @@ module.exports = function (api) {
                thisSet.tracks = thisSet.tracks.map(track => {
                   let thisTrack = Object.assign({}, defaultTrack, track);
 
+                  if (thisTrack.song) {
+                     thisTrack.song = thisTrack.song.toString();
+                  }
+
                   if (artistLinkHash.hasOwnProperty(slugify(thisTrack.artist))) {
-                     thisTrack.artist_links = artistLinkHash[slugify(thisTrack.artist)].fields;
+                     thisTrack.artistLinks = artistLinkHash[slugify(thisTrack.artist)];
                   }
 
                   return thisTrack;
@@ -188,7 +195,7 @@ module.exports = function (api) {
                thisSet = Object.assign({}, defaultPerformer, thisSet);
 
                if (artistLinkHash.hasOwnProperty(slugify(thisSet.performer))) {
-                  thisSet.performer_links = artistLinkHash[slugify(thisSet.performer)].fields;
+                  thisSet.performerLinks = artistLinkHash[slugify(thisSet.performer)];
                }
             }
 
@@ -197,11 +204,19 @@ module.exports = function (api) {
 
          playlist.sets = sets;
 
+         /*
          const node = playlistType.addNode({
             title: data.meta.title,
             slug: file.toLowerCase().replace('.md', ''),
             fields: playlist
          });
+         */
+
+         const playlistData = Object.assign({}, playlist, {
+            slug: file.toLowerCase().replace('.md', '')
+         });
+
+         const node = playlistType.addNode(playlistData);
 
          playlistHash[slugify(data.meta.title)] =  node;
       });
@@ -217,7 +232,7 @@ module.exports = function (api) {
          }
 
          if (podcast.playlist && playlistHash.hasOwnProperty(slugify(podcast.playlist))) {
-            podcast.playlist = playlistHash[slugify(podcast.playlist)].fields;
+            podcast.playlist = playlistHash[slugify(podcast.playlist)];
          }
          else {
             podcast.playlist = null;
@@ -233,11 +248,20 @@ module.exports = function (api) {
             }
          }
 
+         const podcastObj = Object.assign({}, podcast, {
+            title: data.meta.title,
+            slug: file.toLowerCase().replace('.md', ''),
+         });
+
+         const node = podcastType.addNode(podcastObj);
+
+         /*
          const node = podcastType.addNode({
             title: data.meta.title,
             slug: file.toLowerCase().replace('.md', ''),
             fields: podcast
          });
+         */
 
          podcastHash[slugify(data.meta.title)] =  node;
       });
@@ -253,14 +277,14 @@ module.exports = function (api) {
          }
 
          if (ev.playlist && playlistHash.hasOwnProperty(slugify(ev.playlist))) {
-            ev.playlist = playlistHash[slugify(ev.playlist)].fields;
+            ev.playlist = playlistHash[slugify(ev.playlist)];
          }
          else {
             ev.playlist = null;
          }
 
          if (ev.location && locationHash.hasOwnProperty(slugify(ev.location))) {
-            ev.location = locationHash[slugify(ev.location)].fields;
+            ev.location = locationHash[slugify(ev.location)];
          }
          else {
             ev.location = null;
@@ -268,12 +292,12 @@ module.exports = function (api) {
 
          const now = moment();
 
-         if (ev.end_datetime) {
-            const endMoment = moment(ev.end_datetime, 'YYYY-MM-DD HH:mm:ss');
+         if (ev.endDatetime) {
+            const endMoment = moment(ev.endDatetime, 'YYYY-MM-DD HH:mm:ss');
             ev.expired = moment().isAfter(endMoment);
          }
-         else if (ev.start_datetime) {
-            const startMoment = moment(ev.start_datetime, 'YYYY-MM-DD HH:mm:ss').add(8, 'hours');
+         else if (ev.startDatetime) {
+            const startMoment = moment(ev.startDatetime, 'YYYY-MM-DD HH:mm:ss').add(8, 'hours');
             ev.expired = moment().isAfter(startMoment);
          }
          else if (ev.date) {
@@ -291,11 +315,20 @@ module.exports = function (api) {
             }
          }
 
+         const evntDataObj = Object.assign({}, ev, {
+            title: data.meta.title,
+            slug: file.toLowerCase().replace('.md', '')
+         });
+
+         /*
          const node = eventType.addNode({
             title: data.meta.title,
             slug: file.toLowerCase().replace('.md', ''),
             fields: ev,
          });
+         */
+
+         const node = eventType.addNode(evntDataObj);
 
          eventHash[slugify(data.meta.title)] =  node;
       });

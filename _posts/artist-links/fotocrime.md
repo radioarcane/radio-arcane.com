@@ -1,10 +1,10 @@
 ---
 title: Fotocrime
-apple_music: 'https://itunes.apple.com/artist/fotocrime/1224052095'
+appleMusic: 'https://itunes.apple.com/artist/fotocrime/1224052095'
 bandcamp: 'https://fotocrime.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5760408-Fotocrime'
 facebook: 'https://www.facebook.com/fotocrime'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Fotocrime?id=Agwlpjg3hazldfanucvewvjh5ym
 instagram: 'https://www.instagram.com/fotocrime'
 soundcloud: ''

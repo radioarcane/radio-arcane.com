@@ -1,10 +1,10 @@
 ---
 title: Paul Nova
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://paulnova.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/681389-Paul-Nova-2'
 facebook: 'https://www.facebook.com/Bizarreunit'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/paul-nova-852298011'
 spotify: ''

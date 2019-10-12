@@ -1,10 +1,10 @@
 ---
 title: Killing Joke
-apple_music: 'https://music.apple.com/artist/killing-joke/14548963'
+appleMusic: 'https://music.apple.com/artist/killing-joke/14548963'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/13408-Killing-Joke'
 facebook: 'https://www.facebook.com/killingjokeofficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Killing_Joke?id=Awmx7nhlsfaphbji5ar4i2zyque
 instagram: 'https://www.instagram.com/killingjokeband'
 soundcloud: 'https://soundcloud.com/killing-joke-official'

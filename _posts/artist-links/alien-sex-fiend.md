@@ -1,10 +1,10 @@
 ---
 title: Alien Sex Fiend
-apple_music: 'https://music.apple.com/artist/alien-sex-fiend/6515424'
+appleMusic: 'https://music.apple.com/artist/alien-sex-fiend/6515424'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/29001-Alien-Sex-Fiend'
 facebook: 'https://www.facebook.com/AlienSexFiendOfficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Alien_Sex_Fiend?id=Am2imb57d2bk5elnetu56reit6m
 instagram: 'https://www.instagram.com/aliensexfiendofficial'
 soundcloud: 'https://soundcloud.com/aliensexfiendofficial'

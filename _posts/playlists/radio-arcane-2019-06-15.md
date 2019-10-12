@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: 2019-06-15 Radio Arcane
-display_name: 'Radio Arcane'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane'
+playlistType: radio-arcane
 date: '2019-06-15'
 sets:
-  - dj_name: Thulsa Goon
+  - djName: Thulsa Goon
     type: dj_set
     tracks:
       - artist: Blut Aus Nord
@@ -26,7 +26,7 @@ sets:
         song: Forgotten Knowledge
       - artist: Odonis Odonis
         song: Collector
-  - dj_name: Brian Drabant
+  - djName: Brian Drabant
     type: dj_set
     tracks:
       - artist: Le Syndicat Electronique
@@ -53,7 +53,7 @@ sets:
         song: Deadlines (400 Blows Remix)
       - artist: Multiple Man
         song: You Say Y.E.S.
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Veil of Light
@@ -78,7 +78,7 @@ sets:
       - artist: ':Wumpscut:'
         song: Wreath of Barbs
         request: artist
-  - dj_name: Thulsa Goon
+  - djName: Thulsa Goon
     type: dj_set
     tracks:
       - artist: Clan of Xymox
@@ -101,7 +101,7 @@ sets:
         song: Ice Rose
       - artist: Harry
         song: Lycanthropia
-  - dj_name: Brian Drabant
+  - djName: Brian Drabant
     type: dj_set
     tracks:
       - artist: Eleven Pond
@@ -126,7 +126,7 @@ sets:
         song: A Forest (12")
       - artist: Siouxsie & The Banshees
         song: Spellbound (12")
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Scary Black
@@ -148,7 +148,7 @@ sets:
         song: No Redemption
       - artist: FTR
         song: Black Sand
-  - dj_name: Thulsa Goon
+  - djName: Thulsa Goon
     type: dj_set
     tracks:
       - artist: Ministry

@@ -1,17 +1,17 @@
 ---
 layout: playlist
 title: 2019-05-18 Radio Arcane
-display_name: 'Radio Arcane : Goth Prom : The Dark Market'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane : Goth Prom : The Dark Market'
+playlistType: radio-arcane
 date: '2019-05-18'
 sets:
   - performer: Love Under Will
     type: performance
-  - dj_name: Talamasca
+  - djName: Talamasca
     type: dj_set
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     type: dj_set
     tracks:
       - artist: Colouroïd
@@ -28,11 +28,11 @@ sets:
         song: Swamp Thing
       - artist: O. Children
         song: Heels
-  - dj_name: Talamasca
+  - djName: Talamasca
     type: dj_set
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     type: dj_set
     tracks:
       - artist: Helium Vola
@@ -51,11 +51,11 @@ sets:
         song: Take Me Higher
       - artist: Revolting Cocks
         song: Da Ya Think I'm Sexy?
-  - dj_name: Talamasca
+  - djName: Talamasca
     type: dj_set
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     type: dj_set
     tracks:
       - artist: Switchblade Symphony

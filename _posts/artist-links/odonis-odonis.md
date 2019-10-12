@@ -1,10 +1,10 @@
 ---
 title: Odonis Odonis
-apple_music: 'https://music.apple.com/us/artist/odonis-odonis/452720213'
+appleMusic: 'https://music.apple.com/us/artist/odonis-odonis/452720213'
 bandcamp: 'https://odonisodonis.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/2437252-Odonis-Odonis'
 facebook: 'https://www.facebook.com/odonisodonis'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Odonis_Odonis?id=Agbt7i4lcztfrisapjhjvrd6y4e
 instagram: 'https://www.instagram.com/odonisodonis'
 soundcloud: 'https://soundcloud.com/odonisodonis'

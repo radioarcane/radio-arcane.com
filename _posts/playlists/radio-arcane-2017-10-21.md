@@ -1,13 +1,13 @@
 ---
 layout: playlist
 title: '2017-10-21 Radio Arcane'
-display_name: 'Radio Arcane : der Anfang- a Va Va Vamp After-Party'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane : der Anfang- a Va Va Vamp After-Party'
+playlistType: radio-arcane
 date: '2017-10-21'
 sets:
-  - dj_name: Motuvius Rex
+  - djName: Motuvius Rex
     type: dj_set
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Tempers
@@ -30,7 +30,7 @@ sets:
         song: Monster In Me
       - artist: Placebo Effect
         song: Move
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     type: dj_set
     tracks:
       - artist: The Mission
@@ -73,10 +73,10 @@ sets:
         song: Paper Dolls
       - artist: Switchblade Symphony
         song: Clown
-  - dj_name: Brian Drabant
+  - djName: Brian Drabant
     type: dj_set
-  - dj_name: AndrOspore
+  - djName: AndrOspore
     type: dj_set
-  - dj_name: Count Grozny
+  - djName: Count Grozny
     type: dj_set
 ---

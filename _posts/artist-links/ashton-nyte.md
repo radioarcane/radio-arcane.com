@@ -1,10 +1,10 @@
 ---
 title: Ashton Nyte
-apple_music: 'https://itunes.apple.com/artist/ashton-nyte/260575010'
+appleMusic: 'https://itunes.apple.com/artist/ashton-nyte/260575010'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/451619-Ashton-Nyte'
 facebook: 'https://www.facebook.com/ashtonnyte'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Ashton_Nyte?id=Auu4pcmnis7ea6b4nlkuas4poyu
 instagram: 'https://www.instagram.com/ashtonnyte'
 soundcloud: 'https://soundcloud.com/ashtonnyte'

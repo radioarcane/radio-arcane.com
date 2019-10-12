@@ -1,11 +1,11 @@
 ---
 layout: event
 title: '2019-08-10 Radio Arcane'
-display_name: 'Radio Arcane : The Dark Market'
-event_type: radio-arcane
+displayName: 'Radio Arcane : The Dark Market'
+eventType: radio-arcane
 date: '2019-08-10'
-start_datetime: '2019-08-10 19:00:00'
-end_datetime: '2019-08-11 03:00:00'
+startDatetime: '2019-08-10 19:00:00'
+endDatetime: '2019-08-11 03:00:00'
 image: '/img/uploads/radio-arcane-2019-08-10.jpg'
 description: >-
   Radio Arcane (Louisville's Dark Music Specialists) partner once again with the
@@ -25,10 +25,10 @@ description: >-
   $5 cover after 10pm  
 
   Market @ 7pm, Party @ 10pm
-short_description: ''
+shortDescription: ''
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/320411388819145'
-tickets_link: ''
+facebookEventLink: 'https://www.facebook.com/events/320411388819145'
+ticketsLink: ''
 cover: '5.00'
 playlist: '2019-08-10 Radio Arcane'
 ---

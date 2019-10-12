@@ -1,10 +1,10 @@
 ---
 title: CHVRN
-apple_music: 'https://itunes.apple.com/artist/chvrn/id1069652215'
+appleMusic: 'https://itunes.apple.com/artist/chvrn/id1069652215'
 bandcamp: 'https://chvrn.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5403209-Chvrn'
 facebook: 'https://www.facebook.com/chvrnmusic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Aqcustsash574hj7p2ydwms2eai
 instagram: 'https://www.instagram.com/chvrnmusic'
 soundcloud: 'https://soundcloud.com/chvrn'

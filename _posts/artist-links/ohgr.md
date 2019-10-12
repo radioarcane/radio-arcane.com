@@ -1,10 +1,10 @@
 ---
 title: ohGr
-apple_music: 'https://itunes.apple.com/artist/ohgr/2779633'
+appleMusic: 'https://itunes.apple.com/artist/ohgr/2779633'
 bandcamp: 'https://ohgr.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/67555-ohGr'
 facebook: 'https://www.facebook.com/ohGrOfficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/ohGr?id=Asiluew54qv723omzqzz75dwysy
 instagram: 'https://www.instagram.com/ohgr_official'
 soundcloud: 'https://soundcloud.com/ohgrofficial'

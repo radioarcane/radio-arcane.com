@@ -1,10 +1,10 @@
 ---
 title: Ensemble Pittoresque
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/65147-Ensemble-Pittoresque'
 facebook: 'https://www.facebook.com/Ensemble-Pittoresque-412880122196024'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

@@ -1,10 +1,10 @@
 ---
 title: Xerox
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/7266013-Xerox-10'
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

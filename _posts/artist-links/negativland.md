@@ -1,10 +1,10 @@
 ---
 title: Negativland
-apple_music: 'https://itunes.apple.com/artist/negativland/4300932'
+appleMusic: 'https://itunes.apple.com/artist/negativland/4300932'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/24120-Negativland'
 facebook: 'https://www.facebook.com/Negativlandland'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Negativland?id=Ae4wtmneqlrqaqjyurei3pqstam
 instagram: ''
 soundcloud: ''

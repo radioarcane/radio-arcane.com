@@ -1,10 +1,10 @@
 ---
 title: Helium Vola
-apple_music: 'https://itunes.apple.com/artist/helium-vola/320277690'
+appleMusic: 'https://itunes.apple.com/artist/helium-vola/320277690'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/87497-Helium-Vola'
 facebook: 'https://www.facebook.com/heliumvola'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Helium_Vola?id=Ai2mqo2vrfianf6obdps4sznpf4
 instagram: ''
 soundcloud: ''

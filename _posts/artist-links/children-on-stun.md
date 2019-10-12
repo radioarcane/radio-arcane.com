@@ -1,10 +1,10 @@
 ---
 title: Children On Stun
-apple_music: 'https://itunes.apple.com/artist/children-on-stun/155736021'
+appleMusic: 'https://itunes.apple.com/artist/children-on-stun/155736021'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/244507-Children-On-Stun'
 facebook: 'https://www.facebook.com/officialchildrenonstun'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Children_on_Stun?id=Ai5el2yt4e5ghx35x6izanndekq
 instagram: 'https://www.instagram.com/childrenonstun'
 soundcloud: 'https://soundcloud.com/childrenonstun'

@@ -1,10 +1,10 @@
 ---
 title: Shadow Project
-apple_music: 'https://itunes.apple.com/artist/shadow-project/128086684'
+appleMusic: 'https://itunes.apple.com/artist/shadow-project/128086684'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/94646-Shadow-Project'
 facebook: 'https://www.facebook.com/meowmeowshadowproject'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Shadow_Project?id=A3u46qvog3qtvbmqs7nw7jnzkuy
 instagram: ''
 soundcloud: ''

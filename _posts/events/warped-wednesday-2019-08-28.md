@@ -1,17 +1,17 @@
 ---
 layout: event
 title: '2019-08-28 Warped Wednesday'
-display_name: 'Warped Wednesday'
-event_type: warped-wednesday
+displayName: 'Warped Wednesday'
+eventType: warped-wednesday
 date: '2019-08-28'
-start_datetime: '2019-08-28 21:00:00'
-end_datetime: '2019-08-29 02:00:00'
+startDatetime: '2019-08-28 21:00:00'
+endDatetime: '2019-08-29 02:00:00'
 image: '/img/uploads/warped-wednesday-alt.jpg'
 description: ''
-short_description: ''
+shortDescription: ''
 location: Seidenfaden's
-facebook_event_link:
-tickets_link: ''
+facebookEventLink:
+ticketsLink: ''
 cover: '0.00'
 playlist: '2019-08-28 Warped Wednesday'
 ---

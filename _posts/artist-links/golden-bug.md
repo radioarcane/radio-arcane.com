@@ -1,10 +1,10 @@
 ---
 title: Golden Bug
-apple_music: 'https://itunes.apple.com/artist/golden-bug/252952501'
+appleMusic: 'https://itunes.apple.com/artist/golden-bug/252952501'
 bandcamp: 'https://goldenbug.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/806469-Golden-Bug'
 facebook: 'https://www.facebook.com/goldenbugmusic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Amgxedqibcamu7qkd2a74vjmm3i
 instagram: 'https://www.instagram.com/goldenbugmusic'
 soundcloud: 'https://soundcloud.com/golden-bug'

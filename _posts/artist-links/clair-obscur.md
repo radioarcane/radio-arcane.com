@@ -1,10 +1,10 @@
 ---
 title: Clair Obscur
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://clairobscur.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/44616-Clair-Obscur'
 facebook: 'https://www.facebook.com/Clair-Obscur-106976802670127'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/clairobscur'
 spotify: ''

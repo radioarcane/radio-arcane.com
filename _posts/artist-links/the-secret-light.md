@@ -1,10 +1,10 @@
 ---
 title: The Secret Light
-apple_music: 'https://itunes.apple.com/artist/the-secret-light/1188798057'
+appleMusic: 'https://itunes.apple.com/artist/the-secret-light/1188798057'
 bandcamp: 'https://thesecretlight.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5477303-The-Secret-Light'
 facebook: 'https://www.facebook.com/thesecretlightband'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Apwx7ile4qhffqjhigwb7sbwgta
 instagram: 'https://www.instagram.com/thesecretlightband'
 soundcloud: 'https://soundcloud.com/user-693598290'

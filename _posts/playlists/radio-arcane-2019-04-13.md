@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: 2019-04-13 Radio Arcane
-display_name: Radio Arcane
-playlist_type: radio-arcane
+displayName: Radio Arcane
+playlistType: radio-arcane
 date: '2019-04-13'
 sets:
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: Rakta
         song: Fim Do Mundo
@@ -28,9 +28,9 @@ sets:
       - artist: The Foreign Resort
         song: Outnumbered
     type: dj_set
-  - dj_name: Brian Drabant
+  - djName: Brian Drabant
     type: dj_set
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     tracks:
       - artist: Night Sins
         song: Crystal Blue
@@ -53,7 +53,7 @@ sets:
       - artist: Nitzer Ebb
         song: Join In The Chant
     type: dj_set
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: IV Horsemen
         song: Judex
@@ -73,9 +73,9 @@ sets:
       - artist: Multiple Man
         song: High On The Hog
     type: dj_set
-  - dj_name: Brian Drabant
+  - djName: Brian Drabant
     type: dj_set
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     tracks:
       - artist: Scary Black
         song: Ice Rose
@@ -102,7 +102,7 @@ sets:
       - artist: Velvet Condom
         song: Collapse In Slow Motion
     type: dj_set
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: The Secret French Postcards
         song: Awake

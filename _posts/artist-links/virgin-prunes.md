@@ -1,10 +1,10 @@
 ---
 title: Virgin Prunes
-apple_music: 'https://itunes.apple.com/artist/virgin-prunes/23533513'
+appleMusic: 'https://itunes.apple.com/artist/virgin-prunes/23533513'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/88469-Virgin-Prunes'
 facebook: 'https://www.facebook.com/virginprunes'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Virgin_Prunes?id=Ausmmh47mtvbcsihevyqhohwjka
 instagram: ''
 soundcloud: ''

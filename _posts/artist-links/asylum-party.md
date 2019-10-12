@@ -1,10 +1,10 @@
 ---
 title: Asylum Party
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/265957-Asylum-Party'
 facebook: 'https://www.facebook.com/Asylum-Party-134988086559467'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

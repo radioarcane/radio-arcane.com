@@ -1,10 +1,10 @@
 ---
 title: Bat For Lashes
-apple_music: 'https://music.apple.com/artist/bat-for-lashes/145014446'
+appleMusic: 'https://music.apple.com/artist/bat-for-lashes/145014446'
 bandcamp: 'https://bflmusic.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/651010-Bat-For-Lashes'
 facebook: 'https://www.facebook.com/batforlashes'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Ambdfzxyzug4rkhx4xv3jubsjpi
 instagram: 'https://www.instagram.com/batforlashes'
 soundcloud: 'https://soundcloud.com/batforlashes'

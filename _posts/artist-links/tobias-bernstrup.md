@@ -1,10 +1,10 @@
 ---
 title: Tobias Bernstrup
-apple_music: 'https://itunes.apple.com/artist/tobias-bernstrup/273857646'
+appleMusic: 'https://itunes.apple.com/artist/tobias-bernstrup/273857646'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/347795-Tobias-Bernstrup'
 facebook: 'https://www.facebook.com/TOBIASBERNSTRUPOfficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Tobias_Bernstrup?id=Aqfslxwsh6y7a2viw6taxknslzq
 instagram: 'https://www.instagram.com/tobiasbernstrup'
 soundcloud: 'https://soundcloud.com/tobias-bernstrup'

@@ -1,10 +1,10 @@
 ---
 title: CHBB
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/81540-CHBB'
 facebook: 'https://www.facebook.com/Chromagain-198631283546495'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Alnikxgronpa3fyr6negpxchrcm
 instagram: ''
 soundcloud: ''

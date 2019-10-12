@@ -1,10 +1,10 @@
 ---
 title: Ministry
-apple_music: 'https://itunes.apple.com/artist/ministry/609022'
+appleMusic: 'https://itunes.apple.com/artist/ministry/609022'
 bandcamp: 'https://ministryband.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/12209-Ministry'
 facebook: 'https://www.facebook.com/WeAreMinistry'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Ministry?id=Addqeotcawci5uyhzy3m3cz73km
 instagram: 'https://www.instagram.com/weareministry'
 soundcloud: 'https://soundcloud.com/ministryofficial'

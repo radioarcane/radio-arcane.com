@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: 2018-12-28 Radio Arcane
-display_name: 'Radio Arcane : снежинка'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane : снежинка'
+playlistType: radio-arcane
 date: '2018-12-28'
 sets:
-  - dj_name: Thulsa Goon
+  - djName: Thulsa Goon
     tracks:
       - artist: IC3PEAK
         song: Monster
@@ -28,7 +28,7 @@ sets:
       - artist: Sort Sol
         song: Life Took You For A Freq. (feat. Chelsea Wolfe)
     type: dj_set
-  - dj_name: Talamasca
+  - djName: Talamasca
     tracks:
       - artist: Sextile
         song: Disco
@@ -55,7 +55,7 @@ sets:
       - artist: Die Krupps
         song: Schmutzfabrik
     type: dj_set
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: Zanias
         song: Aletheia
@@ -80,9 +80,9 @@ sets:
       - artist: Bestial Mouths
         song: Greyed
     type: dj_set
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
-  - dj_name: Thulsa Goon
+  - djName: Thulsa Goon
     tracks:
       - artist: She Past Away
         song: Monoton
@@ -105,7 +105,7 @@ sets:
       - artist: The Cure
         song: A Strange Day
     type: dj_set
-  - dj_name: Talamasca
+  - djName: Talamasca
     tracks:
       - artist: Die Form
         song: Bite of God (Remix 2)
@@ -134,7 +134,7 @@ sets:
         request: song
         song: Wreath of Barbs
     type: dj_set
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     tracks:
       - artist: Schwefelgelb
         song: Bis Zum Nächsten Tag (Phase Fatale Remix)
@@ -167,7 +167,7 @@ sets:
       - artist: Sydney Valette
         song: Back From Mexico
     type: dj_set
-  - dj_name: Talamasca & Thulsa Goon
+  - djName: Talamasca & Thulsa Goon
     tracks:
       - artist: Temple of Angels
         song: Star Shaped Eyes

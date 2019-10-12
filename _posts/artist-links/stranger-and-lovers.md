@@ -1,10 +1,10 @@
 ---
 title: Stranger & Lovers
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: ''
 facebook: 'https://www.facebook.com/Stranger-and-lovers-276653499866654'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

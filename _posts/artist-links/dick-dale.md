@@ -1,10 +1,10 @@
 ---
 title: Dick Dale
-apple_music: 'https://itunes.apple.com/artist/dick-dale/1366148'
+appleMusic: 'https://itunes.apple.com/artist/dick-dale/1366148'
 bandcamp: 'https://dickdale.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/291512-Dick-Dale'
 facebook: 'https://www.facebook.com/Dick-Dale-King-of-the-Surf-Guitar-227735573943279'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Dick_Dale?id=A43ipnmmanfn5nzcpcgcxd6jbhm
 instagram: ''
 soundcloud: 'https://soundcloud.com/dick-dale-official'

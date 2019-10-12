@@ -1,10 +1,10 @@
 ---
 title: Monowelt
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://monowelt.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4493508-Monowelt'
 facebook: 'https://www.facebook.com/monoweltdarkwave'
-google_music: ''
+googleMusic: ''
 instagram: 'https://www.instagram.com/monowelt'
 soundcloud: 'https://soundcloud.com/monowelt-1'
 spotify: ''

@@ -1,10 +1,10 @@
 ---
 title: Arbeid Adelt!
-apple_music: 'https://itunes.apple.com/artist/arbeid-adelt!/id42421224'
+appleMusic: 'https://itunes.apple.com/artist/arbeid-adelt!/id42421224'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/7550-Arbeid-Adelt!'
 facebook: 'https://www.facebook.com/ARBEID-ADELT-52753674770'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Arbeid_Adelt?id=Adziwk3arb4uocqo7nxzxgf3heq
 instagram: ''
 soundcloud: ''

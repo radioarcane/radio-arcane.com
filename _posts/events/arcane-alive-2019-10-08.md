@@ -1,11 +1,11 @@
 ---
 layout: event
 title: 2019-10-08 Arcane Alive
-display_name: 'Mr.Kitty, Pastel Ghost and Panic Priest'
-event_type: arcane-alive
+displayName: 'Mr.Kitty, Pastel Ghost and Panic Priest'
+eventType: arcane-alive
 date: '2019-10-08'
-start_datetime: '2019-10-08 20:00:00'
-end_datetime: '2019-10-09 00:00:00'
+startDatetime: '2019-10-08 20:00:00'
+endDatetime: '2019-10-09 00:00:00'
 image: /img/uploads/arcane-alive-2019-10-08.jpg
 description: |-
   An evening of dark synth vibes presented by Radio Arcane with:
@@ -27,12 +27,12 @@ description: |-
   $10 admission
 
   More info TBA
-short_description: >-
+shortDescription: >-
   An evening of dark synth vibes with Mr.Kitty, Pastel Ghost, Panic Priest, and
   DJ sets by AndrOspore
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/388353705072427'
-tickets_link: >-
+facebookEventLink: 'https://www.facebook.com/events/388353705072427'
+ticketsLink: >-
   https://www.showclix.com/event/mr-kitty-pastel-ghost-panic-priest-live-in-louisville
 cover: '10.00'
 playlist: ''

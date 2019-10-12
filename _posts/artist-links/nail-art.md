@@ -1,10 +1,10 @@
 ---
 title: Nail Art
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://nailart.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/nailartband'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

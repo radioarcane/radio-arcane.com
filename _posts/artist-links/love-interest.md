@@ -1,10 +1,10 @@
 ---
 title: Love Interest
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://loveinterest.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/707412-Love-Interest'
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

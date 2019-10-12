@@ -1,10 +1,10 @@
 ---
 title: Slick Idiot
-apple_music: 'https://itunes.apple.com/artist/slick-idiot/111602708'
+appleMusic: 'https://itunes.apple.com/artist/slick-idiot/111602708'
 bandcamp: ''
 facebook: ''
 discogs: 'https://www.discogs.com/artist/261650-Slick-Idiot'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Slick_Idiot?id=A6uvtfjpjxztljimjbpz3ncnhli
 instagram: ''
 soundcloud: ''

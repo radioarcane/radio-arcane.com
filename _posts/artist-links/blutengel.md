@@ -1,10 +1,10 @@
 ---
 title: 'Blutengel'
-apple_music: 'https://music.apple.com/artist/blutengel/478184320'
+appleMusic: 'https://music.apple.com/artist/blutengel/478184320'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/80723-Blutengel'
 facebook: 'https://www.facebook.com/BlutengelOfficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Blutengel?id=Abqk4kh2vb3lrxt4wqrwwvzgfui
 instagram: 'https://www.instagram.com/chris_pohl_blutengel'
 soundcloud: 'https://soundcloud.com/officialblutengel'

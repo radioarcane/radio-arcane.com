@@ -1,10 +1,10 @@
 ---
 title: Rendez-Vous
-apple_music: 'https://itunes.apple.com/artist/rendez-vous/1358619316'
+appleMusic: 'https://itunes.apple.com/artist/rendez-vous/1358619316'
 bandcamp: 'https://rendezvousrendezvous.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4464760-Rendez-Vous-13'
 facebook: 'https://www.facebook.com/rendezvousrendezvous'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/album?id=B5z4vqbrlh4msccxju2naidmeci&tid=song-Tr76jhkekpxr7tjvq25mfnfipr4
 instagram: 'https://www.instagram.com/rendezvousrendezvous'
 soundcloud: 'https://soundcloud.com/rendezvousrendezvous'

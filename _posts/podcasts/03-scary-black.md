@@ -28,11 +28,10 @@ description: >-
 
 
   https://www.facebook.com/scaryblack502
-short_description: >-
+shortDescription: >-
   Featuring an interview with Albie Mason of Scary Black about his new album
   "Shadow Dwellers (B​-​Sides)"
-mixcloud_link: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-03-scary-black'
-soundcloud_link: 'https://soundcloud.com/radio_arcane/radio-arcane-03-scary-black'
+mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-03-scary-black'
+soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-03-scary-black'
 playlist: 2019-03-31 Podcast
 ---
-

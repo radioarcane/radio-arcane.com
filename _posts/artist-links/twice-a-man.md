@@ -1,10 +1,10 @@
 ---
 title: Twice A Man
-apple_music: 'https://itunes.apple.com/artist/twice-a-man/272181376'
+appleMusic: 'https://itunes.apple.com/artist/twice-a-man/272181376'
 bandcamp: 'https://twiceaman.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/51338-Twice-A-Man'
 facebook: 'https://www.facebook.com/twiceaman'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Twice_a_Man?id=Aobuptjm4ys4qngiksopjtv33t4
 instagram: ''
 soundcloud: 'https://soundcloud.com/twiceaman'

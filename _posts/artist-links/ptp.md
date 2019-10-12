@@ -1,10 +1,10 @@
 ---
 title: PTP
-apple_music: 'https://itunes.apple.com/artist/ptp/27062057'
+appleMusic: 'https://itunes.apple.com/artist/ptp/27062057'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/40389-PTP'
 facebook: ''
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/PTP?id=A64wagum4eqg7fc4y466rjn6owa
 instagram: ''
 soundcloud: ''

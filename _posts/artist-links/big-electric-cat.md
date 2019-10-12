@@ -1,10 +1,10 @@
 ---
 title: Big Electric Cat
-apple_music: 'https://itunes.apple.com/us/artist/big-electric-cat/144150524'
+appleMusic: 'https://itunes.apple.com/us/artist/big-electric-cat/144150524'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/93826-Big-Electric-Cat'
 facebook: 'https://www.facebook.com/BigElectricCat'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Big_Electric_Cat?id=Atcezzzzzmidhrlmqrz477zj44u
 instagram: ''
 soundcloud: 'https://soundcloud.com/big-electric-cat'

@@ -1,10 +1,10 @@
 ---
 title: Vyva Melinkolya
-apple_music: 'https://itunes.apple.com/artist/vyva-melinkolya/1260189528'
+appleMusic: 'https://itunes.apple.com/artist/vyva-melinkolya/1260189528'
 bandcamp: 'https://vyva-melinkolyaky.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3815378-Weeknight'
 facebook: 'https://www.facebook.com/vyvamelinkolya'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Vyva_Melinkolya?id=Azpxneiariwnrjk6yhu5orbmy5m
 instagram: ''
 soundcloud: 'https://soundcloud.com/alyc-diaz'

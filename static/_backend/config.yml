@@ -20,35 +20,35 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Venue", name: "title", widget: "string"}
-      - {label: "Venue Link", name: "venue_link", widget: "string", required: false, default: ""}
+      - {label: "Venue Link", name: "venueLink", widget: "string", required: false, default: ""}
       - {label: "Street Address", name: "address", widget: "string"}
-      - {label: "Street Address", name: "address_2", widget: "string", required: false, default: ""}
+      - {label: "Street Address", name: "address2", widget: "string", required: false, default: ""}
       - {label: "City", name: "city", widget: "string"}
       - {label: "State", name: "state", widget: "string"}
       - {label: "Zipcode", name: "zipcode", widget: "string"}
-      - {label: "Google Map Link", name: "google_map_link", widget: "string", required: false, default: ""}
+      - {label: "Google Map Link", name: "googleMapLink", widget: "string", required: false, default: ""}
   - name: "events"
     label: "Events"
     label_singular: "Event"
     folder: "_posts/events"
     create: true
-    slug: "{{fields.event_type}}-{{fields.date}}"
+    slug: "{{fields.eventtype}}-{{fields.date}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Display Name", name: "display_name", widget: "string"}
-      - {label: "Event Type", name: "event_type", widget: "select", options: ["radio-arcane", "arcane-alive", "warped-wednesday"]}
+      - {label: "Display Name", name: "displayName", widget: "string"}
+      - {label: "Event Type", name: "eventType", widget: "select", options: ["radio-arcane", "arcane-alive", "warped-wednesday"]}
       - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
-      - {label: "Start DateTime", name: "start_datetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
-      - {label: "End DateTime", name: "end_datetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
+      - {label: "Start DateTime", name: "startDatetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
+      - {label: "End DateTime", name: "endDatetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
       - {label: "Image", name: "image", widget: "image", required: false, default: ""}
       - {label: "Description", name: "description", widget: "markdown", required: false, default: ""}
-      - {label: "Short Description", name: "short_description", widget: "string", required: false, default: ""}
+      - {label: "Short Description", name: "shortDescription", widget: "string", required: false, default: ""}
       - {label: "Location", name: "location", widget: "relation", collection: "locations", searchFields: ["title"], valueField: "title", displayFields: ["title"], required: false, default: ""}
-      - {label: "Facebook Event Link", name: "facebook_event_link", widget: "string", required: false, default: ""}
-      - {label: "Tickets Link", name: "tickets_link", widget: "string", required: false, default: ""}
+      - {label: "Facebook Event Link", name: "facebookEventLink", widget: "string", required: false, default: ""}
+      - {label: "Tickets Link", name: "ticketsLink", widget: "string", required: false, default: ""}
       - {label: "Cover Price", name: "cover", widget: "string", required: false, default: ""}
-      - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "display_name"], valueField: "title", displayFields: ["title"]}
+      - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "displayName"], valueField: "title", displayFields: ["title"]}
   - name: "podcasts"
     label: "Podcasts"
     label_singular: "Podcast"
@@ -61,21 +61,21 @@ collections:
       - {label: "Image", name: "image", widget: "image", required: false, default: ""}
       - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Description", name: "description", widget: "markdown", required: false, default: ""}
-      - {label: "Short Description", name: "short_description", widget: "string", required: false, default: ""}
-      - {label: "Mixcloud Link", name: "mixcloud_link", widget: "string", required: false, default: ""}
-      - {label: "Soundcloud Link", name: "soundcloud_link", widget: "string", required: false, default: ""}
-      - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "display_name"], valueField: "title", displayFields: ["title"]}
+      - {label: "Short Description", name: "shortDescription", widget: "string", required: false, default: ""}
+      - {label: "Mixcloud Link", name: "mixcloudLink", widget: "string", required: false, default: ""}
+      - {label: "Soundcloud Link", name: "soundcloudLink", widget: "string", required: false, default: ""}
+      - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "displayName"], valueField: "title", displayFields: ["title"]}
   - name: "playlists"
     label: "Playlists"
     label_singular: "Playlist"
     folder: "_posts/playlists"
     create: true
-    slug: "{{fields.playlist_type}}-{{fields.date}}"
+    slug: "{{fields.playlistType}}-{{fields.date}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "playlist"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Display Title", name: "display_name", widget: "string"}
-      - {Label: "Playlist Type", name: "playlist_type", widget: "select", options: ["radio-arcane", "podcast", "arcane-alive"]}
+      - {label: "Display Title", name: "displayName", widget: "string"}
+      - {Label: "Playlist Type", name: "playlistType", widget: "select", options: ["radio-arcane", "podcast", "arcane-alive"]}
       - {Label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - label: "Sets"
         name: "sets"
@@ -84,13 +84,13 @@ collections:
         default: []
         types:
           - label: "DJ Set"
-            name: "dj_set"
+            name: "djSet"
             widget: "object"
             required: false
-            default: {"dj": "", "guest_dj": ""}
+            default: {"dj": "", "guestDj": ""}
             fields:
-              - {label: "DJ", name: "dj_name", widget: "select", options: ["", "AndrOspore", "Brian Cole", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon", "Talamasca & Thulsa Goon"], required: false, default: ""}
-              - {label: "Guest DJ", name: "guest_dj", widget: "string", required: false, default: ""}
+              - {label: "DJ", name: "djName", widget: "select", options: ["", "AndrOspore", "Brian Cole", "Brian Drabant", "Count Grozny", "Kaleidoscope", "Motuvius Rex", "Osiris Ani", "Sorrow-Vomit", "Talamasca", "Thulsa Goon", "Talamasca & Thulsa Goon"], required: false, default: ""}
+              - {label: "Guest DJ", name: "guestDj", widget: "string", required: false, default: ""}
               - label: "Tracks"
                 name: "tracks"
                 widget: "list"
@@ -115,11 +115,11 @@ collections:
             fields:
               - {label: "Performer", name: "performer", widget: "string"}
       - label: "Mixcloud Links"
-        name: "mixcloud_links"
+        name: "mixcloudLinks"
         widget: "list"
         default: []
         field: {label: "URL", name: "url", widget: "string"}
-  - name: "artist_links"
+  - name: "artistLinks"
     label: "Artist Links"
     label_singular: "Artist Link"
     folder: "_posts/artist-links"
@@ -127,11 +127,11 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Artist", name: "title", widget: "string"}
-      - {label: "Apple Music", name: "apple_music", widget: "string", required: false, default: ""}
+      - {label: "Apple Music", name: "appleMusic", widget: "string", required: false, default: ""}
       - {label: "Bandcamp", name: "bandcamp", widget: "string", required: false, default: ""}
       - {label: "Discogs", name: "discogs", widget: "string", required: false, default: ""}
       - {label: "Facebook", name: "facebook", widget: "string", required: false, default: ""}
-      - {label: "Google Music", name: "google_music", widget: "string", required: false, default: ""}
+      - {label: "Google Music", name: "googleMusic", widget: "string", required: false, default: ""}
       - {label: "Instagram", name: "instagram", widget: "string", required: false, default: ""}
       - {label: "Soundcloud", name: "soundcloud", widget: "string", required: false, default: ""}
       - {label: "Spotify", name: "spotify", widget: "string", required: false, default: ""}

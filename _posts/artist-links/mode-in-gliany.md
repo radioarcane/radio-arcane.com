@@ -1,10 +1,10 @@
 ---
 title: Mode In Gliany
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://modeingliany.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4851381-Mode-In-Gliany'
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/mode-in-gliany'
 spotify: ''

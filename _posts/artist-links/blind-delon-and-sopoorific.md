@@ -1,10 +1,10 @@
 ---
 title: Blind Delon & Sopoorific
-apple_music: 'https://itunes.apple.com/artist/blind-delon/1176471845'
+appleMusic: 'https://itunes.apple.com/artist/blind-delon/1176471845'
 bandcamp: 'https://blinddelon.bandcamp.com'
 discogs: 'https://www.discogs.com/Blind-Delon-Sopoorific-The-Seep/release/14004811'
 facebook: 'https://www.facebook.com/blinddelon'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Blind_Delon?id=Aj3uz6vpa5c5rqd5givp3enfxrm
 instagram: 'https://www.instagram.com/blindelon'
 soundcloud: 'https://soundcloud.com/blind-delon'

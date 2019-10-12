@@ -1,10 +1,10 @@
 ---
 title: Night Moves
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://domestica.bandcamp.com/album/night-moves-transdance-gc1-2013-ref-dom05-m'
 discogs: 'https://www.discogs.com/artist/79108-Night-Moves'
 facebook: ''
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Night_Moves?id=Anzwy4hgxbetui5scnfmohvqdsy
 instagram: ''
 soundcloud: ''

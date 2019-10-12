@@ -1,11 +1,11 @@
 ---
 layout: playlist
 title: 2019-07-13 Radio Arcane
-display_name: 'Radio Arcane'
-playlist_type: radio-arcane
+displayName: 'Radio Arcane'
+playlistType: radio-arcane
 date: '2019-07-13'
 sets:
-  - dj_name: Brian Cole
+  - djName: Brian Cole
     type: dj_set
     tracks:
       - artist: Molchat Doma
@@ -34,7 +34,7 @@ sets:
         song: Two Headed Dream
       - artist: Buzz Kull
         song: Destination
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     type: dj_set
     tracks:
       - artist: Gauntlet Hair
@@ -57,9 +57,9 @@ sets:
         song: Tour De Force
       - artist: Statiqbloom
         song: Atrophy of Three
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
-  - dj_name: Brian Cole
+  - djName: Brian Cole
     type: dj_set
     tracks:
       - artist: Nitzer Ebb
@@ -90,7 +90,7 @@ sets:
         song: Play Alone
       - artist: Cold Cave
         song: Nausea, The Earth & Me
-  - dj_name: Osiris Ani
+  - djName: Osiris Ani
     type: dj_set
     tracks:
       - artist: Bragolin
@@ -115,6 +115,6 @@ sets:
         song: Mystic Sabbath
       - artist: Varsovia
         song: Pertenecemos A La Muerte
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
 ---

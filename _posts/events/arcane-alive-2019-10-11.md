@@ -1,11 +1,11 @@
 ---
 layout: event
 title: 2019-10-11 Arcane Alive
-display_name: 'WINGTIPS, Scary Black, Vyva Melinkolya, and Hypnagogue'
-event_type: arcane-alive
+displayName: 'WINGTIPS, Scary Black, Vyva Melinkolya, and Hypnagogue'
+eventType: arcane-alive
 date: '2019-10-11'
-start_datetime: '2019-10-11 20:00:00'
-end_datetime: '2019-10-12 03:00:00'
+startDatetime: '2019-10-11 20:00:00'
+endDatetime: '2019-10-12 03:00:00'
 image: /img/uploads/arcane-alive-2019-10-11.jpg
 description: >-
   Arcane Alive! Featuring live performances by:
@@ -78,10 +78,10 @@ description: >-
    Wingtips   
    Scary Black  
    *possible changes in order
-short_description: 'Live performances by WINGTIPS, Scary Black, Vyva Melinkolya, and more'
+shortDescription: 'Live performances by WINGTIPS, Scary Black, Vyva Melinkolya, and more'
 location: Art Sanctuary
-facebook_event_link: 'https://www.facebook.com/events/605325119874210'
-tickets_link: 'https://www.showclix.com/event/wingtips-scary-black-vyva-melinkolya'
+facebookEventLink: 'https://www.facebook.com/events/605325119874210'
+ticketsLink: 'https://www.showclix.com/event/wingtips-scary-black-vyva-melinkolya'
 cover: '10.00'
 playlist: ''
 ---

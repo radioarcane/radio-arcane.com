@@ -1,10 +1,10 @@
 ---
 title: The Danse Society
-apple_music: 'https://itunes.apple.com/artist/danse-society/217732223'
+appleMusic: 'https://itunes.apple.com/artist/danse-society/217732223'
 bandcamp: 'https://dansesociety.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/104174-The-Danse-Society'
 facebook: 'https://www.facebook.com/thedansesociety'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/The_Danse_Society?id=Avk7ycu6owz4ccfmeoss5fv7k5q
 instagram: 'https://www.instagram.com/thedansesocietyofficial'
 soundcloud: 'https://soundcloud.com/the-danse-society'

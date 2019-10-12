@@ -1,10 +1,10 @@
 ---
 title: French 79
-apple_music: 'https://itunes.apple.com/us/artist/french-79/931540150'
+appleMusic: 'https://itunes.apple.com/us/artist/french-79/931540150'
 bandcamp: 'https://french79music.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4901245-French-79'
 facebook: 'https://www.facebook.com/french79music'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/French_79?id=Ayg6ojdqgw3hu7ix5jkb2lfpeqm
 instagram: 'https://www.instagram.com/funkervogtofficial'
 soundcloud: 'https://soundcloud.com/french79music'

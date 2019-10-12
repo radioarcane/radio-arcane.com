@@ -1,10 +1,10 @@
 ---
 title: Patriarchy
-apple_music: 'https://music.apple.com/artist/patriarchy/1462162004'
+appleMusic: 'https://music.apple.com/artist/patriarchy/1462162004'
 bandcamp: 'https://patriarchy.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/actuallypatriarchy'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Patriarchy?id=A4jue5vqexnkpibfayneiq7wnm4
 instagram: 'https://www.instagram.com/_patriarchy_'
 soundcloud: ''

@@ -1,10 +1,10 @@
 ---
 title: Soft Cell
-apple_music: 'https://music.apple.com/artist/soft-cell/140394'
+appleMusic: 'https://music.apple.com/artist/soft-cell/140394'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/12196-Soft-Cell'
 facebook: 'https://www.facebook.com/softcellband'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Soft_Cell?id=Ashwqhe3fr46evz5kgbwruygiyy
 instagram: 'https://www.instagram.com/softcellhq'
 soundcloud: 'https://soundcloud.com/soft-cell-official'

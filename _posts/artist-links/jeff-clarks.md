@@ -1,10 +1,10 @@
 ---
 title: Jeff Clark's
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://jeffclarks.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/6461537-Jeff-Clarks'
 facebook: 'https://www.facebook.com/jeffclarksmusic'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/jeffclarks'
 spotify: ''

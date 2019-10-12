@@ -1,10 +1,10 @@
 ---
 title: 'Noyce™'
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/16395-NoyceTM'
 facebook: 'https://www.facebook.com/noycetm'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Noyce?id=Anlnz2fioidc4tfuaim2a6u5wuq
 instagram: 'https://www.instagram.com/noycetm'
 soundcloud: 'https://soundcloud.com/noycetm-music'

@@ -1,10 +1,10 @@
 ---
 title: Tyler McDevgon
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: ''
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: ''
 spotify: ''

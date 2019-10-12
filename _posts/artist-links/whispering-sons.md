@@ -1,10 +1,10 @@
 ---
 title: Whispering Sons
-apple_music: 'https://itunes.apple.com/artist/whispering-sons/1068572713'
+appleMusic: 'https://itunes.apple.com/artist/whispering-sons/1068572713'
 bandcamp: 'https://whisperingsons.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4567978-Whispering-Sons'
 facebook: 'https://www.facebook.com/WhisperingSons'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Whispering_Sons?id=As6kjhui5afboahrwx7vcuocw7y
 instagram: 'https://www.instagram.com/whisperingsons'
 soundcloud: 'https://soundcloud.com/whisperingsons'

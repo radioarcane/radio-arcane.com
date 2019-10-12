@@ -1,10 +1,10 @@
 ---
 title: The Kentucky Vampires
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://thekentuckyvampires.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/thekentuckyvampires'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Atu67obztsafypufvy753p7roje
 instagram: ''
 soundcloud: ''

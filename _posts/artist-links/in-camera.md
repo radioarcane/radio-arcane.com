@@ -1,10 +1,10 @@
 ---
 title: In Camera
-apple_music: 'https://music.apple.com/artist/in-camera/138092130'
+appleMusic: 'https://music.apple.com/artist/in-camera/138092130'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/103014-In-Camera'
 facebook: 'https://www.facebook.com/InCameraOfficial'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/In_Camera?id=Arlk7kir34wa2bqhxtixrdqrgsq
 instagram: ''
 soundcloud: 'https://soundcloud.com/incameraofficial'

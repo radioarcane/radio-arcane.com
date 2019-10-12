@@ -1,10 +1,10 @@
 ---
 title: Jane Rose & The Deadend Boys
-apple_music: 'https://itunes.apple.com/artist/jane-rose-and-the-deadend-boys/480756380'
+appleMusic: 'https://itunes.apple.com/artist/jane-rose-and-the-deadend-boys/480756380'
 bandcamp: ''
 discogs: ''
 facebook: 'https://www.facebook.com/janeroseandthedeadendboys'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Jane_Rose_The_Deadend_Boys?id=Acuu37faheisvy6nlbf5ez2cgci
 instagram: ''
 soundcloud: ''

@@ -1,10 +1,10 @@
 ---
 title: KALT
-apple_music: ''
+appleMusic: ''
 bandcamp: ''
 discogs: ''
 facebook: 'https://www.facebook.com/KALT.EBM.France.Official'
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/user-41510140'
 spotify: ''

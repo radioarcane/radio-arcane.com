@@ -1,13 +1,13 @@
 ---
 layout: playlist
 title: 2019-08-28 Warped Wednesday
-display_name: 'Warped Wednesday'
-playlist_type: warped-wednesday
+displayName: 'Warped Wednesday'
+playlistType: warped-wednesday
 date: '2019-08-28'
-mixcloud_links:
+mixcloudLinks:
   - url: 'https://www.mixcloud.com/matt-kokas/2019-08-28-warped-wednesday-djs-kaleidosope-and-sorrow-vomit-seidenfadens-louisville-ky'
 sets:
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Benestrophe
@@ -30,7 +30,7 @@ sets:
         song: Alone
       - artist: Desolation Years
         song: Worlds Apart                   
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set        
     tracks:
       - artist: The Cure
@@ -57,7 +57,7 @@ sets:
       - artist: VNV Nation
         song: Wonders
         request: song
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: The Devil & The Universe
@@ -88,7 +88,7 @@ sets:
         song: Boris Transylvania Camp
       - artist: "Ascetic:"
         song: We Are Not All Dead
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
     tracks:
       - artist: Minuit Machine
@@ -121,7 +121,7 @@ sets:
         song: Cat’s Eyes (Black Lipstick Mix)
       - artist: Closed Mouth
         song: See What You Can Find
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Pindrops
@@ -150,7 +150,7 @@ sets:
         song: Todo El Caos Habita Aquí
       - artist: Kill Shelter
         song: Bodies (feat. Buzz Kull)
-  - dj_name: Kaleidoscope
+  - djName: Kaleidoscope
     type: dj_set
     tracks:
       - artist: Scary Black
@@ -181,7 +181,7 @@ sets:
         song: Charming World
       - artist: Polyverso
         song: Cannibal
-  - dj_name: Sorrow-Vomit
+  - djName: Sorrow-Vomit
     type: dj_set
     tracks:
       - artist: Bloody Dead & Sexy

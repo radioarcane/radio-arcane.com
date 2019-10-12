@@ -1,10 +1,10 @@
 ---
 title: The Human League
-apple_music: 'https://music.apple.com/artist/the-human-league/14138758'
+appleMusic: 'https://music.apple.com/artist/the-human-league/14138758'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/10383-The-Human-League'
 facebook: 'https://www.facebook.com/thehumanleague'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/The_Human_League?id=Atceppkudtwo66plj7zabytu3ti
 instagram: 'https://www.instagram.com/humanleaguehq'
 soundcloud: 'https://soundcloud.com/thehumanleagueofficial'

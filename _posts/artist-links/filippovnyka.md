@@ -1,10 +1,10 @@
 ---
 title: Filippovnyka
-apple_music: ''
+appleMusic: ''
 bandcamp: 'https://filippovnyka.bandcamp.com'
 discogs: ''
 facebook: ''
-google_music: ''
+googleMusic: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/filippovnyka'
 spotify: ''

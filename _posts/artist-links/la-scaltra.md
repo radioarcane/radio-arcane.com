@@ -1,10 +1,10 @@
 ---
 title: La Scaltra
-apple_music: 'https://itunes.apple.com/artist/la-scaltra/1124038139'
+appleMusic: 'https://itunes.apple.com/artist/la-scaltra/1124038139'
 bandcamp: 'https://lascaltra.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4946606-La-Scaltra'
 facebook: 'https://www.facebook.com/lascaltra'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/La_Scaltra?id=Anhx3nsah5tqkvpw3p4jv7fqz5y
 instagram: 'https://www.instagram.com/lascaltra'
 soundcloud: ''

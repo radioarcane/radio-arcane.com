@@ -1,10 +1,10 @@
 ---
 title: Antipole
-apple_music: 'https://itunes.apple.com/artist/antipole/936868598'
+appleMusic: 'https://itunes.apple.com/artist/antipole/936868598'
 bandcamp: 'https://antipole.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5675720-Antipole'
 facebook: 'https://www.facebook.com/antipoleband'
-google_music: >-
+googleMusic: >-
   https://play.google.com/store/music/artist/Antipole?id=Ahg47533sdrhsixh77n3bnlrgyi
 instagram: 'https://www.instagram.com/antipoleband'
 soundcloud: 'https://soundcloud.com/antipoleband'

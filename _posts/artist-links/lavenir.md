@@ -1,10 +1,10 @@
 ---
 title: L'Avenir
-apple_music: 'https://itunes.apple.com/artist/lavenir/381204080'
+appleMusic: 'https://itunes.apple.com/artist/lavenir/381204080'
 bandcamp: 'https://lavenir.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3395193-LAvenir'
 facebook: 'https://www.facebook.com/lavenir.synthwave'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist?id=Aqanunu77442e3mltffvpe5sue4
 instagram: 'https://www.instagram.com/lavenir_synth'
 soundcloud: 'https://soundcloud.com/jasonsloan'

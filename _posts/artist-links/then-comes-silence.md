@@ -1,10 +1,10 @@
 ---
 title: Then Comes Silence
-apple_music: 'https://itunes.apple.com/artist/then-comes-silence/571330455'
+appleMusic: 'https://itunes.apple.com/artist/then-comes-silence/571330455'
 bandcamp: 'https://thencomessilence.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3445253-Then-Comes-Silence'
 facebook: 'https://www.facebook.com/thencomessilence'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Then_Comes_Silence?id=Ayqjog5hiwixeczaek3po4d3p2q
 instagram: 'https://www.instagram.com/thencomessilence'
 soundcloud: 'https://soundcloud.com/then-comes-silence'

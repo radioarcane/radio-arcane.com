@@ -1,10 +1,10 @@
 ---
 title: Japan Suicide
-apple_music: 'https://itunes.apple.com/artist/japan-suicide/411218997'
+appleMusic: 'https://itunes.apple.com/artist/japan-suicide/411218997'
 bandcamp: 'https://japansuicide.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4268711-Japan-Suicide'
 facebook: 'https://www.facebook.com/JSBandMusic'
-google_music: >-
+googleMusic: >-
    https://play.google.com/store/music/artist/Japan_Suicide?id=Aamcpqy5itptpmnagxegiciux54
 instagram: ''
 soundcloud: 'https://soundcloud.com/j-apan-s-uicide'
