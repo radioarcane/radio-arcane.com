@@ -4,6 +4,8 @@ title: '2019-10-11 Arcane Alive'
 displayName: 'Arcane Alive!: WINGTIPS | Scary Black | Vyva Melinkolya | Hypnagogue'
 playlistType: arcane-alive
 date: '2019-10-11'
+mixcloudLinks:
+  - url: 'https://www.mixcloud.com/matt-kokas/radio-arcane-2019-10-11-djs-kaleidoscope-and-sorrow-vomit-art-sanctuary-louisville-ky'
 sets:
   - djName: Sorrow-Vomit
     type: dj_set
