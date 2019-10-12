@@ -83,6 +83,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/605325119874210'
 ticketsLink: 'https://www.showclix.com/event/wingtips-scary-black-vyva-melinkolya'
 cover: '10.00'
-playlist: ''
+playlist: '2019-10-11 Arcane Alive'
 ---
-
