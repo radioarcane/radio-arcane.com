@@ -3,13 +3,13 @@
       <Container>
          <Breadcrumb :crumbs="crumbs" />
 
-         <article v-if="getNextEvents($page.allEvent.edges, 1).length > 1">
+         <article v-if="getNextEvents($page.allEvent.edges, 2).length > 1">
             <Heading tag="h1" strike uppercase animate>
                Next Events
             </Heading>
 
             <div
-               v-for="node in getNextEvents($page.allEvent.edges, 3)"
+               v-for="node in getNextEvents($page.allEvent.edges, 2)"
                :key="node.id"
                class="event-divider"
             >
@@ -17,7 +17,7 @@
             </div>
          </article>
 
-         <article v-if="getNextEvents($page.allEvent.edges, 1).length === 1">
+         <article v-if="getNextEvents($page.allEvent.edges, 2).length === 1">
             <Heading tag="h1" strike uppercase animate>
                Next Event
             </Heading>
