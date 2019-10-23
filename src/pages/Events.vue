@@ -43,6 +43,14 @@
             </ul>
          </Section>
 
+         <Section v-if="$page.nextWarpedWedEvent.edges.length > 0" :padTop="true">
+            <Heading tag="h3" strike uppercase animate>
+               Next Warped Wednesday
+            </Heading>
+
+            <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
+         </Section>
+
          <Section :padBottom="true">
             <Heading tag="h3" strike uppercase animate>
                Past Events
@@ -65,14 +73,6 @@
                   <span>Load More</span> <SvgIcon use="angle-down" name="angle-down" />
                </Btn>
             </Center>
-         </Section>
-
-         <Section v-if="$page.nextWarpedWedEvent.edges.length > 0" :padTop="true">
-            <Heading tag="h3" strike uppercase animate>
-               Next Warped Wednesday
-            </Heading>
-
-            <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
          </Section>
       </Container>
    </Layout>
