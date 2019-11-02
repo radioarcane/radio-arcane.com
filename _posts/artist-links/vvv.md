@@ -1,5 +1,5 @@
 ---
-title: "Vvv"
+title: "VVV"
 appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/1733621-Vvv?anv=VVV'
