@@ -69,6 +69,10 @@ module.exports = {
                   changefreq: 'monthly',
                   priority: 0.6
                },
+               '/playlists': {
+                  changefreq: 'weekly',
+                  priority: 0.6
+               },
                '/arcane-alive': {
                   changefreq: 'monthly',
                   priority: 0.5
