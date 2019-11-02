@@ -4,6 +4,8 @@ title: 2019-10-30 Warped Wednesday
 displayName: 'Warped Wednesday'
 playlistType: warped-wednesday
 date: '2019-10-30'
+mixcloudLinks:
+  - url: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-2019-10-30-djs-kaleidoscope-sorrow-vomit-seidenfadens-louisville-ky'
 sets:
   - djName: Sorrow-Vomit
     type: dj_set
@@ -144,7 +146,7 @@ sets:
         song: The First Dream
       - artist: Years of Denial
         song: "Now/Here"
-      - artist: Current 93
+      - artist: "HÖH / Current 93"
         song: Crowleymass
       - artist: Engelsstaub
         song: Kissed By God
