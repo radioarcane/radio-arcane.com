@@ -1,5 +1,5 @@
 ---
-title: Q Lazzarus
+title: Q. Lazzarus
 appleMusic: 'https://music.apple.com/artist/q-lazzarus/279810501'
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/152426-Q-Lazzarus'

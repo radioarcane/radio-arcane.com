@@ -145,7 +145,7 @@ sets:
     tracks:
       - artist: The Cure
         song: Disintegration
-      - artist: Q Lazzarus
+      - artist: Q. Lazzarus
         song: Goodbye Horses
       - artist: Kleerup
         song: Rock U (ft. Niki & The Dove)

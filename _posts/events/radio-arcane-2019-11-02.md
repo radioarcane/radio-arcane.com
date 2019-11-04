@@ -14,5 +14,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/617530745321147'
 ticketsLink: ''
 cover: '5.00'
-playlist: ''
+playlist: '2019-11-02 Radio Arcane'
 ---

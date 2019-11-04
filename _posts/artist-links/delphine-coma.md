@@ -1,7 +1,7 @@
 ---
 title: Delphine Coma
 appleMusic: 'https://itunes.apple.com/artist/delphine-coma/606688377'
-bandcamp: 'https://swissdarknights.bandcamp.com/album/leaving-the-scene'
+bandcamp: 'https://delphinecoma.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/2641025-Delphine-Coma'
 facebook: 'https://www.facebook.com/Delphine.Coma'
 googleMusic: >-

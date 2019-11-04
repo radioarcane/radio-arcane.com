@@ -7,7 +7,7 @@ facebook: 'https://www.facebook.com/thismortalboy'
 googleMusic: >-
    https://play.google.com/store/music/artist?id=Aleazfu724uru7jbp2xqmkthnsi
 instagram: 'https://www.instagram.com/mortalboy'
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/mortalboy'
 spotify: 'https://open.spotify.com/artist/3cBfgXi4h5RCU8t70kmYXn'
 twitter: ''
 website: ''
