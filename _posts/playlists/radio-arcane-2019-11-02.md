@@ -175,8 +175,8 @@ sets:
         song: Suffer Well
       - artist: Maya Jane Coles
         song: Everything (feat. Karin Park)
-      - artist: BO1
-        song: Lost Track
+      - artist: Lost Trax
+        song: 'B01'
       - artist: ADULT.
         song: Tonight, We Fall
       - artist: Marie Davidson
