@@ -37,7 +37,7 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Display Name", name: "displayName", widget: "string"}
-      - {label: "Event Type", name: "eventType", widget: "select", options: ["radio-arcane", "arcane-alive", "warped-wednesday"]}
+      - {label: "Event Type", name: "eventType", widget: "select", options: ["radio-arcane", "arcane-alive", "warped-wednesday","convergence"]}
       - {label: "Date", name: "date", widget: "date", format: "YYYY-MM-DD"}
       - {label: "Start DateTime", name: "startDatetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
       - {label: "End DateTime", name: "endDatetime", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false, default: ""}
