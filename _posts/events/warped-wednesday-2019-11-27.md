@@ -6,7 +6,7 @@ eventType: warped-wednesday
 date: '2019-11-27'
 startDatetime: '2019-11-27 21:00:00'
 endDatetime: '2019-11-28 02:00:00'
-image: '/img/uploads/warped-wednesday-alt.jpg'
+image: '/img/uploads/warped-wed-2019-11.jpg'
 description: >-
   Darkwave, Post-Punk, Goth, Cold/Minimal Wave, EBM / Electro-Industrial, Classic Alternative, and
   related styles with DJs Kaleidoscope and Sorrow-Vomit.
