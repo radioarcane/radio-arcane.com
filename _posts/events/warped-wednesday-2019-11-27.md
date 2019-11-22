@@ -12,7 +12,7 @@ description: >-
   related styles with DJs Kaleidoscope and Sorrow-Vomit.
 shortDescription: ''
 location: Seidenfaden's
-facebookEventLink: 'https://www.facebook.com/events/548744609289084'
+facebookEventLink: 'https://www.facebook.com/events/461925724456718'
 ticketsLink: ''
 cover: '0.00'
 playlist: ''
