@@ -1,6 +1,6 @@
 ---
 title: The Kentucky Vampires
-appleMusic: ''
+appleMusic: 'https://music.apple.com/artist/the-kentucky-vampires/1467851425'
 bandcamp: 'https://thekentuckyvampires.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/thekentuckyvampires'
