@@ -97,7 +97,7 @@ sets:
         song: Kebabtraume
       - artist: Kill Shelter
         song: As Trees Do Fall (feat. Bragolin)
-      - artist: Alice Graves
+      - artist: Alice Greaves
         song: Juno St.
       - artist: Dead Husband
         song: Plastic Mind
