@@ -139,7 +139,7 @@ sets:
         song: Прости
       - artist: Bedless Bones
         song: Where Is My Voice
-      - artist: Karl Krave
+      - artist: Karl Kave
         song: You Killed Me Once
       - artist: Ringfinger
         song: Burning
