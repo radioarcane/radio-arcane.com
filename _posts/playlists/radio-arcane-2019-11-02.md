@@ -48,7 +48,7 @@ sets:
         song: In The Wake of Life
       - artist: Revolting Cocks
         song: You Often Forget (Malignant)
-      - artist: Mark E. Moon
+      - artist: Mark E Moon
         song: Into The Arms of Entropy
       - artist: Lovataraxx
         song: Craving
