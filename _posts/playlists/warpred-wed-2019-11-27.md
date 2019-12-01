@@ -79,8 +79,8 @@ sets:
     tracks:
       - artist: "1983"
         song: The Night Makes Me Feel Better
-      - artist: Grin
-        song: The Grin
+      - artist: The Grin
+        song: Grin
       - artist: Bestial Mouths
         song: Faceless
       - artist: Meager Benefits
