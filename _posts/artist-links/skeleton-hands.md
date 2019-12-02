@@ -8,7 +8,7 @@ googleMusic: >-
   https://play.google.com/store/music/artist/Skeleton_Hands?id=Ak5hfhy3ppiptis22rxve5t4x5a
 instagram: 'https://www.instagram.com/_skeletonhands_'
 soundcloud: 'https://soundcloud.com/skeleton-hands'
-spotify: ''
+spotify: 'https://open.spotify.com/artist/70B2c7OiayofpGbmMBNPw2'
 twitter: ''
 website: ''
 youtube: ''

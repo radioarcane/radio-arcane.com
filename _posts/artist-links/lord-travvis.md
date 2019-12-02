@@ -1,13 +1,14 @@
 ---
 title: "Lord Travvis"
 appleMusic: ''
-bandcamp: ''
+bandcamp: 'https://lordtravvis.bandcamp.com'
 discogs: ''
-facebook: ''
-googleMusic: ''
-instagram: ''
+facebook: 'https://www.facebook.com/LordTravvis'
+googleMusic: >-
+   https://play.google.com/store/music/artist?id=Ailtug2b2z3p76jgvqnnknt6nqi
+instagram: 'https://www.instagram.com/lordtravvis'
 soundcloud: 'https://soundcloud.com/user-177914391'
-spotify: ''
+spotify: 'https://open.spotify.com/artist/7frKNhHldknCX7DKx7kgki'
 twitter: ''
 website: ''
 youtube: ''

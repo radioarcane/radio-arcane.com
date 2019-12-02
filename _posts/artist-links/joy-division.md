@@ -1,7 +1,7 @@
 ---
 title: Joy Division
 appleMusic: 'https://itunes.apple.com/artist/joy-division/722383'
-bandcamp: ''
+bandcamp: 'https://joydivisionvinyl.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/3898-Joy-Division'
 facebook: 'https://www.facebook.com/JoyDivisionOfficial'
 googleMusic: >-

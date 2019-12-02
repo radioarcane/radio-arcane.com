@@ -1,14 +1,15 @@
 ---
 title: "Mittageisen"
 appleMusic: ''
-bandcamp: 'https://www.discogs.com/artist/194389-mittageisen'
-discogs: ''
+bandcamp: ''
+discogs: 'https://www.discogs.com/artist/194389-Mittageisen'
 facebook: ''
-googleMusic: ''
+googleMusic: >-
+   https://play.google.com/store/music/artist/?id=Akhmuwssgzxbdczcyveseyvbfyq
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/2RfDuRWGmjzLRXvsrWlXF6'
 twitter: ''
-website: ''
+website: 'http://mital-u.ch/mittageisen'
 youtube: ''
 ---

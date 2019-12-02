@@ -8,7 +8,7 @@ googleMusic: >-
    https://play.google.com/store/music/artist/Cinema_Strange?id=Ahpndaiq6ycfm6ylds26iffvc7m
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/1rbA8kgsBFQLlwLfErsLIW'
 twitter: ''
 website: ''
 youtube: ''

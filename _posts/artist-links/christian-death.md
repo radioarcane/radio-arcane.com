@@ -1,7 +1,7 @@
 ---
 title: Christian Death
 appleMusic: 'https://itunes.apple.com/artist/christian-death/6550137'
-bandcamp: ''
+bandcamp: 'https://frontierrecords-christiandeath.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/94647-Christian-Death'
 facebook: 'https://www.facebook.com/christiandeath'
 googleMusic: >-

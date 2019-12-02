@@ -1,13 +1,14 @@
 ---
 title: "E.R.P."
 appleMusic: ''
-bandcamp: ''
+bandcamp: 'https://solaronemusic.bandcamp.com/album/ancient-lights-hubble-telescope-series-vol-2'
 discogs: 'https://www.discogs.com/artist/65705-ERP'
 facebook: ''
-googleMusic: ''
+googleMusic: >-
+   https://play.google.com/store/music/artist/?id=Azbiwjrlvu2jvqwiazeelsu3xim
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/3vcvk3KEYLtJzXzFINzMDv'
 twitter: ''
 website: ''
 youtube: ''

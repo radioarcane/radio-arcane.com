@@ -8,7 +8,7 @@ googleMusic: >-
    https://play.google.com/store/music/artist/Tropic_of_Cancer?id=Au6deqykg42ny44wusmqfqmlrii
 instagram: ''
 soundcloud: 'https://soundcloud.com/camellalobo'
-spotify: ''
+spotify: 'https://open.spotify.com/artist/3qFOpjNiYRuQNVl564TGgO'
 twitter: 'https://twitter.com/tropc_of_cancr'
 website: ''
 youtube: ''

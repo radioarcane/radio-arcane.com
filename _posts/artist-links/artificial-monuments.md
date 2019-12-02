@@ -1,7 +1,7 @@
 ---
 title: "Artificial Monuments"
 appleMusic: ''
-bandcamp: ''
+bandcamp: 'https://artificialmonuments.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4609044-Artificial-Monuments'
 facebook: ''
 googleMusic: ''

@@ -1,14 +1,15 @@
 ---
 title: "ESSES"
 appleMusic: ''
-bandcamp: ''
+bandcamp: 'https://essesoakland.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5231968-Esses'
-facebook: ''
-googleMusic: ''
-instagram: ''
+facebook: 'https://www.facebook.com/essesoakland'
+googleMusic: >-
+   https://play.google.com/store/music/artist/?id=Ajcwwraiwoneskkympe5itq7w3q
+instagram: 'https://www.instagram.com/essesoakland'
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/7HBg0SjUKvVd3IW9v1bf4T'
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCG5u985z7N6LLd7Kum88MTQ'
 ---

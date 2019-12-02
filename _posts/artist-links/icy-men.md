@@ -1,14 +1,15 @@
 ---
 title: "Icy Men"
 appleMusic: ''
-bandcamp: ''
+bandcamp: 'https://icymen.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/6736049-Icy-Men'
-facebook: ''
-googleMusic: ''
+facebook: 'https://www.facebook.com/icymenkyiv'
+googleMusic: >-
+   https://play.google.com/store/music/artist?id=Aym224il7i4axaosjdfetyligbq
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/17YF5yFTnShjQmgUnvfiWo'
 twitter: ''
 website: ''
-youtube: ''
+youtube: 'https://www.youtube.com/channel/UCArR7Zsj2de2CzdrGlxkm7Q'
 ---

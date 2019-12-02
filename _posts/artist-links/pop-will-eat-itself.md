@@ -4,10 +4,11 @@ appleMusic: ''
 bandcamp: ''
 discogs: 'https://www.discogs.com/artist/3111-Pop-Will-Eat-Itself'
 facebook: ''
-googleMusic: ''
+googleMusic: >-
+   https://play.google.com/store/music/artist/?id=Aw3zr37pcgetij5vnx57qxhzsku
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/5rIXueJu7zVE2gDZjUM6g8'
 twitter: ''
 website: ''
 youtube: ''

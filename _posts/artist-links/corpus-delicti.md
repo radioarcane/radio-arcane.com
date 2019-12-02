@@ -1,7 +1,7 @@
 ---
 title: Corpus Delicti
 appleMusic: 'https://itunes.apple.com/artist/corpus-delicti/6516413'
-bandcamp: 'https://corpusdelicti.bandcamp.com'
+bandcamp: 'https://corpus-delicti.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/145550-Corpus-Delicti'
 facebook: 'https://www.facebook.com/cdelicti'
 googleMusic: >-

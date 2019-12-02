@@ -4,7 +4,8 @@ appleMusic: ''
 bandcamp: 'https://dilk.bandcamp.com'
 discogs: ''
 facebook: 'https://www.facebook.com/dilkband'
-googleMusic: ''
+googleMusic: >-
+   https://play.google.com/store/music/artist/?id=Ajyqirhhdmifjwr3xqpnnk3ik5m
 instagram: 'https://www.instagram.com/dilkband'
 soundcloud: 'https://soundcloud.com/dilkband'
 spotify: 'https://open.spotify.com/artist/4BLlCToGs5UbfIukFRhbWn'

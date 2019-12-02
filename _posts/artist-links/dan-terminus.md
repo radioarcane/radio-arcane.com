@@ -8,7 +8,7 @@ googleMusic: >-
    https://play.google.com/store/music/artist/Dan_Terminus?id=A7dn5ybwo4dztfmzaf74ua2xj3u
 instagram: 'https://www.instagram.com/danterminus'
 soundcloud: 'https://soundcloud.com/dan-smith-terminus'
-spotify: ''
+spotify: 'https://open.spotify.com/artist/6C0QgVuIzzi3f5NGBx4qWy'
 twitter: 'https://twitter.com/DanTerminus'
 website: ''
 youtube: ''

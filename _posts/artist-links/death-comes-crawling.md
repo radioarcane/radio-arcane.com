@@ -1,7 +1,7 @@
 ---
 title: "Death Comes Crawling"
 appleMusic: ''
-bandcamp: ''
+bandcamp: 'https://deathcomescrawling.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/6228807-Death-Comes-Crawling'
 facebook: ''
 googleMusic: ''

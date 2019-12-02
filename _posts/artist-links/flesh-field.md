@@ -1,7 +1,7 @@
 ---
 title: Flesh Field
 appleMusic: 'https://itunes.apple.com/artist/flesh-field/78988496'
-bandcamp: ''
+bandcamp: 'https://fleshfield.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/39915-Flesh-Field'
 facebook: 'https://www.facebook.com/club1261444'
 googleMusic: >-

@@ -1,7 +1,7 @@
 ---
 title: Blind Delon
 appleMusic: 'https://itunes.apple.com/artist/blind-delon/1176471845'
-bandcamp: ''
+bandcamp: 'https://blinddelon.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5271558-Blind-Delon'
 facebook: 'https://www.facebook.com/blinddelon'
 googleMusic: >-

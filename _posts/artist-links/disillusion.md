@@ -1,7 +1,7 @@
 ---
 title: Disillusion
 appleMusic: 'https://itunes.apple.com/artist/disillusion/203238089'
-bandcamp: ''
+bandcamp: 'https://disillusion-official.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/388646-Disillusion'
 facebook: 'https://www.facebook.com/disillusionBand'
 googleMusic: >-
