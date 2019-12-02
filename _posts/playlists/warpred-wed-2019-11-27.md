@@ -44,8 +44,6 @@ sets:
         song: Mavita
       - artist: The Frozen Autumn
         song: Second Sight (A)
-      - artist: Panic Priest
-        song: Gaffer
       - artist: The Bellwether Syndicate
         song: You Can See Through Me
       - artist: Subterfuge
