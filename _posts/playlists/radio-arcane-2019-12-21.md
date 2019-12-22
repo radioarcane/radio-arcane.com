@@ -28,7 +28,7 @@ sets:
         song: Le Moment (feat. Paris Alexander, Eirene)
   - djName: AndrOspore
     type: dj_set     
-  - guestDj: Guest DJ: Ethan Adrian
+  - guestDj: "Guest DJ: Ethan Adrian"
     type: dj_set
   - djName: Osiris Ani
     type: dj_set
