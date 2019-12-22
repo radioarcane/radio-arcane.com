@@ -6,7 +6,24 @@ playlistType: radio-arcane
 date: '2019-12-21'
 sets:                  
   - djName: Osiris Ani
-    type: dj_set      
+    type: dj_set    
+    tracks:
+      - artist: The Razor Skyline
+        song: The Longest Night of Year
+      - artist: Dragons
+        song: Remembrance
+      - artist: Joy Division
+        song: Transmission
+      - artist: Siouxsie & The Banshees
+        song: Fireworks
+      - artist: Ghost Twin
+        song: Chymical Wedding
+      - artist: Twin Tribes
+        song: Shadows
+      - artist: Clan of Xymox
+        song: Stranger
+      - artist: Dead Can Dance
+        song: Rakim      
   - djName: Sorrow-Vomit
     type: dj_set
     tracks:
@@ -30,8 +47,25 @@ sets:
     type: dj_set     
   - guestDj: "Guest DJ: Ethan Adrian"
     type: dj_set
-  - djName: Osiris Ani
+  - djName: Osiris Ani  
     type: dj_set
+    tracks:
+      - artist: Bigod 20
+        song: Carpe Diem (Tramsimssion Mix)
+      - artist: Traumabond
+        song: The Collective You
+      - artist: The Retrosic
+        song: Bloodsport
+      - artist: Skinny Puppy
+        song: Blue Serge
+      - artist: Statiqbloom
+        song: Atrophy of Three
+      - artist: Die Form
+        song: The Hate 2
+      - artist: Austra
+        song: Beat & The Pulse
+      - artist: Oingo Boingo
+        song: Insanity
   - djName: Sorrow-Vomit
     type: dj_set
     tracks:
