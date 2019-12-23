@@ -5,7 +5,7 @@ displayName: 'Radio Arcane'
 playlistType: radio-arcane
 date: '2019-12-21'
 mixcloudLinks:
-  - url: 'https://www.mixcloud.com/matt-kokas/radio-arcane-2019-10-11-djs-kaleidoscope-and-sorrow-vomit-art-sanctuary-louisville-ky'
+  - url: 'https://www.mixcloud.com/matt-kokas/radio-arcane-2019-12-21-sorrow-vomit-art-sanctuary-louisville-ky'
 sets:                  
   - djName: Osiris Ani
     type: dj_set    
