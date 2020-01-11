@@ -3,7 +3,7 @@
       <Container>
          <Breadcrumb :crumbs="crumbs" />
 
-         <article v-if="getNextEvents($page.allEvent.edges, 2).length > 1">
+         <article v-if="getNextEvents($page.allEvent.edges, 1).length > 1">
             <Heading tag="h1" strike uppercase animate>
                Next Events
             </Heading>
@@ -17,7 +17,7 @@
             </div>
          </article>
 
-         <article v-if="getNextEvents($page.allEvent.edges, 2).length === 1">
+         <article v-if="getNextEvents($page.allEvent.edges, 1).length === 1">
             <Heading tag="h1" strike uppercase animate>
                Next Event
             </Heading>
