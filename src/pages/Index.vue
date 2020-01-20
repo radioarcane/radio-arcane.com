@@ -26,6 +26,10 @@
             </div>
          </Section>
 
+         <Section v-if="$page.convergenceEvent.edges.length">
+            <Event :event="$page.convergenceEvent.edges[0].node" />
+         </Section>
+
          <Center>
             <Btn to="/events">
                <span>Checkout Upcoming & Past Events</span>
@@ -135,6 +139,39 @@
          }
       },
       nextLiveEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "arcane-alive"}}, sortBy: "date", order: ASC, perPage: 1) {
+         edges {
+            node {
+               id,
+               path,
+               slug,
+               title,
+               displayName,
+               eventType,
+               date,
+               startDatetime,
+               endDatetime,
+               image,
+               webp,
+               description,
+               shortDescription,
+               facebookEventLink,
+               ticketsLink,
+               cover,
+               expired,
+               location {
+                  title,
+                  address,
+                  address2,
+                  city,
+                  state,
+                  zipcode,
+                  venueLink,
+                  googleMapLink,
+               }
+            }
+         }
+      },
+      convergenceEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "convergence"}}, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,

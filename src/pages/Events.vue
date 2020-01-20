@@ -25,10 +25,15 @@
             <Event :event="getNextEvent($page.allEvent.edges)" />
          </article>
 
+
          <Section v-if="totalFutureEvents" :padBottom="true">
             <Title tag="h2">
                Upcoming Event Schedule
             </Title>
+
+            <div v-if="$page.convergenceEvent.edges.length">
+               <Event :event="$page.convergenceEvent.edges[0].node" />
+            </div>
 
             <ul>
                <li v-for="{ node } in getFutureEvents($page.allEvent.edges)" :key="node.id">
@@ -81,6 +86,39 @@
 <page-query>
    query Event {
       allEvent (filter: {eventType: {ne: "warped-wednesday"}}, sortBy: "date", order: DESC) {
+         edges {
+            node {
+               id,
+               path,
+               slug,
+               title,
+               displayName,
+               eventType,
+               date,
+               startDatetime,
+               endDatetime,
+               image,
+               webp,
+               description,
+               shortDescription,
+               facebookEventLink,
+               ticketsLink,
+               cover,
+               expired,
+               location {
+                  title,
+                  address,
+                  address2,
+                  city,
+                  state,
+                  zipcode,
+                  venueLink,
+                  googleMapLink,
+               }
+            }
+         }
+      },
+      convergenceEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "convergence"}}, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
