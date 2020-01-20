@@ -3,7 +3,7 @@ layout: event
 title: '2020-01-29 Warped Wednesday'
 displayName: 'Warped Wednesday'
 eventType: warped-wednesday
-date: '2019-01-29'
+date: '2020-01-29'
 startDatetime: '2020-01-29 21:00:00'
 endDatetime: '2020-01-30 02:00:00'
 image: '/img/uploads/warped-wednesday-alt.jpg'
