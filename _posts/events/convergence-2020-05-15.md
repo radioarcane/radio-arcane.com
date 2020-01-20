@@ -6,7 +6,7 @@ eventType: convergence
 date: '2020-05-15'
 startDatetime: '2020-05-15 09:00:00'
 endDatetime: '2020-05-17 23:59:59'
-image: '/img/uploads/convergence-26-louisville-banner.webp'
+image: '/img/uploads/convergence-26-louisville-banner.jpg'
 description: >-
   From May 15-May 17, 2020, Convergence, the annual international net.goth festival, finally lands in Louisville, KY.
 
