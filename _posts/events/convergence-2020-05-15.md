@@ -14,6 +14,8 @@ description: >-
 
   Full line-up coming soon...
 
+  Twin Tribes, The Bellwether Syndicate, Scary Black, and more to be announced.
+
 
 
   https://www.convergence26.com
