@@ -14,7 +14,7 @@ description: >-
 
   Full line-up coming soon...
 
-  Twin Tribes, The Bellwether Syndicate, Scary Black, and more to be announced.
+  Twin Tribes, The Bellwether Syndicate, The Rope, Scary Black, and more to be announced.
 
 
 
