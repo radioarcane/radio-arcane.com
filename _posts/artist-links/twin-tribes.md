@@ -9,7 +9,7 @@ googleMusic: >-
 instagram: 'https://www.instagram.com/Twin_Tribes'
 soundcloud: ''
 spotify: 'https://open.spotify.com/artist/7wxXs62y8Gjf6c6pxrnWIl'
-twitter: ''
+twitter: 'https://twitter.com/twin_tribes'
 website: ''
 youtube: 'https://www.youtube.com/channel/UC0-_sfuRknjcGNsEnMfbIWA'
 ---
