@@ -106,7 +106,8 @@ export const musicEvent = event => {
    if (event.cover || event.ticketsLink) {
       eventSchema.offers = {
          '@type': 'Offer',
-         "url": event.ticketsLink,
+         "availability": event.expired ? "http://schema.org/Discontinued" : "http://schema.org/PreSale",
+         "url": `${ config.siteUrl }${ event.path }`,
       };
 
       if (event.cover) {
@@ -128,7 +129,11 @@ export const radioSeries = () => {
       '@type' : "RadioSeries",
       name: config.siteName,
       url: config.mixcloud,
-      sameAs: config.soundcloud,
+      sameAs: [
+         config.soundcloud,
+         config.spotify,
+         config.podbean
+      ],
       description: 'Radio Arcane is a collective of Dark Music Specialists in Louisville, KY that host events, live music and dark arts entertainment.',
       image: `${ config.siteUrl }${ config.defaultMetaImg }`,
       encodingFormat: 'audio/mpeg',
@@ -138,9 +143,21 @@ export const radioSeries = () => {
    		logo: `${ config.siteUrl }${ config.defaultMetaImg }`,
    		name: config.siteName,
    		url: config.siteUrl,
-   		sameAs: config.facebook,
+   		sameAs: [
+            config.facebook,
+            config.twitter,
+            config.instagram,
+            config.mixcloud,
+            config.soundcloud,
+            config.spotify,
+            config.podbean
+         ],
    	},
-      genre: 'Gothic',
+      genre: [
+         'Gothic', 'Darkwave', 'Post-Punk',
+         'Coldwave', 'Industrial', 'Minimal Synth',
+         'EBM', 'Synthpop'
+      ],
       inLanguage: {
 			'@type': 'Language',
 			name: 'English',
@@ -217,7 +234,11 @@ export const episode = podcast => {
 			name: 'English',
 			alternateName: 'en'
 		},
-      genre: 'Gothic',
+      genre: [
+         'Gothic', 'Darkwave', 'Post-Punk',
+         'Coldwave', 'Industrial', 'Minimal Synth',
+         'EBM', 'Synthpop'
+      ],
       isAccessibleForFree: true,
       sameAs: []
    };
@@ -294,7 +315,11 @@ export const musicPlaylist = playlist => {
       numTracks: numTracks,
       track: tracks,
       dateCreated: playlist.date,
-      genre: 'Gothic',
+      genre: [
+         'Gothic', 'Darkwave', 'Post-Punk',
+         'Coldwave', 'Industrial', 'Minimal Synth',
+         'EBM', 'Synthpop'
+      ],
       producer: {
    		'@type': 'Organization',
    		logo: `${ config.siteUrl }${ config.defaultMetaImg }`,
