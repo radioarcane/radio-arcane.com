@@ -9,5 +9,7 @@ shortDescription: >-
   Featuring interviews with Panic Priest, PASTEL GHOST and Mr. Kitty.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-11-mr-kitty-pastel-ghost-panic-priest'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-11-mr-kitty-pastel-ghost-panic-priest'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-11-mr-kitty-pastel-ghost-panic-priest'
+spotifyLink: 'https://open.spotify.com/episode/3uveRhpWuajf2N5GWMh3nZ'
 playlist: 2019-10-22 Podcast
 ---

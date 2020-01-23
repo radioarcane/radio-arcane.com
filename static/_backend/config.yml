@@ -64,6 +64,8 @@ collections:
       - {label: "Short Description", name: "shortDescription", widget: "string", required: false, default: ""}
       - {label: "Mixcloud Link", name: "mixcloudLink", widget: "string", required: false, default: ""}
       - {label: "Soundcloud Link", name: "soundcloudLink", widget: "string", required: false, default: ""}
+      - {label: "Podbean Link", name: "podbeanLink", widget: "string", required: false, default: ""}
+      - {label: "Spotify Link", name: "spotifyLink", widget: "string", required: false, default: ""}
       - {label: "Playlist", name: "playlist", widget: "relation", required: false, default: "", collection: "playlists", searchFields: ["title", "date", "displayName"], valueField: "title", displayFields: ["title"]}
   - name: "playlists"
     label: "Playlists"

@@ -23,6 +23,45 @@
             {{ podcast.shortDescription }}
          </p>
 
+         <div class="podcast__formats">
+            <h4>Listen on:</h4>
+
+            <a v-if="podcast.mixcloudLink"
+               :href="podcast.mixcloudLink"
+               target="_blank"
+               title="Listen on Mixcloud"
+            >
+               <SvgIcon name="mixcloud" use="mixcloud" />
+            </a>
+
+            <a v-if="podcast.spotifyLink"
+               :href="podcast.spotifyLink"
+               target="_blank"
+               title="Listen on Spotify"
+            >
+               <SvgIcon name="spotify" use="spotify" />
+            </a>
+
+            <a v-if="podcast.soundcloudLink"
+               :href="podcast.soundcloudLink"
+               target="_blank"
+               title="Listen on SoundCloud"
+            >
+               <SvgIcon name="soundcloud" use="soundcloud" />
+            </a>
+
+            <a v-if="podcast.podbeanLink"
+               :href="podcast.podbeanLink"
+               target="_blank"
+               title="Listen on Podbean"
+            >
+               <img src="/img/logos/podbean.png"
+                    alt="Available on Podbean"
+                    class="podbean-img"
+               />
+            </a>
+         </div>
+
          <div v-if="podcast.mixcloudLink" class="podcast__player">
             <MixcloudPlayer :url="podcast.mixcloudLink" />
          </div>
@@ -110,9 +149,41 @@
 
       }
 
+      &__formats {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: flex-start;
+         align-items: center;
+         padding-bottom: 1.5rem;
+         @include fluid-type($screen-s-min, $screen-xxl-min, 30px, 50px);
+
+         h4 {
+            opacity: 0.8;
+            margin-bottom: 0;
+         }
+
+         a {
+            margin-left: 0.25em;
+            @include fluid-type($screen-s-min, $screen-xxl-min, 30px, 50px);
+            color: $white;
+            transition: all 200ms ease-in-out;
+
+            &:hover,
+            &:focus,
+            &:active {
+               color: darken($white, 40%);
+            }
+         }
+      }
+
+
       &__blurb {
          @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 20px);
          opacity: 0.9;
       }
+   }
+
+   .podbean-img {
+      width: 150px;
    }
 </style>

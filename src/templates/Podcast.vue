@@ -44,6 +44,45 @@
                   lg: $page.podcast.image ? 9 : 12
                }">
                   <div v-html="$page.podcast.description" />
+
+                  <div class="podcast-formats">
+                     <h4>Listen on:</h4>
+
+                     <a v-if="$page.podcast.mixcloudLink"
+                        :href="$page.podcast.mixcloudLink"
+                        target="_blank"
+                        title="Listen on Mixcloud"
+                     >
+                        <SvgIcon name="mixcloud" use="mixcloud" />
+                     </a>
+
+                     <a v-if="$page.podcast.spotifyLink"
+                        :href="$page.podcast.spotifyLink"
+                        target="_blank"
+                        title="Listen on Spotify"
+                     >
+                        <SvgIcon name="spotify" use="spotify" />
+                     </a>
+
+                     <a v-if="$page.podcast.soundcloudLink"
+                        :href="$page.podcast.soundcloudLink"
+                        target="_blank"
+                        title="Listen on SoundCloud"
+                     >
+                        <SvgIcon name="soundcloud" use="soundcloud" />
+                     </a>
+
+                     <a v-if="$page.podcast.podbeanLink"
+                        :href="$page.podcast.podbeanLink"
+                        target="_blank"
+                        title="Listen on Podbean"
+                     >
+                        <img src="/img/logos/podbean.png"
+                             alt="Available on Podbean"
+                             class="podbean-img"
+                        />
+                     </a>
+                  </div>
                </GridItem>
                <GridItem padTop :sizes="{
                   xs: 12
@@ -81,6 +120,8 @@
         webp,
         mixcloudLink,
         soundcloudLink,
+        podbeanLink,
+        spotifyLink,
         playlist {
            sets {
               tracks {
@@ -119,6 +160,7 @@
    import MixcloudPlayer from '~/components/MixcloudPlayer.vue';
    import Playlist from '~/components/Playlist.vue';
    import Section from '~/components/Section.vue';
+   import SvgIcon from '~/components/SvgIcon.vue';
    import Title from '~/components/Title.vue';
 
    export default {
@@ -132,6 +174,7 @@
          MixcloudPlayer,
          Playlist,
          Section,
+         SvgIcon,
          Title,
       },
       metaInfo() {
@@ -198,5 +241,36 @@
       text-align: right;
       font-size: 80%;
       opacity: 0.8;
+   }
+
+   .podcast-formats {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      padding-bottom: 1.5rem;
+      @include fluid-type($screen-s-min, $screen-xxl-min, 30px, 50px);
+
+      h4 {
+         opacity: 0.8;
+         margin-bottom: 0;
+      }
+
+      a {
+         margin-left: 0.25em;
+         @include fluid-type($screen-s-min, $screen-xxl-min, 30px, 50px);
+         color: $white;
+         transition: all 200ms ease-in-out;
+
+         &:hover,
+         &:focus,
+         &:active {
+            color: darken($white, 40%);
+         }
+      }
+   }
+
+   .podbean-img {
+      width: 150px;
    }
 </style>

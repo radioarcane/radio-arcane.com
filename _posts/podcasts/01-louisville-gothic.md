@@ -15,5 +15,7 @@ shortDescription: 'Inaugural episode featuring local and regional dark music fro
 the surrounding region.'
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-01-louisville-gothic'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-01-louisville-gothic'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-01-louisville-gothic'
+spotifyLink: 'https://open.spotify.com/episode/2O7uWy0ap0eQRWU7ZJdTCx'
 playlist: '2019-01-28 Podcast'
 ---

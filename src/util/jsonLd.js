@@ -218,7 +218,8 @@ export const episode = podcast => {
 			alternateName: 'en'
 		},
       genre: 'Gothic',
-      isAccessibleForFree: true
+      isAccessibleForFree: true,
+      sameAs: []
    };
 
    if (episodeNumber) {
@@ -231,7 +232,15 @@ export const episode = podcast => {
       episodeSchema.discussionUrl = podcast.mixcloudLink;
 
       if (podcast.soundcloudLink) {
-         episodeSchema.sameAs = podcast.soundcloudLink;
+         episodeSchema.sameAs.push(podcast.soundcloudLink);
+      }
+
+      if (podcast.podbeanLink) {
+         episodeSchema.sameAs.push(podcast.podbeanLink);
+      }
+
+      if (podcast.spotifyLink) {
+         episodeSchema.sameAs.push(podcast.spotifyLink);
       }
 
       episodeSchema.audio = {

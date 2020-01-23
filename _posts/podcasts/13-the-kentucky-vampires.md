@@ -9,5 +9,7 @@ shortDescription: >-
   Featuring an interview with The Kentucky Vampires.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-13-the-kentucky-vampires'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-13-the-kentucky-vampires'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-13-the-kentucky-vampires'
+spotifyLink: 'https://open.spotify.com/episode/3HZPP5JjI6OEKn1zlLyYsK'
 playlist: 2019-11-25 Podcast
 ---

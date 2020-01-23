@@ -9,5 +9,7 @@ shortDescription: >-
   Featuring interviews with Twin Tribes & Skeleton Hands.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-13-twin-tribes-skeleton-hands'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-14-twin-tribes-skeleton-hands'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-14-twin-tribes-skeleton-hands'
+spotifyLink: 'https://open.spotify.com/episode/07Ukm19zZFiOUVE8tjJBIr'
 playlist: 2020-01-20 Podcast
 ---

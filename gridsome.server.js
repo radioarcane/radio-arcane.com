@@ -80,6 +80,8 @@ const defaultPodcast = {
    shortDescription: null,
    mixcloudLink: null,
    soundcloudLink: null,
+   podbeanLink: null,
+   spotifyLink: null,
    playlist: null,
 };
 

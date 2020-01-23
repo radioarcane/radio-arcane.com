@@ -9,5 +9,7 @@ shortDescription: >-
   Featuring an interview of bassist Gary Basil Bromley of legendary 4AD band Dif Juz.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-10-classic-4ad'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-10-classic-4ad'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-10-classic-4ad'
+spotifyLink: 'https://open.spotify.com/episode/5W32r9hjXgPHWPbHQ5Iiyx'
 playlist: 2019-09-29 Podcast
 ---

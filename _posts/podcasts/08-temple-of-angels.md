@@ -9,5 +9,7 @@ shortDescription: >-
   Featuring an interview and music by the bands Temple of Angels and Vyva Melinkolya.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-08-temple-of-angels'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-08-temple-of-angels'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-08-temple-of-angels'
+spotifyLink: 'https://open.spotify.com/episode/1cTvrAPyU5bjePpjEAn43J'
 playlist: 2019-08-26 Podcast
 ---

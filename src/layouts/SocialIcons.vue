@@ -43,6 +43,10 @@
                name: 'Soundcloud',
                url: config.soundcloud,
                icon: 'soundcloud',
+            }, {
+               name: 'Spotify',
+               url: config.spotify,
+               icon: 'spotify'
             }]
          };
       }
@@ -58,7 +62,7 @@
          vertical-align: middle;
          line-height: 1;
          line-height: 1em;
-         margin: 0 0.25em;
+         margin: 0 0.15em;
          text-align: center;
          text-decoration: none;
          @include fluid-type($screen-s-min, $screen-xxl-min, 30px, 50px);

@@ -251,6 +251,8 @@
                shortDescription,
                mixcloudLink,
                soundcloudLink,
+               podbeanLink,
+               spotifyLink
             }
          }
       }

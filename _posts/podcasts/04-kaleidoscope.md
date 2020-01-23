@@ -13,5 +13,7 @@ shortDescription: >-
   Fourth episode featuring an interview with dj Kaleidoscope of Radio Arcane.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-04-kaleidoscope'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-04-kaleidoscope'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-04-kaleidoscope'
+spotifyLink: 'https://open.spotify.com/episode/7EbY24G2XhZHhxMMBPLQxB'
 playlist: 2019-04-28 Podcast
 ---

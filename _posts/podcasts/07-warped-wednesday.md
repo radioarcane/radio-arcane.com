@@ -9,5 +9,7 @@ shortDescription: >-
   Featuring interview and playlist from Dark Music Duo Thulsa Goon and Talamasca and host Steve Vessell of Warped Wednesday
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-07-warped-wednesday'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-07-warped-wednesday'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-07-warped-wednesday'
+spotifyLink: 'https://open.spotify.com/episode/5a9xhQqbmiLnuwSy1P0b3t'
 playlist: 2019-07-23 Podcast
 ---

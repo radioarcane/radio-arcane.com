@@ -15,5 +15,7 @@ description: >-
 shortDescription: 'Interview with Brian Cole of Funeral Party Records and music from the Funeral Party vault...'
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-02-funeral-party-records'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-02-funeral-party-records'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-02-funeral-party-records'
+spotifyLink: 'https://open.spotify.com/episode/4jzYrVqAE1orJARnLRQs5V'
 playlist: '2019-03-04 Podcast'
 ---

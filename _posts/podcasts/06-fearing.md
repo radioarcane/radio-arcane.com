@@ -9,5 +9,7 @@ shortDescription: >-
   Featuring interview and live performance of the band Fearing.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-06-fearing'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-06-fearing'
+podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-06-fearing'
+spotifyLink: 'https://open.spotify.com/episode/12G7qvXp5jkySGj57XMNcB'
 playlist: 2019-06-30 Podcast
 ---
