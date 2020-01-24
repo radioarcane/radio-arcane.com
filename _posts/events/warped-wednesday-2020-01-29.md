@@ -6,13 +6,12 @@ eventType: warped-wednesday
 date: '2020-01-29'
 startDatetime: '2020-01-29 21:00:00'
 endDatetime: '2020-01-30 02:00:00'
-image: '/img/uploads/warped-wednesday-alt.jpg'
+image: '/img/uploads/warped-wed-2020-01.jpg'
 description: >-
-  Darkwave, Post-Punk, Goth, Cold/Minimal Wave, EBM / Electro-Industrial, Classic Alternative, and
-  related styles with DJs Kaleidoscope and Sorrow-Vomit.
+  Darkwave, Post-Punk, Goth, Coldwave, Minimal Synth, EBM, and related styles with DJs Kaleidoscope and Sorrow-Vomit.
 shortDescription: ''
 location: Seidenfaden's
-facebookEventLink:
+facebookEventLink: 'https://www.facebook.com/events/2141799032589701'
 ticketsLink: ''
 cover: '0.00'
 playlist: ''
