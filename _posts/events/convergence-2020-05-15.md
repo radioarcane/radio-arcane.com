@@ -14,7 +14,7 @@ description: >-
 
   Full line-up coming soon...
 
-  Twin Tribes, WINGTIPS, The Bellwether Syndicate, The Rope, Scary Black, Vyva Melinkolya, and more to be announced.
+  Twin Tribes, WINGTIPS, The Bellwether Syndicate, Sonsombre, The Rope, Scary Black, Vyva Melinkolya, and more to be announced.
 
 
 
