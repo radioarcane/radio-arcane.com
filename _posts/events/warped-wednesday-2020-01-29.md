@@ -14,5 +14,5 @@ location: Seidenfaden's
 facebookEventLink: 'https://www.facebook.com/events/2141799032589701'
 ticketsLink: ''
 cover: '0.00'
-playlist: ''
+playlist: '2020-01-29 Warped Wednesday'
 ---
