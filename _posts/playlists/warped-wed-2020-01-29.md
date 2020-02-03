@@ -5,6 +5,7 @@ displayName: 'Warped Wednesday'
 playlistType: warped-wednesday
 date: '2020-01-29'
 mixcloudLinks:
+  - url: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-2020-01-29-dj-sorrow-vomit-seidenfadens-louisville-ky'
 sets:
   - djName: Kaleidoscope
     type: dj_set
