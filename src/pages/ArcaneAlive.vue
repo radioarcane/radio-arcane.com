@@ -13,7 +13,7 @@
             </Section>
          </article>
 
-         <Section v-if="$page.nextEvents.edges.length === 1" :padBottom="true">
+         <Section v-if="$page.nextEvents.edges.length === 1" :padBottom="false">
             <Heading strike animate uppercase>
                Next Live Event
             </Heading>
@@ -34,6 +34,11 @@
                <Event :event="node" />
             </div>
          </Section>
+
+         <div v-if="$page.nextEvents.edges.length >= 1">
+            <hr />
+            <br />
+         </div>
 
          <Section v-if="$page.convergenceEvent.edges.length">
             <Event :event="$page.convergenceEvent.edges[0].node" />

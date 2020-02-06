@@ -33,6 +33,7 @@
 
             <div v-if="$page.convergenceEvent.edges.length">
                <Event :event="$page.convergenceEvent.edges[0].node" />
+               <hr /><br />
             </div>
 
             <ul>
