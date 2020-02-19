@@ -11,7 +11,7 @@ description: >-
   Darkwave, Post-Punk, Goth, Coldwave, Minimal Synth, EBM, and related styles with DJs Kaleidoscope and Sorrow-Vomit.
 shortDescription: ''
 location: Seidenfaden's
-facebookEventLink: ''
+facebookEventLink: 'https://www.facebook.com/events/135459481032112'
 ticketsLink: ''
 cover: '0.00'
 playlist: ''
