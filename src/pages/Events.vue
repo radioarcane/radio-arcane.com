@@ -3,13 +3,13 @@
       <Container>
          <Breadcrumb :crumbs="crumbs" />
 
-         <article v-if="getNextEvents($page.allEvent.edges, 1).length > 1">
+         <article v-if="getNextEvents($page.allEvent.edges, 3).length > 1">
             <Heading tag="h1" strike uppercase animate>
                Next Events
             </Heading>
 
             <div
-               v-for="node in getNextEvents($page.allEvent.edges, 2)"
+               v-for="node in getNextEvents($page.allEvent.edges, 3)"
                :key="node.id"
                class="event-divider"
             >
@@ -17,7 +17,7 @@
             </div>
          </article>
 
-         <article v-if="getNextEvents($page.allEvent.edges, 1).length === 1">
+         <article v-if="getNextEvents($page.allEvent.edges, 3).length === 1">
             <Heading tag="h1" strike uppercase animate>
                Next Event
             </Heading>
@@ -26,15 +26,21 @@
          </article>
 
 
+         <div v-if="$page.convergenceEvent.edges.length">
+            <Section v-if="totalFutureEvents" :padBottom="true">
+               <Title tag="h2">
+                  Convergence 26 Festival: May 15 - May 17, 2020
+               </Title>
+
+               <Event :event="$page.convergenceEvent.edges[0].node" />
+            </Section>
+         </div>
+
+
          <Section v-if="totalFutureEvents" :padBottom="true">
             <Title tag="h2">
                Upcoming Event Schedule
             </Title>
-
-            <div v-if="$page.convergenceEvent.edges.length">
-               <Event :event="$page.convergenceEvent.edges[0].node" />
-               <hr /><br />
-            </div>
 
             <ul>
                <li v-for="{ node } in getFutureEvents($page.allEvent.edges)" :key="node.id">

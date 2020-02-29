@@ -1,5 +1,5 @@
 ---
-title: H ø R D
+title: HøRD
 appleMusic: 'https://itunes.apple.com/artist/h-%C3%B8-r-d/1123748366'
 bandcamp: 'https://hordmusic.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/4097447-H%C3%B8RD'

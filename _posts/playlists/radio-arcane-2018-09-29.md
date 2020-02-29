@@ -7,7 +7,7 @@ date: '2018-09-29'
 sets:
   - djName: Sorrow-Vomit
     tracks:
-      - artist: H ø R D
+      - artist: HøRD
         song: Tearwave
       - artist: Monowelt
         song: Die Stadt

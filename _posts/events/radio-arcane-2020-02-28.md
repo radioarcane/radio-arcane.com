@@ -38,5 +38,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/516184415676502'
 ticketsLink: ''
 cover: '5.00'
-playlist: ''
+playlist: '2020-02-28 Radio Arcane'
 ---

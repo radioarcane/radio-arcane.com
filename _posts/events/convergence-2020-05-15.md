@@ -4,7 +4,7 @@ title: '2020-05-15 Convergence'
 displayName: 'Convergence 26: May 15-17'
 eventType: convergence
 date: '2020-05-15'
-startDatetime: '2020-05-15 09:00:00'
+startDatetime: '2020-05-15 19:00:00'
 endDatetime: '2020-05-18 02:00:00'
 image: '/img/uploads/convergence-26-louisville.jpg'
 description: >-
@@ -20,6 +20,10 @@ description: >-
 
   Twin Tribes, WINGTIPS, The Bellwether Syndicate, The Rope, Sonsombre, God Module, Xorcist, S Y Z Y G X, Scary Black, The Kentucky Vampires, and Vyva Melinkolya.
 
+
+  DJs:
+
+  The Pirate Twins (Scary Lady Sarah & William Faith), DJ Azy & DJ MAUS (Obscura Undead), DJ Ichabod, DJ Mistress McCutchan, Philly Peroxide, DJ Skeletal, and Radio Arcane’s AndrOspore, Brian Drabant, DJ Kaleidoscope, Osiris Ani, & Sorrow-Vomit.
 
 
   https://www.convergence26.com

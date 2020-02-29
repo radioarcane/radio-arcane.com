@@ -147,7 +147,7 @@
                img: 'osiris-ani',
                name: 'Osiris Ani'
             }, {
-               img: 'sorrow-vomit',
+               img: 'sorrow-vomit-2',
                name: 'Sorrow-Vomit'
             }, {
                img: 'talamasca',
