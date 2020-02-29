@@ -59,7 +59,7 @@ sets:
         song: Silence
       - artist: The Horrorist
         song: Eternity I Search
-      - artist: SYZYGYX
+      - artist: S Y Z Y G Y X
         song: Runaways
       - artist: Bikini Kill
         song: Rebel Girl
