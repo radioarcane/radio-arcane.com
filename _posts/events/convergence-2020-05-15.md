@@ -23,7 +23,7 @@ description: >-
 
   DJs:
 
-  The Pirate Twins (Scary Lady Sarah & William Faith), DJ Azy & DJ MAUS (Obscura Undead), DJ Ichabod, DJ Mistress McCutchan, Philly Peroxide, DJ Skeletal, and Radio Arcane’s AndrOspore, Brian Drabant, DJ Kaleidoscope, Osiris Ani, & Sorrow-Vomit.
+  The Pirate Twins (Scary Lady Sarah & William Faith), DJ Azy & DJ MAUS (Obscura Undead), DJ Ichabod, DJ Mistress McCutchan, Philly Peroxide, DJ Skeletal, and Radio Arcane’s AndrOspore, Brian Drabant, DJ Kaleidoscope, Osiris Ani, Sorrow-Vomit, and Talamasca.
 
 
   https://www.convergence26.com
