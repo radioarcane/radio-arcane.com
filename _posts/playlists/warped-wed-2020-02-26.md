@@ -22,7 +22,7 @@ sets:
         song: Complainer
       - artist: Ploho
         song: Пыль
-      - artist: The Psychedlic Furs
+      - artist: The Psychedelic Furs
         song: "Alice's House"
         request: artist
       - artist: Soft Cell
