@@ -6,7 +6,7 @@ eventType: convergence
 date: '2020-05-15'
 startDatetime: '2020-05-15 19:00:00'
 endDatetime: '2020-05-18 02:00:00'
-image: '/img/uploads/convergence-26-louisville.jpg'
+image: '/img/uploads/convergence-26-lineup.jpg'
 description: >-
   For twenty-six years, Convergence has been the annual party thrown by the denizens of alt.gothic for themselves and the broader worldwide Goth community. Hundreds of Goths from around the globe descend upon a single city for a weekend of socializing, musical events, and various forms of indulgence.
 
