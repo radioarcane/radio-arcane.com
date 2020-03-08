@@ -5,6 +5,7 @@ displayName: 'Warped Wednesday'
 playlistType: warped-wednesday
 date: '2020-02-26'
 mixcloudLinks:
+   - url: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-2020-02-26-djs-sorrow-vomit-kaleidoscope-scary-black-seidenfadens'
 sets:
   - djName: Sorrow-Vomit
     type: dj_set
