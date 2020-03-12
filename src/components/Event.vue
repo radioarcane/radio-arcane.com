@@ -46,7 +46,10 @@
             </div>
          </header>
 
-         <div class="event__text" v-html="event.description" />
+         <div v-if="event.cancelled" class="event__text">
+            <p>Sorry, but this event has been cancelled.</p>
+         </div>
+         <div v-else class="event__text" v-html="event.description" />
 
          <div v-if="event.location" class="event__location">
             <SvgIcon name="location" use="location" />

@@ -120,6 +120,10 @@ export const musicEvent = event => {
       }
    }
 
+   if (event.cancelled) {
+      eventSchema.eventStatus = "http://schema.org/EventCancelled";
+   }
+
    return eventSchema;
 };
 

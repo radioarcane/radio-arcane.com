@@ -54,6 +54,7 @@ const defaultEvent = {
    title: null,
    displayName: null,
    eventType: null,
+   cancelled: false,
    date: null,
    startDatetime: null,
    endDatetime: null,

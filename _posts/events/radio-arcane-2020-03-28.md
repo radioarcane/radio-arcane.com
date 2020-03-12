@@ -1,11 +1,12 @@
 ---
 layout: event
 title: '2020-03-28 Radio Arcane'
-displayName: 'Radio Arcane : Afterhours - A Tribute To The Sisters Of Mercy'
+displayName: 'CANCELLED - Radio Arcane : Afterhours - A Tribute To The Sisters Of Mercy'
 eventType: radio-arcane
 date: '2020-03-28'
 startDatetime: '2020-03-28 22:00:00'
 endDatetime: '2020-03-29 03:00:00'
+cancelled: true
 image: '/img/uploads/radio-arcane-2020-03-28-sisters-of-mercy.jpg'
 description: >-
    Afterhours : A Tribute To The Sisters Of Mercy -

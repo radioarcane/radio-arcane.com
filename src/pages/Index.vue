@@ -17,6 +17,12 @@
                </span>
             </Heading>
 
+            <div class="event-alert">
+               <p>
+                  Due to the overwhelming nature of COVID-19, Radio Arcane has postponed the "Afterhours - A Tribute To The Sisters Of Mercy" event that was scheduled for Saturday March 28, 2020. We will reschedule the event for another time in the future. Stay tuned.
+               </p>
+            </div>
+
             <div
                v-for="({node}, index) in $page.nextEvents.edges"
                :key="node.id"
@@ -68,7 +74,8 @@
    query HomeData {
       nextEvents: allEvent (filter: {
             expired: { eq: false },
-            eventType: {ne: "warped-wednesday"}
+            eventType: {ne: "warped-wednesday"},
+            cancelled: { ne: true}
          },
          sortBy: "date",
          order: ASC,
@@ -82,6 +89,7 @@
                title,
                displayName,
                eventType,
+               cancelled,
                date,
                startDatetime,
                endDatetime,
@@ -106,7 +114,11 @@
             }
          }
       },
-      nextEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "radio-arcane"}}, sortBy: "date", order: ASC, perPage: 1) {
+      nextEvent: allEvent (filter: {
+         expired: { eq: false },
+         eventType: {eq: "radio-arcane"},
+         cancelled: { ne: true}
+      }, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
@@ -115,6 +127,7 @@
                title,
                displayName,
                eventType,
+               cancelled,
                date,
                startDatetime,
                endDatetime,
@@ -139,7 +152,11 @@
             }
          }
       },
-      nextLiveEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "arcane-alive"}}, sortBy: "date", order: ASC, perPage: 1) {
+      nextLiveEvent: allEvent (filter: {
+         expired: { eq: false },
+         eventType: {eq: "arcane-alive"},
+         cancelled: { ne: true}
+      }, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
@@ -151,6 +168,7 @@
                date,
                startDatetime,
                endDatetime,
+               cancelled,
                image,
                webp,
                description,
@@ -172,7 +190,11 @@
             }
          }
       },
-      convergenceEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "convergence"}}, sortBy: "date", order: ASC, perPage: 1) {
+      convergenceEvent: allEvent (filter: {
+         expired: { eq: false },
+         eventType: {eq: "convergence"},
+         cancelled: { ne: true}
+      }, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
@@ -184,6 +206,7 @@
                date,
                startDatetime,
                endDatetime,
+               cancelled,
                image,
                webp,
                description,
@@ -205,7 +228,11 @@
             }
          }
       },
-      nextWarpedWedEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "warped-wednesday"}}, sortBy: "date", order: ASC, perPage: 1) {
+      nextWarpedWedEvent: allEvent (filter: {
+         expired: { eq: false },
+         eventType: {eq: "warped-wednesday"},
+         cancelled: {ne: true}
+      }, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
@@ -217,6 +244,7 @@
                date,
                startDatetime,
                endDatetime,
+               cancelled,
                image,
                webp,
                description,
@@ -298,5 +326,17 @@
    .event-divider {
       margin:0 0 2em;
       border-bottom: 2px solid hex-to-rgba($white-smoke, 0.5);
+   }
+
+   .event-alert {
+      background: $black;
+      margin: 2.5rem 0;
+      padding: 2rem;
+      border-radius: 10px;
+      border: 2px solid hex-to-rgba($white-smoke, 1);
+
+      > *:last-child {
+         margin-bottom: 0;
+      }
    }
 </style>

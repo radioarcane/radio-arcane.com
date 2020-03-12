@@ -92,7 +92,7 @@
 
 <page-query>
    query Event {
-      allEvent (filter: {eventType: {ne: "warped-wednesday"}}, sortBy: "date", order: DESC) {
+      allEvent (filter: {eventType: {ne: "warped-wednesday"}, cancelled: { ne: true}}, sortBy: "date", order: DESC) {
          edges {
             node {
                id,
@@ -101,6 +101,7 @@
                title,
                displayName,
                eventType,
+               cancelled,
                date,
                startDatetime,
                endDatetime,
@@ -135,6 +136,7 @@
                displayName,
                eventType,
                date,
+               cancelled,
                startDatetime,
                endDatetime,
                image,
@@ -158,13 +160,14 @@
             }
          }
       },
-      nextWarpedWedEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "warped-wednesday"}}, sortBy: "date", order: ASC, perPage: 1) {
+      nextWarpedWedEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "warped-wednesday"},cancelled: { ne: true}}, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
                path,
                slug,
                title,
+               cancelled,
                displayName,
                eventType,
                date,

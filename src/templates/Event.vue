@@ -37,6 +37,7 @@
          date,
          startDatetime,
          endDatetime,
+         cancelled,
          image,
          webp,
          description,
