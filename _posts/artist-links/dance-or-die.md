@@ -1,7 +1,7 @@
 ---
 title: Dance Or Die
 appleMusic: 'https://itunes.apple.com/artist/dance-or-die/444971074'
-bandcamp: ''
+bandcamp: 'https://danceordielast.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/22903-Dance-Or-Die'
 facebook: 'https://www.facebook.com/danceordieofficial'
 googleMusic: >-

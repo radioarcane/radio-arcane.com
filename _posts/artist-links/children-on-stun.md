@@ -1,7 +1,7 @@
 ---
 title: Children On Stun
 appleMusic: 'https://itunes.apple.com/artist/children-on-stun/155736021'
-bandcamp: ''
+bandcamp: 'https://armalyte.bandcamp.com/album/children-on-stun-echoes'
 discogs: 'https://www.discogs.com/artist/244507-Children-On-Stun'
 facebook: 'https://www.facebook.com/officialchildrenonstun'
 googleMusic: >-

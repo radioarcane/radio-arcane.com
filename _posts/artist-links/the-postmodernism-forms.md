@@ -3,7 +3,7 @@ title: The Postmodernism Forms
 appleMusic: ''
 bandcamp: 'https://thepostmodernismforms.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/6531966-The-Postmodernism-Forms'
-facebook: ''
+facebook: 'https://www.facebook.com/postmodernismformsx'
 googleMusic: >-
    https://play.google.com/store/music/artist/?id=Azemkyohurpyc4ee7vjvzrpg3mm
 instagram: 'https://www.instagram.com/postmodernismformss'

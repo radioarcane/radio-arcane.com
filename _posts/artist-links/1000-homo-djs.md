@@ -1,7 +1,7 @@
 ---
 title: 1000 Homo DJs
 appleMusic: 'https://itunes.apple.com/artist/1000-homo-djs/27062041'
-bandcamp: ''
+bandcamp: 'https://ministryband.bandcamp.com/album/ministry-trax-box-digital-collection'
 discogs: 'https://www.discogs.com/artist/27454-1000-Homo-DJs'
 facebook: ''
 googleMusic: >-

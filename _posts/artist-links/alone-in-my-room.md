@@ -1,12 +1,12 @@
 ---
 title: Alone In My Room
 appleMusic: ''
-bandcamp: ''
+bandcamp: 'https://sexpoison.bandcamp.com'
 discogs: ''
 facebook: ''
 googleMusic: ''
-instagram: 'https://www.instagram.com/aloneinmyroom___'
-soundcloud: 'https://soundcloud.com/alone-in-my-room'
+instagram: 'https://www.instagram.com/sex.poison'
+soundcloud: 'https://soundcloud.com/sex-poison'
 spotify: ''
 twitter: ''
 website: ''

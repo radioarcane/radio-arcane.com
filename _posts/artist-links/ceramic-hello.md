@@ -1,13 +1,13 @@
 ---
 title: "Ceramic Hello"
 appleMusic: ''
-bandcamp: ''
+bandcamp: 'https://ceramichello.bandcamp.com/releases'
 discogs: 'https://www.discogs.com/artist/298717-Ceramic-Hello'
 facebook: 'https://www.facebook.com/ceramichello'
 googleMusic: ''
 instagram: ''
 soundcloud: ''
-spotify: ''
+spotify: 'https://open.spotify.com/artist/1l71h69qRBtPEVxtV0FSla'
 twitter: ''
 website: ''
 youtube: ''

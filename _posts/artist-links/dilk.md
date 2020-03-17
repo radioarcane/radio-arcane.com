@@ -2,7 +2,7 @@
 title: DILK
 appleMusic: ''
 bandcamp: 'https://dilk.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/7397433-Dilk'
 facebook: 'https://www.facebook.com/dilkband'
 googleMusic: >-
    https://play.google.com/store/music/artist/?id=Ajyqirhhdmifjwr3xqpnnk3ik5m

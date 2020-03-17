@@ -2,7 +2,7 @@
 title: Abu Nein
 appleMusic: ''
 bandcamp: 'https://rundgng.bandcamp.com/album/i-will-rise-ep'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/7508998-Abu-Nein'
 facebook: ''
 googleMusic: ''
 instagram: ''

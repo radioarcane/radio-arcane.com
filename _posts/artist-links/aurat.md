@@ -2,7 +2,7 @@
 title: Aurat
 appleMusic: ''
 bandcamp: 'https://aurat.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/6944803-Aurat-2'
 facebook: 'https://www.facebook.com/auratband'
 googleMusic: ''
 instagram: ''

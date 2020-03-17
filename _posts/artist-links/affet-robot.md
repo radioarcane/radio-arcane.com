@@ -3,7 +3,7 @@ title: "Affet Robot"
 appleMusic: ''
 bandcamp: 'https://affetrobot.bandcamp.com'
 discogs: ''
-facebook: ''
+facebook: 'https://www.facebook.com/affetrobot'
 googleMusic: ''
 instagram: ''
 soundcloud: ''

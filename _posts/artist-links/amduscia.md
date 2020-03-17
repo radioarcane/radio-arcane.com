@@ -1,7 +1,7 @@
 ---
 title: Amduscia
 appleMusic: 'https://music.apple.com/artist/amduscia/128502673'
-bandcamp: ''
+bandcamp: 'https://amduscia.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/156786-Amduscia'
 facebook: 'https://www.facebook.com/Amduscia-Official-204197936277341'
 googleMusic: >-

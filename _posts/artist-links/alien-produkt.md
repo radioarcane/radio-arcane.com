@@ -2,8 +2,8 @@
 title: Alien Produkt
 appleMusic: ''
 bandcamp: 'https://alienprodukt.bandcamp.com'
-discogs: ''
-facebook: ''
+discogs: 'https://www.discogs.com/artist/313807-Alien-Produkt'
+facebook: 'https://www.facebook.com/Alien-Produkt-Official-114049022009842'
 googleMusic: ''
 instagram: ''
 soundcloud: ''
