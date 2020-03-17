@@ -93,7 +93,7 @@ sets:
         song: Burn
       - artist: Night Thoughts
         song: Owl In Daylight
-      - artist: High Functioning Flesh
+      - artist: 'High-Functioning Flesh'
         song: Touch Oblivion Icon
       - artist: Velvet Condom
         song: Collapse In Slow Motion
@@ -170,7 +170,7 @@ sets:
         song: Agitated
       - artist: Incirrina
         song: True Love Doth Pass Away
-      - artist: EAST
+      - artist: 'EAST.'
         song: La Isla Bonito
       - artist: Sure
         song: Tasting Revenge
