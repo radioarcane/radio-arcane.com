@@ -4,7 +4,8 @@ appleMusic: ''
 bandcamp: 'https://alexofficial.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5075724-Alex-Davidson-2'
 facebook: 'https://www.facebook.com/ALEXOFFICIALUK'
-googleMusic: ''
+googleMusic: >-
+   https://play.google.com/store/music/artist?id=Atakoynsvgusxyxw4gheme52odm
 instagram: 'https://www.instagram.com/alexofficialuk'
 soundcloud: 'https://soundcloud.com/alexofficialuk'
 spotify: 'https://open.spotify.com/artist/65sChHf6etCvSFdXn8NPUO'

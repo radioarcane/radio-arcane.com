@@ -2,11 +2,11 @@
 title: Karl Kave
 appleMusic: ''
 bandcamp: 'https://karlkave.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/7584295-Karl-Kave'
 facebook: ''
 googleMusic: ''
 instagram: ''
-soundcloud: ''
+soundcloud: 'https://soundcloud.com/karlkave'
 spotify: ''
 twitter: ''
 website: ''

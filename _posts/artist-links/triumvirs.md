@@ -1,9 +1,9 @@
 ---
 title: "Triumvirs"
 appleMusic: ''
-bandcamp: ''
-discogs: ''
-facebook: ''
+bandcamp: 'https://triumvirs.bandcamp.com'
+discogs: 'https://www.discogs.com/artist/6898825-Triumvirs'
+facebook: 'https://www.facebook.com/triumvirs'
 googleMusic: ''
 instagram: ''
 soundcloud: 'https://soundcloud.com/user-894804286'

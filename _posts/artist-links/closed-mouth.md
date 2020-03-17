@@ -2,7 +2,7 @@
 title: Closed Mouth
 appleMusic: ''
 bandcamp: 'https://closedmouth19.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/7086137-Closed-Mouth'
 facebook: 'https://www.facebook.com/closedmouth19'
 googleMusic: >-
    https://play.google.com/store/music/artist?id=A273tsw63ityjt7ucxaalh7qzdq

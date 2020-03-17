@@ -2,7 +2,7 @@
 title: "Panther Modern"
 appleMusic: ''
 bandcamp: 'https://panthermodern.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/7221142-Panther-Modern-3'
 facebook: 'https://www.facebook.com/panthermodern.la'
 googleMusic: >-
    https://play.google.com/store/music/artist?id=Aacxbntqtsitudyxb7ozgd652ci

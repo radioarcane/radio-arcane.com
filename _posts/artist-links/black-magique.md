@@ -6,7 +6,7 @@ discogs: 'https://www.discogs.com/artist/3393423-Black-Magique'
 facebook: 'https://www.facebook.com/BLKMGQ'
 googleMusic: >-
    https://play.google.com/store/music/artist/?id=Ambwhwmad4gyevdbh6ixie5h6ny
-instagram: ''
+instagram: 'https://www.instagram.com/black_magique'
 soundcloud: ''
 spotify: 'https://open.spotify.com/artist/5BTV8UVPN42pSIHKvD4M62'
 twitter: ''

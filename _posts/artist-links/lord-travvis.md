@@ -2,7 +2,7 @@
 title: "Lord Travvis"
 appleMusic: ''
 bandcamp: 'https://lordtravvis.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/7584289-Lord-Travvis'
 facebook: 'https://www.facebook.com/LordTravvis'
 googleMusic: >-
    https://play.google.com/store/music/artist?id=Ailtug2b2z3p76jgvqnnknt6nqi

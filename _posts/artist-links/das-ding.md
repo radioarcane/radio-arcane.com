@@ -4,7 +4,8 @@ appleMusic: ''
 bandcamp: 'https://dasding.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/98180-Das-Ding'
 facebook: 'https://www.facebook.com/Das-Ding-218292561525483'
-googleMusic: ''
+googleMusic: >-
+   https://play.google.com/store/music/artist?id=Adnutoephncmmxxxwatvbxauywe
 instagram: ''
 soundcloud: 'https://soundcloud.com/das-ding-1'
 spotify: 'https://open.spotify.com/artist/4pTk5bZR1vJaNdZFs5aCUj'

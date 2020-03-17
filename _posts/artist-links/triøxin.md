@@ -3,7 +3,7 @@ title: TRIØXIN
 appleMusic: ''
 bandcamp: 'https://tri1233xin.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/5332556-Tri%C3%B8xin'
-facebook: ''
+facebook: 'https://www.facebook.com/Tri%C3%B8xin-1767097863607080'
 googleMusic: >-
    https://play.google.com/store/music/artist?id=A6wdxh6baugjh6hkeufrhmqay4i
 instagram: ''

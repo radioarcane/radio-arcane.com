@@ -2,7 +2,7 @@
 title: Meager Benefits
 appleMusic: ''
 bandcamp: 'https://meagerbenefits.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/6849302-Meager-Benefits'
 facebook: 'https://www.facebook.com/MeagerBenefits'
 googleMusic: ''
 instagram: ''

@@ -6,7 +6,7 @@ discogs: 'https://www.discogs.com/artist/207336-Sonne-Hagal'
 facebook: 'https://www.facebook.com/SONNE-HAGAL-135131586506720'
 googleMusic: >-
    https://play.google.com/store/music/artist/?id=Ac7usbc264rtqnsmyomcrjiufam
-instagram: ''
+instagram: 'https://www.instagram.com/sonne_hagal'
 soundcloud: ''
 spotify: 'https://open.spotify.com/artist/0FB0O0mXw6IVZtJ9x0dKoE'
 twitter: ''

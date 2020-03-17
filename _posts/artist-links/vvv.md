@@ -1,7 +1,7 @@
 ---
 title: "VVV"
 appleMusic: ''
-bandcamp: ''
+bandcamp: 'https://holodeckrecords.bandcamp.com/album/spreading-primrose'
 discogs: 'https://www.discogs.com/artist/1733621-Vvv?anv=VVV'
 facebook: ''
 googleMusic: >-

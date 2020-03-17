@@ -1,7 +1,7 @@
 ---
 title: Rotersand
 appleMusic: 'https://itunes.apple.com/artist/rotersand/72849790'
-bandcamp: ''
+bandcamp: 'https://metropolisrecords.bandcamp.com/album/how-do-you-feel-today'
 discogs: 'https://www.discogs.com/artist/156788-Rotersand'
 facebook: 'https://www.facebook.com/rotersand'
 googleMusic: >-

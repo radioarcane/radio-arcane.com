@@ -4,7 +4,8 @@ appleMusic: ''
 bandcamp: 'https://virgintearsband.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/7321029-Virgin-Tears-3'
 facebook: 'https://www.facebook.com/virgintearsband'
-googleMusic: ''
+googleMusic: >-
+   https://play.google.com/store/music/artist/Virgin_Tears?id=Aml5rarjwuooibqx4iatta6jd3a
 instagram: 'https://www.instagram.com/virgintearsband'
 soundcloud: ''
 spotify: 'https://open.spotify.com/artist/1mZVF0B8tZvzlvYZ5UhKiA'

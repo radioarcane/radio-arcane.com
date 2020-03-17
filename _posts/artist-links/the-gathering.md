@@ -2,7 +2,7 @@
 title: The Gathering
 appleMusic: 'https://music.apple.com/artist/the-gathering/1393051812'
 bandcamp: 'https://thegatheringbc.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/7592437-The-Gathering-17'
 facebook: 'https://www.facebook.com/thegatheringyvr'
 googleMusic: ''
 instagram: 'https://www.instagram.com/thegatheringbc'

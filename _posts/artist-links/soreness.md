@@ -3,7 +3,7 @@ title: "Soreness"
 appleMusic: ''
 bandcamp: 'https://soreness.bandcamp.com'
 discogs: ''
-facebook: ''
+facebook: 'https://www.facebook.com/soreness2019'
 googleMusic: ''
 instagram: ''
 soundcloud: ''

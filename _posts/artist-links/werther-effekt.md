@@ -2,10 +2,10 @@
 title: "Werther Effekt"
 appleMusic: ''
 bandcamp: 'https://werthereffekt.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/6522051-Werther-Effekt'
 facebook: 'https://www.facebook.com/werthereffekt'
 googleMusic: ''
-instagram: ''
+instagram: 'https://www.instagram.com/werthereffekt'
 soundcloud: 'https://soundcloud.com/werthereffekt'
 spotify: 'https://open.spotify.com/artist/6p1x9y2rxb7vuomXRpaAnj'
 twitter: ''

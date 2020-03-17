@@ -4,7 +4,8 @@ appleMusic: ''
 bandcamp: 'https://octoberburnsblack.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/6626211-October-Burns-Black'
 facebook: 'https://www.facebook.com/OctoberBurnsBlack'
-googleMusic: ''
+googleMusic: >-
+   https://play.google.com/store/music/artist?id=Apf2a2nm5ihzhxicyytc666avpy
 instagram: 'https://www.instagram.com/octoberburnsblack'
 soundcloud: ''
 spotify: 'https://open.spotify.com/artist/2mwWKxqAIqBL1PouowEjAT'

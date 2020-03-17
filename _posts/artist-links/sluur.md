@@ -2,7 +2,7 @@
 title: Sluur
 appleMusic: 'https://itunes.apple.com/artist/sluur/1363352797'
 bandcamp: 'https://sluurmusic.bandcamp.com'
-discogs: ''
+discogs: 'https://www.discogs.com/artist/7475752-Sluur'
 facebook: 'https://www.facebook.com/sluurmusic'
 googleMusic: >-
    https://play.google.com/store/music/artist/Sluur?id=Avhyvqw2eagr2k4ehlkmbri73la
