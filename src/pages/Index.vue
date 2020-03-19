@@ -17,12 +17,21 @@
                </span>
             </Heading>
 
-            <div class="event-alert">
+            <div class="event-alert text-center">
+               <h3>
+                  COVID-19 UPDATE
+               </h3>
+
+               <P>
+                  All upcoming events scheduled into May have been postponed or canceled.
+               </P>
+
                <p>
-                  Due to the overwhelming nature of COVID-19, Radio Arcane has postponed the "Afterhours - A Tribute To The Sisters Of Mercy" event that was scheduled for Saturday March 28, 2020. We will reschedule the event for another time in the future. Stay tuned.
+                  Please stay safe out there, take care of yourselves and each other, and stay tuned for future updates.
                </p>
             </div>
 
+            <!--
             <div
                v-for="({node}, index) in $page.nextEvents.edges"
                :key="node.id"
@@ -30,12 +39,15 @@
             >
                <Event :event="node" />
             </div>
+            -->
          </Section>
 
+         <!--
          <Section v-if="$page.convergenceEvent.edges.length">
             <Event :event="$page.convergenceEvent.edges[0].node" />
             <hr /><br />
          </Section>
+
 
          <Center>
             <Btn to="/events">
@@ -43,6 +55,7 @@
                <SvgIcon name="right-open" use="right-open" />
             </Btn>
          </Center>
+            -->
 
          <Section v-if="$page.podcasts.edges.length" :padTop="true">
             <Heading strike animate uppercase tag="h3">
@@ -59,6 +72,7 @@
             </Center>
          </Section>
 
+         <!--
          <Section v-if="$page.nextWarpedWedEvent.edges.length" :padTop="true">
             <Heading strike animate uppercase tag="h3">
                Upcoming Related Events
@@ -66,6 +80,7 @@
 
             <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
          </Section>
+      -->
       </Container>
    </Layout>
 </template>

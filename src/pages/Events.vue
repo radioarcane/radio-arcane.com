@@ -8,6 +8,7 @@
                Next Events
             </Heading>
 
+            <!--
             <div
                v-for="node in getNextEvents($page.allEvent.edges, 3)"
                :key="node.id"
@@ -15,6 +16,7 @@
             >
                <Event :event="node" />
             </div>
+         -->
          </article>
 
          <article v-if="getNextEvents($page.allEvent.edges, 3).length === 1">
@@ -22,10 +24,27 @@
                Next Event
             </Heading>
 
+            <!--
             <Event :event="getNextEvent($page.allEvent.edges)" />
+         -->
          </article>
 
+         <div class="event-alert text-center">
+            <h3>
+               COVID-19 UPDATE
+            </h3>
 
+            <P>
+               All upcoming events scheduled into May have been postponed or canceled.
+            </P>
+
+            <p>
+               Please stay safe out there, take care of yourselves and each other, and stay tuned for future updates.
+            </p>
+         </div>
+
+
+         <!--
          <div v-if="$page.convergenceEvent.edges.length">
             <Section v-if="totalFutureEvents" :padBottom="true">
                <Title tag="h2">
@@ -35,6 +54,7 @@
                <Event :event="$page.convergenceEvent.edges[0].node" />
             </Section>
          </div>
+      -->
 
 
          <Section v-if="totalFutureEvents" :padBottom="true">
@@ -55,6 +75,7 @@
             </ul>
          </Section>
 
+         <!--
          <Section v-if="$page.nextWarpedWedEvent.edges.length > 0" :padTop="true">
             <Heading tag="h3" strike uppercase animate>
                Next Warped Wednesday
@@ -62,6 +83,7 @@
 
             <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
          </Section>
+      -->
 
          <Section :padBottom="true">
             <Heading tag="h3" strike uppercase animate>
@@ -92,7 +114,10 @@
 
 <page-query>
    query Event {
-      allEvent (filter: {eventType: {ne: "warped-wednesday"}, cancelled: { ne: true}}, sortBy: "date", order: DESC) {
+      allEvent (filter: {
+         eventType: {ne: "warped-wednesday"},
+         cancelled: { ne: true}
+      }, sortBy: "date", order: DESC) {
          edges {
             node {
                id,
@@ -105,6 +130,7 @@
                date,
                startDatetime,
                endDatetime,
+               cancelled,
                image,
                webp,
                description,
@@ -126,7 +152,11 @@
             }
          }
       },
-      convergenceEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "convergence"}}, sortBy: "date", order: ASC, perPage: 1) {
+      convergenceEvent: allEvent (filter: {
+         expired: { eq: false },
+         eventType: {eq: "convergence"},
+         cancelled: { ne: true }
+      }, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
@@ -139,6 +169,7 @@
                cancelled,
                startDatetime,
                endDatetime,
+               cancelled,
                image,
                webp,
                description,
@@ -337,9 +368,11 @@
             }
 
             return events.filter(ev => {
+               /*
                if (ev.node.id === eventId) {
                   return false;
                }
+               */
 
                return ev.node.expired === false;
             }).reverse();
@@ -360,5 +393,17 @@
    .event-divider {
       margin: 0 0 2em;
       border-bottom: 2px solid hex-to-rgba($white-smoke, 0.5);
+   }
+
+   .event-alert {
+      background: $black;
+      margin: 2.5rem 0;
+      padding: 2rem;
+      border-radius: 10px;
+      border: 2px solid hex-to-rgba($white-smoke, 1);
+
+      > *:last-child {
+         margin-bottom: 0;
+      }
    }
 </style>

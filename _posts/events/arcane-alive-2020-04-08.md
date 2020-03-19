@@ -6,6 +6,7 @@ eventType: arcane-alive
 date: '2020-04-08'
 startDatetime: '2020-04-08 20:00:00'
 endDatetime: '2020-04-09 00:00:00'
+cancelled: true
 image: /img/uploads/secret-shame-reduction-plan.jpg
 description: >-
   Radio Arcane presents:

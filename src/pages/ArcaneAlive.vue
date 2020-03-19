@@ -67,7 +67,15 @@
 
 <page-query>
    query Event {
-      nextEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "arcane-alive"}}, sortBy: "date", order: ASC, perPage: 2) {
+      nextEvent: allEvent (filter: {
+         expired: { eq: false },
+         eventType: {eq: "arcane-alive"},
+         cancelled: { ne: true }
+       },
+         sortBy: "date",
+         order: ASC,
+         perPage: 2
+       ) {
          edges {
             node {
                id,
@@ -79,6 +87,7 @@
                date,
                startDatetime,
                endDatetime,
+               cancelled,
                image,
                webp,
                description,
@@ -100,7 +109,14 @@
             }
          }
       },
-      nextEvents: allEvent (filter: {expired: {eq: false}, eventType: {eq: "arcane-alive"}}, sortBy: "date", order: ASC, , perPage: 2) {
+      nextEvents: allEvent (filter: {
+         expired: {eq: false},
+         eventType: {eq: "arcane-alive"},
+         cancelled: { ne: true }
+      }, sortBy: "date",
+         order: ASC,
+         perPage: 2
+      ) {
          edges {
             node {
                id,
@@ -112,6 +128,7 @@
                date,
                startDatetime,
                endDatetime,
+               cancelled,
                image,
                webp,
                description,
@@ -133,7 +150,13 @@
             }
          }
       },
-      pastEvents: allEvent (filter: {eventType: { eq: "arcane-alive" }, expired: { eq: true }}, sortBy: "date", order: DESC) {
+      pastEvents: allEvent (filter: {
+         eventType: { eq: "arcane-alive" },
+         expired: { eq: true },
+         cancelled: { ne: true }
+      },
+         sortBy: "date",
+         order: DESC) {
          edges {
             node {
                id,
@@ -142,6 +165,7 @@
                title,
                displayName,
                eventType,
+               cancelled,
                date,
                startDatetime,
                endDatetime,
@@ -151,7 +175,11 @@
             }
          }
       },
-      convergenceEvent: allEvent (filter: {expired: { eq: false }, eventType: {eq: "convergence"}}, sortBy: "date", order: ASC, perPage: 1) {
+      convergenceEvent: allEvent (filter: {
+         expired: { eq: false },
+         eventType: {eq: "convergence"},
+         cancelled: { ne: true }
+      }, sortBy: "date", order: ASC, perPage: 1) {
          edges {
             node {
                id,
@@ -163,6 +191,7 @@
                date,
                startDatetime,
                endDatetime,
+               cancelled,
                image,
                webp,
                description,

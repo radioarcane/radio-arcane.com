@@ -6,6 +6,7 @@ eventType: radio-arcane
 date: '2020-04-25'
 startDatetime: '2020-04-25 20:00:00'
 endDatetime: '2020-04-26 03:00:00'
+cancelled: true
 image: '/img/uploads/radio-arcane-2019-04-25-moth-prom.jpg'
 description: >-
    Goth Prom has been a tradition in cities around the country for many years and has proven to be a wonderful annual event, but this year, we’re taking things to new heights!

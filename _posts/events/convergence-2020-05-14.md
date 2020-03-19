@@ -6,6 +6,7 @@ eventType: radio-arcane
 date: '2020-05-14'
 startDatetime: '2020-05-14 22:00:00'
 endDatetime: '2020-05-15 02:00:00'
+cancelled: true
 image: '/img/uploads/convergence-26-pre-party.jpg'
 description: >-
    Welcome to Louisville. Why wait until Friday to get the Convergence 26 festivities started? Join us at Art Sanctuary to celebrate each other, and dance to music curated by Radio Arcane DJs AndrOspore, Sorrow-Vomit, and Talamasca.
