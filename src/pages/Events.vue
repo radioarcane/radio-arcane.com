@@ -56,7 +56,7 @@
          </div>
       -->
 
-
+         <!--
          <Section v-if="totalFutureEvents" :padBottom="true">
             <Title tag="h2">
                Upcoming Event Schedule
@@ -74,6 +74,7 @@
                </li>
             </ul>
          </Section>
+      -->
 
          <!--
          <Section v-if="$page.nextWarpedWedEvent.edges.length > 0" :padTop="true">
