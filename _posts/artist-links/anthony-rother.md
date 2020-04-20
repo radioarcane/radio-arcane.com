@@ -1,6 +1,6 @@
 ---
 title: "Anthony Rother"
-appleMusic: ''
+appleMusic: 'https://music.apple.com/artist/73391852'
 bandcamp: 'https://anthonyrother.bandcamp.com'
 discogs: 'https://www.discogs.com/artist/1463-Anthony-Rother'
 facebook: 'https://www.facebook.com/anthony.rother.official'
