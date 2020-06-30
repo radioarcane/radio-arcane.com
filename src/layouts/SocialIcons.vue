@@ -36,6 +36,10 @@
                url: config.twitter,
                icon: 'twitter',
             }, {
+               name: 'YouTube',
+               url: config.youtube,
+               icon: 'youtube',
+            }, {
                name: 'Mixcloud',
                url: config.mixcloud,
                icon: 'mixcloud',

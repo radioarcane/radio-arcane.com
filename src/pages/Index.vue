@@ -17,6 +17,18 @@
                </span>
             </Heading>
 
+            <GridContainer center="true">
+               <GridItem :sizes="{
+                  xs: 12, sm: 12, md: 10, lg: 8, xl: 6
+               }"
+               >
+                  <Video id="gICt622ePYc" />
+               </GridItem>
+            </GridContainer>
+
+
+
+            <!--
             <div class="event-alert text-center">
                <h3>
                   COVID-19 UPDATE
@@ -30,8 +42,9 @@
                   Please stay safe out there, take care of yourselves and each other, and stay tuned for future updates.
                </p>
             </div>
+         -->
 
-            <!--
+
             <div
                v-for="({node}, index) in $page.nextEvents.edges"
                :key="node.id"
@@ -39,7 +52,7 @@
             >
                <Event :event="node" />
             </div>
-            -->
+
          </Section>
 
          <!--
@@ -311,10 +324,13 @@
    import Container from '~/components/Container.vue';
    import Event from '~/components/Event.vue';
    import FlashContainer from '~/components/FlashContainer.vue';
+   import GridContainer from '~/components/GridContainer.vue';
+   import GridItem from '~/components/GridItem.vue';
    import Heading from '~/components/Heading.vue';
    import Podcast from '~/components/Podcast.vue';
    import Section from '~/components/Section.vue';
    import SvgIcon from '~/components/SvgIcon.vue';
+   import Video from '~/components/Video.vue';
 
    export default {
       metaInfo: meta({
@@ -329,10 +345,13 @@
          Container,
          Event,
          FlashContainer,
+         GridContainer,
+         GridItem,
          Heading,
          Podcast,
          Section,
          SvgIcon,
+         Video,
       },
    }
 </script>

@@ -10,5 +10,6 @@ export default {
    mixcloud: 'https://www.mixcloud.com/Radio-Arcane',
    soundcloud: 'https://soundcloud.com/radio_arcane',
    spotify: 'https://open.spotify.com/show/1agKdqPjtH92Gw33dcLbS1',
-   podbean: 'https://radioarcane.podbean.com'
+   podbean: 'https://radioarcane.podbean.com',
+   youtube: 'https://www.youtube.com/channel/UCRDXiuOFvSbPZJDFSALrCAw',
 };

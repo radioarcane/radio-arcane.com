@@ -8,7 +8,6 @@
                Next Events
             </Heading>
 
-            <!--
             <div
                v-for="node in getNextEvents($page.allEvent.edges, 3)"
                :key="node.id"
@@ -16,7 +15,7 @@
             >
                <Event :event="node" />
             </div>
-         -->
+
          </article>
 
          <article v-if="getNextEvents($page.allEvent.edges, 3).length === 1">
@@ -24,11 +23,10 @@
                Next Event
             </Heading>
 
-            <!--
             <Event :event="getNextEvent($page.allEvent.edges)" />
-         -->
          </article>
 
+         <!--
          <div class="event-alert text-center">
             <h3>
                COVID-19 UPDATE
@@ -42,6 +40,8 @@
                Please stay safe out there, take care of yourselves and each other, and stay tuned for future updates.
             </p>
          </div>
+
+         =>>
 
 
          <!--
