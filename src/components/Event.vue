@@ -102,6 +102,10 @@
                </GridItem>
             </GridContainer>
          </div>
+
+         <div v-if="event.youtube" class="event__video">
+            <Video :id="event.youtube" />
+         </div>
       </div>
    </div>
 </template>
@@ -111,6 +115,7 @@
    import GridContainer from './GridContainer.vue';
    import GridItem from './GridItem.vue';
    import SvgIcon from './SvgIcon.vue';
+   import Video from '~/components/Video.vue';
 
    export default {
       name: 'Event',
@@ -119,6 +124,7 @@
          GridContainer,
          GridItem,
          SvgIcon,
+         Video,
       },
       props: {
          event: {
@@ -226,6 +232,10 @@
          &__directions {
             padding-left: 25px;
          }
+      }
+
+      &__video {
+         margin-top: 2rem;
       }
    }
 </style>

@@ -67,7 +67,8 @@ const defaultEvent = {
    ticketsLink: null,
    cover: null,
    playlist: null,
-   expired: true
+   expired: true,
+   youtube: null,
 };
 
 const defaultPodcast = {

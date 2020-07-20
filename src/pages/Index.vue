@@ -85,7 +85,7 @@
             </Center>
          </Section>
 
-         <!--
+
          <Section v-if="$page.nextWarpedWedEvent.edges.length" :padTop="true">
             <Heading strike animate uppercase tag="h3">
                Upcoming Related Events
@@ -93,7 +93,7 @@
 
             <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
          </Section>
-      -->
+
       </Container>
    </Layout>
 </template>
@@ -129,6 +129,7 @@
                ticketsLink,
                cover,
                expired,
+               youtube,
                location {
                   title,
                   address,
@@ -167,6 +168,7 @@
                ticketsLink,
                cover,
                expired,
+               youtube,
                location {
                   title,
                   address,
@@ -205,6 +207,7 @@
                ticketsLink,
                cover,
                expired,
+               youtube,
                location {
                   title,
                   address,
@@ -243,6 +246,7 @@
                ticketsLink,
                cover,
                expired,
+               youtube,
                location {
                   title,
                   address,
@@ -281,6 +285,7 @@
                ticketsLink,
                cover,
                expired,
+               youtube,
                location {
                   title,
                   address,

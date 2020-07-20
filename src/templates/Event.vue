@@ -113,6 +113,7 @@
    import Event from '~/components/Event.vue';
    import Playlist from '~/components/Playlist.vue';
    import Title from '~/components/Title.vue';
+   import Video from '~/components/Video.vue';
 
    export default {
       components: {
@@ -120,7 +121,8 @@
          Event,
          Container,
          Playlist,
-         Title
+         Title,
+         Video
       },
       metaInfo() {
          const breadcrumbSchema = breadcrumb([{

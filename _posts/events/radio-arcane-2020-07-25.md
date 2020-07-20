@@ -8,7 +8,8 @@ startDatetime: '2020-07-25 21:00:00'
 endDatetime: '2020-07-26 03:00:00'
 image: '/img/uploads/radio-arcane-2020-07-25.jpg'
 description: >-
-   This event will be open for attendance but will also be live streaming on YouTube.
+   This event will be open for attendance but will also be live streaming on YouTube.  
+   https://www.youtube.com/watch?v=RbbVKB6l9lc
 
 
 
@@ -40,4 +41,5 @@ facebookEventLink: 'https://www.facebook.com/events/199199637806504'
 ticketsLink: ''
 cover: '5.00'
 playlist: ''
+youtube: 'RbbVKB6l9lc'
 ---

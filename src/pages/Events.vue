@@ -76,7 +76,7 @@
          </Section>
       -->
 
-         <!--
+
          <Section v-if="$page.nextWarpedWedEvent.edges.length > 0" :padTop="true">
             <Heading tag="h3" strike uppercase animate>
                Next Warped Wednesday
@@ -84,7 +84,7 @@
 
             <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
          </Section>
-      -->
+
 
          <Section :padBottom="true">
             <Heading tag="h3" strike uppercase animate>
@@ -140,6 +140,7 @@
                ticketsLink,
                cover,
                expired,
+               youtube,
                location {
                   title,
                   address,
@@ -179,6 +180,7 @@
                ticketsLink,
                cover,
                expired,
+               youtube,
                location {
                   title,
                   address,
@@ -213,6 +215,7 @@
                ticketsLink,
                cover,
                expired,
+               youtube,
                location {
                   title,
                   address,
