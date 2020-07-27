@@ -6,7 +6,7 @@ eventType: warped-wednesday
 date: '2020-07-29'
 startDatetime: '2020-07-29 22:00:00'
 endDatetime: '2020-07-30 02:00:00'
-cancelled: false
+cancelled: true
 image: '/img/uploads/warped-wed-2020-07.jpg'
 description: >-
    This will be the first Warped Wednesday event since late February.  
