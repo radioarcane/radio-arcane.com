@@ -1,11 +1,11 @@
 ---
 layout: event
-title: '2020-07-25 Radio Arcane'
+title: '2020-08-11 Radio Arcane'
 displayName: 'Radio Arcane : Apocalypse - with SCARY BLACK & The Dark Market'
 eventType: radio-arcane
-date: '2020-07-25'
-startDatetime: '2020-07-25 22:00:00'
-endDatetime: '2020-07-25 02:00:00'
+date: '2020-08-11'
+startDatetime: '2020-08-11 20:00:00'
+endDatetime: '2020-08-11 22:00:00'
 image: '/img/uploads/radio-arcane-postponed.jpg'
 description: >-
    Postponed due to recent spike of COVID-19 cases in Louisville.
