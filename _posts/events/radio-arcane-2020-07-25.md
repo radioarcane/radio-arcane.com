@@ -7,6 +7,7 @@ date: '2020-08-11'
 startDatetime: '2020-08-11 20:00:00'
 endDatetime: '2020-08-11 22:00:00'
 image: '/img/uploads/radio-arcane-postponed.jpg'
+cancelled: true
 description: >-
    Postponed due to recent spike of COVID-19 cases in Louisville.
 

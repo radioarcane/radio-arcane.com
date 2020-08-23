@@ -17,6 +17,7 @@
                </span>
             </Heading>
 
+            <!--
             <GridContainer center="true">
                <GridItem :sizes="{
                   xs: 12, sm: 12, md: 10, lg: 8, xl: 6
@@ -25,7 +26,7 @@
                   <Video id="gICt622ePYc" />
                </GridItem>
             </GridContainer>
-
+         -->
 
 
             <!--
