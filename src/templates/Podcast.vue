@@ -48,6 +48,14 @@
                   <div class="podcast-formats">
                      <h4>Listen on:</h4>
 
+                     <a v-if="$page.podcast.youtubeLink"
+                        :href="$page.podcast.youtubeLink"
+                        target="_blank"
+                        title="Watch on YouTube"
+                     >
+                        <SvgIcon name="youtube" use="youtube" />
+                     </a>
+
                      <a v-if="$page.podcast.mixcloudLink"
                         :href="$page.podcast.mixcloudLink"
                         target="_blank"
@@ -122,6 +130,7 @@
         soundcloudLink,
         podbeanLink,
         spotifyLink,
+        youtubeLink,
         playlist {
            sets {
               tracks {

@@ -84,6 +84,7 @@ const defaultPodcast = {
    soundcloudLink: null,
    podbeanLink: null,
    spotifyLink: null,
+   youtubeLink: null,
    playlist: null,
 };
 

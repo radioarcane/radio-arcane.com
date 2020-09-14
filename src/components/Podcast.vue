@@ -26,6 +26,14 @@
          <div class="podcast__formats">
             <h4>Listen on:</h4>
 
+            <a v-if="podcast.youtubeLink"
+               :href="podcast.youtubeLink"
+               target="_blank"
+               title="Watch on YouTube"
+            >
+               <SvgIcon name="youtube" use="youtube" />
+            </a>
+
             <a v-if="podcast.mixcloudLink"
                :href="podcast.mixcloudLink"
                target="_blank"

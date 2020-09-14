@@ -315,7 +315,8 @@
                mixcloudLink,
                soundcloudLink,
                podbeanLink,
-               spotifyLink
+               spotifyLink,
+               youtubeLink
             }
          }
       }

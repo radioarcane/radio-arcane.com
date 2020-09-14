@@ -154,7 +154,8 @@ export const radioSeries = () => {
             config.mixcloud,
             config.soundcloud,
             config.spotify,
-            config.podbean
+            config.podbean,
+            config.youtube,
          ],
    	},
       genre: [
@@ -194,7 +195,7 @@ export const episode = podcast => {
       }
 
       if (podcast.description) {
-         return podcast.toString().description
+         return podcast.description.toString()
                .replace(/<[^>]+>/g, ' ')
                .replace(/\s{2,}/g, ' ')
                .trim();
@@ -266,6 +267,10 @@ export const episode = podcast => {
 
       if (podcast.spotifyLink) {
          episodeSchema.sameAs.push(podcast.spotifyLink);
+      }
+
+      if (podcast.youtubeLink) {
+         episodeSchema.sameAs.push(podcast.youtubeLink);
       }
 
       episodeSchema.audio = {
