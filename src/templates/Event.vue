@@ -44,6 +44,7 @@
          shortDescription,
          facebookEventLink,
          ticketsLink,
+         youtube,
          cover,
          expired,
          location {

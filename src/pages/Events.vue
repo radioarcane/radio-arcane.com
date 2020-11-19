@@ -325,7 +325,9 @@
                return upcomingEvents[upcomingEvents.length-1];
             }
 
-            return events[events.length-1].node;
+            return null;
+
+            //return events[events.length-1].node;
          },
          getNextEvents (events = [], limit = 1) {
             let nextEvents = [];
@@ -343,7 +345,8 @@
                return upcomingEvents.slice(0, limit);
             }
 
-            return [events[events.length-1].node];
+            //return [events[events.length-1].node];
+            return [];
          },
          getPastEvents (events = [], paginate = false) {
             const nextEvent = this.getNextEvent(events);

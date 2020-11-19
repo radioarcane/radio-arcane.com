@@ -7,6 +7,16 @@
             <p>Dark Eclectic Music &ndash; predominately focused on the use of the synthesizer, including: Gothic, Darkwave, Post-Punk, Industrial, EBM, Coldwave, Synthwave, Synthpop, New Wave, Minimal, and related genres.</p>
          </FlashContainer>
 
+         <div class="event-alert text-center">
+            <h3>
+               COVID-19 UPDATE
+            </h3>
+
+            <P>
+               All upcoming events have been postponed or canceled. Stay tuned for future updates.
+            </p>
+         </div>
+
          <Section v-if="$page.nextEvents.edges.length">
             <Heading strike animate uppercase tag="h1">
                <span v-if="$page.nextEvents.edges.length > 1">
@@ -27,24 +37,6 @@
                </GridItem>
             </GridContainer>
          -->
-
-
-            <!--
-            <div class="event-alert text-center">
-               <h3>
-                  COVID-19 UPDATE
-               </h3>
-
-               <P>
-                  All upcoming events scheduled into May have been postponed or canceled.
-               </P>
-
-               <p>
-                  Please stay safe out there, take care of yourselves and each other, and stay tuned for future updates.
-               </p>
-            </div>
-         -->
-
 
             <div
                v-for="({node}, index) in $page.nextEvents.edges"
