@@ -29,7 +29,6 @@ const defaultArtistLink = {
    bandcamp: null,
    discogs: null,
    facebook: null,
-   googleMusic: null,
    instagram: null,
    soundcloud: null,
    spotify: null,

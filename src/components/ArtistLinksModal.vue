@@ -22,14 +22,6 @@
                <SvgIcon name="apple" use="apple" />
             </a>
 
-            <a v-if="links.googleMusic"
-               :href="links.googleMusic"
-               target="_blank"
-               :title="`Purchase or Stream ${ artist } @ Google Music`"
-            >
-               <SvgIcon name="google" use="google" />
-            </a>
-
             <a v-if="links.soundcloud"
                :href="links.soundcloud"
                target="_blank"
@@ -144,7 +136,7 @@
             let musicLinks = [];
 
             [
-               'appleMusic', 'bandcamp', 'googleMusic',
+               'appleMusic', 'bandcamp',
                'soundcloud', 'spotify', 'youtube'
             ].forEach(key => {
                if (links.hasOwnProperty(key) && links[key]) {

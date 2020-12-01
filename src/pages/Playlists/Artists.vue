@@ -28,7 +28,6 @@
                bandcamp,
                discogs,
                facebook,
-               googleMusic,
                instagram,
                soundcloud,
                spotify,
