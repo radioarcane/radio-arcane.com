@@ -131,6 +131,4 @@
          padding: 0.25em 1em;
       }
    }
-
-
 </style>

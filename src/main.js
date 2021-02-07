@@ -7,7 +7,7 @@ import VModal from 'vue-js-modal/dist/ssr.index';
 import elementClosest from 'element-closest';
 import svg4everybody from 'svg4everybody';
 import VueAnalytics from 'vue-analytics';
-import Paginate from 'vuejs-paginate';
+import Paginate from 'vuejs-paginate/src/components/Paginate';
 
 import './assets/styles/main.scss';
 
