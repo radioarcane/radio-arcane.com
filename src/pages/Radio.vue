@@ -177,10 +177,12 @@
           this.$modal.show(RequestRadioTrackModal, {
             track
           }, {
+            name: 'request-track-modal',
             draggable: true,
             classes: 'request-radio-track-modal-box',
             height: 'auto',
             scrollable: true,
+            adaptive: true,
          });
        },
         getCurrentTrackImg(trk) {
