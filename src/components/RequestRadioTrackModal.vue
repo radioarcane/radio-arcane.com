@@ -168,6 +168,7 @@
       .btn {
          margin-left: 1em;
          margin-right: 1em;
+         z-index: 5000;
       }
    }
 </style>
