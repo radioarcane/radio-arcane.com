@@ -4,6 +4,17 @@
 
       <main class="main-content" role="main">
          <slot />
+
+         <!--
+         <div v-if="showRadio">
+            <Section :padTop="true">
+               <Container>
+                  <Radio />
+               </Container>
+            </Section>
+         </div>
+      -->
+
          <BackgroundNoise />
       </main>
 
@@ -21,15 +32,34 @@
 
 <script>
    import BackgroundNoise from '~/components/BackgroundNoise.vue';
+   import Container from '~/components/Container.vue';
+   import Section from '~/components/Section.vue';
    import Footer from './Footer.vue';
    import Header from './Header.vue';
+   import Radio from './Radio.vue';
 
    export default {
       components: {
          BackgroundNoise,
+         Container,
          Footer,
-         Header
+         Header,
+         Radio,
+         Section
       },
+      data () {
+         return {
+            showRadio: true,
+         };
+      },
+      mounted () {
+         if (this.$route && this.$route.path === "/radio") {
+            this.showRadio = false;
+         }
+         else {
+            this.showRadio = true;
+         }
+      }
    }
 </script>
 

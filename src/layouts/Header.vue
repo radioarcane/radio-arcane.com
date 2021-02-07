@@ -71,7 +71,10 @@
             }, {
                name: 'Playlists',
                to: '/playlists',
-            }]
+            }, /*{
+               name: 'Streaming Radio',
+               to: '/radio',
+            }*/]
          }
       }
    }

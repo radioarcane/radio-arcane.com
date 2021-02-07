@@ -86,7 +86,6 @@
 
             <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
          </Section>
-
       </Container>
    </Layout>
 </template>

@@ -1,0 +1,134 @@
+
+form {
+    margin: 0 0 1.25rem;
+}
+
+fieldset {
+    > *:last-child {
+      margin-bottom: 0;
+   }
+}
+
+label {
+    display: block;
+    position: relative;
+    margin: 0;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    margin: 0 0 1.5rem;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+   display: inline-block;
+   vertical-align: middle;
+}
+
+input[type="text"],
+input[type="email"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 3.3375rem;
+    padding: 1rem;
+    border: 1px solid $gray-darker;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: $black;
+    background-color: $white;
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    &:focus {
+        border-color: $gray-darker;
+        outline: none;
+        transition: border-color 0.25s ease-in-out;
+   }
+}
+
+
+input:disabled,
+input[readonly],
+textarea:disabled,
+textarea[readonly],
+select[disabled] {
+    background-color: lighten($black, 75%);
+    cursor: not-allowed;
+    color: lighten($black, 30%);
+}
+
+
+textarea {
+    height: auto;
+    min-height: 100px;
+    width: 100%;
+    resize: vertical;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 1px solid $gray-darker;
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: $black;
+    background-color: $white;
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
+    transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    &:focus {
+        border-color: $gray-darker;
+        outline: none;
+        transition: border-color 0.25s ease-in-out;
+   }
+}
+
+select {
+    outline: 0 !important;
+
+    &[size],
+    &[multiple] {
+        height: auto;
+    }
+
+    &::-ms-expand {
+        display: none;
+    }
+}
+
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+    cursor: pointer;
+
+    &:disabled {
+        opacity: 0.4;
+        cursor: not-allowed;
+    }
+}
+
+::-webkit-input-placeholder {
+   color: $gray-light;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $gray-light;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $gray-light;
+}
+
+:-ms-input-placeholder {
+   color: $gray-light;
+}

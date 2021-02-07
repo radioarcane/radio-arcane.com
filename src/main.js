@@ -1,13 +1,13 @@
 // This is the main.js file. Import global CSS and scripts here.
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
-
 import DefaultLayout from './layouts/Default.vue';
 import vueMoment from 'vue-moment';
 import VModal from 'vue-js-modal/dist/ssr.index';
 import elementClosest from 'element-closest';
 import svg4everybody from 'svg4everybody';
 import VueAnalytics from 'vue-analytics';
+import Paginate from 'vuejs-paginate';
 
 import './assets/styles/main.scss';
 
@@ -30,6 +30,8 @@ export default function (Vue, { router, head, isClient, isServer }) {
    });
 
    Vue.component('Layout', DefaultLayout);
+
+   Vue.component('paginate', Paginate);
 
    Vue.use(VueAnalytics, {
       id: 'UA-138534141-1',
