@@ -32,12 +32,13 @@
                      maxlength="80"
                      placeholder="Search Artists or Songs..."
                      @keydown="handleKeydown"
+                     v-model="searchTerm"
                      id="search-track"
                   />
                </GridItem>
             </GridContainer>
 
-            <div class="radio-search-results">
+            <div class="radio-search-results" id="radio-search-results">
                <GridContainer>
                   <GridItem
                      v-for="trk in results"
@@ -72,6 +73,10 @@
                      <p>
                         Sorry, No Matching Results Found for: <u>{{ searchTerm }}</u>.
                      </p>
+
+                     <Btn @click.native="resetSearch" variant="hollow">
+                        <span>Reset</span>
+                     </Btn>
                   </GridItem>
                </GridContainer>
             </div>
@@ -89,7 +94,6 @@
                >
                </paginate>
             </div>
-
          </Section>
       </Container>
    </Layout>
@@ -100,6 +104,8 @@
    import meta from '~/util/meta.js';
 
    import { debounce } from 'lodash';
+   import scrollToElement from 'scroll-to-element';
+   import { setup as setupCache } from 'axios-cache-adapter';
 
    import Radio from '~/layouts/Radio.vue';
 
@@ -172,13 +178,18 @@
        pageChange (pageNum)  {
          this.pagination.currentPage = pageNum;
          this.searchTracks();
+         scrollToElement('#radio-search-results');
+       },
+       resetSearch ()  {
+         this.searchTerm = '';
+         this.searchTracks();
        },
        showRadioRequestModal (track) {
           this.$modal.show(RequestRadioTrackModal, {
             track
           }, {
             name: 'request-track-modal',
-            draggable: true,
+            draggable: false,
             classes: 'request-radio-track-modal-box',
             height: 'auto',
             scrollable: true,
@@ -198,90 +209,46 @@
          startedTyping() {
          },
          stoppedTyping() {
-            const input = document.getElementById('search-track');
-
-            if (input) {
-                this.searchTerm = input.value.toString().replace(/ +(?= )/g,'').trim();
-                this.searchTracks();
-            }
+           this.searchTracks();
          },
-        searchHandler(ev) {
-          const term = ev.target.value.toString().replace(/ +(?= )/g,'').trim();
-          this.searchTerm = term;
-          this.searchTracks();
-        },
         searchTracks () {
            const self = this;
-           const url = "https://quincy.torontocast.com:1140/api/v2/music/?";
 
-           const params = [{
-             prop: 'limit',
-             value: self.pagination.perPage
-          }, {
-             prop: 'offset',
-             value: (self.pagination.currentPage-1) * self.pagination.perPage
-          }, {
-             prop: 'order',
-             value: 1
-          }, {
-             prop: 'requestable',
-             value: 'true'
-          }, {
-             prop: 'search_q',
-             value: self.searchTerm
-          }, {
-             prop: 'server',
-             value: 1
-          }, {
-             prop: 'with_tags_only',
-             value: 'true'
-          }]
-          .map(o => {
-             return `${ o.prop }=${ o.value }`;
-          })
-          .join('&');
+            const params= {
+               limit: self.pagination.perPage,
+               offset: (self.pagination.currentPage-1) * self.pagination.perPage,
+               order: 1,
+               requestable: true,
+               search_q: self.searchTerm.toString().replace(/ +(?= )/g,'').trim(),
+               server: 1,
+               with_tags_only: true
+            };
 
-          /*
-             load up search results
-             https://hazel.torontocast.com:1415/api/v2/music/?limit=12&offset=12&order=3&requestable=true&search_q=&server=1&with_tags_only=true
-          */
+            self.api.get('/music', {
+               params: params
+            })
+            .then((resp) => {
+               const data = resp.data;
+               const total =parseInt(data.count);
+               self.pagination.total = total;
 
-          const xhr = new XMLHttpRequest();
+               self.results = data.results;
+               self.pagination.pageCount = Math.round(total / self.pagination.perPage);
 
-           xhr.open('GET', `${ url }${ params }`);
-
-           xhr.onload = () => {
-             if (xhr.status >= 200 && xhr.status < 300) {
-                 const response = JSON.parse(xhr.responseText);
-                 let results = [];
-                 const total = response.hasOwnProperty('count') ? parseInt(response.count) : 0;
-                 self.pagination.total = total;
-
-                 if (response && response.hasOwnProperty('results')) {
-                    self.results = response.results;
-                    self.pagination.pageCount = Math.round(total / self.pagination.perPage);
-
-                    if (self.pagination.currentPage > self.pagination.pageCount) {
-                       self.pagination.currentPage = 1;
-                    }
-                 }
-                 else {
-                    self.results = [];
-                    self.pagination.total = 0;
-                    self.pagination.currentPage = 1;
-                    self.pagination.pageCount = 0;
-                 }
-             }
-
-             self.pagination.isLoading = false;
-             self.pagination.init = true;
-           };
-
-           xhr.onerror = () => {
-             self.pagination.isLoading = false;
-           };
-
-           xhr.send();
+               if (self.pagination.currentPage > self.pagination.pageCount) {
+                  self.pagination.currentPage = 1;
+               }
+            })
+            .catch((err) => {
+               self.results = [];
+               self.pagination.total = 0;
+               self.pagination.currentPage = 1;
+               self.pagination.pageCount = 0;
+            })
+            .then(() => {
+               self.pagination.isLoading = false;
+               self.pagination.init = true;
+            });
         }
      },
       mounted() {
@@ -297,6 +264,16 @@
             leading: false,
             trailing: true,
          });
+
+         this.api = setupCache({
+           // `axios` options
+          baseURL: 'https://quincy.torontocast.com:1140/api/v2',
+
+           // `axios-cache-adapter` options
+           cache: {
+             maxAge: 15 * 60 * 1000
+           }
+         })
       }
    }
 </script>

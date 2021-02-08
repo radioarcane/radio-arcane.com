@@ -68,6 +68,8 @@
       https://www.wyldwood.org/
    */
 
+   import { setup as setupCache } from 'axios-cache-adapter';
+
    import Btn from '~/components/Btn.vue';
    import Container from '~/components/Container.vue';
    import GridContainer from '~/components/GridContainer.vue';
@@ -149,8 +151,6 @@
             return title;
          },
          getHistoryTrackInfo(trk) {
-            /* {{ trk.author }} – “{{ trk.title }}” */
-
             let artist = trk.author.toString().replace(/ +(?= )/g,'').trim();
             let title = trk.title.toString().replace(/ +(?= )/g,'').trim();
             let requestName = '';
@@ -197,36 +197,46 @@
          let timer = 30000;
 
          const fetchTracks = () => {
-            const xhr = new XMLHttpRequest();
-
-            xhr.open('GET', 'https://quincy.torontocast.com:1140/api/v2/history/?limit=15&offset=0&server=1');
-
-            xhr.onload = () => {
-               if (xhr.status >= 200 && xhr.status < 300) {
-                  const response = JSON.parse(xhr.responseText);
-                  let results = [];
-
-                  if (response && response.hasOwnProperty('results')) {
-                     results = response.results.filter((trk, i) => {
-                        return trk.length > 40000;
-                     });
-                  }
-
-                  if (results.length) {
-                     self.currentTrack = results[0];
-                     results.shift();
-                     self.pastTracks = results.slice(0, 10);
-                  }
-               }
+            const params= {
+               limit: 15,
+               offset: 0,
+               server: 1
             };
 
-            xhr.send();
+            self.api.get('/history', {
+               params: params
+            })
+            .then((resp) => {
+               const data = resp.data;
+
+               let results = data.results.filter((trk, i) => {
+                  return trk.length > 40000;
+               });
+
+               if (results.length) {
+                  self.currentTrack = results[0];
+                  results.shift();
+                  self.pastTracks = results.slice(0, 10);
+               }
+            })
+            .catch((err) => {
+            });
          };
 
          fetchTracks();
 
-         clearInterval(self.fetchTracks);
          self.fetchTracks = setInterval(fetchTracks, timer);
+      },
+      created() {
+         this.api = setupCache({
+           // `axios` options
+          baseURL: 'https://quincy.torontocast.com:1140/api/v2',
+
+           // `axios-cache-adapter` options
+           cache: {
+             maxAge: 25000
+           }
+         })
       }
    }
 </script>

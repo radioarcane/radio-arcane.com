@@ -177,7 +177,7 @@
               artist,
               links
             }, {
-              draggable: true,
+              draggable: false,
               classes: 'artist-links-modal-box',
               height: 'auto',
               scrollable: true,
