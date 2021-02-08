@@ -169,7 +169,7 @@
                isLoading: true,
                pageCount: 0,
                total: 0,
-               perPage: 12,
+               perPage: 24,
                currentPage: 1,
             }
          };
@@ -271,7 +271,8 @@
 
            // `axios-cache-adapter` options
            cache: {
-             maxAge: 15 * 60 * 1000
+             maxAge: 5 * 60 * 1000
+            // maxAge: 2000
            }
          })
       }
