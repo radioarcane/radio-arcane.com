@@ -197,7 +197,7 @@
          });
        },
         getCurrentTrackImg(trk) {
-           return trk.image_medium || 'https://quincy.torontocast.com:1140/media/tracks/default_track_img.png';
+           return trk.image_medium || 'https://quincy.torontocast.com:1090/media/tracks/default_track_img.png';
         },
         getTrack(trk) {
           return trk;
@@ -267,7 +267,7 @@
 
          this.api = setupCache({
            // `axios` options
-          baseURL: 'https://quincy.torontocast.com:1140/api/v2',
+          baseURL: 'https://quincy.torontocast.com:1090/api/v2',
 
            // `axios-cache-adapter` options
            cache: {

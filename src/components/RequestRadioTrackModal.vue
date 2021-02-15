@@ -90,7 +90,7 @@
 
             const xhr = new XMLHttpRequest();
 
-            xhr.open('POST', "https://quincy.torontocast.com:1140/api/v2/track_requests/");
+            xhr.open('POST', "https://quincy.torontocast.com:1090/api/v2/track_requests/");
             xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
             const userName = this.username.toString().replace(/ +(?= )/g,'').trim().slice(0, 80);
