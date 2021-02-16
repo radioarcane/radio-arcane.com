@@ -23,7 +23,6 @@
     "lodash": "^4.17.20",
     "lozad": "^1.15.0",
     "normalize.css": "^8.0.1",
-    "parse-form": "^4.0.5",
     "scroll-to-element": "^2.0.3",
     "svg4everybody": "^2.1.9",
     "vue-infinite-loading": "^2.4.5",

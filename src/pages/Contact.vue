@@ -30,7 +30,6 @@
    import meta from '~/util/meta.js';
 
    import axios from "axios";
-   import { parse } from "parse-form";
 
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Center from '~/components/Center.vue';
@@ -81,35 +80,24 @@
           ev.preventDefault();
 
           const form = ev.target;
-          let formData = parse(form, true);
 
-          for (const prop in formData.body) {
-             formData.body[prop] = formData.body[prop].toString().replace(/ +(?= )/g,'').trim();
-          }
-
-          const data = Object.assign({
-             name: 'N/A',
-             email: 'N/A',
-             message: 'N/A'
-          }, formData.body);
-
-          const sendData = {
+          const data = {
             "form-name": "contact",
             subject: "Radio Arcane Contact Form Message",
-            name: data.name,
-            email: data.email,
-            message: data.message,
+            name: form.querySelector('#name').value,
+            email: form.querySelector('#email').value,
+            message: form.querySelector('#message').value,
           };
 
-          const encodedData = Object.keys(sendData).map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`).join("&");
+          const encodedData = Object.keys(data).map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key].toString().replace(/ +(?= )/g,'').trim())}`).join("&");
 
          const axiosConfig = {
             header: { "Content-Type": "application/x-www-form-urlencoded" }
          };
 
          axios.post("/contact", encodedData, axiosConfig)
-         .then((data) => {
-            console.log(data);
+         .then((resp) => {
+            console.log(resp);
             console.log('success');
             self.formSuccess = true;
 
