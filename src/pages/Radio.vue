@@ -233,7 +233,7 @@
                self.pagination.total = total;
 
                self.results = data.results;
-               self.pagination.pageCount = Math.round(total / self.pagination.perPage);
+               self.pagination.pageCount = Math.ceil(total / self.pagination.perPage);
 
                if (self.pagination.currentPage > self.pagination.pageCount) {
                   self.pagination.currentPage = 1;
