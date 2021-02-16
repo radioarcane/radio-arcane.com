@@ -6,7 +6,7 @@
          <Section :padBottom="true">
             <Title>Contact Radio Arcane</Title>
 
-               <form name="contact" method="POST" data-netlify="true">
+               <form v-on:submit="handleFormSubmit" name="contact" method="POST" data-netlify="true">
                   <label for="name">Name:<sup>*</sup></label>
                   <input type="text" id="name" name="name" maxlength="150" required />
 
@@ -29,20 +29,19 @@
    import { breadcrumb } from '~/util/jsonLd';
    import meta from '~/util/meta.js';
 
+   import axios from "axios";
+   import { parse } from "parse-form";
+
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Center from '~/components/Center.vue';
    import Container from '~/components/Container.vue';
-   import GridContainer from '~/components/GridContainer.vue';
-   import GridItem from '~/components/GridItem.vue';
-   import Heading from '~/components/Heading.vue';
-   import ProfileCard from '~/components/ProfileCard.vue';
    import Section from '~/components/Section.vue';
    import Title from '~/components/Title.vue';
 
    const metaInfo = Object.assign({}, meta({
       title: 'Contact',
       description: 'Contact Radio Arcane',
-      path: '/about'
+      path: '/contact'
    }), {
       script: [
          {
@@ -66,10 +65,6 @@
          Breadcrumb,
          Center,
          Container,
-         GridContainer,
-         GridItem,
-         Heading,
-         ProfileCard,
          Section,
          Title,
       },
@@ -78,11 +73,65 @@
             crumbs: [{
                name: 'Contact',
                to: '/contact'
-            }],
+            }]
          };
+      },
+      methods: {
+       handleFormSubmit (ev)  {
+          ev.preventDefault();
+
+          const form = ev.target;
+          let formData = parse(form, true);
+
+          for (const prop in formData.body) {
+             formData.body[prop] = formData.body[prop].toString().replace(/ +(?= )/g,'').trim();
+          }
+
+          const data = Object.assign({
+             name: 'N/A',
+             email: 'N/A',
+             message: 'N/A'
+          }, formData.body);
+
+          const sendData = {
+            "form-name": "contact",
+            subject: "Radio Arcane Contact Form Message",
+            name: data.name,
+            email: data.email,
+            message: data.message,
+          };
+
+          const encodedData = Object.keys(sendData).map(key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`).join("&");
+
+         const axiosConfig = {
+            header: { "Content-Type": "application/x-www-form-urlencoded" }
+         };
+
+         axios.post("/contact", encodedData, axiosConfig)
+         .then((data) => {
+            console.log(data);
+            console.log('success');
+            self.formSuccess = true;
+
+            form.innerHTML = `<p>Thanks, we received your message!</p>`
+         })
+         .catch((err) => {
+            console.log(err);
+            console.log('fail');
+            alert('Sorry, but an error occurred.');
+         });
+       },
       }
    }
 </script>
 
 <style lang="scss">
+   form[name=contact] {
+      border: 1px solid hex-to-rgba($white-smoke, 0.4);
+      padding: 30px 30px 15px;
+
+      textarea {
+         min-height: 300px;
+      }
+   }
 </style>
