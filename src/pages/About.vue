@@ -7,7 +7,20 @@
             <Section :padBottom="true">
                <Title>About</Title>
 
-               <p>Radio Arcane is a collective of Louisville dj's that utilize an art space to host entertainment events with a heavy interest dark eclectic music. A podcast featuring music and discussion is also available on Mixcloud and SoundCloud.</p>
+               <p>Radio Arcane is a collective of Dark Music Specialists headquartered in Louisville, KY that host events, live music and a curated, nighttime oddities and art market called The Dark Market.</p>
+
+               <p>
+                  A podcast featuring music, interviews and discussion is also available on various streaming services through links available on this site.
+               </p>
+
+               <p>
+                  More recently, we have branched out with our own streaming radio service and are working with affiliates abroad.<br />
+                  Our primary focus being a love of what we describe as “Dark Eclectic Music” involves a variety of sounds, to include Gothic, Darkwave, Post-Punk, Industrial,  EBM, Coldwave, Synthwave, Synthpop, New Wave, Minimal, New Romantic and other related genres.
+               </p>
+
+               <p>
+                  Please follow us or subscribe to our social media and streaming sites for continuous content and updates on happenings, performances and events.
+               </p>
 
                <Center>
                   <picture>

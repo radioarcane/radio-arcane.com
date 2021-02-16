@@ -1,11 +1,26 @@
 <template>
    <Layout>
       <Container>
-         <FlashContainer tag="article">
-            <p>Radio Arcane is a collective of Dark Music Specialists in Louisville, KY that host events, live music and dark arts entertainment. A podcast featuring music and discussion is also available on Mixcloud and SoundCloud.</p>
+         <div id="intro-text">
+            <FlashContainer tag="article">
+               <p>
+                  Radio Arcane is a collective of Dark Music Specialists headquartered in Louisville, KY that host events, live music and a curated, nighttime oddities and art market called The Dark Market.
+               </p>
 
-            <p>Dark Eclectic Music &ndash; predominately focused on the use of the synthesizer, including: Gothic, Darkwave, Post-Punk, Industrial, EBM, Coldwave, Synthwave, Synthpop, New Wave, Minimal, and related genres.</p>
-         </FlashContainer>
+               <p>
+                  A podcast featuring music, interviews and discussion is also available on various streaming services through links available on this site.
+               </p>
+
+               <p>
+                  More recently, we have branched out with our own streaming radio service and are working with affiliates abroad.
+                  Our primary focus being a love of what we describe as “Dark Eclectic Music” involves a variety of sounds, to include Gothic, Darkwave, Post-Punk, Industrial,  EBM, Coldwave, Synthwave, Synthpop, New Wave, Minimal, New Romantic and other related genres.
+               </p>
+
+               <p>
+                  Please follow us or subscribe to our social media and streaming sites for continuous content and updates on happenings, performances and events.
+               </p>
+            </FlashContainer>
+         </div>
 
          <div class="event-alert text-center">
             <h3>
@@ -355,6 +370,22 @@
 </script>
 
 <style lang="scss">
+
+   #intro-text {
+      .flash-container {
+         font-size: 18px;
+         text-align: left;
+
+         @include breakpoint($screen-l-min) {
+            font-size: 22px;
+         }
+
+         @include breakpoint($screen-xxl-min) {
+            font-size: 24px;
+         }
+      }
+   }
+
    .event-divider {
       margin:0 0 2em;
       border-bottom: 2px solid hex-to-rgba($white-smoke, 0.5);
