@@ -46,6 +46,9 @@
             }, {
                name: 'Playlists',
                to: '/playlists',
+            }, {
+               name: 'Contact',
+               to: '/contact',
             }
             /*,
             {

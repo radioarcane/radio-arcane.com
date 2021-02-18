@@ -71,6 +71,9 @@
             }, {
                name: 'Playlists',
                to: '/playlists',
+            }, {
+               name: 'Contact',
+               to: '/contact'
             }, /*{
                name: 'Streaming Radio',
                to: '/radio',
@@ -217,15 +220,15 @@
          max-height: none;
          background: transparent;
          opacity: 1;
-         font-size: 18px;
+         font-size: 16px;
       }
 
       @include breakpoint($screen-l-min) {
-         font-size: 24px;
+         font-size: 18px;
       }
 
       @include breakpoint($screen-xl-min) {
-         font-size: 28px;
+         font-size: 24px;
       }
 
       @include breakpoint($screen-xxl-min) {
@@ -256,7 +259,12 @@
 
          @include breakpoint($screen-m-min) {
             width: auto;
-            margin: 0 ($padding-horizontal / 3) ($padding-vertical / 2);
+            margin: 0 0.25em ($padding-vertical / 2) 0;
+         }
+
+         @include breakpoint($screen-l-min) {
+            width: auto;
+            margin-right: 0.5em;
          }
       }
 
