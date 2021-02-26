@@ -115,6 +115,16 @@ const defaultPerformer = {
    performerLinks: null,
 };
 
+const defaultMix = {
+   title: null,
+   shortTitle: null,
+   type: null,
+   date: null,
+   djs: [],
+   description: null,
+   mixcloudLink: null,
+};
+
 module.exports = function (api) {
    api.loadSource(actions => {
    // Use the Data store API here: https://gridsome.org/docs/data-store-api
@@ -123,7 +133,8 @@ module.exports = function (api) {
             artistLinkHash = {},
             eventHash = {},
             podcastHash = {},
-            playlistHash = {};
+            playlistHash = {},
+            mixHash = {};
 
       const podcastType = actions.addCollection('Podcast');
 
@@ -134,6 +145,8 @@ module.exports = function (api) {
       const artistLinkType = actions.addCollection('ArtistLink');
 
       const locationType = actions.addCollection('Location');
+
+      const mixType = actions.addCollection('Mix');
 
       fs.readdirSync('_posts/artist-links').forEach(file => {
          const data = MT(fs.readFileSync('_posts/artist-links/' + file));
@@ -335,6 +348,31 @@ module.exports = function (api) {
          const node = eventType.addNode(evntDataObj);
 
          eventHash[slugify(data.meta.title)] =  node;
+      });
+
+      fs.readdirSync('_posts/mixes').forEach(file => {
+         let data = MT(fs.readFileSync('_posts/mixes/' + file));
+
+         let mix = Object.assign({}, defaultMix, data.meta);
+
+
+
+         const mixObj = Object.assign({}, mix, {
+            title: data.meta.title,
+            slug: file.toLowerCase().replace('.md', ''),
+         });
+
+         const node = mixType.addNode(mixObj);
+
+         /*
+         const node = podcastType.addNode({
+            title: data.meta.title,
+            slug: file.toLowerCase().replace('.md', ''),
+            fields: podcast
+         });
+         */
+
+         mixHash[slugify(data.meta.title)] =  node;
       });
    });
 };

@@ -44,6 +44,9 @@
                name: 'Arcane Alive!',
                to: '/arcane-alive',
             }, {
+               name: 'Streaming Radio',
+               to: '/radio'
+            }, {
                name: 'Playlists',
                to: '/playlists',
             }, {

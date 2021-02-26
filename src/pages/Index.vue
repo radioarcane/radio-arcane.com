@@ -101,6 +101,12 @@
 
             <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
          </Section>
+
+         <Section :padTop="true">
+            <Container>
+               <Radio />
+            </Container>
+         </Section>
       </Container>
    </Layout>
 </template>
@@ -341,6 +347,7 @@
    import GridItem from '~/components/GridItem.vue';
    import Heading from '~/components/Heading.vue';
    import Podcast from '~/components/Podcast.vue';
+   import Radio from '~/layouts/Radio.vue';
    import Section from '~/components/Section.vue';
    import SvgIcon from '~/components/SvgIcon.vue';
    import Video from '~/components/Video.vue';
@@ -362,6 +369,7 @@
          GridItem,
          Heading,
          Podcast,
+         Radio,
          Section,
          SvgIcon,
          Video,

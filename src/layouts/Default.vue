@@ -5,16 +5,6 @@
       <main class="main-content" role="main">
          <slot />
 
-         <!--
-         <div v-if="showRadio">
-            <Section :padTop="true">
-               <Container>
-                  <Radio />
-               </Container>
-            </Section>
-         </div>
-      -->
-
          <BackgroundNoise />
       </main>
 

@@ -235,6 +235,9 @@
    export default {
       metaInfo() {
          const breadcrumbSchema = breadcrumb([{
+            path: '/events',
+            name: 'Events'
+         }, {
             path: '/arcane-alive',
             name: 'Arcane Alive!'
          }]);
@@ -288,12 +291,18 @@
       },
       data () {
          const breadcrumbSchema = breadcrumb([{
+            path: '/events',
+            name: 'Events'
+         }, {
             path: '/arcane-alive',
             name: 'Arcane Alive!'
          }]);
 
          return {
             crumbs: [{
+               to: '/events',
+               name: 'Events'
+            }, {
                name: 'Arcane Alive!',
                to: '/arcane-alive'
             }],

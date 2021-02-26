@@ -80,6 +80,14 @@ module.exports = {
                '/about': {
                   changefreq: 'monthly',
                   priority: 0.4
+               },
+               '/contact': {
+                  changefreq: 'yearly',
+                  priority: 0.2
+               },
+               '/radio': {
+                  changefreq: 'weekly',
+                  priority: 0.5
                }
             }
          }

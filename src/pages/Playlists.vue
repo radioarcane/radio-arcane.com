@@ -5,6 +5,10 @@
 
          <Title>Playlists</Title>
 
+         <p>
+            Below are DJ setlists for podcasts and some past live events.
+         </p>
+
          <Tabs>
             <Tab v-for="(tab, index) in tabs"
                   :key="index"

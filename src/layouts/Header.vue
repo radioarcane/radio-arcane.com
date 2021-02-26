@@ -17,9 +17,16 @@
              role="navigation"
          >
             <ul class="nav-menu">
-               <li v-for="(item, index) in links" class="nav-menu__item" :key="index">
+               <li v-for="(item, index) in links" class="nav-menu__item" :key="index" :aria-haspopup="item.hasOwnProperty('children') ? 'true' : 'false'">
                   <g-link class="nav-menu__link" :to="item.to" @click.native="activeNav = false"
                   >{{ item.name }}</g-link>
+
+                  <ul v-if="item.hasOwnProperty('children')" class="nav-menu__submenu" :data-submenu="index">
+                     <li v-for="(child, index2) in item.children" :key="index2" class="nav-menu__submenu__item">
+                           <g-link class="nav-menu__submenu__link" :to="child.to" @click.native="activeNav = false"
+                           >{{ child.name }}</g-link>
+                     </li>
+                  </ul>
                </li>
             </ul>
          </nav>
@@ -62,13 +69,27 @@
             }, {
                name: 'Events',
                to: '/events',
+               children: [{
+                  name: 'Events',
+                  to: '/events',
+               }, {
+                  name: 'Arcane Alive!',
+                  to: '/arcane-alive',
+               }]
             }, {
                name: 'Podcasts',
                to: '/podcasts',
             }, {
-               name: 'Arcane Alive!',
-               to: '/arcane-alive',
-            }, {
+               name: 'Radio',
+               to: '/radio'
+            },
+            /*
+            {
+               name: 'DJ Mixes',
+               to: '/mixes',
+            },
+            */
+            {
                name: 'Playlists',
                to: '/playlists',
             }, {
@@ -216,7 +237,8 @@
       }
 
       @include breakpoint($screen-m-min) {
-         overflow: auto;
+         /*overflow: auto;*/
+         overflow: visible;
          max-height: none;
          background: transparent;
          opacity: 1;
@@ -247,6 +269,7 @@
       padding: 0;
       margin: 0;
       text-align: center;
+      position: relative;
 
       @include breakpoint($screen-m-min) {
          text-align: left;
@@ -256,6 +279,17 @@
       &__item {
          display: block;
          width: 100%;
+         position: relative;
+
+         &[aria-haspopup="true"] {
+            > a {
+               display: none;
+
+               @include breakpoint($screen-m-min) {
+                  display: block;
+               }
+            }
+         }
 
          @include breakpoint($screen-m-min) {
             width: auto;
@@ -302,6 +336,89 @@
 
          @include breakpoint($screen-l-min) {
             padding: 0.1em 0.4em 0.1em;
+         }
+      }
+
+
+
+      &__submenu {
+         padding: 0;
+         margin: 0;
+         list-style: none;
+         text-align: center;
+
+         @include breakpoint($screen-m-min) {
+            text-align: left;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            display: block;
+            width: 100%;
+            z-index: 50;
+            display: none;
+            background: lighten($black, 5%);
+
+
+            .nav-menu__item:hover &,
+            .nav-menu__item:focus & {
+               display: block;
+            }
+         }
+
+         @include breakpoint($screen-xl-min) {
+            font-size: 24px;
+         }
+
+         &[data-submenu="2"] {
+            @include breakpoint($screen-m-min) {
+               width: 200px;
+            }
+
+            @include breakpoint($screen-l-min) {
+               width: 300px;
+            }
+         }
+
+         &__item {
+         }
+
+         &__link {
+            color: $white;
+            transition: all 150ms ease-in-out;
+            display: block;
+            padding: ($padding-vertical / 1.6) $padding-horizontal ($padding-vertical / 2);
+            border-bottom: 1px solid $black;
+            position: relative;
+
+            &.active--exact {
+               @include breakpoint($screen-m-min) {
+                  border: none !important;
+               }
+            }
+
+            &:hover,
+            &:focus,
+            &:active {
+               color: $white;
+               background: $secondary-color;
+            }
+
+            @include breakpoint($screen-m-min) {
+               border-bottom: transparent;
+               padding: 0.25em 0.65em 0.2em;
+               background: transparent;
+
+               &:hover,
+               &:focus,
+               &:active {
+                  background: transparent;
+                  opacity: 0.8;
+               }
+
+               &.active--exact {
+                  border-bottom: 2px solid $white-smoke;
+               }
+            }
          }
       }
    }
