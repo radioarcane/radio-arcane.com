@@ -26,7 +26,7 @@ description: >-
 
 
 
-   - 3:16 Megadeth — Conquer or Die
+   - Megadeth — Conquer or Die
 
    - Rotting Christ — Ze Nigmar
 
