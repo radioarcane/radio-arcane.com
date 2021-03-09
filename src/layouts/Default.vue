@@ -99,10 +99,11 @@
       }
    }
 
-
+   /*
    .floating-chat-kofi-popup-iframe,
    .floatingchat-container-wrap {
       left: auto !important;
       right: 16px;
    }
+   */
 </style>
