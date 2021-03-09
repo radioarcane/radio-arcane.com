@@ -56,16 +56,34 @@
             this.showRadio = true;
          }
 
-         var script = document.createElement('script');
+         const loadWidget = () => {
+            window.kofiWidgetOverlay.draw('radioarcane', {
+                'type': 'floating-chat',
+                'floating-chat.donateButton.text': 'Support me',
+                'floating-chat.donateButton.background-color': '#323842',
+                'floating-chat.donateButton.text-color': '#fff'
+            });
+         };
+
+         const script = document.createElement('script');
+         script.type = 'text/javascript';
+
+         if (script.readyState) {
+           script.onreadystatechange = () => {
+             if (script.readyState === "loaded" || script.readyState === "complete" ) {
+               script.onreadystatechange = null;
+               loadWidget();
+             }
+           };
+         }
+         else {
+           script.onload = function() {
+             loadWidget();
+           };
+         }
+
          script.src = 'https://storage.ko-fi.com/cdn/scripts/overlay-widget.js';
-
-
-         kofiWidgetOverlay.draw('radioarcane', {
-             'type': 'floating-chat',
-             'floating-chat.donateButton.text': 'Support me',
-             'floating-chat.donateButton.background-color': '#323842',
-             'floating-chat.donateButton.text-color': '#fff'
-         });
+         document.getElementsByTagName('head')[0].appendChild(script);
       }
    }
 </script>
@@ -99,11 +117,10 @@
       }
    }
 
-   /*
+
    .floating-chat-kofi-popup-iframe,
    .floatingchat-container-wrap {
       left: auto !important;
       right: 16px;
    }
-   */
 </style>
