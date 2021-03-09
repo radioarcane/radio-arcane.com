@@ -47,6 +47,9 @@
                name: 'Streaming Radio',
                to: '/radio'
             }, {
+               name: 'Mixes',
+               to: '/mixes'
+            }, {
                name: 'Playlists',
                to: '/playlists',
             }, {

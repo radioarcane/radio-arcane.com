@@ -121,6 +121,7 @@ const defaultMix = {
    type: null,
    date: null,
    djs: [],
+   filters: [],
    description: null,
    mixcloudLink: null,
 };
@@ -351,11 +352,11 @@ module.exports = function (api) {
       });
 
       fs.readdirSync('_posts/mixes').forEach(file => {
+         //console.log(file);
          let data = MT(fs.readFileSync('_posts/mixes/' + file));
-
          let mix = Object.assign({}, defaultMix, data.meta);
 
-
+         mix.description = mix.description ? md.render(mix.description).replace(/(\r\n|\n|\r)/gm, "") : "";
 
          const mixObj = Object.assign({}, mix, {
             title: data.meta.title,
@@ -363,14 +364,6 @@ module.exports = function (api) {
          });
 
          const node = mixType.addNode(mixObj);
-
-         /*
-         const node = podcastType.addNode({
-            title: data.meta.title,
-            slug: file.toLowerCase().replace('.md', ''),
-            fields: podcast
-         });
-         */
 
          mixHash[slugify(data.meta.title)] =  node;
       });

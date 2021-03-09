@@ -7,16 +7,46 @@
 
          <Section :padBottom="true">
 
-            <Heading>Sorrow-Vomit</Heading>
+            <label for="mix-filter">
+               Filter by DJ / Event Type / Show:
+            </label>
 
-            <ul>
+            <select id="mix-filter" v-model="filter">
+               <option value=""">Show All</option>
+               <optgroup label="DJ">
+                  <option value="Kaleidoscope">Kaleidoscope</option>
+                  <option value="Motuvius Rex">Motuvius Rex</option>
+                  <option value="Scary Black">Scary Black</option>
+                  <option value="Sorrow-Vomit">Sorrow-Vomit</option>
+                  <option value="Talamasca">Talamasca</option>
+               </optgroup>
+               <optgroup label="Event">
+                  <option value="Radio Arcane">Radio Arcane</option>
+                  <option value="Warped Wednesday">Warped Wednesday</option>
+               </optgroup>
+               <optgroup label="Show">
+                  <option value="Wave Runner">Wave Runner</option>
+               </optgroup>
+            </select>
 
-            </ul>
+
+            <div v-for="key in Object.keys(getMixes(mixes))" :key="key">
+               <h4>{{ key }}</h4>
+
+               <ul class="mixlist">
+                  <li v-for="node in mixes[key]" :key="node.id" v-if="filter == '' || node.filters.indexOf(filter) >= 0"
+                      class="mixlist__item"
+                  >
+                     <a :href="'/mixes/' + node.slug" class="mixlist__link">
+                        {{ node.title }}
+                     </a>
+                     <a v-if="node.mixcloudLink" :href="node.mixcloudLink" target="_blank" class="mixlist__mixcloud" title="Listen on Mixcloud">
+                        <SvgIcon use="mixcloud" name="Mixcloud" />
+                     </a>
+                  </li>
+               </ul>
+            </div>
          </Section>
-
-
-
-
       </Container>
    </Layout>
 </template>
@@ -32,6 +62,7 @@
                title,
                shortTitle,
                djs,
+               filters,
                date,
                description,
                mixcloudLink,
@@ -53,6 +84,7 @@
    import GridItem from '~/components/GridItem.vue';
    import Heading from '~/components/Heading.vue';
    import Section from '~/components/Section.vue';
+   import SvgIcon from '~/components/SvgIcon';
    import Title from '~/components/Title.vue';
 
    const metaInfo = Object.assign({}, meta({
@@ -87,6 +119,7 @@
          GridItem,
          Heading,
          Section,
+         SvgIcon,
          Title,
       },
       data () {
@@ -95,55 +128,104 @@
                name: 'DJ Mixes & Shows',
                to: '/mixes'
             }],
-            mixes: {}
+            filter: "",
+            filters: [],
+            mixes: {},
          };
       },
       methods: {
-         getByDj: function(dj) {
-            if (this.mixes.hasOwnProperty(dj)) {
-               return this.mixes[dj];
-            }
+         getMixes () {
+            const filter = this.filter;
+            const mixes = this.mixes;
 
-            return [];
+            let filteredMix = {};
 
-            //return this.mixes.filter(mix => mix.djs.indexOf(dj) >= 0);
+            Object.keys(mixes).forEach(key => {
+
+               if (!filter) {
+                  filteredMix[key] = mixes[key];
+               }
+               else {
+                  let matchMixes = mixes[key].filter(item => item.filters.indexOf(filter) >= 0);
+
+                  if (matchMixes.length) {
+                     filteredMix[key] = matchMixes;
+                  }
+               }
+            });
+
+            return filteredMix;
          }
       },
-      mounted() {
-      },
       created() {
-         let data = {
-            'ww': [],
-            'ra': [],
-         };
+         let data = {};
+         let filters = [];
+
+         const months = [
+            'January', 'February', 'March', 'April', 'May',
+            'June', 'July', 'August', 'September',
+            'October', 'November', 'December',
+         ];
 
          this.$page.mixes.edges.map((node, i) => {
             let item = node.node;
 
-            console.log(item);
+            const dateParts = item.date.toString().split('-')
+            const year = dateParts[0];
+            const month = dateParts[1];
+            const monthIndex = parseInt(month) - 1;
+            const dateKey = `${ months[monthIndex] } ${ year }`;
 
-            item.djs.forEach(dj => {
-               console.log(dj);
-               if (data.hasOwnProperty(dj) === false) {
-                  data[dj] = [];
-               }
-
-               data[dj].push(item);
-            });
-
-            if (item.type === 'ww') {
-               data.ww.push(item);
+            if (data.hasOwnProperty(dateKey) === false){
+               data[dateKey] = [];
             }
 
-            if (item.type === 'ra') {
-               data.ra.push(item);
-            }
+            data[dateKey].push(Object.assign({}, item, {
+               year: year,
+               month: month,
+            }));
+
+            filters = filters.concat(item.filters);
          });
 
+         this.filters = [...new Set(filters)].sort();
          this.mixes = data;
       }
    }
 </script>
 
 <style lang="scss">
+
+   #mix-filter {
+      font-size: 16px;
+      max-width: 250px;
+   }
+
+   .mixlist {
+      &__link {
+         display: inline;
+         vertical-align: top;
+         margin-right: 0.5em;
+      }
+
+      &__mixcloud {
+         display: inline-block;
+         vertical-align: middle;
+         font-size: 125%;
+         line-height: 1;
+         color: $white;
+         opacity: 0.75;
+         transition: all 150ms ease-in-out;
+         transform: scale(1);
+         border: 1px solid $white;
+
+         &:active,
+         &:hover,
+         &:focus {
+            color: $white;
+            opacity: 1;
+            transform: scale(1.1);
+         }
+      }
+   }
 </style>

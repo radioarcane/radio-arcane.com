@@ -40,6 +40,7 @@ module.exports = {
    },
    templates: {
       Event: '/events/:slug',
+      Mix: '/mixes/:slug',
       Podcast: '/podcasts/:slug'
    },
    plugins: [
@@ -67,7 +68,7 @@ module.exports = {
                },
                '/podcasts/*': {
                   changefreq: 'monthly',
-                  priority: 0.6
+                  priority: 0.7
                },
                '/playlists': {
                   changefreq: 'weekly',
@@ -87,8 +88,16 @@ module.exports = {
                },
                '/radio': {
                   changefreq: 'weekly',
-                  priority: 0.5
-               }
+                  priority: 0.6
+               },
+               '/mixes': {
+                  changefreq: 'weekly',
+                  priority: 0.6
+               },
+               '/mixes/*': {
+                  changefreq: 'monthly',
+                  priority: 0.7
+               },
             }
          }
       }

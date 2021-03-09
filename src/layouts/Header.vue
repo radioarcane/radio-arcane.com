@@ -83,22 +83,17 @@
                name: 'Radio',
                to: '/radio'
             },
-            /*
             {
-               name: 'DJ Mixes',
+               name: 'Mixes',
                to: '/mixes',
             },
-            */
             {
                name: 'Playlists',
                to: '/playlists',
             }, {
                name: 'Contact',
                to: '/contact'
-            }, /*{
-               name: 'Streaming Radio',
-               to: '/radio',
-            }*/]
+            }]
          }
       }
    }

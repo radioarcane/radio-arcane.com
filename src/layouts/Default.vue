@@ -55,6 +55,17 @@
          else {
             this.showRadio = true;
          }
+
+         var script = document.createElement('script');
+         script.src = 'https://storage.ko-fi.com/cdn/scripts/overlay-widget.js';
+
+
+         kofiWidgetOverlay.draw('radioarcane', {
+             'type': 'floating-chat',
+             'floating-chat.donateButton.text': 'Support me',
+             'floating-chat.donateButton.background-color': '#323842',
+             'floating-chat.donateButton.text-color': '#fff'
+         });
       }
    }
 </script>
@@ -89,4 +100,9 @@
    }
 
 
+   .floating-chat-kofi-popup-iframe,
+   .floatingchat-container-wrap {
+      left: auto !important;
+      right: 16px;
+   }
 </style>

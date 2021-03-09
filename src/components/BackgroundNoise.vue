@@ -13,7 +13,6 @@
          let frame = 0;
          let loopTimeout;
 
-         // Create Noise
          const createNoise = () => {
             const idata = ctx.createImageData(wWidth, wHeight);
             const buffer32 = new Uint32Array(idata.data.buffer);
