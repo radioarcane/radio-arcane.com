@@ -1,63 +1,69 @@
 <template>
    <div class="radio-info">
-         <Center v-if="showTitle">
-            <Title>Radio Arcane Streaming Radio</Title>
-         </Center>
+      <Center v-if="showTitle">
+         <Title>Radio Arcane Streaming Radio</Title>
+      </Center>
 
-         <div v-if="currentTrack" class="radio-info__content">
-            <div class="radio-info__now-playing-container">
-               <span class="radio-info__playing-label">Now Playing:</span>
-               <span class="radio-info__playing-track">
-                  <span class="radio-info__playing-track__artist">{{ currentTrack.author }}</span>
-                  <span class="radio-info__playing-track__song">{{ getCurrentTrackInfo(currentTrack) }}</span>
+      <div v-if="currentTrack" class="radio-info__content">
+         <div class="radio-info__now-playing-container">
+            <span class="radio-info__playing-label">Now Playing:</span>
+            <span class="radio-info__playing-track">
+               <span class="radio-info__playing-track__artist">{{ currentTrack.author }}</span>
+               <span class="radio-info__playing-track__song">{{ getCurrentTrackInfo(currentTrack) }}</span>
+            </span>
+
+            <div v-if="currentTrackRequestName">
+               <span>
+                  <span class="radio-info__request-label">Requested by: </span> <u>{{ currentTrackRequestName }}</u>
                </span>
 
-               <div v-if="currentTrackRequestName">
-                  <span>
-                     <span class="radio-info__request-label">Requested by: </span> <u>{{ currentTrackRequestName }}</u>
-                  </span>
-
-                  <div v-if="currentTrackRequestMsg">
-                     <small><em>“{{ currentTrackRequestMsg }}”</em></small>
-                  </div>
-               </div>
-            </div>
-
-            <div class="radio-info__cover-container">
-               <a href="https://radioarcane.torontocast.stream" target="_blank">
-                  <img :src="getCurrentTrackImg(currentTrack)" v-bind:alt="currentTrack.metadata" class="radio-info__cover" />
-               </a>
-
-               <br /><br />
-
-               <Btn href="https://radioarcane.torontocast.stream" target="_blank">
-                  <span>Listen Now</span>
-                  <SvgIcon name="right-open" use="right-open" />
-               </Btn>
-            </div>
-
-            <div class="radio-info__history-container">
-               <div class="radio-info__history">
-                  <p>Recently Played:</p>
-
-                  <ul class="radio-info__tracks">
-                     <li v-for="trk in pastTracks"
-                          class="radio-info__tracks__track"
-                     >
-                        {{ getHistoryTrackInfo(trk) }}
-                     </li>
-                  </ul>
+               <div v-if="currentTrackRequestMsg">
+                  <small><em>“{{ currentTrackRequestMsg }}”</em></small>
                </div>
             </div>
          </div>
-         <div v-else>
-            <Center>
-               <Btn href="https://radioarcane.torontocast.stream" target="_blank">
-                  <span>Listen Now</span>
-                  <SvgIcon name="right-open" use="right-open" />
-               </Btn>
-            </Center>
+
+         <div class="radio-info__cover-container">
+            <a href="https://radioarcane.torontocast.stream" target="_blank">
+               <img :src="getCurrentTrackImg(currentTrack)" v-bind:alt="currentTrack.metadata" class="radio-info__cover" />
+            </a>
+
+            <br /><br />
+
+            <Btn href="https://radioarcane.torontocast.stream" target="_blank">
+               <span>Listen Now</span>
+               <SvgIcon name="right-open" use="right-open" />
+            </Btn>
          </div>
+
+         <div class="radio-info__history-container">
+            <div class="radio-info__history">
+               <p>Recently Played:</p>
+
+               <ul class="radio-info__tracks">
+                  <li v-for="trk in pastTracks"
+                       class="radio-info__tracks__track"
+                  >
+                     {{ getHistoryTrackInfo(trk) }}
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div v-else>
+         <Center>
+            <Btn href="https://radioarcane.torontocast.stream" target="_blank">
+               <span>Listen Now</span>
+               <SvgIcon name="right-open" use="right-open" />
+            </Btn>
+         </Center>
+      </div>
+
+      <Center>
+         <Btn id="ko-fi-btn" href="https://ko-fi.com/radioarcane" target="_blank">
+            <span>Help Support Us on Ko-fi</span>
+         </Btn>
+      </Center>
    </div>
 </template>
 
@@ -353,6 +359,19 @@
                background: hex-to-rgba($black, 0.3);
             }
          }
+      }
+   }
+
+   #ko-fi-btn {
+      color: #000;
+      background: #bf016a;
+      border: 0;
+      border-radius: 1em;
+      opacity: 1;
+
+      &:hover,
+      &:active {
+         opacity: 0.8;
       }
    }
 </style>
