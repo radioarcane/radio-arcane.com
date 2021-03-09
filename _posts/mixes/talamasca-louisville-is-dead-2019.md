@@ -38,7 +38,7 @@ description: >-
 
    - Melvins ft. Teri Gender Bender — Rebel Girl
 
-   - 25:47 Specto Caligo — La Danza
+   - Specto Caligo — La Danza
 
    - She Past Away — Asimilasyon
 
@@ -75,7 +75,7 @@ description: >-
    - Ritual Howls — Nervous Hands
 
    - Clock DVA — 4 Hours
-   
+
    - Angels of Liberty — True Hallucinations
 
    - All Your Sisters — Your Way
