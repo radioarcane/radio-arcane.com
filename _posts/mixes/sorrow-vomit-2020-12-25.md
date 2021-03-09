@@ -16,10 +16,11 @@ description: >-
 
 
    - ДК Посторонних - Только б не стало хуже
+
    - Stranger & Lovers - Necrø Love
 
    - Topographies - False Desire
-   
+
    - Mala Herba - Szczodre Gody
 
    - Paragraf 201 - Seerosen Auf Schlammbergen
