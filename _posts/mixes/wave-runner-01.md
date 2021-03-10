@@ -3,7 +3,7 @@ layout: mix
 title: 'Motuvius Rex: Wave Runner : Short Waves : 01'
 shortTitle: 'Wave Runner : Short Waves : 01'
 type: 'show'
-date: '2021-02-22'
+date: '2021-02-23'
 djs:
   - 'Motuvius Rex'
 filters:
