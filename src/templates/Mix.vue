@@ -6,7 +6,7 @@
          <article>
             <Title>{{ $page.mix.title }}</Title>
 
-            <div v-if="$page.mix.date" class="published-date">
+            <div v-if="$page.mix.date" class="published-date-mix">
                <p>
                   <time :datetime="$page.mix.date">
                      {{ $page.mix.date | moment("MMM. D, YYYY") }}
@@ -14,7 +14,15 @@
                </p>
             </div>
 
-            <MixcloudPlayer :url="$page.mix.mixcloudLink" />
+            <div v-if="$page.mix.mixcloudLink">
+               <MixcloudPlayer :url="$page.mix.mixcloudLink" />
+
+               <p>
+                  <a :href="$page.mix.mixcloudLink" target="_blank">
+                     Listen on Mixcloud
+                  </a>
+               </p>
+            </div>
 
             <div v-html="$page.mix.description" />
          </article>
@@ -122,4 +130,10 @@
 </script>
 
 <style lang="scss">
+
+.published-date-mix {
+   text-align: left;
+   font-size: 80%;
+   opacity: 0.8;
+}
 </style>
