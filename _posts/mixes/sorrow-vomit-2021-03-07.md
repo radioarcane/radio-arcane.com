@@ -3,7 +3,7 @@ layout: mix
 title: 'Sorrow-Vomit: 2021-03-07 (New Releases Live Mix: Post-Punk, Darkwave, Cold, Synth, Goth, EBM...)'
 shortTitle: '2021-03-07 (New Releases Live Mix: Post-Punk, Darkwave, Cold, Synth, Goth, EBM...)'
 type: 'set'
-date: '2021-03-27'
+date: '2021-03-07'
 djs:
   - 'Sorrow-Vomit'
 filters:
