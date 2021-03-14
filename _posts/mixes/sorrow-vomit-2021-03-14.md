@@ -9,7 +9,7 @@ djs:
 filters:
   - 'Sorrow-Vomit'
 description: >-
-  Recorded live evening of Mar. 14, 2021. All new, recently released tracks in the genres of Post-Punk, Darkwave, EBM, Coldwave, Minimal Synth, Gothic, and related. New tracks from Kill Shelter + Antipole, Absolute Body Control, Kalte Nacht, Potochkine, Spæcialista, etc. along with new remixes for tracks by Pilgrims of Yearning and The Violent Youth and a remake of a Vomito Negro classic using all analog gear sounding more sinister than ever!
+  Recorded live evening of Mar. 13, 2021. All new, recently released tracks in the genres of Post-Punk, Darkwave, EBM, Coldwave, Minimal Synth, Gothic, and related. New tracks from Kill Shelter + Antipole, Absolute Body Control, Kalte Nacht, Potochkine, Spæcialista, etc. along with new remixes for tracks by Pilgrims of Yearning and The Violent Youth and a remake of a Vomito Negro classic using all analog gear sounding more sinister than ever!
 
 
   Playlist:
@@ -111,6 +111,6 @@ description: >-
 
    - Tableraz - Alone
 
-   - IWDG - In A Lonely Place (David Holmes Rework
+   - IWDG - In A Lonely Place (David Holmes Rework)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-03-14-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
 ---
