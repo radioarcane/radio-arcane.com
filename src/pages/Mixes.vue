@@ -25,6 +25,7 @@
                   <option value="Warped Wednesday">Warped Wednesday</option>
                </optgroup>
                <optgroup label="Show">
+                  <option value="Pestilence Party">Pestilence Party</option>
                   <option value="Wave Runner">Wave Runner</option>
                </optgroup>
             </select>
