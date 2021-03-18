@@ -3,7 +3,7 @@ layout: mix
 title: 'Sorrow-Vomit: 2020-11-27 (Live Mix: Post-Punk, Darkwave, EBM, Cold Wave, Synth, Goth)'
 shortTitle: '2020-11-27 (Live Mix: Post-Punk, Darkwave, EBM, Cold Wave, Synth, Goth)'
 type: 'set'
-date: '2020-12-05'
+date: '2020-11-27'
 djs:
   - 'Sorrow-Vomit'
 filters:
