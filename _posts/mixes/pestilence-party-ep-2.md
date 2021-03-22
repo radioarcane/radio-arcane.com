@@ -17,6 +17,8 @@ description: >-
 
    In the wake of no live events and no festivals, I really came to realize the absence of this. And to be frank, have really been struggling. Maybe you are as well.
 
+
+
    So, I want to share something that’s been a year in the making. Think of them as digital DJ journal entries.
    One for every month last year, informed by the endless barrage of current events. Inspired by the emotions we have been feeling for a while now.
 
