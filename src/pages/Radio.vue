@@ -48,7 +48,7 @@
                      }"
                   >
                      <div class="request-track">
-                        <img :src="getCurrentTrackImg(trk)"
+                        <img v-lazy="getCurrentTrackImg(trk)"
                              :alt="trk.meta"
                              :title="trk.meta"
                         />
