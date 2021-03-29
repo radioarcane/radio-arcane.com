@@ -98,4 +98,5 @@ description: >-
 
    - South of Heaven — Slayer
 mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/louisville-is-dead-afterparty-july-2019'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/a/9/1/3/0449-959e-41b5-8e51-ea5f08a56942'
 ---

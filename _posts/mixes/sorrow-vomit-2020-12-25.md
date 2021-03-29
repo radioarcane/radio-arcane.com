@@ -82,5 +82,6 @@ description: >-
    - VV & The Void - Fossils
 
    - Sinister Senile - Hibernal Solstice
-mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-dec-25-2020-2020-releases/'
+mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-dec-25-2020-2020-releases'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/d/8/3/5/3c88-4b94-4499-bdfe-6d7acb14dd80'
 ---

@@ -59,4 +59,5 @@ description: >-
 
    - Martial Canterel - Epics
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/dj-sorrow-vomit-radio-arcane-2020-02-28-art-sanctuary-louisville-ky'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/3/e/0/2/a827-4580-42ab-a07a-ab74c53e962c'
 ---

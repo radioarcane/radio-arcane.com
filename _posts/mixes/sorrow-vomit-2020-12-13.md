@@ -34,7 +34,7 @@ description: >-
    - Topographies - Mirror
 
    - Nürnberg - Adny
-   
+
    - The Secret French Postcards - The Dream Is Gone
 
    - Selfishadows - A Way To Cry
@@ -85,4 +85,5 @@ description: >-
 
    - Mavroskeleto - Harm
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-dec-13-2020-2020-releases'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/1/3/e/c484-9972-4fd7-8d68-300cccaa0e3c'
 ---

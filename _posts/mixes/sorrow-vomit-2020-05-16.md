@@ -73,4 +73,5 @@ description: >-
 
    - Shari Vari - New York City (Benedikt Frey Remix)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-may-16-2020'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/7/3/b/85f8-c2d7-484c-b512-8bf892ce5289'
 ---

@@ -18,7 +18,7 @@ description: >-
    - Mala Herba - Comber
 
    - Balvanera - Gleams
-   
+
    - нат.аша - Z.​inn
 
    - June - JW
@@ -83,4 +83,5 @@ description: >-
 
    - Last Ice - Chains
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-jan-17-2021-2021-new-releases-post-punk-darkwave-cold-wave-ebm-synth-goth'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/3/b/7/5/22f1-8db2-48c0-b721-1deb2371e063'
 ---

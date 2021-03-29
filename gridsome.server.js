@@ -124,6 +124,7 @@ const defaultMix = {
    filters: [],
    description: null,
    mixcloudLink: null,
+   cover: null,
 };
 
 module.exports = function (api) {

@@ -207,4 +207,5 @@ description: >-
 
    - Different Dialect - Haunted Sanctuary
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-2019-09-25-djs-kaleidoscope-and-sorrow-vomit-seidenfadens-louisville-ky'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/3/3/c/3/6211-f413-4f1b-9336-914066ed2f05'
 ---

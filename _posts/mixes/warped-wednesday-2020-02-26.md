@@ -190,7 +190,7 @@ description: >-
    - Final Body - Agitated
 
    - Incirrina - True Love Doth Pass Away
-   
+
    - EAST - La Isla Bonito
 
    - Sure - Tasting Revenge
@@ -199,4 +199,5 @@ description: >-
 
    - Sólveig Matthildur - Dystopian Boy
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-2020-02-26-djs-sorrow-vomit-kaleidoscope-scary-black-seidenfadens'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/3/b/5/b/fd2c-8310-4faa-8233-40b0c4448a9c'
 ---

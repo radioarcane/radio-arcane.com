@@ -137,4 +137,5 @@ description: >-
 
    - Nite Fields - Voyeur
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-oct-28-2020'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/2/5/6/e/2f56-c0e8-41dc-b83c-1ad8745d2307'
 ---

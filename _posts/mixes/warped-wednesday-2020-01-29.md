@@ -88,4 +88,5 @@ description: >-
 
    - Chernoburkv - Это мой раж
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-2020-01-29-dj-sorrow-vomit-seidenfadens-louisville-ky'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/8/1/9/c/8b09-5383-42d8-b5c6-cc83a3253de4'
 ---

@@ -48,7 +48,7 @@ description: >-
    - Carcrash International - Paradise Lost (UK, 1993)
 
    - Still Patient? - Mascara Osiris (Germany, 1992)
-   
+
    - Requiem In White - Acanthus (USA, 1990)
 
    - Spiral of Silence - She's Like A Suppo (Belgium, 1998)
@@ -79,4 +79,5 @@ description: >-
 
    - Bleeding Like Mine - Nothing Seems The Same (USA, 1997)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-01-23-90s-goth-wave'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/6/9/9/5/3199-d31a-494f-8e1b-b6bb52f6d1f6'
 ---

@@ -38,7 +38,7 @@ description: >-
    - Minuit Machine - Danger
 
    - NNHMN - Robot Woman
-   
+
    - Andi - Vanitas
 
    - Kiss of The Whip - We're Not Here (Sydney Valette Remix)
@@ -57,4 +57,5 @@ description: >-
 
    - Vestron Vulture - Mariana
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-nov-3-2020-2020-releases'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/4/9/c/a/6fd6-0ea9-4cd5-b833-68d4818e05d3'
 ---

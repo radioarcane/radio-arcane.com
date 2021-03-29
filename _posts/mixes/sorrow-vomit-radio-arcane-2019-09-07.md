@@ -12,7 +12,7 @@ filters:
 description: >-
    Majority of main set from DJ Sorrow-Vomit @ Radio Arcane Monthly, Sept. 7, 2019. Recorded live at Art Sanctuary, Louisville, KY. Other DJs spinning that night included Kaleidoscope and guest DJ Textbeak (Cleveland, Ohio).
 
-   
+
 
    - Child of Night - Against The Wall (Video Remix)
 
@@ -34,4 +34,5 @@ description: >-
 
    - Kælan Mikla - Nótt Eftir Nótt
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/radio-arcane-monthly-sept-7-2019-art-sanctuary'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/9/8/d/b/8b94-efe7-421c-b1a1-74bf871048a3'
 ---

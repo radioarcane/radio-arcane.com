@@ -63,4 +63,5 @@ description: >-
 
    - Velvet Vega - Fire
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-oct-3-2020-2020-releases'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/5/5/6/b/add4-26ff-49ab-9cdf-a12891e83374'
 ---

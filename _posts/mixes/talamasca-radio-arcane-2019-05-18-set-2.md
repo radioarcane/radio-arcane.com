@@ -34,4 +34,5 @@ description: >-
 
    - Fad Gadget - Collapsing New People
 mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/talamasca-goth-prom-radio-arcane-2019-set-2'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/b/2/3/aa41-2580-4d92-b147-06085f062898'
 ---

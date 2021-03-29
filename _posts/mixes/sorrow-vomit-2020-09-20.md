@@ -49,4 +49,5 @@ description: >-
 
    - Marcie's Still Waiting - A Night Like This
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-sept-20-2020-mix'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/8/e/1/a/2326-245b-4b03-8591-c71fbd11dcfa'
 ---

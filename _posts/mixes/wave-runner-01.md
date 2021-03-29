@@ -26,4 +26,5 @@ description: >-
 
    - Simple Minds - Hunter and the Hunted (1982)
 mixcloudLink: 'https://www.mixcloud.com/WaveRunnerRomantic/wave-runner-short-waves-01'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/7/b/2/2/f8d3-3b8a-4ad3-beb5-038719bf4cf3'
 ---

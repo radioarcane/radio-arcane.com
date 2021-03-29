@@ -38,12 +38,21 @@
                   <li v-for="node in mixes[key]" :key="node.id" v-if="filter == '' || node.filters.indexOf(filter) >= 0"
                       class="mixlist__item"
                   >
-                     <a :href="'/mixes/' + node.slug" class="mixlist__link">
-                        {{ node.title }}
-                     </a>
-                     <a v-if="node.mixcloudLink" :href="node.mixcloudLink" target="_blank" class="mixlist__mixcloud" title="Listen on Mixcloud">
-                        <SvgIcon use="mixcloud" name="Mixcloud" />
-                     </a>
+                     <div class="mixlist__cover">
+                        <a v-if="node.cover" :href="'/mixes/' + node.slug">
+                           <img v-lazy="node.cover" :alt="node.title" />
+                        </a>
+                     </div>
+                     <div class="mixlist__title">
+                        <a :href="'/mixes/' + node.slug" class="mixlist__link">
+                           {{ node.title }}
+                        </a>
+                     </div>
+                     <div class="mixlist__icons">
+                        <a v-if="node.mixcloudLink" :href="node.mixcloudLink" target="_blank" class="mixlist__mixcloud" title="Listen on Mixcloud">
+                           <SvgIcon use="mixcloud" name="Mixcloud" />
+                        </a>
+                     </div>
                   </li>
                </ul>
             </div>
@@ -67,6 +76,7 @@
                date,
                description,
                mixcloudLink,
+               cover,
             }
          }
       }
@@ -203,6 +213,44 @@
    }
 
    .mixlist {
+      list-style: none;
+      padding: 0;
+      margin-left: 0;
+
+      &__item {
+         display: flex;
+         flex-wrap: nowrap;
+         justify-content: flex-start;
+         align-items: center;
+         align-content: center;
+         padding-bottom: 0.5em;
+         width: 100%;
+      }
+
+      &__cover {
+         width: 75px;
+
+         @include breakpoint($screen-m-min) {
+            width: 100px;
+         }
+      }
+
+      &__title {
+         padding-left: 15px;
+         padding-right: 15px;
+         width: calc(100% - 125px);
+
+         @include breakpoint($screen-l-min) {
+            width: auto;
+            padding-left: 30px;
+            padding-right: 30px;
+         }
+      }
+
+      &__icons {
+         width: 50px;
+      }
+
       &__link {
          display: inline;
          vertical-align: top;
@@ -229,4 +277,34 @@
          }
       }
    }
+
+   /*
+   .mixlist {
+      &__link {
+         display: inline;
+         vertical-align: top;
+         margin-right: 0.5em;
+      }
+
+      &__mixcloud {
+         display: inline-block;
+         vertical-align: middle;
+         font-size: 125%;
+         line-height: 1;
+         color: $white;
+         opacity: 0.75;
+         transition: all 150ms ease-in-out;
+         transform: scale(1);
+         border: 1px solid $white;
+
+         &:active,
+         &:hover,
+         &:focus {
+            color: $white;
+            opacity: 1;
+            transform: scale(1.1);
+         }
+      }
+   }
+   */
 </style>

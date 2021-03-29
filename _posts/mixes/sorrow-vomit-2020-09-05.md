@@ -87,4 +87,5 @@ description: >-
 
    - Motuvius Rex - Kentucke Darkness
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-sept-5-2020-mix'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/b/6/5/8/ef33-e756-405a-a313-02c7d48108ab'
 ---

@@ -113,4 +113,5 @@ description: >-
 
    - IWDG - In A Lonely Place (David Holmes Rework)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-03-14-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/4/a/6/e/244c-8d18-4029-8e11-e4be400da263'
 ---

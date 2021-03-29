@@ -69,4 +69,5 @@ description: >-
 
    - A Transition - Sleep Alone In Between Years
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-jan-3-2021-202120-releases'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/1/a/f/0/0604-9486-4b47-bb01-fd06b22a2e8b'
 ---

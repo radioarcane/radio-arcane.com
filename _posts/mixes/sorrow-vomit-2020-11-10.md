@@ -36,7 +36,7 @@ description: >-
    - Sevit - Birds of Prey
 
    - RYBA - Alltof Mikið
-   
+
    - Schrödinger - Phantom
 
    - Slow Danse With The Dead - Devil's Night
@@ -49,4 +49,5 @@ description: >-
 
    - Konstantin Unwohl - Auf Einem Hügel
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-nov-10-2020-2020-releases'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/3/6/a/4/2a56-604f-4cf4-9f73-ae8f57f55e75'
 ---

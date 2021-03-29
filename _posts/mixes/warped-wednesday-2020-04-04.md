@@ -187,4 +187,5 @@ description: >-
 
    - Siekiera - Jest Bezpiecznie
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-quarantine-mix-apr-4-2020-djs-kaleidoscope-sorrow-vomit-kaleidoscope'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/7/c/1/3/76cd-8969-4100-8a7a-1c45628ed8a5'
 ---

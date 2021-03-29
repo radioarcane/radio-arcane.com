@@ -59,4 +59,5 @@ description: >-
 
    - The Anti-Troppau Council - How Many Times
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-dec-21-2020-underground-80s'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/9/b/7/d/3ae9-eb51-4dc2-8a9d-a5d76900019b'
 ---

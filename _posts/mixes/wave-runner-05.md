@@ -27,4 +27,5 @@ description: >-
 
    - Heaven 17 - We Don’t Need This (Fascist Groove Thang) (1981)
 mixcloudLink: 'https://www.mixcloud.com/WaveRunnerRomantic/wave-runner-short-waves-05'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/6/5/b/c/e7c7-e45d-4c09-91cb-7ee8d1af4b8c'
 ---

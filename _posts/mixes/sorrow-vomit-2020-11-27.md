@@ -61,4 +61,5 @@ description: >-
 
    - Ssleeping desiresS - Impasse
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-nov-27-2020'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/d/c/c/6/9d73-bf01-4ff4-8203-287018667b5d'
 ---

@@ -57,4 +57,5 @@ description: >-
 
    - The Wake - Hammer Hall
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-sept-25-2020-new-2020-releases_'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/9/2/6/247f-b543-45a1-b3ad-fbaa631371a7'
 ---

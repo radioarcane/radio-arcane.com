@@ -100,7 +100,7 @@ description: >-
    - Closed Mouth - Your Lies
 
    - Chemical Waves - Kiss The Ring (feat. Bedless Bones)
-   
+
    - Lost Lenore - Desmorto
 
    - Sølve - Svnt Lacrimæ Rervm (ΣΕΘ Remix)
@@ -115,4 +115,5 @@ description: >-
 
    - Vision Video - Agent Orange (Ski Patrol Cover)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-02-13-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/a/8/e/c/4540-ade3-4701-9a7d-3f6ef86ee8c7'
 ---

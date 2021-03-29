@@ -8,6 +8,7 @@ import elementClosest from 'element-closest';
 import svg4everybody from 'svg4everybody';
 import VueAnalytics from 'vue-analytics';
 import Paginate from 'vuejs-paginate/src/components/Paginate';
+import VueLazyload from 'vue-lazyload';
 
 import './assets/styles/main.scss';
 
@@ -41,4 +42,6 @@ export default function (Vue, { router, head, isClient, isServer }) {
       },
       router
    });
+
+   Vue.use(VueLazyload);
 }

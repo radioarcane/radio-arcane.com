@@ -37,4 +37,5 @@ description: >-
 
    - Thrill of The Pull - Green To Red (USA, 1986)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-jan-14-2021-underground-dark-80s'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/b/4/e/8/ee65-cdb6-48da-981b-3868334c641d'
 ---

@@ -35,4 +35,5 @@ description: >-
 
    - Christian Death - Figurative Theater (Die Krupps Remix)
 mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/goth-prom-radio-arcane-2019-set-3'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/b/2/3/aa41-2580-4d92-b147-06085f062898'
 ---

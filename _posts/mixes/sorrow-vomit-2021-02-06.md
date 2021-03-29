@@ -109,4 +109,5 @@ description: >-
 
    - Reconverb - Increasing Rash
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-02-06-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/d/8/b/9/e8fa-8749-48c0-9eb6-75bb3bc35ad4'
 ---

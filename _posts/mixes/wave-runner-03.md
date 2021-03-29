@@ -27,4 +27,5 @@ description: >-
 
    - Neon - Victims Of Fact (1981)
 mixcloudLink: 'https://www.mixcloud.com/WaveRunnerRomantic/wave-runner-short-waves-03'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/a/6/5/a914-b70e-47d2-9212-22d2bb3fcab5'
 ---

@@ -37,4 +37,5 @@ description: >-
 
    - The Sisters of Mercy — Black Planet
 mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/radio-arcane-december-2018-set-1'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/1/1/2/8/43f2-6439-4ff8-aa69-d58c4f773131'
 ---

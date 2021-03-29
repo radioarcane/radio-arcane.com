@@ -14,7 +14,7 @@ description: >-
 
 
    - The Devil & The Universe - Dei Genetrix
-   
+
    - Fever Ray - The Wolf
 
    - S Y Z Y G Y X - Fantasma
@@ -31,4 +31,5 @@ description: >-
 
    - Skinny Puppy - Glass Houses
 mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/talamasca-goth-prom-radio-arcane-2019-set-1'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/b/2/3/aa41-2580-4d92-b147-06085f062898'
 ---

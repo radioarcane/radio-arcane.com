@@ -224,4 +224,5 @@ description: >-
 
    - Swan Wash - Yard
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/2019-08-28-warped-wednesday-djs-kaleidosope-and-sorrow-vomit-seidenfadens-louisville-ky'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/2/0/4/b/3b29-74b4-43b5-8544-7a0e32476707'
 ---

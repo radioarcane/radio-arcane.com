@@ -78,7 +78,7 @@ description: >-
    - Aura.Nox - Stiletto (feat. S//ROSE)
 
    - Imiafan - Ipoly
-   
+
    - Bozart - I Can Hear You
 
    - Robert Calvert - Marathon Man (Ritual Howls Remix)
@@ -119,4 +119,5 @@ description: >-
 
    - Reconverb - Behind Closed Doors (feat. Pedro Code)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-02-20-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/3/a/c/5/7aad-b46c-4d65-af98-2eab09cf09e1'
 ---

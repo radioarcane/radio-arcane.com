@@ -99,4 +99,5 @@ description: >-
 
    - Misfortunes - Υπάνθρωποι
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-01-25-2021-releases-live-mix-post-punk-darkwave-cold-wave-synth-ebm-goth'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/8/b/c/2/bb67-b89f-448a-b867-79eb5802e93c'
 ---

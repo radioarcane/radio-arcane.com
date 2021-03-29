@@ -89,4 +89,5 @@ description: >-
 
    - Empirion - ADSR (Radio Edit)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/radio-arcane-2019-12-21-sorrow-vomit-art-sanctuary-louisville-ky'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/4/9/1/7/fb91-6be3-4e1e-8fa2-c8bf838a0189'
 ---

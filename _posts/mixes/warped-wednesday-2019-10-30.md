@@ -208,4 +208,5 @@ description: >-
 
    - Night Haze - Something Strange
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/warped-wednesday-2019-10-30-djs-kaleidoscope-sorrow-vomit-seidenfadens-louisville-ky'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/d/1/8/a/460c-7514-4595-8727-73f39888f726'
 ---

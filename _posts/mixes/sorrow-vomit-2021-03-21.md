@@ -108,7 +108,7 @@ description: >-
    - Maniaque Nocturne - Misery Clan
 
    - G.O.L.E.M. - We Had A Man On The Moon
-   
+
    - Alpha Sect - The Sanity
 
    - R Gamble - Weaklink
@@ -119,4 +119,5 @@ description: >-
 
    - The Present Moment - Fire On The Mind (Coil Cover)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-03-21-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/e/d/a/6/101d-36d8-4600-b72a-40c6610b2fa1'
 ---

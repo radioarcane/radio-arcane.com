@@ -73,4 +73,5 @@ description: >-
 
    - Seasurfer - SOS
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-dec-5-2020'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/c/b/5/6/4b93-a149-4a63-910d-3935a33038c0'
 ---

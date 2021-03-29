@@ -43,4 +43,5 @@ description: >-
 
    - Mickeranno - Da Un'altra Parte
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-sept-23-2020-underground-80s'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/d/8/4/e/9f43-57d3-4897-987e-70c881c589e7'
 ---

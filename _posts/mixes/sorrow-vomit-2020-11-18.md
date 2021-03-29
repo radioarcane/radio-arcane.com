@@ -63,4 +63,5 @@ description: >-
 
    - Tuxedo Gleam - Dismissive
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-nov-18-2020-2020-releases'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/2/9/2/a/82f2-d914-4f91-a7c9-0869d52b0493'
 ---

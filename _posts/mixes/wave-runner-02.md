@@ -26,4 +26,5 @@ description: >-
 
    - Icehouse - Great Southern Land (1982)
 mixcloudLink: 'https://www.mixcloud.com/WaveRunnerRomantic/wave-runner-short-waves-02'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/6/6/0/a/97e1-818b-4d75-8d33-617eba9608ba'
 ---

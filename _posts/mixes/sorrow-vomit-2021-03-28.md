@@ -109,4 +109,5 @@ description: >-
 
    - Moken - Crystal Doll
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-03-28-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/5/2/d/4336-5e04-4175-bbf0-f93e300e95dc'
 ---

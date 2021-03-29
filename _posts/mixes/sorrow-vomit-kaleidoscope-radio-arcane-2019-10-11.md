@@ -110,4 +110,5 @@ description: >-
 
    - Marcie's Still Waiting - Unique World
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/radio-arcane-2019-10-11-djs-kaleidoscope-and-sorrow-vomit-art-sanctuary-louisville-ky'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/d/e/6/d/fa51-3d9c-4416-9fe5-b7c094d92e90'
 ---

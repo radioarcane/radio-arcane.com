@@ -20,7 +20,7 @@ description: >-
    - Varsovie - Magnitizdat
 
    - Paradox Obscur - Universe
-   
+
    - Decomme - Carbon
 
    - Whispering Sons - Surface
@@ -115,4 +115,5 @@ description: >-
 
    - Superheat - Stratus
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-01-30-new-2021-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/1/a/9/2/ea14-a130-4116-8ec5-808cd8b6fe67'
 ---

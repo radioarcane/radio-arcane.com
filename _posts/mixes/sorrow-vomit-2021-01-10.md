@@ -22,7 +22,7 @@ description: >-
    - Contre Soirée - Quand Ta Jupe Tourne
 
    - Blind Delon - Mensonges
-   
+
    - Konstantin Unwohl - In Rom
 
    - Madmoizel - Mystery
@@ -79,4 +79,5 @@ description: >-
 
    - Kurs - Two Worlds After
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-jan-10-2021-202120-releases-post-punk-darkwave-ebm-cold-wave-synth-goth'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/8/6/7/d/6f86-850f-4710-b994-34f9ca32413c'
 ---

@@ -27,4 +27,5 @@ description: >-
 
    - Black - Everything's Coming Up Roses (1987)
 mixcloudLink: 'https://www.mixcloud.com/WaveRunnerRomantic/wave-runner-short-waves-04'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/d/b/a/777b-b437-43aa-b7a6-5e73b357634f'
 ---
