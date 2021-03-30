@@ -63,8 +63,8 @@ module.exports = {
                   priority: 0.8
                },
                '/podcasts': {
-                  changefreq: 'monthly',
-                  priority: 0.7
+                  changefreq: 'weekly',
+                  priority: 0.6
                },
                '/podcasts/*': {
                   changefreq: 'monthly',
@@ -91,7 +91,7 @@ module.exports = {
                   priority: 0.6
                },
                '/mixes': {
-                  changefreq: 'weekly',
+                  changefreq: 'daily',
                   priority: 0.6
                },
                '/mixes/*': {
