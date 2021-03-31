@@ -19,7 +19,7 @@ description: >-
 
   Band line-up:
 
-  Twin Tribes, WINGTIPS, The Bellwether Syndicate, The Rope, Sonsombre, God Module, Xorcist, S Y Z Y G X, Scary Black, The Kentucky Vampires, and Vyva Melinkolya.
+  Twin Tribes, WINGTIPS, The Bellwether Syndicate, The Rope, God Module, Xorcist, S Y Z Y G X, Scary Black, The Kentucky Vampires, and Vyva Melinkolya.
 
 
   DJs:
