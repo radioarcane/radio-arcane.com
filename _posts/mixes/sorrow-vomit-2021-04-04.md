@@ -82,7 +82,7 @@ description: >-
    - Bitterbones - Don't Look Within
 
    - нат.аша - E.quo
-   
+
    - Заговор - Смерть говорит (Обратно)
 
    - Flesh of Morning - Dream
@@ -117,5 +117,5 @@ description: >-
 
    - Hapax - Listen (Live 2021)
 mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-04-04-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
-cover: 'hhttps://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/b/0/f/7034-b26d-4780-b7e0-f5ff01b88c24c'
+cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/b/0/f/7034-b26d-4780-b7e0-f5ff01b88c24'
 ---
