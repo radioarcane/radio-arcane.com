@@ -67,8 +67,8 @@ description: >-
 
    - Strawberry Pills - Όλα Καίνε
 
-   - Bestial Mouths - Industrial Waste
-   
+   - Bestial Mouths - Industrial Waste (Light Asylum Remix)
+
    - IAMTHESHADOW - On Winter Leaves Embrace
 
    - We Own The Night - Lines
