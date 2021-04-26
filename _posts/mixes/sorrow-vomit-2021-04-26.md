@@ -9,7 +9,7 @@ djs:
 filters:
   - 'Sorrow-Vomit'
 description: >-
-   Recorded live evening of Apr. 25 2021. Tons of brand new tracks with others from recent releases in the genres of Post-Punk, Darkwave, EBM, Coldwave, Minimal Synth, Gothic, Synthpop and related. Also included is the b-side to Whispering Sons's "Surface" 7" that doesn't seem to be available anywhere to hear digitally, and my copy arrived in the mail few days back...
+   Recorded live evening of Apr. 25 2021. Tons of brand new tracks with others from recent releases in the genres of Post-Punk, Darkwave, EBM, Coldwave, Minimal Synth, Gothic, Synthpop and related. Also included is the b-side to Whispering Son's "Surface" 7" that doesn't seem to be available anywhere to hear digitally, and my copy arrived in the mail few days back...
 
 
    Playlist:
