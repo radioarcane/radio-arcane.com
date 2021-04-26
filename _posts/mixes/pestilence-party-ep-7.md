@@ -10,7 +10,7 @@ filters:
   - 'Talamasca'
   - 'Pestilence Party'
 description: >-
-   - Thy Womb Full Of Black Nectar —The Palace of Tears
+   - Thy Womb Full Of Black Nectar — The Palace of Tears
 
    - La muerte te acecha — Rituel For Two
 
