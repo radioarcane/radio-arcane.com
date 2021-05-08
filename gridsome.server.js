@@ -124,6 +124,7 @@ const defaultMix = {
    filters: [],
    description: null,
    mixcloudLink: null,
+   soundcloudLink: null,
    cover: null,
 };
 

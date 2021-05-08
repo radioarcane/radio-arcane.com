@@ -24,6 +24,11 @@
                </p>
             </div>
 
+            <div v-if="$page.mix.soundcloudLink">
+               <div v-html="$page.mix.soundcloudLink"></div>
+               <br />
+            </div>
+
             <div v-html="$page.mix.description" />
          </article>
 
@@ -45,6 +50,7 @@
         date,
         description,
         mixcloudLink,
+        soundcloudLink,
      }
    }
 </page-query>
@@ -87,7 +93,6 @@
             path: this.$page.mix.path,
             name:  this.$page.mix.title
          }]);
-
 
          const metaDescription = (() => {
             let desc = '';
