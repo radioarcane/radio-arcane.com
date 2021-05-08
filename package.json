@@ -20,7 +20,7 @@
     "gridsome": "^0.7.17",
     "intersection-observer": "^0.7.0",
     "lazyload": "^2.0.0-rc.2",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "lozad": "^1.15.0",
     "normalize.css": "^8.0.1",
     "scroll-to-element": "^2.0.3",
