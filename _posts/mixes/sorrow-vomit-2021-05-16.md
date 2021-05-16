@@ -114,6 +114,6 @@ description: >-
    - Nuclear Sludge - Resist
 
    - 7V - Une Lueur Lancinante (feat. DJ Varsovie)
-mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-05-16-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebmm'
+mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-2021-05-16-new-releases-live-mix-post-punk-darkwave-cold-synth-goth-ebm'
 cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/1/6/7/4/0af6-ce7c-41fb-86cc-6ec053392844'
 ---
