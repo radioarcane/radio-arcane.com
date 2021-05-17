@@ -95,7 +95,7 @@ description: >-
 
    - Ascii.Disko - So Young So Cold
 
-   - Hakai - Invading Executioner (Inha lt Der Nacht Remix)
+   - Hakai - Invading Executioner (Inhalt Der Nacht Remix)
 
    - 667 Fatal - Taste Forced Hurt (Downwell Remix)
 
