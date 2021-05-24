@@ -12,7 +12,7 @@ filters:
 description: >-
    - Kurs — Muter (featuring Broken Nails)
 
-   - Nutzer Ebb — High Tech Low Life (Die Krupps Cover)
+   - Nitzer Ebb — High Tech Low Life (Die Krupps Cover)
 
    - Havah — Al Di Fuori Del Male
 
