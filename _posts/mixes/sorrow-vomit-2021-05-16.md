@@ -9,7 +9,7 @@ djs:
 filters:
   - 'Sorrow-Vomit'
 description: >-
-   ecorded live evening of May 15, 2021. Brand new and/or recently released tracks in the genres of Post-Punk, Darkwave, EBM, Coldwave, Minimal Synth, Gothic, Synthpop and related.
+   Recorded live evening of May 15, 2021. Brand new and/or recently released tracks in the genres of Post-Punk, Darkwave, EBM, Coldwave, Minimal Synth, Gothic, Synthpop and related.
 
 
    Playlist:
