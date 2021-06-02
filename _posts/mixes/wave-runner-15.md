@@ -17,7 +17,7 @@ description: >-
    Tracklist:
 
 
-   - 01 : Bow Wow Wow - Louis Quatorze (1982)
+   - Bow Wow Wow - Louis Quatorze (1982)
 
    - Haircut 100 - Lemon Firebrigade (1982)
 
