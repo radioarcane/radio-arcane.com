@@ -73,7 +73,7 @@ description: >-
 
    - Torch - You Will Rise (I Will Fall)
 
-   - New Cross - Fist of The Hanged Man)
+   - New Cross - Fist of The Hanged Man
 
    - Nation of Language - Across That Fine Line
 
