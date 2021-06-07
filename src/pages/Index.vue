@@ -22,16 +22,6 @@
             </FlashContainer>
          </div>
 
-         <div class="event-alert text-center">
-            <h3>
-               COVID-19 UPDATE
-            </h3>
-
-            <P>
-               All upcoming events have been postponed or canceled. Stay tuned for future updates.
-            </p>
-         </div>
-
          <Section v-if="$page.nextEvents.edges.length">
             <Heading strike animate uppercase tag="h1">
                <span v-if="$page.nextEvents.edges.length > 1">
@@ -63,6 +53,13 @@
 
          </Section>
 
+         <Center>
+            <Btn to="/events">
+               <span>Checkout Upcoming & Past Events</span>
+               <SvgIcon name="right-open" use="right-open" />
+            </Btn>
+         </Center>
+
          <!--
          <Section v-if="$page.convergenceEvent.edges.length">
             <Event :event="$page.convergenceEvent.edges[0].node" />
@@ -70,13 +67,10 @@
          </Section>
 
 
-         <Center>
-            <Btn to="/events">
-               <span>Checkout Upcoming & Past Events</span>
-               <SvgIcon name="right-open" use="right-open" />
-            </Btn>
-         </Center>
+
             -->
+
+
 
          <Section v-if="$page.podcasts.edges.length" :padTop="true">
             <Heading strike animate uppercase tag="h3">
