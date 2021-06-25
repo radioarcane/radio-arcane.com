@@ -40,6 +40,10 @@
                url: config.youtube,
                icon: 'youtube',
             }, {
+               name: 'Twitch',
+               url: config.twitch,
+               icon: 'twitch',
+            }, {
                name: 'Mixcloud',
                url: config.mixcloud,
                icon: 'mixcloud',
