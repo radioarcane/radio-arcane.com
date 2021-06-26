@@ -12,6 +12,12 @@ description: >-
 
 
   More information coming soon.
+
+
+
+  $12.00
+
+  18+
 shortDescription: ''
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/237986061159636'

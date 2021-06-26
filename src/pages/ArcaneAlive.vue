@@ -8,14 +8,14 @@
          <article>
             <Section :padBottom="true">
                <p>
-                  If you are a music act interested in playing a live show at <a href="https://www.facebook.com/pages/category/Arts---Entertainment/Art-Sanctuary-122260903695" target="_blank">Art Sanctuary</a> in Louisville, Kentucky with a style that could be identified as Darkwave, Post-Punk, Coldwave, Gothic, Industrial, EBM, Synthwave, Minimal Synth, Synthpop, New Wave, etc... feel free to reach out to us on <a href="https://www.facebook.com/RadioArcaneEvents/" target="_blank">social media</a>.
+                  If you are a music act interested in playing a live show at <a href="https://www.facebook.com/pages/category/Arts---Entertainment/Art-Sanctuary-122260903695" target="_blank">Art Sanctuary</a> in Louisville, Kentucky with a style that could be identified as Darkwave, Post-Punk, Coldwave, Gothic, Industrial, EBM, Synthwave, Minimal Synth, Synthpop, New Wave, etc... feel free to reach out to us through our <router-link to="/contact">contact form</router-link> or <a href="https://www.facebook.com/RadioArcaneEvents" target="_blank">social media</a>.
                </p>
             </Section>
          </article>
 
          <Section v-if="$page.nextEvents.edges.length === 1" :padBottom="false">
             <Heading strike animate uppercase>
-               Next Live Event
+               Next Live Music Event
             </Heading>
 
             <Event :event="$page.nextEvent.edges[0].node" />
@@ -23,7 +23,7 @@
 
          <Section v-if="$page.nextEvents.edges.length > 1" :padBottom="true">
             <Heading strike animate uppercase>
-               Next Live Events
+               Next Live Music Events
             </Heading>
 
             <div
@@ -74,7 +74,7 @@
        },
          sortBy: "date",
          order: ASC,
-         perPage: 2
+         perPage: 5
        ) {
          edges {
             node {
@@ -115,7 +115,7 @@
          cancelled: { ne: true }
       }, sortBy: "date",
          order: ASC,
-         perPage: 2
+         perPage: 5
       ) {
          edges {
             node {

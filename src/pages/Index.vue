@@ -114,7 +114,7 @@
          },
          sortBy: "date",
          order: ASC,
-         perPage: 3
+         perPage: 5
       ) {
          edges {
             node {
