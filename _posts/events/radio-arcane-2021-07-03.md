@@ -31,5 +31,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/384567356284126'
 ticketsLink: ''
 cover: '5.00'
-playlist: ''
+playlist: '2021-07-03 Dead of Night'
 ---

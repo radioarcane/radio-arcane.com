@@ -133,6 +133,9 @@
                name: 'All',
                filter: null,
             }, {
+               name: 'Dead of Night',
+               filter: 'dead-of-night'
+            }, {
                name: 'Radio Arcane',
                filter: 'radio-arcane'
             }, {
