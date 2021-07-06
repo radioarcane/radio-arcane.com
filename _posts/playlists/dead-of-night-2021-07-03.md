@@ -59,7 +59,38 @@ sets:
       - artist: Paranormales
         song: Origen (IAMTHESHADOW Remix)     
   - djName: Talamasca
-    type: dj_set     
+    type: dj_set   
+    tracks:
+      - artist: Squid Lid
+        song: Breaking Rawk
+      - artist: KMFDM
+        song: Amnesia (Kapt’n K Remix)
+      - artist: Scary Black
+        song: Stay In Your Lane
+      - artist: Virgin Prunes
+        song:  Baby Turns Blue
+      - artist: Joy Division
+        song: A Means To An End
+      - artist: A Flock of Seagulls
+        song: Modern Love Is Automatic
+      - artist: Hapax
+        song: Parallel Words
+      - artist: Pawns
+        song: Aberrations
+      - artist: Ulterior
+        song: Body Hammer
+      - artist:  Billy Idol
+        song: Rebel Yell
+      - artist: Plague Garden
+        song: These Dreams
+      - artist: Second Still
+        song: Judgment
+      - artist: Bauhaus
+        song: Dark Entries
+      - artist: This Cold Night
+        song: Black Cathedral
+      - artist: The Cure
+        song: A Forest              
   - djName: Sorrow-Vomit
     type: dj_set
     tracks:
