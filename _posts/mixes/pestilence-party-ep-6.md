@@ -21,6 +21,6 @@ description: >-
    - Stressed — Dancing Plague
 
    - Your Mind Belongs To The State — Meat Beat Manifesto
-mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/pestilence-party-episode-6'
+mixcloudLink: 'https://www.mixcloud.com/talamasca-warnoch/pestilence-party-episode-6'
 cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/3/e/f/8/3f7c-0011-4a14-8a30-050dd3ee3aea'
 ---

@@ -27,6 +27,6 @@ description: >-
 
    Every Sunday evening for the next 12 weeks a new episode will be released!
    Until we can connect in the club or on the dance floor again, I hope these episodes resonate with you. Please like, share, and let me know your thoughts in the comments.
-mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/pestilence-party-episode-2'
+mixcloudLink: 'https://www.mixcloud.com/talamasca-warnoch/pestilence-party-episode-2'
 cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/9/b/b/6/a506-1597-4a8f-9764-0b661cd8d918'
 ---

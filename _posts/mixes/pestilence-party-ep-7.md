@@ -29,6 +29,6 @@ description: >-
    - I’m Afraid Of Americans — David Bowie
 
    - Too Late, All Gone — How To Destroy Angels
-mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/pestilence-party-episode-7'
+mixcloudLink: 'https://www.mixcloud.com/talamasca-warnoch/pestilence-party-episode-7'
 cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/6/e/c/8/5567-ac9f-4edd-8231-7f04d0505753'
 ---

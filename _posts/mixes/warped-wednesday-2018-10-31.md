@@ -73,6 +73,6 @@ description: >-
    - Dynatron - Stars In The Night
 
    - Trent Reznor & Atticus Ross - John Carpenter's Halloween
-mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/warped-wednesday-halloween-2018-with-the-louisville-gore-club'
+mixcloudLink: 'https://www.mixcloud.com/talamasca-warnoch/warped-wednesday-halloween-2018-with-the-louisville-gore-club'
 cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/c/d/f/6/d849-4724-4944-b15b-515c171adcfa'
 ---

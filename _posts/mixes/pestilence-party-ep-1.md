@@ -57,6 +57,6 @@ description: >-
    - Annihilator — Night Sins
 
    - Blurred Visions — S Y Z Y G Y X
-mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/pestilence-party-episode-1'
+mixcloudLink: 'https://www.mixcloud.com/talamasca-warnoch/pestilence-party-episode-1'
 cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/f/2/a/3/845e-7f0f-4b52-af5d-b776e1ecff5b'
 ---

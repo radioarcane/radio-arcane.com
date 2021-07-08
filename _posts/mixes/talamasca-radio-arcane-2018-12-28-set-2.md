@@ -71,6 +71,6 @@ description: >-
    - Battery — Meat Market
 
    - Siouxsie & The Banshees — Cities in Dust
-mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/radio-arcane-december-2018-set-2'
+mixcloudLink: 'https://www.mixcloud.com/talamasca-warnoch/radio-arcane-december-2018-set-2'
 cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/c/f/b/1/db4a-fe9d-4605-b128-0252fd7e8441'
 ---

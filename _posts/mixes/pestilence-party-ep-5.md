@@ -25,6 +25,6 @@ description: >-
    - Limerance — Zanias
 
    - Sleep — Houses of Heaven
-mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/pestilence-party-episode-5'
+mixcloudLink: 'https://www.mixcloud.com/talamasca-warnoch/pestilence-party-episode-5'
 cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/c/5/3/f/e63f-7a51-4439-ad35-ae8958febc36'
 ---

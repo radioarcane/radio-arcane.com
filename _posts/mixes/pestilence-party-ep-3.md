@@ -49,6 +49,6 @@ description: >-
    - Inside Out — Martin Dupont
 
    - Forget Me — Sally Dige
-mixcloudLink: 'https://www.mixcloud.com/talamasca-warnock/pestilence-party-episode-3'
+mixcloudLink: 'https://www.mixcloud.com/talamasca-warnoch/pestilence-party-episode-3'
 cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/9/f/9/1/199a-949f-4994-b7ad-32ae8be07362'
 ---
