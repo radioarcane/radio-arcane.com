@@ -59,11 +59,36 @@
          </Center>
       </div>
 
+      <br />
+
+      <GridContainer center="true">
+         <GridItem>
+            <Btn id="ko-fi-btn" href="https://ko-fi.com/radioarcane" target="_blank">
+               <span>Help Support Us on Ko-fi</span>
+            </Btn>
+         </GridItem>
+         <GridItem>
+            <form action="https://www.paypal.com/donate" method="post" target="_blank">
+               <input type="hidden" name="hosted_button_id" value="DYUY5ZPR4EKHG">
+               <input type="hidden" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit">
+               <!--
+               <img loading="lazy" alt="" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" border="0">\
+               -->
+
+               <Btn id="paypal-btn" type="submit">
+                  <span>Donate with PayPal</span>
+               </Btn>
+            </form>
+         </GridItem>
+      </GridContainer>
+
+      <!--
       <Center>
          <Btn id="ko-fi-btn" href="https://ko-fi.com/radioarcane" target="_blank">
             <span>Help Support Us on Ko-fi</span>
          </Btn>
       </Center>
+   -->
    </div>
 </template>
 
@@ -359,6 +384,19 @@
                background: hex-to-rgba($black, 0.3);
             }
          }
+      }
+   }
+
+   #paypal-btn {
+      color: #000;
+      background: #ffbd5d;
+      border: 0;
+      border-radius: 1em;
+      opacity: 1;
+
+      &:hover,
+      &:active {
+         opacity: 0.8;
       }
    }
 
