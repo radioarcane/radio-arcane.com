@@ -9,7 +9,7 @@ djs:
 filters:
   - 'Sorrow-Vomit'
 description: >-
-   Recorded live July 18, 2021. Tracks off new releases from July / June 2021 in the style of post-punk, guitar-based coldwave, gothic rock with some deathrock / anarcho punkmixed in as well + a few borderline darkwave tracks gothic in spirit.
+   Recorded live July 18, 2021. Tracks off new releases from July / June 2021 in the style of post-punk, guitar-based coldwave, gothic rock with some deathrock / anarcho punk mixed in as well + a few borderline darkwave tracks gothic in spirit.
 
 
    Playlist:
