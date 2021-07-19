@@ -9,7 +9,7 @@
             </Heading>
 
             <div
-               v-for="node in getNextEvents($page.allEvent.edges, 5)"
+               v-for="node in getNextEvents($page.allEvent.edges, 6)"
                :key="node.id"
                class="event-divider"
             >
