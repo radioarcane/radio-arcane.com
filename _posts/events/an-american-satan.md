@@ -36,7 +36,7 @@ description: >-
 shortDescription: 'Radio Arcane Proudly Presents the very first big screen showing of brilliant documentary film "An American Satan", with very special guest host Father James Mitchell (The Sinister Minister).'
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/259778332159516'
-ticketsLink: ''
+ticketsLink: 'https://www.showclix.com/event/an-american-satan-with-host-father-james-mitchell'
 cover: '10.00'
 playlist: ''
 ---
