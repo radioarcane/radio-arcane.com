@@ -16,7 +16,11 @@ description: >-
 
 
 
-   18+ $5 after 10pm or free for any early bats that get there beforehand.
+   18+ entry
+
+   21+ bar
+
+   $5 after 10pm or free for any early bats that get there beforehand.
 shortDescription: ''
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/489385395651902'

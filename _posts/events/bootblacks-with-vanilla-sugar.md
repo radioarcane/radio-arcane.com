@@ -15,9 +15,11 @@ description: >-
 
 
 
-  $12.00
+  18+ entry
 
-  18+
+  21+ bar
+
+  $12 cover
 shortDescription: ''
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/237986061159636'
