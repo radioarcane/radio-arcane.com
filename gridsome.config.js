@@ -98,6 +98,10 @@ module.exports = {
                   changefreq: 'monthly',
                   priority: 0.7
                },
+               '/affiliates': {
+                  changefreq: 'monthly',
+                  priority: 0.4
+               },
             }
          }
       }
