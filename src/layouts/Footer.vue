@@ -55,6 +55,9 @@
             }, {
                name: 'Contact',
                to: '/contact',
+            }, {
+               name: 'Affiliates',
+               to: '/affiliates'
             }
             /*,
             {

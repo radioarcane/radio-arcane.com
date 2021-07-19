@@ -28,6 +28,8 @@ description: >-
 
    Tickets available through Showclix and at the door.
 
+   Doors open @ 7pm, Show starts @ 8pm
+
    18+ entry
 
    21+ bar
