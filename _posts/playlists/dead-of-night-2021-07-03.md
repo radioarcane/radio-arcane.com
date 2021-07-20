@@ -142,7 +142,7 @@ sets:
       - artist: Bedroom Talks
         song: When Winter Comes
       - artist: Floating Ashes
-        song: Find Another Ghost
+        song: Find Another Way
       - artist: Fragrance.
         song: Crisis
       - artist: Lycia
