@@ -101,8 +101,8 @@
                person: userName ? userName : 'Anonymous',
                message: message,
                music_id: self.track.id,
-               ip_timeout: "3600000",
-               //ip_timeout: "0",
+               //ip_timeout: "3600000",
+               ip_timeout: "0",
                track_timeout: "720000"
                //track_timeout: "0"
             };
