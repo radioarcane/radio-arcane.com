@@ -1,21 +1,20 @@
 <template>
    <RadioTwitchLayout>
       <Container>
-         <GridContainer center="true">
+         <GridContainer center>
             <GridItem>
                <Center>
                   <Heading>
                      {{ currentTrack.author }} – “{{ getCurrentTrackInfo(currentTrack) }}”
                   </Heading>
 
-                  <div>
+                  <div class="cover-wrapper">
                      <img :src="getCurrentTrackImg(currentTrack)" v-bind:alt="currentTrack.metadata" />
                   </div>
 
-                  <br />
-
                   <Heading tag="h5">
-                     <span class="faint">Now Playing:</span> {{ currentTrack.author }} – “{{ getCurrentTrackInfo(currentTrack) }}”
+                     <span class="faint">Now Playing:</span>
+                     <span style="display: block; margin-top: 8px;">{{ currentTrack.author }} – “{{ getCurrentTrackInfo(currentTrack) }}”</span>
                   </Heading>
 
                   <p v-if="currentTrackRequestName">
@@ -217,5 +216,15 @@
 <style lang="scss">
    .faint {
       opacity: 0.6;
+   }
+
+   .cover-wrapper {
+      width: 300px;
+      height: 300px;
+      margin: 0 auto 30px;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
    }
 </style>

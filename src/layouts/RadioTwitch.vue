@@ -20,6 +20,7 @@
       background: #000;
       padding: 5px 30px;
       text-align: center;
+      display: none;
 
       img {
          max-width: 400px;
