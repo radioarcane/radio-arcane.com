@@ -89,6 +89,47 @@
             </div>
 
             <div class="affiliate">
+               <h3 class="affiliate__title">Funeral Party Records</h3>
+
+               <p class="affiliate__description">Wyldwood Radio has been streaming Occult and Pagan music 24 hours a day, 7 days a week worldwide. We are fans of the Pagan music scene, we wanted to create a space where we could share the music we love with other Pagan music lovers, where we could help set the scene for your ceremonies and meditations, create a backdrop for your arts and bring some inspiration into your life.</p>
+
+               <ul class="affiliate__links">
+                  <li>
+                     <a href="https://www.thefuneralparty.com"
+                        target="_blank"
+                        title="Funeral Party Records's Website"
+                     >
+                        <SvgIcon name="home" use="home" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.facebook.com/funeralpartyrecords"
+                        target="_blank"
+                        title="Funeral Party Records @ Facebook"
+                     >
+                        <SvgIcon name="facebook" use="facebook" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="http://instagram.com/funeralpartyrecords"
+                        target="_blank"
+                        title="Funeral Party Records @ Instagram"
+                     >
+                        <SvgIcon name="instagram" use="instagram" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://funeralparty.bandcamp.com"
+                        target="_blank"
+                        title="Funeral Party Records @ Bandcamp"
+                     >
+                        <SvgIcon name="bandcamp" use="bandcamp" />
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="affiliate">
                <h3 class="affiliate__title">Wyldwood Radio</h3>
 
                <p class="affiliate__description">Wyldwood Radio has been streaming Occult and Pagan music 24 hours a day, 7 days a week worldwide. We are fans of the Pagan music scene, we wanted to create a space where we could share the music we love with other Pagan music lovers, where we could help set the scene for your ceremonies and meditations, create a backdrop for your arts and bring some inspiration into your life.</p>
@@ -216,7 +257,6 @@
                         <SvgIcon name="bandcamp" use="bandcamp" />
                      </a>
                   </li>
-
                </ul>
             </div>
          </Section>
