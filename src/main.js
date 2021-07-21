@@ -2,6 +2,7 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from './layouts/Default.vue';
+import RadioTwitchLayout from './layouts/RadioTwitch.vue';
 import vueMoment from 'vue-moment';
 import VModal from 'vue-js-modal/dist/ssr.index';
 import elementClosest from 'element-closest';
@@ -31,6 +32,7 @@ export default function (Vue, { router, head, isClient, isServer }) {
    });
 
    Vue.component('Layout', DefaultLayout);
+   Vue.component('RadioTwitchLayout', RadioTwitchLayout);
 
    Vue.component('paginate', Paginate);
 
