@@ -74,6 +74,11 @@
             return trk.img_medium_url || 'https://quincy.torontocast.com:1090/media/tracks/default_track_img.png';
          },
          getCurrentTrackInfo(trk) {
+
+            if (!trk) {
+               return '';
+            }
+
             let title = trk.title.toString().replace(/ +(?= )/g,'').trim();
             let requestName = '';
             let requestMsg = '';
