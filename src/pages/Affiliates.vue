@@ -127,6 +127,48 @@
                </ul>
             </div>
 
+
+            <div class="affiliate">
+               <h3 class="affiliate__title">Dead Channel Records</h3>
+
+               <p>A Louisville based record label featuring an array of renegade electronics: acid, electro, techno, ebm, and minimal synth.</p>
+
+               <ul class="affiliate__links">
+                  <li>
+                     <a href="https://www.facebook.com/dead.channel.records"
+                        target="_blank"
+                        title="Dead Channel Records @ Facebook"
+                     >
+                        <SvgIcon name="facebook" use="facebook" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/dead__channel"
+                        target="_blank"
+                        title="Dead Channel Records @ Instagram"
+                     >
+                        <SvgIcon name="instagram" use="instagram" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://deadchannelrecords.com"
+                        target="_blank"
+                        title="Dead Channel Records @ Bandcamp"
+                     >
+                        <SvgIcon name="bandcamp" use="bandcamp" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://soundcloud.com/dead-channel-records"
+                        target="_blank"
+                        title="Dead Channel Records @ SoundCloud"
+                     >
+                        <SvgIcon name="soundcloud" use="soundcloud" />
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
             <div class="affiliate">
                <h3 class="affiliate__title">Wyldwood Radio</h3>
 
