@@ -109,7 +109,7 @@
             };
 
             if (userName === 'vip') {
-                requestData.person = 'Radio Arcane';
+                requestData.person = 'Radio:Arcane';
                 requestData.ip_timeout = "0";
             }
 
