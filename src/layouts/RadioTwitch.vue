@@ -7,8 +7,8 @@
             <img src="/img/logo--radio-arcane.png" alt="Radio Arcane">
          </picture>
       </div>
-      <div class="content-wrapper">
-         <main class="main-content" role="main">
+      <div class="content-wrapper2">
+         <main class="main-content2" role="main">
             <slot />
          </main>
       </div>
@@ -27,7 +27,7 @@
       }
    }
 
-   .content-wrapper {
+   .content-wrapper2 {
       display: flex;
       flex-wrap: wrap;
       align-items: stretch;
@@ -45,7 +45,7 @@
       justify-content: center;
    }
 
-   .main-content {
+   .main-content2 {
       position: relative;
       min-height: 60vh;
       width: 100%;
