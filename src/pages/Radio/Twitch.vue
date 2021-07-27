@@ -4,7 +4,7 @@
          <GridContainer center>
             <GridItem>
                <Center>
-                  <Heading>
+                  <Heading tag="h4">
                      {{ currentTrack.author }} – “{{ getCurrentTrackInfo(currentTrack) }}”
                   </Heading>
 

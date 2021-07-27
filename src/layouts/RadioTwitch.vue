@@ -34,9 +34,13 @@
       align-content: flex-start;
       justify-content: flex-start;
       width: 100%;
+      /*
       background: linear-gradient(to right, rgba(36,31,31,1) 0%, rgba(36,31,31,1) 32%, rgba(74,71,70,1) 100%);
       padding: 2rem 0;
       box-shadow: inset 0 0 150px $black;
+      */
+      padding: 0;
+      background: black;
       position: relative;
       justify-content: center;
    }
@@ -46,6 +50,7 @@
       min-height: 60vh;
       width: 100%;
 
+      /*
       @include breakpoint($screen-l-min) {
          width: 75%;
       }
@@ -53,5 +58,6 @@
       @include breakpoint($screen-l-min) {
          width: 80%;
       }
+      */
    }
 </style>
