@@ -96,7 +96,7 @@
             const userName = this.username.toString().replace(/ +(?= )/g,'').trim().slice(0, 80);
             const message = this.message.toString().replace(/ +(?= )/g,'').trim().slice(0, 300);
 
-            const requestData = {
+            let requestData = {
                server_id: "1",
                person: userName ? userName : 'Anonymous',
                message: message,
@@ -107,6 +107,11 @@
                track_timeout: "720000"
                //track_timeout: "0"
             };
+
+            if (userName === 'vip') {
+                requestData.person = 'Radio Arcane';
+                requestData.ip_timeout: "0";
+            }
 
             xhr.onload = () => {
               let response = {};
