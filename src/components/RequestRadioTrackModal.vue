@@ -110,7 +110,7 @@
 
             if (userName === 'vip') {
                 requestData.person = 'Radio Arcane';
-                requestData.ip_timeout: "0";
+                requestData.ip_timeout = "0";
             }
 
             xhr.onload = () => {
