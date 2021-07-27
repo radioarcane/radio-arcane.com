@@ -5,7 +5,7 @@
             <GridItem>
                <Center>
                   <Heading tag="h4">
-                     {{ currentTrack.author }} – “{{ getCurrentTrackInfo(currentTrack) }}”
+                     {{ currentTrack.author }} – “{{ getCurrentTrackInfo(currentTrack, true) }}”
                   </Heading>
 
                   <div class="cover-wrapper">
