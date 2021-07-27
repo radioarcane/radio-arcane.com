@@ -72,14 +72,16 @@
          getCurrentTrackImg(trk) {
             return trk.img_medium_url || 'https://quincy.torontocast.com:1090/media/tracks/default_track_img.png';
          },
-         getCurrentTrackInfo(trk) {
+         getCurrentTrackInfo(trk, includeRequest = false) {
             if (!trk) {
                return '';
             }
 
+            let allTitle = trk.title.toString().replace(/ +(?= )/g,'').trim();
             let title = trk.title.toString().replace(/ +(?= )/g,'').trim();
             let requestName = '';
             let requestMsg = '';
+
 
             if (title.includes(" [Requested by ")) {
                const strParts = title.split(' [Requested by ');
@@ -92,7 +94,7 @@
                catch(e) {
                   this.currentTrackRequestName = null;
                   this.currentTrackRequestMsg = null;
-                  return title;
+                  return includeRequest ? allTitle : title;
                }
 
                const requestPts = requestStr.split(': ');
@@ -103,7 +105,7 @@
                catch(e) {
                   this.currentTrackRequestName = null;
                   this.currentTrackRequestMsg = null;
-                  return title;
+                  return includeRequest ? allTitle : title;
                }
 
                try {
@@ -112,14 +114,14 @@
                catch(e) {
                   this.currentTrackRequestName = null;
                   this.currentTrackRequestMsg = null;
-                  return title;
+                  return includeRequest ? allTitle : title;
                }
             }
 
             this.currentTrackRequestName = requestName ? requestName : null;
             this.currentTrackRequestMsg = requestMsg ? requestMsg : null;
 
-            return title;
+            return includeRequest ? allTitle : title;
          },
          getHistoryTrackInfo(trk) {
             let artist = trk.author.toString().replace(/ +(?= )/g,'').trim();
