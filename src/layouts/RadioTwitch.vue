@@ -39,7 +39,7 @@
       padding: 2rem 0;
       box-shadow: inset 0 0 150px $black;
       */
-      padding: 0;
+      padding: 12px 0 0;
       background: black;
       position: relative;
       justify-content: center;
