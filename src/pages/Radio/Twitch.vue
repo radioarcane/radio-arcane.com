@@ -6,6 +6,11 @@
                <Center>
                   <Heading tag="h4">
                      {{ currentTrack.author }} – “{{ getCurrentTrackInfo(currentTrack, true) }}”
+
+                     <small v-if="currentTrackRequestName">
+                        <br />
+                        <span class="faint">Requested by: </span> {{ currentTrackRequestName }}
+                     </small>
                   </Heading>
 
                   <div class="cover-wrapper">
@@ -19,7 +24,7 @@
 
                   <p v-if="currentTrackRequestName">
                      <span>
-                        <span class="faint">Requested by: </span> <u>{{ currentTrackRequestName }}</u>
+                        <span class="faint">Requested by: </span> {{ currentTrackRequestName }}
                      </span>
 
                      <div v-if="currentTrackRequestMsg">
