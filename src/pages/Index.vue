@@ -98,7 +98,7 @@
 
          <Section :padTop="true">
             <Container>
-               <Radio />
+               <Radio :showMobileHistory="false" />
             </Container>
          </Section>
       </Container>

@@ -36,7 +36,7 @@
             </Btn>
          </div>
 
-         <div class="radio-info__history-container">
+         <div class="radio-info__history-container" :class="showMobileHistory ? '' : 'hide-on-mobile'">
             <div class="radio-info__history">
                <p>Recently Played:</p>
 
@@ -61,7 +61,7 @@
 
       <br />
 
-      <GridContainer center="true">
+      <GridContainer center>
          <GridItem>
             <Btn id="ko-fi-btn" href="https://ko-fi.com/radioarcane" target="_blank">
                <span>Help Support Us on Ko-fi</span>
@@ -94,11 +94,6 @@
 
 
 <script>
-
-   /*
-      https://www.wyldwood.org/
-   */
-
    import { setup as setupCache } from 'axios-cache-adapter';
 
    import Btn from '~/components/Btn.vue';
@@ -114,7 +109,11 @@
          showTitle: {
             default: true,
             type: Boolean,
-         }
+         },
+         showMobileHistory: {
+            default: true,
+            type: Boolean,
+         },
       },
       components: {
          Btn,
@@ -299,12 +298,18 @@
 
       &__history-container {
          width: 100%;
-         display: none;
 
          @include breakpoint($screen-m-min) {
-            display: block;
             width: calc(100% - 300px);
             padding-left: 30px;
+         }
+
+         &.hide-on-mobile {
+            display: none;
+
+            @include breakpoint($screen-m-min) {
+               display: block;
+            }
          }
       }
 
@@ -355,12 +360,7 @@
       }
 
       &__history {
-         display: none;
          font-size: 16px;
-
-         @include breakpoint($screen-m-min) {
-            display: block;
-         }
 
          > p:first-child {
             margin-bottom: 0.5em;
