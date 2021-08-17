@@ -33,6 +33,8 @@ description: >-
    18+ entry
 
    21+ bar
+
+   MASKS REQUIRED FOR ALL
 shortDescription: 'Radio Arcane Proudly Presents the very first big screen showing of brilliant documentary film "An American Satan", with very special guest host Father James Mitchell (The Sinister Minister).'
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/259778332159516'

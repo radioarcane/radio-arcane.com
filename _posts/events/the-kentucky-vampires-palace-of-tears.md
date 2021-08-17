@@ -1,14 +1,14 @@
 ---
 layout: event
-title: '2021-08-21 The Kentucky Vampires + Palace of Tears'
+title: '2021-11-13 The Kentucky Vampires + Palace of Tears'
 displayName: 'Dead Of Night : The Kentucky Vampires + Palace of Tears'
 eventType: arcane-alive
-date: '2021-08-21'
-startDatetime: '2021-08-21 20:00:00'
-endDatetime: '2021-08-22 03:00:00'
+date: '2021-11-13'
+startDatetime: '2021-11-13 20:00:00'
+endDatetime: '2021-11-14 03:00:00'
 image: /img/uploads/kentucky-vampires--palce-of-tears.jpg
 description: >-
-   Join us on Saturday, August 21st for another Dead Of Night & The Dark Market!
+   Join us on Saturday, November 13th for another Dead Of Night & The Dark Market!
 
 
 
@@ -47,14 +47,16 @@ description: >-
 
 
    18+ entry
-   
+
    21+ bar
 
    $10 cover
+
+   MASKS REQUIRED FOR ALL
 shortDescription: "Featuring live performances by New Orleans duo The Palace Of Tears and Louisville’s own The Kentucky Vampires!"
 location: Art Sanctuary
-facebookEventLink: 'https://www.facebook.com/events/498813388117386'
-ticketsLink: 'https://www.showclix.com/event/the-kentucky-vampires-palace-of-tears'
+facebookEventLink: 'https://www.facebook.com/events/233001928827980'
+ticketsLink: ''
 cover: '10.00'
 playlist: ''
 ---
