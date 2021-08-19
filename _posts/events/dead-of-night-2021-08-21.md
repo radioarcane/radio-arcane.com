@@ -20,7 +20,7 @@ description: >-
 
 
 
-   Live DJ action so you can dance away the the night to our world class Dark Music Specialists!
+   Live DJ action so you can dance away the night to our world class Dark Music Specialists!
 
 
 
