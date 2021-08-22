@@ -114,7 +114,7 @@ sets:
         song: Another Day In Hell (Zus Remix)
       - artist: TRAITRS
         song: The Darkling Thrush
-      - artist: Actors
+      - artist: ACTORS
         song: Only Lonely
       - artist: Nul Telexes
         song: A Play (Sydney Valette Remix)
