@@ -36,5 +36,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/498813388117386'
 ticketsLink: 'https://www.showclix.com/event/the-kentucky-vampires-palace-of-tears'
 cover: '5.00'
-playlist: ''
+playlist: '2021-08-21 Dead of Night'
 ---
