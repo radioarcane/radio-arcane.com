@@ -8,6 +8,7 @@ djs:
   - 'DJ Kaleidoscope'
 filters:
   - 'Kaleidoscope'
+  - 'Radio Arcane'
 description: >-
    New Music: NNHMN - Tomorrow's Heroine, Kurs - Two Worlds After, Hammershøi - Hélas, Schrödinger - Murder, Martial Canterel - Windharp, Nul Telexes - A Play, Ash Code - Fear (Forever Grey Remix), Ductape - Wooden Girl and more.
 mixcloudLink: 'https://www.mixcloud.com/kim-bell6/live-club-mix-dj-kaleidoscope-july-3-2021'
