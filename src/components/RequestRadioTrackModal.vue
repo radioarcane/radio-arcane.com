@@ -5,7 +5,9 @@
       <p>
          Artist: {{ track.author }}<br />
          Song: “{{ track.title }}”<br />
-         <small><em>* Requests are limited to one track per hour based on IP address.</em></small>
+         <!--
+            <small><em>* Requests are limited to one track per hour based on IP address.</em></small>
+         -->
       </p>
 
       <div v-if="errorMsg" class="request-track-modal__error">
@@ -73,6 +75,7 @@
          return {
             loading: false,
             submitted: false,
+            ipBanMins: 15,
             username: '',
             message: '',
             errorMsg: '',
@@ -96,19 +99,21 @@
             const userName = this.username.toString().replace(/ +(?= )/g,'').trim().slice(0, 80);
             const message = this.message.toString().replace(/ +(?= )/g,'').trim().slice(0, 300);
 
+            /* mins */
+            const ipTimeout = self.ipBanMins * 60 * 1000;
+
             let requestData = {
                server_id: "1",
                person: userName ? userName : 'Anonymous',
                message: message,
                music_id: self.track.id,
-               //ip_timeout: "3600000",
                //ip_timeout: "0",
-               ip_timeout: "1200000",
+               ip_timeout: ipTimeout,
                track_timeout: "720000"
                //track_timeout: "0"
             };
 
-            if (userName === 'vip') {
+            if (userName.toString().toLowerCase() === 'vip') {
                 requestData.person = 'Radio:Arcane';
                 requestData.ip_timeout = "0";
             }
@@ -136,7 +141,7 @@
               }
 
               if (response.ip_blocked) {
-                 self.errorMsg = 'We have already received a request from this IP address. Please wait an hour to try again...';
+                 self.errorMsg = `Please wait ${ self.ipBanMins } minutes to request again.`;
               }
 
               if (!self.errorMsg) {
@@ -170,6 +175,7 @@
          border: 1px solid $white;
          padding: 1em;
          margin: 0 0 1.5em;
+         color: red;
       }
 
       .btn {
