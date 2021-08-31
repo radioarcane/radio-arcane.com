@@ -178,6 +178,11 @@
             this.currentTrackRequestName = requestName ? requestName : null;
             this.currentTrackRequestMsg = requestMsg ? requestMsg : null;
 
+            if (requestName === 'Radio:Arcane') {
+               this.currentTrackRequestName = null;
+               this.currentTrackRequestMsg = null;
+            }
+
             return title;
          },
          getHistoryTrackInfo(trk) {

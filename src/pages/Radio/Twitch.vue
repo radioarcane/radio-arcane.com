@@ -5,7 +5,7 @@
             <GridItem>
                <Center>
                   <Heading tag="h4">
-                     {{ currentTrack.author }} – “{{ getCurrentTrackInfo(currentTrack, true) }}”
+                     {{ currentTrack.author }} – “{{ getCurrentTrackInfo(currentTrack, false) }}”
 
                      <small v-if="currentTrackRequestName">
                         <br />
@@ -123,8 +123,13 @@
                }
             }
 
-            this.currentTrackRequestName = requestName ? requestName : null;
-            this.currentTrackRequestMsg = requestMsg ? requestMsg : null;
+            this.currentTrackRequestName = includeRequest && requestName ? requestName : null;
+            this.currentTrackRequestMsg = includeRequest && requestMsg ? requestMsg : null;
+
+            if (requestName === 'Radio:Arcane') {
+               this.currentTrackRequestName = null;
+               this.currentTrackRequestMsg = null;
+            }
 
             return includeRequest ? allTitle : title;
          },
