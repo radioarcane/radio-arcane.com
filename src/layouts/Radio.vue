@@ -220,7 +220,7 @@
 
             let fullTitle = `${ artist } – “${ title }”`;
 
-            if (requestName) {
+            if (requestName && requestName !== 'Radio:Arcane') {
                fullTitle += ` ~ [Requested by ${ requestName }]`;
             }
 
