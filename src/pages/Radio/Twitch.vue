@@ -217,7 +217,7 @@
 
            // `axios-cache-adapter` options
            cache: {
-             maxAge: 25000
+             maxAge: 5000
            }
          })
       }
