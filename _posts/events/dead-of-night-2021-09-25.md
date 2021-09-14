@@ -1,7 +1,7 @@
 ---
 layout: event
 title: '2021-09-25 Radio Arcane'
-displayName: 'Dead Of Night & The Dark Market - Equinox'
+displayName: 'Dead Of Night - Equinox'
 eventType: radio-arcane
 date: '2021-09-25'
 startDatetime: '2021-09-25 21:00:00'
