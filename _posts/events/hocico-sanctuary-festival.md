@@ -61,13 +61,15 @@ description: >-
 
    21+ bar
 
-   $20 advance / $25 door
+   $20 Advanced Tickets
 
-   MASKS REQUIRED FOR ALL
-shortDescription: "The Sanctuary Festival Tour 2021"
+   $25 Day of Show
+
+   Masks required for entry. We keep them at the door if you forget.
+shortDescription: "Sanctuary Festival Tour 2021 featuring Hocico"
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/489385395651902'
-ticketsLink: ''
-cover: '20.00'
+ticketsLink: 'https://www.showclix.com/event/dead-of-night-sanctuary-festival'
+cover: '25.00'
 playlist: ''
 ---
