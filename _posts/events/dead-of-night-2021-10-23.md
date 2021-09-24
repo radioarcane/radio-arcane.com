@@ -7,6 +7,7 @@ date: '2021-10-23'
 startDatetime: '2021-10-23 21:00:00'
 endDatetime: '2021-10-24 03:00:00'
 image: '/img/uploads/dead-of-night-2021-10-23.jpg'
+cancelled: true
 description: >-
    Join us on Saturday, October 23rd as Dead Of Night ushers in Halloween with A Night Like This, Tribute To The Cure.
 
