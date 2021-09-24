@@ -19,13 +19,13 @@ description: >-
 
 
 
-   LUNA 13 (Los Angeles, CA)
+   LUNA 13 (Los Angeles)
 
    https://luna13music.bandcamp.com
 
 
 
-   PROJECT .44 (Chicago, IL / feat. members of Ministry, My Life with the Thrill Kill Kult, Pigface)
+   PROJECT .44 (Chicago / feat. members of Ministry, My Life with the Thrill Kill Kult, Pigface)
 
    https://project44.bandcamp.com
 
@@ -38,14 +38,14 @@ description: >-
 
 
 
-   ABSYNTHE OF FAITH (Minneapolis,MN)
+   ABSYNTHE OF FAITH (Minneapolis)
 
    https://absyntheoffaith.bandcamp.com
 
 
 
 
-   FOR ALL THE EMPTINESS (Toronto, CA)
+   FOR ALL THE EMPTINESS (Toronto)
 
    https://foralltheemptiness.com/album/mt-ep
 
