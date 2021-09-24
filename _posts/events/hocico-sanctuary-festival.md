@@ -61,7 +61,7 @@ description: >-
 
    21+ bar
 
-   $20 cover
+   $20 advance / $25 door
 
    MASKS REQUIRED FOR ALL
 shortDescription: "The Sanctuary Festival Tour 2021"
