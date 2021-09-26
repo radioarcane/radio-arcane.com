@@ -28,5 +28,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/247606550200012'
 ticketsLink: ''
 cover: '5.00'
-playlist: ''
+playlist: '2021-09-25 Dead of Night'
 ---
