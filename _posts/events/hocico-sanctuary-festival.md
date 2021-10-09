@@ -1,20 +1,20 @@
 ---
 layout: event
-title: 'Dead Of Night - Sanctuary Festival feat. Hocico, Luna 13, Project .44, The Dark Market & More!'
-displayName: 'Dead Of Night - Sanctuary Festival feat. Hocico, Luna 13, Project .44, The Dark Market & More!'
+title: 'Dead Of Night - Sanctuary Festival feat. Julien-K, Luna 13, Project .44, The Dark Market & More!'
+displayName: 'Dead Of Night - Sanctuary Festival feat. Julien-K, Luna 13, Project .44, The Dark Market & More!'
 eventType: arcane-alive
 date: '2021-10-28'
 startDatetime: '2021-10-28 18:00:00'
 endDatetime: '2021-10-29 00:00:00'
-image: '/img/uploads/dead-of-night-hocico.jpg'
+image: '/img/uploads/sanctuary-festival-julien-k.jpg'
 description: >-
    The Sanctuary Festival Tour 2021
 
 
 
-   HOCICO (Mexico)
+   Julien-K (California)
 
-   https://hocico666.bandcamp.com/music
+   https://www.julienk.com
 
 
 
@@ -66,7 +66,7 @@ description: >-
    $25 Day of Show
 
    Masks required for entry. We keep them at the door if you forget.
-shortDescription: "Sanctuary Festival Tour 2021 featuring Hocico"
+shortDescription: "Sanctuary Festival Tour 2021 featuring Julien-K, Luna 13, Project .44, The Dark Market & More!"
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/489385395651902'
 ticketsLink: 'https://www.showclix.com/event/dead-of-night-sanctuary-festival'
