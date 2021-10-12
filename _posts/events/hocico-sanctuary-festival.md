@@ -6,7 +6,7 @@ eventType: arcane-alive
 date: '2021-10-28'
 startDatetime: '2021-10-28 18:00:00'
 endDatetime: '2021-10-29 00:00:00'
-image: '/img/uploads/sanctuary-festival-julien-k.jpg'
+image: '/img/uploads/sanctuary-festival-tour.jpg'
 description: >-
    The Sanctuary Festival Tour 2021
 
@@ -61,15 +61,15 @@ description: >-
 
    21+ bar
 
-   $20 Advanced Tickets
+   $12 Advanced Tickets
 
-   $25 Day of Show
+   $15 Day of Show
 
    Masks required for entry. We keep them at the door if you forget.
 shortDescription: "Sanctuary Festival Tour 2021 featuring Julien-K, Luna 13, Project .44, The Dark Market & More!"
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/489385395651902'
 ticketsLink: 'https://www.showclix.com/event/dead-of-night-sanctuary-festival'
-cover: '25.00'
+cover: '15.00'
 playlist: ''
 ---
