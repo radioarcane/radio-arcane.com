@@ -259,8 +259,8 @@
 
    .dm-vendor {
       width: 100%;
-      padding: 0 0 30px;
-      margin: 0 0 30px;
+      padding: 0 0 20px;
+      margin: 0 0 20px;
       @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 20px);
       border-bottom: 1px solid hex-to-rgba($white, 0.7);
 
@@ -293,7 +293,7 @@
             max-width: 25%;
          }
 
-         @include breakpoint($screen-L-min) {
+         @include breakpoint($screen-l-min) {
             margin: 0 30px 30px 0;
          }
       }
