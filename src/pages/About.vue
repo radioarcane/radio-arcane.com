@@ -96,8 +96,6 @@
    import Breadcrumb from '~/components/Breadcrumb.vue';
    import Center from '~/components/Center.vue';
    import Container from '~/components/Container.vue';
-   import GridContainer from '~/components/GridContainer.vue';
-   import GridItem from '~/components/GridItem.vue';
    import Heading from '~/components/Heading.vue';
    import ProfileCard from '~/components/ProfileCard.vue';
    import Section from '~/components/Section.vue';
@@ -130,8 +128,6 @@
          Breadcrumb,
          Center,
          Container,
-         GridContainer,
-         GridItem,
          Heading,
          ProfileCard,
          Section,

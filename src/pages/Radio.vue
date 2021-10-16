@@ -14,12 +14,6 @@
                Request A Track
             </Heading>
 
-            <center>
-               <p>
-                  <small><em>* Requests are limited to one track per hour based on IP address.</em></small>
-               </p>
-            </Center>
-
             <GridContainer :center="true">
                <GridItem
                   :sizes="{
