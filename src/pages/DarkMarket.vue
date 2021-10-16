@@ -137,7 +137,7 @@
                to: '/dark-market'
             }],
             vendors: [{
-               title: 'HugsandFizzes',
+               title: 'Hugs and Fizzes',
                description: '',
                images: [],
                links: [{
@@ -195,6 +195,17 @@
                   url: 'https://linktr.ee/SaraJosephineXIII'
                }]
             }, {
+               title: 'Travis Bilbrey',
+               description: '',
+               images: [],
+               links: [{
+                  title: 'Website',
+                  url: 'https://www.icantfeelmyfeelings.com'
+               }, {
+                  title: 'Instagram',
+                  url: 'https://www.instagram.com/icantfeelmyfeelings'
+               }]
+            }, {
                title: 'The Weeping Goth',
                description: 'Wands : Scepters : Ornamental & Ritual Accoutrements',
                images: [{
@@ -211,18 +222,7 @@
                   title: 'Instagram',
                   url: 'https://www.instagram.com/the.weeping.goth'
                }]
-            }, {
-               title: 'Travis Bilbrey',
-               description: '',
-               images: [],
-               links: [{
-                  title: 'Website',
-                  url: 'https://www.icantfeelmyfeelings.com'
-               }, {
-                  title: 'Instagram',
-                  url: 'https://www.instagram.com/icantfeelmyfeelings'
-               }]
-            }]
+            }, ]
          };
       }
    }
@@ -259,8 +259,10 @@
 
    .dm-vendor {
       width: 100%;
-      padding: 15px 0;
+      padding: 0 0 30px;
+      margin: 0 0 30px;
       @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 20px);
+      border-bottom: 1px solid hex-to-rgba($white, 0.7);
 
       /*
       @include breakpoint($screen-m-min) {
@@ -284,8 +286,16 @@
       }
 
       &__photo {
-         margin: 0 30px 30px 0;
-         max-width: 25%;
+         max-width: 50%;
+         margin: 0 15px 15px 0;
+
+         @include breakpoint($screen-m-min) {
+            max-width: 25%;
+         }
+
+         @include breakpoint($screen-L-min) {
+            margin: 0 30px 30px 0;
+         }
       }
 
       &__desc {
