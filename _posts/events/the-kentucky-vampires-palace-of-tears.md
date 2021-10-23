@@ -1,18 +1,18 @@
 ---
 layout: event
-title: '2021-11-13 The Kentucky Vampires + Palace of Tears'
-displayName: 'Dead Of Night : The Kentucky Vampires + Palace of Tears'
+title: '2021-11-13 Palace of Tears + Motuvius Rex'
+displayName: 'Dead Of Night & The Dark Market with The Palace Of Tears & Motuvius Rex & Kentucke Darkness'
 eventType: arcane-alive
 date: '2021-11-13'
 startDatetime: '2021-11-13 20:00:00'
 endDatetime: '2021-11-14 03:00:00'
-image: /img/uploads/kentucky-vampires--palce-of-tears.jpg
+image: /img/uploads/palace-of-tears-motuvius-rex.jpg
 description: >-
    Join us on Saturday, November 13th for another Dead Of Night & The Dark Market!
 
 
 
-   This time we are very excited to share the night with New Orleans based Darkwave band The Palace Of Tears and Louisville's original Gothic Rock band The Kentucky Vampires.
+   This time we are very excited to share the night with New Orleans based Darkwave band The Palace Of Tears and Louisville's own Dark Romantic ensemble Motuvius  Rex & Kentucke Darkness.
 
 
 
@@ -26,9 +26,17 @@ description: >-
 
 
 
-   The Kentucky Vampires:
+   Motuvius Rex & Kentucke Darkness:
 
-   Founded in Louisville Kentucky. Though considered a deathrock band at its core, TKV has been known to mesh elements of post-punk, goth rock, and horror rock into an experience, some have considered beautiful, but scary.
+   Louisville Kentucky - Motuvius Rex is the bass player for The Kentucky Vampires but due to the logistics and distance after the rest of the band relocated to other parts of the country, founded a new live band locally. Recently signed to InClub Records with an upcoming solo release, there was also a desire for a full band to do live performances and future recordings with a more live approach.
+
+   Motuvius Rex - Vocals
+
+   Bill Butler - Guitars
+
+   Ryan Scott - Bass
+
+   Kensaku Nishizato - Percussion & Electronics
 
 
    Along with the live music, there will be plenty of shopping available with the amazing artists of The Dark Market!
