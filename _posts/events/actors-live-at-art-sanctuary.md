@@ -8,12 +8,12 @@ startDatetime: '2022-03-27 20:00:00'
 endDatetime: '2022-03-28 23:00:00'
 image: /img/uploads/actors-band.jpg
 description: >-
-   Join us on Tuesday, September 28th for an incredibly exciting night with ACTORS. We feel incredibly fortunate to host a band of this caliber and will call this a "do not miss" show. If you are familiar, you already know. If not, please take a minute to explore their website and enjoy a few of their excellent videos and music.
+   Join us on Tuesday, September 28th for an incredibly exciting night with **ACTORS**. We feel incredibly fortunate to host a band of this caliber and will call this a "do not miss" show. If you are familiar, you already know. If not, please take a minute to explore their website and enjoy a few of their excellent videos and music.
 
    https://www.actorstheband.com
 
 
-   Broken Nails:
+   **Broken Nails:**
 
    To get things warmed up, we also have the great fortune of beloved Louisville local act Broken Nails from the excellent European label Swiss Dark Nights.
 
@@ -25,7 +25,7 @@ description: >-
 
 
 
-   Shark Sandwich:
+   **Shark Sandwich:**
 
    And for a shot of energy and excitement we have another Louisville local band, the ever FUN and exciting Shark Sandwich!
 

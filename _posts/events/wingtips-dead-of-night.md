@@ -8,11 +8,11 @@ startDatetime: '2021-12-04 21:00:00'
 endDatetime: '2021-12-05 03:00:00'
 image: /img/uploads/wingtips.jpg
 description: >-
-   Dead Of Night & The Dark Market return with a glorious gift for the eve of  Krampusnacht - WINGTIPS live performance at Art Sanctuary! This celebration of the season will also include our Radio Arcane Dark Music Specialists, The Dark Market for dark holiday shopping, a food truck, Dead Of Night Dancers and more!
+   Dead Of Night & The Dark Market return with a glorious gift for the eve of  Krampusnacht - **WINGTIPS** live performance at Art Sanctuary! This celebration of the season will also include our Radio Arcane Dark Music Specialists, The Dark Market for dark holiday shopping, a food truck, Dead Of Night Dancers and more!
 
 
 
-   About WINGTIPS -
+   About **WINGTIPS** -
 
    "Chicago-based electro pop mainstay duo WINGTIPS comprises Vincent Segretario & Hannah Avalon, and was officially formed in 2015 by Vincent after having informally used the moniker for a number of previous experimental solo performances.
 

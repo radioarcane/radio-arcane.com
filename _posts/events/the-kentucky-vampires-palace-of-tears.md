@@ -20,13 +20,13 @@ description: >-
 
 
 
-   The Palace Of Tears:
+   **The Palace Of Tears:**
 
    Erick r. Scheid and L.V. Darkling comprise the moody darkwave duo from New Orleans, blending elements of electro-shoegaze, ethereal witch house, and ritual ambient drone. Hypnotic electronics and swirling guitar lay fertile ground for sultry seductive vocals that soar and dreamy lyrics that captivate.
 
 
 
-   Motuvius Rex & Kentucke Darkness:
+   **Motuvius Rex & Kentucke Darkness:**
 
    Louisville Kentucky - Motuvius Rex is the bass player for The Kentucky Vampires but due to the logistics and distance after the rest of the band relocated to other parts of the country, founded a new live band locally. Recently signed to InClub Records with an upcoming solo release, there was also a desire for a full band to do live performances and future recordings with a more live approach.
 
