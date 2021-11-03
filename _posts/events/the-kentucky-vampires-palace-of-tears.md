@@ -58,7 +58,7 @@ description: >-
 
    21+ bar
 
-   $10 cover
+   $8 cover
 
    MASKS REQUIRED FOR ALL
 shortDescription: "Featuring live performances by New Orleans duo The Palace Of Tears and Louisville’s own The Kentucky Vampires!"
