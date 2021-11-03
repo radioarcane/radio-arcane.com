@@ -64,7 +64,7 @@ description: >-
 shortDescription: "Featuring live performances by New Orleans duo The Palace Of Tears and Louisville’s own The Kentucky Vampires!"
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/233001928827980'
-ticketsLink: ''
-cover: '10.00'
+ticketsLink: 'https://embed.showclix.com/event/kentucky-vampires-palace-of-tears'
+cover: '8.00'
 playlist: ''
 ---
