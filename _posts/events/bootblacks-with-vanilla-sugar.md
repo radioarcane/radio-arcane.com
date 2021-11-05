@@ -46,11 +46,11 @@ description: >-
 
   21+ bar
 
-  $12 cover
+  $8 cover
 shortDescription: 'Bootblacks live at Art Sanctuary with Scary Black'
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/237986061159636'
-ticketsLink: 'https://www.showclix.com/event/bootblacks-with-vanilla-sugar'
-cover: '12.00'
+ticketsLink: 'https://embed.showclix.com/event/bootblacks-with-vanilla-sugar'
+cover: '8.00'
 playlist: ''
 ---
