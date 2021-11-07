@@ -31,9 +31,7 @@ description: >-
 
    21+ bar
 
-   $10 Advance
-
-   $12 Day of Show
+   $8
 shortDescription: "Featuring live performances by New Orleans duo The Palace Of Tears and Louisville’s own The Kentucky Vampires!"
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/3039683512937996'
