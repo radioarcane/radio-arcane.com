@@ -38,6 +38,6 @@ shortDescription: "Featuring live performances by New Orleans duo The Palace Of 
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/3039683512937996'
 ticketsLink: 'https://www.showclix.com/event/dead-of-night-the-dark-market-with-wingtips'
-cover: '10.00'
+cover: '8.00'
 playlist: ''
 ---

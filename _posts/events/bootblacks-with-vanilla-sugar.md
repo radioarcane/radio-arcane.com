@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2021-11-18 Arcane Alive
-displayName: 'Bootblacks Live at Art Sanctuary with Scary Black'
+displayName: 'Bootblacks Live at Art Sanctuary with Scary Black & Wiirmz'
 eventType: arcane-alive
 date: '2021-11-18'
 startDatetime: '2021-11-18 20:00:00'
@@ -47,7 +47,7 @@ description: >-
   21+ bar
 
   $8 cover
-shortDescription: 'Bootblacks live at Art Sanctuary with Scary Black'
+shortDescription: 'Bootblacks live at Art Sanctuary with Scary Black & Wiirmz'
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/237986061159636'
 ticketsLink: 'https://embed.showclix.com/event/bootblacks-with-vanilla-sugar'
