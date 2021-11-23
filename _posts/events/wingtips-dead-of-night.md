@@ -1,12 +1,12 @@
 ---
 layout: event
-title: '2021-12-04 Dead Of Night & The Dark Market with WINGTIPS'
-displayName: 'Dead Of Night & The Dark Market with WINGTIPS'
+title: '2021-12-04 Dead Of Night & The Dark Market with WINGTIPS & Wireworks'
+displayName: 'Dead Of Night & The Dark Market with WINGTIPS & Wireworks'
 eventType: arcane-alive
 date: '2021-12-04'
 startDatetime: '2021-12-04 21:00:00'
 endDatetime: '2021-12-05 03:00:00'
-image: /img/uploads/wingtips.jpg
+image: /img/uploads/wingtips-wireworks.jpg
 description: >-
    Dead Of Night & The Dark Market return with a glorious gift for the eve of  Krampusnacht - **WINGTIPS** live performance at Art Sanctuary! This celebration of the season will also include our Radio Arcane Dark Music Specialists, The Dark Market for dark holiday shopping, a food truck, Dead Of Night Dancers and more!
 
@@ -24,6 +24,24 @@ description: >-
 
    In late 2020, the duo teased a stylistic shift towards a more bombastic pop sound with their cover of the Savage Garden single “TEARS OF PEARLS”. The track garnered excited press acclaim, and was lauded by none other than Darren Hayes himself.
    WINGTIPS recently announced production having begun on their follow-up LP on Artoffact, which will be released sometime in 2021."
+
+
+
+   **Wireworks** - Louisville, KY
+
+   (ex Lee Van Cleef, Lucky Pineapple, Madame Machine) is streaming now on all platforms. Never Nervous Records
+
+
+
+   "So what do Wireworks sound like? The music could generally be described as post punk with gothic rock and new wave vibes. Recommended to fans of The Cure, Echo & The Bunnymen, and Bauhaus.
+
+
+
+
+   Wireworks is David Cundiff – Vocals, Guitar, Synthesizer; Russel Willoughby – Bass; Austin Hellman – Drums and Jake Miller – Guitar, Synthesizer.
+
+   https://wireworks.bandcamp.com/album/wireworks
+
 
 
 
