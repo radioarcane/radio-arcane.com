@@ -38,15 +38,12 @@
                name: 'Events',
                to: '/events',
             }, {
-               name: 'Podcasts',
-               to: '/podcasts',
-            }, {
                name: 'Streaming Radio',
                to: '/radio'
             }, {
-               name: 'Arcane Alive!',
-               to: '/arcane-alive',
-            },  {
+               name: 'Podcasts',
+               to: '/podcasts',
+            }, {
                name: 'Mixes',
                to: '/mixes'
             }, {
@@ -58,12 +55,7 @@
             }, {
                name: 'Affiliates',
                to: '/affiliates'
-            }
-            /*,
-            {
-               name: 'Streaming Radio',
-               to: '/radio',
-            }*/]
+            }]
          }
       }
    }
