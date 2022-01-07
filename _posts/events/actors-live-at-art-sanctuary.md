@@ -6,7 +6,7 @@ eventType: arcane-alive
 date: '2022-03-27'
 startDatetime: '2022-03-27 20:00:00'
 endDatetime: '2022-03-28 23:00:00'
-image: /img/uploads/actors-band.jpg
+image: /img/uploads/actors-band-art-sanctuary-louisville.jpg
 description: >-
    “Vancouver’s brilliant post-punk and new-wave quartet ACTORS continue their flair for sonic cinematics in the video for their latest track ‘Face Meets Glass’... The atmosphere quivers with singer Jason Corbett’s crooning reverb augmented by shivering guitars and stark synths.”
 
