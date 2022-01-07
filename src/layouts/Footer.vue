@@ -41,12 +41,12 @@
                name: 'Podcasts',
                to: '/podcasts',
             }, {
-               name: 'Arcane Alive!',
-               to: '/arcane-alive',
-            }, {
                name: 'Streaming Radio',
                to: '/radio'
             }, {
+               name: 'Arcane Alive!',
+               to: '/arcane-alive',
+            },  {
                name: 'Mixes',
                to: '/mixes'
             }, {

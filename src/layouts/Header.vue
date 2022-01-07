@@ -77,13 +77,12 @@
                   to: '/arcane-alive',
                }]
             }, {
+               name: 'Radio',
+               to: '/radio'
+            }, {
                name: 'Podcasts',
                to: '/podcasts',
             }, {
-               name: 'Radio',
-               to: '/radio'
-            },
-            {
                name: 'Mixes',
                to: '/mixes',
             },

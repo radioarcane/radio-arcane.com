@@ -71,7 +71,7 @@
             -->
 
 
-
+            <!--
          <Section v-if="$page.podcasts.edges.length" :padTop="true">
             <Heading strike animate uppercase tag="h3">
                Latest Podcast
@@ -88,6 +88,7 @@
          </Section>
 
 
+
          <Section v-if="$page.nextWarpedWedEvent.edges.length" :padTop="true">
             <Heading strike animate uppercase tag="h3">
                Upcoming Related Events
@@ -96,11 +97,14 @@
             <Event :event="$page.nextWarpedWedEvent.edges[0].node" />
          </Section>
 
+            -->
+
          <Section :padTop="true">
             <Container>
                <Radio :showMobileHistory="false" />
             </Container>
          </Section>
+
       </Container>
    </Layout>
 </template>
