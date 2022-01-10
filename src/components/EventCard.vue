@@ -68,6 +68,8 @@
 
        &__img {
           text-align: center;
+          max-height: 250px;
+          overflow: hidden;
 
           /* IE Fix */
           a {

@@ -40,6 +40,8 @@
          cancelled,
          image,
          webp,
+         pageImage,
+         pageImageWebp,
          description,
          shortDescription,
          facebookEventLink,

@@ -59,6 +59,8 @@ const defaultEvent = {
    endDatetime: null,
    image: null,
    webpImage: null,
+   pageImage: null,
+   pageImageWebp: null,
    description: null,
    shortDescription: null,
    location: null,
@@ -332,6 +334,16 @@ module.exports = function (api) {
 
             if (fs.existsSync(`static/img/webp/${ imgFile }`)) {
               ev.webp = '/img/webp/' + imgFile;
+            }
+         }
+
+         if (ev.pageImage) {
+            const imgParts = ev.pageImage.split('/');
+            const imgFileParts = imgParts[imgParts.length - 1].split('.');
+            const imgFile = imgFileParts[0] + '.webp';
+
+            if (fs.existsSync(`static/img/webp/${ imgFile }`)) {
+              ev.pageImageWebp = '/img/webp/' + imgFile;
             }
          }
 

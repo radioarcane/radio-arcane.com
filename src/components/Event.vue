@@ -2,26 +2,45 @@
    <div class="event">
       <div v-if="event.image" class="event__photo">
          <router-link :to="event.path" v-if="includeLink">
-            <picture v-if="event.webp">
+            <picture v-if="event.pageImageWebp">
+               <source :srcset="event.pageImageWebp" type="image/webp">
+               <source :srcset="event.pageImage" type="image/jpeg">
+               <img :src="event.pageImage" :alt="event.displayName">
+            </picture>
+            <picture v-else-if="event.webp">
                <source :srcset="event.webp" type="image/webp">
                <source :srcset="event.image" type="image/jpeg">
                <img :src="event.image" :alt="event.displayName">
             </picture>
 
-            <img v-if="!event.webp"
+            <img v-if="!event.pageImageWebp && event.pageImage"
+                 :src="event.pageImage"
+                 :alt="event.displayName"
+            />
+            <img v-else-if="!event.webp && event.image"
                  :src="event.image"
                  :alt="event.displayName"
             />
          </router-link>
 
+
          <div v-if="!includeLink">
-            <picture v-if="event.webp">
+            <picture v-if="event.pageImageWebp">
+               <source :srcset="event.pageImageWebp" type="image/webp">
+               <source :srcset="event.pageImage" type="image/jpeg">
+               <img :src="event.pageImage" :alt="event.displayName">
+            </picture>
+            <picture v-else-if="event.webp">
                <source :srcset="event.webp" type="image/webp">
                <source :srcset="event.image" type="image/jpeg">
                <img :src="event.image" :alt="event.displayName">
             </picture>
 
-            <img v-if="!event.webp"
+            <img v-if="!event.pageImageWebp && event.pageImage"
+                 :src="event.pageImage"
+                 :alt="event.displayName"
+            />
+            <img v-else-if="!event.webp && event.image"
                  :src="event.image"
                  :alt="event.displayName"
             />
@@ -142,6 +161,7 @@
       },
       methods: {
          getDateTime () {
+            console.log(this.event);
             if (this.event.startDatetime) {
                return this.event.startDatetime.split(' ').join('T');
             }

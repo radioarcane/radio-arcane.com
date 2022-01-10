@@ -7,6 +7,7 @@ date: '2022-03-27'
 startDatetime: '2022-03-27 20:00:00'
 endDatetime: '2022-03-28 23:00:00'
 image: /img/uploads/actors-band-art-sanctuary-louisville.jpg
+pageImage: actors-band-live-2022-03-27.png
 description: >-
    “Vancouver’s brilliant post-punk and new-wave quartet ACTORS continue their flair for sonic cinematics in the video for their latest track ‘Face Meets Glass’... The atmosphere quivers with singer Jason Corbett’s crooning reverb augmented by shivering guitars and stark synths.”
 
@@ -43,7 +44,7 @@ description: >-
    21+ bar
 
    $12 cover (totally worth it!)
-shortDescription: 'ACTORS, Broken Nails, and Shark Sandwich!'
+shortDescription: 'ACTORS, Broken Nails, and Palm Ghosts'
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/326835282355396'
 ticketsLink: 'https://www.showclix.com/event/actors-live-at-art-sanctuary'
