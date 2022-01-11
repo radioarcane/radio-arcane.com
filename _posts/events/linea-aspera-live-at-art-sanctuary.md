@@ -8,6 +8,7 @@ startDatetime: '2022-04-04 20:00:00'
 endDatetime: '2022-04-04 23:00:00'
 image: /img/uploads/linea-aspera-live-art-sanctuary-louisville.jpg
 pageImage: /img/uploads/linea-aspera-live-2022-04-04.jpg
+canceled: true
 description: >-
    Please join us on Monday, April 4th for an incredibly exciting night with Linea Aspera. Once again we feel incredibly fortunate to host a band of this caliber and will call this another "do not miss" show.
 
