@@ -7,6 +7,7 @@ date: '2022-04-15'
 startDatetime: '2022-04-15 21:00:00'
 endDatetime: '2022-04-16 00:00:00'
 image: /img/uploads/patriarchy-vs-pixel-grip.jpg
+pageImage: /img/uploads/patriarchy-vs-pixel-grip-live-louisville.jpg
 description: >-
    Details forthcoming!
 shortDescription: 'Patriarchy vs. Pixel Grip live at Art Sanctuary'
