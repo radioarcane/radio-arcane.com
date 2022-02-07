@@ -57,17 +57,6 @@
             >
                <SvgIcon name="soundcloud" use="soundcloud" />
             </a>
-
-            <a v-if="podcast.podbeanLink"
-               :href="podcast.podbeanLink"
-               target="_blank"
-               title="Listen on Podbean"
-            >
-               <img src="/img/logos/podbean.png"
-                    alt="Available on Podbean"
-                    class="podbean-img"
-               />
-            </a>
          </div>
 
          <div v-if="podcast.mixcloudLink" class="podcast__player">
@@ -189,9 +178,5 @@
          @include fluid-type($screen-s-min, $screen-xxl-min, 18px, 20px);
          opacity: 0.9;
       }
-   }
-
-   .podbean-img {
-      width: 150px;
    }
 </style>

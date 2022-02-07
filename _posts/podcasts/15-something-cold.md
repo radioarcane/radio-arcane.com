@@ -9,7 +9,6 @@ shortDescription: >-
   Featuring an interview with Justin Carver of Something Cold.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-15-justin-carver-of-something-cold'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/something-cold'
-podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-15-justin-carver-of-something-cold'
 spotifyLink: 'https://open.spotify.com/episode/1fiqdCz6Wu2fbDg3rq4C5x'
 playlist: 2020-03-16 Podcast
 ---

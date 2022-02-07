@@ -8,7 +8,6 @@ description: >-
 shortDescription: 'Featuring a discussion with French singer, writer, musician, performer, poet, photographer and painter Anne Pigalle.'
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-18-anne-pigalle'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-18-anne-pigalle'
-podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-18-anne-pigalle'
 spotifyLink: 'https://open.spotify.com/episode/5Ykgu1YDHbQeGg7WoCNZsZ'
 youtubeLink: 'https://youtu.be/06PlVFAgT1Q'
 playlist: 2020-11-30 Podcast

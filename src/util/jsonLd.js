@@ -135,8 +135,7 @@ export const radioSeries = () => {
       url: config.mixcloud,
       sameAs: [
          config.soundcloud,
-         config.spotify,
-         config.podbean
+         config.spotify
       ],
       description: 'Radio Arcane is a collective of Dark Music Specialists in Louisville, KY that host events, live music and dark arts entertainment.',
       image: `${ config.siteUrl }${ config.defaultMetaImg }`,
@@ -154,7 +153,6 @@ export const radioSeries = () => {
             config.mixcloud,
             config.soundcloud,
             config.spotify,
-            config.podbean,
             config.youtube,
          ],
    	},
@@ -259,10 +257,6 @@ export const episode = podcast => {
 
       if (podcast.soundcloudLink) {
          episodeSchema.sameAs.push(podcast.soundcloudLink);
-      }
-
-      if (podcast.podbeanLink) {
-         episodeSchema.sameAs.push(podcast.podbeanLink);
       }
 
       if (podcast.spotifyLink) {

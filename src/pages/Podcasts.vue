@@ -11,8 +11,7 @@
             :podcast="node"
          />
 
-         <iframe title="Radio Arcane" id="multi_iframe" src="https://www.podbean.com/media/player/multi?playlist=http%3A%2F%2Fplaylist.podbean.com%2F6834639%2Fplaylist_multi.xml&vjs=1&kdsowie31j4k1jlf913=6e7e81c2e0f441e6e660449280cf7f0b422273b4&size=430&skin=6&episode_list_bg=%23ffffff&bg_left=%23000000&bg_mid=%23070808&bg_right=%23323b31&podcast_title_color=%2377d9a3&episode_title_color=%23ffffff&auto=0&share=0&fonts=Helvetica&download=0&rtl=0&show_playlist_recent_number=10&pbad=1" frameborder="0" scrolling="no" height="432" allowfullscreen></iframe>
-         <br />
+
       </Container>
    </Layout>
 </template>
@@ -34,7 +33,6 @@
                shortDescription,
                mixcloudLink,
                soundcloudLink,
-               podbeanLink,
                spotifyLink,
                youtubeLink
             }

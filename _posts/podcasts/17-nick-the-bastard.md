@@ -8,7 +8,6 @@ description: >-
 shortDescription: 'Featuring a discussion with Nick "the Bastard" Farr of Christian Death fame during the 1989-90 era.'
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-17-nick-the-bastard'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-17-nick-the-bastard'
-podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-17-nick-the-bastard'
 spotifyLink: 'https://open.spotify.com/episode/3GkXobhY1xcfvOHu7764CB'
 youtubeLink: 'https://youtu.be/JwDgsP_CzM8'
 playlist: 2020-11-18 Podcast

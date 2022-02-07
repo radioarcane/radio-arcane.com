@@ -9,7 +9,6 @@ shortDescription: >-
   Featuring an interview with WINGTIPS.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-12-wingtips'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-12-wingtips'
-podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-12-wingtips'
 spotifyLink: 'https://open.spotify.com/episode/1nLD2gLVuTbXPlcM85HaLp'
 playlist: 2019-11-01 Podcast
 ---

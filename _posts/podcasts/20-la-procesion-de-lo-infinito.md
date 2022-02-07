@@ -8,7 +8,6 @@ description: >-
 shortDescription: 'Featuring a discussion with South American Gothic Rock Romantics - La Procesión de lo Infinitio.'
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-20-la-procesi%C3%B3n-de-lo-infinitio'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-20-la-procesion-de-lo-infinitio'
-podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-20-la-procesion-de-lo-infinitio/'
 spotifyLink: 'https://open.spotify.com/episode/0woBU8NFKB0xiny1zGAOaz'
 youtubeLink: 'https://youtu.be/uB-PFXel7Wk'
 playlist: 2021-02-15 Podcast

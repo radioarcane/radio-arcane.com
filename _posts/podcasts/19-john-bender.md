@@ -8,7 +8,6 @@ description: >-
 shortDescription: 'Featuring a discussion with Minimal Elecronics pioneer, John Bender.'
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-19-john-bender'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-19-john-bender'
-podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-19-john-bender'
 spotifyLink: 'https://open.spotify.com/episode/1vy5vYiZFMljNJWq3DFXso'
 youtubeLink: 'https://youtu.be/xqLdKqh5mas'
 playlist: 2021-01-29 Podcast

@@ -8,7 +8,6 @@ description: >-
 shortDescription: ''
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-16-creativity-in-the-time-of-covid'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-16-creativity-in-the-time-of-covid'
-podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-16-creativity-in-the-time-of-covid'
 spotifyLink: 'https://open.spotify.com/episode/0wEnSVxCUMvYRUBhn3FeAU'
 youtubeLink: 'https://youtu.be/gJPSgU92yKQ'
 playlist: null

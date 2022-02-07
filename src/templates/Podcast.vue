@@ -79,17 +79,6 @@
                      >
                         <SvgIcon name="soundcloud" use="soundcloud" />
                      </a>
-
-                     <a v-if="$page.podcast.podbeanLink"
-                        :href="$page.podcast.podbeanLink"
-                        target="_blank"
-                        title="Listen on Podbean"
-                     >
-                        <img src="/img/logos/podbean.png"
-                             alt="Available on Podbean"
-                             class="podbean-img"
-                        />
-                     </a>
                   </div>
                </GridItem>
                <GridItem padTop :sizes="{
@@ -128,7 +117,6 @@
         webp,
         mixcloudLink,
         soundcloudLink,
-        podbeanLink,
         spotifyLink,
         youtubeLink,
         playlist {
@@ -276,9 +264,5 @@
             color: darken($white, 40%);
          }
       }
-   }
-
-   .podbean-img {
-      width: 150px;
    }
 </style>

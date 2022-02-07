@@ -13,7 +13,6 @@ shortDescription: >-
   Our first episode of 'BAD BLOOD': We explore and discuss the history, art and drama of Christian Death and the divide between Rozz and Valor.
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-05-bad-blood-rozz-vs-valor'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-05-bad-blood-rozz-vs-valor'
-podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-05-bad-blood-rozz-vs-valor'
 spotifyLink: 'https://open.spotify.com/episode/3fHesoBBCYIhcoxueKZSel'
 playlist: 2019-06-03 Podcast
 ---

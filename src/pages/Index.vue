@@ -330,7 +330,6 @@
                shortDescription,
                mixcloudLink,
                soundcloudLink,
-               podbeanLink,
                spotifyLink,
                youtubeLink
             }

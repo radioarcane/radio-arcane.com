@@ -33,7 +33,6 @@ shortDescription: >-
   "Shadow Dwellers (B​-​Sides)"
 mixcloudLink: 'https://www.mixcloud.com/Radio-Arcane/radio-arcane-03-scary-black'
 soundcloudLink: 'https://soundcloud.com/radio_arcane/radio-arcane-03-scary-black'
-podbeanLink: 'https://radioarcane.podbean.com/e/radio-arcane-03-scary-black'
 spotifyLink: 'https://open.spotify.com/episode/1euaLajbGmDYIoNsB64RiW'
 playlist: 2019-03-31 Podcast
 ---
