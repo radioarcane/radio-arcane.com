@@ -34,5 +34,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/1244520119406881'
 ticketsLink: ''
 cover: '5.00'
-playlist: ''
+playlist: '2022-03-16 Dead of Night'
 ---
