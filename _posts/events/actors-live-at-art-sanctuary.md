@@ -5,7 +5,7 @@ displayName: 'ACTORS Live at Art Sanctuary with Broken Nails & Palm Ghosts'
 eventType: arcane-alive
 date: '2022-03-27'
 startDatetime: '2022-03-27 20:00:00'
-endDatetime: '2022-03-28 23:00:00'
+endDatetime: '2022-03-27 23:00:00'
 image: /img/uploads/actors-band-art-sanctuary-louisville.jpg
 pageImage: actors-band-live-2022-03-27.png
 description: >-
