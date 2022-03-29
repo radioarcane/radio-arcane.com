@@ -72,7 +72,7 @@ description: >-
 shortDescription: "Evening Tea 'LIVE!' - Eerie Tales (1919) with Pas Musique, Xambuca, Sinister Senile"
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/s/evening-tea-live-eerie-tales-1/651779762693598'
-ticketsLink: 'https://www.showclix.com/event/pas-musique-xambuca-sinister-senile'
+ticketsLink: 'https://art-sanctuary.ticketleap.com/pas-musique-xambuca-sinister-senile'
 cover: '8.00'
 playlist: ''
 ---

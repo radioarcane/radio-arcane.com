@@ -29,7 +29,7 @@ description: >-
 shortDescription: 'Nox Novacula Live at Art Sanctuary'
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/541353910625286'
-ticketsLink: 'https://www.showclix.com/event/nox-novacula'
+ticketsLink: 'https://art-sanctuary.ticketleap.com/nox-novacula-and-majutsu-live-at-art-sanctuary'
 cover: '10.00'
 playlist: ''
 ---
