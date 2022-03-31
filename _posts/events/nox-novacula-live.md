@@ -1,12 +1,12 @@
 ---
 layout: event
 title: 2022-04-21 Arcane Alive
-displayName: 'Nox Novacula Live at Art Sanctuary'
+displayName: 'Nox Novacula Live at Art Sanctuary with Majutsu'
 eventType: arcane-alive
 date: '2022-04-21'
 startDatetime: '2022-04-21 20:00:00'
 endDatetime: '2022-04-21 23:00:00'
-image: /img/uploads/nox-novacula.jpg
+image: /img/uploads/nox-novacula-with-majutsu.jpg
 description: >-
    **Nox Novacula** (Seattle)
 
@@ -26,7 +26,7 @@ description: >-
    $10 cover
 
    Advance tickets available from Showclix to be safe or at the door the day of show.
-shortDescription: 'Nox Novacula Live at Art Sanctuary'
+shortDescription: 'Nox Novacula Live at Art Sanctuary with Majutsu'
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/541353910625286'
 ticketsLink: 'https://art-sanctuary.ticketleap.com/nox-novacula-and-majutsu-live-at-art-sanctuary'
