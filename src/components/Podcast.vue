@@ -50,6 +50,7 @@
                <SvgIcon name="spotify" use="spotify" />
             </a>
 
+            <!--
             <a v-if="podcast.soundcloudLink"
                :href="podcast.soundcloudLink"
                target="_blank"
@@ -57,6 +58,7 @@
             >
                <SvgIcon name="soundcloud" use="soundcloud" />
             </a>
+         -->
          </div>
 
          <div v-if="podcast.mixcloudLink" class="podcast__player">

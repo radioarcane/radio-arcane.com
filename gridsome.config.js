@@ -20,7 +20,7 @@ function addStyleResource (rule) {
 module.exports = {
    siteName: 'Radio Arcane',
    siteUrl: 'https://www.radio-arcane.com',
-   siteDescription: 'Louisville, KY collective specializing in Darkwave, Goth, Post-Punk, Industrial, EBM, Synthwave, and related music events & podcasts.',
+   siteDescription: 'Louisville, KY collective specializing in Darkwave, Goth, Post-Punk, Industrial, EBM, Synthwave, and related music events.',
    titleTemplate: '%s | Radio Arcane',
    chainWebpack: config => {
       // Load variables for all vue-files
@@ -73,10 +73,6 @@ module.exports = {
                '/playlists': {
                   changefreq: 'weekly',
                   priority: 0.6
-               },
-               '/arcane-alive': {
-                  changefreq: 'monthly',
-                  priority: 0.5
                },
                '/about': {
                   changefreq: 'monthly',

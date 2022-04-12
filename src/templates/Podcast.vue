@@ -72,6 +72,7 @@
                         <SvgIcon name="spotify" use="spotify" />
                      </a>
 
+                     <!--
                      <a v-if="$page.podcast.soundcloudLink"
                         :href="$page.podcast.soundcloudLink"
                         target="_blank"
@@ -79,6 +80,7 @@
                      >
                         <SvgIcon name="soundcloud" use="soundcloud" />
                      </a>
+                     -->
                   </div>
                </GridItem>
                <GridItem padTop :sizes="{

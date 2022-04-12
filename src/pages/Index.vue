@@ -7,9 +7,11 @@
                   Radio Arcane is a collective of Dark Music Specialists headquartered in Louisville, KY that host events, live music and a curated, nighttime oddities and art market called The Dark Market.
                </p>
 
+               <!--
                <p>
                   A podcast featuring music, interviews and discussion is also available on various streaming services through links available on this site.
                </p>
+            -->
 
                <p>
                   More recently, we have branched out with our own streaming radio service and are working with affiliates abroad.
@@ -53,12 +55,15 @@
 
          </Section>
 
+         <!--
+
          <Center>
             <Btn to="/events">
                <span>Checkout Upcoming & Past Events</span>
                <SvgIcon name="right-open" use="right-open" />
             </Btn>
          </Center>
+      -->
 
          <!--
          <Section v-if="$page.convergenceEvent.edges.length">

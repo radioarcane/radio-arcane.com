@@ -69,13 +69,6 @@
             }, {
                name: 'Events',
                to: '/events',
-               children: [{
-                  name: 'Events',
-                  to: '/events',
-               }, {
-                  name: 'Arcane Alive!',
-                  to: '/arcane-alive',
-               }]
             }, {
                name: 'Radio',
                to: '/radio'

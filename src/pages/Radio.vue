@@ -116,7 +116,7 @@
 
    const metaInfo = Object.assign({}, meta({
       title: 'Streaming Radio',
-      description: '',
+      description: 'Goth, Darkwave, Post-Punk, Coldwave, Industiral, EBM, Dark Synth Online 24/7 Radio.',
       path: '/radio'
    }), {
       script: [

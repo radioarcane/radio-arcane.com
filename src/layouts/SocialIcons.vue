@@ -31,26 +31,22 @@
                name: 'Instagram',
                url: config.instagram,
                icon: 'instagram',
-            }, {
-               name: 'Twitter',
-               url: config.twitter,
-               icon: 'twitter',
-            }, {
-               name: 'YouTube',
-               url: config.youtube,
-               icon: 'youtube',
-            }, {
+            },{
                name: 'Twitch',
                url: config.twitch,
                icon: 'twitch',
             }, {
+               name: 'YouTube',
+               url: config.youtube,
+               icon: 'youtube',
+            },  {
+               name: 'Twitter',
+               url: config.twitter,
+               icon: 'twitter',
+            }, {
                name: 'Mixcloud',
                url: config.mixcloud,
                icon: 'mixcloud',
-            }, {
-               name: 'Soundcloud',
-               url: config.soundcloud,
-               icon: 'soundcloud',
             }, {
                name: 'Spotify',
                url: config.spotify,
