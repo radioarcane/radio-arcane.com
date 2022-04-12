@@ -127,7 +127,6 @@
                </ul>
             </div>
 
-
             <div class="affiliate">
                <h3 class="affiliate__title">Dead Channel Records</h3>
 
@@ -170,39 +169,31 @@
             </div>
 
             <div class="affiliate">
-               <h3 class="affiliate__title">Wyldwood Radio</h3>
+               <h3 class="affiliate__title">Louisville Gothic</h3>
 
-               <p class="affiliate__description">Wyldwood Radio has been streaming Occult and Pagan music 24 hours a day, 7 days a week worldwide. We are fans of the Pagan music scene, we wanted to create a space where we could share the music we love with other Pagan music lovers, where we could help set the scene for your ceremonies and meditations, create a backdrop for your arts and bring some inspiration into your life.</p>
+               <p class="affiliate__description">Louisville Gothic is a community for events related to the Louisville music scene with focus on Gothic, Post-punk, Darkwave and related events and activities.</p>
 
                <ul class="affiliate__links">
                   <li>
-                     <a href="https://wyldwood.org"
+                     <a href="https://www.facebook.com/louisvillegothicofficial"
                         target="_blank"
-                        title="Wyldwood Radio's Website"
-                     >
-                        <SvgIcon name="home" use="home" />
-                     </a>
-                  </li>
-                  <li>
-                     <a href="https://www.facebook.com/wyldwood.official"
-                        target="_blank"
-                        title="Wyldwood Radio @ Facebook"
+                        title="Louisville Gothic @ Facebook"
                      >
                         <SvgIcon name="facebook" use="facebook" />
                      </a>
                   </li>
                   <li>
-                     <a href="https://www.instagram.com/wyldwoodradio"
+                     <a href="https://www.instagram.com/louisvillegothic"
                         target="_blank"
-                        title="Wyldwood Radio @ Instagram"
+                        title="Louisville Gothic @ Instagram"
                      >
                         <SvgIcon name="instagram" use="instagram" />
                      </a>
                   </li>
                   <li>
-                     <a href="https://twitter.com/wyldwoodradio"
+                     <a href="https://twitter.com/louis_gothic"
                         target="_blank"
-                        title="Wyldwood Radio @ Twitter"
+                        title="Louisville Gothic @ Twitter"
                      >
                         <SvgIcon name="twitter" use="twitter" />
                      </a>
