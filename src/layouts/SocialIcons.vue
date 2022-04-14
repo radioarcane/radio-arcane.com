@@ -51,6 +51,10 @@
                name: 'Spotify',
                url: config.spotify,
                icon: 'spotify'
+            }, {
+               name: 'Linktree',
+               url: config.linktree,
+               icon: 'linktree'
             }]
          };
       }
@@ -66,7 +70,7 @@
          vertical-align: middle;
          line-height: 1;
          line-height: 1em;
-         margin: 0 0.15em;
+         margin: 0 0.1em;
          text-align: center;
          text-decoration: none;
          @include fluid-type($screen-s-min, $screen-xxl-min, 30px, 50px);

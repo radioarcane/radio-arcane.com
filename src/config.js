@@ -12,4 +12,5 @@ export default {
    spotify: 'https://open.spotify.com/show/1agKdqPjtH92Gw33dcLbS1',
    youtube: 'https://www.youtube.com/channel/UCRDXiuOFvSbPZJDFSALrCAw',
    twitch: 'https://www.twitch.tv/radio_arcane_tv',
+   linktree: 'https://linktr.ee/radioarcane',
 };
