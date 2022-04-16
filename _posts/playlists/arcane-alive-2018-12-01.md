@@ -1,8 +1,8 @@
 ---
 layout: playlist
 title: '2018-12-01 Arcane Alive'
-displayName: 'Arcane Alive!: Curse of Cassandra | The Kentucky Vampires | AndrOspore'
-playlistType: arcane-alive
+displayName: 'Curse of Cassandra | The Kentucky Vampires | AndrOspore'
+playlistType: radio-arcane
 date: '2018-12-01'
 sets:
   - djName: Sorrow-Vomit

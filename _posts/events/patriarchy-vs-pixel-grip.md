@@ -60,5 +60,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/309237654547407'
 ticketsLink: 'https://www.showclix.com/event/patriarchy-pixel-grip-with-vyva-melinkolya'
 cover: '10.00'
-playlist: ''
+playlist: '2022-14-15 Patriarchy'
 ---

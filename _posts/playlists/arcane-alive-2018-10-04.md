@@ -1,8 +1,8 @@
 ---
 layout: playlist
 title: 2018-10-04 Arcane Alive
-displayName: 'Arcane Alive!: Ominous Erotica | Decide Today | ULTIMA'
-playlistType: arcane-alive
+displayName: 'Ominous Erotica | Decide Today | ULTIMA'
+playlistType: radio-arcane
 date: '2018-10-04'
 sets:
   - djName: Sorrow-Vomit

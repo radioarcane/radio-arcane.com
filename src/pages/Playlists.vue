@@ -142,9 +142,6 @@
                name: 'Podcasts',
                filter: 'podcast'
             }, {
-               name: 'Arcane Alive!',
-               filter: 'arcane-alive'
-            }, {
                name: 'Warped Wednesday',
                filter: 'warped-wednesday'
             }],
