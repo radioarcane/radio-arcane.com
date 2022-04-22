@@ -12,6 +12,16 @@ description: >-
 
    That's right! Count Grozny is back behind the decks and ready to weave dark webs of gloom across the dancefloor of Art Sanctuary.
 
+
+
+   Tacos la Chaparrita will be on site selling delicious Tacos!
+
+
+
+   The Dark Market - (curated night time oddities and art market) will be set-up and ready to fulfill all of your dark, eclectic shopping desires!
+
+
+
    More details soon!
 
 
