@@ -8,7 +8,7 @@ startDatetime: '2022-05-13 20:30:00'
 endDatetime: '2022-05-13 23:30:00'
 image: /img/uploads/evening-tea-pas-musique.jpg
 description: >-
-   Join us for Evening Tea LIVE and in person at Art Sanctuary and live streaming on Twitch TV to watch the masterpiece of film history "Eerie Tales" (1919). Listen to LIVE music by Pas Musique, (New York) and Sinister Senile (Louisville) while having some tea and pleasant conversation!
+   Join us for Evening Tea LIVE and in person at Art Sanctuary and live streaming on Twitch TV to watch the masterpiece of film history "Eerie Tales" (1919). Listen to LIVE music by Pas Musique (New York) and Sinister Senile (Louisville) while having some tea and pleasant conversation!
 
 
 
