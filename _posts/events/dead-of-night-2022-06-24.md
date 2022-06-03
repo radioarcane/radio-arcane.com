@@ -26,7 +26,7 @@ description: >-
 shortDescription: ''
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/405346508134554'
-ticketsLink: ''
+ticketsLink: 'https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market---nightmares-can-come-true'
 cover: '5.00'
 playlist: ''
 ---
