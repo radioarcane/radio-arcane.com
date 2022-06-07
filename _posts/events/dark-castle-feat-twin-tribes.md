@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2022-07-20 Arcane Alive
-displayName: 'Dark Castle Fest: Twin Tribes / Wingtips / Faux Fear / Vazum '
+displayName: 'Dark Castle Fest: Twin Tribes / Wingtips / Faux Fear / Vazum'
 eventType: arcane-alive
 date: '2022-07-20'
 startDatetime: '2022-07-20 19:00:00'
