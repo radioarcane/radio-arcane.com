@@ -49,6 +49,10 @@ description: >-
 
 
 
+   Afterparty with DJ Count Grozny
+
+
+
    18+ entry
 
    21+ bar
