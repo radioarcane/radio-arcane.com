@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2022-08-09 Arcane Alive
-displayName: 'Black Rose Burning live at Art Sanctuary'
+displayName: 'Black Rose Burning / Molotov Lust live at Art Sanctuary'
 eventType: arcane-alive
 date: '2022-08-09'
 startDatetime: '2022-08-09 19:00:00'
@@ -19,7 +19,11 @@ description: >-
 
 
 
-   Opening band to be announced.
+   **Molotov Lust** (Lexington/Louisville)
+   
+   e.b.m. electronic acid-house industrial
+
+   https://molotovlust.bandcamp.com
 
 
 
