@@ -39,5 +39,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/s/dead-of-night-the-dark-market-/1339977393156167'
 ticketsLink: 'https://art-sanctuary.ticketleap.com/dead-of-night'
 cover: '5.00'
-playlist: ''
+playlist: 'dead-of-night-2022-07-29'
 ---
