@@ -6,6 +6,7 @@ eventType: arcane-alive
 date: '2022-10-01'
 startDatetime: '2022-10-01 21:00:00'
 endDatetime: '2022-10-02 00:00:00'
+cancelled: true
 image: /img/uploads/french-police-with-nuxx-vomica.jpg
 description: >-
    Radio Arcane presents Chicago based French Police and New York's Nuxx Vomica.
