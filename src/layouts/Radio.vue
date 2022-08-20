@@ -30,8 +30,13 @@
 
             <br /><br />
 
+            <Btn href="https://quincy.torontocast.com:1100/stream" target="_blank">
+               <span>Listen &ndash; Direct Link</span>
+               <SvgIcon name="right-open" use="right-open" />
+            </Btn>
+
             <Btn href="https://radioarcane.torontocast.stream" target="_blank">
-               <span>Listen Now</span>
+               <span>Listen &ndash; Web Player</span>
                <SvgIcon name="right-open" use="right-open" />
             </Btn>
          </div>
