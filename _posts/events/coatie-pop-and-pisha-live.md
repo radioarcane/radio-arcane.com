@@ -6,7 +6,7 @@ eventType: arcane-alive
 date: '2022-08-13'
 startDatetime: '2022-08-13 20:00:00'
 endDatetime: '2022-08-14 00:00:00'
-image: /img/uploads/coatie-pop-and-pisha-live-at-art-sanctuary
+image: /img/uploads/coatie-pop-and-pisha-live-at-art-sanctuary.jpg
 description: >-
    "**Coatie Pop** is a post punk trip hop grunge rave duo based in NYC"
 
