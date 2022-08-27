@@ -1,12 +1,12 @@
 ---
 layout: event
 title: '2022-08-27 Radio Arcane'
-displayName: 'Dead Of Night & The Dark Market feat. special guest DJ Cinis & 5RVLN5'
+displayName: 'Dead Of Night & The Dark Market feat. DJ Cinis'
 eventType: radio-arcane
 date: '2022-08-27'
 startDatetime: '2022-08-27 21:00:00'
 endDatetime: '2022-08-28 02:00:00'
-image: '/img/uploads/dj-cinis-with-5rvlns.jpg'
+image: '/img/uploads/dj-cinis.jpg'
 description: >-
    The Nightmare continues on Friday, August 27th as Dead Of Night & The Dark Market keep up the monthly grind of dark eclectic music.
 
@@ -16,13 +16,13 @@ description: >-
 
    This month will feature very special guest **DJ Cinis**.
 
-   As well as a live performance by **5 R V L N 5**.
+   A special performance by Tenebris Danse.
 
    Radio Arcane Dark Music Specialists - Count Grozny & Sorrow Vomit!
 
    Vending by the talented Dark Market.
 
-   Food Truck - TBA
+   Food Truck - Chi-Town Grill
 
    Drinks by the wonderful Lany StarDust
 
@@ -37,19 +37,6 @@ description: >-
 
 
 
-   **5 R V L N 5** (Chicago)
-
-   *pronounced - /ser-väl-ens/*
-
-   Industrial metal born from the underbelly of Chicago’s historic, sprawling, urban landscape.
-
-   5 R V L N 5 - electronic based Industrial by Chuck Clybourne and featuring Lara Noël and Danny Garcia.
-
-   https://5rvln5.bandcamp.com
-
-
-
-
    18+ entry
 
    21+ bar
@@ -59,6 +46,6 @@ shortDescription: 'Dead Of Night & The Dark Market feat. DJ Cinis & 5RVLN5'
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/s/dead-of-night-the-dark-market-/1196143504277994'
 ticketsLink: 'https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-feat-special-guest-dj-cinis'
-cover: '8.00'
+cover: '5.00'
 playlist: ''
 ---
