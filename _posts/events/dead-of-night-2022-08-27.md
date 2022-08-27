@@ -42,7 +42,7 @@ description: >-
    21+ bar
 
    $8 cover
-shortDescription: 'Dead Of Night & The Dark Market feat. DJ Cinis & 5RVLN5'
+shortDescription: 'Dead Of Night & The Dark Market feat. DJ Cinis'
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/s/dead-of-night-the-dark-market-/1196143504277994'
 ticketsLink: 'https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-feat-special-guest-dj-cinis'
