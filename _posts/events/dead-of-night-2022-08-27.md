@@ -47,5 +47,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/s/dead-of-night-the-dark-market-/1196143504277994'
 ticketsLink: 'https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-feat-special-guest-dj-cinis'
 cover: '5.00'
-playlist: ''
+playlist: 'dead-of-night-2022-08-27'
 ---
