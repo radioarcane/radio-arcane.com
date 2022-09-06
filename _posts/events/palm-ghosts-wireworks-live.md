@@ -4,8 +4,8 @@ title: 2022-09-16 Arcane Alive
 displayName: 'Palm Ghosts • Wireworks • WaveRunnerRomantic'
 eventType: arcane-alive
 date: '2022-09-16'
-startDatetime: '2022-09-16 22:00:00'
-endDatetime: '2022-09-17 01:00:00'
+startDatetime: '2022-09-16 19:00:00'
+endDatetime: '2022-09-16 23:00:00'
 image: /img/uploads/palm-ghosts-wireworks.jpg
 description: >-
    Radio Arcane presents - Palm Ghosts from Nashville, TN with support from Louisville's own Wireworks, live at Mag Bar! In addition, there will be a curated DJ set by Motuvius Rex as retro themed show Wave Runner Romantic.
