@@ -17,7 +17,6 @@ description: >-
    Tracklist:
 
 
-   - ABC - Tears Are Not Enough (1982)
 
    01: Duran Duran - Night Boat (1981)
 
