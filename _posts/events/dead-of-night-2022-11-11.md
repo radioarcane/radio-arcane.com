@@ -5,7 +5,7 @@ displayName: 'Dead Of Night & The Dark Market feat. Ships In The Night / Solemn 
 eventType: radio-arcane
 date: '2022-11-11'
 startDatetime: '2022-11-11 21:00:00'
-endDatetime: '2022-11-11 02:00:00'
+endDatetime: '2022-11-12 02:00:00'
 image: /img/uploads/dead-of-night-2022-11-11.jpg
 description: >-
    The Nightmare continues on Friday, November 11th as Dead Of Night & The Dark Market keep up the monthly grind of dark eclectic music. Come out and help keep the dancefloor barely alive as we celebrate the glum drudgery of our dreadful existence.
