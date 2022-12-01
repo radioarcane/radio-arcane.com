@@ -2,7 +2,7 @@
 layout: event
 title: 2022-11-11 Arcane Alive
 displayName: 'Dead Of Night & The Dark Market feat. Ships In The Night / Solemn Shapes / Buck Gooter'
-eventType: radio-arcane
+eventType: arcane-alive
 date: '2022-11-11'
 startDatetime: '2022-11-11 21:00:00'
 endDatetime: '2022-11-12 02:00:00'

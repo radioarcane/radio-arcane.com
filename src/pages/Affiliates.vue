@@ -89,6 +89,39 @@
             </div>
 
             <div class="affiliate">
+               <h3 class="affiliate__title">Dark Castle Fest</h3>
+
+               <p class="affiliate__description">Dark Castle Music Festival is a darkly romantic celebration of the dark eclectic music of Goth.</p>
+
+               <ul class="affiliate__links">
+                  <li>
+                     <a href="https://www.darkcastlefest.com"
+                        target="_blank"
+                        title="Dark Castle Fest Official Site"
+                     >
+                        <SvgIcon name="home" use="home" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.facebook.com/dark.castle.fest"
+                        target="_blank"
+                        title="Dark Castle Fest @ Facebook"
+                     >
+                        <SvgIcon name="facebook" use="facebook" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/dark.castle.fest"
+                        target="_blank"
+                        title="Dark Castle Fest @ Instagram"
+                     >
+                        <SvgIcon name="instagram" use="instagram" />
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="affiliate">
                <h3 class="affiliate__title">Funeral Party Records</h3>
 
                <ul class="affiliate__links">
