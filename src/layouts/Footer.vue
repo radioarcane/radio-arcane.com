@@ -28,31 +28,36 @@
       },
       data: () => {
          return {
-            links: [{
+            links: [
+            {
                name: 'Home',
                to: '/',
-            }, {
-               name: 'About',
-               to: '/about',
-            }, {
+            }, 
+            {
                name: 'Events',
                to: '/events',
-            }, {
+            }, 
+            {
                name: 'Streaming Radio',
                to: '/radio'
-            }, {
-               name: 'Podcasts',
-               to: '/podcasts',
-            }, {
-               name: 'Mixes',
-               to: '/mixes'
-            }, {
+            }, 
+            {
                name: 'Playlists',
                to: '/playlists',
-            }, {
+            }, 
+            {
+               name: 'Mixes',
+               to: '/mixes'
+            }, 
+            {
+               name: 'Podcasts',
+               to: '/podcasts',
+            }, 
+            {
                name: 'Contact',
                to: '/contact',
-            }, {
+            }, 
+            {
                name: 'Affiliates',
                to: '/affiliates'
             }]

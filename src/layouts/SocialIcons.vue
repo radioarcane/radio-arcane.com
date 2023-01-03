@@ -51,10 +51,6 @@
                name: 'Spotify',
                url: config.spotify,
                icon: 'spotify'
-            }, {
-               name: 'Linktree',
-               url: config.linktree,
-               icon: 'linktree'
             }]
          };
       }
