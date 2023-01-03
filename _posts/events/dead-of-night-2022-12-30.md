@@ -37,5 +37,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/s/dead-of-night-the-dark-market-/1316047129217581'
 ticketsLink: 'https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market---new-years-evil'
 cover: '5.00'
-playlist: ''
+playlist: 'dead-of-night-2022-12-30'
 ---

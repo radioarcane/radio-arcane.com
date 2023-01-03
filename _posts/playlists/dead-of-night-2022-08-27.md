@@ -3,7 +3,7 @@ layout: 'playlist'
 title: 'dead-of-night-2022-08-27'
 displayName: 'Dead of Night'
 playlistType: 'dead-of-night'
-date: '2202-08-27'
+date: '2022-08-27'
 sets:
   - djName: 'Sorrow-Vomit'
     type: 'dj_set'
