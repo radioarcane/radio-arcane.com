@@ -41,10 +41,6 @@
             </p>
          </div>
 
-         =>>
-
-
-         <!--
          <div v-if="$page.convergenceEvent.edges.length">
             <Section v-if="totalFutureEvents" :padBottom="true">
                <Title tag="h2">
@@ -54,9 +50,7 @@
                <Event :event="$page.convergenceEvent.edges[0].node" />
             </Section>
          </div>
-      -->
 
-         <!--
          <Section v-if="totalFutureEvents" :padBottom="true">
             <Title tag="h2">
                Upcoming Event Schedule

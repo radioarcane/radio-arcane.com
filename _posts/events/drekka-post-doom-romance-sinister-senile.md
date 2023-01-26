@@ -1,22 +1,24 @@
 ---
 layout: event
 title: 2023-03-26 Arcane Alive
-displayName: 'DREKKA / post doom romance / Sinister Senile - Live at Art Sanctuary'
+displayName: 'DREKKA / post doom romance / Sinister Senile / Timber Rattle - Live at Art Sanctuary'
 eventType: arcane-alive
 date: '2023-03-26'
 startDatetime: '2023-03-26 18:00:00'
 endDatetime: '2023-03-26 21:00:00'
-image: /img/uploads/drekka-post-doom-romance-sinister-senile.jpg
+image: /img/uploads/drekka-live-at-art-sanctuary.jpg
 description: >-
    Radio Arcane presents:
 
 
 
-   DREKKA - (Bloomington, Indiana)
+   DREKKA (Bloomington, Indiana)
 
-   post doom romance - (Bradley, Illinois)
+   post doom romance (Bradley, Illinois)
 
-   Sinister Senile - (Louisville, Kentucky)
+   Sinister Senile (Louisville, Kentucky)
+
+   Timber Rattle
 
    Live performance at Art Sanctuary
 
@@ -71,12 +73,20 @@ description: >-
 
 
 
+   **Timber Rattle**
+
+   https://timberrattle.bandcamp.com
+
+
+
+
+
    18+ entry
 
    21+ bar
 
    $10 cover
-shortDescription: 'DREKKA / post doom romance / Sinister Senile - Live at Art Sanctuary'
+shortDescription: ''
 location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/s/drekkapost-doom-romancesiniste/951449715824237'
 ticketsLink: 'https://art-sanctuary.ticketleap.com/drekkapost-doom-romancesinister-senile'

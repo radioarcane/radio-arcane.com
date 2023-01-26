@@ -34,6 +34,22 @@
                </span>
             </Heading>
 
+            <div class="event-divider">
+               <Event :event="$page.nextEvents.edges[0].node" />
+            </div>
+
+            <GridContainer v-if="$page.nextEvents.edges.length > 1">
+               <GridItem
+                  v-for="{node} in $page.nextEvents.edges.filter((item, i) => i > 0)"
+                  :key="node.id"
+                  :sizes="{
+                     xs: 12, sm: 12, md: 6, lg: 4
+                  }"
+               >
+                  <EventCard :event="node" />
+               </GridItem>
+            </GridContainer>
+
             <!--
             <GridContainer center="true">
                <GridItem :sizes="{
@@ -44,15 +60,6 @@
                </GridItem>
             </GridContainer>
          -->
-
-            <div
-               v-for="({node}, index) in $page.nextEvents.edges"
-               :key="node.id"
-               class="event-divider"
-            >
-               <Event :event="node" />
-            </div>
-
          </Section>
 
          <!--
@@ -350,6 +357,7 @@
    import Center from '~/components/Center.vue';
    import Container from '~/components/Container.vue';
    import Event from '~/components/Event.vue';
+   import EventCard from '~/components/EventCard.vue';
    import FlashContainer from '~/components/FlashContainer.vue';
    import GridContainer from '~/components/GridContainer.vue';
    import GridItem from '~/components/GridItem.vue';
@@ -372,6 +380,7 @@
          Center,
          Container,
          Event,
+         EventCard,
          FlashContainer,
          GridContainer,
          GridItem,
