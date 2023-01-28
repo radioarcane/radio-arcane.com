@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2023-01-27 Radio Arcane
-displayName: "Dead Of Night & The Dark Market"
+displayName: "Dead Of Night & The Dark Market featuring Carrellee"
 eventType: radio-arcane
 date: '2023-02-24'
 startDatetime: '2023-02-24 21:00:00'
