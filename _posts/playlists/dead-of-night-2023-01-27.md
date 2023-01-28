@@ -122,6 +122,9 @@ sets:
         song: 'Unit (WLDV Edit)'
       - artist: 'Local Suicide & Curses'
         song: 'Magia'
+      - artist: 'The Cure'
+        song: 'Fascination Street'
+        request: 'song'
   - djName: 'Count Grozny'
     type: 'dj_set'
     tracks:
