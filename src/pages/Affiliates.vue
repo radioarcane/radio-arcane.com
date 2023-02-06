@@ -235,6 +235,47 @@
             </div>
 
             <div class="affiliate">
+               <h3 class="affiliate__title">Moon Coil Media</h3>
+
+               <p class="affiliate__description">Moon Coil Media is the premier PR & artist management agency specializing in the following genres: goth, industrial, ebm, darkwave, post-punk, synthpop, horror punk, deathrock & extreme metal.</p>
+
+               <ul class="affiliate__links">
+                  <li>
+                     <a href="https://mooncoilmedia.com"
+                        target="_blank"
+                        title="Moon Coil Media's Website"
+                     >
+                        <SvgIcon name="home" use="home" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.facebook.com/Moon-Coil-Media-106151935362238"
+                        target="_blank"
+                        title="Moon Coil Media @ Facebook"
+                     >
+                        <SvgIcon name="facebook" use="facebook" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://www.instagram.com/mooncoilmedia"
+                        target="_blank"
+                        title="Moon Coil Media @ Instagram"
+                     >
+                        <SvgIcon name="instagram" use="instagram" />
+                     </a>
+                  </li>
+                  <li>
+                     <a href="https://twitter.com/MoonCoilMedia"
+                        target="_blank"
+                        title="Moon Coil Media @ Twitter"
+                     >
+                        <SvgIcon name="twitter" use="twitter" />
+                     </a>
+                  </li>
+               </ul>
+            </div>
+
+            <div class="affiliate">
                <h3 class="affiliate__title">Procession Magazine</h3>
 
                <p class="affiliate__description">Procession Magazine covers the latest darkwave, goth, industrial and "wave" bands operating in the world today.</p>
