@@ -74,6 +74,8 @@ sets:
         song: 'A Little Death To Laugh'
       - artist: 'The Wants'
         song: 'The Motor'
+      - artist: 'Lords of The New Church'
+        song: 'Dance With Me'
       - artist: 'Forever Grey'
         song: 'Broken Home'
       - artist: 'Milimetric & HIV+'
