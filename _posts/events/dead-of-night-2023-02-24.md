@@ -42,5 +42,5 @@ location: Art Sanctuary
 facebookEventLink: 'https://www.facebook.com/events/1809055642810173'
 ticketsLink: 'https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-featuring-carrellee'
 cover: '10.00'
-playlist: ''
+playlist: 'dead-of-night-2023-02-24'
 ---
