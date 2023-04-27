@@ -50,7 +50,7 @@ description: >-
    21+ bar
 
    $12 cover
-shortDescription: "Harsh Symmetry / Palm Ghosts / Twice Dark"
+shortDescription: ""
 location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/harsh-symmetry/1211735249457250"
 ticketsLink: "https://art-sanctuary.ticketleap.com/harsh-symmetry"
