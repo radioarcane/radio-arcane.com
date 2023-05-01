@@ -35,5 +35,5 @@ location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/dead-of-night-the-dark-market-/1226375321313584"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-featuring-blacklist"
 cover: "5.00"
-playlist: ""
+playlist: "dead-of-night-2023-04-28"
 ---
