@@ -51,7 +51,7 @@ description: >-
 
    Dark Market Vendors
 
-   MeTime
+   - MeTime
 
    - Ashlee Alexander
 
