@@ -24,7 +24,7 @@ description: >-
 
    Featuring live performances by:
 
-   The Kentucky Vampires • The Neuro Farm • Dead Cool • In A Darkened Room • Scary Black • Motuvius Rex • Talking To Shadows • Ominous Erotica 
+   The Kentucky Vampires • The Neuro Farm • Dead Cool • In A Darkened Room •  Talking To Shadows • Scary Black • Ominous Erotica 
 
 
    DJs:
