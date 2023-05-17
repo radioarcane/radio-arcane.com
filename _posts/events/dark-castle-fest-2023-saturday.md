@@ -1,11 +1,11 @@
 ---
 layout: event
-title: 2023-07-28 Arcane Alive
-displayName: "Dark Castle Fest 2023 (Friday Night)"
+title: 2023-07-29 Arcane Alive
+displayName: "Dark Castle Fest 2023 (Saturday Night)"
 eventType: arcane-alive
-date: "2023-07-28"
-startDatetime: "2023-07-28 18:00:00"
-endDatetime: "2023-07-29 02:00:00"
+date: "2023-07-29"
+startDatetime: "2023-07-29 18:00:00"
+endDatetime: "2023-07-30 02:00:00"
 image: /img/uploads/dark-castle-fest-2023.jpg
 description: >-
    Radio Arcane presents Dark Castle Fest
@@ -20,16 +20,16 @@ description: >-
 
 
 
-   Friday Schedule:
+   Saturday Schedule:
 
    Featuring live performances by:
 
-   The Kentucky Vampires • The Neuro Farm • Dead Cool • In A Darkened Room • Scary Black • Motuvius Rex • Talking To Shadows • Ominous Erotica 
-
+   Astari Nite • The Waning Moon • The Palace of Tears • Wireworks • Motuvius Rex • Chrysanthemum Ballroom • Sinister Senile
+   
 
    DJs:
 
-   Dead Souls Gothic Lounge • Count Grozny
+   Rickbats • Sorrow-Vomit
 
 
 
@@ -39,7 +39,7 @@ description: >-
 
 
    Tickets and additional info @ https://www.darkcastlefest.com
-shortDescription: "The Kentucky Vampires • The Neuro Farm • Dead Cool • In A Darkened Room • Scary Black • Motuvius Rex • Talking To Shadows • Ominous Erotica "
+shortDescription: "Astari Nite • The Waning Moon • The Palace of Tears • Wireworks • Motuvius Rex • Chrysanthemum Ballroom • Sinister Senile"
 location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/1208002736764506"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dark-castle-fest"
