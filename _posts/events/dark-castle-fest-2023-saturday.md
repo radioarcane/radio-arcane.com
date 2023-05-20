@@ -6,7 +6,7 @@ eventType: arcane-alive
 date: "2023-07-29"
 startDatetime: "2023-07-29 18:00:00"
 endDatetime: "2023-07-30 02:00:00"
-image: /img/uploads/dark-castle-fest-2023.jpg
+image: /img/uploads/dark-castle-festival-2023.jpg
 description: >-
    Radio Arcane presents Dark Castle Fest
 
@@ -25,7 +25,7 @@ description: >-
    Featuring live performances by:
 
    Astari Nite • The Waning Moon • The Palace of Tears • Wireworks • Motuvius Rex • Chrysanthemum Ballroom • Sinister Senile
-   
+
 
    DJs:
 
