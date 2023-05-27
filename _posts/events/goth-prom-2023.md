@@ -103,5 +103,5 @@ location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/goth-prom-plack-blague-scary-b/1676134232836487"
 ticketsLink: "https://art-sanctuary.ticketleap.com/goth-prom"
 cover: "15.00"
-playlist: ""
+playlist: "goth-prom-2023-05-26"
 ---
