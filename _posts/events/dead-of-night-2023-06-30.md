@@ -3,9 +3,9 @@ layout: event
 title: 2023-06-30 Radio Arcane
 displayName: "Dead Of Night & The Dark Market featuring Hemlock for Socrates"
 eventType: radio-arcane
-date: '2023-06-30'
-startDatetime: '2023-06-30 21:00:00'
-endDatetime: '2023-06-31 02:00:00'
+date: "2023-06-30"
+startDatetime: "2023-06-30 21:00:00"
+endDatetime: "2023-06-31 02:00:00"
 image: /img/uploads/dead-of-night-feat-hemlock-for-socrates-live.jpg
 description: >-
    The Nightmare continues on Friday, June 30th as Dead Of Night & The Dark Market keep up the monthly grind of dark eclectic music. Come out and help keep the dancefloor barely alive as we celebrate the glum drudgery of our dreadful existence.
@@ -19,11 +19,11 @@ description: >-
 
    - Live performance by Hemlock for Socrates (Pittsburgh)
 
-   - Radio Arcane Dark Music Specialists - Count Grozny / TBA
+   - Radio Arcane Dark Music Specialists - Count Grozny / Sorrow-Vomit
 
    - Vending by the talented Dark Market.
 
-   - Food Truck - TBA
+   - Food Truck - Dino's C-Food & More
 
    - Drinks by the enchanting Lany StarDust
 
@@ -59,10 +59,10 @@ description: >-
 
     "Springing from sparse whispers into a rise of activity and back again ... vocals interacting with an unusual beat and shadowy, erupting guitar" - Skull Valley
     "Dramatic vocal performances and ominous gray pads ... covered in existential dread" - Divide and Conquer.
-shortDescription: ''
+shortDescription: ""
 location: Art Sanctuary
-facebookEventLink: 'https://www.facebook.com/events/s/dead-of-night-the-dark-market-/6115009058614803'
-ticketsLink: 'https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-feat-hemlock-for-socrates'
-cover: '10.00'
-playlist: ''
+facebookEventLink: "https://www.facebook.com/events/s/dead-of-night-the-dark-market-/6115009058614803"
+ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-feat-hemlock-for-socrates"
+cover: "10.00"
+playlist: ""
 ---
