@@ -5,7 +5,7 @@ displayName: "Dead Of Night & The Dark Market featuring Hemlock for Socrates"
 eventType: radio-arcane
 date: "2023-06-30"
 startDatetime: "2023-06-30 21:00:00"
-endDatetime: "2023-06-31 02:00:00"
+endDatetime: "2023-07-01 02:00:00"
 image: /img/uploads/dead-of-night-feat-hemlock-for-socrates-live.jpg
 description: >-
    The Nightmare continues on Friday, June 30th as Dead Of Night & The Dark Market keep up the monthly grind of dark eclectic music. Come out and help keep the dancefloor barely alive as we celebrate the glum drudgery of our dreadful existence.
