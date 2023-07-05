@@ -64,5 +64,5 @@ location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/dead-of-night-the-dark-market-/6115009058614803"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-feat-hemlock-for-socrates"
 cover: "10.00"
-playlist: ""
+playlist: "dead-of-night-2023-06-30"
 ---
