@@ -1,18 +1,18 @@
 ---
 layout: mix
-title: 'Sorrow-Vomit: Dead of Night 2023/01/27 - Set 1'
-shortTitle: 'Dead of Night 2023/01/27 - Set 1'
-type: 'set'
-date: '2023-01-27'
+title: "Sorrow-Vomit: Dead of Night 2023/01/27 - Set 1"
+shortTitle: "Dead of Night 2023/01/27 - Set 1"
+type: "set"
+date: "2023-01-27"
 djs:
-  - 'Sorrow-Vomit'
+   - "Sorrow-Vomit"
 filters:
-  - 'Sorrow-Vomit'
-  - 'Radio Arcane'
+   - "Sorrow-Vomit"
+   - "Radio Arcane"
 description: >-
    Set One from Radio Arcane's Dead of Night monthly event. Recorded live at Art Sanctuary, Louisville, Kentucky on January 27, 2023.
 
-   
+
 
    - Ritual Howls - A Forest
 
@@ -45,6 +45,6 @@ description: >-
    - Curses - Boundless (ft. Jennifer Touch)
 
    - ACTORS - Face Meets Glass **
-mixcloudLink: 'https://www.mixcloud.com/matt-kokas/sorrow-vomit-radio-arcane-dead-of-night-20220127-set-1'
-cover: 'https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/2/5/5/c/1d26-33c2-4b69-bea3-47314650e07f'
+mixcloudLink: "https://www.mixcloud.com/matt-kokas/sorrow-vomit-radio-arcane-dead-of-night-20220127-set-1"
+cover: "https://thumbnailer.mixcloud.com/unsafe/300x300/extaudio/2/5/5/c/1d26-33c2-4b69-bea3-47314650e07f"
 ---

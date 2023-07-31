@@ -14,6 +14,7 @@
             <select id="mix-filter" v-model="filter">
                <option value=""">Show All</option>
                <optgroup label="DJ">
+                  <option value="Count Grozny">Count Grozny</option>
                   <option value="Kaleidoscope">Kaleidoscope</option>
                   <option value="Motuvius Rex">Motuvius Rex</option>
                   <option value="Scary Black">Scary Black</option>
