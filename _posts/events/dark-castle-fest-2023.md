@@ -35,7 +35,7 @@ description: >-
 
    Vendors – The Dark Market
 
-   Food Truck – TBA
+   Food Truck – Fright Bites
 
 
    Tickets and additional info @ https://www.darkcastlefest.com
@@ -44,5 +44,5 @@ location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/1208002736764506"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dark-castle-fest"
 cover: "45.00"
-playlist: ""
+playlist: "dark-castle-festival-2023-07-28"
 ---
