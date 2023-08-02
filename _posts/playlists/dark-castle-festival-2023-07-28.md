@@ -83,7 +83,7 @@ sets:
           song: "Into The Sea"
         - artist: "Bazalt"
           song: "Festival"
-        - artist: "Damian Ashes"
+        - artist: "Demian Ashes"
           song: "Romantic Death"
         - artist: "The Wake"
           song: "Nazarene"
