@@ -27,7 +27,7 @@ description: >-
 
    https://lunacy.bandcamp.com
 
- 
+
 
 
    **LLORA** - The androgynous synth persona of Llandon Broadhead, a Dallas, TX native and overall gear nerd is one of euphoria on the dance floor.
@@ -38,13 +38,13 @@ description: >-
 
    18+ entry
 
-   $16 advanced tickets
+   $12 advanced tickets
 
-   $20 door
+   $15 door
 shortDescription: ""
 location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/ash-code-lunacy-llora/6247381915322422"
 ticketsLink: "https://art-sanctuary.ticketleap.com/ash-code"
-cover: "16.00"
+cover: "15.00"
 playlist: ""
 ---
