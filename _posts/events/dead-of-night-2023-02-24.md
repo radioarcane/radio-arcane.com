@@ -1,11 +1,11 @@
 ---
 layout: event
-title: 2023-01-27 Radio Arcane
+title: 2023-02-24 Radio Arcane
 displayName: "Dead Of Night & The Dark Market featuring Carrellee"
 eventType: radio-arcane
-date: '2023-02-24'
-startDatetime: '2023-02-24 21:00:00'
-endDatetime: '2023-02-25 02:00:00'
+date: "2023-02-24"
+startDatetime: "2023-02-24 21:00:00"
+endDatetime: "2023-02-25 02:00:00"
 image: /img/uploads/dead-of-night-2023-02-24.jpg
 description: >-
    The Nightmare continues on Friday, February 24th as Dead Of Night & The Dark Market keep up the monthly grind of dark eclectic music. Come out and help keep the dancefloor barely alive as we celebrate the glum drudgery of our dreadful existence.
@@ -37,10 +37,10 @@ description: >-
    21+ bar
 
    $10 cover
-shortDescription: ''
+shortDescription: ""
 location: Art Sanctuary
-facebookEventLink: 'https://www.facebook.com/events/1809055642810173'
-ticketsLink: 'https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-featuring-carrellee'
-cover: '10.00'
-playlist: 'dead-of-night-2023-02-24'
+facebookEventLink: "https://www.facebook.com/events/1809055642810173"
+ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-featuring-carrellee"
+cover: "10.00"
+playlist: "dead-of-night-2023-02-24"
 ---
