@@ -7,7 +7,7 @@ date: "2023-10-27"
 startDatetime: "2023-10-27 21:00:00"
 endDatetime: "2023-10-28 02:00:00"
 image: /img/uploads/dead-of-night-2023-10-27.jpg
-canceled: true
+cancelled: true
 description: >-
    Details TBA
 shortDescription: ""
