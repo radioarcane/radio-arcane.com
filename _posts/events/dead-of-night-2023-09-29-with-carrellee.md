@@ -46,5 +46,5 @@ location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/1038132180504627"
 ticketsLink: ""
 cover: "10.00"
-playlist: ""
+playlist: "dead-of-night-2023-09-29"
 ---

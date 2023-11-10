@@ -22,11 +22,11 @@ description: >-
 
 
 
-   - Radio Arcane Dark Music Specialists - TBA
+   - Radio Arcane Dark Music Specialists - Count Grozny / Viva Hate
 
    - Vending by the talented Dark Market.
 
-   - Food Truck - TBA
+   - Food Truck - Chi-Town Grill
 
    - Drinks by the enchanting Lany StarDust
 
