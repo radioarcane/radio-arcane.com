@@ -41,5 +41,5 @@ location: Art Sanctuary
 facebookEventLink: "https://facebook.com/events/s/dead-of-night-the-dark-market-/2431192517063375"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market---black-friday"
 cover: "5.00"
-playlist: ""
+playlist: "dead-of-night-2023-11-24"
 ---
