@@ -22,7 +22,7 @@ description: >-
 
 
 
-   - Radio Arcane Dark Music Specialists - TBA
+   - Radio Arcane Dark Music Specialists - Count Grozny & Discorrosion
 
    - Vending by the talented Dark Market.
 
@@ -33,13 +33,13 @@ description: >-
 
    18+
 
-   $7 Advanced tickets
+   $8 Advanced tickets
 
-   $10 Day of show
+   $12 Day of show
 shortDescription: ""
 location: Art Sanctuary
 facebookEventLink: "https://facebook.com/events/s/dead-of-night-the-dark-market-/213334781732509"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market---a-winter-wyrd"
-cover: "7.00"
+cover: "8.00"
 playlist: ""
 ---

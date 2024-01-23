@@ -35,13 +35,13 @@ description: >-
 
    18+
 
-   $7 Advanced tickets
+   $8 Advanced tickets
 
-   $10 Day of show
+   $12 Day of show
 shortDescription: ""
 location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/dead-of-night-the-dark-market-/865610065301540"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market-featuring-charm-school"
-cover: "7.00"
+cover: "8.00"
 playlist: ""
 ---
