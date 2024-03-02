@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2024-05-31 Radio Arcane
-displayName: "Dead Of Night & The Dark Market feat. Palm Ghosts"
+displayName: "Dead Of Night & The Dark Market feat. Astari Nite"
 eventType: radio-arcane
 date: "2024-05-31"
 startDatetime: "2024-05-31 21:00:00"
