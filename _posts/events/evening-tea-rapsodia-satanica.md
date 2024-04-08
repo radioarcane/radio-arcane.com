@@ -1,12 +1,12 @@
 ---
 layout: event
 title: 2024-04-12 Arcane Alive
-displayName: "Evening Tea - Rapsodia Satanica (1917) feat. Water Is The Sun / The Palace Of Tears"
+displayName: "Evening Tea - Rapsodia Satanica (1917) feat. Water Is The Sun"
 eventType: arcane-alive
 date: "2024-04-12"
 startDatetime: "2024-04-12 20:00:00"
 endDatetime: "2024-04-12 23:45:00"
-image: /img/uploads/evening-tea-rapsodia-satanica.jpg
+image: /img/uploads/evening-tea-rapsodia-satanica-water-in-the-sun.jpg
 description: >-
    Radio Arcane presents Evening Tea live!
 
@@ -37,7 +37,7 @@ description: >-
 
 
 
-   About the bands:
+   About the band:
 
 
 
@@ -47,15 +47,6 @@ description: >-
    There are moments of silent depth in which the winter of the scalpel of meaning and the spring of the sound-born, unleashed body look upon the world fully present. when the notes at last are heard, the ordered world is their indistinguishable score. the ritual of process is that which carries. the process of ritual is that which brings moments both transitory and immortal, apprehended by musician, seer, clairvoyant, herald; the welling tones that emanate from the crystal salt of shattered primordial sea; the melody that creeps unheard from unseen distance across the desert blaze and the knowledge of man; the hymns that blare in whispers from mountain peak and valley depth, beams of their power streaming into the ordered world, in confluence with body, voice and soul, dissolving it again and again.
 
    https://wateristhesun.bandcamp.com
-
-
-
-
-   **The Palace of Tears** - New Orleans, Louisiana
-
-   Erick r. Scheid and L.V. Darkling comprise the moody darkwave duo from New Orleans, blending elements of electro-shoegaze, ethereal witch house, neoclassical and ritual ambient drone. Hypnotic electronics and swirling guitar lay fertile ground for sultry seductive vocals that soar and dreamy lyrics that captivate.
-
-   https://thepalaceoftears.bandcamp.com
 
 
 
