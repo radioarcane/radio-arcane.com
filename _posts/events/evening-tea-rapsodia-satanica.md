@@ -14,8 +14,6 @@ description: >-
 
    The film is right at 45 minutes in length.
 
-   Not only this but also a live performance by The Palace Of Tears in celebration of their new album and this will be an album release party! 
-
 
 
 
