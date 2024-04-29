@@ -6,7 +6,7 @@ eventType: radio-arcane
 date: "2024-05-31"
 startDatetime: "2024-05-31 21:00:00"
 endDatetime: "2024-06-01 02:00:00"
-image: /img/uploads/goth-prom-2024-astari-nite.jpg
+image: /img/uploads/goth-prom-feat-astari-nite.jpg
 description: >-
    Radio Arcane Presents: Goth Prom featuring Astari Nite!
 

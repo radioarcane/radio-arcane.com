@@ -1,12 +1,12 @@
 ---
 layout: event
 title: 2024-05-08 Arcane Alive
-displayName: "Vision Video / Then Comes Silence Live at Art Sanctuary"
+displayName: "Vision Video / Then Comes Silence / Molly’s Midnight Villains Live at Art Sanctuary"
 eventType: arcane-alive
 date: "2024-05-08"
 startDatetime: "2024-05-08 19:00:00"
 endDatetime: "2024-05-08 23:00:00"
-image: /img/uploads/vision-video-then-comes-silence-live-at-art-sanctuary.jpg
+image: /img/uploads/vision-video-then-comes-silence-mollys-midnight-villains.jpg
 description: >-
    Radio Arcane presents:
 
@@ -43,7 +43,9 @@ description: >-
 
 
 
-   Local support TBA
+   Local support: Molly’s Midnight Villains
+
+   https://mollysmidnightvillains.bandcamp.com
 
 
 
