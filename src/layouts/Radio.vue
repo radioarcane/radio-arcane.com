@@ -1,8 +1,8 @@
 <template>
    <div class="radio-info">
-      <Center v-if="showTitle">
+      <div class="text-center" v-if="showTitle">
          <Title>Radio Arcane Streaming Radio</Title>
-      </Center>
+      </div>
 
       <div v-if="currentTrack" class="radio-info__content">
          <div class="radio-info__now-playing-container">
@@ -46,22 +46,20 @@
                <p>Recently Played:</p>
 
                <ul class="radio-info__tracks">
-                  <li v-for="trk in pastTracks"
-                       class="radio-info__tracks__track"
-                  >
+                  <li v-for="trk in pastTracks" class="radio-info__tracks__track" v-bind:key="trk.id">
                      {{ getHistoryTrackInfo(trk) }}
                   </li>
                </ul>
-            </div>
+            </div>  
          </div>
       </div>
       <div v-else>
-         <Center>
+         <div class="text-center">
             <Btn href="https://radioarcane.torontocast.stream" target="_blank">
                <span>Listen Now</span>
                <SvgIcon name="right-open" use="right-open" />
             </Btn>
-         </Center>
+         </div>
       </div>
 
       <br />
@@ -85,15 +83,12 @@
                </Btn>
             </form>
          </GridItem>
+         <GridItem>
+            <a href="https://www.internet-radio.com" target="_blank" rel="noopener" style="background: #fff; margin-bottom: 1em;">
+               <img src="/img/radio/internet-radio.png" alt="Internet Radio" width="175" />
+            </a>
+         </GridItem>
       </GridContainer>
-
-      <!--
-      <Center>
-         <Btn id="ko-fi-btn" href="https://ko-fi.com/radioarcane" target="_blank">
-            <span>Help Support Us on Ko-fi</span>
-         </Btn>
-      </Center>
-   -->
    </div>
 </template>
 
