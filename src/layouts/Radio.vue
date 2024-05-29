@@ -83,11 +83,13 @@
                </Btn>
             </form>
          </GridItem>
+         <!--
          <GridItem>
             <a href="https://www.internet-radio.com" target="_blank" rel="noopener" style="background: #fff; margin-bottom: 1em;">
                <img src="/img/radio/internet-radio.png" alt="Internet Radio" width="175" />
             </a>
          </GridItem>
+         -->
       </GridContainer>
    </div>
 </template>

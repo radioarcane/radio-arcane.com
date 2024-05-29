@@ -30,13 +30,22 @@ description: >-
 
    - Astari Nite (Miami, Florida)
 
-   - Radio Arcane Dark Music Specialists - TBA
+   “Astari Nite crosses an obscure mix between gothic rock and post-punk, exploring themes of death, love and the occult”
+   https://astarinitengp.bandcamp.com
+
+   - Radio Arcane Dark Music Specialists - DJ Count Grozny + Motuvius Rex
+
+   - Special dance performance by - Tenebris Danse
+
+   - Photo booth by Odd Logic Media
 
    - Vending by the talented Dark Market.
 
-   - Food Truck - TBA
+   - Food Truck - Chi-Town Grill
 
-   - Drinks by the enchanting Lany StarDust
+   - Drinks by the enchanting Lany StarDust & Smooth T 
+
+
 
 
    18+
