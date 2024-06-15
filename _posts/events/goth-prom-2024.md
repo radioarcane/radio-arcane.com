@@ -58,5 +58,5 @@ location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/goth-prom-feat-astari-nite/943254710706204"
 ticketsLink: "https://art-sanctuary.ticketleap.com/goth-prom-feat-astari-nite"
 cover: "15.00"
-playlist: ""
+playlist: "goth-prom-2024-05-31"
 ---
