@@ -20,7 +20,7 @@ description: >-
 
    Featuring live performances by:
 
-   The Neuro Farm, Astari Nite, Moira Scar, The Kentucky Vampires, Frenchy and the Punk, Sombre Arcane, Blood Dance, Ghost Painted Sky, Motuvius Rex, Attic Eyes, Tokyo Teens, clubdrugs, Iris Marlowe, The Dead Speak, Saddle Of Southern Darkness, Sinister Senile, Molly's Midnight Villains, Silver Rein
+   Attrition, Astari Nite, The Kentucky Vampires, The Neuro Farm, Frenchy and the Punk, Blood Dance, Ghost Painted Sky, Attic Eyes, Moira Scar, Sombre Arcane, Motuvius Rex, Tokyo Teens, clubdrugs, Silver Rein, Iris Marlowe, The Dead Speak, Saddle Of Southern Darkness, Sinister Senile, Molly's Midnight Villains.
 
 
 
