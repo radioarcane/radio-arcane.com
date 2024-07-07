@@ -6,7 +6,7 @@ eventType: arcane-alive
 date: "2024-09-26"
 startDatetime: "2024-09-26 18:30:00"
 endDatetime: "2024-09-29 03:00:00"
-image: /img/uploads/dark-castle-festival-2024-banner.jpg
+image: /img/uploads/dark-castle-fest-2024-lineup.jpg
 description: >-
    Radio Arcane presents Dark Castle Fest 2024
 
@@ -20,7 +20,7 @@ description: >-
 
    Featuring live performances by:
 
-   Attrition, Astari Nite, The Kentucky Vampires, The Neuro Farm, Frenchy and the Punk, Blood Dance, Ghost Painted Sky, Attic Eyes, Moira Scar, Sombre Arcane, Motuvius Rex, Tokyo Teens, clubdrugs, Silver Rein, Iris Marlowe, The Dead Speak, Saddle Of Southern Darkness, Sinister Senile, Molly's Midnight Villains.
+   Attrition, The Kentucky Vampires, Astari Nite, The Neuro Farm, Frenchy and the Punk, Blood Dance, Ghost Painted Sky, Attic Eyes, Motuvius Rex, Bat Noise, Sombre Arcane, Tokyo Teens, clubdrugs, Iris Marlowe, The Dead Speak, Saddle Of Southern Darkness, Silver Rein, Molly's Midnight Villains, Sinister Senile.
 
 
 
@@ -51,16 +51,18 @@ description: >-
 
    Line up - Thursday, September 26th:
 
-   Frenchy and the Punk, Iris Marlowe, The Dead Speak, Silver Rein, Saddle of Southern Darkness, Silver Rein
+   Frenchy and the Punk, Iris Marlowe, The Dead Speak, Saddle of Southern Darkness, Silver Rein, Molly's Midnight Villains
 
    With a showing of Maciste In Hell afterwards, featuring a contemporary Gothic inspired soundtrack of music curated by Count Grozny.
+
+   DJ Count Grozny
 
 
 
 
    Line up - Friday, September 27th:
 
-   Moira Scar, The Kentucky Vampires, Attic Eyes, clubdrugs, Tokyo Teens, Sinister Senile
+   The Kentucky Vampires, Blood Dance, Motuvius Rex, Clubdrugs, Tokyo Teens, Bat Noise, Sinister Senile
 
    DJ's Creepy Crawly & Ichabod
 
@@ -69,7 +71,7 @@ description: >-
 
    Line up - Saturday, September 28th:
 
-   The Neuro Farm, Astari Nite, Sombre Arcane, Blood Dance, Ghost Painted Sky, Motuvius Rex
+   Attrition, Astari Nite, The Neuro Farm, Ghost Painted Sky, Attic Eyes, Sombre Arcane
 
    Fashion Show - Of Limestone, Chlorophyll, and Bone - A Wearable Art Experience by Edwin Ramirez.
 
