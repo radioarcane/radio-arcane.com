@@ -51,7 +51,7 @@ description: >-
 
    Line up - Thursday, September 26th:
 
-   Frenchy and the Punk, Iris Marlowe, The Dead Speak, Saddle of Southern Darkness, Silver Rein, Molly's Midnight Villains
+   Attrition, Iris Marlowe, The Dead Speak, Saddle of Southern Darkness, Silver Rein, Molly's Midnight Villains
 
    With a showing of Maciste In Hell afterwards, featuring a contemporary Gothic inspired soundtrack of music curated by Count Grozny.
 
@@ -71,7 +71,7 @@ description: >-
 
    Line up - Saturday, September 28th:
 
-   Attrition, Astari Nite, The Neuro Farm, Ghost Painted Sky, Attic Eyes, Sombre Arcane
+   Astari Nite, The Neuro Farm, Frenchy and the Punk Ghost Painted Sky, Attic Eyes, Sombre Arcane
 
    Fashion Show - Of Limestone, Chlorophyll, and Bone - A Wearable Art Experience by Edwin Ramirez.
 
