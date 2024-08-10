@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2024-08-12 Arcane Alive
-displayName: "Nuovo Testamento / Street Fever - Live at Art Sanctuary"
+displayName: "Nox Novacula / Street Fever"
 eventType: arcane-alive
 date: "2024-08-12"
 startDatetime: "2024-08-12 20:00:00"
@@ -37,7 +37,7 @@ description: >-
    $16 advanced tickets
 
    $20 day of show
-shortDescription: "Nuovo Testamento / The Serfs - Live at Art Sanctuary"
+shortDescription: "Nox Novacula / Street Fever"
 location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/nox-novacula-street-fever/332591836374409"
 ticketsLink: "https://art-sanctuary.ticketleap.com/nox-novacula--street-fever"
