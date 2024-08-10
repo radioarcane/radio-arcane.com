@@ -1,16 +1,14 @@
 ---
 layout: event
 title: 2024-08-12 Arcane Alive
-displayName: "Nox Novacula / Street Fever"
+displayName: "Nox Novacula / Street Fever / Albie Damned"
 eventType: arcane-alive
 date: "2024-08-12"
 startDatetime: "2024-08-12 20:00:00"
 endDatetime: "2024-08-12 23:45:00"
 image: /img/uploads/nox-novacula-street-fever-live-at-art-sanctuary.jpg
 description: >-
-   Radio Arcane Presents: Nox Novacula / Street Fever live at Art Sanctuary.
-
-   Local support TBA. 
+   Radio Arcane Presents: Nox Novacula / Street Fever / Albie Damned live at Art Sanctuary.
 
 
 
@@ -30,6 +28,16 @@ description: >-
 
 
 
+   **ALBIE DAMNED**
+
+   Albie Mason of Scary Black has a new project called Albie Damned. Already with a very recently released, two part album titled- ‘Self Sabotage I and Self Sabotage II’.
+   Albie has started a new era of live performances for this new deep dive into some new concepts with a bit different angle on his own musical psychology. Come out and witness this fresh new take! 
+
+   https://albiedamned.bandcamp.com
+
+
+
+
    18+ entry
 
    21+ bar
@@ -37,7 +45,7 @@ description: >-
    $16 advanced tickets
 
    $20 day of show
-shortDescription: "Nox Novacula / Street Fever"
+shortDescription: "Nox Novacula / Street Fever / Albie Damned"
 location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/nox-novacula-street-fever/332591836374409"
 ticketsLink: "https://art-sanctuary.ticketleap.com/nox-novacula--street-fever"
