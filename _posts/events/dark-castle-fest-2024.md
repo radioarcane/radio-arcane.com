@@ -20,7 +20,7 @@ description: >-
 
    Featuring live performances by:
 
-   Attrition, The Kentucky Vampires, Astari Nite, The Neuro Farm, Frenchy and the Punk, Blood Dance, Ghost Painted Sky, Attic Eyes, Motuvius Rex, Bat Noise, Sombre Arcane, Tokyo Teens, clubdrugs, Iris Marlowe, The Dead Speak, Saddle Of Southern Darkness, Silver Rein, Molly's Midnight Villains, Sinister Senile.
+   The Kentucky Vampires, Astari Nite, The Neuro Farm, Frenchy and the Punk, Blood Dance, Ghost Painted Sky, Attic Eyes, Motuvius Rex, Bat Noise, Sombre Arcane, Tokyo Teens, clubdrugs, Iris Marlowe, The Dead Speak, Saddle Of Southern Darkness, Silver Rein, Molly's Midnight Villains, Sinister Senile.
 
 
 
@@ -51,7 +51,7 @@ description: >-
 
    Line up - Thursday, September 26th:
 
-   Attrition, Iris Marlowe, The Dead Speak, Saddle of Southern Darkness, Silver Rein, Molly's Midnight Villains
+   Iris Marlowe, The Dead Speak, Saddle of Southern Darkness, Silver Rein, Molly's Midnight Villains
 
    With a showing of Maciste In Hell afterwards, featuring a contemporary Gothic inspired soundtrack of music curated by Count Grozny.
 
