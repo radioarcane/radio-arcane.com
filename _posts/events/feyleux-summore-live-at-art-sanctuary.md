@@ -1,16 +1,14 @@
 ---
 layout: event
 title: 2024-10-10 Arcane Alive
-displayName: "Feyleux / Summore"
+displayName: "Feyleux / Summore / Motuvius Rex"
 eventType: arcane-alive
 date: "2024-10-10"
 startDatetime: "2024-10-10 20:00:00"
 endDatetime: "2024-10-10 23:45:00"
-image: /img/uploads/feyleux-summore-live-at-art-sanctuary.jpg
+image: /img/uploads/feyleux-summore-motuvius-rex-live-at-art-sanctuary.jpg
 description: >-
    Radio Arcane Presents: Radio Arcane Presents Feyleux and Summore live at Art Sanctuary in Louisville, Kentucky.
-
-   Local support TBA.
 
 
 
@@ -23,6 +21,12 @@ description: >-
    **SUMMORE** is a captivating dark synth-pop duo from Columbus, Ohio, is made up of Julie, whose hauntingly beautiful vocals and evocative lyrics captivate audiences, and Justin, the mastermind behind their intricate synth and production work. Together, they create a sound that is both enigmatic and mesmerizing, blending bright, catchy melodies with profound, often hidden, meanings. Their music invites listeners on a journey of discovery, where each listen reveals new layers and interpretations.
 
    https://summore.bandcamp.com
+
+
+
+   **Motuvius Rex** is a Gothic Rock, Dark Folk, New Romantic, Art Rock band from Louisville, Kentucky.
+
+   https://motuvius.bandcamp.com
 
 
 
