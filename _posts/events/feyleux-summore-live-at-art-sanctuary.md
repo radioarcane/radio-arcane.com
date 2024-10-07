@@ -8,11 +8,11 @@ startDatetime: "2024-10-10 20:00:00"
 endDatetime: "2024-10-10 23:45:00"
 image: /img/uploads/feyleux-summore-motuvius-rex-live-at-art-sanctuary.jpg
 description: >-
-   Radio Arcane Presents: Radio Arcane Presents Feyleux and Summore live at Art Sanctuary in Louisville, Kentucky.
+   Radio Arcane Presents: Feyleux, Summore, and Motivus Rex live at Art Sanctuary in Louisville, Kentucky.
 
 
 
-   **Feyleux** is a new dark alternative group that formed in mid-2023, combining dreampop and darkwave. The duo's debut album, "Midnight Hearts," showcases edgy bass synth, swirling guitars, and icy 80s synthpop melodies while highlighting ethereal vocals. The songs delve into themes of love, loss, longing, and personal power through a darker lens, with lyrics touching on paranormal experiences, the occult, exploring liminal spaces, and even contact with the undead. "Midnight Hearts" strikes a balance between dreamy urgency and drama within the context of dark romanticism and a subtly danceable sense of anger
+   **Feyleux** is a new dark alternative group that formed in mid-2023, combining dreampop and darkwave. The duo's debut album, "Midnight Hearts," showcases edgy bass synth, swirling guitars, and icy 80s synthpop melodies while highlighting ethereal vocals. The songs delve into themes of love, loss, longing, and personal power through a darker lens, with lyrics touching on paranormal experiences, the occult, exploring liminal spaces, and even contact with the undead. "Midnight Hearts" strikes a balance between dreamy urgency and drama within the context of dark romanticism and a subtly danceable sense of anger.
 
    https://feyleux.bandcamp.com
 
