@@ -37,5 +37,5 @@ location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/dead-of-night-the-dark-market-/8944989445511773"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night--the-dark-market---a-midnight-dreary"
 cover: "8.00"
-playlist: ""
+playlist: "dead-of-night-2024-12-27"
 ---

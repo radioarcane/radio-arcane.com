@@ -37,5 +37,5 @@ location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/dead-of-night-the-dark-market-/1534651847139057"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night-carrellee"
 cover: "8.00"
-playlist: ""
+playlist: "dead-of-night-2024-10-25"
 ---
