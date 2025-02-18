@@ -37,5 +37,5 @@ location: Art Sanctuary
 facebookEventLink: "https://www.facebook.com/events/s/dead-of-night-the-dark-market-/458312400414931"
 ticketsLink: "https://art-sanctuary.ticketleap.com/dead-of-night-a-winter-wyrd"
 cover: "8.00"
-playlist: ""
+playlist: "dead-of-night-2025-01-31"
 ---
