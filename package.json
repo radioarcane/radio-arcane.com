@@ -38,7 +38,7 @@
     "@babel/plugin-proposal-export-default-from": "^7.10.1",
     "@gridsome/plugin-sitemap": "^0.1.1",
     "@gridsome/source-filesystem": "^0.3.0",
-    "@gridsome/transformer-remark": "^0.2.1",
+    "@gridsome/transformer-remark": "^0.6.4",
     "babel-project-relative-import": "^2.0.1",
     "mark-twain": "^2.0.3",
     "markdown-it": "^8.4.2",
