@@ -1,7 +1,7 @@
 ---
 layout: event
 title: 2025-05-20 Arcane Alive
-displayName: "Diavol Strâin / Scary Black"
+displayName: "Diavol Strâin / Scary Black / Dark Mountain Orchid"
 eventType: arcane-alive
 date: "2025-05-20"
 startDatetime: "2025-05-20 19:00:00"
@@ -28,6 +28,15 @@ description: >-
    **Scary Black (Louisville, Kentucky)**
 
    https://scaryblack.bandcamp.com
+
+
+
+
+   **Dark Mountain Orchid (Knoxville, TN)**
+
+   After years on the fringes of the vibrant East Tennessee music scene, Leslie put together DMO in 2002. Their release Luxury of Sin was, without hyperbole, an indescribable sonic territory through the dark places of Appalachia. Unease and longing conjured from the places where old growth trees cast perpetual gloom on a land soaked in blood. And then she disappeared.... She is back with Thrall.
+
+   https://darkmountainorchid.bandcamp.com
 
 
 
