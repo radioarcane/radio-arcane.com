@@ -40,7 +40,8 @@ export default function SiteRadioPlayer() {
          const position = window.scrollY;
          setScrollPosition(position);
 
-         if (position > 200) {
+         // Always show on the radio page, which is too short to scroll past the threshold
+         if (position > 200 || window.location.pathname.startsWith('/radio')) {
             setVisible(true);
          }
       };
@@ -49,10 +50,13 @@ export default function SiteRadioPlayer() {
 
       // Attach listener with passive option for better scroll performance
       window.addEventListener('scroll', handleScroll, { passive: true });
+      // Player persists across view transitions, so re-check on each navigation
+      document.addEventListener('astro:page-load', handleScroll);
 
       // Clean up event listener when component unmounts
       return () => {
          window.removeEventListener('scroll', handleScroll);
+         document.removeEventListener('astro:page-load', handleScroll);
       };
    }, [visible]);
 
