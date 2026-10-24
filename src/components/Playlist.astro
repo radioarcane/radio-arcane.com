@@ -1,0 +1,198 @@
+---
+import type { HTMLTag, Polymorphic } from 'astro/types';
+import dayjs from 'dayjs';
+import type {
+   PlaylistType,
+   PlaylistTrack,
+   PlaylistSet,
+   MixcloudLink,
+} from '@/types';
+import FlashingBox from '@/components/FlashingBox.astro';
+import MixcloudPlayer from '@/components/MixcloudPlayer.astro';
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
+   as?: string;
+   playlist: PlaylistType;
+};
+
+const { playlist, as: Element = 'div' } = Astro.props;
+
+let hasRequestForArtist: boolean = false;
+let hasRequestForSong: boolean = false;
+
+for (const set of playlist.data?.sets) {
+   if (hasRequestForArtist && hasRequestForSong) {
+      break;
+   }
+
+   if (set?.type !== 'dj') {
+      continue;
+   }
+
+   set?.tracks.forEach((trk: PlaylistTrack) => {
+      if (trk?.request === 'artist') {
+         hasRequestForArtist = true;
+      }
+
+      if (trk?.request === 'song') {
+         hasRequestForSong = true;
+      }
+   });
+}
+
+const mixcloudLinks: string[] = playlist?.data.mixcloudLinks
+   ?.map((obj: MixcloudLink) => {
+      if (
+         typeof obj?.url === 'string' &&
+         obj.url.toLowerCase().startsWith('http:') &&
+         obj.url.toLowerCase().includes('mixcloud.com')
+      ) {
+         return obj.url;
+      }
+      return null;
+   })
+   .filter((str: string | null) => str);
+---
+
+<article
+   id={`playlist-${playlist.id}`}
+   data-playlist-type={playlist.data?.playlistType || undefined}
+>
+   <FlashingBox>
+      <header>
+         <h2>
+            {playlist.data.title}
+         </h2>
+
+         <time datetime={playlist.data.date}>
+            {dayjs(playlist.data.date).format('dddd MMMM D, YYYY')}
+         </time>
+      </header>
+
+      <div class="request-info">
+         {
+            hasRequestForArtist && (
+               <p>
+                  <em>*</em> = Request for Artist
+               </p>
+            )
+         }
+
+         {
+            hasRequestForSong && (
+               <p>
+                  <em>**</em> = Request for Song
+               </p>
+            )
+         }
+      </div>
+
+      {
+         playlist.data?.sets?.map((set: PlaylistSet) => (
+            <section class="set">
+               {set?.type === 'dj' && (
+                  <>
+                     {set?.djName && <h3>{set.djName}</h3>}
+
+                     {set?.tracks?.length === 0 && <p>???</p>}
+
+                     {set?.tracks?.length > 0 && (
+                        <ol>
+                           {set.tracks.map((trk) => (
+                              <li>
+                                 {trk?.artist || '?'} &ndash; {trk?.song || '?'}
+                                 {trk?.request === 'artist' && (
+                                    <em
+                                       aria-label="Request for artist"
+                                       title="Request for artist"
+                                    >
+                                       *
+                                    </em>
+                                 )}
+                                 {trk?.request === 'song' && (
+                                    <em
+                                       aria-label="Request for song"
+                                       title="Request for song"
+                                    >
+                                       **
+                                    </em>
+                                 )}
+                              </li>
+                           ))}
+                        </ol>
+                     )}
+                  </>
+               )}
+
+               {set?.type === 'performance' && set?.performer && (
+                  <h3>Performance by: {set?.performer}</h3>
+               )}
+            </section>
+         ))
+      }
+
+      {
+         mixcloudLinks?.length > 0 && (
+            <section class="mixcloud-links">
+               {mixcloudLinks.map((url: string) => (
+                  <MixcloudPlayer url={url} />
+               ))}
+            </section>
+         )
+      }
+   </FlashingBox>
+</article>
+
+<style>
+   header {
+      border-bottom: 1px solid var(--border-gray-1);
+      padding-bottom: var(--spacing-2x);
+      margin-bottom: var(--spacing-6x);
+   }
+
+   h2 {
+      margin: 0;
+      color: var(--white-smoke);
+   }
+
+   time {
+      color: var(--border-gray-2);
+      font-size: var(--text-sm);
+   }
+
+   .request-info {
+      margin-bottom: var(--spacing-4x);
+   }
+
+   .request-info p {
+      margin: 0;
+   }
+
+   .request-info em {
+      color: var(--warning-color);
+   }
+
+   .set {
+      margin: 0 0 var(--spacing-6x);
+   }
+
+   .set:last-child {
+      padding-bottom: var(--spacing-4x);
+   }
+
+   .set em {
+      color: var(--warning-color);
+      display: inline-block;
+      margin-left: 0.25em;
+   }
+
+   ol {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+   }
+
+   .mixcloud-links {
+      padding-top: var(--spacing-4x);
+   }
+</style>

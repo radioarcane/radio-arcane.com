@@ -1,0 +1,133 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import orderBy from 'lodash/orderBy';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import { localDateTimeToUtcString } from '@/js/util/dates.ts';
+
+import Container from '@/components/Container.astro';
+import EventCard from '@/components/EventCard.astro';
+import EventContent from '@/components/EventContent.astro';
+import Heading from '@/components/Heading.astro';
+
+dayjs.extend(utc);
+
+const todayLocal: string = dayjs().format('YYYY-MM-DD');
+const today: string = dayjs.utc().format();
+
+type EventType = CollectionEntry<'event'>;
+
+const allUpcomingEvents: EventType[] = await getCollection(
+   'event',
+   (eventItem: EventType) => {
+      if (eventItem.data?.cancelled) {
+         return false;
+      }
+
+      if (eventItem.data?.dateEnd) {
+         return today <= localDateTimeToUtcString(eventItem.data.dateEnd);
+      }
+
+      if (eventItem.data?.dateStart) {
+         return today <= localDateTimeToUtcString(eventItem.data.dateStart);
+      }
+
+      if (todayLocal <= eventItem.data.date) {
+         return true;
+      }
+
+      return false;
+   },
+);
+
+const eventsSorted: EventType[] = orderBy(
+   allUpcomingEvents,
+   (item: EventType) => {
+      return item.data?.dateStart ? item.data.dateStart : item.data.date;
+   },
+   ['asc'],
+);
+
+const nextEvent: EventType | undefined = eventsSorted.length
+   ? eventsSorted.shift()
+   : undefined;
+---
+
+<Container id="events" as="section">
+   <Heading as="h1" withBar={true} uppercase={true}>
+      {allUpcomingEvents.length === 1 && 'Next Radio Arcane Event'}
+      {allUpcomingEvents.length !== 1 && 'Next Radio Arcane Events'}
+   </Heading>
+
+   {
+      allUpcomingEvents.length === 0 && (
+         <div class="no-events">
+            <p>Please check back for future events.</p>
+         </div>
+      )
+   }
+
+   {nextEvent && <EventContent event={nextEvent} includeLink={true} />}
+
+   {
+      eventsSorted.length > 0 && (
+         <div class="event-cards">
+            {eventsSorted.slice(0, 3).map((ev: EventType) => (
+               <EventCard
+                  event={ev}
+                  as="article"
+                  ticketsLink={true}
+                  facebookLink={true}
+               />
+            ))}
+         </div>
+      )
+   }
+</Container>
+
+<style>
+   #events {
+      padding-bottom: var(--spacing-8x);
+   }
+
+   h1 {
+      margin: 0;
+      color: var(--white-smoke);
+      padding-bottom: var(--spacing-8x);
+   }
+
+   .no-events {
+      text-align: center;
+      font-size: var(--text-lg);
+   }
+
+   .event-cards {
+      display: flex;
+      flex-direction: column;
+      gap: var(--gutter);
+   }
+
+   @media (--md-up) {
+      .event-cards {
+         flex-direction: row;
+         flex-wrap: wrap;
+      }
+
+      .event-cards > :global(*) {
+         width: calc(calc(100% / 2) - var(--gutter));
+         align-items: stretch;
+      }
+   }
+
+   @media (--lg-up) {
+      .event-cards {
+         flex-direction: row;
+      }
+
+      .event-cards > :global(*) {
+         width: calc(calc(100% / 3) - var(--gutter));
+         align-items: stretch;
+         flex-wrap: wrap;
+      }
+   }
+</style>

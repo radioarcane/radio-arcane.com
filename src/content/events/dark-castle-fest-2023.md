@@ -1,0 +1,34 @@
+---
+layout: event
+title: Dark Castle Fest 2023 (Friday Night)
+date: '2023-07-28'
+image: /src/images/events/dark-castle-festival-2023.jpg
+shortDescription: >-
+  The Kentucky Vampires • The Neuro Farm • Dead Cool • In A Darkened Room •
+  Scary Black • Motuvius Rex • Talking To Shadows • Ominous Erotica 
+location: art-sanctuary-old
+facebookEventLink: 'https://www.facebook.com/events/1208002736764506'
+ticketsLink: 'https://art-sanctuary.ticketleap.com/dark-castle-fest'
+cover: '45.00'
+playlist: 2023-07-28-dark-castle
+dateStart: '2023-07-28T18:00:00'
+dateEnd: '2023-07-29T02:00:00'
+eventType: dark-castle
+fileName: dark-castle-fest-2023
+---
+Radio Arcane presents Dark Castle Fest\
+A Gothic Music & Dark Arts Festival
+
+Friday July 28, 2023 and Saturday July 29, 2023
+
+Friday Schedule:\
+Featuring live performances by:\
+The Kentucky Vampires • The Neuro Farm • Dead Cool • In A Darkened Room •  Talking To Shadows • Scary Black • Ominous Erotica 
+
+DJs:\
+Dead Souls Gothic Lounge • Count Grozny
+
+Vendors – The Dark Market\
+Food Truck – Fright Bites
+
+Tickets and additional info @ https://www.darkcastlefest.com

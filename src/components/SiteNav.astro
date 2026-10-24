@@ -1,0 +1,214 @@
+---
+interface NavItem {
+   title: string;
+   path: string;
+}
+
+const nav: NavItem[] = [
+   {
+      title: 'Home',
+      path: '/',
+   },
+   {
+      title: 'Events',
+      path: '/events/',
+   },
+   {
+      title: 'Radio',
+      path: '/radio/',
+   },
+   {
+      title: 'Playlists',
+      path: '/playlists/',
+   },
+   {
+      title: 'Mixes',
+      path: '/mixes/',
+   },
+   {
+      title: 'Podcasts',
+      path: '/podcasts/',
+   },
+   {
+      title: 'Contact',
+      path: '/contact/',
+   },
+   {
+      title: 'Affiliates',
+      path: '/affiliates/',
+   },
+];
+
+/* Dev and build disagree on trailing slashes, so compare without them */
+const stripSlash = (path: string): string => path.replace(/\/+$/, '') || '/';
+const currentPath = stripSlash(Astro.url.pathname);
+
+const isCurrentPage = (item: NavItem): boolean =>
+   stripSlash(item.path) === currentPath;
+
+/* Keep the section highlighted on detail pages, e.g. /events/some-event/ */
+const isCurrentSection = (item: NavItem): boolean =>
+   item.path !== '/' && currentPath.startsWith(stripSlash(item.path) + '/');
+---
+
+<nav id="site-nav" class="site-nav" aria-label="Site Menu">
+   <ul class="nav-menu">
+      {
+         nav.map((item: NavItem) => (
+            <li class="nav-menu__item">
+               <a
+                  href={item.path}
+                  class:list={[
+                     'nav-menu__link',
+                     {
+                        'nav-menu__link--active':
+                           isCurrentPage(item) || isCurrentSection(item),
+                     },
+                  ]}
+                  {...(isCurrentPage(item) ? { 'aria-current': 'page' } : {})}
+               >
+                  {item.title}
+               </a>
+            </li>
+         ))
+      }
+   </ul>
+</nav>
+
+<style>
+   .site-nav {
+      font-family: var(--font-heading);
+      text-transform: uppercase;
+      max-height: 0;
+      overflow: hidden;
+      transition: all 0.25s ease-in-out;
+      position: relative;
+      background: linear-gradient(135deg, #444 20%, #777 80%);
+      opacity: 0.75;
+      box-shadow: inset 0 0 100px var(--black);
+      font-size: 18px;
+   }
+
+   .site-nav.site-nav--open {
+      overflow: auto;
+      max-height: 5000px;
+   }
+
+   .nav-menu {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: stretch;
+      align-content: flex-start;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      position: relative;
+   }
+
+   .nav-menu__item {
+      display: block;
+      width: 100%;
+      position: relative;
+   }
+
+   .nav-menu__link {
+      color: var(--white);
+      text-decoration: none;
+      transition: all 0.15s ease-in-out;
+      display: block;
+      padding: 0.625rem 16px 0.5rem;
+      border-bottom: 1px solid var(--black);
+      position: relative;
+   }
+
+   .nav-menu__link:hover,
+   .nav-menu__link:focus,
+   .nav-menu__link:active {
+      color: var(--white);
+      background: #777;
+   }
+
+   @media (min-width: 480px) {
+      .site-nav {
+         font-size: calc(14.66667px + 0.69444vw);
+      }
+   }
+
+   @media (--md-up) {
+      .site-nav {
+         overflow: visible;
+         max-height: none;
+         background: transparent;
+         box-shadow: none;
+         opacity: 1;
+         font-size: 16px;
+      }
+
+      .nav-menu {
+         text-align: left;
+         justify-content: center;
+      }
+
+      .nav-menu__item {
+         width: auto;
+         margin: 0 0.25em 0.5rem 0;
+      }
+
+      .nav-menu__link {
+         border-bottom: 2px solid transparent;
+         padding: 0.45em 0.65em 0.3em;
+         background: transparent;
+      }
+
+      .nav-menu__link:hover,
+      .nav-menu__link:focus,
+      .nav-menu__link:active {
+         background: transparent;
+         opacity: 0.8;
+      }
+
+      .nav-menu__link--active {
+         border-bottom-color: var(--white-smoke);
+      }
+   }
+
+   @media (--lg-up) {
+      .site-nav {
+         font-size: 18px;
+         letter-spacing: 0.04em;
+      }
+
+      .nav-menu {
+         justify-content: center;
+         column-gap: 0.6em;
+         row-gap: var(--spacing-2x);
+      }
+
+      .nav-menu__item {
+         margin: 0;
+      }
+
+      .nav-menu__link {
+         padding: 0.3em 0.55em 0.2em;
+      }
+   }
+
+   @media (--xl-up) {
+      .site-nav {
+         font-size: 21px;
+      }
+
+      .nav-menu {
+         column-gap: 0.8em;
+      }
+   }
+
+   @media (--xxl-up) {
+      .site-nav {
+         font-size: 24px;
+      }
+   }
+</style>

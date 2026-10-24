@@ -1,0 +1,256 @@
+---
+import { Picture } from 'astro:assets';
+
+import SiteNav from '@/components/SiteNav.astro';
+import SocialLinks from '@/components/SocialLinks.astro';
+import LogoImg from '@/images/logo--radio-arcane.png';
+
+const { siteName } = Astro.locals;
+---
+
+<header id="head" role="banner">
+   <div class="brand">
+      <a id="logo" aria-label="Home Page" href="/">
+         <Picture
+            src={LogoImg}
+            formats={['webp']}
+            alt={siteName}
+            loading="eager"
+            fallbackFormat="png"
+            width={400}
+            quality="max"
+         />
+      </a>
+   </div>
+
+   <button
+      id="menu-toggle"
+      aria-controls="site-nav"
+      aria-label="Open Menu"
+      aria-expanded="false"
+   >
+      <span></span>
+      <span></span>
+      <span></span>
+   </button>
+
+   <div class="nav">
+      <SiteNav />
+   </div>
+
+   <div class="socials">
+      <SocialLinks />
+   </div>
+</header>
+
+<style>
+   header {
+      position: relative;
+      background: var(--black);
+      padding: 1rem 0 0;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      border-bottom: 1px solid hsla(0, 0%, 100%, 0.7);
+   }
+
+   .brand {
+      width: 225px;
+      margin-left: calc(var(--gutter) / 2);
+      padding-bottom: 0.5rem;
+   }
+
+   .brand a {
+      display: block;
+   }
+
+   .brand :global(img) {
+      display: block;
+      width: 100%;
+      height: auto;
+   }
+
+   #menu-toggle {
+      position: absolute;
+      top: 1.35rem;
+      right: calc(var(--gutter) / 2);
+      z-index: 9999;
+      outline: 0;
+      border: 0;
+      padding: 0;
+      background-color: transparent;
+      margin: 0;
+      cursor: pointer;
+      user-select: none;
+      appearance: none;
+      line-height: 1;
+   }
+
+   #menu-toggle:focus-visible {
+      outline: 2px solid var(--white-smoke);
+      outline-offset: 4px;
+   }
+
+   #menu-toggle span {
+      width: 45px;
+      height: 5px;
+      margin: 8px auto;
+      background-color: var(--white);
+      display: block;
+      transition: all 0.3s ease-in-out;
+   }
+
+   #menu-toggle[aria-expanded='true'] span:nth-child(1) {
+      transform: translateY(13px) rotate(45deg);
+   }
+
+   #menu-toggle[aria-expanded='true'] span:nth-child(2) {
+      opacity: 0;
+   }
+
+   #menu-toggle[aria-expanded='true'] span:nth-child(3) {
+      transform: translateY(-13px) rotate(-45deg);
+   }
+
+   .socials {
+      --social-icon-size: 28px;
+      --social-icon-gap: var(--spacing-6x);
+      flex-grow: 1;
+      padding: 0.625rem 0;
+      border-top: 1px solid hsla(0, 0%, 100%, 0.5);
+      background: radial-gradient(#1a1a1a 30%, var(--black) 0);
+      background-size: 4px 4px;
+   }
+
+   @media (--md-up) {
+      header {
+         padding: 1rem var(--gutter) 0;
+      }
+
+      #menu-toggle {
+         display: none;
+      }
+
+      .nav {
+         width: 100%;
+      }
+
+      .socials {
+         --social-icon-size: 24px;
+         --social-icon-gap: var(--spacing-5x);
+         border: 0;
+         background: inherit;
+         margin: 0;
+         padding: 0;
+         position: absolute;
+         top: 1.75rem;
+         right: var(--gutter);
+      }
+   }
+
+   /*
+      Desktop: logo left and socials right on the top row, nav centered beneath.
+      Content is held to --max-width (same as Container) while the background stays full bleed.
+   */
+   @media (--lg-up) {
+      header {
+         --header-inline: max(
+            var(--gutter),
+            calc((100% - var(--max-width)) / 2 + var(--gutter))
+         );
+         display: grid;
+         grid-template-columns: auto 1fr;
+         grid-template-areas:
+            'brand socials'
+            'nav nav';
+         align-items: center;
+         column-gap: var(--spacing-6x);
+         row-gap: var(--spacing-2x);
+         padding: var(--spacing-5x) var(--header-inline) var(--spacing-3x);
+      }
+
+      .brand {
+         grid-area: brand;
+         width: 220px;
+         margin-left: 0;
+         padding-bottom: 0;
+      }
+
+      .nav {
+         grid-area: nav;
+         width: auto;
+      }
+
+      .socials {
+         --social-icon-size: 22px;
+         --social-icon-gap: var(--spacing-5x);
+         --social-icon-justify: flex-end;
+         grid-area: socials;
+         position: static;
+      }
+   }
+
+   @media (--xl-up) {
+      .brand {
+         width: 260px;
+      }
+
+      .socials {
+         --social-icon-size: 26px;
+         --social-icon-gap: var(--spacing-6x);
+      }
+   }
+
+   @media (--xxl-up) {
+      .brand {
+         width: 290px;
+      }
+
+      .socials {
+         --social-icon-size: 30px;
+         --social-icon-gap: var(--spacing-7x);
+      }
+   }
+</style>
+
+<script>
+   const openStateClass = 'site-nav--open';
+
+   function initSiteNav(): void {
+      const header = document.getElementById('head');
+      const navMenuTrigger = document.getElementById('menu-toggle');
+      const siteNav = document.getElementById('site-nav');
+
+      if (!header || !navMenuTrigger || !siteNav) {
+         return;
+      }
+
+      const setOpen = (open: boolean): void => {
+         siteNav.classList.toggle(openStateClass, open);
+         navMenuTrigger.setAttribute('aria-expanded', String(open));
+         navMenuTrigger.setAttribute(
+            'aria-label',
+            open ? 'Close Menu' : 'Open Menu',
+         );
+      };
+
+      navMenuTrigger.addEventListener('click', (ev: Event) => {
+         ev.preventDefault();
+         setOpen(navMenuTrigger.getAttribute('aria-expanded') !== 'true');
+      });
+
+      header.addEventListener('keydown', (ev: KeyboardEvent) => {
+         if (
+            ev.key === 'Escape' &&
+            siteNav.classList.contains(openStateClass)
+         ) {
+            setOpen(false);
+            navMenuTrigger.focus();
+         }
+      });
+   }
+
+   /* ClientRouter swaps the header on every navigation, so re-bind each page load */
+   document.addEventListener('astro:page-load', initSiteNav);
+</script>

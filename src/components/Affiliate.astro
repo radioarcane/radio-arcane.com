@@ -1,0 +1,173 @@
+---
+import type { Affiliate } from '@/types';
+import { parse } from '@/js/util/markdown.ts';
+import FacebookSvg from '@/images/icons/facebook.svg';
+import InstagramSvg from '@/images/icons/instagram.svg';
+import TiktokSvg from '@/images/icons/fontawesome/svgs/brands/tiktok.svg';
+import YoutubeSvg from '@/images/icons/youtube.svg';
+import BandcampSvg from '@/images/icons/bandcamp.svg';
+import SoundcloudSvg from '@/images/icons/soundcloud.svg';
+import HomeSvg from '@/images/icons/home.svg';
+
+type Props = {
+   affiliate: Affiliate;
+};
+
+const { affiliate } = Astro.props;
+
+const description: string = affiliate?.body ? parse(affiliate.body) : '';
+---
+
+<div class="affiliate">
+   <h2 class="h3">
+      {affiliate.name}
+   </h2>
+
+   {description && <div class="description" set:html={description} />}
+
+   <div class="links">
+      {
+         affiliate?.website && (
+            <a
+               href={affiliate.website}
+               target="_blank"
+               title={`Website for ${affiliate.name}`}
+               class="official"
+            >
+               <HomeSvg aria-hidden="true" />
+            </a>
+         )
+      }
+
+      {
+         affiliate?.facebook && (
+            <a
+               href={affiliate.facebook}
+               target="_blank"
+               title={`Follow ${affiliate.name} on Facebook`}
+               class="facebook"
+            >
+               <FacebookSvg aria-hidden="true" />
+            </a>
+         )
+      }
+
+      {
+         affiliate?.instagram && (
+            <a
+               href={affiliate.instagram}
+               target="_blank"
+               title={`Follow ${affiliate.name} on Instagram`}
+               class="instagram"
+            >
+               <InstagramSvg aria-hidden="true" />
+            </a>
+         )
+      }
+
+      {
+         affiliate?.tiktok && (
+            <a
+               href={affiliate.tiktok}
+               target="_blank"
+               title={`Follow ${affiliate.name} on Tiktok`}
+               class="tiktok"
+            >
+               <TiktokSvg aria-hidden="true" />
+            </a>
+         )
+      }
+
+      {
+         affiliate?.youtube && (
+            <a
+               href={affiliate.youtube}
+               target="_blank"
+               title={`Follow ${affiliate.name} on YouTube`}
+               class="youtube"
+            >
+               <YoutubeSvg aria-hidden="true" />
+            </a>
+         )
+      }
+
+      {
+         affiliate?.bandcamp && (
+            <a
+               href={affiliate.bandcamp}
+               target="_blank"
+               title={`${affiliate.name} on Bandcamp`}
+               class="youtube"
+            >
+               <BandcampSvg aria-hidden="true" />
+            </a>
+         )
+      }
+
+      {
+         affiliate?.soundcloud && (
+            <a
+               href={affiliate.soundcloud}
+               target="_blank"
+               title={`${affiliate.name} on Soundcloud`}
+               class="youtube"
+            >
+               <SoundcloudSvg aria-hidden="true" />
+            </a>
+         )
+      }
+   </div>
+</div>
+
+<style>
+   .affiliate {
+      padding-bottom: var(--spacing-8x);
+   }
+
+   .affiliate > :global(*):last-child {
+      margin-bottom: 0;
+   }
+
+   .description {
+      max-inline-size: 80ch;
+      text-wrap: balance;
+   }
+
+   .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: var(--spacing-6x);
+      margin-top: var(--spacing-4x);
+   }
+
+   .links a {
+      color: var(--white-smoke);
+      opacity: 1;
+   }
+
+   .links a:hover,
+   .links a:focus,
+   .links a:active {
+      color: var(--white-smoke);
+      opacity: 0.75;
+   }
+
+   .links svg {
+      fill: currentColor;
+      width: 32px;
+   }
+
+   .facebook svg {
+      width: 22px;
+   }
+
+   .tiktok svg {
+      width: 28px;
+   }
+
+   .youtube svg {
+      width: 28px;
+   }
+</style>

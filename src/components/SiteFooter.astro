@@ -1,0 +1,163 @@
+---
+import Container from '@/components/Container.astro';
+import SocialLinks from '@/components/SocialLinks.astro';
+
+const { siteName } = Astro.locals;
+
+interface NavItem {
+   title: string;
+   path: string;
+}
+
+const nav: NavItem[] = [
+   {
+      title: 'Home',
+      path: '/',
+   },
+   {
+      title: 'Events',
+      path: '/events/',
+   },
+   {
+      title: 'Streaming Radio',
+      path: '/radio/',
+   },
+   {
+      title: 'Playlists',
+      path: '/playlists/',
+   },
+   {
+      title: 'Mixes',
+      path: '/mixes/',
+   },
+   {
+      title: 'Podcasts',
+      path: '/podcasts/',
+   },
+   {
+      title: 'Contact',
+      path: '/contact/',
+   },
+   {
+      title: 'Affiliates',
+      path: '/affiliates/',
+   },
+];
+
+/* Dev and build disagree on trailing slashes, so compare without them */
+const stripSlash = (path: string): string => path.replace(/\/+$/, '') || '/';
+const currentPath = stripSlash(Astro.url.pathname);
+---
+
+<footer role="contentinfo">
+   <Container as="div">
+      <nav>
+         <ul>
+            {
+               nav.map((item: NavItem) => (
+                  <li>
+                     <a
+                        href={item.path}
+                        {...(stripSlash(item.path) === currentPath
+                           ? { 'aria-current': 'page' }
+                           : {})}
+                     >
+                        {item.title}
+                     </a>
+                  </li>
+               ))
+            }
+         </ul>
+      </nav>
+
+      <div class="socials">
+         <span class="h4">Follow {siteName}</span>
+
+         <SocialLinks />
+      </div>
+
+      <div class="copy">
+         &copy; {new Date().getFullYear()} {siteName}
+      </div>
+   </Container>
+</footer>
+
+<style>
+   footer {
+      background: var(--black);
+      padding: var(--spacing-8x) 0
+         calc(var(--footer-radio-height) + var(--spacing-4x));
+      border-top: 1px solid var(--border-gray-1);
+   }
+
+   a {
+      color: var(--white-smoke);
+      opacity: 1;
+      text-decoration: none;
+   }
+
+   a:hover,
+   a:focus,
+   a:active {
+      color: var(--white-smoke);
+      opacity: 0.75;
+   }
+
+   ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: var(--spacing-4x);
+      line-height: 1.25;
+   }
+
+   li {
+      margin: 0;
+      padding: 0;
+   }
+
+   .socials {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: var(--spacing-6x);
+      padding-top: var(--spacing-6x);
+      padding-bottom: var(--spacing-6x);
+   }
+
+   .socials > span:nth-of-type(1) {
+      width: 100%;
+      text-align: center;
+      margin: 0;
+   }
+
+   .copy {
+      text-align: center;
+      font-size: var(--text-xs);
+      opacity: 0.8;
+   }
+
+   @media (--lg-up) {
+      nav {
+         font-size: var(--text-lg);
+      }
+
+      ul {
+         gap: var(--spacing-8x);
+      }
+
+      .socials {
+         gap: var(--spacing-6x);
+         padding-top: var(--spacing-8x);
+         padding-bottom: var(--spacing-8x);
+      }
+
+      .socials > span:nth-of-type(1) {
+         width: auto;
+      }
+   }
+</style>

@@ -1,0 +1,211 @@
+.wrapper {
+}
+
+.search {
+   max-width: 600px;
+   margin: 0 auto var(--spacing-6x);
+}
+
+.search input {
+   width: 100%;
+}
+
+.noResults {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: var(--spacing-4x);
+   text-align: center;
+}
+
+.grid {
+   display: flex;
+   justify-content: flex-start;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   gap: 0;
+   scroll-margin-top: var(--spacing-12x);
+   transition: opacity 0.15s ease-out;
+}
+
+.gridLoading {
+   opacity: 0.5;
+   pointer-events: none;
+}
+
+.requestTrack {
+   width: 50%;
+   min-width: 0;
+   padding: var(--spacing-4x);
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-2x);
+}
+
+@media (min-width: 576px) {
+   .requestTrack {
+      width: calc(100% / 3);
+   }
+}
+
+@media (min-width: 768px) {
+   .requestTrack {
+      width: 25%;
+   }
+}
+
+@media (min-width: 1200px) {
+   .requestTrack {
+      width: calc(100% / 6);
+   }
+}
+
+.cover {
+   width: 100%;
+   aspect-ratio: 1 / 1;
+   overflow: hidden;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.cover img {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.trackInfo {
+   display: flex;
+   flex-direction: column;
+   gap: 0;
+   justify-content: center;
+   overflow: hidden;
+   font-size: var(--text-xs);
+   margin: 0;
+}
+
+.trackArtist {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   text-align: center;
+}
+
+.trackSong {
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   text-align: center;
+}
+
+.trackSong::before {
+   content: '“';
+}
+
+.trackSong::after {
+   content: '”';
+}
+
+.request {
+   display: flex;
+   justify-content: center;
+}
+
+.pagination {
+   padding-top: var(--spacing-8x);
+}
+
+.pagination,
+.pagination ul {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   gap: 0;
+}
+
+.pagination ul {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: stretch;
+   gap: 0;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+.pagination li {
+   margin: 0;
+   padding: 0;
+   border: 1px solid var(--border-gray-2);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background: var(--offblack);
+}
+
+.pagination a {
+   background: transparent;
+   opacity: 1;
+   text-decoration: none;
+}
+
+/*
+.pagination button {
+    background: 0;
+    border: 0;
+    opacity: 1;
+}
+*/
+
+.pagination a {
+   color: var(--border-gray-2);
+   padding: var(--spacing) var(--spacing-3x);
+   font-size: var(--text-xs);
+   cursor: pointer;
+}
+
+.pagination a:hover,
+.pagination a:focus,
+.pagination a:active,
+.paginationNextIcon:hover,
+.paginationNextIcon:focus,
+.paginationPrevIcon:hover,
+.paginationPrevIcon:focus,
+.paginationJumpIcon:hover,
+.paginationJumpIcon:focus {
+   opacity: 0.7;
+}
+
+.paginationNextIcon,
+.paginationPrevIcon,
+.paginationJumpIcon {
+   padding: var(--spacing) var(--spacing-3x);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 100%;
+   cursor: pointer;
+}
+
+.pagination li[aria-current='page'] {
+   background: var(--white-smoke);
+}
+
+.pagination li[aria-disabled='true'] {
+   display: none;
+}
+
+.pagination li[aria-current='page'] a,
+.pagination li[aria-current='page'] a:focus,
+.pagination li[aria-current='page'] a:hover,
+.pagination li[aria-current='page'] a:active {
+   background: var(--white-smoke);
+   opacity: 1;
+   color: var(--offblack);
+   cursor: not-allowed;
+   pointer-events: none;
+}

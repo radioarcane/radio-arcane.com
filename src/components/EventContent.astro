@@ -1,0 +1,374 @@
+---
+import { getCollection } from 'astro:content';
+import { Picture } from 'astro:assets';
+import dayjs from 'dayjs';
+import { localDateTimeToUtcString } from '@/js/util/dates';
+import type { EventType, LocationType, PlaylistType } from '@/types';
+import Button from '@/components/Button.astro';
+import Playlist from '@/components/Playlist.astro';
+import ClockSvg from '@/images/icons/fontawesome/svgs/solid/clock.svg';
+import LocationSvg from '@/images/icons/location.svg';
+import TicketSvg from '@/images/icons/ticket.svg';
+import FacebookSvg from '@/images/icons/fontawesome/svgs/brands/facebook-f.svg';
+
+type Props = {
+   event: EventType;
+   includeLink?: boolean;
+   includeTitle?: boolean;
+   includePlaylist?: boolean;
+};
+
+type TimeDisplay = {
+   display: string | null | undefined;
+   datetime?: string | null | undefined;
+};
+
+const {
+   event,
+   includeLink = true,
+   includeTitle = true,
+   includePlaylist = false,
+} = Astro.props;
+
+const locations: LocationType[] = await getCollection('location', (loc) => {
+   return loc.id === event.data?.location?.id;
+});
+
+const location: LocationType | undefined = locations.length
+   ? locations[0]
+   : undefined;
+
+const playlists: PlaylistType[] = await getCollection(
+   'playlist',
+   (playlist) => {
+      return playlist.id === event.data?.playlist?.id;
+   },
+);
+
+const playlist: PlaylistType | undefined = playlists.length
+   ? playlists[0]
+   : undefined;
+
+const eventExpired =
+   dayjs().format('YYYY-MM-DD') >=
+   dayjs(
+      event.data?.dateEnd || event.data?.dateStart || event.data.date,
+   ).format('YYYY-MM-DD');
+
+const startTime: TimeDisplay = (() => {
+   if (event.data?.dateStart) {
+      return {
+         display: dayjs(event.data.dateStart).format(
+            'dddd MMMM D, YYYY h:mm A',
+         ),
+         datetime: localDateTimeToUtcString(event.data.dateStart),
+      };
+   } else if (event.data?.date) {
+      return {
+         display: dayjs(event.data.date).format('dddd MMMM D, YYYY'),
+         datetime: event.data.date,
+      };
+   }
+
+   return {
+      display: null,
+   };
+})();
+
+const endTime: TimeDisplay = (() => {
+   if (event.data?.dateStart && event.data?.dateEnd) {
+      const endDate = dayjs(event.data.dateEnd);
+      const diff = endDate.diff(event.data.dateStart, 'd');
+
+      return {
+         display:
+            diff > 0
+               ? dayjs(event.data.dateEnd).format('dddd MMMM D, YYYY h:mm A')
+               : dayjs(event.data.dateEnd).format('h:mm A'),
+         datetime: localDateTimeToUtcString(event.data.dateEnd),
+      };
+   }
+
+   if (event.data?.dateEnd) {
+      return {
+         display: dayjs(event.data.dateEnd).format('dddd MMMM D, YYYY h:mm A'),
+         datetime: localDateTimeToUtcString(event.data.dateEnd),
+      };
+   }
+
+   return {
+      display: null,
+   };
+})();
+
+const imageWidths: number[] = [400, 500];
+const imageSizes: string = [`(max-width: 960px) 400px`, `500px`].join(',');
+---
+
+<article>
+   <section class="event-info">
+      <header>
+         {includeTitle && <h3>{event.data.title}</h3>}
+
+         {
+            event.data?.cancelled && (
+               <p>
+                  PUT CANCELED BANNER HERE with message about being cancelled
+               </p>
+            )
+         }
+
+         <div class="date">
+            {
+               startTime?.display && (
+                  <>
+                     <ClockSvg aria-hidden="true" />
+
+                     <time datetime={startTime?.datetime}>
+                        {startTime.display}
+                     </time>
+
+                     {endTime?.display && (
+                        <>
+                           {' – '}
+                           <time datetime={endTime?.datetime}>
+                              {endTime.display}
+                           </time>
+                        </>
+                     )}
+                  </>
+               )
+            }
+         </div>
+      </header>
+
+      <div class="cover">
+         {
+            event.data?.image && includeLink && (
+               <a href={`/events/${event.id}`}>
+                  <figure>
+                     <Picture
+                        src={event.data.image}
+                        alt={event.data.title}
+                        width={500}
+                        widths={imageWidths}
+                        sizes={imageSizes}
+                        formats={['webp']}
+                     />
+                  </figure>
+               </a>
+            )
+         }
+
+         {
+            event.data?.image && !includeLink && (
+               <figure>
+                  <Picture
+                     src={event.data.image}
+                     alt={event.data.title}
+                     width={500}
+                     widths={imageWidths}
+                     sizes={imageSizes}
+                     formats={['webp']}
+                  />
+               </figure>
+            )
+         }
+      </div>
+
+      <section class="content">
+         {
+            event?.rendered?.html && (
+               <section class="description" set:html={event?.rendered?.html} />
+            )
+         }
+
+         {
+            location && (
+               <section class="location">
+                  <LocationSvg aria-hidden="true" />
+
+                  <div>
+                     <p>
+                        {(() => {
+                           if (location.data?.website) {
+                              return (
+                                 <a
+                                    href={location.data.website}
+                                    target="_blank"
+                                 >
+                                    {location.data.title}
+                                 </a>
+                              );
+                           }
+
+                           if (location.data?.facebook) {
+                              return (
+                                 <a
+                                    href={location.data.facebook}
+                                    target="_blank"
+                                 >
+                                    {location.data.title}
+                                 </a>
+                              );
+                           }
+
+                           if (location.data?.instagram) {
+                              return (
+                                 <a
+                                    href={location.data.instagram}
+                                    target="_blank"
+                                 >
+                                    {location.data.title}
+                                 </a>
+                              );
+                           }
+
+                           return location.data.title;
+                        })()}
+                        <br />
+                        {location.data.address}
+                        <br />
+                        {location.data?.address2 && (
+                           <>
+                              {location.data?.address2}
+                              <br />
+                           </>
+                        )}
+                        {location.data.city}, {location.data.state}{' '}
+                        {location.data.zipcode}
+                     </p>
+
+                     {location.data?.mapUrl && (
+                        <a href={location.data.mapUrl} target="_blank">
+                           View Map
+                        </a>
+                     )}
+                  </div>
+               </section>
+            )
+         }
+
+         <section class="actions">
+            {
+               event.data?.ticketsLink && !eventExpired && (
+                  <Button as="a" href={event.data.ticketsLink} target="_blank">
+                     <TicketSvg aria-hidden="true" /> Tickets
+                  </Button>
+               )
+            }
+
+            {
+               event.data?.facebookEventLink && (
+                  <Button
+                     class="facebook-btn"
+                     as="a"
+                     variant="facebook"
+                     href={event.data.facebookEventLink}
+                     target="_blank"
+                  >
+                     <FacebookSvg aria-hidden="true" /> Facebook Event
+                  </Button>
+               )
+            }
+         </section>
+      </section>
+   </section>
+
+   {
+      playlist && includePlaylist && (
+         <aside id="playlist">
+            <h3 class="h2">Event Playlist</h3>
+
+            <Playlist as="div" playlist={playlist} />
+         </aside>
+      )
+   }
+</article>
+
+<style>
+   .event-info {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: auto;
+      grid-column-gap: 0px;
+      grid-row-gap: 0px;
+      padding-bottom: var(--spacing-12x);
+   }
+
+   .cover {
+      grid-area: 1 / 1 / 2 / 5;
+      margin: 0 0 var(--spacing-4x);
+   }
+
+   header {
+      grid-area: 2 / 1 / 3 / 5;
+      margin: 0 0 var(--spacing-4x);
+   }
+
+   .content {
+      grid-area: 3 / 1 / 4 / 5;
+      max-inline-size: 60ch;
+      text-wrap: balance;
+   }
+
+   h3 {
+      margin: 0 0 var(--spacing-2x);
+      color: var(--white-smoke);
+   }
+
+   .date {
+      opacity: 0.8;
+      display: inline-flex;
+      gap: var(--spacing-2x);
+      align-items: center;
+   }
+
+   svg {
+      fill: currentColor;
+      width: 1em;
+   }
+
+   .location {
+      display: inline-flex;
+      gap: var(--spacing-4x);
+      align-items: flex-start;
+      padding-bottom: var(--spacing-4x);
+   }
+
+   .location p {
+      margin: 0;
+   }
+
+   .facebook-btn svg {
+      width: 12px;
+   }
+
+   @media (--md-up) {
+      .event-info {
+         display: grid;
+         grid-template-columns: repeat(12, 1fr);
+         grid-column-gap: var(--spacing-8x);
+         grid-row-gap: 0;
+      }
+
+      .cover {
+         grid-area: 1 / 1 / 13 / 5;
+      }
+
+      header {
+         grid-area: 1 / 5 / 2 / 13;
+      }
+
+      .content {
+         grid-area: 2 / 5 / 13 / 13;
+         max-inline-size: 60ch;
+         text-wrap: balance;
+      }
+
+      header,
+      .content {
+         padding-left: var(--spacing-8x);
+      }
+   }
+</style>

@@ -1,0 +1,59 @@
+---
+import type { HTMLTag, Polymorphic } from 'astro/types';
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
+   as?: string;
+   withBar?: boolean;
+   uppercase?: boolean;
+};
+
+const { as: Element = 'h2', withBar, uppercase, ...props } = Astro.props;
+
+const className: string = [
+   withBar ? 'heading-with-bar' : 'heading',
+   uppercase ? 'heading--upper' : '',
+   props?.class ? props?.class : '',
+]
+   .filter((className) => className)
+   .join(' ');
+---
+
+<Element {...props} class={className}>
+   <slot />
+</Element>
+
+<style>
+   .heading,
+   .heading-with-bar {
+      color: var(--white-smoke);
+   }
+
+   .heading {
+      border-bottom: 1px solid var(--border-gray-2);
+   }
+
+   .heading-with-bar {
+      display: flex;
+      align-items: center;
+      text-align: center;
+   }
+
+   .heading-with-bar::before,
+   .heading-with-bar::after {
+      content: '';
+      flex: 1;
+      border-bottom: 1px solid var(--border-gray-2);
+   }
+
+   .heading-with-bar::before {
+      margin-right: var(--spacing-8x);
+   }
+
+   .heading-with-bar::after {
+      margin-left: var(--spacing-8x);
+   }
+
+   .heading--upper {
+      text-transform: uppercase;
+   }
+</style>

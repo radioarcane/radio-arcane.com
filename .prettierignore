@@ -1,0 +1,17 @@
+# Ignore
+GRIDSOME/
+package-lock.json
+# Managed by Decap CMS
+src/content/
+public/backend/
+*.svg
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+*.pdf
+*.ico
+*.txt
+*.zip
+*.rar

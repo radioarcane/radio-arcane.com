@@ -1,0 +1,39 @@
+---
+import type { HTMLTag, Polymorphic } from 'astro/types';
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
+   as?: string;
+   collapse?: boolean;
+};
+
+const { as: Element = 'div', collapse, ...props } = Astro.props;
+
+const className: string = [
+   'container',
+   collapse ? 'container--collapse' : '',
+   props?.class ? props?.class : '',
+]
+   .filter((className) => className)
+   .join(' ');
+---
+
+<Element {...props} class={className}>
+   <slot />
+</Element>
+
+<style>
+   .container {
+      max-width: var(--max-width);
+      padding-left: var(--gutter);
+      padding-right: var(--gutter);
+      margin-left: auto;
+      margin-right: auto;
+      position: relative;
+      display: flow-root;
+   }
+
+   .container--collapse {
+      padding-right: 0;
+      padding-left: 0;
+   }
+</style>
