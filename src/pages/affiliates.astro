@@ -1,0 +1,57 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import { getCollection } from 'astro:content';
+import type { Props as SeoProps } from 'astro-seo';
+import Affiliate from '@/components/Affiliate.astro';
+import Container from '@/components/Container.astro';
+import Heading from '@/components/Heading.astro';
+import type {
+   AffiliateCollectionType,
+   Affiliate as AffiliateType,
+} from '@/types';
+
+const affiliateCollection: AffiliateCollectionType[] = await getCollection(
+   'affiliate',
+   (item: AffiliateCollectionType) => {
+      return (
+         item.id === 'affiliates-page' ||
+         item?.data.fileName === 'affiliates-page'
+      );
+   },
+);
+
+const affiliates: AffiliateType[] =
+   affiliateCollection.length > 0 ? affiliateCollection[0].data.affiliates : [];
+
+const { siteName } = Astro.locals;
+
+const seoDescription: string = affiliates
+   .map((item: AffiliateType) => {
+      return item.name;
+   })
+   .join(', ');
+
+const seo: SeoProps = {
+   title: `Affiliates | ${siteName}`,
+   description:
+      seoDescription?.length > 250
+         ? `${seoDescription.slice(0, 250)}...`
+         : seoDescription,
+};
+---
+
+<Layout title={seo.title} seo={seo}>
+   <Container as="section">
+      <header>
+         <Heading as="h1"> Affiliates </Heading>
+      </header>
+
+      <section>
+         {
+            affiliates.map((item: AffiliateType) => (
+               <Affiliate affiliate={item} />
+            ))
+         }
+      </section>
+   </Container>
+</Layout>

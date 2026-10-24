@@ -1,0 +1,124 @@
+---
+import 'normalize.css/normalize.css';
+import '@/css/global.css';
+import { AstroFont } from 'astro-font';
+import { ClientRouter } from 'astro:transitions';
+import { SEO } from 'astro-seo';
+import type { Props as SeoProps } from 'astro-seo';
+import MainContent from '@/components/MainContent.astro';
+import SiteHeader from '@/components/SiteHeader.astro';
+import SiteFooter from '@/components/SiteFooter.astro';
+import SiteRadioPlayer from '@/components/SiteRadioPlayer';
+
+interface Props {
+   title?: string;
+   seo?: SeoProps;
+   includesBreadcrumb?: boolean;
+}
+
+const { siteName } = Astro.locals;
+
+const isRadioPlayerPage = Astro.url.pathname === '/radio/player';
+
+const { title = siteName, seo, includesBreadcrumb = false } = Astro.props;
+
+const defaultSeo: SeoProps = {
+   title: title,
+};
+
+const pageSeo: SeoProps = Object.assign({}, defaultSeo, seo);
+---
+
+<!doctype html>
+<html lang="en" transition:animate="none">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width" />
+
+      <slot name="seo">
+         <SEO {...pageSeo} />
+      </slot>
+
+      <link rel="icon" href="/favicon.ico" sizes="48x48" />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="32x32"
+         href="/favicon-32x32.png"
+      />
+      <link
+         rel="icon"
+         type="image/png"
+         sizes="16x16"
+         href="/favicon-16x16.png"
+      />
+      <link
+         rel="apple-touch-icon"
+         sizes="180x180"
+         href="/apple-touch-icon.png"
+      />
+      <link rel="manifest" href="/site.webmanifest" />
+      <meta name="theme-color" content="#000000" />
+
+      <link rel="sitemap" href="/sitemap-index.xml" />
+
+      <AstroFont
+         config={[
+            {
+               src: [],
+               name: 'Roboto',
+               googleFontsURL:
+                  'https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap',
+               preload: true,
+               display: 'swap',
+               selector: 'body',
+               fallback: 'sans-serif',
+            },
+            {
+               src: [],
+               name: 'Bellefair',
+               googleFontsURL:
+                  'https://fonts.googleapis.com/css2?family=Bellefair&display=swap',
+               preload: true,
+               display: 'swap',
+               fallback: 'serif',
+            },
+         ]}
+      />
+
+      <slot name="headJS" />
+      <ClientRouter />
+   </head>
+   <body>
+      <div class="site-container">
+         {
+            !isRadioPlayerPage && (
+               <>
+                  <SiteHeader />
+
+                  <MainContent includesBreadcrumb={includesBreadcrumb}>
+                     <slot />
+                  </MainContent>
+
+                  <SiteFooter />
+
+                  <SiteRadioPlayer client:load transition:persist />
+               </>
+            )
+         }
+
+         {isRadioPlayerPage && <slot />}
+      </div>
+
+      <slot name="jsonLd" />
+   </body>
+</html>
+
+<style>
+   .site-container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      position: relative;
+   }
+</style>

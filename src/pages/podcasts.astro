@@ -1,0 +1,69 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import type { Props as SeoProps } from 'astro-seo';
+import { getCollection } from 'astro:content';
+import orderBy from 'lodash/orderBy';
+import type { PodcastType } from '@/types';
+import Container from '@/components/Container.astro';
+import Heading from '@/components/Heading.astro';
+import PodcastCard from '@/components/PodcastCard.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { podcastEpisodes } from '@/js/util/jsonLd';
+
+const allPodcasts: PodcastType[] = await getCollection(
+   'podcast',
+   (_item: PodcastType) => {
+      // Added to possibly add filter here in future...
+      return true;
+   },
+);
+
+const podcastsSorted: PodcastType[] = orderBy(
+   allPodcasts,
+   (item: PodcastType) => {
+      return item.data.date;
+   },
+   ['desc'],
+);
+
+const { siteName } = Astro.locals;
+
+const seo: SeoProps = {
+   title: `Podcasts | ${siteName}`,
+   description: '',
+};
+
+const jsonLd = await podcastEpisodes(podcastsSorted, Astro.locals);
+---
+
+<Layout title={seo.title} seo={seo}>
+   <Container as="section">
+      <header>
+         <Heading as="h1"> Podcasts </Heading>
+      </header>
+
+      {podcastsSorted.length === 0 && <p class="h4">No Podcasts Found</p>}
+
+      <div class="podcasts">
+         {
+            podcastsSorted.map((podcast) => (
+               <PodcastCard podcast={podcast} as="article" />
+            ))
+         }
+      </div>
+   </Container>
+
+   <JsonLd slot="jsonLd" schema={jsonLd} />
+</Layout>
+
+<style>
+   header {
+      padding-bottom: var(--spacing-6x);
+   }
+
+   .podcasts {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-12x);
+   }
+</style>

@@ -1,0 +1,40 @@
+---
+import type { Props as SeoProps } from 'astro-seo';
+import Layout from '@/layouts/Layout.astro';
+
+const { siteName } = Astro.locals;
+
+const seo: SeoProps = {
+   title: `Page Not Found | ${siteName}`,
+   nofollow: true,
+   noindex: true,
+};
+---
+
+<Layout title={seo.title} seo={seo}>
+   <script is:inline slot="headJS">
+      (function () {
+         var url = window.location.href.toLowerCase();
+         var http = new XMLHttpRequest();
+
+         http.open('HEAD', url);
+
+         http.onreadystatechange = function () {
+            if (this.readyState === this.DONE && this.status !== 400) {
+               window.location.replace(url);
+            }
+         };
+
+         if (window.location.href !== url && url.includes('404') === false) {
+            http.send();
+         }
+      })();
+   </script>
+
+   <p>
+      <strong>
+         The page you are looking for does not exist.<br />
+         It may have been moved, or removed altogether.
+      </strong>
+   </p>
+</Layout>

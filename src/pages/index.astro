@@ -1,0 +1,26 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import type { Props as SeoProps } from 'astro-seo';
+import About from '@/components/HomePage/About.astro';
+import Container from '@/components/Container.astro';
+import Events from '@/components/HomePage/Events.astro';
+import Heading from '@/components/Heading.astro';
+import RadioNowPlaying from '@/components/RadioNowPlaying.tsx';
+
+const { siteName } = Astro.locals;
+
+const seo: SeoProps = {
+   title: `${siteName} - Dark Eclectic Music`,
+   description: `Louisville, KY collective specializing in Darkwave, Goth, Post-Punk, Industrial, EBM, Synthwave, and related music events & podcasts.`,
+};
+---
+
+<Layout seo={seo}>
+   <About />
+   <Events />
+
+   <Container id="radio" as="section">
+      <Heading as="h2">Radio Arcane Streaming Radio</Heading>
+      <RadioNowPlaying client:load />
+   </Container>
+</Layout>

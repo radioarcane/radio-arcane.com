@@ -1,0 +1,41 @@
+---
+interface Props {
+   path: string;
+}
+
+const { path } = Astro.props;
+const { domain } = Astro.locals;
+
+const fullPath: string = (() => {
+   if (path.startsWith('http')) {
+      return path;
+   }
+
+   if (path.startsWith('/')) {
+      return `${domain}${path}`;
+   }
+
+   return `${domain}/${path}`;
+})();
+---
+
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta http-equiv="refresh" content={`0;url=${fullPath}`} />
+      <meta name="robots" content="noindex, follow" />
+
+      <script is:inline define:vars={{ redirectPath: fullPath }}>
+         window.location.replace(redirectPath);
+      </script>
+   </head>
+   <body>
+      <p>
+         <a href={path}>
+            Redirecting to: {path}
+         </a>
+      </p>
+   </body>
+</html>

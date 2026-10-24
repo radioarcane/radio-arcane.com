@@ -1,0 +1,28 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import type { Props as SeoProps } from 'astro-seo';
+import Container from '@/components/Container.astro';
+import RadioPlayer from '@/components/RadioPlayer.tsx';
+const { siteName } = Astro.locals;
+
+const seo: SeoProps = {
+   title: `Radio Player | ${siteName}`,
+};
+---
+
+<Layout title={seo.title} seo={seo}>
+   <Container as="section">
+      <div id="radio">
+         <RadioPlayer client:load />
+      </div>
+   </Container>
+</Layout>
+
+<style>
+   #radio {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+</style>

@@ -1,0 +1,116 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import type { Props as SeoProps } from 'astro-seo';
+import { radioStreamURL } from '@/js/constants.ts';
+import Button from '@/components/Button.astro';
+import Container from '@/components/Container.astro';
+import Heading from '@/components/Heading.astro';
+import RadioNowPlaying from '@/components/RadioNowPlaying.tsx';
+import RadioRequestTrack from '@/components/RadioRequestTrack.tsx';
+import PaypalSvg from '@/images/icons/fontawesome/svgs/brands/paypal.svg';
+
+const { siteName } = Astro.locals;
+
+const seo: SeoProps = {
+   title: `Streaming Radio | ${siteName}`,
+   description:
+      'Goth, Darkwave, Post-Punk, Coldwave, Industiral, EBM, Dark Synth Online 24/7 Radio.',
+};
+---
+
+<Layout title={seo.title} seo={seo}>
+   <Container as="section">
+      <header>
+         <Heading as="h1"> Streaming Radio </Heading>
+      </header>
+
+      <section>
+         <RadioNowPlaying client:load />
+
+         <div class="actions">
+            <div class="listen">
+               <Button as="a" size="sm" href={radioStreamURL} target="_blank">
+                  Listen Now &ndash; Direct Stream
+               </Button>
+
+               <Button as="a" size="sm" href="/radio/player" target="_blank">
+                  Listen Now &ndash; Web Player
+               </Button>
+            </div>
+
+            <div class="donate">
+               <Button
+                  as="a"
+                  size="sm"
+                  href="https://ko-fi.com/radioarcane"
+                  target="_blank"
+               >
+                  Help Support Us on Ko-Fi
+               </Button>
+
+               <form
+                  class="donate-form"
+                  action="https://www.paypal.com/donate"
+                  method="post"
+                  target="_blank"
+               >
+                  <input
+                     type="hidden"
+                     name="hosted_button_id"
+                     value="DYUY5ZPR4EKHG"
+                  />
+                  <input
+                     type="hidden"
+                     src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
+                     name="submit"
+                  />
+                  <Button as="button" size="sm" type="submit">
+                     Donate with PayPal <PaypalSvg aria-hidden="true" />
+                  </Button>
+               </form>
+            </div>
+         </div>
+      </section>
+
+      <section class="request-track">
+         <Heading as="h2" withBar={true} uppercase={true}>
+            Request a Track
+         </Heading>
+
+         <RadioRequestTrack client:load />
+      </section>
+   </Container>
+</Layout>
+
+<style>
+   .actions {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-8x);
+      padding-top: var(--spacing-12x);
+   }
+
+   .request-track {
+      padding-top: var(--spacing-20x);
+   }
+
+   .listen,
+   .donate {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: var(--spacing-6x);
+   }
+
+   .donate-form {
+      border: 0;
+      margin: 0;
+      padding: 0;
+   }
+
+   .donate-form svg {
+      fill: currentColor;
+      width: 12px;
+   }
+</style>

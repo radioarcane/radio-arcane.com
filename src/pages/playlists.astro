@@ -1,0 +1,191 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import type { Props as SeoProps } from 'astro-seo';
+import type { PlaylistType } from '@/types';
+import Container from '@/components/Container.astro';
+import Heading from '@/components/Heading.astro';
+import Playlist from '@/components/Playlist.astro';
+import Button from '@/components/Button.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { musicPlaylist } from '@/js/util/jsonLd';
+import {
+   getSortedPlaylists,
+   PLAYLISTS_PER_PAGE,
+   playlistsPartialPath,
+} from '@/js/util/playlists';
+
+const playlistsSorted: PlaylistType[] = await getSortedPlaylists();
+
+// Only the first chunk is rendered here; the rest are fetched from /playlists/partials/[page]/ on scroll
+const firstPlaylists: PlaylistType[] = playlistsSorted.slice(
+   0,
+   PLAYLISTS_PER_PAGE,
+);
+const nextPath: string | undefined =
+   playlistsSorted.length > PLAYLISTS_PER_PAGE
+      ? playlistsPartialPath(2)
+      : undefined;
+
+const { siteName } = Astro.locals;
+
+const seo: SeoProps = {
+   title: `Playlists | ${siteName}`,
+   description:
+      'Checkout Playlists from past Radio Arcane music events and podcasts.',
+};
+
+// Track lists are left out here to keep the page light; event & podcast pages include them
+const jsonLd = playlistsSorted.map((item: PlaylistType) =>
+   musicPlaylist(item, Astro.locals, false),
+);
+---
+
+<Layout title={seo.title} seo={seo}>
+   <Container as="section">
+      <header>
+         <Heading as="h1"> Playlists </Heading>
+      </header>
+
+      {playlistsSorted.length === 0 && <p class="h4">No Playlists Found</p>}
+
+      <div class="playlists" data-playlists-list aria-live="polite">
+         {firstPlaylists.map((item) => <Playlist playlist={item} />)}
+      </div>
+
+      {
+         nextPath && (
+            <div class="load-more" data-playlists-loader data-next={nextPath}>
+               <Button type="button" data-playlists-load-more>
+                  Load More Playlists
+               </Button>
+            </div>
+         )
+      }
+   </Container>
+
+   <JsonLd slot="jsonLd" schema={jsonLd} />
+</Layout>
+
+<style>
+   header {
+      padding-bottom: var(--spacing-6x);
+   }
+
+   .playlists {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-12x);
+   }
+
+   .load-more {
+      display: flex;
+      justify-content: center;
+      padding-top: var(--spacing-12x);
+   }
+</style>
+
+<script>
+   /* Start fetching the next chunk before the loader actually scrolls into view */
+   const preloadMargin = '800px 0px';
+
+   let observer: IntersectionObserver | undefined;
+
+   function initPlaylistsLoader(): void {
+      const list = document.querySelector<HTMLElement>('[data-playlists-list]');
+      const loader = document.querySelector<HTMLElement>(
+         '[data-playlists-loader]',
+      );
+      const button = loader?.querySelector<HTMLButtonElement>(
+         '[data-playlists-load-more]',
+      );
+
+      if (!list || !loader || !button) {
+         return;
+      }
+
+      let nextPath: string | undefined = loader.dataset.next;
+      let loading: boolean = false;
+
+      const loadMore = async (): Promise<void> => {
+         if (loading || !nextPath) {
+            return;
+         }
+
+         loading = true;
+         button.disabled = true;
+         button.textContent = 'Loading...';
+
+         try {
+            const res = await fetch(nextPath);
+
+            if (!res.ok) {
+               throw new Error(`Failed to load ${nextPath}: ${res.status}`);
+            }
+
+            const template = document.createElement('template');
+            template.innerHTML = await res.text();
+
+            const chunk = template.content.querySelector<HTMLElement>(
+               '[data-playlists-chunk]',
+            );
+
+            if (!chunk) {
+               throw new Error(`No playlists found in ${nextPath}`);
+            }
+
+            list.append(...Array.from(chunk.children));
+            nextPath = chunk.dataset.next;
+         } catch (err) {
+            console.error(err);
+            // Stop auto loading so a failing request isn't retried on every scroll; the button still works
+            observer?.disconnect();
+            loading = false;
+            button.disabled = false;
+            button.textContent = 'Try Again';
+            return;
+         }
+
+         loading = false;
+
+         if (!nextPath) {
+            observer?.disconnect();
+            loader.remove();
+            return;
+         }
+
+         button.disabled = false;
+         button.textContent = 'Load More Playlists';
+
+         // Re-observe so a loader still within range (e.g. on tall screens) triggers the next chunk
+         if (observer) {
+            observer.unobserve(loader);
+            observer.observe(loader);
+         }
+      };
+
+      button.addEventListener('click', () => {
+         loadMore();
+      });
+
+      if ('IntersectionObserver' in window) {
+         observer = new IntersectionObserver(
+            (entries) => {
+               if (entries.some((entry) => entry.isIntersecting)) {
+                  loadMore();
+               }
+            },
+            { rootMargin: preloadMargin },
+         );
+
+         observer.observe(loader);
+      }
+   }
+
+   /* ClientRouter swaps the page on every navigation, so re-bind each page load */
+   document.addEventListener('astro:page-load', initPlaylistsLoader);
+
+   document.addEventListener('astro:before-swap', () => {
+      observer?.disconnect();
+      observer = undefined;
+   });
+</script>

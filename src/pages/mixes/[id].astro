@@ -1,0 +1,109 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import type { Props as SeoProps } from 'astro-seo';
+import { getCollection } from 'astro:content';
+import dayjs from 'dayjs';
+import type { MixType } from '@/types';
+
+import Breadcrumb from '@/components/Breadcrumb.astro';
+import Container from '@/components/Container.astro';
+import Heading from '@/components/Heading.astro';
+import MixcloudPlayer from '@/components/MixcloudPlayer.astro';
+import MixcloudSvg from '@/images/icons/mixcloud.svg';
+
+export async function getStaticPaths() {
+   const allMixes: MixType[] = await getCollection('mix');
+   return allMixes.map((mix) => {
+      return {
+         params: { id: `${mix.id}`.toLowerCase() },
+         props: {
+            mix: mix,
+         },
+      };
+   });
+}
+
+const { siteName } = Astro.locals;
+
+const { mix } = Astro.props;
+
+const seo: SeoProps = {
+   title: `${mix.data.title} | ${siteName}`,
+};
+
+// jsonLd: BreadcrumbList is output by the Breadcrumb component
+---
+
+<Layout title={seo.title} seo={seo} includesBreadcrumb={true}>
+   <Breadcrumb
+      crumbs={[
+         {
+            href: '/',
+            title: 'Home',
+         },
+         {
+            href: '/mixes/',
+            title: 'DJ Mixes & Shows',
+         },
+         {
+            href: `/mixes/${mix.id}/`,
+            title: mix.data.title,
+         },
+      ]}
+   />
+
+   <Container as="article">
+      <Heading as="h1">
+         {mix.data.title}
+      </Heading>
+
+      <time class="mix-date" datetime={mix.data.date}>
+         {dayjs(mix.data.date).format('MMMM D, YYYY')}
+      </time>
+
+      {
+         typeof mix.data?.mixcloudLink === 'string' && (
+            <div class="player">
+               <MixcloudPlayer url={mix.data.mixcloudLink} />
+
+               <a
+                  class="mixcloud-link"
+                  href={mix.data.mixcloudLink}
+                  target="_blank"
+               >
+                  Listen on Mixcloud <MixcloudSvg aria-hidden="true" />
+               </a>
+            </div>
+         )
+      }
+
+      <section class="description" set:html={mix?.rendered?.html} />
+   </Container>
+</Layout>
+<style>
+   h1 {
+      margin: 0 0 var(--spacing-2x);
+   }
+
+   .mix-date {
+      font-size: var(--text-sm);
+      opacity: 0.8;
+      margin-bottom: var(--spacing-6x);
+      display: inline-block;
+   }
+
+   .mixcloud-link {
+      display: inline-flex;
+      gap: var(--spacing-4x);
+      align-items: center;
+   }
+
+   .mixcloud-link svg {
+      width: 32px;
+      fill: currentColor;
+   }
+
+   .description {
+      padding-top: var(--spacing-6x);
+   }
+</style>

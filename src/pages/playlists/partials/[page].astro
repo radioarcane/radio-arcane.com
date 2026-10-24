@@ -1,0 +1,38 @@
+---
+/*
+    HTML fragment for the infinite loading list on /playlists.
+    Page 1 is rendered directly by /playlists, so only pages 2+ are built here.
+*/
+import type { GetStaticPaths, PaginateFunction } from 'astro';
+import type { PlaylistType } from '@/types';
+import Playlist from '@/components/Playlist.astro';
+import {
+   getSortedPlaylists,
+   PLAYLISTS_PER_PAGE,
+   playlistsPartialPath,
+} from '@/js/util/playlists';
+
+export const partial = true;
+
+export const getStaticPaths = (async ({
+   paginate,
+}: {
+   paginate: PaginateFunction;
+}) => {
+   const playlistsSorted: PlaylistType[] = await getSortedPlaylists();
+
+   return paginate(playlistsSorted, { pageSize: PLAYLISTS_PER_PAGE }).filter(
+      ({ props }) => props.page.currentPage > 1,
+   );
+}) satisfies GetStaticPaths;
+
+const { page } = Astro.props;
+const nextPath: string | undefined =
+   page.currentPage < page.lastPage
+      ? playlistsPartialPath(page.currentPage + 1)
+      : undefined;
+---
+
+<div data-playlists-chunk data-next={nextPath}>
+   {page.data.map((item: PlaylistType) => <Playlist playlist={item} />)}
+</div>

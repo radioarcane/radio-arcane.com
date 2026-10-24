@@ -1,0 +1,176 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import type { Props as SeoProps } from 'astro-seo';
+import { getCollection } from 'astro:content';
+import dayjs from 'dayjs';
+import orderBy from 'lodash/orderBy';
+import removeMd from 'remove-markdown';
+import type { MixType } from '@/types';
+import Container from '@/components/Container.astro';
+import Heading from '@/components/Heading.astro';
+import MixcloudSvg from '@/images/icons/mixcloud.svg';
+
+type MixGroup = {
+   title: string;
+   mixes: MixType[];
+};
+
+const allMixes: MixType[] = await getCollection('mix');
+
+const mixesSorted: MixType[] = orderBy(
+   allMixes,
+   (item: MixType) => {
+      return item.data.date;
+   },
+   ['desc'],
+);
+
+const mixesGrouped: Record<string, MixGroup> = {};
+
+mixesSorted.forEach((mix: MixType) => {
+   const yearMonth = dayjs(mix.data.date).format('YYYY-MM');
+
+   if (Object.hasOwn(mixesGrouped, yearMonth) === false) {
+      mixesGrouped[yearMonth] = {
+         title: dayjs(mix.data.date).format('MMMM YYYY'),
+         mixes: [],
+      };
+   }
+
+   mixesGrouped[yearMonth].mixes.push(mix);
+});
+
+const mixesGroupedSorted: MixGroup[] = Object.keys(mixesGrouped)
+   .sort()
+   .reverse()
+   .map((key: string) => mixesGrouped[key]);
+
+const { siteName } = Astro.locals;
+
+const seo: SeoProps = {
+   title: `DJ Mixes & Shows | ${siteName}`,
+};
+
+function getPlainText(body: unknown): string {
+   if (typeof body === 'string') {
+      const str = removeMd(body);
+
+      return str.slice(0, 500);
+   }
+
+   return '';
+}
+---
+
+<Layout title={seo.title} seo={seo}>
+   <Container as="section">
+      <header>
+         <Heading as="h1"> DJ Mixes & Shows </Heading>
+      </header>
+
+      {mixesSorted.length === 0 && <p class="h4">No Mixes Found</p>}
+
+      <div class="mixes">
+         {
+            mixesGroupedSorted.map((group: MixGroup) => (
+               <section class="mix-group">
+                  <h2 class="h3">{group.title}</h2>
+
+                  {group.mixes.map((mix: MixType) => (
+                     <div class="mix">
+                        {mix.data.cover && (
+                           <a href={`/mixes/${mix.id}/`}>
+                              <img
+                                 src={mix.data.cover}
+                                 alt={mix.data.title}
+                                 loading="lazy"
+                              />
+                           </a>
+                        )}
+
+                        <div class="details">
+                           <a href={`/mixes/${mix.id}/`}>{mix.data.title}</a>
+
+                           {getPlainText(mix?.body)?.length > 10 && (
+                              <p class="description">
+                                 {getPlainText(mix.body)}&hellip;
+                              </p>
+                           )}
+
+                           {typeof mix.data?.mixcloudLink === 'string' && (
+                              <a
+                                 href={mix.data.mixcloudLink}
+                                 target="_blank"
+                                 title="Listen on Mixcloud"
+                                 class="mixcloud-icon"
+                              >
+                                 <MixcloudSvg aria-hidden="true" />
+                              </a>
+                           )}
+                        </div>
+                     </div>
+                  ))}
+               </section>
+            ))
+         }
+      </div>
+   </Container>
+</Layout>
+
+<style>
+   :root {
+      --mix-img-width: 150px;
+   }
+
+   header {
+      padding-bottom: var(--spacing-6x);
+   }
+
+   .mixes {
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-6x);
+   }
+
+   .mix-group {
+      border-bottom: 1px solid var(--border-gray-2);
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-6x);
+   }
+
+   .mix {
+      display: flex;
+      gap: var(--spacing-8x);
+      align-items: flex-start;
+      padding-bottom: var(--spacing-4x);
+   }
+
+   .mix img {
+      width: var(--mix-img-width);
+   }
+
+   .mix a {
+      font-size: var(--text-lg);
+   }
+
+   .mixcloud-icon {
+      opacity: 1;
+   }
+
+   .mixcloud-icon:hover,
+   .mixcloud-icon:focus {
+      opacity: 0.75;
+   }
+
+   .mix svg {
+      fill: var(--white-smoke);
+      width: 32px;
+   }
+
+   .description {
+      font-size: var(--text-xs);
+      max-inline-size: 80ch;
+      text-wrap: balance;
+   }
+</style>
