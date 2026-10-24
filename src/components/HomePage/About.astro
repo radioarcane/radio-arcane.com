@@ -1,0 +1,107 @@
+---
+import { Picture } from 'astro:assets';
+import FlashingBox from '@/components/FlashingBox.astro';
+import NarrowBox from '@/components/NarrowBox.astro';
+
+import DiscordInviteImg from '@/images/discord-invite-2.jpg';
+---
+
+<div id="about">
+   <article>
+      <NarrowBox>
+         <FlashingBox>
+            <p>
+               Radio Arcane is the endeavor of a few ambitious Dark Music
+               Specialists headquartered in Louisville, Kentucky.
+            </p>
+
+            <p>
+               We host events, live music and a curated, nighttime oddities and
+               art market known locally as The Dark Market.
+            </p>
+
+            <p>
+               From hosting Louisville&rsquo;s longest running gothic events,
+               we&rsquo;ve accumulated so much music over the years, we started
+               this streaming radio service.
+            </p>
+
+            <p>
+               Our primary focus is a love for what we describe as “Dark
+               Eclectic Music” involving a variety of sounds, to include Gothic
+               Rock, Darkwave, Post-Punk, Industrial, EBM, Coldwave, Synthwave,
+               Synthpop, Dark Folk, New Wave, Minimal, New Romantic and other
+               related genres.
+            </p>
+
+            <p>
+               Please follow us or subscribe to our social media and streaming
+               sites for continuous content and updates on happenings,
+               performances and events.
+            </p>
+         </FlashingBox>
+      </NarrowBox>
+   </article>
+
+   <aside>
+      <a href="https://discord.gg/FBSpPhfGc9" target="_blank">
+         <Picture
+            src={DiscordInviteImg}
+            alt="Join us on Discord"
+            formats={['webp']}
+            width={DiscordInviteImg.width < 700 ? DiscordInviteImg.width : 700}
+         />
+      </a>
+   </aside>
+</div>
+
+<style>
+   #about {
+      max-width: var(--max-width);
+      margin: 0 auto var(--spacing-8x);
+      padding: 0 var(--gutter) var(--spacing-8x);
+   }
+
+   article {
+      font-size: var(--text-lg);
+      font-family: var(--font-heading);
+      line-height: var(--line-height-heading);
+   }
+
+   aside {
+      padding-top: var(--spacing-8x);
+      disply: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: var(--spacing-8x);
+      align-items: center;
+      align-content: center;
+      margin: 0 auto;
+      max-width: 400px;
+   }
+
+   aside a {
+      border: 1px solid var(--light-gray);
+   }
+
+   @media (--lg-up) {
+      #about {
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: nowrap;
+         gap: var(--gutter);
+         align-items: stretch;
+      }
+
+      article {
+         width: 70%;
+      }
+
+      aside {
+         width: 25%;
+         max-width: none;
+         flex-direction: row;
+         flex-wrap: wrap;
+      }
+   }
+</style>

@@ -1,0 +1,14 @@
+---
+layout: podcast
+title: '11 : Mr. Kitty, PASTEL GHOST, Panic Priest'
+image: /src/images/podcasts/podcast-11-mr-kitty.jpg
+date: '2019-10-22'
+mixcloudLink: >-
+  https://www.mixcloud.com/Radio-Arcane/radio-arcane-11-mr-kitty-pastel-ghost-panic-priest
+soundcloudLink: >-
+  https://soundcloud.com/radio_arcane/radio-arcane-11-mr-kitty-pastel-ghost-panic-priest
+spotifyLink: 'https://open.spotify.com/episode/3uveRhpWuajf2N5GWMh3nZ'
+playlist: 2019-10-22-podcast
+fileName: 11-mr-kitty
+---
+Eleventh episode of Radio Arcane with hosts Brian Drabant, Kaleidoscope, Sorrow Vomit, Motuvius Rex and AndrOspore : Featuring interviews of Panic Priest, PASTEL GHOST and Mr. Kitty before their live performances at Art Sanctuary with Radio Arcane on October 8, 2019 : Recorded and produced at the non-profit Art Sanctuary in Louisville, KY, Radio Arcane is a collective of Dark Music Specialists that host events, live music and dark arts entertainment.

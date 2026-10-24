@@ -1,0 +1,32 @@
+---
+type Props = {
+   url: string;
+};
+
+const { url } = Astro.props;
+const urlParts: string[] = `${url}`
+   .split('/')
+   .filter((str) => str)
+   .reverse();
+const src: string =
+   urlParts.length < 4
+      ? url
+      : `https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2F${urlParts[1]}%2F${urlParts[0]}%2F`;
+---
+
+<div class="mixcloud-player">
+   <iframe src={src} loading="lazy" title=`Listen on Mixcloud`></iframe>
+</div>
+
+<style>
+   .mixcloud-player {
+      padding-bottom: var(--spacing-6x);
+   }
+
+   iframe {
+      display: block;
+      width: 100%;
+      height: 120px;
+      border: 0;
+   }
+</style>

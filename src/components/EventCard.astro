@@ -1,0 +1,230 @@
+---
+import type { HTMLTag, Polymorphic } from 'astro/types';
+import { type CollectionEntry } from 'astro:content';
+import { Picture } from 'astro:assets';
+import dayjs from 'dayjs';
+import { localDateTimeToUtcString } from '@/js/util/dates.ts';
+import Button from '@/components/Button.astro';
+import ClockSvg from '@/images/icons/clock.svg';
+import RightOpenSvg from '@/images/icons/right-open.svg';
+import TicketSvg from '@/images/icons/fontawesome/svgs/solid/ticket.svg';
+import FacebookSvg from '@/images/icons/fontawesome/svgs/brands/facebook-f.svg';
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
+   event: CollectionEntry<'event'>;
+   ticketsLink?: boolean;
+   facebookLink?: boolean;
+   as?: string;
+};
+
+const {
+   event,
+   ticketsLink,
+   facebookLink,
+   as: Element = 'article',
+   ...props
+} = Astro.props;
+
+const classNames: string[] = [
+   'event-card',
+   props?.class ? props?.class : '',
+].filter((className) => className);
+---
+
+<Element {...props} class={classNames.join(' ')}>
+   <header>
+      <h3 itemprop="name">
+         {event.data.title}
+      </h3>
+
+      {
+         event.data?.image && (
+            <div
+               class={`cover ${event.data.image.width / event.data.image.height >= 1.5 ? 'cover--center' : undefined}`}
+            >
+               <a href={`/events/${event.id}`}>
+                  <Picture
+                     src={event.data.image}
+                     alt={event.data.title}
+                     formats={['webp']}
+                     layout="constrained"
+                  />
+               </a>
+            </div>
+         )
+      }
+   </header>
+
+   <div class="details">
+      <div class="date">
+         <ClockSvg
+            fill="currentColor"
+            width={24}
+            height={24}
+            aria-hidden="true"
+         />
+
+         <time
+            datetime={event.data.dateStart
+               ? localDateTimeToUtcString(event.data.dateStart)
+               : event.data.date}
+         >
+            {dayjs(event.data.date).format('dddd MMMM D, YYYY')}
+         </time>
+      </div>
+
+      {
+         event.data.shortDescription && (
+            <p class="summary">{event.data.shortDescription}</p>
+         )
+      }
+   </div>
+
+   <footer>
+      <Button as="a" size="sm" href={`/events/${event.id}/`}>
+         Details <RightOpenSvg
+            fill="currentColor"
+            width={12}
+            aria-hidden="true"
+         />
+      </Button>
+
+      {
+         ticketsLink && event.data?.ticketsLink && (
+            <Button
+               as="a"
+               size="sm"
+               href={event.data.ticketsLink}
+               target="_blank"
+            >
+               Tickets{' '}
+               <TicketSvg fill="currentColor" width={16} aria-hidden="true" />
+            </Button>
+         )
+      }
+
+      {
+         facebookLink && event.data?.facebookEventLink && (
+            <a
+               href={event.data.facebookEventLink}
+               target="_blank"
+               class="facebook-link"
+               title="View event on Facebook"
+            >
+               <FacebookSvg aria-hidden="true" />
+            </a>
+         )
+      }
+   </footer>
+</Element>
+
+<style>
+   .event-card {
+      max-width: 600px;
+      border: 1px solid var(--border-gray-1);
+      border-radius: 8px;
+      background: var(--offblack-3);
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-4x);
+      overflow: hidden;
+   }
+
+   header {
+      display: flex;
+      flex-direction: column-reverse;
+   }
+
+   .cover {
+      height: 325px;
+      overflow: hidden;
+      display: flex;
+      background: var(--black);
+      border-bottom: 1px solid var(--border-gray-1);
+   }
+
+   .cover.cover--center {
+      align-items: center;
+   }
+
+   h3 {
+      color: var(--white-smoke);
+      font-size: var(--text-lg);
+      margin: 0;
+      padding-top: var(--spacing-4x);
+   }
+
+   h3,
+   .details,
+   footer {
+      padding-left: var(--spacing-4x);
+      padding-right: var(--spacing-4x);
+   }
+
+   .date {
+      display: flex;
+      align-items: center;
+      gap: var(--spacing-2x);
+      opacity: 0.6;
+      font-size: var(--text-sm);
+   }
+
+   .date svg {
+      fill: currentColor;
+   }
+
+   .summary {
+      font-size: var(--text-sm);
+      padding-top: var(--spacing-2x);
+      margin: 0;
+   }
+
+   footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+      align-content: center;
+      gap: var(--spacing-2x);
+      padding-bottom: var(--spacing-8x);
+   }
+
+   footer > :global(a):nth-of-type(3) {
+      margin-top: var(--spacing-4x);
+   }
+
+   .facebook-link {
+      background: var(--facebook-blue);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .facebook-link svg {
+      fill: #fff;
+      width: 16px;
+   }
+
+   @media screen and (min-width: 400px) {
+      footer > :global(a):nth-of-type(3) {
+         margin-top: 0;
+      }
+   }
+
+   @media (--md-up) {
+      footer {
+         justify-content: flex-start;
+         gap: var(--spacing-4x);
+      }
+   }
+
+   @media (--lg-up) {
+      .cover {
+         height: 400px;
+      }
+   }
+</style>

@@ -1,0 +1,28 @@
+---
+type Props = {
+   includesBreadcrumb?: boolean;
+};
+
+const { includesBreadcrumb = false } = Astro.props;
+---
+
+<main
+   id="main"
+   role="main"
+   class={includesBreadcrumb ? `main--alt` : undefined}
+>
+   <slot />
+</main>
+
+<style>
+   main {
+      padding-top: var(--spacing-12x);
+      padding-bottom: var(--spacing-12x);
+      background: linear-gradient(90deg, #241f1f 0, #241f1f 32%, #4a4746);
+      min-height: 70vh;
+   }
+
+   .main--alt {
+      padding-top: var(--spacing-4x);
+   }
+</style>

@@ -1,0 +1,73 @@
+.modalOverlay {
+   width: 100%;
+   height: 100%;
+   overflow-y: auto;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 5000;
+   opacity: 1;
+   background: rgba(0, 0, 0, 0.2);
+}
+
+.modalBackgroundClick {
+   width: 100%;
+   min-height: 100%;
+   height: auto;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: var(--spacing-4x);
+}
+
+.modal {
+   position: relative;
+   z-index: 6000;
+   background: var(--black);
+   width: 600px;
+   max-width: 100%;
+   padding: var(--spacing-8x);
+   border-radius: 8px;
+   border: 1px solid var(--border-gray-2);
+}
+
+.title {
+   color: var(--white-smoke);
+   border-bottom: 1px solid var(--border-gray-2);
+}
+
+.errorMsg {
+   color: var(--warning-color);
+}
+
+.successMsg {
+   text-align: center;
+   margin: 0;
+}
+
+.body input,
+.body textarea {
+   width: 100%;
+}
+
+.trackInfo span {
+   opacity: 0.75;
+}
+
+.body {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-6x);
+}
+
+.body label {
+   display: block;
+   margin: 0 0 var(--spacing);
+}
+
+.actions {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: var(--spacing-8x);
+}

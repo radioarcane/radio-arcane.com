@@ -1,0 +1,148 @@
+/*
+    This is using the PostCSS Custom Media Plugin
+    https://www.npmjs.com/package/postcss-custom-media
+*/
+@custom-media --sm-up (min-width: 576px);
+
+@custom-media --md-up (min-width: 768px);
+
+@custom-media --lg-up (min-width: 992px);
+
+@custom-media --xl-up (min-width: 1200px);
+
+@custom-media --xxl-up (min-width: 1400px);
+
+:root {
+   --xs: 0;
+   --sm: 576px;
+   --md: 768px;
+   --lg: 992px;
+   --xl: 1200px;
+   --xxl: 1400px;
+
+   --font-heading: 'Bellefair', serif;
+   --font-body: 'Roboto', sans-serif;
+
+   --font-base: 17px;
+   --line-height: 1.5;
+
+   --white: #fff;
+   --white-smoke: #f5f5f5;
+   --black: #000;
+   --offblack: #121212;
+   --offblack-2: #0e0e0e;
+   --offblack-3: #1b1b1b;
+
+   --border-gray-1: hsla(0, 0%, 96.1%, 0.4);
+   --border-gray-2: hsla(0, 0%, 96.1%, 0.7);
+
+   --light-gray: #cccccc;
+   --medium-gray: #aaaaaa;
+
+   --light-color: rgba(250, 250, 250, 0.9);
+
+   --facebook-blue: #3b5998;
+
+   --link-color: #64b5f6;
+   --link-color-dark-1: #42a5f5;
+   --link-color-dark-2: #2196f3;
+   --link-color-dark-3: #1e88e5;
+   --link-color-dark-4: #1565c0;
+   --link-color-dark-5: #0d47a1;
+
+   --white-hover: #e6e6e6;
+
+   --warning-color: #ee204d;
+
+   --max-width: 1400px;
+
+   --spacing: 4px;
+   --spacing-fourth: calc(var(--spacing) * 0.25);
+   --spacing-half: calc(var(--spacing) * 0.5);
+   --spacing-2x: calc(var(--spacing) * 2);
+   --spacing-3x: calc(var(--spacing) * 3);
+   --spacing-4x: calc(var(--spacing) * 4);
+   --spacing-5x: calc(var(--spacing) * 5);
+   --spacing-6x: calc(var(--spacing) * 6);
+   --spacing-7x: calc(var(--spacing) * 7);
+   --spacing-8x: calc(var(--spacing) * 8);
+   --spacing-9x: calc(var(--spacing) * 9);
+   --spacing-10x: calc(var(--spacing) * 10);
+   --spacing-11x: calc(var(--spacing) * 11);
+   --spacing-12x: calc(var(--spacing) * 12);
+   --spacing-13x: calc(var(--spacing) * 13);
+   --spacing-14x: calc(var(--spacing) * 14);
+   --spacing-15x: calc(var(--spacing) * 15);
+   --spacing-16x: calc(var(--spacing) * 16);
+   --spacing-17x: calc(var(--spacing) * 17);
+   --spacing-18x: calc(var(--spacing) * 18);
+   --spacing-19x: calc(var(--spacing) * 19);
+   --spacing-20x: calc(var(--spacing) * 20);
+   --spacing-21x: calc(var(--spacing) * 21);
+   --spacing-22x: calc(var(--spacing) * 22);
+   --spacing-23x: calc(var(--spacing) * 23);
+   --spacing-24x: calc(var(--spacing) * 24);
+   --spacing-25x: calc(var(--spacing) * 25);
+
+   --gutter: var(--spacing-8x);
+   --gutter-half: calc(var(--gutter) * 0.5);
+   --gutter-2x: calc(var(--gutter) * 2);
+
+   --line-height-body: 1.5;
+   --line-height-heading: 1.2;
+
+   --text-xxs: calc(0.6 * var(--font-base));
+   --text-xs: calc(0.75 * var(--font-base));
+   --text-sm: calc(0.875 * var(--font-base));
+   --text-lg: calc(1.125 * var(--font-base));
+   --text-xl: calc(1.25 * var(--font-base));
+   --text-2xl: calc(1.5 * var(--font-base));
+   --text-3xl: calc(1.875 * var(--font-base));
+   --text-4xl: calc(2.25 * var(--font-base));
+   --text-5xl: calc(3 * var(--font-base));
+   --text-6xl: calc(4 * var(--font-base));
+   --text-7xl: calc(5 * var(--font-base));
+   --text-8xl: calc(6 * var(--font-base));
+
+   --h1-font-size: 42px;
+   --h2-font-size: 36px;
+   --h3-font-size: 30px;
+   --h4-font-size: 24px;
+   --h5-font-size: 22px;
+   --h6-font-size: 18px;
+
+   --footer-radio-height: 72px;
+}
+
+@media (--sm-up) {
+   :root {
+      /* Scales 17px at --sm up to the 18px used at --lg */
+      --font-base: calc(17px + (100vw - 576px) / 416);
+
+      --h1-font-size: calc(42px + 8 * (100vw - 480px) / 920);
+      --h2-font-size: calc(36px + 6 * (100vw - 480px) / 920);
+      --h3-font-size: calc(30px + 6 * (100vw - 480px) / 920);
+      --h4-font-size: calc(24px + 6 * (100vw - 480px) / 920);
+      --h5-font-size: calc(24px + 6 * (100vw - 480px) / 920);
+      --h6-font-size: calc(22px + 6 * (100vw - 480px) / 920);
+   }
+}
+
+@media (--lg-up) {
+   :root {
+      --font-base: 18px;
+   }
+}
+
+@media (--xxl-up) {
+   :root {
+      --font-base: 22px;
+
+      --h1-font-size: 50px;
+      --h2-font-size: 42px;
+      --h3-font-size: 36px;
+      --h4-font-size: 30px;
+      --h5-font-size: 24px;
+      --h6-font-size: 22px;
+   }
+}

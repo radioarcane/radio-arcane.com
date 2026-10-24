@@ -1,0 +1,107 @@
+---
+import FacebookSvg from '@/images/icons/facebook.svg';
+import InstagramSvg from '@/images/icons/instagram.svg';
+import TiktokSvg from '@/images/icons/fontawesome/svgs/brands/tiktok.svg';
+import DiscordSvg from '@/images/icons/fontawesome/svgs/brands/discord.svg';
+import YoutubeSvg from '@/images/icons/youtube.svg';
+
+/*
+    Shared by the site header and footer.
+    Size, gap and alignment are set by the parent with the inherited
+    --social-icon-size, --social-icon-gap and --social-icon-justify custom properties.
+*/
+
+const { siteName, socials } = Astro.locals;
+
+const links = [
+   {
+      name: 'Facebook',
+      url: socials?.facebook,
+      Icon: FacebookSvg,
+      verb: 'Follow',
+   },
+   {
+      name: 'Instagram',
+      url: socials?.instagram,
+      Icon: InstagramSvg,
+      verb: 'Follow',
+   },
+   { name: 'TikTok', url: socials?.tiktok, Icon: TiktokSvg, verb: 'Follow' },
+   { name: 'Discord', url: socials?.discord, Icon: DiscordSvg, verb: 'Join' },
+   { name: 'YouTube', url: socials?.youtube, Icon: YoutubeSvg, verb: 'Follow' },
+].filter((link) => link.url);
+---
+
+<div class="social-links">
+   {
+      links.map(({ name, url, Icon, verb }) => (
+         <a
+            href={url}
+            target="_blank"
+            rel="noopener"
+            title={`${verb} ${siteName} on ${name}`}
+            aria-label={`${siteName} on ${name}`}
+            class={name.toLowerCase()}
+         >
+            <Icon aria-hidden="true" />
+         </a>
+      ))
+   }
+</div>
+
+<style>
+   .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: var(--social-icon-justify, center);
+      align-items: center;
+      gap: var(--social-icon-gap, var(--spacing-6x));
+      font-size: var(--social-icon-size, 32px);
+      line-height: 1;
+   }
+
+   a {
+      display: inline-flex;
+      align-items: center;
+      color: var(--white-smoke);
+      opacity: 1;
+      text-decoration: none;
+      transition: opacity 0.15s ease-in-out;
+   }
+
+   a:hover,
+   a:focus,
+   a:active {
+      color: var(--white-smoke);
+      opacity: 0.75;
+   }
+
+   a:focus-visible {
+      outline: 2px solid var(--white-smoke);
+      outline-offset: 4px;
+   }
+
+   /* Widths are tuned per icon so they look the same size, relative to --social-icon-size */
+   a :global(svg) {
+      fill: currentColor;
+      width: 1em;
+      height: auto;
+      display: block;
+   }
+
+   .facebook :global(svg) {
+      width: 0.6875em;
+   }
+
+   .tiktok :global(svg) {
+      width: 0.875em;
+   }
+
+   .discord :global(svg) {
+      width: 1.0625em;
+   }
+
+   .youtube :global(svg) {
+      width: 0.875em;
+   }
+</style>

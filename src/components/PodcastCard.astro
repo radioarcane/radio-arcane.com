@@ -1,0 +1,285 @@
+---
+import type { HTMLTag, Polymorphic } from 'astro/types';
+import { Picture } from 'astro:assets';
+import dayjs from 'dayjs';
+import type { PodcastType } from '@/types';
+import { getPlainText } from '@/js/util/markdown.ts';
+import Button from '@/components/Button.astro';
+import MixcloudPlayer from '@/components/MixcloudPlayer.astro';
+import MixcloudSvg from '@/images/icons/mixcloud.svg';
+import SoundcloudSvg from '@/images/icons/soundcloud.svg';
+import SpotifySvg from '@/images/icons/spotify.svg';
+import YoutubeSvg from '@/images/icons/youtube.svg';
+import RightOpenSvg from '@/images/icons/right-open.svg';
+
+type Props<Tag extends HTMLTag> = Polymorphic<{ as: Tag }> & {
+   as?: string;
+   podcast: PodcastType;
+};
+
+const { podcast, as: Element = 'div' } = Astro.props;
+
+const description = getPlainText(podcast.body).split(/: Recorded|Recorded/);
+const shortDescription = description[0].trim().slice(0, 500);
+---
+
+<Element id={`podcast-${podcast.id}`} class="podcast-card">
+   <header>
+      <h2 class="h3">
+         {podcast.data.title}
+      </h2>
+   </header>
+
+   {
+      podcast.data?.image && (
+         <figure>
+            <a href={`/podcasts/${podcast.id}/`}>
+               <Picture
+                  src={podcast.data.image}
+                  alt={podcast.data.title}
+                  formats={['webp']}
+                  width={300}
+                  height={300}
+                  loading="lazy"
+               />
+            </a>
+         </figure>
+      )
+   }
+
+   <section class="details">
+      <time datetime={podcast.data.date}>
+         {dayjs(podcast.data.date).format('MMM. D, YYYY')}
+      </time>
+
+      <p class="description">{shortDescription}&hellip;</p>
+   </section>
+
+   <section class="listen">
+      <div class="links">
+         <span>Listen on:</span>
+
+         {
+            podcast.data.youtubeLink && (
+               <a
+                  href={podcast.data.youtubeLink}
+                  target="_blank"
+                  title={`Listen to ${podcast.data.title} on YouTube`}
+                  class="youtube-link"
+               >
+                  <YoutubeSvg aria-hidden="true" />
+               </a>
+            )
+         }
+
+         {
+            podcast.data.spotifyLink && (
+               <a
+                  href={podcast.data.spotifyLink}
+                  target="_blank"
+                  title={`Listen to ${podcast.data.title} on Spotify`}
+                  class="spotify-link"
+               >
+                  <SpotifySvg aria-hidden="true" />
+               </a>
+            )
+         }
+
+         {
+            podcast.data.mixcloudLink && (
+               <a
+                  href={podcast.data.mixcloudLink}
+                  target="_blank"
+                  title={`Listen to ${podcast.data.title} on Mixcloud`}
+                  class="mixcloud-link"
+               >
+                  <MixcloudSvg aria-hidden="true" />
+               </a>
+            )
+         }
+
+         {
+            podcast.data.soundcloudLink && (
+               <a
+                  href={podcast.data.soundcloudLink}
+                  target="_blank"
+                  title={`Listen to ${podcast.data.title} on Soundcloud`}
+                  class="soundcloud-link"
+               >
+                  <SoundcloudSvg aria-hidden="true" />
+               </a>
+            )
+         }
+      </div>
+   </section>
+
+   {
+      podcast.data.mixcloudLink && (
+         <section class="player">
+            <MixcloudPlayer url={podcast.data.mixcloudLink} />
+         </section>
+      )
+   }
+
+   <footer>
+      <Button as="a" href={`/podcasts/${podcast.id}/`}>
+         Episode Details <RightOpenSvg aria-hidden="true" />
+      </Button>
+   </footer>
+</Element>
+
+<style>
+   .podcast-card {
+      border: 1px solid var(--border-gray-2);
+      border-radius: 8px;
+      padding: var(--spacing-6x);
+      background: var(--offblack-3);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+   }
+
+   header {
+      display: flex;
+      flex-direction: column-reverse;
+      margin-bottom: var(--spacing-2x);
+      order: 2;
+   }
+
+   h2 {
+      margin: 0;
+      color: var(--white-smoke);
+   }
+
+   figure {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      order: 1;
+      margin-bottom: var(--spacing-4x);
+   }
+
+   .details {
+      order: 3;
+   }
+
+   .listen {
+      order: 4;
+   }
+
+   .player {
+      order: 5;
+   }
+
+   time {
+      display: inline-block;
+      opacity: 0.8;
+      margin-bottom: var(--spacing-2x);
+   }
+
+   .description {
+      max-inline-size: 80ch;
+      text-wrap: balance;
+   }
+
+   .links {
+      display: inline-flex;
+      gap: var(--spacing-5x);
+      align-items: center;
+      font-family: var(--font-heading);
+      font-size: var(--text-xl);
+      margin-bottom: var(--spacing-4x);
+   }
+
+   .links a {
+      color: var(--white-smoke);
+      opacity: 1;
+   }
+
+   .links a:hover,
+   .links a:focus,
+   .links a:active {
+      color: var(--white-smoke);
+      opacity: 0.7;
+   }
+
+   .links svg {
+      fill: currentColor;
+      width: 45px;
+   }
+
+   .youtube-link svg {
+      width: 32px;
+   }
+
+   .spotify-link svg {
+      width: 32px;
+   }
+
+   footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: var(--spacing-4x);
+      padding-bottom: var(--spacing-2x);
+      order: 6;
+   }
+
+   footer svg {
+      fill: currentColor;
+      width: 10px;
+   }
+
+   @media (--lg-up) {
+      .podcast-card {
+         display: grid;
+         grid-template-columns: repeat(12, 1fr);
+         grid-template-rows: repeat(auto, 1fr);
+         grid-auto-rows: auto;
+         gap: 0;
+         padding-left: var(--spacing-8x);
+         padding-right: var(--spacing-8x);
+      }
+
+      header,
+      .details,
+      .listen {
+         padding-left: var(--spacing-8x);
+      }
+
+      .details {
+         padding-bottom: 12px;
+      }
+
+      header {
+         grid-row-start: 1;
+         display: block;
+      }
+
+      figure {
+         grid-row-start: 1;
+         grid-row-end: 4;
+         grid-column-start: 1;
+         grid-column-end: 4;
+         justify-content: flex-start;
+         width: auto;
+      }
+
+      header,
+      .details,
+      .listen {
+         grid-column-start: 4;
+         grid-column-end: 13;
+      }
+
+      .player,
+      footer {
+         grid-column-start: 1;
+         grid-column-end: 13;
+      }
+
+      .player {
+         padding-top: var(--spacing-4x);
+      }
+   }
+</style>

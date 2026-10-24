@@ -1,0 +1,177 @@
+local_backend: true
+
+backend:
+  name: github
+  branch: master
+  repo: radioarcane/radio-arcane.com
+  
+#media_folder: "/src/images"
+#public_folder: "/_astro"
+# https://docs.astro.build/en/guides/cms/decap-cms/
+media_folder: "src/images" # Location where files will be stored in the repo
+public_folder: "/src/images" # The src attribute for uploaded media
+
+site_url: https://www.radio-arcane.com
+display_url: https://www.radio-arcane.com
+
+publish_mode: editorial_workflow
+
+collections:
+  - name: "locations"
+    label: "Locations"
+    label_singular: "Location"
+    folder: "src/content/locations"
+    create: true
+    slug: "{{slug}}"
+    format: "frontmatter"
+    fields:
+      - {label: "File Name", name: "fileName", widget: "hidden" }
+      - {label: "Venue Name", name: "title", widget: "string", required: true }
+      - {label: "Street Address", name: "address", widget: "string", required: true }
+      - {label: "Street Address Line 2", name: "address2", widget: "string", required: false }
+      - {label: "City", name: "city", widget: "string", required: true }
+      - {label: "State", name: "state", widget: "string", required: true }
+      - {label: "Zipcode", name: "zipcode", widget: "string", required: true }
+      - {label: "Google Map Link", name: "mapUrl", widget: "string", required: false }
+      - {label: "Venue Website", name: "website", widget: "string", required: false }
+  - name: "events"
+    label: "Events"
+    label_singular: "Event"
+    folder: "src/content/events"
+    media_folder: "/src/images/events"
+    create: true
+    search: true
+    slug: "{{fields.title}}-{{fields.date}}"
+    sortable_fields: ["title", "dateStart", "date"]
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "event"}
+      - {label: "File Name", name: "fileName", widget: "hidden" }
+      - {label: "Event Type", name: "eventType", widget: "select", options: ["dead-of-night", "radio-arcane", "dark-castle", "other", "warped-wednesday"], required: true}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Date", name: "date", required: true, widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false, hint: "Start date, required for naming"}
+      - {label: "Event Start", name: "dateStart", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", required: false, picker_utc: false }
+      - {label: "Event End", name: "dateEnd", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ss", required: false, picker_utc: false }
+      - {label: "Image", name: "image", widget: "image", required: false }
+      - {label: "Location", name: "location", widget: "relation", collection: "locations", search_fields: ["title"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+      - {label: "Event Cancelled", name: "cancelled", widget: "boolean", required: false, default: false}
+      - {label: "Facebook Event Link", name: "facebookEventLink", widget: "string", required: false, pattern: ['^(https?:\/\/)?(www\.)?facebook\.com(\/.*)?$', "Please enter a valid URL from facebook.com"] }
+      - {label: "Tickets Link", name: "ticketsLink", widget: "string", required: false , pattern: ['^https?:\/\/.+', "Please enter a valid URL starting with http:// or https://"] }
+      - {label: "Cover Price", name: "cover", widget: "string", required: false, hint: "Enter USD amount without $ prefix (ex: 10.00). This field is visually hidden, but used for SEO.", pattern: ['^\d+\.\d{2}$', 'Please enter a USD dollar amount, such as 12.00'] }
+      - {label: "Summary", name: "shortDescription", widget: "string", required: false }
+      - {label: "Playlist", name: "playlist", widget: "relation", collection: "playlists", search_fields: ["title", "date"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+      - {label: "Description", name: "body", widget: "richtext", required: false }
+  - name: "playlists"
+    label: "Playlists"
+    label_singular: "Playlist"
+    folder: "src/content/playlists"
+    create: true
+    slug: "{{fields.date}}-{{fields.playlistType}}"
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "playlist"}
+      - {label: "File Name", name: "fileName", widget: "hidden" }
+      - {label: "Title", name: "title", widget: "string", required: true}
+      - {label: "Playlist Type", name: "playlistType", widget: "select", options: ["dead-of-night", "radio-arcane", "podcast", "dark-castle", "warped-wednesday", "other"]}
+      - {label: "Date", name: "date", required: true, widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false }
+      - label: "Sets"
+        name: "sets"
+        widget: "list"
+        required: true
+        allow_reorder: true
+        types:
+          - label: "DJ Set"
+            name: "dj"
+            widget: "object"
+            required: false
+            fields:
+              - {label: "DJ", name: "djName", widget: "string", required: true }
+              - label: "Tracks"
+                name: "tracks"
+                widget: "list"
+                required: true
+                default: []
+                fields:
+                  - {label: "Artist", name: "artist", widget: "string"}
+                  - {label: "Song", name: "song", widget: "string"}
+                  - label: "Request"
+                    name: "request"
+                    widget: "select"
+                    options:
+                      - { label: "Artist Request", value: "artist"}
+                      - { label: "Song Request", value: "song"}
+                    required: false
+                    default: null
+          - label: "Performance"
+            name: "performance"
+            widget: "object"
+            required: false
+            fields:
+              - {label: "Performer", name: "performer", widget: "string"}
+      - label: "Mixcloud Links"
+        name: "mixcloudLinks"
+        widget: "list"
+        default: []
+        field: {label: "URL", name: "url", widget: "string"}
+  - name: "mixes"
+    label: "Mixes"
+    label_singular: "Mix"
+    folder: "src/content/mixes"
+    media_folder: "/src/images"
+    create: true
+    search: true
+    slug: "{{fields.date}}-{{fields.title}}"
+    sortable_fields: ["title", "date"]
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "mix"}
+      - {label: "File Name", name: "fileName", widget: "hidden" }
+      - {label: "Title", name: "title", widget: "string" }
+      - {label: "Date", name: "date", required: true, widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false, hint: "Start date, required for naming"}
+      - {label: "Mixcloud URL", name: "mixcloudLink",  required: true, widget: "string", pattern: ['^(https?:\/\/)?(www\.)?mixcloud\.com(\/.*)?$', "Please enter a valid URL from Mixcloud.com"], hint: "Copy URL from mixcloud mix page." }
+      - {label: "Image URL", name: "cover", widget: "string", required: false, pattern: ['^https?:\/\/.+', "Please enter a valid URL starting with http:// or https://"], hint: "Setup to use URL of image uploaded at Mixcloud (right click and save image URL)"}
+  - name: "podcasts"
+    label: "Podcasts"
+    label_singular: "Podcast"
+    folder: "src/content/podcasts"
+    media_folder: "/src/images/podcasts"
+    create: true
+    search: true
+    slug: "{{slug}}"
+    sortable_fields: ["title", "date"]
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "podcast"}
+      - {label: "File Name", name: "fileName", widget: "hidden" }
+      - {label: "Title", name: "title", widget: "string", required: true, hint: "Include episode number, ex: 21 : Episode Name"}
+      - {label: "Date", name: "date", required: true, widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, picker_utc: false }
+      - {label: "Image", name: "image", widget: "image", required: false }
+      - {label: "Mixcloud URL", name: "mixcloudLink", widget: "string", required: false, pattern: ['^(https?:\/\/)?(www\.)?mixcloud\.com(\/.*)?$', "Please enter a valid URL from mixcloud.com"] }
+      - {label: "Soundcloud URL", name: "soundcloudLink", widget: "string", required: false, pattern: ['^(https?:\/\/)?(www\.)?soundcloud\.com(\/.*)?$', "Please enter a valid URL from soundcloud.com"] }
+      - {label: "Spotify URL", name: "spotifyLink", widget: "string", required: false, pattern: ['^(https?:\/\/)?open\.spotify\.com(\/.*)?$', "Please enter a valid URL from open.spotify.com"] }
+      - {label: "YouTube URL", name: "youtubeLink", widget: "string", required: false, pattern: ['^(https?:\/\/)?(www\.)?(youtube\.com|youtu\.be)(\/.*)?$', "Please enter a valid URL from youtube.com or youtu.be"] }
+      - {label: "Playlist", name: "playlist", widget: "relation", collection: "playlists", search_fields: ["title", "date"], value_field: "{{slug}}", display_fields: ["title"], required: false }
+      - {label: "Description", name: "body", widget: "richtext", required: false }
+  - name: "affiliates"
+    label: "Affiliates"
+    label_singular: "Affiliate"
+    folder: "src/content/affiliates"
+    media_folder: "/src/images"
+    create: true
+    search: true
+    slug: "{{title}}"
+    sortable_fields: ["title"]
+    fields:
+      - {label: "File Name", name: "fileName", widget: "hidden" }
+      - {label: "Title", name: "title", widget: "string" }
+      - label: "Affiliates"
+        name: "affiliates"
+        widget: "list"
+        required: true
+        allow_reorder: true
+        fields:
+          - {label: "Affiliate Name", name: "name", widget: "string", required: true }
+          - {label: "Description", name: "body", widget: "richtext", required: false }
+          - {label: "Website URL", name: "website",  default: null, required: false, widget: "string", pattern: ['^https?:\/\/.+', "Please enter a valid URL starting with http:// or https://"] }
+          - {label: "Facebook URL", name: "facebook",  default: null, required: false, widget: "string", pattern: ['^(https?:\/\/)?(www\.)?facebook\.com(\/.*)?$', "Please enter a valid URL from facebook.com"] }
+          - {label: "Instagram URL", name: "instagram", default: null,  required: false, widget: "string", pattern: ['^(https?:\/\/)?(www\.)?instagram\.com(\/.*)?$', "Please enter a valid URL from instagram.com"] }
+          - {label: "Tiktok URL", name: "tiktok", default: null,  required: false, widget: "string", pattern: ['^(https?:\/\/)?(www\.)?tiktok\.com(\/.*)?$', "Please enter a valid URL from tiktok.com"] }
+          - {label: "YouTube URL", name: "youtube", default: null,  required: false, widget: "string", pattern: ['^(https?:\/\/)?(www\.)?youtube\.com(\/.*)?$', "Please enter a valid URL from youtube.com"] }
+          - {label: "Bandcamp URL", name: "bandcamp", default: null, required: false, widget: "string", pattern: ['^(https?:\/\/)([a-zA-Z0-9][-a-zA-Z0-9]*\.)?bandcamp\.com(\/.*)?$', "Please enter a valid URL from bandcamp.com"] }
+          - {label: "Soundcloud URL", name: "soundcloud", default: null, required: false, widget: "string", pattern: ['^(https?:\/\/)?(www\.)?soundcloud\.com(\/.*)?$', "Please enter a valid URL from soundcloud.com"] }

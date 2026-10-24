@@ -1,0 +1,86 @@
+---
+import type { Crumb } from '@/types';
+import JsonLd from '@/components/JsonLd.astro';
+import { breadcrumb } from '@/js/util/jsonLd';
+
+interface Props {
+   crumbs: Crumb[];
+}
+
+const { crumbs } = Astro.props;
+
+const { domain } = Astro.locals;
+---
+
+<JsonLd schema={breadcrumb(crumbs, domain)} />
+
+<div class="breadcrumb-container">
+   <ol>
+      {
+         crumbs.map((crumb) => (
+            <li>
+               <a
+                  href={crumb.href}
+                  aria-current={
+                     Astro.url.pathname === crumb.href ? 'page' : undefined
+                  }
+               >
+                  {crumb.title}
+               </a>
+            </li>
+         ))
+      }
+   </ol>
+</div>
+
+<style>
+   .breadcrumb-container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 1rem var(--gutter);
+      font-size: var(--text-sm);
+   }
+
+   ol {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+   }
+
+   li {
+      display: inline-block;
+      vertical-align: middle;
+   }
+
+   li::after {
+      content: '/';
+      display: inline-block;
+      vertical-align: middle;
+      padding: 0 0.5em;
+   }
+
+   li:last-child::after {
+      content: '';
+   }
+
+   a {
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      color: var(--white-smoke);
+      opacity: 1;
+   }
+
+   a:hover,
+   a:focus {
+      color: var(--white-smoke);
+      opacity: 0.75;
+   }
+
+   li:last-child a {
+      cursor: none;
+      pointer-events: none;
+      color: var(--white-smoke);
+      opacity: 0.75;
+      text-decoration: none;
+   }
+</style>
