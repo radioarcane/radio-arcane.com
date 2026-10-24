@@ -1,0 +1,80 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import type { Props as SeoProps } from 'astro-seo';
+import { getCollection } from 'astro:content';
+import type { EventType } from '@/types';
+
+import Breadcrumb from '@/components/Breadcrumb.astro';
+import Container from '@/components/Container.astro';
+import Heading from '@/components/Heading.astro';
+import EventContent from '@/components/EventContent.astro';
+import JsonLd from '@/components/JsonLd.astro';
+import { eventPlaylist, musicEvent } from '@/js/util/jsonLd';
+
+export async function getStaticPaths() {
+   const allEvents: EventType[] = await getCollection('event');
+   return allEvents.map((ev) => {
+      return {
+         params: { id: `${ev.id}`.toLowerCase() },
+         props: {
+            event: ev,
+         },
+      };
+   });
+}
+
+const { siteName } = Astro.locals;
+
+const { event } = Astro.props;
+
+const seo: SeoProps = {
+   title: `${event.data.title} | ${siteName}`,
+   description: '',
+};
+
+// seo stuff
+
+const jsonLd = [
+   await musicEvent(event, Astro.locals),
+   await eventPlaylist(event.data.playlist, Astro.locals),
+];
+---
+
+<Layout seo={seo} includesBreadcrumb={true}>
+   <Breadcrumb
+      crumbs={[
+         {
+            href: '/',
+            title: 'Home',
+         },
+         {
+            href: '/events/',
+            title: 'Events',
+         },
+         {
+            href: `/events/${event.id}/`,
+            title: event.data.title,
+         },
+      ]}
+   />
+
+   <Container as="section">
+      <Heading as="h1" class="h2">
+         {event.data.title}
+      </Heading>
+
+      <EventContent
+         event={event}
+         includeLink={false}
+         includeTitle={false}
+         includePlaylist={true}
+      />
+   </Container>
+
+   <JsonLd slot="jsonLd" schema={jsonLd} />
+</Layout>
+<style>
+   h1 {
+      margin: 0 0 var(--spacing-6x);
+   }
+</style>

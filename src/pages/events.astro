@@ -1,0 +1,163 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import type { Props as SeoProps } from 'astro-seo';
+import { getCollection } from 'astro:content';
+import dayjs from 'dayjs';
+import utc from 'dayjs/plugin/utc';
+import orderBy from 'lodash/orderBy';
+import { localDateTimeToUtcString } from '@/js/util/dates.ts';
+import type { EventType } from '@/types';
+
+import Container from '@/components/Container.astro';
+import Heading from '@/components/Heading.astro';
+import EventCard from '@/components/EventCard.astro';
+import EventContent from '@/components/EventContent.astro';
+import EventCardsLoadMore from '@/components/EventCardsLoadMore.tsx';
+import JsonLd from '@/components/JsonLd.astro';
+import { musicEvent } from '@/js/util/jsonLd';
+
+dayjs.extend(utc);
+
+const pastEventsCount = 6;
+
+const todayLocal: string = dayjs().format('YYYY-MM-DD');
+const today: string = dayjs.utc().format();
+
+const allEvents: EventType[] = await getCollection(
+   'event',
+   (eventItem: EventType) => {
+      return eventItem.data?.cancelled ? false : true;
+   },
+);
+
+const eventsSorted: EventType[] = orderBy(
+   allEvents,
+   (item: EventType) => {
+      return item.data?.dateStart ? item.data.dateStart : item.data.date;
+   },
+   ['asc'],
+);
+
+const nextEvents: EventType[] = [];
+const pastEvents: EventType[] = [];
+
+for (const item of eventsSorted) {
+   if (
+      item.data?.dateEnd &&
+      today <= localDateTimeToUtcString(item.data.dateEnd)
+   ) {
+      nextEvents.push(item);
+      continue;
+   }
+
+   if (
+      item.data?.dateStart &&
+      today <= localDateTimeToUtcString(item.data.dateStart)
+   ) {
+      nextEvents.push(item);
+      continue;
+   }
+
+   if (todayLocal <= item.data.date) {
+      nextEvents.push(item);
+      continue;
+   }
+
+   pastEvents.push(item);
+}
+
+const displayPastEvents: EventType[] = pastEvents
+   .slice()
+   .reverse()
+   .slice(0, pastEventsCount);
+const loadMorePastEvents: EventType[] = pastEvents
+   .slice()
+   .reverse()
+   .slice(pastEventsCount);
+
+const { siteName } = Astro.locals;
+
+const seo: SeoProps = {
+   title: `Events | ${siteName}`,
+   description:
+      'Louisville, KY dark music events focusing on Darkwave, Post-Punk, Gothic, Synthwave, EBM, Industrial, Synthpop, and related.',
+};
+
+const jsonLd = await Promise.all(
+   nextEvents
+      .concat(pastEvents.slice().reverse())
+      .map((item: EventType) => musicEvent(item, Astro.locals)),
+);
+---
+
+<Layout title={seo.title} seo={seo}>
+   {
+      nextEvents.length > 0 && (
+         <Container as="section">
+            <Heading as="h1" withBar={true} uppercase={true}>
+               {nextEvents?.length === 1 && <>Next Event</>}
+
+               {nextEvents?.length > 1 && <>Next Events</>}
+            </Heading>
+
+            {nextEvents.map((item: EventType, index: number) => (
+               <>
+                  <EventContent event={item} includeLink={false} />
+
+                  {nextEvents.length > 1 && index + 1 !== nextEvents.length && (
+                     <hr />
+                  )}
+               </>
+            ))}
+         </Container>
+      )
+   }
+
+   {
+      pastEvents.length > 0 && (
+         <Container as="section">
+            <Heading as="h2" withBar={true} uppercase={true}>
+               Past Events
+            </Heading>
+
+            <div id="past" class="past-events">
+               {displayPastEvents.map((item) => (
+                  <EventCard
+                     event={item}
+                     ticketsLink={false}
+                     facebookLink={false}
+                  />
+               ))}
+            </div>
+
+            {loadMorePastEvents?.length && (
+               <EventCardsLoadMore
+                  events={loadMorePastEvents}
+                  perLoad={pastEventsCount}
+                  client:load
+               />
+            )}
+         </Container>
+      )
+   }
+
+   <JsonLd slot="jsonLd" schema={jsonLd} />
+</Layout>
+
+<style>
+   .past-events {
+      display: flex;
+      gap: var(--gutter);
+      align-items: stretch;
+      flex-wrap: wrap;
+   }
+
+   .past-events > :global(*) {
+      width: calc(calc(100% / 3) - var(--gutter));
+   }
+
+   h1,
+   h2 {
+      padding-bottom: var(--spacing-4x);
+   }
+</style>
