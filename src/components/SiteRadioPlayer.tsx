@@ -27,38 +27,11 @@ function getImgAlt(track: RadioHistoryResult): string {
 export default function SiteRadioPlayer() {
    const [isPlaying, setIsPlaying] = useState<boolean>(false);
    const audioRef = createRef<HTMLAudioElement>();
-   // Starts at 0 so it can render on the server; the effect below reads the real position on mount
-   const [scrollPosition, setScrollPosition] = useState<number>(0);
-   const [visible, setVisible] = useState<boolean>(false);
    const [currentTrack, setCurrentTrack] = useState<RadioHistoryResult | null>(
       null,
    );
-
-   useEffect(() => {
-      const handleScroll = () => {
-         // Get current vertical scroll position
-         const position = window.scrollY;
-         setScrollPosition(position);
-
-         // Always show on the radio page, which is too short to scroll past the threshold
-         if (position > 200 || window.location.pathname.startsWith('/radio')) {
-            setVisible(true);
-         }
-      };
-
-      handleScroll();
-
-      // Attach listener with passive option for better scroll performance
-      window.addEventListener('scroll', handleScroll, { passive: true });
-      // Player persists across view transitions, so re-check on each navigation
-      document.addEventListener('astro:page-load', handleScroll);
-
-      // Clean up event listener when component unmounts
-      return () => {
-         window.removeEventListener('scroll', handleScroll);
-         document.removeEventListener('astro:page-load', handleScroll);
-      };
-   }, [visible]);
+   // Show as soon as there's a track to display, so the bar never appears empty
+   const visible = currentTrack !== null;
 
    useEffect(() => {
       const fetchHistory = async () => {
