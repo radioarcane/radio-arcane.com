@@ -30,8 +30,10 @@ export default function SiteRadioPlayer() {
    const [currentTrack, setCurrentTrack] = useState<RadioHistoryResult | null>(
       null,
    );
-   // Show as soon as there's a track to display, so the bar never appears empty
-   const visible = currentTrack !== null;
+   // Track info is optional: if the history API fails, still show the bar so the stream can play
+   const hasTrackInfo = Boolean(
+      (currentTrack?.author && currentTrack?.title) || currentTrack?.metadata,
+   );
 
    useEffect(() => {
       const fetchHistory = async () => {
@@ -89,66 +91,67 @@ export default function SiteRadioPlayer() {
 
    return (
       <div
-         className={`${styles.siteAudioPlayer} ${visible ? styles.siteAudioPlayerVisible : ''}`}
+         className={`${styles.siteAudioPlayer} ${styles.siteAudioPlayerVisible}`}
       >
          <div className={styles.wrapper}>
             <audio ref={audioRef} />
 
-            {currentTrack && (
-               <div className={styles.nowPlaying}>
-                  <div className={styles.albumCover}>
-                     <img
-                        src={
-                           currentTrack?.img_medium_url ||
-                           radioFallbackCoverImgSrc
-                        }
-                        alt={getImgAlt(currentTrack)}
-                        loading="lazy"
-                        className={styles.albumCoverImg}
-                     />
-                  </div>
+            <div className={styles.nowPlaying}>
+               <div className={styles.albumCover}>
+                  <img
+                     src={
+                        currentTrack?.img_medium_url || radioFallbackCoverImgSrc
+                     }
+                     alt={currentTrack ? getImgAlt(currentTrack) : ''}
+                     loading="lazy"
+                     className={styles.albumCoverImg}
+                  />
+               </div>
 
-                  <div className={styles.nowPlayingInfo}>
-                     <span className={styles.nowPlayingLabel}>
-                        {isPlaying && <span className={styles.liveDot} />}
-                        Now Playing
-                     </span>
+               <div className={styles.nowPlayingInfo}>
+                  <span className={styles.nowPlayingLabel}>
+                     {isPlaying && <span className={styles.liveDot} />}
+                     {hasTrackInfo ? 'Now Playing' : 'Live 24/7'}
+                  </span>
 
-                     <span className={styles.nowPlayingMeta}>
-                        {currentTrack?.author && currentTrack?.title && (
-                           <>
-                              <span className={styles.nowPlayingArtist}>
-                                 {currentTrack.author}
-                              </span>
-                              <span className={styles.nowPlayingSong}>
-                                 {currentTrack.title}
-                              </span>
-                           </>
+                  <span className={styles.nowPlayingMeta}>
+                     {currentTrack?.author && currentTrack?.title && (
+                        <>
+                           <span className={styles.nowPlayingArtist}>
+                              {currentTrack.author}
+                           </span>
+                           <span className={styles.nowPlayingSong}>
+                              {currentTrack.title}
+                           </span>
+                        </>
+                     )}
+
+                     {(!currentTrack?.author || !currentTrack?.title) &&
+                        currentTrack?.metadata && (
+                           <span className={styles.nowPlayingArtist}>
+                              {currentTrack.metadata}
+                           </span>
                         )}
 
-                        {(!currentTrack?.author || !currentTrack?.title) &&
-                           currentTrack?.metadata && (
-                              <span className={styles.nowPlayingArtist}>
-                                 {currentTrack.metadata}
-                              </span>
-                           )}
-                     </span>
-                  </div>
-
-                  <button
-                     onClick={togglePlay}
-                     title={isPlaying ? 'Stop' : 'Listen to Streaming Radio'}
-                     aria-label={
-                        isPlaying ? 'Stop' : 'Listen to Streaming Radio'
-                     }
-                     className={`${styles.button} ${isPlaying ? styles.buttonPlaying : ''}`}
-                  >
-                     {isPlaying && <FaStop size={14} />}
-
-                     {!isPlaying && <FaPlay size={14} />}
-                  </button>
+                     {!hasTrackInfo && (
+                        <span className={styles.nowPlayingArtist}>
+                           Streaming Radio
+                        </span>
+                     )}
+                  </span>
                </div>
-            )}
+
+               <button
+                  onClick={togglePlay}
+                  title={isPlaying ? 'Stop' : 'Listen to Streaming Radio'}
+                  aria-label={isPlaying ? 'Stop' : 'Listen to Streaming Radio'}
+                  className={`${styles.button} ${isPlaying ? styles.buttonPlaying : ''}`}
+               >
+                  {isPlaying && <FaStop size={14} />}
+
+                  {!isPlaying && <FaPlay size={14} />}
+               </button>
+            </div>
          </div>
       </div>
    );
