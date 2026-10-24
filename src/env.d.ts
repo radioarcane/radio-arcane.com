@@ -2,6 +2,9 @@
 /// <reference path="../.astro/types.d.ts" />
 /// <reference types="astro/client" />
 
+// Unique per build, injected via Vite `define` in astro.config.mjs
+declare const __BUILD_ID__: string;
+
 declare namespace App {
    interface Locals {
       siteName: string;

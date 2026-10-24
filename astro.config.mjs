@@ -45,6 +45,10 @@ export default defineConfig({
       react(),
    ],
    vite: {
+      define: {
+         // Lets the client router detect a new deploy and do a full page load
+         __BUILD_ID__: JSON.stringify(process.env.DEPLOY_ID || Date.now().toString()),
+      },
       resolve: {
          // Its ESM build uses extensionless imports that Node can't resolve, so let Vite bundle it
          noExternal: ['@rc-component/pagination'],

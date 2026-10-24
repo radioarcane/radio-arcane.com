@@ -34,6 +34,7 @@ const pageSeo: SeoProps = Object.assign({}, defaultSeo, seo);
    <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width" />
+      <meta name="build-id" content={__BUILD_ID__} />
 
       <slot name="seo">
          <SEO {...pageSeo} />
@@ -113,6 +114,24 @@ const pageSeo: SeoProps = Object.assign({}, defaultSeo, seo);
       <slot name="jsonLd" />
    </body>
 </html>
+
+<script>
+   const getBuildId = (doc: Document) =>
+      doc.querySelector('meta[name="build-id"]')?.getAttribute('content');
+
+   // The client router keeps old JS (and the persisted player) running across deploys,
+   // so do a full page load when navigating into a page from a newer build
+   document.addEventListener('astro:before-swap', (event) => {
+      if (getBuildId(event.newDocument) !== getBuildId(document)) {
+         window.location.assign(event.to.href);
+      }
+   });
+
+   // An old tab may request JS chunks the new deploy removed
+   window.addEventListener('vite:preloadError', () => {
+      window.location.reload();
+   });
+</script>
 
 <style>
    .site-container {
