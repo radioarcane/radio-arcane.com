@@ -153,7 +153,19 @@ const jsonLd = await Promise.all(
    }
 
    .past-events > :global(*) {
-      width: calc(calc(100% / 3) - var(--gutter));
+      width: 100%;
+   }
+
+   @media (--md-up) {
+      .past-events > :global(*) {
+         width: calc(calc(100% / 2) - var(--gutter));
+      }
+   }
+
+   @media (--lg-up) {
+      .past-events > :global(*) {
+         width: calc(calc(100% / 3) - var(--gutter));
+      }
    }
 
    h1,
