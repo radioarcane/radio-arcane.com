@@ -37,9 +37,15 @@ export default function EventCardsLoadMore({ events, perLoad }: Props) {
                      </h3>
 
                      {ev.data?.image && (
-                        <div
-                           className={`${styles.cover} ${ev.data.image.width / ev.data.image.height >= 1.5 ? styles.coverCenter : ''}`}
-                        >
+                        <div className={styles.cover}>
+                           <div
+                              className={styles.coverBackdrop}
+                              style={{
+                                 backgroundImage: `url('${ev.data.image.src}')`,
+                              }}
+                              aria-hidden="true"
+                           />
+
                            <a href={`/events/${ev.id}/`}>
                               <img
                                  src={ev.data.image.src}

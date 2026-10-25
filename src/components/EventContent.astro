@@ -10,6 +10,7 @@ import ClockSvg from '@/images/icons/fontawesome/svgs/solid/clock.svg';
 import LocationSvg from '@/images/icons/location.svg';
 import TicketSvg from '@/images/icons/ticket.svg';
 import FacebookSvg from '@/images/icons/fontawesome/svgs/brands/facebook-f.svg';
+import BanSvg from '@/images/icons/fontawesome/svgs/solid/ban.svg';
 
 type Props = {
    event: EventType;
@@ -112,9 +113,14 @@ const imageSizes: string = [`(max-width: 960px) 400px`, `500px`].join(',');
 
          {
             event.data?.cancelled && (
-               <p>
-                  PUT CANCELED BANNER HERE with message about being cancelled
-               </p>
+               <div class="cancelled">
+                  <BanSvg aria-hidden="true" />
+
+                  <p>
+                     <strong>Event Cancelled</strong>
+                     This event has been cancelled and will not take place.
+                  </p>
+               </div>
             )
          }
 
@@ -251,7 +257,9 @@ const imageSizes: string = [`(max-width: 960px) 400px`, `500px`].join(',');
 
          <section class="actions">
             {
-               event.data?.ticketsLink && !eventExpired && (
+               event.data?.ticketsLink &&
+                  !eventExpired &&
+                  !event.data?.cancelled && (
                   <Button as="a" href={event.data.ticketsLink} target="_blank">
                      <TicketSvg aria-hidden="true" /> Tickets
                   </Button>
@@ -289,7 +297,7 @@ const imageSizes: string = [`(max-width: 960px) 400px`, `500px`].join(',');
 <style>
    .event-info {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(4, minmax(0, 1fr));
       grid-template-rows: auto;
       grid-column-gap: 0px;
       grid-row-gap: 0px;
@@ -317,11 +325,47 @@ const imageSizes: string = [`(max-width: 960px) 400px`, `500px`].join(',');
       color: var(--white-smoke);
    }
 
+   .cancelled {
+      display: flex;
+      gap: var(--spacing-3x);
+      align-items: flex-start;
+      margin: 0 0 var(--spacing-4x);
+      padding: var(--spacing-3x) var(--spacing-4x);
+      border: 1px solid var(--warning-color);
+      border-left-width: 4px;
+      border-radius: 4px;
+      background: color-mix(in srgb, var(--warning-color) 15%, transparent);
+   }
+
+   .cancelled svg {
+      flex-shrink: 0;
+      width: 1.25em;
+      margin-top: 0.15em;
+      fill: var(--warning-color);
+   }
+
+   .cancelled p {
+      margin: 0;
+   }
+
+   .cancelled strong {
+      display: block;
+      color: var(--white-smoke);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+   }
+
    .date {
       opacity: 0.8;
       display: inline-flex;
-      gap: var(--spacing-2x);
+      flex-wrap: wrap;
+      gap: 0 var(--spacing-2x);
       align-items: center;
+   }
+
+   /* Keeps long URLs in the description from overflowing on mobile */
+   .description {
+      overflow-wrap: anywhere;
    }
 
    svg {
@@ -340,6 +384,12 @@ const imageSizes: string = [`(max-width: 960px) 400px`, `500px`].join(',');
       margin: 0;
    }
 
+   .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--spacing-4x);
+   }
+
    .facebook-btn svg {
       width: 12px;
    }
@@ -347,7 +397,7 @@ const imageSizes: string = [`(max-width: 960px) 400px`, `500px`].join(',');
    @media (--md-up) {
       .event-info {
          display: grid;
-         grid-template-columns: repeat(12, 1fr);
+         grid-template-columns: repeat(12, minmax(0, 1fr));
          grid-column-gap: var(--spacing-8x);
          grid-row-gap: 0;
       }

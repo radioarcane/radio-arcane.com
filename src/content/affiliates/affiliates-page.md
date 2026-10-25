@@ -26,7 +26,6 @@ affiliates:
     facebook: https://www.facebook.com/funeralpartyrecords
     instagram: https://instagram.com/funeralpartyrecords
     bandcamp: https://funeralparty.bandcamp.com
-    body: <a
   - body: "A Louisville based record label featuring an array of renegade
       electronics: acid, electro, techno, ebm, and minimal synth."
     name: Dead Channel Records
